@@ -4,7 +4,10 @@ name: Skan mieszkań
 # nieregularne odstępy i nadrabia zaległości (high-water-mark na created_time).
 on:
   schedule:
-    - cron: "*/15 * * * *"     # co ~15 min (deklarowane minimum GitHuba to 5 min)
+    # Co ~15 min, ale minuty PRZESUNIĘTE względem :00/:15/:30/:45 — GitHub najczęściej
+    # pomija zadania odpalane w równych kwadransach (szczyt obciążenia). SPEC pkt 4:
+    # cron bywa opóźniany/pomijany, dlatego kod nadrabia zaległości (high-water-mark).
+    - cron: "3,18,33,48 * * * *"
   workflow_dispatch: {}          # ręczne uruchomienie z zakładki Actions (do testów)
 
 # Prawo zapisu — workflow commituje zaktualizowany state/seen.json z powrotem.
