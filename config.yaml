@@ -163,7 +163,8 @@ scoring:
   thresholds:                  # SPEC: progi wysyłki
     top: 88                    # >=88 -> #mieszkania + @here
     main: 78                   # >=78 -> #mieszkania (bez pinga)
-    rejected: 60               # >=60 -> #odrzucone
+    rejected: 40               # TYMCZASOWO 40 (docelowo 60) -> #odrzucone. Obniżone,
+                               # by zweryfikować wysyłkę i pokazać oceny na żywych ofertach.
   limits:
     daily_main: 8              # SPEC: limit dzienny kanału głównego
     daily_78_87: 6             # SPEC: max 6 dziennie w paśmie 78–87
