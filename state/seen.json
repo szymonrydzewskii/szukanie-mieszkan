@@ -394,6 +394,12 @@
       "fingerprint": "4000|55|2|wzgórze mickiewicza",
       "id": "olx:1083387207"
     },
+    "olx:1083463803": {
+      "cena": 2600,
+      "data_wyslania": "2026-07-24T15:34:55.802060+00:00",
+      "fingerprint": "2600|38|2|przymorze wielkie",
+      "id": "olx:1083463803"
+    },
     "olx:1083632272": {
       "cena": 2950,
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
@@ -519,6 +525,12 @@
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
       "fingerprint": "3100|56|3|piecki-migowo",
       "id": "olx:1084563299"
+    },
+    "olx:1084565978": {
+      "cena": 3300,
+      "data_wyslania": "2026-07-24T15:34:55.802060+00:00",
+      "fingerprint": "3300|43|2|zaspa rozstaje",
+      "id": "olx:1084565978"
     },
     "olx:1084566883": {
       "cena": 3100,
@@ -657,6 +669,12 @@
       "data_wyslania": "2026-07-24T13:17:16.111517+00:00",
       "fingerprint": "2700|44|2|aniołki",
       "id": "olx:1085471316"
+    },
+    "olx:1085577102": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-24T15:34:55.802060+00:00",
+      "fingerprint": "3000|45|2|brzeźno",
+      "id": "olx:1085577102"
     },
     "olx:1085664046": {
       "cena": 3500,
@@ -1347,6 +1365,12 @@
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
       "fingerprint": "2300|50|2|centrum",
       "id": "olx:867649663"
+    },
+    "olx:921873395": {
+      "cena": 2550,
+      "data_wyslania": "2026-07-24T15:34:55.802060+00:00",
+      "fingerprint": "2550|40|2|chełm z dzielnicą gdańsk południe",
+      "id": "olx:921873395"
     },
     "olx:935573684": {
       "cena": 2100,
