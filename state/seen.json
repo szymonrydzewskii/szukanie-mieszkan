@@ -1,7 +1,7 @@
 {
   "daily": {},
   "high_water": {
-    "olx": "2026-07-24T18:38:23+02:00"
+    "olx": "2026-07-24T20:28:12+02:00"
   },
   "seen": {
     "olx:1010778181": {
@@ -207,6 +207,12 @@
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
       "fingerprint": "2700|64|2|centrum",
       "id": "olx:1079021057"
+    },
+    "olx:1079160997": {
+      "cena": 3450,
+      "data_wyslania": "2026-07-24T18:39:28.501664+00:00",
+      "fingerprint": "3450|76|3|piecki-migowo",
+      "id": "olx:1079160997"
     },
     "olx:1079341519": {
       "cena": 3000,
@@ -568,6 +574,12 @@
       "fingerprint": "4000|56|3|wrzeszcz",
       "id": "olx:1084637739"
     },
+    "olx:1084715375": {
+      "cena": 4500,
+      "data_wyslania": "2026-07-24T18:39:28.501664+00:00",
+      "fingerprint": "4500|54|3|aniołki",
+      "id": "olx:1084715375"
+    },
     "olx:1084793926": {
       "cena": 2400,
       "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
@@ -730,6 +742,12 @@
       "fingerprint": "3000|30|1|żabianka - wejhera - jelitkowo - tysiąclecia",
       "id": "olx:1085848229"
     },
+    "olx:1085853199": {
+      "cena": 1600,
+      "data_wyslania": "2026-07-24T18:39:28.501664+00:00",
+      "fingerprint": "1600|11|3|aniołki",
+      "id": "olx:1085853199"
+    },
     "olx:1086031412": {
       "cena": 2500,
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
@@ -855,6 +873,12 @@
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
       "fingerprint": "2950|42|3|górny sopot",
       "id": "olx:1086552299"
+    },
+    "olx:1086575848": {
+      "cena": 3300,
+      "data_wyslania": "2026-07-24T18:39:28.501664+00:00",
+      "fingerprint": "3300|38.8|2|śródmieście",
+      "id": "olx:1086575848"
     },
     "olx:1086576268": {
       "cena": 2300,
@@ -1035,6 +1059,12 @@
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
       "fingerprint": "3800|100|3|redłowo",
       "id": "olx:1087032630"
+    },
+    "olx:1087036564": {
+      "cena": 3200,
+      "data_wyslania": "2026-07-24T18:39:28.501664+00:00",
+      "fingerprint": "3200|38|2|śródmieście",
+      "id": "olx:1087036564"
     },
     "olx:1087058775": {
       "cena": 1500,
@@ -1420,11 +1450,59 @@
       "fingerprint": "2399|22|1|śródmieście",
       "id": "olx:1087251296"
     },
+    "olx:1087253973": {
+      "cena": 1999,
+      "data_wyslania": "2026-07-24T18:39:28.501664+00:00",
+      "fingerprint": "1999|18|1|śródmieście",
+      "id": "olx:1087253973"
+    },
+    "olx:1087254542": {
+      "cena": 1899,
+      "data_wyslania": "2026-07-24T18:39:28.501664+00:00",
+      "fingerprint": "1899|18|1|śródmieście",
+      "id": "olx:1087254542"
+    },
+    "olx:1087254838": {
+      "cena": 2099,
+      "data_wyslania": "2026-07-24T18:39:28.501664+00:00",
+      "fingerprint": "2099|18|1|śródmieście",
+      "id": "olx:1087254838"
+    },
     "olx:1087256316": {
       "cena": 3499,
       "data_wyslania": "2026-07-24T16:51:19.759478+00:00",
       "fingerprint": "3499|52|3|śródmieście",
       "id": "olx:1087256316"
+    },
+    "olx:1087260583": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-24T18:39:28.501664+00:00",
+      "fingerprint": "2500|39|2|chylonia",
+      "id": "olx:1087260583"
+    },
+    "olx:1087260925": {
+      "cena": 4000,
+      "data_wyslania": "2026-07-24T18:39:28.501664+00:00",
+      "fingerprint": "4000|55|3|karwiny",
+      "id": "olx:1087260925"
+    },
+    "olx:1087263067": {
+      "cena": 1700,
+      "data_wyslania": "2026-07-24T18:39:28.501664+00:00",
+      "fingerprint": "1700|23|1|śródmieście",
+      "id": "olx:1087263067"
+    },
+    "olx:1087265558": {
+      "cena": 2890,
+      "data_wyslania": "2026-07-24T18:39:28.501664+00:00",
+      "fingerprint": "2890|38|2|żabianka - wejhera - jelitkowo - tysiąclecia",
+      "id": "olx:1087265558"
+    },
+    "olx:1087279141": {
+      "cena": 2400,
+      "data_wyslania": "2026-07-24T18:39:28.501664+00:00",
+      "fingerprint": "2400|30|1|centrum",
+      "id": "olx:1087279141"
     },
     "olx:777472320": {
       "cena": 3500,
