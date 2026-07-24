@@ -1,12 +1,12 @@
 """Budowa embeda Discorda i wysyłka przez webhook.
 
-SPEC: embed składamy w kodzie na podstawie struktury danych, nigdy jako
-sklejony string. Webhook wyłącznie ze zmiennych środowiskowych (lokalnie z
-.env, na produkcji z Actions secrets) — żadnych sekretów w kodzie.
+Model bez oceniania (decyzja użytkownika): embed pokazuje FAKTY o ofercie —
+koszt całkowity z rozbiciem, lokalizacja + stacja SKM, metraż/pokoje/piętro,
+sekcja "Do zapytania" (co dopytać, bo oszacowane/nieznane) i gotowa wiadomość
+do właściciela. Żadnej liczby /100.
 
-Kanał główny (#mieszkania) dostaje pełny embed z oceną, rozbiciem kosztu,
-plusami/minusami, sekcją "Do zapytania" i gotową wiadomością do właściciela.
-Kanał #odrzucone dostaje kompaktowy embed (ocena + powód).
+Kanał główny (#mieszkania) = pełny embed (kolor zielony). #odrzucone =
+kompaktowy embed prawie-trafienia z powodem (kolor bursztynowy).
 """
 
 from __future__ import annotations
@@ -17,13 +17,10 @@ import time
 import requests
 
 from core.cost import CostBreakdown
-from core.scoring import Score
 from sources.base import Offer
 
-# Kolor paska wg oceny (SPEC: zielony 88+, żółty 78–87; #odrzucone szary).
-COLOR_GREEN = 0x2ECC71
-COLOR_YELLOW = 0xF1C40F
-COLOR_REJECTED = 0x95A5A6
+COLOR_GREEN = 0x2ECC71     # dopasowanie -> #mieszkania
+COLOR_AMBER = 0xE67E22     # prawie-trafienie -> #odrzucone
 
 
 class NotifyError(Exception):
@@ -53,14 +50,6 @@ def _photo_url(offer: Offer, size: str) -> str | None:
     return offer.photo_url.replace("{width}", width).replace("{height}", height)
 
 
-def color_for(total: int, top: int = 88, main: int = 78) -> int:
-    if total >= top:
-        return COLOR_GREEN
-    if total >= main:
-        return COLOR_YELLOW
-    return COLOR_REJECTED
-
-
 def render_owner_message(offer: Offer, template: str) -> str:
     vals = {
         "district": offer.district or offer.city or "—",
@@ -75,27 +64,29 @@ def render_owner_message(offer: Offer, template: str) -> str:
         return template
 
 
-def _rozbicie(score: Score) -> str:
-    parts = [f"{k} {v}" for k, v in score.breakdown.items()]
-    line = " · ".join(parts)
-    if score.penalties:
-        kary = ", ".join(f"{label} {delta}" for label, delta in score.penalties)
-        line += f"\n(kary: {kary})"
-    return line
+def build_questions(offer: Offer, cost: CostBreakdown) -> list[str]:
+    """Praktyczne pytania do właściciela/ogłoszenia (braki i szacunki)."""
+    q = ["układ/sypialnia — poproś o zdjęcia i potwierdź rozkład",
+         "koszt na start — dopytaj o kaucję i ewentualną prowizję"]
+    if cost.media_estimated:
+        q.append("media/ogrzewanie — dopytaj (kwota oszacowana)")
+    if cost.czynsz_estimated:
+        q.append("czynsz administracyjny — dopytaj (oszacowany)")
+    if not offer.has_phone:
+        q.append("brak telefonu — poproś o numer/kontakt")
+    return q
 
 
 def build_embed(
     offer: Offer,
-    score: Score,
     cost: CostBreakdown,
+    *,
     station_info: tuple[str, int] | None = None,
     photo_size: str = "640x480",
     price_drop: tuple[int, int] | None = None,
     owner_message_template: str | None = None,
-    thresholds: dict | None = None,
 ) -> dict:
     """Pełny embed na kanał główny (czysta struktura, bez sklejania stringów)."""
-    th = thresholds or {"top": 88, "main": 78}
     price_note = f" ({offer.price_note})" if offer.price_note else ""
     fields = []
 
@@ -103,9 +94,6 @@ def build_embed(
         old, new = price_drop
         fields.append({"name": "🔻 OBNIŻKA",
                        "value": f"{_fmt_pln(old)} → {_fmt_pln(new)}", "inline": False})
-
-    fields.append({"name": "Ocena", "value": f"**{score.total}/100**", "inline": False})
-    fields.append({"name": "Rozbicie oceny", "value": _rozbicie(score), "inline": False})
 
     total_val = _fmt_pln(cost.total)
     if cost.total is not None and (cost.czynsz_estimated or cost.media_estimated):
@@ -131,19 +119,13 @@ def build_embed(
     if station_info is not None:
         loc += f"\nSKM {station_info[0]} — ~{station_info[1]} min pieszo (szac.)"
     fields.append({"name": "Lokalizacja", "value": loc, "inline": False})
-
     fields.append({"name": "Telefon", "value": "📞 tak" if offer.has_phone else "nie", "inline": True})
 
-    if score.plusy:
-        fields.append({"name": "Plusy", "value": "\n".join(f"✅ {p}" for p in score.plusy), "inline": False})
-    if score.minusy:
-        fields.append({"name": "Minusy", "value": "\n".join(f"➖ {m}" for m in score.minusy), "inline": False})
-    if score.do_zapytania:
-        fields.append({"name": "Do zapytania",
-                       "value": "\n".join(f"❔ {q}" for q in score.do_zapytania), "inline": False})
     if cost.notes:
         fields.append({"name": "⚠ Oszacowano",
                        "value": "\n".join(f"• {n}" for n in cost.notes), "inline": False})
+    fields.append({"name": "Do zapytania",
+                   "value": "\n".join(f"❔ {q}" for q in build_questions(offer, cost)), "inline": False})
     if owner_message_template:
         fields.append({"name": "✉ Wiadomość do właściciela (skopiuj)",
                        "value": render_owner_message(offer, owner_message_template), "inline": False})
@@ -151,7 +133,7 @@ def build_embed(
     embed: dict = {
         "title": offer.title[:256] if offer.title else "(bez tytułu)",
         "url": offer.url,
-        "color": color_for(score.total, th["top"], th["main"]),
+        "color": COLOR_GREEN,
         "fields": fields,
         "footer": {"text": f"{offer.source.upper()} · id {offer.source_id}"},
     }
@@ -163,16 +145,18 @@ def build_embed(
     return embed
 
 
-def build_rejected_embed(offer: Offer, score: Score, cost: CostBreakdown, reason: str) -> dict:
-    """Kompaktowy embed na #odrzucone (SPEC: jedna linijka z powodem)."""
+def build_rejected_embed(offer: Offer, cost: CostBreakdown, reason: str) -> dict:
+    """Kompaktowy embed na #odrzucone (prawie-trafienie) — powód + podstawowe fakty."""
     return {
         "title": offer.title[:256] if offer.title else "(bez tytułu)",
         "url": offer.url,
-        "color": COLOR_REJECTED,
+        "color": COLOR_AMBER,
         "fields": [
-            {"name": "Ocena", "value": f"{score.total}/100", "inline": True},
+            {"name": "Prawie-trafienie", "value": reason, "inline": False},
             {"name": "Koszt całkowity", "value": _fmt_pln(cost.total), "inline": True},
-            {"name": "Powód", "value": reason, "inline": False},
+            {"name": "Metraż / pokoje",
+             "value": (f"{offer.area_m2:g} m²" if offer.area_m2 else "?")
+                      + f" · {offer.rooms if offer.rooms is not None else '?'} pok", "inline": True},
         ],
         "footer": {"text": f"{offer.source.upper()} · id {offer.source_id} · {offer.district or offer.city or ''}"},
     }
@@ -195,7 +179,6 @@ def _post(webhook: str, embed: dict, timeout: int) -> None:
 
 def send_offer(
     offer: Offer,
-    score: Score,
     cost: CostBreakdown,
     *,
     channel: str = "main",
@@ -204,16 +187,14 @@ def send_offer(
     photo_size: str = "640x480",
     price_drop: tuple[int, int] | None = None,
     owner_message_template: str | None = None,
-    thresholds: dict | None = None,
     webhook_env: str = "DISCORD_WEBHOOK",
     timeout: int = 20,
 ) -> None:
     """Wyślij ofertę na wskazany kanał (webhook z env). Rzuca NotifyError przy błędzie."""
     webhook = get_webhook(webhook_env)
     if channel == "rejected":
-        embed = build_rejected_embed(offer, score, cost, reason)
+        embed = build_rejected_embed(offer, cost, reason)
     else:
-        embed = build_embed(offer, score, cost, station_info=station_info,
-                            photo_size=photo_size, price_drop=price_drop,
-                            owner_message_template=owner_message_template, thresholds=thresholds)
+        embed = build_embed(offer, cost, station_info=station_info, photo_size=photo_size,
+                            price_drop=price_drop, owner_message_template=owner_message_template)
     _post(webhook, embed, timeout)

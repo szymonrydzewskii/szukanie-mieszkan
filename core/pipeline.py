@@ -1,16 +1,13 @@
-"""Orkiestracja jednego źródła: dedup + nowość + filtr + ocena + routing.
+"""Orkiestracja jednego źródła: dedup + nowość + dopasowanie + routing.
 
-Wydzielone z main.py, żeby dało się testować bez sieci — wstrzykujemy:
-- filter_fn(offer) -> Evaluation(passed, reason, cost)   (filtry twarde + koszt)
-- score_fn(offer, cost) -> Score                          (rubryka /100)
-- send_fn(offer, score, cost, channel, reason, price_drop)(wysyłka na Discord)
+Wstrzykujemy (testowalne bez sieci):
+- evaluate_fn(offer) -> Decision(kind, reason, cost)   (filtry: match/near_miss/reject)
+- send_fn(offer, cost, channel, reason, price_drop)     (wysyłka na Discord)
 
-Model nowości (SPEC pkt 4): high-water-mark na created_time. OLX wpuszcza w
-okno stare, promowane ogłoszenia — bez bramki czasowej byłyby wysyłane jako
-"nowe". Cold start zasiewa po cichu.
-
-Routing wg progów i limitów dziennych (scoring.decide_route). Wszystko
-widziane trafia do stanu (nawet <60 i odrzucone), żeby nie rozważać ponownie.
+Model (bez oceniania /100): match -> #mieszkania, near_miss -> #odrzucone,
+reject -> tylko stan. Nowość po high-water-mark na created_time (OLX wpuszcza
+w okno stare, promowane oferty). Cold start zasiewa po cichu. Wszystko
+widziane trafia do stanu.
 """
 
 from __future__ import annotations
@@ -19,21 +16,19 @@ from dataclasses import dataclass
 from datetime import datetime
 from typing import Callable
 
-from core import dedup, scoring, state
+from core import dedup, state
 from sources.base import Offer
 
 
 @dataclass
-class Evaluation:
-    """Wynik filtrów twardych + policzony koszt (do oceny i embeda)."""
-    passed: bool
+class Decision:
+    kind: str            # "match" | "near_miss" | "reject"
     reason: str | None
-    cost: object  # core.cost.CostBreakdown
+    cost: object         # core.cost.CostBreakdown
 
 
-FilterFn = Callable[[Offer], Evaluation]
-ScoreFn = Callable[[Offer, object], "scoring.Score"]
-SendFn = Callable[..., None]  # (offer, score, cost, channel, reason, price_drop)
+EvaluateFn = Callable[[Offer], Decision]
+SendFn = Callable[..., None]  # (offer, cost, channel, reason, price_drop)
 
 
 def _created_dt(offer: Offer) -> datetime | None:
@@ -57,17 +52,14 @@ def process_source(
     price_drop_threshold: int,
     now: datetime,
     *,
-    filter_fn: FilterFn,
-    score_fn: ScoreFn,
+    evaluate_fn: EvaluateFn,
     send_fn: SendFn,
-    routing_cfg: dict,
 ) -> dict:
     """Przetwórz oferty jednego portalu. Zwróć podsumowanie liczbowe."""
     summary = {
-        "fetched": len(offers), "seeded": 0, "sent_main": 0, "sent_rejected": 0,
-        "below": 0, "filtered": 0, "backfilled": 0, "skipped": 0, "max_score": None,
+        "fetched": len(offers), "seeded": 0, "sent_main": 0, "sent_near": 0,
+        "dropped": 0, "backfilled": 0, "skipped": 0,
     }
-    day = now.date().isoformat()
 
     def _record(o: Offer) -> None:
         state.record(st, dedup.key_for(o), dedup.fingerprint(o), o.price, now)
@@ -85,30 +77,15 @@ def process_source(
     hwm = datetime.fromisoformat(state.get_high_water(st, source))
 
     def _consider(o: Offer, price_drop) -> None:
-        """Oferta-kandydat (nowa po czasie albo z obniżką): filtr -> ocena -> routing."""
-        ev = filter_fn(o)
-        if not ev.passed:
-            summary["filtered"] += 1
-            _record(o)
-            return
-        score = score_fn(o, ev.cost)
-        if summary["max_score"] is None or score.total > summary["max_score"]:
-            summary["max_score"] = score.total
-        route = scoring.decide_route(
-            score.total, state.get_daily(st, day, "main"),
-            state.get_daily(st, day, "band"), routing_cfg,
-        )
-        if route.channel == "main":
-            send_fn(o, score, ev.cost, "main", route.reason, price_drop)
-            state.bump_daily(st, day, "main")
-            if score.total < routing_cfg["thresholds"]["top"]:
-                state.bump_daily(st, day, "band")
+        dec = evaluate_fn(o)
+        if dec.kind == "match":
+            send_fn(o, dec.cost, "main", None, price_drop)
             summary["sent_main"] += 1
-        elif route.channel == "rejected":
-            send_fn(o, score, ev.cost, "rejected", route.reason, price_drop)
-            summary["sent_rejected"] += 1
+        elif dec.kind == "near_miss":
+            send_fn(o, dec.cost, "rejected", dec.reason, price_drop)
+            summary["sent_near"] += 1
         else:
-            summary["below"] += 1
+            summary["dropped"] += 1
         _record(o)
 
     for o in offers:

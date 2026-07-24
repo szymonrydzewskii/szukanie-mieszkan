@@ -2,7 +2,6 @@ import json
 
 from core import notify
 from core.cost import CostBreakdown
-from core.scoring import Score
 from sources.base import Offer
 
 
@@ -23,67 +22,51 @@ def make_cost(total=3350, czynsz=500, czynsz_estimated=False, media=350,
                          total=total, notes=notes or ["media ≈ 350 zł"])
 
 
-def make_score(total=90):
-    return Score(total=total,
-                 breakdown={"Cena": 30, "Lokalizacja": 25, "Układ i metraż": 20,
-                            "Standard": 10, "Wyposażenie": 5},
-                 penalties=[("ogrzewanie elektryczne", -8)],
-                 plusy=["dobra lokalizacja (Oliwa)"],
-                 minusy=["ogrzewanie elektryczne"],
-                 do_zapytania=["układ/sypialnia — poproś o zdjęcia"])
+OWNER = "Dzień dobry, czy mieszkanie ({district}, {area} m², {rooms} pok.) jest dostępne?"
 
 
-OWNER_TMPL = "Dzień dobry, czy mieszkanie ({district}, {area} m², {rooms} pok.) jest dostępne?"
+def test_embed_has_cost_no_score():
+    embed = notify.build_embed(make_offer(), make_cost())
+    blob = json.dumps(embed, ensure_ascii=False)
+    names = {f["name"] for f in embed["fields"]}
+    assert "Koszt całkowity" in names
+    assert "/100" not in blob and "Ocena" not in names   # ocena usunięta
 
 
-def test_embed_shows_score_and_breakdown():
-    embed = notify.build_embed(make_offer(), make_score(90), make_cost())
-    names = {f["name"]: f["value"] for f in embed["fields"]}
-    assert any("90" in v and "100" in v for v in names.values())
+def test_match_color_is_green():
+    assert notify.build_embed(make_offer(), make_cost())["color"] == notify.COLOR_GREEN
 
 
-def test_color_green_for_top():
-    embed = notify.build_embed(make_offer(), make_score(90), make_cost())
-    assert embed["color"] == notify.COLOR_GREEN
-
-
-def test_color_yellow_for_mid_band():
-    embed = notify.build_embed(make_offer(), make_score(80), make_cost())
-    assert embed["color"] == notify.COLOR_YELLOW
-
-
-def test_embed_includes_owner_message():
+def test_embed_includes_owner_message_and_questions():
     embed = notify.build_embed(make_offer(district="Oliwa", area_m2=45, rooms=2),
-                               make_score(90), make_cost(), owner_message_template=OWNER_TMPL)
+                               make_cost(), owner_message_template=OWNER)
     blob = json.dumps(embed, ensure_ascii=False)
-    assert "Oliwa" in blob and "45" in blob and "dostępne" in blob
+    assert "dostępne" in blob and "Oliwa" in blob
+    assert "Do zapytania" in blob
 
 
-def test_embed_includes_sections_and_station():
-    embed = notify.build_embed(make_offer(), make_score(90), make_cost(),
-                               station_info=("Gdańsk Oliwa", 8))
+def test_embed_includes_station_and_phone():
+    embed = notify.build_embed(make_offer(), make_cost(), station_info=("Gdańsk Oliwa", 8))
     blob = json.dumps(embed, ensure_ascii=False)
-    assert "Gdańsk Oliwa" in blob and "8" in blob
-    assert "dobra lokalizacja (Oliwa)" in blob  # plus
-    assert "📞" in blob  # ma telefon
+    assert "Gdańsk Oliwa" in blob and "8" in blob and "📞" in blob
 
 
 def test_embed_substitutes_photo_size():
-    embed = notify.build_embed(make_offer(), make_score(90), make_cost(), photo_size="640x480")
+    embed = notify.build_embed(make_offer(), make_cost(), photo_size="640x480")
     assert embed["thumbnail"]["url"] == "https://cdn/x;s=640x480"
 
 
 def test_price_drop_marks_obnizka():
-    embed = notify.build_embed(make_offer(price=2350), make_score(90), make_cost(total=3200),
+    embed = notify.build_embed(make_offer(price=2350), make_cost(total=3200),
                                price_drop=(2500, 2350))
     blob = json.dumps(embed, ensure_ascii=False)
     assert "OBNIŻKA" in blob and "2 500" in blob and "2 350" in blob
 
 
-def test_rejected_embed_is_compact_with_score_and_reason():
-    embed = notify.build_rejected_embed(make_offer(), make_score(70), make_cost(),
-                                        reason="ocena 70 — poniżej progu")
+def test_near_miss_embed_is_compact_amber_with_reason():
+    embed = notify.build_rejected_embed(make_offer(), make_cost(total=3650),
+                                        reason="koszt 3650 zł — ponad limit")
     blob = json.dumps(embed, ensure_ascii=False)
-    assert "70" in blob and "poniżej progu" in blob
-    # kompaktowy: mniej pól niż pełny embed
+    assert embed["color"] == notify.COLOR_AMBER
+    assert "ponad limit" in blob
     assert len(embed.get("fields", [])) <= 3

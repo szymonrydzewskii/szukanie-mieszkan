@@ -1,11 +1,16 @@
-"""Filtry twarde — stosowane PRZED ocenianiem (SPEC), żeby nie marnować pracy.
+"""Dopasowanie ofert: match / near_miss / reject.
 
-Zwracamy pierwszy powód odrzutu (albo passed=True). Zasada: nie odrzucamy
-oferty tylko dlatego, że czegoś brakuje — braki (nieznany metraż/koszt/data)
-nie powodują odrzutu, bo tym zajmie się ocenianie i sekcja "Do zapytania".
+Model (decyzja użytkownika: odejście od oceniania /100):
+- offer PASUJE (match) -> kanał główny #mieszkania, jeśli spełnia WSZYSTKIE
+  twarde kryteria: cena/koszt, metraż, ≥2 pokoje, DOBRA dzielnica, typ, brak
+  wykluczeń najemcy, brak pieca/sutereny, świeże (<=7 dni).
+- PRAWIE-TRAFIENIE (near_miss) -> #odrzucone, jeśli wpada tylko na JEDNYM
+  łagodnym kryterium: koszt lekko ponad limit, albo kawalerka z opisaną
+  oddzielną sypialnią (niepewny układ — warto zerknąć).
+- ODRZUT (reject) -> tylko do stanu, nie wysyłamy.
 
-Wszystkie liczby, słowa kluczowe i frazy pochodzą z config.yaml (zero magic
-numbers w kodzie).
+Zasada: braki danych nie powodują odrzutu (nie zmyślamy). Wszystkie liczby/
+słowa kluczowe pochodzą z config.yaml.
 """
 
 from __future__ import annotations
@@ -22,13 +27,13 @@ _TAG_RE = re.compile(r"<[^>]+>")
 
 
 @dataclass
-class FilterResult:
-    passed: bool
+class Verdict:
+    kind: str            # "match" | "near_miss" | "reject"
     reason: str | None = None
 
 
 def offer_text(offer: Offer) -> str:
-    """Tytuł + opis jako czysty, mały tekst (HTML usunięty) do wyszukiwania fraz."""
+    """Tytuł + opis jako czysty, mały tekst (HTML usunięty)."""
     raw = f"{offer.title or ''} {offer.description or ''}"
     raw = _TAG_RE.sub(" ", raw)
     return html.unescape(raw).lower()
@@ -41,64 +46,74 @@ def _contains(text: str, keywords) -> str | None:
     return None
 
 
-def evaluate(
-    offer: Offer,
-    text: str,
-    cost: CostBreakdown,
-    config: dict,
-    now: datetime,
-) -> FilterResult:
+def location_tier(city: str | None, district: str | None, loc_cfg: dict) -> str:
+    """Kategoria lokalizacji wg tabeli dzielnic. Dopasowanie po mieście I dzielnicy
+    (Sopot ma district='Centrum', ale miasto 'Sopot'). Brak dopasowania -> 'other'."""
+    d = f"{city or ''} {district or ''}".lower()
+    tiers = loc_cfg["tier_districts"]
+    for tier in ("best", "very_good", "good", "ok"):
+        if any(kw.lower() in d for kw in tiers.get(tier, [])):
+            return tier
+    return "other"
+
+
+def classify(offer: Offer, text: str, cost: CostBreakdown, config: dict, now: datetime) -> Verdict:
     f = config["filters"]
 
-    # Lokalizacja poza Trójmiastem.
+    # --- Twarde odrzuty (nigdy nie są prawie-trafieniem) ---
     if offer.city and offer.city not in f["allowed_cities"]:
-        return FilterResult(False, f"lokalizacja poza Trójmiastem: {offer.city}")
+        return Verdict("reject", f"lokalizacja poza Trójmiastem: {offer.city}")
 
-    # Powierzchnia.
     if offer.area_m2 is not None and offer.area_m2 < f["min_area_m2"]:
-        return FilterResult(False, f"powierzchnia {offer.area_m2:g} m² < {f['min_area_m2']} m²")
+        return Verdict("reject", f"powierzchnia {offer.area_m2:g} m² < {f['min_area_m2']} m²")
 
-    # Liczba pokoi — z wyjątkiem kawalerki z opisaną oddzielną sypialnią.
-    if offer.rooms is not None and offer.rooms < f["min_rooms"]:
-        if _contains(text, f.get("studio_bedroom_keywords")) is None:
-            return FilterResult(False, f"mniej niż {f['min_rooms']} pokoje ({offer.rooms})")
-
-    # Typ inny niż mieszkanie (pokój/współdzielenie/...).
     kw = _contains(text, f.get("type_reject_keywords"))
     if kw:
-        return FilterResult(False, f"typ inny niż mieszkanie: '{kw}'")
+        return Verdict("reject", f"typ inny niż mieszkanie: '{kw}'")
 
-    # Wykluczenie najemcy (nie studentom / tylko pracujący / tylko rodzina).
     kw = _contains(text, f.get("reject_phrases"))
     if kw:
-        return FilterResult(False, f"wykluczenie najemcy: '{kw}'")
+        return Verdict("reject", f"wykluczenie najemcy: '{kw}'")
 
-    # Ogrzewanie piecowe/kaflowe/węglowe.
     if cost.heating == "stove":
-        return FilterResult(False, "ogrzewanie piecowe/kaflowe/węglowe")
+        return Verdict("reject", "ogrzewanie piecowe/kaflowe/węglowe")
 
-    # Suterena.
     kw = _contains(text, f.get("souterrain_keywords"))
     if kw:
-        return FilterResult(False, f"suterena ('{kw}')")
+        return Verdict("reject", f"suterena ('{kw}')")
 
-    # Brak łazienki w lokalu.
     kw = _contains(text, f.get("no_bathroom_keywords"))
     if kw:
-        return FilterResult(False, f"brak łazienki w lokalu ('{kw}')")
+        return Verdict("reject", f"brak łazienki w lokalu ('{kw}')")
 
-    # Ogłoszenie starsze niż N dni w chwili pierwszego wykrycia.
     if offer.created_time:
         try:
             created = datetime.fromisoformat(offer.created_time)
             if created < now - timedelta(days=f["max_age_days"]):
-                return FilterResult(False, f"ogłoszenie starsze niż {f['max_age_days']} dni")
+                return Verdict("reject", f"ogłoszenie starsze niż {f['max_age_days']} dni")
         except ValueError:
-            pass  # nieparsowalna data -> nie odrzucamy za brak danych
+            pass
 
-    # Koszt całkowity ponad twardą granicę (tylko gdy znany).
+    tier = location_tier(offer.city, offer.district, config["location"])
+    if tier not in f["location_accept_tiers"]:
+        return Verdict("reject", f"lokalizacja poza dobrymi dzielnicami ({offer.district or offer.city})")
+
+    # --- Prawie-trafienia (jedno łagodne kryterium) ---
+    near: list[str] = []
+
+    if offer.rooms is not None and offer.rooms < f["min_rooms"]:
+        if _contains(text, f.get("studio_bedroom_keywords")):
+            near.append("kawalerka z opisaną oddzielną sypialnią — sprawdź układ")
+        else:
+            return Verdict("reject", f"mniej niż {f['min_rooms']} pokoje ({offer.rooms})")
+
     limit = config["budget"]["hard_limit"]
     if cost.total is not None and cost.total > limit:
-        return FilterResult(False, f"koszt całkowity {cost.total} zł > {limit} zł")
+        if cost.total <= f["near_miss_cost_max"]:
+            near.append(f"koszt {cost.total} zł — ponad limit {limit} zł")
+        else:
+            return Verdict("reject", f"koszt {cost.total} zł > {f['near_miss_cost_max']} zł")
 
-    return FilterResult(True)
+    if near:
+        return Verdict("near_miss", "; ".join(near))
+    return Verdict("match")

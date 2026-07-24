@@ -7,14 +7,25 @@
 > Następny etap: Etap 6 (kolejne portale + dedup Poziom 2 / hash zdjęć) oraz
 > monitoring #alerty (SPEC). Wykrywanie oszustw też odłożone na Etap 6.**
 >
-> **Etap 4 (ZROBIONE):** rubryka /100 (`core/scoring.py`), dystans SKM
-> (`core/geo.py`, ocena lokalizacji po tabeli dzielnic — dopasowanie city+district),
-> pełny embed z oceną/kolorem/plusami/minusami/„Do zapytania"/wiadomością do
-> właściciela (`core/notify.py`), routing na kanały + limity dzienne
-> (`scoring.decide_route` + `state.*daily`). Decyzje użytkownika: układ z opisu
-> (bez kary −10 na ślepo, tylko flaga w „Do zapytania"); oszustwa → Etap 6;
-> #odrzucone przez `DISCORD_WEBHOOK_REJECTED`. Współrzędne stacji w config są
-> PRZYBLIŻONE (tylko do wyświetlania szac. minut) — do ewentualnej korekty.
+> **WAŻNA ZMIANA MODELU (2026-07-24):** użytkownik zrezygnuje z oceniania /100
+> ("oceny psują wyszukiwanie"). Zamiast rubryki jest teraz `filters.classify()`
+> → **match / near_miss / reject**:
+> - match (wszystkie twarde kryteria) → #mieszkania (pełny embed, bez oceny);
+> - near_miss (jedno łagodne: koszt w (limit, `near_miss_cost_max`] albo kawalerka
+>   z opisaną sypialnią) → #odrzucone (kompaktowy embed z powodem);
+> - reject → tylko stan.
+> Lokalizacja = TWARDY filtr (`filters.location_accept_tiers`, tabela w
+> `location.tier_districts`). USUNIĘTE: `core/scoring.py`, test_scoring, test_routing,
+> config `scoring`. Zostają: `core/geo.py` (stacje SKM do embeda), izolacja błędów
+> per-źródło w `main` (Etap 6). Współrzędne stacji PRZYBLIŻONE.
+>
+> **Etap 6 W TOKU (niedokończony):** wybrany portal = **Trojmiasto.pl** (stabilny,
+> bez Cloudflare, uczciwy UA bota → 200; oferty na liście `/nieruchomosci-mam-do-
+> wynajecia/`, kontener `.list__item`, klasy `list__item__*`, `<time datetime>`,
+> `ogl<ID>.html`; parser HTML przez BeautifulSoup — bs4 do dodania do requirements).
+> Dedup Poziom 2 = fingerprint z tolerancją (cena±100/metraż±2/pokoje/dzielnica),
+> BEZ hasha zdjęć (decyzja użytkownika). Jeszcze NIE zaimplementowane:
+> `sources/trojmiasto.py`, cross-portal match w `dedup`, rejestracja w `main`.
 
 ## Jak wznowić (dla nowej sesji Claude)
 

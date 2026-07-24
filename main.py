@@ -21,8 +21,8 @@ from typing import Any
 import yaml
 
 from core import cost as cost_mod
-from core import filters, geo, notify, pipeline, scoring, state
-from sources.base import Source
+from core import filters, geo, notify, pipeline, state
+from sources.base import Source, SourceError
 from sources.olx import OlxSource
 
 # Rejestr portali. Dokładanie kolejnego = jedna linijka tutaj.
@@ -117,66 +117,62 @@ def cmd_once(config: dict[str, Any]) -> None:
     state_path = Path(__file__).parent / state_cfg.get("path", "state/seen.json")
     max_age_days = state_cfg.get("max_age_days", 60)
     threshold = config.get("dedup", {}).get("price_drop_threshold", 100)
-    sc = config["scoring"]
-    loc_cfg = sc["location"]
-    routing_cfg = {"thresholds": sc["thresholds"], "limits": sc["limits"]}
+    loc_cfg = config["location"]
 
     st = state.load_state(state_path)
     now = datetime.now(timezone.utc)
     pruned = state.prune(st, max_age_days, now)
     if pruned:
         print(f"stan: usunięto {pruned} wpisów starszych niż {max_age_days} dni")
-    state.prune_daily(st, sc["limits"].get("daily_prune_days", 14), now.date())
 
-    def filter_fn(offer):
+    def evaluate_fn(offer):
         text = filters.offer_text(offer)
         cost = cost_mod.compute_cost(offer, text, config)
-        fr = filters.evaluate(offer, text, cost, config, now)
-        if not fr.passed:
-            print(f"  [ODFILTROWANE] {offer.source_id} — {fr.reason}")
-        return pipeline.Evaluation(fr.passed, fr.reason, cost)
+        v = filters.classify(offer, text, cost, config, now)
+        if v.kind == "reject":
+            print(f"  [odrzut] {offer.source_id} — {v.reason}")
+        return pipeline.Decision(v.kind, v.reason, cost)
 
-    def score_fn(offer, cost):
-        return scoring.score_offer(offer, cost, filters.offer_text(offer), now, config)
-
-    def send_fn(offer, score, cost, channel, reason, price_drop):
+    def send_fn(offer, cost, channel, reason, price_drop):
         if channel == "rejected":
             if not os.environ.get("DISCORD_WEBHOOK_REJECTED"):
                 print(f"  [#odrzucone pominięte — brak DISCORD_WEBHOOK_REJECTED] "
-                      f"{offer.source_id} ({score.total}/100) {reason}")
+                      f"{offer.source_id} — {reason}")
                 return
-            notify.send_offer(offer, score, cost, channel="rejected", reason=reason,
+            notify.send_offer(offer, cost, channel="rejected", reason=reason,
                               price_drop=price_drop, webhook_env="DISCORD_WEBHOOK_REJECTED")
-            print(f"  -> [#odrzucone] {offer.source_id} ({score.total}/100) {reason}")
+            print(f"  -> [#odrzucone] {offer.source_id} — {reason}")
         else:
-            notify.send_offer(offer, score, cost, channel="main", reason=reason,
+            notify.send_offer(offer, cost, channel="main",
                               station_info=_station_info(offer, loc_cfg),
                               photo_size=photo_size, price_drop=price_drop,
-                              owner_message_template=owner_tmpl, thresholds=sc["thresholds"])
+                              owner_message_template=owner_tmpl)
             tag = "OBNIŻKA " if price_drop else ""
             total = f"{cost.total} zł" if cost.total is not None else "koszt ?"
-            print(f"  -> [#mieszkania {tag}] {offer.source_id} ({score.total}/100, {total}) "
-                  f"{offer.title[:40]}")
+            print(f"  -> [#mieszkania {tag}] {offer.source_id} ({total}) {offer.title[:45]}")
 
+    # Izolacja per-źródło (Etap 6): błąd jednego portalu nie wywraca pozostałych.
     for name, src_cfg in config["sources"].items():
         if not src_cfg.get("enabled"):
             continue
         cold = state.get_high_water(st, name) is None
-        source = build_source(name, config)
-        offers = source.fetch()  # rzuca wyjątek przy błędzie (nigdy ciche [])
+        try:
+            source = build_source(name, config)
+            offers = source.fetch()  # rzuca wyjątek przy błędzie (nigdy ciche [])
+            summary = pipeline.process_source(
+                name, offers, st, threshold, now, evaluate_fn=evaluate_fn, send_fn=send_fn,
+            )
+        except SourceError as e:
+            print(f"{name}: BŁĄD ŹRÓDŁA — {e} (pomijam, pozostałe portale lecą dalej)")
+            continue
 
-        summary = pipeline.process_source(
-            name, offers, st, threshold, now,
-            filter_fn=filter_fn, score_fn=score_fn, send_fn=send_fn, routing_cfg=routing_cfg,
-        )
         if cold:
             print(f"{name}: cold start — zasiano {summary['seeded']} ofert, nic nie wysłano")
         else:
             print(
                 f"{name}: pobrano {summary['fetched']} | #mieszkania {summary['sent_main']} | "
-                f"#odrzucone {summary['sent_rejected']} | <próg {summary['below']} | "
-                f"odfiltrowane {summary['filtered']} | backfill {summary['backfilled']} | "
-                f"pominięte {summary['skipped']} | max ocena {summary['max_score']}"
+                f"#odrzucone {summary['sent_near']} | odrzucone {summary['dropped']} | "
+                f"backfill {summary['backfilled']} | pominięte {summary['skipped']}"
             )
 
     state.save_state(state_path, st)
