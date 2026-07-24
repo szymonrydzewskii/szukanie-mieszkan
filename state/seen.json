@@ -1,6 +1,7 @@
 {
+  "daily": {},
   "high_water": {
-    "olx": "2026-07-24T15:43:43+02:00"
+    "olx": "2026-07-24T15:56:00+02:00"
   },
   "seen": {
     "olx:1010778181": {
@@ -27,6 +28,12 @@
       "fingerprint": "4000|50|3|orunia - św. wojciech - lipce",
       "id": "olx:1051935744"
     },
+    "olx:1052723227": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-24T14:12:43.011962+00:00",
+      "fingerprint": "2500|42|2|kokoszki",
+      "id": "olx:1052723227"
+    },
     "olx:1057263210": {
       "cena": 2300,
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
@@ -38,6 +45,12 @@
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
       "fingerprint": "2400|30|1|śródmieście",
       "id": "olx:1057829232"
+    },
+    "olx:1063938798": {
+      "cena": 2200,
+      "data_wyslania": "2026-07-24T14:12:43.011962+00:00",
+      "fingerprint": "2200|33|1|orunia - św. wojciech - lipce",
+      "id": "olx:1063938798"
     },
     "olx:1065438289": {
       "cena": 3500,
@@ -105,6 +118,12 @@
       "fingerprint": "2600|46|3|pustki cisowskie-demptowo",
       "id": "olx:1074746784"
     },
+    "olx:1075124435": {
+      "cena": 2900,
+      "data_wyslania": "2026-07-24T14:12:43.011962+00:00",
+      "fingerprint": "2900|45|2|jasień",
+      "id": "olx:1075124435"
+    },
     "olx:1075862561": {
       "cena": 4000,
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
@@ -122,6 +141,12 @@
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
       "fingerprint": "3400|36|2|górny sopot",
       "id": "olx:1076749883"
+    },
+    "olx:1077762890": {
+      "cena": 2499,
+      "data_wyslania": "2026-07-24T14:12:43.011962+00:00",
+      "fingerprint": "2499|34|2|przymorze małe",
+      "id": "olx:1077762890"
     },
     "olx:1078012556": {
       "cena": 1700,
@@ -393,6 +418,12 @@
       "fingerprint": "3000|40|2|letnica",
       "id": "olx:1083787600"
     },
+    "olx:1083824604": {
+      "cena": 2400,
+      "data_wyslania": "2026-07-24T14:12:43.011962+00:00",
+      "fingerprint": "2400|54|2|",
+      "id": "olx:1083824604"
+    },
     "olx:1083969969": {
       "cena": 2800,
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
@@ -579,6 +610,12 @@
       "fingerprint": "2300|29|1|żabianka - wejhera - jelitkowo - tysiąclecia",
       "id": "olx:1085152975"
     },
+    "olx:1085233849": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-24T14:12:43.011962+00:00",
+      "fingerprint": "3000|35|2|osowa",
+      "id": "olx:1085233849"
+    },
     "olx:1085257828": {
       "cena": 3300,
       "data_wyslania": "2026-07-24T10:23:00.081659+00:00",
@@ -680,6 +717,12 @@
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
       "fingerprint": "3200|32|2|centrum",
       "id": "olx:1086195958"
+    },
+    "olx:1086228893": {
+      "cena": 2700,
+      "data_wyslania": "2026-07-24T14:12:43.011962+00:00",
+      "fingerprint": "2700|49|2|chełm z dzielnicą gdańsk południe",
+      "id": "olx:1086228893"
     },
     "olx:1086261029": {
       "cena": 2900,
@@ -1256,6 +1299,12 @@
       "data_wyslania": "2026-07-24T14:00:49.622132+00:00",
       "fingerprint": "3200|42|2|piecki-migowo",
       "id": "olx:1087226926"
+    },
+    "olx:1087228903": {
+      "cena": 2800,
+      "data_wyslania": "2026-07-24T14:12:43.011962+00:00",
+      "fingerprint": "2800|40|2|wzgórze świętego maksymiliana",
+      "id": "olx:1087228903"
     },
     "olx:777472320": {
       "cena": 3500,
