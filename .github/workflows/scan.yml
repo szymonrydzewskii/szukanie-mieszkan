@@ -22,12 +22,12 @@ jobs:
     timeout-minutes: 10          # SPEC pkt 7: cały przebieg ma być krótki (~3 min)
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5     # v5 = Node 24 (v4 używał wycofywanego Node 20)
         with:
           fetch-depth: 0         # pełna historia — potrzebna do git pull --rebase
 
       - name: Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6  # v6 = Node 24
         with:
           python-version: "3.12"
 
