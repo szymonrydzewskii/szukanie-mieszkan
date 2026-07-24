@@ -21,7 +21,7 @@ from typing import Any
 import yaml
 
 from core import cost as cost_mod
-from core import filters, notify, pipeline, state
+from core import filters, geo, notify, pipeline, scoring, state
 from sources.base import Source
 from sources.olx import OlxSource
 
@@ -96,32 +96,67 @@ def cmd_debug_raw(name: str, config: dict[str, Any]) -> None:
         print(json.dumps(offers[0], ensure_ascii=False, indent=2))
 
 
+def _station_info(offer, loc_cfg) -> tuple[str, int] | None:
+    """Najbliższa stacja SKM (preferencyjnie na osi) + szac. czas dojścia pieszo."""
+    if offer.lat is None or offer.lon is None:
+        return None
+    stations = loc_cfg.get("stations", [])
+    res = geo.nearest_station(offer.lat, offer.lon, stations)
+    if not res:
+        return None
+    station, dist = res
+    w = loc_cfg["walk"]
+    return station["name"], geo.walk_minutes(dist, w["straight_factor"], w["speed_m_per_min"])
+
+
 def cmd_once(config: dict[str, Any]) -> None:
-    photo_size = config.get("notify", {}).get("photo_size", "640x480")
+    notify_cfg = config.get("notify", {})
+    photo_size = notify_cfg.get("photo_size", "640x480")
+    owner_tmpl = notify_cfg.get("owner_message_template")
     state_cfg = config.get("state", {})
     state_path = Path(__file__).parent / state_cfg.get("path", "state/seen.json")
     max_age_days = state_cfg.get("max_age_days", 60)
     threshold = config.get("dedup", {}).get("price_drop_threshold", 100)
+    sc = config["scoring"]
+    loc_cfg = sc["location"]
+    routing_cfg = {"thresholds": sc["thresholds"], "limits": sc["limits"]}
 
     st = state.load_state(state_path)
     now = datetime.now(timezone.utc)
     pruned = state.prune(st, max_age_days, now)
     if pruned:
         print(f"stan: usunięto {pruned} wpisów starszych niż {max_age_days} dni")
-
-    def send_fn(offer, price_drop, cost):
-        notify.send_offer(offer, cost=cost, photo_size=photo_size, price_drop=price_drop)
-        tag = "OBNIŻKA" if price_drop else "NOWA"
-        total = f"{cost.total} zł" if cost and cost.total is not None else "koszt ?"
-        print(f"  -> [{tag}] {offer.source_id} ({total}) {offer.title[:45]}")
+    state.prune_daily(st, sc["limits"].get("daily_prune_days", 14), now.date())
 
     def filter_fn(offer):
         text = filters.offer_text(offer)
         cost = cost_mod.compute_cost(offer, text, config)
         fr = filters.evaluate(offer, text, cost, config, now)
         if not fr.passed:
-            print(f"  [ODRZUT] {offer.source_id} — {fr.reason}")
-        return pipeline.Evaluation(passed=fr.passed, reason=fr.reason, cost=cost)
+            print(f"  [ODFILTROWANE] {offer.source_id} — {fr.reason}")
+        return pipeline.Evaluation(fr.passed, fr.reason, cost)
+
+    def score_fn(offer, cost):
+        return scoring.score_offer(offer, cost, filters.offer_text(offer), now, config)
+
+    def send_fn(offer, score, cost, channel, reason, price_drop):
+        if channel == "rejected":
+            if not os.environ.get("DISCORD_WEBHOOK_REJECTED"):
+                print(f"  [#odrzucone pominięte — brak DISCORD_WEBHOOK_REJECTED] "
+                      f"{offer.source_id} ({score.total}/100) {reason}")
+                return
+            notify.send_offer(offer, score, cost, channel="rejected", reason=reason,
+                              price_drop=price_drop, webhook_env="DISCORD_WEBHOOK_REJECTED")
+            print(f"  -> [#odrzucone] {offer.source_id} ({score.total}/100) {reason}")
+        else:
+            notify.send_offer(offer, score, cost, channel="main", reason=reason,
+                              station_info=_station_info(offer, loc_cfg),
+                              photo_size=photo_size, price_drop=price_drop,
+                              owner_message_template=owner_tmpl, thresholds=sc["thresholds"])
+            tag = "OBNIŻKA " if price_drop else ""
+            total = f"{cost.total} zł" if cost.total is not None else "koszt ?"
+            print(f"  -> [#mieszkania {tag}] {offer.source_id} ({score.total}/100, {total}) "
+                  f"{offer.title[:40]}")
 
     for name, src_cfg in config["sources"].items():
         if not src_cfg.get("enabled"):
@@ -130,17 +165,18 @@ def cmd_once(config: dict[str, Any]) -> None:
         source = build_source(name, config)
         offers = source.fetch()  # rzuca wyjątek przy błędzie (nigdy ciche [])
 
-        summary = pipeline.process_source(name, offers, st, threshold, now, send_fn, filter_fn)
+        summary = pipeline.process_source(
+            name, offers, st, threshold, now,
+            filter_fn=filter_fn, score_fn=score_fn, send_fn=send_fn, routing_cfg=routing_cfg,
+        )
         if cold:
-            print(
-                f"{name}: cold start — zasiano {summary['seeded']} ofert, nic nie "
-                f"wysłano (kolejne przebiegi wyślą tylko nowe)"
-            )
+            print(f"{name}: cold start — zasiano {summary['seeded']} ofert, nic nie wysłano")
         else:
             print(
-                f"{name}: pobrano {summary['fetched']} | nowe {summary['sent_new']} | "
-                f"obniżki {summary['sent_drop']} | odfiltrowane {summary['filtered']} | "
-                f"backfill {summary['backfilled']} | pominięte {summary['skipped']}"
+                f"{name}: pobrano {summary['fetched']} | #mieszkania {summary['sent_main']} | "
+                f"#odrzucone {summary['sent_rejected']} | <próg {summary['below']} | "
+                f"odfiltrowane {summary['filtered']} | backfill {summary['backfilled']} | "
+                f"pominięte {summary['skipped']} | max ocena {summary['max_score']}"
             )
 
     state.save_state(state_path, st)

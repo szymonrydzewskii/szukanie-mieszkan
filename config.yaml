@@ -10,6 +10,12 @@ http:
 
 notify:
   photo_size: "640x480"        # podstawiane w szablon linku zdjęcia OLX (...s={width}x{height})
+  # Gotowa wiadomość do właściciela (SPEC) — placeholdery: {district} {city} {area} {rooms} {floor}
+  owner_message_template: >-
+    Dzień dobry, jesteśmy zainteresowani wynajmem Państwa mieszkania
+    ({district}, {area} m², {rooms} pok.). Czy jest jeszcze dostępne i kiedy
+    moglibyśmy je obejrzeć? Wynajmujemy we dwoje, spokojni studenci UG,
+    na co najmniej rok akademicki. Pozdrawiamy.
 
 state:
   path: "state/seen.json"      # commitowany stan (Etap 5 zajmie się commitem z Actions)
@@ -91,3 +97,74 @@ sources:
       gdansk: 5659
       sopot: 15983
       gdynia: 5849
+
+# ---- Etap 4: ocenianie /100 + progi + kanały ----
+scoring:
+  price:                       # [maks. koszt całkowity, punkty] — rosnąco
+    - [2800, 30]
+    - [3000, 25]
+    - [3300, 18]
+    - [3500, 10]
+  location:
+    tier_points: {best: 25, very_good: 18, good: 10, ok: 10, other: 3}
+    tier_districts:            # dopasowanie po fragmencie nazwy dzielnicy (SPEC: tabela dzielnic)
+      best: [oliwa, żabianka, przymorze, sopot, jelitkowo]
+      very_good: [wrzeszcz, zaspa, strzyża, brzeźno]
+      good: [brętowo, niedźwiednik, morena, piecki, migowo]
+      ok: [suchanino, aniołki, śródmieście, chełm]
+    walk: {straight_factor: 1.3, speed_m_per_min: 83}   # SPEC: linia prosta ×1,3
+    # Współrzędne PRZYBLIŻONE — tylko do wyświetlenia szac. czasu dojścia (edytuj wg potrzeby).
+    stations:
+      - {name: "Sopot Kamienny Potok", lat: 54.4487, lon: 18.5566, on_axis: true}
+      - {name: "Sopot Wyścigi", lat: 54.4370, lon: 18.5626, on_axis: true}
+      - {name: "Sopot", lat: 54.4419, lon: 18.5601, on_axis: true}
+      - {name: "Gdańsk Żabianka-AWFiS", lat: 54.4176, lon: 18.6116, on_axis: true}
+      - {name: "Gdańsk Oliwa", lat: 54.4088, lon: 18.5762, on_axis: true}
+      - {name: "Gdańsk Przymorze-Uniwersytet", lat: 54.4046, lon: 18.5945, on_axis: true}
+      - {name: "Gdańsk Wrzeszcz", lat: 54.3805, lon: 18.6096, on_axis: false}
+      - {name: "Gdańsk Zaspa", lat: 54.3970, lon: 18.6265, on_axis: false}
+      - {name: "Gdańsk Główny", lat: 54.3558, lon: 18.6440, on_axis: false}
+      - {name: "Gdynia Główna", lat: 54.5188, lon: 18.5326, on_axis: false}
+  layout:
+    full_pts: 20
+    alcove_pts: 14
+    walkthrough_pts: 8
+    ideal_area: [40, 50]
+    bedroom_keywords: [sypialni]
+    alcove_keywords: [aneks]
+    walkthrough_keywords: [przechodni]
+  standard:
+    default: 10
+    renovated_pts: 15
+    renovated_keywords: [po remoncie, wysoki standard, nowe mieszkanie, po generalnym]
+    good_pts: 10
+    good_keywords: [zadbane, komfortow]
+    average_pts: 5
+    average_keywords: [przeciętn, do odświeżenia]
+    neglected_pts: 0
+    neglected_keywords: [do remontu, do odnowienia, zaniedban]
+  equipment:
+    per_item: 2
+    items:
+      pralka: [pralka]
+      lodówka: [lodówka, lodowka]
+      piekarnik: [piekarnik]
+      biurko: [biurko]
+      internet: [internet w cenie, internet w czynszu, wifi w cenie]
+  penalties:
+    commission_full: -10
+    commission_partial: -5
+    electric_heating: -8
+    rent_unknown: -5
+    listing_4_7_days: -5
+    commission_full_keywords: ["prowizja 100", "100% czynszu", "jednorazowa prowizja"]
+    commission_any_keywords: [prowizja, prowizji, pośrednik, pośrednika]
+    no_commission_keywords: [bez prowizji, bez pośrednika, brak prowizji, bezpośrednio, 0% prowizji]
+  thresholds:                  # SPEC: progi wysyłki
+    top: 88                    # >=88 -> #mieszkania + @here
+    main: 78                   # >=78 -> #mieszkania (bez pinga)
+    rejected: 60               # >=60 -> #odrzucone
+  limits:
+    daily_main: 8              # SPEC: limit dzienny kanału głównego
+    daily_78_87: 6             # SPEC: max 6 dziennie w paśmie 78–87
+    daily_prune_days: 14       # jak długo trzymać dzienne liczniki w stanie

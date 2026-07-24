@@ -12,7 +12,7 @@ SPEC / ograniczenia techniczne:
 from __future__ import annotations
 
 import json
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Any
 
@@ -25,7 +25,7 @@ def load_state(path: str | Path) -> dict[str, Any]:
     """Wczytaj stan. Brak pliku = pusty stan (cold start). Uszkodzony = StateError."""
     path = Path(path)
     if not path.exists():
-        return {"version": 1, "seen": {}, "high_water": {}}
+        return {"version": 1, "seen": {}, "high_water": {}, "daily": {}}
     try:
         data = json.loads(path.read_text(encoding="utf-8"))
     except (ValueError, OSError) as e:
@@ -34,6 +34,7 @@ def load_state(path: str | Path) -> dict[str, Any]:
     data.setdefault("version", 1)
     data.setdefault("seen", {})
     data.setdefault("high_water", {})
+    data.setdefault("daily", {})
     return data
 
 
@@ -86,6 +87,24 @@ def get_high_water(state: dict[str, Any], source: str) -> str | None:
 
 def set_high_water(state: dict[str, Any], source: str, iso: str) -> None:
     state.setdefault("high_water", {})[source] = iso
+
+
+def bump_daily(state: dict[str, Any], day: str, key: str) -> None:
+    """Zwiększ dzienny licznik wysyłek (day = 'YYYY-MM-DD', key np. 'main'/'band')."""
+    bucket = state.setdefault("daily", {}).setdefault(day, {})
+    bucket[key] = bucket.get(key, 0) + 1
+
+
+def get_daily(state: dict[str, Any], day: str, key: str) -> int:
+    return state.get("daily", {}).get(day, {}).get(key, 0)
+
+
+def prune_daily(state: dict[str, Any], keep_days: int, today: date) -> None:
+    """Usuń dzienne liczniki starsze niż keep_days."""
+    cutoff = (today - timedelta(days=keep_days)).isoformat()
+    daily = state.setdefault("daily", {})
+    for d in [d for d in daily if d < cutoff]:
+        del daily[d]
 
 
 def prune(state: dict[str, Any], max_age_days: int, now: datetime) -> int:

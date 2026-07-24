@@ -38,10 +38,13 @@ class Offer:
     rent_admin: int | None = None       # czynsz administracyjny "dodatkowo", PLN
     area_m2: float | None = None
     rooms: int | None = None
+    floor: str | None = None            # "parter" / "2" / ...
     builttype: str | None = None        # blok / kamienica / apartamentowiec / ...
 
     city: str | None = None
     district: str | None = None
+    lat: float | None = None
+    lon: float | None = None
 
     created_time: str | None = None     # ISO 8601, tak jak podaje portal
     description: str | None = None

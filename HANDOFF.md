@@ -1,8 +1,20 @@
 # HANDOFF — stan projektu i plan kontynuacji
 
 > Dokument roboczy do wznowienia pracy w nowej sesji. Czytaj razem z `SPEC.md`.
-> **Aktualny stan: Etapy 1–3 ukończone i zweryfikowane. Repo zielone (62 testy).
-> Następny: Etap 4 (ocenianie + progi + kanały).**
+> **Aktualny stan: Etapy 1–5 ukończone (1–4 logika, 5 = GitHub Actions).
+> Repo zielone (97 testów), wdrożone i działające w chmurze:
+> https://github.com/szymonrydzewskii/szukanie-mieszkan (bot leci co 15 min).
+> Następny etap: Etap 6 (kolejne portale + dedup Poziom 2 / hash zdjęć) oraz
+> monitoring #alerty (SPEC). Wykrywanie oszustw też odłożone na Etap 6.**
+>
+> **Etap 4 (ZROBIONE):** rubryka /100 (`core/scoring.py`), dystans SKM
+> (`core/geo.py`, ocena lokalizacji po tabeli dzielnic — dopasowanie city+district),
+> pełny embed z oceną/kolorem/plusami/minusami/„Do zapytania"/wiadomością do
+> właściciela (`core/notify.py`), routing na kanały + limity dzienne
+> (`scoring.decide_route` + `state.*daily`). Decyzje użytkownika: układ z opisu
+> (bez kary −10 na ślepo, tylko flaga w „Do zapytania"); oszustwa → Etap 6;
+> #odrzucone przez `DISCORD_WEBHOOK_REJECTED`. Współrzędne stacji w config są
+> PRZYBLIŻONE (tylko do wyświetlania szac. minut) — do ewentualnej korekty.
 
 ## Jak wznowić (dla nowej sesji Claude)
 

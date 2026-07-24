@@ -1,4 +1,4 @@
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 
 import pytest
 
@@ -7,7 +7,7 @@ from core import state
 
 def test_load_missing_file_returns_empty_state(tmp_path):
     result = state.load_state(tmp_path / "seen.json")
-    assert result == {"version": 1, "seen": {}, "high_water": {}}
+    assert result == {"version": 1, "seen": {}, "high_water": {}, "daily": {}}
 
 
 def test_save_then_load_roundtrips_entries(tmp_path):
@@ -98,6 +98,25 @@ def test_high_water_survives_save_load(tmp_path):
     state.set_high_water(st, "olx", "2026-07-24T11:00:00+00:00")
     state.save_state(path, st)
     assert state.get_high_water(state.load_state(path), "olx") == "2026-07-24T11:00:00+00:00"
+
+
+def test_daily_counter_bump_and_get():
+    st = {"version": 1, "seen": {}, "high_water": {}, "daily": {}}
+    state.bump_daily(st, "2026-07-24", "main")
+    state.bump_daily(st, "2026-07-24", "main")
+    state.bump_daily(st, "2026-07-24", "band")
+    assert state.get_daily(st, "2026-07-24", "main") == 2
+    assert state.get_daily(st, "2026-07-24", "band") == 1
+    assert state.get_daily(st, "2026-07-24", "rejected") == 0
+    assert state.get_daily(st, "2026-07-23", "main") == 0
+
+
+def test_prune_daily_removes_old_days():
+    st = {"version": 1, "seen": {}, "high_water": {},
+          "daily": {"2026-05-01": {"main": 3}, "2026-07-24": {"main": 1}}}
+    state.prune_daily(st, keep_days=30, today=date(2026, 7, 24))
+    assert "2026-05-01" not in st["daily"]
+    assert "2026-07-24" in st["daily"]
 
 
 def test_prune_removes_entries_older_than_max_age():

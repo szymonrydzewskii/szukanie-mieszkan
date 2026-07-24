@@ -114,9 +114,19 @@ class OlxSource(Source):
         built_v = self._param(o, "builttype")
         builttype = built_v.get("key") if built_v else None
 
+        floor_v = self._param(o, "floor_select")
+        floor = None
+        if floor_v and floor_v.get("key"):
+            n = str(floor_v["key"]).replace("floor_", "")
+            floor = "parter" if n == "0" else n
+
         loc = o.get("location", {}) or {}
         city = (loc.get("city") or {}).get("name")
         district = (loc.get("district") or {}).get("name")
+
+        geo = o.get("map") or {}
+        lat = geo.get("lat")
+        lon = geo.get("lon")
 
         photos = o.get("photos") or []
         photo_url = photos[0].get("link") if photos else None
@@ -133,9 +143,12 @@ class OlxSource(Source):
             rent_admin=rent_admin,
             area_m2=area_m2,
             rooms=rooms,
+            floor=floor,
             builttype=builttype,
             city=city,
             district=district,
+            lat=lat,
+            lon=lon,
             created_time=o.get("created_time"),
             description=o.get("description"),
             photo_url=photo_url,
