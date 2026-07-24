@@ -1,0 +1,68 @@
+name: Skan mieszkań
+
+# SPEC pkt 4: cron w Actions bywa nieprecyzyjny/opóźniany — kod zakłada
+# nieregularne odstępy i nadrabia zaległości (high-water-mark na created_time).
+on:
+  schedule:
+    - cron: "*/15 * * * *"     # co ~15 min (deklarowane minimum GitHuba to 5 min)
+  workflow_dispatch: {}          # ręczne uruchomienie z zakładki Actions (do testów)
+
+# Prawo zapisu — workflow commituje zaktualizowany state/seen.json z powrotem.
+permissions:
+  contents: write
+
+# Nie pozwól dwóm przebiegom nadpisywać sobie stanu jednocześnie.
+concurrency:
+  group: skan-mieszkan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10          # SPEC pkt 7: cały przebieg ma być krótki (~3 min)
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0         # pełna historia — potrzebna do git pull --rebase
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Zależności
+        run: pip install -r requirements.txt
+
+      - name: Skan (python main.py --once)
+        env:
+          # SPEC pkt 5: sekret WYŁĄCZNIE przez Actions secrets, nigdy w kodzie/stanie.
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: python main.py --once
+
+      - name: Commit zaktualizowanego stanu
+        if: always()             # zapisz stan nawet jeśli krok skanu zawiódł po zmianie stanu
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/seen.json
+          if git diff --cached --quiet; then
+            echo "Brak zmian w stanie — nic do commitu."
+            exit 0
+          fi
+          git commit -m "state: aktualizacja seen.json [skip ci]"
+          # SPEC pkt 3: git pull --rebase przed pushem; przy porażce spróbuj raz
+          # jeszcze, potem zaloguj i zakończ BEZ wywracania runu.
+          for attempt in 1 2; do
+            echo "Push stanu, próba $attempt..."
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" \
+              || git rebase --abort 2>/dev/null || true
+            if git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              echo "Push OK."
+              exit 0
+            fi
+            echo "Push nieudany (próba $attempt)."
+            sleep 3
+          done
+          echo "::warning::Nie udało się wypchnąć stanu po 2 próbach — następny przebieg nadrobi."
+          exit 0

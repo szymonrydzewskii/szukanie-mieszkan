@@ -1,0 +1,3 @@
+# Normalizuj końcówki linii do LF w repo (Actions działa na Linuksie;
+# bash w workflow nie zniesie CRLF). Windows może mieć LF lokalnie bez problemu.
+* text=auto eol=lf

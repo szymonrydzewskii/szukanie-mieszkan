@@ -1,0 +1,93 @@
+# Konfiguracja bota. WSZYSTKIE kwoty/progi/filtry mieszkają tutaj.
+# Na Etapie 1 wykorzystywana jest tylko sekcja `http` i `sources.olx`.
+# Kolejne sekcje (filtry, budżet, scoring, progi) dojdą na etapach 3-4.
+
+http:
+  # Uczciwy User-Agent identyfikujący bota (SPEC: bez podszywania i omijania zabezpieczeń).
+  user_agent: "mieszkania-bot/0.1 (personal apartment search)"
+  timeout_seconds: 20          # SPEC: portal bez odpowiedzi w 20 s -> pomiń w tym cyklu
+  jitter_seconds: [1, 4]       # losowy odstęp przed zapytaniem (kultura pobierania)
+
+notify:
+  photo_size: "640x480"        # podstawiane w szablon linku zdjęcia OLX (...s={width}x{height})
+
+state:
+  path: "state/seen.json"      # commitowany stan (Etap 5 zajmie się commitem z Actions)
+  max_age_days: 60             # SPEC: wpisy starsze niż 60 dni usuwamy
+
+dedup:
+  price_drop_threshold: 100    # zł; spadek CENY o więcej niż tyle = ponowna wysyłka "OBNIŻKA"
+
+budget:
+  hard_limit: 3500             # SPEC: koszt całkowity > 3500 zł = odrzut, bez wyjątków
+  min_plausible_rent: 50       # czynsz poniżej tej kwoty = śmieciowy placeholder -> szacuj
+  estimates:                   # konserwatywne szacunki, gdy oferta nie podaje składników
+    czynsz_blok: 550           # czynsz administracyjny (blok i pochodne)
+    czynsz_kamienica: 400      # czynsz administracyjny (kamienica)
+    media_default: 350         # media przy ogrzewaniu miejskim/gazowym / nieznanym
+    media_electric: 700        # media przy ogrzewaniu elektrycznym
+
+filters:                       # filtry twarde — stosowane PRZED ocenianiem
+  min_area_m2: 35
+  min_rooms: 2
+  max_age_days: 7              # ogłoszenie starsze niż tyle dni w chwili wykrycia = odrzut
+  allowed_cities: [Gdańsk, Sopot, Gdynia]
+  # kawalerka (mniej pokoi) przechodzi filtr, jeśli opis sugeruje oddzielną sypialnię
+  # (SPEC: właściciele źle kategoryzują) — weryfikacja układu przyjdzie w Etapie 4:
+  studio_bedroom_keywords:
+    - sypialni                 # rdzeń: sypialnia/sypialnię/sypialni
+  reject_phrases:              # wykluczenie najemcy
+    - nie wynajmę studentom
+    - nie dla studentów
+    - bez studentów
+    - tylko dla pracujących
+    - tylko pracujący
+    - wyłącznie pracujący
+    - tylko rodzina
+    - tylko dla rodzin
+    - tylko dla rodziny
+  type_reject_keywords:        # typ inny niż samodzielne mieszkanie
+    - współlokator
+    - współlokatorka
+    - wynajmę pokój
+    - pokój w mieszkaniu
+    - miejsce w pokoju
+    - stancja
+    - współdzielenie
+    - do współdzielenia
+  no_bathroom_keywords:
+    - łazienka wspólna
+    - wspólna łazienka
+    - bez łazienki
+  souterrain_keywords:
+    - suteren                  # rdzeń: suterena/suterenie/suterenę
+
+heating:                       # ogrzewanie NIE jest polem OLX — wykrywamy z opisu
+  electric_keywords:           # -> media 700 (+ -8 pkt w Etapie 4)
+    - ogrzewanie elektryczne
+    - elektryczne ogrzewanie
+    - grzejniki elektryczne
+    - piece elektryczne
+    - ogrzewanie prądem
+    - mata grzewcza
+  reject_keywords:             # piecowe/kaflowe/węglowe -> odrzut
+    - piec kaflowy
+    - piece kaflowe
+    - ogrzewanie piecowe
+    - ogrzewanie węglowe
+    - piec węglowy
+    - na węgiel
+    - opalane węglem
+
+sources:
+  olx:
+    enabled: true
+    base_url: "https://www.olx.pl/api/v1/offers/"
+    category_id: 15            # Mieszkania -> Wynajem (potwierdzone: category.type == real_estate)
+    sort_by: "created_at:desc" # najnowsze najpierw (dla nadrabiania zaległości po ostatnim ID)
+    limit: 40                  # ile ofert na zapytanie (jedno zapytanie na miasto na cykl)
+    # city_id potwierdzone na żywo przez API (wszystkie w region Pomorskie):
+    cities:
+      gdansk: 5659
+      sopot: 15983
+      gdynia: 5849

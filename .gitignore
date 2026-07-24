@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Sekrety — NIGDY do repo (repo publiczne). Webhook idzie przez env / Actions secrets.
+.env
+*.secret
+
+# Zrzuty z --debug-raw (duże, tymczasowe)
+debug_raw_*.json
+
+# UWAGA: state/seen.json JEST commitowany — nie dodawaj go tutaj.

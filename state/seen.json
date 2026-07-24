@@ -1,0 +1,1190 @@
+{
+  "high_water": {
+    "olx": "2026-07-24T14:30:09+02:00"
+  },
+  "seen": {
+    "olx:1010778181": {
+      "cena": 3400,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "3400|42|2|górny sopot",
+      "id": "olx:1010778181"
+    },
+    "olx:1026637284": {
+      "cena": 2400,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2400|31|2|grabówek",
+      "id": "olx:1026637284"
+    },
+    "olx:1047537346": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2500|53|2|brzeźno",
+      "id": "olx:1047537346"
+    },
+    "olx:1051935744": {
+      "cena": 4000,
+      "data_wyslania": "2026-07-24T13:17:16.111517+00:00",
+      "fingerprint": "4000|50|3|orunia - św. wojciech - lipce",
+      "id": "olx:1051935744"
+    },
+    "olx:1057263210": {
+      "cena": 2300,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2300|35|2|oksywie",
+      "id": "olx:1057263210"
+    },
+    "olx:1057829232": {
+      "cena": 2400,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2400|30|1|śródmieście",
+      "id": "olx:1057829232"
+    },
+    "olx:1065438289": {
+      "cena": 3500,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "3500|58|2|karwiny",
+      "id": "olx:1065438289"
+    },
+    "olx:1067091192": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "3000|38|2|górny sopot",
+      "id": "olx:1067091192"
+    },
+    "olx:1070614172": {
+      "cena": 2690,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2690|50|2|centrum",
+      "id": "olx:1070614172"
+    },
+    "olx:1072284870": {
+      "cena": 4000,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "4000|75|3|brętowo",
+      "id": "olx:1072284870"
+    },
+    "olx:1072632198": {
+      "cena": 2600,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2600|37|2|centrum",
+      "id": "olx:1072632198"
+    },
+    "olx:1073677292": {
+      "cena": 3600,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "3600|50|2|dolny sopot",
+      "id": "olx:1073677292"
+    },
+    "olx:1073830009": {
+      "cena": 2950,
+      "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
+      "fingerprint": "2950|30|1|wrzeszcz",
+      "id": "olx:1073830009"
+    },
+    "olx:1074440554": {
+      "cena": 3500,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "3500|40|2|śródmieście",
+      "id": "olx:1074440554"
+    },
+    "olx:1074746784": {
+      "cena": 2600,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2600|46|3|pustki cisowskie-demptowo",
+      "id": "olx:1074746784"
+    },
+    "olx:1075862561": {
+      "cena": 4000,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "4000|65|3|",
+      "id": "olx:1075862561"
+    },
+    "olx:1076016590": {
+      "cena": 3950,
+      "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
+      "fingerprint": "3950|77.86|3|śródmieście",
+      "id": "olx:1076016590"
+    },
+    "olx:1076749883": {
+      "cena": 3400,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "3400|36|2|górny sopot",
+      "id": "olx:1076749883"
+    },
+    "olx:1078012556": {
+      "cena": 1700,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "1700|52|2|orunia - św. wojciech - lipce",
+      "id": "olx:1078012556"
+    },
+    "olx:1078062662": {
+      "cena": 2700,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2700|51|2|piecki-migowo",
+      "id": "olx:1078062662"
+    },
+    "olx:1078066787": {
+      "cena": 2399,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2399|33|2|ujeścisko - łostowice",
+      "id": "olx:1078066787"
+    },
+    "olx:1078070418": {
+      "cena": 2600,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2600|46|2|oliwa",
+      "id": "olx:1078070418"
+    },
+    "olx:1078521529": {
+      "cena": 2200,
+      "data_wyslania": "2026-07-24T10:23:00.081659+00:00",
+      "fingerprint": "2200|18|1|śródmieście",
+      "id": "olx:1078521529"
+    },
+    "olx:1078767399": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2500|50|2|redłowo",
+      "id": "olx:1078767399"
+    },
+    "olx:1079021057": {
+      "cena": 2700,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2700|64|2|centrum",
+      "id": "olx:1079021057"
+    },
+    "olx:1079341519": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-24T09:40:31.122524+00:00",
+      "fingerprint": "3000|42|2|obłuże",
+      "id": "olx:1079341519"
+    },
+    "olx:1079551232": {
+      "cena": 3900,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "3900|45|2|przymorze wielkie",
+      "id": "olx:1079551232"
+    },
+    "olx:1079553154": {
+      "cena": 3900,
+      "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
+      "fingerprint": "3900|40|2|przymorze wielkie",
+      "id": "olx:1079553154"
+    },
+    "olx:1079667512": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2500|30|1|centrum",
+      "id": "olx:1079667512"
+    },
+    "olx:1079684636": {
+      "cena": 2599,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2599|38|2|chylonia",
+      "id": "olx:1079684636"
+    },
+    "olx:1079689268": {
+      "cena": 6700,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "6700|57|3|śródmieście",
+      "id": "olx:1079689268"
+    },
+    "olx:1079738553": {
+      "cena": 2800,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2800|22|1|dolny sopot",
+      "id": "olx:1079738553"
+    },
+    "olx:1080032375": {
+      "cena": 3600,
+      "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
+      "fingerprint": "3600|66|3|wrzeszcz",
+      "id": "olx:1080032375"
+    },
+    "olx:1080591361": {
+      "cena": 3400,
+      "data_wyslania": "2026-07-24T10:23:00.081659+00:00",
+      "fingerprint": "3400|56|2|oliwa",
+      "id": "olx:1080591361"
+    },
+    "olx:1080881897": {
+      "cena": 2300,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2300|20|1|centrum",
+      "id": "olx:1080881897"
+    },
+    "olx:1081193817": {
+      "cena": 2900,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2900|54|3|chełm z dzielnicą gdańsk południe",
+      "id": "olx:1081193817"
+    },
+    "olx:1081212685": {
+      "cena": 6250,
+      "data_wyslania": "2026-07-24T10:23:00.081659+00:00",
+      "fingerprint": "6250|146|4|obłuże",
+      "id": "olx:1081212685"
+    },
+    "olx:1081351285": {
+      "cena": 2900,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2900|35|1|",
+      "id": "olx:1081351285"
+    },
+    "olx:1081596980": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "3000|53|2|matarnia",
+      "id": "olx:1081596980"
+    },
+    "olx:1081728349": {
+      "cena": 4950,
+      "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
+      "fingerprint": "4950|96|4|śródmieście",
+      "id": "olx:1081728349"
+    },
+    "olx:1081736374": {
+      "cena": 2000,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2000|23|1|chylonia",
+      "id": "olx:1081736374"
+    },
+    "olx:1081755797": {
+      "cena": 4500,
+      "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
+      "fingerprint": "4500|70.2|3|piecki-migowo",
+      "id": "olx:1081755797"
+    },
+    "olx:1081792416": {
+      "cena": 2300,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2300|49|2|jasień",
+      "id": "olx:1081792416"
+    },
+    "olx:1082302693": {
+      "cena": 4000,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "4000|67|3|mały kack",
+      "id": "olx:1082302693"
+    },
+    "olx:1082558017": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2500|19|4|leszczynki",
+      "id": "olx:1082558017"
+    },
+    "olx:1082632288": {
+      "cena": 2800,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2800|31.5|1|zaspa młyniec",
+      "id": "olx:1082632288"
+    },
+    "olx:1082824344": {
+      "cena": 3200,
+      "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
+      "fingerprint": "3200|42|2|jasień",
+      "id": "olx:1082824344"
+    },
+    "olx:1082972699": {
+      "cena": 3700,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "3700|45|2|śródmieście",
+      "id": "olx:1082972699"
+    },
+    "olx:1082986397": {
+      "cena": 2000,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2000|20|1|redłowo",
+      "id": "olx:1082986397"
+    },
+    "olx:1083156601": {
+      "cena": 700,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "700|55|2|śródmieście",
+      "id": "olx:1083156601"
+    },
+    "olx:1083175952": {
+      "cena": 4000,
+      "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
+      "fingerprint": "4000|67|3|wrzeszcz",
+      "id": "olx:1083175952"
+    },
+    "olx:1083305057": {
+      "cena": 2590,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2590|50|2|mały kack",
+      "id": "olx:1083305057"
+    },
+    "olx:1083307394": {
+      "cena": 2900,
+      "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
+      "fingerprint": "2900|32|1|śródmieście",
+      "id": "olx:1083307394"
+    },
+    "olx:1083387207": {
+      "cena": 4000,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "4000|55|2|wzgórze mickiewicza",
+      "id": "olx:1083387207"
+    },
+    "olx:1083632272": {
+      "cena": 2950,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2950|52|2|brzeźno",
+      "id": "olx:1083632272"
+    },
+    "olx:1083722040": {
+      "cena": 2650,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2650|59|2|śródmieście",
+      "id": "olx:1083722040"
+    },
+    "olx:1083778700": {
+      "cena": 1800,
+      "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
+      "fingerprint": "1800|26|1|witomino-radiostacja",
+      "id": "olx:1083778700"
+    },
+    "olx:1083782043": {
+      "cena": 2150,
+      "data_wyslania": "2026-07-24T13:17:16.111517+00:00",
+      "fingerprint": "2150|28|1|orunia - św. wojciech - lipce",
+      "id": "olx:1083782043"
+    },
+    "olx:1083787600": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "3000|40|2|letnica",
+      "id": "olx:1083787600"
+    },
+    "olx:1083969969": {
+      "cena": 2800,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2800|40|3|dolny sopot",
+      "id": "olx:1083969969"
+    },
+    "olx:1083972091": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
+      "fingerprint": "2500|22|1|wzgórze mickiewicza",
+      "id": "olx:1083972091"
+    },
+    "olx:1084190078": {
+      "cena": 2600,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2600|50|2|centrum",
+      "id": "olx:1084190078"
+    },
+    "olx:1084232843": {
+      "cena": 4000,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "4000|71|4|piecki-migowo",
+      "id": "olx:1084232843"
+    },
+    "olx:1084249718": {
+      "cena": 2100,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2100|47|2|centrum",
+      "id": "olx:1084249718"
+    },
+    "olx:1084304341": {
+      "cena": 2700,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2700|36|2|górny sopot",
+      "id": "olx:1084304341"
+    },
+    "olx:1084319539": {
+      "cena": 2300,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2300|25|1|wzgórze świętego maksymiliana",
+      "id": "olx:1084319539"
+    },
+    "olx:1084385435": {
+      "cena": 2200,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2200|24|1|śródmieście",
+      "id": "olx:1084385435"
+    },
+    "olx:1084393487": {
+      "cena": 4690,
+      "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
+      "fingerprint": "4690|73|4|piecki-migowo",
+      "id": "olx:1084393487"
+    },
+    "olx:1084414163": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "3000|58|3|wzgórze świętego maksymiliana",
+      "id": "olx:1084414163"
+    },
+    "olx:1084417382": {
+      "cena": 4000,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "4000|58|3|piecki-migowo",
+      "id": "olx:1084417382"
+    },
+    "olx:1084446737": {
+      "cena": 2996,
+      "data_wyslania": "2026-07-24T10:23:00.081659+00:00",
+      "fingerprint": "2996|32|2|śródmieście",
+      "id": "olx:1084446737"
+    },
+    "olx:1084509072": {
+      "cena": 2650,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2650|53|2|chwarzno-wiczlino",
+      "id": "olx:1084509072"
+    },
+    "olx:1084520012": {
+      "cena": 6000,
+      "data_wyslania": "2026-07-24T10:23:00.081659+00:00",
+      "fingerprint": "6000|260|4|osowa",
+      "id": "olx:1084520012"
+    },
+    "olx:1084563299": {
+      "cena": 3100,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "3100|56|3|piecki-migowo",
+      "id": "olx:1084563299"
+    },
+    "olx:1084566883": {
+      "cena": 3100,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "3100|38|2|śródmieście",
+      "id": "olx:1084566883"
+    },
+    "olx:1084622463": {
+      "cena": 2000,
+      "data_wyslania": "2026-07-24T09:40:10.595533+00:00",
+      "fingerprint": "2000|20|1|chylonia",
+      "id": "olx:1084622463"
+    },
+    "olx:1084637739": {
+      "cena": 4000,
+      "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
+      "fingerprint": "4000|56|3|wrzeszcz",
+      "id": "olx:1084637739"
+    },
+    "olx:1084793926": {
+      "cena": 2400,
+      "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
+      "fingerprint": "2400|38|2|przymorze wielkie",
+      "id": "olx:1084793926"
+    },
+    "olx:1084885811": {
+      "cena": 2990,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2990|63|3|jasień",
+      "id": "olx:1084885811"
+    },
+    "olx:1084930931": {
+      "cena": 2600,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2600|41|2|orunia - św. wojciech - lipce",
+      "id": "olx:1084930931"
+    },
+    "olx:1084944132": {
+      "cena": 2400,
+      "data_wyslania": "2026-07-24T10:23:00.081659+00:00",
+      "fingerprint": "2400|37|2|witomino-radiostacja",
+      "id": "olx:1084944132"
+    },
+    "olx:1084979062": {
+      "cena": 4500,
+      "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
+      "fingerprint": "4500|63|3|strzyża",
+      "id": "olx:1084979062"
+    },
+    "olx:1085030772": {
+      "cena": 2000,
+      "data_wyslania": "2026-07-24T10:23:00.081659+00:00",
+      "fingerprint": "2000|26|1|brzeźno",
+      "id": "olx:1085030772"
+    },
+    "olx:1085049775": {
+      "cena": 4000,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "4000|100|4|dolny sopot",
+      "id": "olx:1085049775"
+    },
+    "olx:1085095125": {
+      "cena": 1700,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "1700|33|2|grabówek",
+      "id": "olx:1085095125"
+    },
+    "olx:1085098779": {
+      "cena": 2800,
+      "data_wyslania": "2026-07-24T10:23:00.081659+00:00",
+      "fingerprint": "2800|40|2|ujeścisko - łostowice",
+      "id": "olx:1085098779"
+    },
+    "olx:1085151479": {
+      "cena": 2650,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2650|41.28|2|centrum",
+      "id": "olx:1085151479"
+    },
+    "olx:1085152975": {
+      "cena": 2300,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2300|29|1|żabianka - wejhera - jelitkowo - tysiąclecia",
+      "id": "olx:1085152975"
+    },
+    "olx:1085257828": {
+      "cena": 3300,
+      "data_wyslania": "2026-07-24T10:23:00.081659+00:00",
+      "fingerprint": "3300|38|2|śródmieście",
+      "id": "olx:1085257828"
+    },
+    "olx:1085258432": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "3000|34|2|wrzeszcz",
+      "id": "olx:1085258432"
+    },
+    "olx:1085284280": {
+      "cena": 2250,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2250|21|2|śródmieście",
+      "id": "olx:1085284280"
+    },
+    "olx:1085344374": {
+      "cena": 3450,
+      "data_wyslania": "2026-07-24T10:23:00.081659+00:00",
+      "fingerprint": "3450|39|2|wrzeszcz",
+      "id": "olx:1085344374"
+    },
+    "olx:1085415120": {
+      "cena": 2100,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2100|22|1|górny sopot",
+      "id": "olx:1085415120"
+    },
+    "olx:1085471316": {
+      "cena": 2700,
+      "data_wyslania": "2026-07-24T13:17:16.111517+00:00",
+      "fingerprint": "2700|44|2|aniołki",
+      "id": "olx:1085471316"
+    },
+    "olx:1085664046": {
+      "cena": 3500,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "3500|42|2|górny sopot",
+      "id": "olx:1085664046"
+    },
+    "olx:1085742655": {
+      "cena": 2700,
+      "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
+      "fingerprint": "2700|43|2|piecki-migowo",
+      "id": "olx:1085742655"
+    },
+    "olx:1085792272": {
+      "cena": 2600,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2600|26|1|grabówek",
+      "id": "olx:1085792272"
+    },
+    "olx:1085843852": {
+      "cena": 3300,
+      "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
+      "fingerprint": "3300|43|2|przymorze małe",
+      "id": "olx:1085843852"
+    },
+    "olx:1085848229": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
+      "fingerprint": "3000|30|1|żabianka - wejhera - jelitkowo - tysiąclecia",
+      "id": "olx:1085848229"
+    },
+    "olx:1086031412": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2500|41|2|chełm z dzielnicą gdańsk południe",
+      "id": "olx:1086031412"
+    },
+    "olx:1086034914": {
+      "cena": 3900,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "3900|55|3|mały kack",
+      "id": "olx:1086034914"
+    },
+    "olx:1086077741": {
+      "cena": 2300,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2300|35|1|przymorze wielkie",
+      "id": "olx:1086077741"
+    },
+    "olx:1086119041": {
+      "cena": 3200,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "3200|39|2|orłowo",
+      "id": "olx:1086119041"
+    },
+    "olx:1086195958": {
+      "cena": 3200,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "3200|32|2|centrum",
+      "id": "olx:1086195958"
+    },
+    "olx:1086261029": {
+      "cena": 2900,
+      "data_wyslania": "2026-07-24T09:40:42.964754+00:00",
+      "fingerprint": "2900|38|3|przymorze wielkie",
+      "id": "olx:1086261029"
+    },
+    "olx:1086299252": {
+      "cena": 3200,
+      "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
+      "fingerprint": "3200|52|2|redłowo",
+      "id": "olx:1086299252"
+    },
+    "olx:1086415752": {
+      "cena": 1990,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "1990|30|1|centrum",
+      "id": "olx:1086415752"
+    },
+    "olx:1086438338": {
+      "cena": 2199,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2199|31|1|dolny sopot",
+      "id": "olx:1086438338"
+    },
+    "olx:1086453724": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-24T10:23:00.081659+00:00",
+      "fingerprint": "2500|35|2|jasień",
+      "id": "olx:1086453724"
+    },
+    "olx:1086458137": {
+      "cena": 2350,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2350|33|2|ujeścisko - łostowice",
+      "id": "olx:1086458137"
+    },
+    "olx:1086496878": {
+      "cena": 3500,
+      "data_wyslania": "2026-07-24T13:17:16.111517+00:00",
+      "fingerprint": "3500|57|3|ujeścisko - łostowice",
+      "id": "olx:1086496878"
+    },
+    "olx:1086505012": {
+      "cena": 2400,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2400|33|2|obłuże",
+      "id": "olx:1086505012"
+    },
+    "olx:1086518529": {
+      "cena": 3200,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "3200|52|2|redłowo",
+      "id": "olx:1086518529"
+    },
+    "olx:1086549933": {
+      "cena": 2900,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2900|40.3|2|",
+      "id": "olx:1086549933"
+    },
+    "olx:1086552299": {
+      "cena": 2950,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2950|42|3|górny sopot",
+      "id": "olx:1086552299"
+    },
+    "olx:1086576268": {
+      "cena": 2300,
+      "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
+      "fingerprint": "2300|25.73|1|siedlce",
+      "id": "olx:1086576268"
+    },
+    "olx:1086581691": {
+      "cena": 3200,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "3200|54|3|dolny sopot",
+      "id": "olx:1086581691"
+    },
+    "olx:1086618900": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2500|26|2|redłowo",
+      "id": "olx:1086618900"
+    },
+    "olx:1086661211": {
+      "cena": 2800,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2800|25|2|centrum",
+      "id": "olx:1086661211"
+    },
+    "olx:1086716139": {
+      "cena": 4200,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "4200|58.5|3|dolny sopot",
+      "id": "olx:1086716139"
+    },
+    "olx:1086733195": {
+      "cena": 2800,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2800|54|2|zaspa młyniec",
+      "id": "olx:1086733195"
+    },
+    "olx:1086750576": {
+      "cena": 4900,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "4900|64|3|aniołki",
+      "id": "olx:1086750576"
+    },
+    "olx:1086791992": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2500|44|2|leszczynki",
+      "id": "olx:1086791992"
+    },
+    "olx:1086866726": {
+      "cena": 6200,
+      "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
+      "fingerprint": "6200|70|3|przymorze małe",
+      "id": "olx:1086866726"
+    },
+    "olx:1086867020": {
+      "cena": 3200,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "3200|53|3|górny sopot",
+      "id": "olx:1086867020"
+    },
+    "olx:1086884708": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-24T09:40:42.964754+00:00",
+      "fingerprint": "3000|41|2|przymorze małe",
+      "id": "olx:1086884708"
+    },
+    "olx:1086892086": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2500|45|1|dolny sopot",
+      "id": "olx:1086892086"
+    },
+    "olx:1086902094": {
+      "cena": 2300,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2300|33|2|działki leśne",
+      "id": "olx:1086902094"
+    },
+    "olx:1086903576": {
+      "cena": 2200,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2200|37|1|śródmieście",
+      "id": "olx:1086903576"
+    },
+    "olx:1086910162": {
+      "cena": 1300,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "1300|22|1|pustki cisowskie-demptowo",
+      "id": "olx:1086910162"
+    },
+    "olx:1086911116": {
+      "cena": 2700,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2700|54|2|obłuże",
+      "id": "olx:1086911116"
+    },
+    "olx:1086915826": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2500|50|2|oksywie",
+      "id": "olx:1086915826"
+    },
+    "olx:1086936661": {
+      "cena": 2800,
+      "data_wyslania": "2026-07-24T10:23:00.081659+00:00",
+      "fingerprint": "2800|45|2|przymorze wielkie",
+      "id": "olx:1086936661"
+    },
+    "olx:1086939645": {
+      "cena": 2900,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2900|46|2|śródmieście",
+      "id": "olx:1086939645"
+    },
+    "olx:1086950943": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "3000|40|2|letnica",
+      "id": "olx:1086950943"
+    },
+    "olx:1086967497": {
+      "cena": 3800,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "3800|64|3|śródmieście",
+      "id": "olx:1086967497"
+    },
+    "olx:1086983369": {
+      "cena": 2200,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2200|34|1|centrum",
+      "id": "olx:1086983369"
+    },
+    "olx:1086983524": {
+      "cena": 2200,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2200|36|2|centrum",
+      "id": "olx:1086983524"
+    },
+    "olx:1086985242": {
+      "cena": 2100,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2100|30|1|",
+      "id": "olx:1086985242"
+    },
+    "olx:1087009153": {
+      "cena": 3490,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "3490|100|3|centrum",
+      "id": "olx:1087009153"
+    },
+    "olx:1087019375": {
+      "cena": 2000,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2000|18|1|górny sopot",
+      "id": "olx:1087019375"
+    },
+    "olx:1087024141": {
+      "cena": 2000,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2000|18|1|górny sopot",
+      "id": "olx:1087024141"
+    },
+    "olx:1087032630": {
+      "cena": 3800,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "3800|100|3|redłowo",
+      "id": "olx:1087032630"
+    },
+    "olx:1087058775": {
+      "cena": 1500,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "1500|15|1|leszczynki",
+      "id": "olx:1087058775"
+    },
+    "olx:1087078626": {
+      "cena": 5000,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "5000|54|3|działki leśne",
+      "id": "olx:1087078626"
+    },
+    "olx:1087078888": {
+      "cena": 1650,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "1650|26|1|leszczynki",
+      "id": "olx:1087078888"
+    },
+    "olx:1087083334": {
+      "cena": 5000,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "5000|60|3|śródmieście",
+      "id": "olx:1087083334"
+    },
+    "olx:1087094563": {
+      "cena": 3100,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "3100|30|2|śródmieście",
+      "id": "olx:1087094563"
+    },
+    "olx:1087099432": {
+      "cena": 1700,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "1700|30|1|orłowo",
+      "id": "olx:1087099432"
+    },
+    "olx:1087107938": {
+      "cena": 2000,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2000|27|1|działki leśne",
+      "id": "olx:1087107938"
+    },
+    "olx:1087114685": {
+      "cena": 2600,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2600|40|2|ujeścisko - łostowice",
+      "id": "olx:1087114685"
+    },
+    "olx:1087127524": {
+      "cena": 2800,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2800|40|2|chełm z dzielnicą gdańsk południe",
+      "id": "olx:1087127524"
+    },
+    "olx:1087127807": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "3000|60|3|",
+      "id": "olx:1087127807"
+    },
+    "olx:1087127968": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2500|49|3|chylonia",
+      "id": "olx:1087127968"
+    },
+    "olx:1087129138": {
+      "cena": 4400,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "4400|90|4|wrzeszcz",
+      "id": "olx:1087129138"
+    },
+    "olx:1087129235": {
+      "cena": 2800,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2800|46.18|2|jasień",
+      "id": "olx:1087129235"
+    },
+    "olx:1087131236": {
+      "cena": 3600,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "3600|47|3|żabianka - wejhera - jelitkowo - tysiąclecia",
+      "id": "olx:1087131236"
+    },
+    "olx:1087131505": {
+      "cena": 3300,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "3300|55|3|śródmieście",
+      "id": "olx:1087131505"
+    },
+    "olx:1087134372": {
+      "cena": 2700,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2700|39|2|centrum",
+      "id": "olx:1087134372"
+    },
+    "olx:1087136229": {
+      "cena": 2800,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2800|48|2|ujeścisko - łostowice",
+      "id": "olx:1087136229"
+    },
+    "olx:1087138419": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2500|47|2|działki leśne",
+      "id": "olx:1087138419"
+    },
+    "olx:1087142052": {
+      "cena": 2000,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2000|34|1|",
+      "id": "olx:1087142052"
+    },
+    "olx:1087143140": {
+      "cena": 1500,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "1500|20|1|wrzeszcz",
+      "id": "olx:1087143140"
+    },
+    "olx:1087143259": {
+      "cena": 1050,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "1050|8|4|wrzeszcz",
+      "id": "olx:1087143259"
+    },
+    "olx:1087145062": {
+      "cena": 2600,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2600|32|2|wzgórze świętego maksymiliana",
+      "id": "olx:1087145062"
+    },
+    "olx:1087147445": {
+      "cena": 2950,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2950|45|2|przymorze wielkie",
+      "id": "olx:1087147445"
+    },
+    "olx:1087156133": {
+      "cena": 2800,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2800|44|2|piecki-migowo",
+      "id": "olx:1087156133"
+    },
+    "olx:1087158788": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "3000|56|3|leszczynki",
+      "id": "olx:1087158788"
+    },
+    "olx:1087159923": {
+      "cena": 1900,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "1900|20|1|przymorze małe",
+      "id": "olx:1087159923"
+    },
+    "olx:1087161404": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2500|22|2|śródmieście",
+      "id": "olx:1087161404"
+    },
+    "olx:1087168579": {
+      "cena": 2420,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2420|28|1|brzeźno",
+      "id": "olx:1087168579"
+    },
+    "olx:1087171752": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-24T10:23:00.081659+00:00",
+      "fingerprint": "2500|28|1|brzeźno",
+      "id": "olx:1087171752"
+    },
+    "olx:1087171873": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-24T10:23:00.081659+00:00",
+      "fingerprint": "3000|30|1|śródmieście",
+      "id": "olx:1087171873"
+    },
+    "olx:1087174089": {
+      "cena": 2800,
+      "data_wyslania": "2026-07-24T10:23:00.081659+00:00",
+      "fingerprint": "2800|41|2|żabianka - wejhera - jelitkowo - tysiąclecia",
+      "id": "olx:1087174089"
+    },
+    "olx:1087175956": {
+      "cena": 3600,
+      "data_wyslania": "2026-07-24T10:23:00.081659+00:00",
+      "fingerprint": "3600|49.11|3|ujeścisko - łostowice",
+      "id": "olx:1087175956"
+    },
+    "olx:1087177142": {
+      "cena": 1550,
+      "data_wyslania": "2026-07-24T10:23:00.081659+00:00",
+      "fingerprint": "1550|30|1|",
+      "id": "olx:1087177142"
+    },
+    "olx:1087179506": {
+      "cena": 3600,
+      "data_wyslania": "2026-07-24T10:23:00.081659+00:00",
+      "fingerprint": "3600|45|2|",
+      "id": "olx:1087179506"
+    },
+    "olx:1087179650": {
+      "cena": 2490,
+      "data_wyslania": "2026-07-24T10:23:00.081659+00:00",
+      "fingerprint": "2490|52|2|chełm z dzielnicą gdańsk południe",
+      "id": "olx:1087179650"
+    },
+    "olx:1087183768": {
+      "cena": 3500,
+      "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
+      "fingerprint": "3500|50|2|przymorze wielkie",
+      "id": "olx:1087183768"
+    },
+    "olx:1087189962": {
+      "cena": 2700,
+      "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
+      "fingerprint": "2700|31|1|zaspa młyniec",
+      "id": "olx:1087189962"
+    },
+    "olx:1087192844": {
+      "cena": 2100,
+      "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
+      "fingerprint": "2100|30|1|śródmieście",
+      "id": "olx:1087192844"
+    },
+    "olx:1087193651": {
+      "cena": 3500,
+      "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
+      "fingerprint": "3500|49|2|przymorze małe",
+      "id": "olx:1087193651"
+    },
+    "olx:1087194181": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
+      "fingerprint": "2500|31|2|śródmieście",
+      "id": "olx:1087194181"
+    },
+    "olx:1087194712": {
+      "cena": 2540,
+      "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
+      "fingerprint": "2540|62.63|3|",
+      "id": "olx:1087194712"
+    },
+    "olx:1087194722": {
+      "cena": 2800,
+      "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
+      "fingerprint": "2800|37|2|śródmieście",
+      "id": "olx:1087194722"
+    },
+    "olx:1087196256": {
+      "cena": 3200,
+      "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
+      "fingerprint": "3200|34|2|śródmieście",
+      "id": "olx:1087196256"
+    },
+    "olx:1087197050": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
+      "fingerprint": "2500|25|1|śródmieście",
+      "id": "olx:1087197050"
+    },
+    "olx:1087197525": {
+      "cena": 3500,
+      "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
+      "fingerprint": "3500|40|2|stogi z przeróbką",
+      "id": "olx:1087197525"
+    },
+    "olx:1087201536": {
+      "cena": 3599,
+      "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
+      "fingerprint": "3599|70|3|chełm z dzielnicą gdańsk południe",
+      "id": "olx:1087201536"
+    },
+    "olx:1087202564": {
+      "cena": 2100,
+      "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
+      "fingerprint": "2100|22|1|wzgórze świętego maksymiliana",
+      "id": "olx:1087202564"
+    },
+    "olx:1087203700": {
+      "cena": 2900,
+      "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
+      "fingerprint": "2900|31|1|oliwa",
+      "id": "olx:1087203700"
+    },
+    "olx:1087209698": {
+      "cena": 2750,
+      "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
+      "fingerprint": "2750|36|2|śródmieście",
+      "id": "olx:1087209698"
+    },
+    "olx:777472320": {
+      "cena": 3500,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "3500|75|2|dolny sopot",
+      "id": "olx:777472320"
+    },
+    "olx:867649663": {
+      "cena": 2300,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2300|50|2|centrum",
+      "id": "olx:867649663"
+    },
+    "olx:935573684": {
+      "cena": 2100,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "2100|16|1|centrum",
+      "id": "olx:935573684"
+    },
+    "olx:984629700": {
+      "cena": 3900,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "3900|70|3|dolny sopot",
+      "id": "olx:984629700"
+    },
+    "olx:998531228": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
+      "fingerprint": "3000|56|3|pustki cisowskie-demptowo",
+      "id": "olx:998531228"
+    }
+  },
+  "version": 1
+}
