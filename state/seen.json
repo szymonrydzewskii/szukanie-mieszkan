@@ -1,7 +1,7 @@
 {
   "daily": {},
   "high_water": {
-    "olx": "2026-07-24T20:28:12+02:00"
+    "olx": "2026-07-24T21:28:36+02:00"
   },
   "seen": {
     "olx:1010778181": {
@@ -51,6 +51,12 @@
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
       "fingerprint": "2400|30|1|śródmieście",
       "id": "olx:1057829232"
+    },
+    "olx:1058650678": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-24T20:05:29.070584+00:00",
+      "fingerprint": "2500|28|1|przymorze wielkie",
+      "id": "olx:1058650678"
     },
     "olx:1062636899": {
       "cena": 2600,
@@ -165,6 +171,12 @@
       "data_wyslania": "2026-07-24T14:12:43.011962+00:00",
       "fingerprint": "2499|34|2|przymorze małe",
       "id": "olx:1077762890"
+    },
+    "olx:1077923921": {
+      "cena": 2600,
+      "data_wyslania": "2026-07-24T20:05:29.070584+00:00",
+      "fingerprint": "2600|31|1|zaspa młyniec",
+      "id": "olx:1077923921"
     },
     "olx:1078012556": {
       "cena": 1700,
@@ -358,6 +370,12 @@
       "fingerprint": "2800|31.5|1|zaspa młyniec",
       "id": "olx:1082632288"
     },
+    "olx:1082819823": {
+      "cena": 3300,
+      "data_wyslania": "2026-07-24T20:05:29.070584+00:00",
+      "fingerprint": "3300|63|3|chełm z dzielnicą gdańsk południe",
+      "id": "olx:1082819823"
+    },
     "olx:1082824344": {
       "cena": 3200,
       "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
@@ -525,6 +543,12 @@
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
       "fingerprint": "4000|58|3|piecki-migowo",
       "id": "olx:1084417382"
+    },
+    "olx:1084438656": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-24T20:05:29.070584+00:00",
+      "fingerprint": "3000|49|2|przymorze małe",
+      "id": "olx:1084438656"
     },
     "olx:1084446737": {
       "cena": 2996,
@@ -928,6 +952,12 @@
       "fingerprint": "4900|64|3|aniołki",
       "id": "olx:1086750576"
     },
+    "olx:1086766414": {
+      "cena": 2300,
+      "data_wyslania": "2026-07-24T20:05:29.070584+00:00",
+      "fingerprint": "2300|35|1|jasień",
+      "id": "olx:1086766414"
+    },
     "olx:1086779866": {
       "cena": 3600,
       "data_wyslania": "2026-07-24T14:00:49.622132+00:00",
@@ -969,6 +999,12 @@
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
       "fingerprint": "2300|33|2|działki leśne",
       "id": "olx:1086902094"
+    },
+    "olx:1086902427": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-24T20:05:29.070584+00:00",
+      "fingerprint": "2500|48|2|żabianka - wejhera - jelitkowo - tysiąclecia",
+      "id": "olx:1086902427"
     },
     "olx:1086903576": {
       "cena": 2200,
@@ -1504,6 +1540,36 @@
       "fingerprint": "2400|30|1|centrum",
       "id": "olx:1087279141"
     },
+    "olx:1087282213": {
+      "cena": 3300,
+      "data_wyslania": "2026-07-24T20:05:29.070584+00:00",
+      "fingerprint": "3300|49|2|siedlce",
+      "id": "olx:1087282213"
+    },
+    "olx:1087282275": {
+      "cena": 3500,
+      "data_wyslania": "2026-07-24T20:05:29.070584+00:00",
+      "fingerprint": "3500|64|3|wzgórze mickiewicza",
+      "id": "olx:1087282275"
+    },
+    "olx:1087282458": {
+      "cena": 1500,
+      "data_wyslania": "2026-07-24T20:05:29.070584+00:00",
+      "fingerprint": "1500|32|1|wrzeszcz",
+      "id": "olx:1087282458"
+    },
+    "olx:1087283828": {
+      "cena": 3200,
+      "data_wyslania": "2026-07-24T20:05:29.070584+00:00",
+      "fingerprint": "3200|47|2|mały kack",
+      "id": "olx:1087283828"
+    },
+    "olx:1087291190": {
+      "cena": 4500,
+      "data_wyslania": "2026-07-24T20:05:29.070584+00:00",
+      "fingerprint": "4500|68|3|strzyża",
+      "id": "olx:1087291190"
+    },
     "olx:777472320": {
       "cena": 3500,
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
@@ -1527,6 +1593,12 @@
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
       "fingerprint": "2100|16|1|centrum",
       "id": "olx:935573684"
+    },
+    "olx:969886982": {
+      "cena": 3500,
+      "data_wyslania": "2026-07-24T20:05:29.070584+00:00",
+      "fingerprint": "3500|56|3|letnica",
+      "id": "olx:969886982"
     },
     "olx:984629700": {
       "cena": 3900,
