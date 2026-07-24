@@ -1,7 +1,7 @@
 {
   "daily": {},
   "high_water": {
-    "olx": "2026-07-24T15:56:00+02:00"
+    "olx": "2026-07-24T16:42:52+02:00"
   },
   "seen": {
     "olx:1010778181": {
@@ -141,6 +141,12 @@
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
       "fingerprint": "3400|36|2|górny sopot",
       "id": "olx:1076749883"
+    },
+    "olx:1076924359": {
+      "cena": 2200,
+      "data_wyslania": "2026-07-24T15:03:46.714760+00:00",
+      "fingerprint": "2200|40|1|ujeścisko - łostowice",
+      "id": "olx:1076924359"
     },
     "olx:1077762890": {
       "cena": 2499,
@@ -742,6 +748,12 @@
       "fingerprint": "2800|36|2|ujeścisko - łostowice",
       "id": "olx:1086310280"
     },
+    "olx:1086362788": {
+      "cena": 1990,
+      "data_wyslania": "2026-07-24T15:03:46.714760+00:00",
+      "fingerprint": "1990|40|2|kokoszki",
+      "id": "olx:1086362788"
+    },
     "olx:1086415752": {
       "cena": 1990,
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
@@ -759,6 +771,12 @@
       "data_wyslania": "2026-07-24T10:23:00.081659+00:00",
       "fingerprint": "2500|35|2|jasień",
       "id": "olx:1086453724"
+    },
+    "olx:1086456662": {
+      "cena": 4000,
+      "data_wyslania": "2026-07-24T15:03:46.714760+00:00",
+      "fingerprint": "4000|71|4|piecki-migowo",
+      "id": "olx:1086456662"
     },
     "olx:1086458137": {
       "cena": 2350,
@@ -1305,6 +1323,18 @@
       "data_wyslania": "2026-07-24T14:12:43.011962+00:00",
       "fingerprint": "2800|40|2|wzgórze świętego maksymiliana",
       "id": "olx:1087228903"
+    },
+    "olx:1087231441": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-24T15:03:46.714760+00:00",
+      "fingerprint": "2500|39|2|przymorze wielkie",
+      "id": "olx:1087231441"
+    },
+    "olx:1087236575": {
+      "cena": 4200,
+      "data_wyslania": "2026-07-24T15:03:46.714760+00:00",
+      "fingerprint": "4200|65|3|brzeźno",
+      "id": "olx:1087236575"
     },
     "olx:777472320": {
       "cena": 3500,
