@@ -3381,6 +3381,12 @@
       "fingerprint": "1190000|50.3|2|centrum",
       "id": "olx_sale:1083071191"
     },
+    "olx_sale:1083110268": {
+      "cena": 739780,
+      "data_wyslania": "2026-07-25T10:48:08.260659+00:00",
+      "fingerprint": "739780|39.36|2|śródmieście",
+      "id": "olx_sale:1083110268"
+    },
     "olx_sale:1083127292": {
       "cena": 452960,
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
@@ -3452,6 +3458,12 @@
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
       "fingerprint": "382600|32|2|śródmieście",
       "id": "olx_sale:1084338181"
+    },
+    "olx_sale:1084338183": {
+      "cena": 295000,
+      "data_wyslania": "2026-07-25T10:48:08.260659+00:00",
+      "fingerprint": "295000|25.51|1|śródmieście",
+      "id": "olx_sale:1084338183"
     },
     "olx_sale:1084338375": {
       "cena": 685000,
@@ -4034,6 +4046,18 @@
       "data_wyslania": "2026-07-25T09:30:44.441603+00:00",
       "fingerprint": "2499|36|2|wrzeszcz górny",
       "id": "trojmiasto:66489852"
+    },
+    "trojmiasto_sale:66126638": {
+      "cena": 1999000,
+      "data_wyslania": "2026-07-25T10:48:08.260659+00:00",
+      "fingerprint": "1999000|122.3|4|mały kack",
+      "id": "trojmiasto_sale:66126638"
+    },
+    "trojmiasto_sale:66171592": {
+      "cena": 670000,
+      "data_wyslania": "2026-07-25T10:48:08.260659+00:00",
+      "fingerprint": "670000|49.82|3|wrzeszcz dolny",
+      "id": "trojmiasto_sale:66171592"
     },
     "trojmiasto_sale:66392643": {
       "cena": 4360000,
