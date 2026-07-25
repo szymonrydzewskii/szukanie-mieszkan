@@ -14,6 +14,7 @@ import argparse
 import json
 import os
 import sys
+import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
@@ -135,6 +136,75 @@ def cmd_test_alert(config: dict[str, Any]) -> None:
     })
     notify.send_monitoring(embed)
     print(f"Wysłano testową wiadomość na #alerty ({len(sources)} źródeł na liście).")
+
+
+def cmd_resend_matches(config: dict[str, Any], which: str = "all") -> None:
+    """Wyślij AKTUALNE trafienia ponownie, ignorując stan (jednorazowe nadrobienie).
+
+    Po co: cold start („zasiej po cichu") oraz dodanie nowego portalu oznaczają
+    wszystkie wtedy widoczne oferty jako widziane — w tym dobre. Ta komenda
+    pozwala je odzyskać. Nie rusza stanu, więc nie psuje normalnego skanowania.
+    """
+    now = datetime.now(timezone.utc)
+    loc_cfg = config["location"]
+    notify_cfg = config.get("notify", {})
+    photo_size = notify_cfg.get("photo_size", "640x480")
+    sale_cfg = config.get("sale", {})
+    limit = config.get("monitoring", {}).get("max_resend", 40)
+
+    sent = skipped = 0
+    for name, src_cfg in config["sources"].items():
+        if not src_cfg.get("enabled"):
+            continue
+        mode = src_cfg.get("mode", "rent")
+        if which != "all" and mode != which:
+            continue
+        try:
+            offers = build_source(name, config).fetch()
+        except SourceError as e:
+            print(f"{name}: BŁĄD ŹRÓDŁA — {e} (pomijam)")
+            continue
+
+        for offer in offers:
+            if sent >= limit:
+                skipped += 1
+                continue
+            text = filters.offer_text(offer)
+            if mode == "sale":
+                if filters.classify_sale(offer, text, config, now).kind != "match":
+                    continue
+                env = "DISCORD_WEBHOOK_SALE"
+                if not os.environ.get(env):
+                    print(f"  [pominięte — brak {env}] {offer.source_id}")
+                    continue
+                ppm = sale.price_per_m2(offer.price, offer.area_m2)
+                notify.send_sale_offer(
+                    offer, ppm, sale.is_deal(offer.price, offer.area_m2,
+                                             sale_cfg.get("deal_price_per_m2", 0)),
+                    channel="main", station_info=_station_info(offer, loc_cfg),
+                    photo_size=photo_size,
+                    buy_message_template=notify_cfg.get("buy_message_template"),
+                    webhook_env=env,
+                )
+                print(f"  -> [#sprzedaz] {offer.source_id} ({offer.price} zł) {offer.title[:40]}")
+            else:
+                cost = cost_mod.compute_cost(offer, text, config)
+                if filters.classify(offer, text, cost, config, now).kind != "match":
+                    continue
+                if not os.environ.get("DISCORD_WEBHOOK"):
+                    print(f"  [pominięte — brak DISCORD_WEBHOOK] {offer.source_id}")
+                    continue
+                notify.send_offer(
+                    offer, cost, channel="main", station_info=_station_info(offer, loc_cfg),
+                    photo_size=photo_size,
+                    owner_message_template=notify_cfg.get("owner_message_template"),
+                )
+                print(f"  -> [#mieszkania] {offer.source_id} ({cost.total} zł) {offer.title[:40]}")
+            sent += 1
+            time.sleep(1)  # odstęp między wysyłkami (limity Discorda)
+
+    print(f"\nWysłano {sent} aktualnych trafień"
+          + (f"; pominięto {skipped} ponad limit {limit}." if skipped else "."))
 
 
 def cmd_once(config: dict[str, Any]) -> None:
@@ -297,6 +367,9 @@ def main() -> None:
     group.add_argument("--debug-raw", metavar="PORTAL", help="pokaż surową odpowiedź portalu")
     group.add_argument("--test-alert", action="store_true",
                        help="wyślij testową wiadomość na #alerty (sprawdzenie webhooka)")
+    group.add_argument("--resend-matches", nargs="?", const="all",
+                       choices=["rent", "sale", "all"], metavar="TRYB",
+                       help="wyślij ponownie aktualne trafienia (nadrobienie po zasiewie)")
     args = parser.parse_args()
 
     config = load_config()
@@ -305,6 +378,8 @@ def main() -> None:
         cmd_debug_raw(args.debug_raw, config)
     elif args.test_alert:
         cmd_test_alert(config)
+    elif args.resend_matches:
+        cmd_resend_matches(config, args.resend_matches)
     elif args.once:
         cmd_once(config)
 
