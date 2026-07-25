@@ -13,7 +13,7 @@ widziane trafia do stanu.
 from __future__ import annotations
 
 from dataclasses import dataclass
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import Callable
 
 from core import dedup, state
@@ -31,6 +31,15 @@ EvaluateFn = Callable[[Offer], Decision]
 SendFn = Callable[..., None]  # (offer, cost, channel, reason, price_drop)
 
 
+def _created_dt(offer: Offer) -> datetime | None:
+    if not offer.created_time:
+        return None
+    try:
+        return datetime.fromisoformat(offer.created_time)
+    except ValueError:
+        return None
+
+
 def _novelty(offer: Offer) -> str | None:
     """Wartość porównywalna leksykalnie do znacznika nowości. Domyślnie created_time
     (OLX: wiarygodna data), ale źródło może podać novelty_key (Trojmiasto: ID)."""
@@ -40,6 +49,27 @@ def _novelty(offer: Offer) -> str | None:
 def _max_novelty(offers: list[Offer]) -> str | None:
     vals = [nv for nv in (_novelty(o) for o in offers) if nv]
     return max(vals) if vals else None
+
+
+def _is_fresh(offer: Offer, hwm: str, now: datetime, window_hours: float) -> bool:
+    """Czy ofertę traktujemy jako nową (godną wysyłki)?
+
+    Dwa przypadki, bo portale dają różne dane:
+
+    1. Źródła z ID jako znacznikiem nowości (Trojmiasto, Nieruchomosci-online —
+       data na liście to często data BUMPU): porównanie z high-water-markiem ID.
+    2. Źródła z wiarygodną datą utworzenia (OLX): OKNO ŚWIEŻOŚCI zamiast znacznika.
+       Znacznik zawodził, gdy oferta trafiała do feedu z opóźnieniem (moderacja):
+       powstawała np. o 14:24, ale pojawiała się, gdy znacznik stał już na 14:56 —
+       i wypadała jako "stara rotująca", choć była nowa i nigdy niewysłana.
+       Przed powtórkami chroni Poziom 1 dedupu (po ID), więc okno jest bezpieczne.
+    """
+    if offer.novelty_key is not None:
+        return offer.novelty_key > hwm
+    created = _created_dt(offer)
+    if created is None:
+        return False  # brak daty i brak ID -> nie zgadujemy, tylko zapamiętujemy
+    return created >= now - timedelta(hours=window_hours)
 
 
 def process_source(
@@ -53,6 +83,7 @@ def process_source(
     send_fn: SendFn,
     cross_price_tol: int | None = None,
     cross_area_tol: float | None = None,
+    novelty_window_hours: float = 48,
 ) -> dict:
     """Przetwórz oferty jednego portalu. Zwróć podsumowanie liczbowe."""
     summary = {
@@ -95,8 +126,7 @@ def process_source(
         elif result.status is dedup.DedupStatus.DUPLICATE:
             summary["skipped"] += 1
         else:  # NEW -> bramka nowości
-            nv = _novelty(o)
-            if nv is not None and nv > hwm:
+            if _is_fresh(o, hwm, now, novelty_window_hours):
                 if check_cross and dedup.cross_portal_match(o, st, cross_price_tol, cross_area_tol):
                     _record(o)  # ten sam lokal z innego portalu -> nie wysyłaj ponownie
                     summary["cross_dup"] += 1

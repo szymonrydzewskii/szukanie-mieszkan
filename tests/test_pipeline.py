@@ -40,8 +40,8 @@ def run(offers, st, send, evaluate_fn=None):
                                    evaluate_fn=evaluate_fn or evaluate("match"), send_fn=send)
 
 
-def seed(st, sid="0"):
-    run([make_offer(sid, created="2026-07-24T10:00:00+00:00")], st, SendRec())
+def seed(st, sid="0", created="2026-07-24T10:00:00+00:00"):
+    run([make_offer(sid, created=created)], st, SendRec())
 
 
 def test_cold_start_seeds_and_sends_nothing():
@@ -102,6 +102,32 @@ def test_old_rotating_offer_backfilled():
     seed(st)
     send = SendRec()
     summary = run([make_offer("9", created="2026-05-01T10:00:00+00:00")], st, send)
+    assert send.calls == [] and summary["backfilled"] == 1
+
+
+def test_late_indexed_offer_older_than_watermark_is_still_sent():
+    """Regresja: oferta z prawdziwą datą utworzenia, zindeksowana z opóźnieniem.
+
+    Powstała 2 h temu, ale trafiła do feedu, gdy znacznik stał już wyżej.
+    Wcześniej ginęła (backfill) — teraz decyduje okno świeżości.
+    """
+    st = {"version": 1, "seen": {}, "high_water": {}, "daily": {}}
+    seed(st, created="2026-07-24T11:00:00+00:00")
+    # znacznik przesunięty do przodu przez szybciej zindeksowaną ofertę
+    run([make_offer("2", created="2026-07-24T11:50:00+00:00")], st, SendRec())
+    send = SendRec()
+    late = make_offer("3", created="2026-07-24T11:20:00+00:00")   # starsza niż znacznik, ale świeża
+    summary = run([late], st, send)
+    assert send.calls == [("3", "main", None)]
+    assert summary["sent_main"] == 1
+
+
+def test_offer_outside_freshness_window_is_backfilled():
+    st = {"version": 1, "seen": {}, "high_water": {}, "daily": {}}
+    seed(st)
+    send = SendRec()
+    old = make_offer("9", created="2026-05-01T10:00:00+00:00")   # sprzed miesięcy
+    summary = run([old], st, send)
     assert send.calls == [] and summary["backfilled"] == 1
 
 

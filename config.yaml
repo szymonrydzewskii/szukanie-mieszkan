@@ -42,6 +42,10 @@ state:
 
 dedup:
   price_drop_threshold: 100    # zł; spadek CENY o więcej niż tyle = ponowna wysyłka "OBNIŻKA"
+  # Okno świeżości dla źródeł z wiarygodną datą utworzenia (OLX). Oferta niewidziana
+  # wcześniej i utworzona w ciągu tylu godzin = nowa, warta wysyłki — nawet jeśli
+  # trafiła do feedu z opóźnieniem (moderacja). Chroni przed gubieniem ofert.
+  novelty_window_hours: 48
   cross_portal:                # Poziom 2: ta sama oferta na różnych portalach = jedno powiadomienie
     price_tol: 100             # tolerancja ceny (zł)
     area_tol: 2                # tolerancja metrażu (m²) — + pokoje dokładnie + dzielnica luźno

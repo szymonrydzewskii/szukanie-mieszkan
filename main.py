@@ -236,6 +236,7 @@ def cmd_once(config: dict[str, Any]) -> None:
             summary = pipeline.process_source(
                 name, offers, st, threshold, now, evaluate_fn=ev, send_fn=snd,
                 cross_price_tol=cross.get("price_tol"), cross_area_tol=cross.get("area_tol"),
+                novelty_window_hours=dedup_cfg.get("novelty_window_hours", 48),
             )
         except SourceError as e:
             print(f"{name}: BŁĄD ŹRÓDŁA — {e} (pomijam, pozostałe portale lecą dalej)")
