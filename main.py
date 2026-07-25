@@ -138,7 +138,8 @@ def cmd_test_alert(config: dict[str, Any]) -> None:
     print(f"Wysłano testową wiadomość na #alerty ({len(sources)} źródeł na liście).")
 
 
-def cmd_resend_matches(config: dict[str, Any], which: str = "all") -> None:
+def cmd_resend_matches(config: dict[str, Any], which: str = "all",
+                       include_near: bool = False) -> None:
     """Wyślij AKTUALNE trafienia ponownie, ignorując stan (jednorazowe nadrobienie).
 
     Po co: cold start („zasiej po cichu") oraz dodanie nowego portalu oznaczają
@@ -171,9 +172,14 @@ def cmd_resend_matches(config: dict[str, Any], which: str = "all") -> None:
                 continue
             text = filters.offer_text(offer)
             if mode == "sale":
-                if filters.classify_sale(offer, text, config, now).kind != "match":
+                verdict = filters.classify_sale(offer, text, config, now)
+                if verdict.kind == "match":
+                    channel, env, label = "main", "DISCORD_WEBHOOK_SALE", "#sprzedaz"
+                elif verdict.kind == "near_miss" and include_near:
+                    channel, env, label = ("rejected", "DISCORD_WEBHOOK_SALE_REJECTED",
+                                           "#sprzedaz-odrzucone")
+                else:
                     continue
-                env = "DISCORD_WEBHOOK_SALE"
                 if not os.environ.get(env):
                     print(f"  [pominięte — brak {env}] {offer.source_id}")
                     continue
@@ -181,25 +187,31 @@ def cmd_resend_matches(config: dict[str, Any], which: str = "all") -> None:
                 notify.send_sale_offer(
                     offer, ppm, sale.is_deal(offer.price, offer.area_m2,
                                              sale_cfg.get("deal_price_per_m2", 0)),
-                    channel="main", station_info=_station_info(offer, loc_cfg),
-                    photo_size=photo_size,
+                    channel=channel, reason=verdict.reason or "",
+                    station_info=_station_info(offer, loc_cfg), photo_size=photo_size,
                     buy_message_template=notify_cfg.get("buy_message_template"),
                     webhook_env=env,
                 )
-                print(f"  -> [#sprzedaz] {offer.source_id} ({offer.price} zł) {offer.title[:40]}")
+                print(f"  -> [{label}] {offer.source_id} ({offer.price} zł) {offer.title[:40]}")
             else:
                 cost = cost_mod.compute_cost(offer, text, config)
-                if filters.classify(offer, text, cost, config, now).kind != "match":
+                verdict = filters.classify(offer, text, cost, config, now)
+                if verdict.kind == "match":
+                    channel, env, label = "main", "DISCORD_WEBHOOK", "#mieszkania"
+                elif verdict.kind == "near_miss" and include_near:
+                    channel, env, label = "rejected", "DISCORD_WEBHOOK_REJECTED", "#odrzucone"
+                else:
                     continue
-                if not os.environ.get("DISCORD_WEBHOOK"):
-                    print(f"  [pominięte — brak DISCORD_WEBHOOK] {offer.source_id}")
+                if not os.environ.get(env):
+                    print(f"  [pominięte — brak {env}] {offer.source_id}")
                     continue
                 notify.send_offer(
-                    offer, cost, channel="main", station_info=_station_info(offer, loc_cfg),
-                    photo_size=photo_size,
+                    offer, cost, channel=channel, reason=verdict.reason or "",
+                    station_info=_station_info(offer, loc_cfg), photo_size=photo_size,
                     owner_message_template=notify_cfg.get("owner_message_template"),
+                    webhook_env=env,
                 )
-                print(f"  -> [#mieszkania] {offer.source_id} ({cost.total} zł) {offer.title[:40]}")
+                print(f"  -> [{label}] {offer.source_id} ({cost.total} zł) {offer.title[:40]}")
             sent += 1
             time.sleep(1)  # odstęp między wysyłkami (limity Discorda)
 
@@ -370,6 +382,8 @@ def main() -> None:
     group.add_argument("--resend-matches", nargs="?", const="all",
                        choices=["rent", "sale", "all"], metavar="TRYB",
                        help="wyślij ponownie aktualne trafienia (nadrobienie po zasiewie)")
+    parser.add_argument("--include-near", action="store_true",
+                        help="przy dosyłaniu wyślij też prawie-trafienia (kanały #odrzucone)")
     args = parser.parse_args()
 
     config = load_config()
@@ -379,7 +393,7 @@ def main() -> None:
     elif args.test_alert:
         cmd_test_alert(config)
     elif args.resend_matches:
-        cmd_resend_matches(config, args.resend_matches)
+        cmd_resend_matches(config, args.resend_matches, args.include_near)
     elif args.once:
         cmd_once(config)
 
