@@ -48,37 +48,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 840,
+            "fetched": 960,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 701,
+            "fetched": 801,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 3,
-            "fetched": 1070,
+            "fetched": 1222,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 0,
-            "fetched": 1006,
+            "fetched": 1150,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 427,
+            "fetched": 488,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 399,
+            "fetched": 457,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -120,7 +120,7 @@
     "trojmiasto": "000066490250",
     "trojmiasto_sale": "000066490529"
   },
-  "last_run": "2026-07-25T23:15:44.161274+00:00",
+  "last_run": "2026-07-25T23:31:03.735723+00:00",
   "seen": {
     "nieruchomosci_online:21205236": {
       "cena": 2800,
@@ -5833,6 +5833,12 @@
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
       "fingerprint": "599000|56.3|3|sobieszewo",
       "id": "trojmiasto_sale:66484607"
+    },
+    "trojmiasto_sale:66484630": {
+      "cena": 539000,
+      "data_wyslania": "2026-07-25T23:31:03.735723+00:00",
+      "fingerprint": "539000|37.2|2|łostowice",
+      "id": "trojmiasto_sale:66484630"
     },
     "trojmiasto_sale:66485046": {
       "cena": 2300000,
