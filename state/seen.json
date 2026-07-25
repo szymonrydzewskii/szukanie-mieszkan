@@ -3,7 +3,7 @@
   "high_water": {
     "nieruchomosci_online": "000026853940",
     "nieruchomosci_online_sale": "000026854172",
-    "olx": "2026-07-25T12:42:25+02:00",
+    "olx": "2026-07-25T12:47:44+02:00",
     "olx_sale": "2026-07-25T12:41:03+02:00",
     "trojmiasto": "000066489852",
     "trojmiasto_sale": "000066489418"
@@ -3063,6 +3063,12 @@
       "fingerprint": "2900|52|2|chełm z dzielnicą gdańsk południe",
       "id": "olx:1087353451"
     },
+    "olx:1087354435": {
+      "cena": 2400,
+      "data_wyslania": "2026-07-25T11:15:44.352452+00:00",
+      "fingerprint": "2400|46|2|ujeścisko - łostowice",
+      "id": "olx:1087354435"
+    },
     "olx:777472320": {
       "cena": 3500,
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
@@ -3194,6 +3200,12 @@
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
       "fingerprint": "1290000|59.52|2|śródmieście",
       "id": "olx_sale:1060303299"
+    },
+    "olx_sale:1064995068": {
+      "cena": 929000,
+      "data_wyslania": "2026-07-25T11:15:44.352452+00:00",
+      "fingerprint": "929000|50.7|2|redłowo",
+      "id": "olx_sale:1064995068"
     },
     "olx_sale:1065091212": {
       "cena": 2390000,
@@ -3405,6 +3417,12 @@
       "fingerprint": "739780|39.36|2|śródmieście",
       "id": "olx_sale:1083110268"
     },
+    "olx_sale:1083110269": {
+      "cena": 529000,
+      "data_wyslania": "2026-07-25T11:15:44.352452+00:00",
+      "fingerprint": "529000|27.25|1|śródmieście",
+      "id": "olx_sale:1083110269"
+    },
     "olx_sale:1083127292": {
       "cena": 452960,
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
@@ -3446,6 +3464,12 @@
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
       "fingerprint": "554000|59|3|",
       "id": "olx_sale:1084188073"
+    },
+    "olx_sale:1084188075": {
+      "cena": 691000,
+      "data_wyslania": "2026-07-25T11:15:44.352452+00:00",
+      "fingerprint": "691000|69|4|",
+      "id": "olx_sale:1084188075"
     },
     "olx_sale:1084189703": {
       "cena": 639000,
@@ -3531,6 +3555,12 @@
       "fingerprint": "569000|55|3|",
       "id": "olx_sale:1084736180"
     },
+    "olx_sale:1084736182": {
+      "cena": 547000,
+      "data_wyslania": "2026-07-25T11:15:44.352452+00:00",
+      "fingerprint": "547000|56|3|",
+      "id": "olx_sale:1084736182"
+    },
     "olx_sale:1084736183": {
       "cena": 1116500,
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
@@ -3615,6 +3645,12 @@
       "fingerprint": "444444|38|2|stogi z przeróbką",
       "id": "olx_sale:1085520875"
     },
+    "olx_sale:1085577675": {
+      "cena": 688777,
+      "data_wyslania": "2026-07-25T11:15:44.352452+00:00",
+      "fingerprint": "688777|47.3|2|jasień",
+      "id": "olx_sale:1085577675"
+    },
     "olx_sale:1085730548": {
       "cena": 910000,
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
@@ -3657,6 +3693,12 @@
       "fingerprint": "821000|69|3|śródmieście",
       "id": "olx_sale:1085937835"
     },
+    "olx_sale:1085960621": {
+      "cena": 389000,
+      "data_wyslania": "2026-07-25T11:15:44.352452+00:00",
+      "fingerprint": "389000|36.7|2|chylonia",
+      "id": "olx_sale:1085960621"
+    },
     "olx_sale:1086260437": {
       "cena": 1429000,
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
@@ -3698,6 +3740,12 @@
       "data_wyslania": "2026-07-25T11:01:07.168174+00:00",
       "fingerprint": "657000|54|3|",
       "id": "olx_sale:1086430492"
+    },
+    "olx_sale:1086455317": {
+      "cena": 533000,
+      "data_wyslania": "2026-07-25T11:15:44.352452+00:00",
+      "fingerprint": "533000|27|1|brzeźno",
+      "id": "olx_sale:1086455317"
     },
     "olx_sale:1086455319": {
       "cena": 1057500,
@@ -4112,6 +4160,12 @@
       "data_wyslania": "2026-07-25T09:30:44.441603+00:00",
       "fingerprint": "2499|36|2|wrzeszcz górny",
       "id": "trojmiasto:66489852"
+    },
+    "trojmiasto_sale:65989124": {
+      "cena": 1125000,
+      "data_wyslania": "2026-07-25T11:15:44.352452+00:00",
+      "fingerprint": "1125000|60.95|3|dolny sopot",
+      "id": "trojmiasto_sale:65989124"
     },
     "trojmiasto_sale:66126638": {
       "cena": 1999000,
