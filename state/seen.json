@@ -6,38 +6,38 @@
         "errors": [],
         "sources": {
           "nieruchomosci_online": {
-            "dropped": 1,
-            "fetched": 2640,
+            "dropped": 2,
+            "fetched": 2760,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 2065,
+            "fetched": 2164,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 14,
-            "fetched": 3328,
-            "sent_main": 2,
+            "dropped": 15,
+            "fetched": 3480,
+            "sent_main": 3,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 6,
-            "fetched": 3187,
+            "fetched": 3332,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 1256,
+            "fetched": 1317,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 1244,
+            "fetched": 1302,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -72,14 +72,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026854318",
+    "nieruchomosci_online": "000026854838",
     "nieruchomosci_online_sale": "000026854172",
-    "olx": "2026-07-25T19:57:52+02:00",
+    "olx": "2026-07-25T21:03:16+02:00",
     "olx_sale": "2026-07-25T17:42:45+02:00",
     "trojmiasto": "000066490250",
     "trojmiasto_sale": "000066489418"
   },
-  "last_run": "2026-07-25T19:01:05.112354+00:00",
+  "last_run": "2026-07-25T19:15:42.139249+00:00",
   "seen": {
     "nieruchomosci_online:21205236": {
       "cena": 2800,
@@ -807,6 +807,12 @@
       "fingerprint": "2600|49|2|ujeścisko",
       "id": "nieruchomosci_online:26854318"
     },
+    "nieruchomosci_online:26854838": {
+      "cena": 2100,
+      "data_wyslania": "2026-07-25T19:15:42.139249+00:00",
+      "fingerprint": "2100|37.3|2|witomino",
+      "id": "nieruchomosci_online:26854838"
+    },
     "nieruchomosci_online_sale:24789504": {
       "cena": 1998000,
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
@@ -860,6 +866,12 @@
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
       "fingerprint": "879000|52|2|dolny sopot",
       "id": "nieruchomosci_online_sale:25796853"
+    },
+    "nieruchomosci_online_sale:25802240": {
+      "cena": 686400,
+      "data_wyslania": "2026-07-25T19:15:42.139249+00:00",
+      "fingerprint": "686400|52|3|suchanino",
+      "id": "nieruchomosci_online_sale:25802240"
     },
     "nieruchomosci_online_sale:25915953": {
       "cena": 1720000,
@@ -980,6 +992,12 @@
       "data_wyslania": "2026-07-25T14:17:24.798865+00:00",
       "fingerprint": "449000|30.75|2|śródmieście",
       "id": "nieruchomosci_online_sale:26458095"
+    },
+    "nieruchomosci_online_sale:26458747": {
+      "cena": 1039000,
+      "data_wyslania": "2026-07-25T19:15:42.139249+00:00",
+      "fingerprint": "1039000|72.84|3|działki leśne",
+      "id": "nieruchomosci_online_sale:26458747"
     },
     "nieruchomosci_online_sale:26460016": {
       "cena": 850000,
@@ -3501,6 +3519,18 @@
       "fingerprint": "3000|37|2|ujeścisko - łostowice",
       "id": "olx:1087420847"
     },
+    "olx:1087430331": {
+      "cena": 2600,
+      "data_wyslania": "2026-07-25T19:15:42.139249+00:00",
+      "fingerprint": "2600|42|2|śródmieście",
+      "id": "olx:1087430331"
+    },
+    "olx:1087431154": {
+      "cena": 2900,
+      "data_wyslania": "2026-07-25T19:15:42.139249+00:00",
+      "fingerprint": "2900|43|2|",
+      "id": "olx:1087431154"
+    },
     "olx:777472320": {
       "cena": 3500,
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
@@ -4856,6 +4886,12 @@
       "data_wyslania": "2026-07-25T09:30:44.441603+00:00",
       "fingerprint": "18000|?|?|morena",
       "id": "trojmiasto:66474157"
+    },
+    "trojmiasto:66474290": {
+      "cena": 3150,
+      "data_wyslania": "2026-07-25T19:15:42.139249+00:00",
+      "fingerprint": "3150|40|2|przymorze wielkie",
+      "id": "trojmiasto:66474290"
     },
     "trojmiasto:66476121": {
       "cena": 2500,
