@@ -110,6 +110,11 @@ sources:
     # Baza najmu (miesza typy — nie-mieszkania odsiewa parser po tytule + filtry twarde).
     # Filtr rodzaj_nieruchomosci przez GET nie działa, więc bierzemy całość i filtrujemy.
     base_url: "https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/"
+  nieruchomosci_online:
+    enabled: true
+    # Wyszukiwanie per-miasto (nazwa miasta w URL). Parser bierze kafelki div.tile.
+    search_url_template: "https://www.nieruchomosci-online.pl/szukaj.html?3,mieszkanie,wynajem,,{city}"
+    cities: [Gdańsk, Sopot, Gdynia]
 
 # ---- Lokalizacja: tabela dzielnic (twardy filtr) + stacje SKM (do embeda) ----
 location:

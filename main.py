@@ -23,6 +23,7 @@ import yaml
 from core import cost as cost_mod
 from core import filters, geo, notify, pipeline, state
 from sources.base import Source, SourceError
+from sources.nieruchomosci_online import NieruchomosciOnlineSource
 from sources.olx import OlxSource
 from sources.trojmiasto import TrojmiastoSource
 
@@ -30,6 +31,7 @@ from sources.trojmiasto import TrojmiastoSource
 SOURCE_CLASSES: dict[str, type[Source]] = {
     "olx": OlxSource,
     "trojmiasto": TrojmiastoSource,
+    "nieruchomosci_online": NieruchomosciOnlineSource,
 }
 
 CONFIG_PATH = Path(__file__).parent / "config.yaml"
