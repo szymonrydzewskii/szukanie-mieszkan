@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 1800,
+            "fetched": 1920,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 1384,
+            "fetched": 1481,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 11,
-            "fetched": 2273,
+            "fetched": 2422,
             "sent_main": 1,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 6,
-            "fetched": 2173,
+            "fetched": 2318,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 839,
+            "fetched": 899,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 834,
+            "fetched": 893,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -79,7 +79,7 @@
     "trojmiasto": "000066490250",
     "trojmiasto_sale": "000066489418"
   },
-  "last_run": "2026-07-25T17:26:22.121541+00:00",
+  "last_run": "2026-07-25T17:30:57.132087+00:00",
   "seen": {
     "nieruchomosci_online:21205236": {
       "cena": 2800,
@@ -5007,6 +5007,12 @@
       "fingerprint": "1135000|44.65|2|śródmieście",
       "id": "trojmiasto_sale:66004553"
     },
+    "trojmiasto_sale:66032149": {
+      "cena": 1640000,
+      "data_wyslania": "2026-07-25T17:30:57.132087+00:00",
+      "fingerprint": "1640000|83|4|oliwa",
+      "id": "trojmiasto_sale:66032149"
+    },
     "trojmiasto_sale:66101901": {
       "cena": 2990000,
       "data_wyslania": "2026-07-25T11:45:41.338636+00:00",
@@ -5108,6 +5114,12 @@
       "data_wyslania": "2026-07-25T15:01:07.904355+00:00",
       "fingerprint": "1450000|37|2|brzeźno",
       "id": "trojmiasto_sale:66376555"
+    },
+    "trojmiasto_sale:66387059": {
+      "cena": 1949000,
+      "data_wyslania": "2026-07-25T17:30:57.132087+00:00",
+      "fingerprint": "1949000|101.76|3|dolny sopot",
+      "id": "trojmiasto_sale:66387059"
     },
     "trojmiasto_sale:66392643": {
       "cena": 4360000,
