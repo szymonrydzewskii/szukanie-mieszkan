@@ -124,6 +124,19 @@ def _station_info(offer, loc_cfg) -> tuple[str, int] | None:
     return station["name"], geo.walk_minutes(dist, w["straight_factor"], w["speed_m_per_min"])
 
 
+def cmd_test_alert(config: dict[str, Any]) -> None:
+    """Wyślij testową wiadomość na #alerty — weryfikacja webhooka bez czekania na raport."""
+    sources = [n for n, c in config["sources"].items() if c.get("enabled")]
+    embed = notify.build_digest_embed({
+        "date": "TEST — sprawdzenie webhooka",
+        "sources": {n: {"fetched": 0, "sent_main": 0, "sent_near": 0, "dropped": 0}
+                    for n in sources},
+        "errors": ["to jest wiadomość testowa, nie błąd"],
+    })
+    notify.send_monitoring(embed)
+    print(f"Wysłano testową wiadomość na #alerty ({len(sources)} źródeł na liście).")
+
+
 def cmd_once(config: dict[str, Any]) -> None:
     notify_cfg = config.get("notify", {})
     photo_size = notify_cfg.get("photo_size", "640x480")
@@ -281,12 +294,16 @@ def main() -> None:
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument("--once", action="store_true", help="jeden przebieg skanu")
     group.add_argument("--debug-raw", metavar="PORTAL", help="pokaż surową odpowiedź portalu")
+    group.add_argument("--test-alert", action="store_true",
+                       help="wyślij testową wiadomość na #alerty (sprawdzenie webhooka)")
     args = parser.parse_args()
 
     config = load_config()
 
     if args.debug_raw:
         cmd_debug_raw(args.debug_raw, config)
+    elif args.test_alert:
+        cmd_test_alert(config)
     elif args.once:
         cmd_once(config)
 
