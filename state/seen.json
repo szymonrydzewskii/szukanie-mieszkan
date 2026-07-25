@@ -1,7 +1,7 @@
 {
   "daily": {},
   "high_water": {
-    "olx": "2026-07-25T00:13:48+02:00"
+    "olx": "2026-07-25T07:57:14+02:00"
   },
   "seen": {
     "olx:1010778181": {
@@ -833,9 +833,9 @@
       "id": "olx:1086167150"
     },
     "olx:1086195958": {
-      "cena": 3200,
-      "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
-      "fingerprint": "3200|32|2|centrum",
+      "cena": 2900,
+      "data_wyslania": "2026-07-25T07:05:24.501295+00:00",
+      "fingerprint": "2900|32|2|centrum",
       "id": "olx:1086195958"
     },
     "olx:1086228893": {
@@ -1186,6 +1186,12 @@
       "fingerprint": "2200|26|1|vii dwór",
       "id": "olx:1087088811"
     },
+    "olx:1087094384": {
+      "cena": 2000,
+      "data_wyslania": "2026-07-25T07:05:24.501295+00:00",
+      "fingerprint": "2000|25|1|żabianka - wejhera - jelitkowo - tysiąclecia",
+      "id": "olx:1087094384"
+    },
     "olx:1087094563": {
       "cena": 3100,
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
@@ -1499,9 +1505,9 @@
       "id": "olx:1087228903"
     },
     "olx:1087231441": {
-      "cena": 2500,
-      "data_wyslania": "2026-07-24T15:03:46.714760+00:00",
-      "fingerprint": "2500|39|2|przymorze wielkie",
+      "cena": 2300,
+      "data_wyslania": "2026-07-25T07:05:24.501295+00:00",
+      "fingerprint": "2300|39|2|przymorze wielkie",
       "id": "olx:1087231441"
     },
     "olx:1087236575": {
@@ -1641,6 +1647,12 @@
       "data_wyslania": "2026-07-24T22:39:54.153319+00:00",
       "fingerprint": "4600|68|3|redłowo",
       "id": "olx:1087310112"
+    },
+    "olx:1087316454": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-25T07:05:24.501295+00:00",
+      "fingerprint": "3000|49|2|chwarzno-wiczlino",
+      "id": "olx:1087316454"
     },
     "olx:777472320": {
       "cena": 3500,
