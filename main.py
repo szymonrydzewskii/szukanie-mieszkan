@@ -14,14 +14,20 @@ import argparse
 import json
 import os
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
 import yaml
 
 from core import cost as cost_mod
-from core import filters, geo, notify, pipeline, sale, state
+from core import filters, geo, health, notify, pipeline, sale, state
+
+try:
+    from zoneinfo import ZoneInfo
+    _WARSAW: Any = ZoneInfo("Europe/Warsaw")
+except Exception:  # brak bazy stref -> stałe +02:00 (raport dzienny o poranku)
+    _WARSAW = timezone(timedelta(hours=2))
 from sources.base import Source, SourceError
 from sources.nieruchomosci_online import NieruchomosciOnlineSource
 from sources.olx import OlxSource
@@ -194,6 +200,16 @@ def cmd_once(config: dict[str, Any]) -> None:
             print(f"  -> [#sprzedaz {badge}] {offer.source_id} ({offer.price} zł, {ppm} zł/m²) "
                   f"{offer.title[:40]}")
 
+    # --- Monitoring: luka między przebiegami (martwy cron) ---
+    mon = config.get("monitoring", {})
+    problems: list[str] = []
+    gap = health.note_run(st, now, mon.get("cron_gap_alert_hours", 2))
+    if gap:
+        problems.append(gap)
+        print(f"[monitoring] {gap}")
+    now_local = now.astimezone(_WARSAW)
+    day_local = now_local.date().isoformat()
+
     # Izolacja per-źródło (Etap 6): błąd jednego portalu nie wywraca pozostałych.
     for name, src_cfg in config["sources"].items():
         if not src_cfg.get("enabled"):
@@ -210,7 +226,20 @@ def cmd_once(config: dict[str, Any]) -> None:
             )
         except SourceError as e:
             print(f"{name}: BŁĄD ŹRÓDŁA — {e} (pomijam, pozostałe portale lecą dalej)")
+            alert = health.record_source(st, name, 0, str(e)[:200],
+                                         mon.get("bad_runs_threshold", 3),
+                                         mon.get("realert_every", 20))
+            if alert:
+                problems.append(alert)
+            health.accumulate_digest(st, day_local, name, {}, str(e)[:120])
             continue
+
+        alert = health.record_source(st, name, summary["fetched"], None,
+                                     mon.get("bad_runs_threshold", 3),
+                                     mon.get("realert_every", 20))
+        if alert:
+            problems.append(alert)
+        health.accumulate_digest(st, day_local, name, summary, None)
 
         if cold:
             print(f"{name}: cold start — zasiano {summary['seeded']} ofert, nic nie wysłano")
@@ -223,6 +252,23 @@ def cmd_once(config: dict[str, Any]) -> None:
                 f"dubel-portal {summary['cross_dup']} | backfill {summary['backfilled']} | "
                 f"pominięte {summary['skipped']}"
             )
+
+    # --- Monitoring: wyślij alerty i (raz dziennie) raport na #alerty ---
+    digest = health.due_digest(st, now_local, mon.get("digest_hour", 8))
+    if problems or digest:
+        if not os.environ.get("DISCORD_WEBHOOK_ALERTS"):
+            print("[monitoring] brak DISCORD_WEBHOOK_ALERTS — pomijam wysyłkę na #alerty")
+        else:
+            try:
+                if problems:
+                    notify.send_monitoring(notify.build_alert_embed(problems))
+                    print(f"[monitoring] wysłano alert ({len(problems)} problemów)")
+                if digest:
+                    notify.send_monitoring(notify.build_digest_embed(digest))
+                    print(f"[monitoring] wysłano raport dzienny za {digest['date']}")
+            except notify.NotifyError as e:
+                # Monitoring nie może wywrócić przebiegu ani zablokować zapisu stanu.
+                print(f"[monitoring] nie udało się wysłać: {e}")
 
     state.save_state(state_path, st)
     print(f"stan zapisany: {state_path.relative_to(Path(__file__).parent)}")

@@ -87,6 +87,35 @@ def test_sale_rejected_embed_compact_with_reason():
     assert len(embed.get("fields", [])) <= 4
 
 
+def test_alert_embed_lists_problems_in_red():
+    embed = notify.build_alert_embed(["olx: 3 kolejnych nieudanych przebiegów — HTTP 403"])
+    blob = json.dumps(embed, ensure_ascii=False)
+    assert "HTTP 403" in blob and "olx" in blob
+    assert embed["color"] == notify.COLOR_RED
+
+
+def test_digest_embed_shows_per_source_counts():
+    digest = {
+        "date": "2026-07-24",
+        "sources": {
+            "olx": {"fetched": 1500, "sent_main": 2, "sent_near": 5, "dropped": 900},
+            "trojmiasto": {"fetched": 300, "sent_main": 0, "sent_near": 1, "dropped": 200},
+        },
+        "errors": [],
+    }
+    embed = notify.build_digest_embed(digest)
+    blob = json.dumps(embed, ensure_ascii=False)
+    assert "2026-07-24" in blob
+    assert "olx" in blob and "1500" in blob and "trojmiasto" in blob
+    assert "2" in blob  # wysłane na kanał główny
+
+
+def test_digest_embed_flags_errors_section():
+    digest = {"date": "2026-07-24", "sources": {}, "errors": ["trojmiasto: HTTP 403"]}
+    embed = notify.build_digest_embed(digest)
+    assert "HTTP 403" in json.dumps(embed, ensure_ascii=False)
+
+
 def test_near_miss_embed_is_compact_amber_with_reason():
     embed = notify.build_rejected_embed(make_offer(), make_cost(total=3650),
                                         reason="koszt 3650 zł — ponad limit")

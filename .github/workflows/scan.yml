@@ -43,6 +43,10 @@ jobs:
         env:
           # SPEC pkt 5: sekret WYŁĄCZNIE przez Actions secrets, nigdy w kodzie/stanie.
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          DISCORD_WEBHOOK_REJECTED: ${{ secrets.DISCORD_WEBHOOK_REJECTED }}
+          DISCORD_WEBHOOK_SALE: ${{ secrets.DISCORD_WEBHOOK_SALE }}
+          DISCORD_WEBHOOK_SALE_REJECTED: ${{ secrets.DISCORD_WEBHOOK_SALE_REJECTED }}
+          DISCORD_WEBHOOK_ALERTS: ${{ secrets.DISCORD_WEBHOOK_ALERTS }}
         run: python main.py --once
 
       - name: Commit zaktualizowanego stanu

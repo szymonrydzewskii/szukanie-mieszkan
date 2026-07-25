@@ -29,6 +29,13 @@ sale:
   budget_near_miss: 650000     # match < cena <= near_miss -> #sprzedaz-odrzucone
   deal_price_per_m2: 13000     # <= tyle zł/m² -> flaga 🔥 OKAZJA (dostrajalne)
 
+# ---- Monitoring (kanał #alerty) ----
+monitoring:
+  bad_runs_threshold: 3        # SPEC: 3 kolejne przebiegi z błędem/zerem ofert -> alert
+  realert_every: 20            # ponawiaj alert co tyle kolejnych złych przebiegów (~5 h)
+  cron_gap_alert_hours: 2      # przerwa >= tylu godzin między przebiegami -> alert (martwy cron)
+  digest_hour: 8               # o której (czas polski) wysłać raport za poprzedni dzień
+
 state:
   path: "state/seen.json"      # commitowany stan (Etap 5 zajmie się commitem z Actions)
   max_age_days: 60             # SPEC: wpisy starsze niż 60 dni usuwamy

@@ -22,6 +22,8 @@ from sources.base import Offer
 COLOR_GREEN = 0x2ECC71     # dopasowanie -> #mieszkania / #sprzedaz
 COLOR_AMBER = 0xE67E22     # prawie-trafienie -> #odrzucone / #sprzedaz-odrzucone
 COLOR_GOLD = 0xF1C40F      # 🔥 okazja (sprzedaż, niskie zł/m²)
+COLOR_RED = 0xE74C3C       # alert (padnięte źródło, luka w przebiegach)
+COLOR_BLUE = 0x3498DB      # dzienne podsumowanie
 
 
 class NotifyError(Exception):
@@ -228,6 +230,55 @@ def build_sale_rejected_embed(offer: Offer, price_per_m2: int | None, reason: st
         ],
         "footer": {"text": f"{offer.source.upper()} · id {offer.source_id} · {offer.district or offer.city or ''}"},
     }
+
+
+def build_alert_embed(problems: list[str]) -> dict:
+    """Embed alertu na #alerty — lista problemów (padnięte źródło, luka w przebiegach)."""
+    return {
+        "title": "⚠ Alert bota mieszkaniowego",
+        "color": COLOR_RED,
+        "fields": [{"name": "Problemy", "value": "\n".join(f"• {p}" for p in problems),
+                    "inline": False}],
+    }
+
+
+def build_digest_embed(digest: dict) -> dict:
+    """Embed dziennego podsumowania na #alerty — dowód, że system żyje."""
+    rows = []
+    total_main = total_near = total_fetched = 0
+    for source, s in sorted(digest.get("sources", {}).items()):
+        total_fetched += s.get("fetched", 0)
+        total_main += s.get("sent_main", 0)
+        total_near += s.get("sent_near", 0)
+        rows.append(
+            f"**{source}** — sprawdzone {s.get('fetched', 0)} · wysłane {s.get('sent_main', 0)} · "
+            f"prawie {s.get('sent_near', 0)} · odrzucone {s.get('dropped', 0)}"
+        )
+
+    fields = [{
+        "name": "Podsumowanie",
+        "value": (f"sprawdzone **{total_fetched}** · wysłane **{total_main}** · "
+                  f"prawie-trafienia **{total_near}**"),
+        "inline": False,
+    }]
+    if rows:
+        fields.append({"name": "Per portal", "value": "\n".join(rows), "inline": False})
+    errors = digest.get("errors") or []
+    if errors:
+        fields.append({"name": "⚠ Błędy w ciągu dnia",
+                       "value": "\n".join(f"• {e}" for e in errors), "inline": False})
+
+    return {
+        "title": f"📊 Raport dzienny — {digest.get('date', '?')}",
+        "color": COLOR_BLUE,
+        "fields": fields,
+    }
+
+
+def send_monitoring(embed: dict, webhook_env: str = "DISCORD_WEBHOOK_ALERTS",
+                    timeout: int = 20) -> None:
+    """Wyślij embed monitoringu (alert lub raport) na kanał #alerty."""
+    _post(get_webhook(webhook_env), embed, timeout)
 
 
 def _post(webhook: str, embed: dict, timeout: int) -> None:
