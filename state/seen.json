@@ -1713,6 +1713,12 @@
       "fingerprint": "2900|42|2|chełm z dzielnicą gdańsk południe",
       "id": "olx:1083100421"
     },
+    "olx:1083111432": {
+      "cena": 2390,
+      "data_wyslania": "2026-07-25T12:01:08.640961+00:00",
+      "fingerprint": "2390|34|1|jasień",
+      "id": "olx:1083111432"
+    },
     "olx:1083118116": {
       "cena": 1850,
       "data_wyslania": "2026-07-24T13:35:48.038138+00:00",
@@ -4329,6 +4335,12 @@
       "fingerprint": "1125000|46.42|2|śródmieście",
       "id": "trojmiasto_sale:66446556"
     },
+    "trojmiasto_sale:66454134": {
+      "cena": 350000,
+      "data_wyslania": "2026-07-25T12:01:08.640961+00:00",
+      "fingerprint": "350000|33.1|1|nowy port",
+      "id": "trojmiasto_sale:66454134"
+    },
     "trojmiasto_sale:66456442": {
       "cena": 790000,
       "data_wyslania": "2026-07-25T11:01:07.168174+00:00",
@@ -4394,6 +4406,12 @@
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
       "fingerprint": "1297500|86.52|4|śródmieście",
       "id": "trojmiasto_sale:66487805"
+    },
+    "trojmiasto_sale:66488659": {
+      "cena": 619000,
+      "data_wyslania": "2026-07-25T12:01:08.640961+00:00",
+      "fingerprint": "619000|43.3|2|grabówek",
+      "id": "trojmiasto_sale:66488659"
     },
     "trojmiasto_sale:66488987": {
       "cena": 795000,
