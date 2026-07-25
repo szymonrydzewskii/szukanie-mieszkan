@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 3120,
+            "fetched": 3240,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 2461,
+            "fetched": 2560,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 16,
-            "fetched": 3930,
+            "fetched": 4079,
             "sent_main": 4,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 7,
-            "fetched": 3762,
+            "fetched": 3904,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 1500,
+            "fetched": 1561,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 1475,
+            "fetched": 1534,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -79,7 +79,7 @@
     "trojmiasto": "000066490250",
     "trojmiasto_sale": "000066489418"
   },
-  "last_run": "2026-07-25T19:51:36.362411+00:00",
+  "last_run": "2026-07-25T20:01:00.378620+00:00",
   "seen": {
     "nieruchomosci_online:21205236": {
       "cena": 2800,
@@ -4233,6 +4233,12 @@
       "fingerprint": "910000|52.97|3|",
       "id": "olx_sale:1085730548"
     },
+    "olx_sale:1085734725": {
+      "cena": 659900,
+      "data_wyslania": "2026-07-25T20:01:00.378620+00:00",
+      "fingerprint": "659900|46|2|",
+      "id": "olx_sale:1085734725"
+    },
     "olx_sale:1085742668": {
       "cena": 685000,
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
@@ -5396,6 +5402,12 @@
       "data_wyslania": "2026-07-25T11:01:07.168174+00:00",
       "fingerprint": "1125000|46.42|2|śródmieście",
       "id": "trojmiasto_sale:66446556"
+    },
+    "trojmiasto_sale:66448244": {
+      "cena": 530000,
+      "data_wyslania": "2026-07-25T20:01:00.378620+00:00",
+      "fingerprint": "530000|38.07|2|śródmieście",
+      "id": "trojmiasto_sale:66448244"
     },
     "trojmiasto_sale:66449528": {
       "cena": 499000,
