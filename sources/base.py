@@ -47,6 +47,10 @@ class Offer:
     lon: float | None = None
 
     created_time: str | None = None     # ISO 8601, tak jak podaje portal
+    # Klucz nowości do high-water-mark. Jeśli None -> pipeline użyje created_time.
+    # OLX: None (created_time jest wiarygodną datą utworzenia). Trojmiasto: wyściełane
+    # ID (data na liście to często data BUMPU, a ID rośnie z każdym nowym ogłoszeniem).
+    novelty_key: str | None = None
     description: str | None = None
     photo_url: str | None = None        # miniatura / pierwsze zdjęcie
     has_phone: bool | None = None

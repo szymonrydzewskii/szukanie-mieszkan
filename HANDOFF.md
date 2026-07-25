@@ -19,13 +19,22 @@
 > config `scoring`. Zostają: `core/geo.py` (stacje SKM do embeda), izolacja błędów
 > per-źródło w `main` (Etap 6). Współrzędne stacji PRZYBLIŻONE.
 >
-> **Etap 6 W TOKU (niedokończony):** wybrany portal = **Trojmiasto.pl** (stabilny,
-> bez Cloudflare, uczciwy UA bota → 200; oferty na liście `/nieruchomosci-mam-do-
-> wynajecia/`, kontener `.list__item`, klasy `list__item__*`, `<time datetime>`,
-> `ogl<ID>.html`; parser HTML przez BeautifulSoup — bs4 do dodania do requirements).
-> Dedup Poziom 2 = fingerprint z tolerancją (cena±100/metraż±2/pokoje/dzielnica),
-> BEZ hasha zdjęć (decyzja użytkownika). Jeszcze NIE zaimplementowane:
-> `sources/trojmiasto.py`, cross-portal match w `dedup`, rejestracja w `main`.
+> **Etap 6 ZROBIONE:** drugi portal **Trojmiasto.pl** (`sources/trojmiasto.py`,
+> BeautifulSoup, bs4 w requirements). Nowość po ID (novelty_key, bo data na liście
+> to często bump) — `Offer.novelty_key`, pipeline używa go zamiast created_time gdy
+> ustawiony. Parser odsiewa nie-mieszkania po tytule (`_NON_APARTMENT_TITLE`),
+> bo filtr URL Trojmiasto nie działa przez GET. Dedup Poziom 2 (cross-portal):
+> `dedup.cross_portal_match` (cena±100/metraż±2/pokoje + dzielnica luźno, BEZ
+> hasha zdjęć), wpięte w pipeline dla nowych ofert; config `dedup.cross_portal`.
+> Izolacja błędów per-źródło w main (padnięcie jednego portalu nie wywala reszty).
+> Cron: dodany wyzwalacz `repository_dispatch` (typ `scan`) do niezawodnego
+> odpalania co 15 min przez zewnętrzny cron → API GitHuba (użytkownik konfiguruje
+> token + usługę cron).
+>
+> **UWAGA — tymczasowe:** `filters.thresholds` nie istnieją już (model bez oceny),
+> ale w config jest `filters.near_miss_cost_max: 3900`. Trojmiasto: cena z listy
+> traktowana jak najem (czynsz/media doszacowane) — jeśli oferty Trojmiasto zbyt
+> często odpadają na koszcie, sprawdzić czy ich cena nie jest przypadkiem „all-in".
 
 ## Jak wznowić (dla nowej sesji Claude)
 

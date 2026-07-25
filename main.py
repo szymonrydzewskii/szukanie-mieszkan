@@ -24,10 +24,12 @@ from core import cost as cost_mod
 from core import filters, geo, notify, pipeline, state
 from sources.base import Source, SourceError
 from sources.olx import OlxSource
+from sources.trojmiasto import TrojmiastoSource
 
 # Rejestr portali. Dokładanie kolejnego = jedna linijka tutaj.
 SOURCE_CLASSES: dict[str, type[Source]] = {
     "olx": OlxSource,
+    "trojmiasto": TrojmiastoSource,
 }
 
 CONFIG_PATH = Path(__file__).parent / "config.yaml"
@@ -116,7 +118,9 @@ def cmd_once(config: dict[str, Any]) -> None:
     state_cfg = config.get("state", {})
     state_path = Path(__file__).parent / state_cfg.get("path", "state/seen.json")
     max_age_days = state_cfg.get("max_age_days", 60)
-    threshold = config.get("dedup", {}).get("price_drop_threshold", 100)
+    dedup_cfg = config.get("dedup", {})
+    threshold = dedup_cfg.get("price_drop_threshold", 100)
+    cross = dedup_cfg.get("cross_portal", {})
     loc_cfg = config["location"]
 
     st = state.load_state(state_path)
@@ -161,6 +165,7 @@ def cmd_once(config: dict[str, Any]) -> None:
             offers = source.fetch()  # rzuca wyjątek przy błędzie (nigdy ciche [])
             summary = pipeline.process_source(
                 name, offers, st, threshold, now, evaluate_fn=evaluate_fn, send_fn=send_fn,
+                cross_price_tol=cross.get("price_tol"), cross_area_tol=cross.get("area_tol"),
             )
         except SourceError as e:
             print(f"{name}: BŁĄD ŹRÓDŁA — {e} (pomijam, pozostałe portale lecą dalej)")
@@ -172,7 +177,8 @@ def cmd_once(config: dict[str, Any]) -> None:
             print(
                 f"{name}: pobrano {summary['fetched']} | #mieszkania {summary['sent_main']} | "
                 f"#odrzucone {summary['sent_near']} | odrzucone {summary['dropped']} | "
-                f"backfill {summary['backfilled']} | pominięte {summary['skipped']}"
+                f"dubel-portal {summary['cross_dup']} | backfill {summary['backfilled']} | "
+                f"pominięte {summary['skipped']}"
             )
 
     state.save_state(state_path, st)

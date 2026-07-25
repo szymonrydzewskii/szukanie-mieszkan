@@ -23,6 +23,9 @@ state:
 
 dedup:
   price_drop_threshold: 100    # zł; spadek CENY o więcej niż tyle = ponowna wysyłka "OBNIŻKA"
+  cross_portal:                # Poziom 2: ta sama oferta na różnych portalach = jedno powiadomienie
+    price_tol: 100             # tolerancja ceny (zł)
+    area_tol: 2                # tolerancja metrażu (m²) — + pokoje dokładnie + dzielnica luźno
 
 budget:
   hard_limit: 3500             # SPEC: koszt całkowity > 3500 zł = odrzut, bez wyjątków
@@ -102,6 +105,11 @@ sources:
       gdansk: 5659
       sopot: 15983
       gdynia: 5849
+  trojmiasto:
+    enabled: true
+    # Baza najmu (miesza typy — nie-mieszkania odsiewa parser po tytule + filtry twarde).
+    # Filtr rodzaj_nieruchomosci przez GET nie działa, więc bierzemy całość i filtrujemy.
+    base_url: "https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/"
 
 # ---- Lokalizacja: tabela dzielnic (twardy filtr) + stacje SKM (do embeda) ----
 location:

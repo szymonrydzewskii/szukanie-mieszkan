@@ -31,18 +31,15 @@ EvaluateFn = Callable[[Offer], Decision]
 SendFn = Callable[..., None]  # (offer, cost, channel, reason, price_drop)
 
 
-def _created_dt(offer: Offer) -> datetime | None:
-    if not offer.created_time:
-        return None
-    try:
-        return datetime.fromisoformat(offer.created_time)
-    except ValueError:
-        return None
+def _novelty(offer: Offer) -> str | None:
+    """Wartość porównywalna leksykalnie do znacznika nowości. Domyślnie created_time
+    (OLX: wiarygodna data), ale źródło może podać novelty_key (Trojmiasto: ID)."""
+    return offer.novelty_key or offer.created_time
 
 
-def _max_created(offers: list[Offer]) -> str | None:
-    times = [o.created_time for o in offers if o.created_time]
-    return max(times) if times else None
+def _max_novelty(offers: list[Offer]) -> str | None:
+    vals = [nv for nv in (_novelty(o) for o in offers) if nv]
+    return max(vals) if vals else None
 
 
 def process_source(
@@ -54,12 +51,15 @@ def process_source(
     *,
     evaluate_fn: EvaluateFn,
     send_fn: SendFn,
+    cross_price_tol: int | None = None,
+    cross_area_tol: float | None = None,
 ) -> dict:
     """Przetwórz oferty jednego portalu. Zwróć podsumowanie liczbowe."""
     summary = {
         "fetched": len(offers), "seeded": 0, "sent_main": 0, "sent_near": 0,
-        "dropped": 0, "backfilled": 0, "skipped": 0,
+        "dropped": 0, "backfilled": 0, "cross_dup": 0, "skipped": 0,
     }
+    check_cross = cross_price_tol is not None and cross_area_tol is not None
 
     def _record(o: Offer) -> None:
         state.record(st, dedup.key_for(o), dedup.fingerprint(o), o.price, now)
@@ -69,12 +69,12 @@ def process_source(
         for o in offers:
             _record(o)
         summary["seeded"] = len(offers)
-        newest = _max_created(offers)
+        newest = _max_novelty(offers)
         if newest:
             state.set_high_water(st, source, newest)
         return summary
 
-    hwm = datetime.fromisoformat(state.get_high_water(st, source))
+    hwm = state.get_high_water(st, source)  # porównanie leksykalne (ISO lub wyściełane ID)
 
     def _consider(o: Offer, price_drop) -> None:
         dec = evaluate_fn(o)
@@ -94,15 +94,19 @@ def process_source(
             _consider(o, (result.old_price, result.new_price))
         elif result.status is dedup.DedupStatus.DUPLICATE:
             summary["skipped"] += 1
-        else:  # NEW -> bramka czasowa
-            created = _created_dt(o)
-            if created is not None and created > hwm:
-                _consider(o, None)
+        else:  # NEW -> bramka nowości
+            nv = _novelty(o)
+            if nv is not None and nv > hwm:
+                if check_cross and dedup.cross_portal_match(o, st, cross_price_tol, cross_area_tol):
+                    _record(o)  # ten sam lokal z innego portalu -> nie wysyłaj ponownie
+                    summary["cross_dup"] += 1
+                else:
+                    _consider(o, None)
             else:
-                _record(o)  # stara oferta rotująca w okno -> zapamiętaj, nie wysyłaj
+                _record(o)  # stara oferta rotująca/bumpnięta w okno -> zapamiętaj, nie wysyłaj
                 summary["backfilled"] += 1
 
-    newest = _max_created(offers)
+    newest = _max_novelty(offers)
     if newest and newest > state.get_high_water(st, source):
         state.set_high_water(st, source, newest)
 

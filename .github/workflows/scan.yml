@@ -9,6 +9,8 @@ on:
     # cron bywa opóźniany/pomijany, dlatego kod nadrabia zaległości (high-water-mark).
     - cron: "3,18,33,48 * * * *"
   workflow_dispatch: {}          # ręczne uruchomienie z zakładki Actions (do testów)
+  repository_dispatch:           # niezawodny wyzwalacz zewnętrzny (darmowy cron -> API GitHuba)
+    types: [scan]                # co 15 min pewniej niż wbudowany schedule GitHuba
 
 # Prawo zapisu — workflow commituje zaktualizowany state/seen.json z powrotem.
 permissions:

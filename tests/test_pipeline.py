@@ -105,6 +105,50 @@ def test_old_rotating_offer_backfilled():
     assert send.calls == [] and summary["backfilled"] == 1
 
 
+def test_novelty_key_beats_bumped_date():
+    # Trojmiasto: nowość po ID (novelty_key), nie po dacie (bump).
+    st = {"version": 1, "seen": {}, "high_water": {}, "daily": {}}
+    run([make_offer("1", novelty_key="000000000100", created="2026-07-24T10:00:00+00:00")],
+        st, SendRec())  # cold seed -> hwm = "000000000100"
+    send = SendRec()
+    # bumpnięta stara oferta: ŚWIEŻA data, ale NISKIE id -> nie wysyłać
+    bumped = make_offer("2", novelty_key="000000000050", created="2026-07-24T11:59:00+00:00")
+    summary = run([bumped], st, send)
+    assert send.calls == [] and summary["backfilled"] == 1
+    # genuinie nowa: WYŻSZE id -> wysłać, nawet ze starszą datą
+    send2 = SendRec()
+    fresh = make_offer("3", novelty_key="000000000200", created="2020-01-01T00:00:00+00:00")
+    run([fresh], st, send2)
+    assert send2.calls == [("3", "main", None)]
+
+
+def _troj(sid, nk, **kw):
+    base = dict(source="trojmiasto", source_id=sid, url="u", title="Mieszkanie",
+                price=2550, area_m2=46.0, rooms=2, district="Wrzeszcz Dolny", novelty_key=nk)
+    base.update(kw)
+    return Offer(**base)
+
+
+def test_cross_portal_duplicate_suppressed():
+    st = {"version": 1, "seen": {}, "high_water": {}, "daily": {}}
+    # OLX ma już ten lokal: 2500/45/2/Wrzeszcz
+    olx = make_offer("111", price=2500, area_m2=45.0, rooms=2, district="Wrzeszcz")
+    pipeline.process_source("olx", [olx], st, 100, NOW,
+                            evaluate_fn=evaluate("match"), send_fn=SendRec())
+    # Trojmiasto cold-start (ustawia hwm)
+    pipeline.process_source("trojmiasto", [_troj("1", "000000000001", price=1, area_m2=1,
+                            rooms=1, district="x")], st, 100, NOW,
+                            evaluate_fn=evaluate("match"), send_fn=SendRec(),
+                            cross_price_tol=100, cross_area_tol=2)
+    # Ta sama oferta z Trojmiasto (±tol, dzielnica zgodna) -> stłumiona
+    send = SendRec()
+    summary = pipeline.process_source("trojmiasto", [_troj("999", "000000000999")], st, 100, NOW,
+                                      evaluate_fn=evaluate("match"), send_fn=send,
+                                      cross_price_tol=100, cross_area_tol=2)
+    assert send.calls == []
+    assert summary["cross_dup"] == 1
+
+
 def test_watermark_advances():
     st = {"version": 1, "seen": {}, "high_water": {}, "daily": {}}
     run([make_offer("1", created="2026-07-24T11:00:00+00:00")], st, SendRec())
