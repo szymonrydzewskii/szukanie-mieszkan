@@ -2,7 +2,7 @@
   "daily": {},
   "high_water": {
     "nieruchomosci_online": "000026853940",
-    "olx": "2026-07-25T11:41:58+02:00",
+    "olx": "2026-07-25T11:56:56+02:00",
     "trojmiasto": "000066489852"
   },
   "seen": {
@@ -1080,6 +1080,12 @@
       "fingerprint": "2300|20|1|centrum",
       "id": "olx:1080881897"
     },
+    "olx:1081054414": {
+      "cena": 2000,
+      "data_wyslania": "2026-07-25T10:15:38.686050+00:00",
+      "fingerprint": "2000|25|1|chełm z dzielnicą gdańsk południe",
+      "id": "olx:1081054414"
+    },
     "olx:1081193817": {
       "cena": 2900,
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
@@ -1332,6 +1338,12 @@
       "fingerprint": "2300|25|1|wzgórze świętego maksymiliana",
       "id": "olx:1084319539"
     },
+    "olx:1084357379": {
+      "cena": 3300,
+      "data_wyslania": "2026-07-25T10:15:38.686050+00:00",
+      "fingerprint": "3300|37.99|2|wrzeszcz",
+      "id": "olx:1084357379"
+    },
     "olx:1084385435": {
       "cena": 2200,
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
@@ -1553,6 +1565,12 @@
       "data_wyslania": "2026-07-24T15:34:55.802060+00:00",
       "fingerprint": "3000|45|2|brzeźno",
       "id": "olx:1085577102"
+    },
+    "olx:1085577923": {
+      "cena": 2700,
+      "data_wyslania": "2026-07-25T10:15:38.686050+00:00",
+      "fingerprint": "2700|38|2|przymorze wielkie",
+      "id": "olx:1085577923"
     },
     "olx:1085664046": {
       "cena": 3500,
@@ -1817,6 +1835,12 @@
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
       "fingerprint": "2500|44|2|leszczynki",
       "id": "olx:1086791992"
+    },
+    "olx:1086804891": {
+      "cena": 4000,
+      "data_wyslania": "2026-07-25T10:15:38.686050+00:00",
+      "fingerprint": "4000|54|3|wrzeszcz",
+      "id": "olx:1086804891"
     },
     "olx:1086866726": {
       "cena": 6200,
@@ -2513,6 +2537,18 @@
       "data_wyslania": "2026-07-25T10:01:08.825989+00:00",
       "fingerprint": "2500|30|1|żabianka - wejhera - jelitkowo - tysiąclecia",
       "id": "olx:1087342340"
+    },
+    "olx:1087344167": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-25T10:15:38.686050+00:00",
+      "fingerprint": "3000|38.31|2|ujeścisko - łostowice",
+      "id": "olx:1087344167"
+    },
+    "olx:1087345035": {
+      "cena": 2600,
+      "data_wyslania": "2026-07-25T10:15:38.686050+00:00",
+      "fingerprint": "2600|29|1|przymorze małe",
+      "id": "olx:1087345035"
     },
     "olx:777472320": {
       "cena": 3500,
