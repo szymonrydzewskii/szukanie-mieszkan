@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 1200,
+            "fetched": 1320,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 904,
+            "fetched": 996,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 11,
-            "fetched": 1514,
+            "fetched": 1665,
             "sent_main": 1,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 6,
-            "fetched": 1444,
+            "fetched": 1590,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 539,
+            "fetched": 599,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 544,
+            "fetched": 602,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -79,7 +79,7 @@
     "trojmiasto": "000066490250",
     "trojmiasto_sale": "000066489418"
   },
-  "last_run": "2026-07-25T16:14:45.334443+00:00",
+  "last_run": "2026-07-25T16:30:59.701162+00:00",
   "seen": {
     "nieruchomosci_online:21205236": {
       "cena": 2800,
@@ -5030,6 +5030,12 @@
       "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
       "fingerprint": "1155000|5500|?|kębłowo nowowiejskie",
       "id": "trojmiasto_sale:66374173"
+    },
+    "trojmiasto_sale:66375729": {
+      "cena": 430000,
+      "data_wyslania": "2026-07-25T16:30:59.701162+00:00",
+      "fingerprint": "430000|33.2|1|jasień",
+      "id": "trojmiasto_sale:66375729"
     },
     "trojmiasto_sale:66376555": {
       "cena": 1450000,
