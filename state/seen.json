@@ -5,7 +5,7 @@
     "nieruchomosci_online_sale": "000026854172",
     "olx": "2026-07-25T13:16:27+02:00",
     "olx_sale": "2026-07-25T12:41:03+02:00",
-    "trojmiasto": "000066489852",
+    "trojmiasto": "000066490250",
     "trojmiasto_sale": "000066489418"
   },
   "seen": {
@@ -3741,6 +3741,12 @@
       "fingerprint": "389000|36.7|2|chylonia",
       "id": "olx_sale:1085960621"
     },
+    "olx_sale:1086142581": {
+      "cena": 549000,
+      "data_wyslania": "2026-07-25T11:55:45.766699+00:00",
+      "fingerprint": "549000|40.19|2|",
+      "id": "olx_sale:1086142581"
+    },
     "olx_sale:1086260437": {
       "cena": 1429000,
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
@@ -4131,6 +4137,12 @@
       "fingerprint": "2300|33|2|wzgórze św. maksymiliana",
       "id": "trojmiasto:66244459"
     },
+    "trojmiasto:66393976": {
+      "cena": 1200,
+      "data_wyslania": "2026-07-25T11:55:45.766699+00:00",
+      "fingerprint": "1200|20|?|przymorze wielkie",
+      "id": "trojmiasto:66393976"
+    },
     "trojmiasto:66458735": {
       "cena": 3000,
       "data_wyslania": "2026-07-25T09:30:44.441603+00:00",
@@ -4215,6 +4227,12 @@
       "fingerprint": "2499|36|2|wrzeszcz górny",
       "id": "trojmiasto:66489852"
     },
+    "trojmiasto:66490250": {
+      "cena": 3800,
+      "data_wyslania": "2026-07-25T11:55:45.766699+00:00",
+      "fingerprint": "3800|55|2|witomino",
+      "id": "trojmiasto:66490250"
+    },
     "trojmiasto_sale:65989124": {
       "cena": 1125000,
       "data_wyslania": "2026-07-25T11:15:44.352452+00:00",
@@ -4238,6 +4256,12 @@
       "data_wyslania": "2026-07-25T10:48:08.260659+00:00",
       "fingerprint": "670000|49.82|3|wrzeszcz dolny",
       "id": "trojmiasto_sale:66171592"
+    },
+    "trojmiasto_sale:66320781": {
+      "cena": 2490000,
+      "data_wyslania": "2026-07-25T11:55:45.766699+00:00",
+      "fingerprint": "2490000|550|12|jastrzębia góra",
+      "id": "trojmiasto_sale:66320781"
     },
     "trojmiasto_sale:66354520": {
       "cena": 1350000,
@@ -4370,6 +4394,12 @@
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
       "fingerprint": "1297500|86.52|4|śródmieście",
       "id": "trojmiasto_sale:66487805"
+    },
+    "trojmiasto_sale:66488987": {
+      "cena": 795000,
+      "data_wyslania": "2026-07-25T11:55:45.766699+00:00",
+      "fingerprint": "795000|26.5|1|śródmieście",
+      "id": "trojmiasto_sale:66488987"
     },
     "trojmiasto_sale:66489203": {
       "cena": 39999,
