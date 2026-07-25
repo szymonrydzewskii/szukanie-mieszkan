@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 120,
+            "fetched": 240,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 84,
+            "fetched": 168,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 2,
-            "fetched": 150,
+            "dropped": 3,
+            "fetched": 303,
             "sent_main": 0,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 4,
-            "fetched": 146,
+            "fetched": 290,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 15,
+            "fetched": 73,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 21,
+            "fetched": 79,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -79,7 +79,7 @@
     "trojmiasto": "000066490250",
     "trojmiasto_sale": "000066489418"
   },
-  "last_run": "2026-07-25T14:17:24.798865+00:00",
+  "last_run": "2026-07-25T14:30:53.912478+00:00",
   "seen": {
     "nieruchomosci_online:21205236": {
       "cena": 2800,
@@ -2140,9 +2140,9 @@
       "id": "olx:1085233849"
     },
     "olx:1085257828": {
-      "cena": 3300,
-      "data_wyslania": "2026-07-24T10:23:00.081659+00:00",
-      "fingerprint": "3300|38|2|śródmieście",
+      "cena": 3000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "3000|38|2|śródmieście",
       "id": "olx:1085257828"
     },
     "olx:1085258432": {
@@ -4323,17 +4323,113 @@
       "fingerprint": "637050|42.47|3|wyspa sobieszewska",
       "id": "olx_sale:999147895"
     },
+    "trojmiasto:65566464": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "2500|42|2|morena",
+      "id": "trojmiasto:65566464"
+    },
+    "trojmiasto:65783146": {
+      "cena": 3100,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "3100|50|2|letnica",
+      "id": "trojmiasto:65783146"
+    },
+    "trojmiasto:65807593": {
+      "cena": 3200,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "3200|33.06|2|brzeźno",
+      "id": "trojmiasto:65807593"
+    },
+    "trojmiasto:66025484": {
+      "cena": 2400,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "2400|38|2|pruszcz gdański",
+      "id": "trojmiasto:66025484"
+    },
+    "trojmiasto:66208616": {
+      "cena": 50000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "50000|62000|?|przeróbka",
+      "id": "trojmiasto:66208616"
+    },
+    "trojmiasto:66219478": {
+      "cena": 1700,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "1700|20|1|pogórze",
+      "id": "trojmiasto:66219478"
+    },
     "trojmiasto:66244459": {
       "cena": 2300,
       "data_wyslania": "2026-07-25T09:30:44.441603+00:00",
       "fingerprint": "2300|33|2|wzgórze św. maksymiliana",
       "id": "trojmiasto:66244459"
     },
+    "trojmiasto:66248038": {
+      "cena": 1200,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "1200|9|?|żabianka",
+      "id": "trojmiasto:66248038"
+    },
+    "trojmiasto:66298373": {
+      "cena": 450,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "450|30|1|śródmieście",
+      "id": "trojmiasto:66298373"
+    },
+    "trojmiasto:66380621": {
+      "cena": 2200,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "2200|30|1|redłowo",
+      "id": "trojmiasto:66380621"
+    },
     "trojmiasto:66393976": {
       "cena": 1200,
       "data_wyslania": "2026-07-25T11:55:45.766699+00:00",
       "fingerprint": "1200|20|?|przymorze wielkie",
       "id": "trojmiasto:66393976"
+    },
+    "trojmiasto:66405285": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "3000|54|2|orłowo",
+      "id": "trojmiasto:66405285"
+    },
+    "trojmiasto:66408475": {
+      "cena": 2800,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "2800|30|1|żabianka",
+      "id": "trojmiasto:66408475"
+    },
+    "trojmiasto:66421993": {
+      "cena": 6500,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "6500|62|3|oliwa",
+      "id": "trojmiasto:66421993"
+    },
+    "trojmiasto:66422006": {
+      "cena": 4500,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "4500|43|2|oliwa",
+      "id": "trojmiasto:66422006"
+    },
+    "trojmiasto:66430171": {
+      "cena": 2800,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "2800|50|2|jasień",
+      "id": "trojmiasto:66430171"
+    },
+    "trojmiasto:66445370": {
+      "cena": 24999,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "24999|390|?|śródmieście",
+      "id": "trojmiasto:66445370"
+    },
+    "trojmiasto:66453747": {
+      "cena": 3400,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "3400|52|3|suchanino",
+      "id": "trojmiasto:66453747"
     },
     "trojmiasto:66458735": {
       "cena": 3000,
@@ -4359,11 +4455,173 @@
       "fingerprint": "3300|37.99|2|wrzeszcz dolny",
       "id": "trojmiasto:66466261"
     },
+    "trojmiasto:66466508": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "3000|41|2|oliwa",
+      "id": "trojmiasto:66466508"
+    },
+    "trojmiasto:66468581": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "3000|42|2|wrzeszcz górny",
+      "id": "trojmiasto:66468581"
+    },
+    "trojmiasto:66470022": {
+      "cena": 3400,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "3400|62|2|wrzeszcz górny",
+      "id": "trojmiasto:66470022"
+    },
     "trojmiasto:66474157": {
       "cena": 18000,
       "data_wyslania": "2026-07-25T09:30:44.441603+00:00",
       "fingerprint": "18000|?|?|morena",
       "id": "trojmiasto:66474157"
+    },
+    "trojmiasto:66476121": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "2500|33|2|obłuże",
+      "id": "trojmiasto:66476121"
+    },
+    "trojmiasto:66476726": {
+      "cena": 3500,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "3500|61.3|3|chwarzno - wiczlino",
+      "id": "trojmiasto:66476726"
+    },
+    "trojmiasto:66482285": {
+      "cena": 2000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "2000|20|1|śródmieście",
+      "id": "trojmiasto:66482285"
+    },
+    "trojmiasto:66482357": {
+      "cena": 2199,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "2199|20|1|przymorze małe",
+      "id": "trojmiasto:66482357"
+    },
+    "trojmiasto:66482358": {
+      "cena": 2299,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "2299|26|1|łostowice",
+      "id": "trojmiasto:66482358"
+    },
+    "trojmiasto:66482360": {
+      "cena": 4499,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "4499|62|2|śródmieście",
+      "id": "trojmiasto:66482360"
+    },
+    "trojmiasto:66482361": {
+      "cena": 2499,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "2499|54|2|osowa",
+      "id": "trojmiasto:66482361"
+    },
+    "trojmiasto:66482656": {
+      "cena": 3700,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "3700|56|2|wrzeszcz",
+      "id": "trojmiasto:66482656"
+    },
+    "trojmiasto:66483126": {
+      "cena": 2900,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "2900|49|2|rębowo",
+      "id": "trojmiasto:66483126"
+    },
+    "trojmiasto:66483230": {
+      "cena": 2499,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "2499|53|2|chwarzno - wiczlino",
+      "id": "trojmiasto:66483230"
+    },
+    "trojmiasto:66483256": {
+      "cena": 2499,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "2499|46|2|przymorze wielkie",
+      "id": "trojmiasto:66483256"
+    },
+    "trojmiasto:66483282": {
+      "cena": 2400,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "2400|29.13|1|jasień",
+      "id": "trojmiasto:66483282"
+    },
+    "trojmiasto:66483473": {
+      "cena": 250,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "250|25|1|przymorze małe",
+      "id": "trojmiasto:66483473"
+    },
+    "trojmiasto:66484191": {
+      "cena": 3999,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "3999|55.4|2|brzeźno",
+      "id": "trojmiasto:66484191"
+    },
+    "trojmiasto:66484198": {
+      "cena": 2999,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "2999|50|2|jasień",
+      "id": "trojmiasto:66484198"
+    },
+    "trojmiasto:66484283": {
+      "cena": 3500,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "3500|62|3|chełm",
+      "id": "trojmiasto:66484283"
+    },
+    "trojmiasto:66484357": {
+      "cena": 2200,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "2200|31|1|karwiny",
+      "id": "trojmiasto:66484357"
+    },
+    "trojmiasto:66485044": {
+      "cena": 2950,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "2950|47|2|zaspa",
+      "id": "trojmiasto:66485044"
+    },
+    "trojmiasto:66485308": {
+      "cena": 2300,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "2300|50|2|kowale kasztelańska 9",
+      "id": "trojmiasto:66485308"
+    },
+    "trojmiasto:66485355": {
+      "cena": 2200,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "2200|40|1|ujeścisko",
+      "id": "trojmiasto:66485355"
+    },
+    "trojmiasto:66485417": {
+      "cena": 2200,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "2200|35|?|kacze buki",
+      "id": "trojmiasto:66485417"
+    },
+    "trojmiasto:66485646": {
+      "cena": 1990,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "1990|40|2|karczemki",
+      "id": "trojmiasto:66485646"
+    },
+    "trojmiasto:66485987": {
+      "cena": 2300,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "2300|28|1|oliwa",
+      "id": "trojmiasto:66485987"
+    },
+    "trojmiasto:66486718": {
+      "cena": 2800,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "2800|62|3|orunia górna",
+      "id": "trojmiasto:66486718"
     },
     "trojmiasto:66487679": {
       "cena": 2999,
@@ -4455,17 +4713,53 @@
       "fingerprint": "2490000|550|12|jastrzębia góra",
       "id": "trojmiasto_sale:66320781"
     },
+    "trojmiasto_sale:66323060": {
+      "cena": 599000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "599000|53|3|obłuże",
+      "id": "trojmiasto_sale:66323060"
+    },
     "trojmiasto_sale:66354520": {
       "cena": 1350000,
       "data_wyslania": "2026-07-25T11:31:01.343448+00:00",
       "fingerprint": "1350000|96.2|4|wrzeszcz górny",
       "id": "trojmiasto_sale:66354520"
     },
+    "trojmiasto_sale:66369939": {
+      "cena": 250000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "250000|851|?|koszwały",
+      "id": "trojmiasto_sale:66369939"
+    },
+    "trojmiasto_sale:66370227": {
+      "cena": 599000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "599000|50|2|śródmieście",
+      "id": "trojmiasto_sale:66370227"
+    },
+    "trojmiasto_sale:66374173": {
+      "cena": 1155000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "1155000|5500|?|kębłowo nowowiejskie",
+      "id": "trojmiasto_sale:66374173"
+    },
     "trojmiasto_sale:66392643": {
       "cena": 4360000,
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
       "fingerprint": "4360000|111.8|4|jelitkowo",
       "id": "trojmiasto_sale:66392643"
+    },
+    "trojmiasto_sale:66401901": {
+      "cena": 910000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "910000|52|2|śródmieście",
+      "id": "trojmiasto_sale:66401901"
+    },
+    "trojmiasto_sale:66406610": {
+      "cena": 890000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "890000|106|4|łostowice",
+      "id": "trojmiasto_sale:66406610"
     },
     "trojmiasto_sale:66407354": {
       "cena": 2500000,
@@ -4497,6 +4791,12 @@
       "fingerprint": "3950000|104|4|dolny sopot",
       "id": "trojmiasto_sale:66419912"
     },
+    "trojmiasto_sale:66425630": {
+      "cena": 645000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "645000|53.8|2|wrzeszcz górny",
+      "id": "trojmiasto_sale:66425630"
+    },
     "trojmiasto_sale:66439195": {
       "cena": 1849000,
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
@@ -4515,11 +4815,29 @@
       "fingerprint": "949000|55.28|3|sobieszewo",
       "id": "trojmiasto_sale:66439377"
     },
+    "trojmiasto_sale:66445208": {
+      "cena": 620000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "620000|46.03|2|obłuże",
+      "id": "trojmiasto_sale:66445208"
+    },
     "trojmiasto_sale:66446556": {
       "cena": 1125000,
       "data_wyslania": "2026-07-25T11:01:07.168174+00:00",
       "fingerprint": "1125000|46.42|2|śródmieście",
       "id": "trojmiasto_sale:66446556"
+    },
+    "trojmiasto_sale:66450009": {
+      "cena": 585000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "585000|33.27|2|śródmieście",
+      "id": "trojmiasto_sale:66450009"
+    },
+    "trojmiasto_sale:66452146": {
+      "cena": 669000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "669000|53|3|chylonia",
+      "id": "trojmiasto_sale:66452146"
     },
     "trojmiasto_sale:66454134": {
       "cena": 350000,
@@ -4527,11 +4845,29 @@
       "fingerprint": "350000|33.1|1|nowy port",
       "id": "trojmiasto_sale:66454134"
     },
+    "trojmiasto_sale:66455235": {
+      "cena": 395000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "395000|36.9|2|witomino",
+      "id": "trojmiasto_sale:66455235"
+    },
+    "trojmiasto_sale:66456305": {
+      "cena": 539000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "539000|38|2|przymorze wielkie",
+      "id": "trojmiasto_sale:66456305"
+    },
     "trojmiasto_sale:66456442": {
       "cena": 790000,
       "data_wyslania": "2026-07-25T11:01:07.168174+00:00",
       "fingerprint": "790000|30.94|2|dolny sopot",
       "id": "trojmiasto_sale:66456442"
+    },
+    "trojmiasto_sale:66458269": {
+      "cena": 929000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "929000|70|3|pogórze",
+      "id": "trojmiasto_sale:66458269"
     },
     "trojmiasto_sale:66459081": {
       "cena": 550000,
@@ -4539,17 +4875,65 @@
       "fingerprint": "550000|43.8|2|leszczynki",
       "id": "trojmiasto_sale:66459081"
     },
+    "trojmiasto_sale:66460733": {
+      "cena": 748000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "748000|48|3|wzgórze św. maksymiliana",
+      "id": "trojmiasto_sale:66460733"
+    },
     "trojmiasto_sale:66466218": {
       "cena": 1959000,
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
       "fingerprint": "1959000|85|4|przymorze wielkie",
       "id": "trojmiasto_sale:66466218"
     },
+    "trojmiasto_sale:66467327": {
+      "cena": 624860,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "624860|62.8|3|św. wojciech - lipce",
+      "id": "trojmiasto_sale:66467327"
+    },
+    "trojmiasto_sale:66468080": {
+      "cena": 2990000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "2990000|385|6|chwaszczyno",
+      "id": "trojmiasto_sale:66468080"
+    },
+    "trojmiasto_sale:66469682": {
+      "cena": 520000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "520000|39.1|2|wrzeszcz dolny",
+      "id": "trojmiasto_sale:66469682"
+    },
     "trojmiasto_sale:66474417": {
       "cena": 521000,
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
       "fingerprint": "521000|54|2|pustki cisowskie",
       "id": "trojmiasto_sale:66474417"
+    },
+    "trojmiasto_sale:66475248": {
+      "cena": 429000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "429000|29.65|1|przymorze małe",
+      "id": "trojmiasto_sale:66475248"
+    },
+    "trojmiasto_sale:66478675": {
+      "cena": 729000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "729000|56.3|3|zaspa",
+      "id": "trojmiasto_sale:66478675"
+    },
+    "trojmiasto_sale:66479648": {
+      "cena": 940000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "940000|86.1|3|śródmieście",
+      "id": "trojmiasto_sale:66479648"
+    },
+    "trojmiasto_sale:66480629": {
+      "cena": 695000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "695000|56|3|św. wojciech - lipce",
+      "id": "trojmiasto_sale:66480629"
     },
     "trojmiasto_sale:66481415": {
       "cena": 699000,
@@ -4563,11 +4947,113 @@
       "fingerprint": "475000|40.1|2|jastrzębia góra",
       "id": "trojmiasto_sale:66481612"
     },
+    "trojmiasto_sale:66482271": {
+      "cena": 1100000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "1100000|74.3|3|matemblewo",
+      "id": "trojmiasto_sale:66482271"
+    },
+    "trojmiasto_sale:66482283": {
+      "cena": 250000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "250000|35|2|ujeścisko",
+      "id": "trojmiasto_sale:66482283"
+    },
+    "trojmiasto_sale:66482356": {
+      "cena": 449900,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "449900|26.53|1|morena",
+      "id": "trojmiasto_sale:66482356"
+    },
+    "trojmiasto_sale:66482363": {
+      "cena": 1299900,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "1299900|116.6|5|trąbki wielkie",
+      "id": "trojmiasto_sale:66482363"
+    },
+    "trojmiasto_sale:66482451": {
+      "cena": 518000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "518000|32.4|1|redłowo",
+      "id": "trojmiasto_sale:66482451"
+    },
+    "trojmiasto_sale:66482672": {
+      "cena": 1115000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "1115000|116|4|cisowa",
+      "id": "trojmiasto_sale:66482672"
+    },
+    "trojmiasto_sale:66482908": {
+      "cena": 659000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "659000|35|2|żabianka",
+      "id": "trojmiasto_sale:66482908"
+    },
+    "trojmiasto_sale:66483163": {
+      "cena": 1129000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "1129000|81.43|4|chwarzno - wiczlino",
+      "id": "trojmiasto_sale:66483163"
+    },
+    "trojmiasto_sale:66483400": {
+      "cena": 1070000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "1070000|50|2|przymorze małe",
+      "id": "trojmiasto_sale:66483400"
+    },
+    "trojmiasto_sale:66483410": {
+      "cena": 2183128,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "2183128|65.55|3|dolny sopot",
+      "id": "trojmiasto_sale:66483410"
+    },
+    "trojmiasto_sale:66483416": {
+      "cena": 2458939,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "2458939|74.16|3|dolny sopot",
+      "id": "trojmiasto_sale:66483416"
+    },
+    "trojmiasto_sale:66483667": {
+      "cena": 749000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "749000|48.3|2|przymorze małe",
+      "id": "trojmiasto_sale:66483667"
+    },
     "trojmiasto_sale:66484607": {
       "cena": 599000,
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
       "fingerprint": "599000|56.3|3|sobieszewo",
       "id": "trojmiasto_sale:66484607"
+    },
+    "trojmiasto_sale:66485046": {
+      "cena": 2300000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "2300000|83.3|3|",
+      "id": "trojmiasto_sale:66485046"
+    },
+    "trojmiasto_sale:66485231": {
+      "cena": 1429000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "1429000|58|2|kamienna góra",
+      "id": "trojmiasto_sale:66485231"
+    },
+    "trojmiasto_sale:66485257": {
+      "cena": 2142000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "2142000|76.5|3|orłowo",
+      "id": "trojmiasto_sale:66485257"
+    },
+    "trojmiasto_sale:66485336": {
+      "cena": 890000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "890000|64|3|pogórze",
+      "id": "trojmiasto_sale:66485336"
+    },
+    "trojmiasto_sale:66485720": {
+      "cena": 897000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "897000|46.5|2|redłowo",
+      "id": "trojmiasto_sale:66485720"
     },
     "trojmiasto_sale:66485819": {
       "cena": 1690000,
@@ -4580,6 +5066,12 @@
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
       "fingerprint": "489000|40.77|1|grabówek",
       "id": "trojmiasto_sale:66486201"
+    },
+    "trojmiasto_sale:66486681": {
+      "cena": 879000,
+      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
+      "fingerprint": "879000|74.6|4|borkowo",
+      "id": "trojmiasto_sale:66486681"
     },
     "trojmiasto_sale:66487576": {
       "cena": 879000,
