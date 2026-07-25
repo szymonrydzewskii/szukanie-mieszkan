@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 1920,
+            "fetched": 2040,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 1481,
+            "fetched": 1578,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 11,
-            "fetched": 2422,
+            "fetched": 2573,
             "sent_main": 1,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 6,
-            "fetched": 2318,
+            "fetched": 2463,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 899,
+            "fetched": 959,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 893,
+            "fetched": 952,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -79,7 +79,7 @@
     "trojmiasto": "000066490250",
     "trojmiasto_sale": "000066489418"
   },
-  "last_run": "2026-07-25T17:30:57.132087+00:00",
+  "last_run": "2026-07-25T17:45:42.975765+00:00",
   "seen": {
     "nieruchomosci_online:21205236": {
       "cena": 2800,
@@ -3741,6 +3741,12 @@
       "fingerprint": "555000|56|4|stogi z przeróbką",
       "id": "olx_sale:1079833754"
     },
+    "olx_sale:1080002491": {
+      "cena": 779000,
+      "data_wyslania": "2026-07-25T17:45:42.975765+00:00",
+      "fingerprint": "779000|62|2|działki leśne",
+      "id": "olx_sale:1080002491"
+    },
     "olx_sale:1080155466": {
       "cena": 579000,
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
@@ -5270,6 +5276,12 @@
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
       "fingerprint": "550000|43.8|2|leszczynki",
       "id": "trojmiasto_sale:66459081"
+    },
+    "trojmiasto_sale:66459972": {
+      "cena": 1029000,
+      "data_wyslania": "2026-07-25T17:45:42.975765+00:00",
+      "fingerprint": "1029000|70.44|3|morena",
+      "id": "trojmiasto_sale:66459972"
     },
     "trojmiasto_sale:66460733": {
       "cena": 748000,
