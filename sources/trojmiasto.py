@@ -51,22 +51,33 @@ class TrojmiastoSource(Source):
         if hi > 0:
             time.sleep(__import__("random").uniform(lo, hi))
 
-    def _get_html(self) -> str:
+    def _get_html(self, url: str) -> str:
         headers = {"User-Agent": self.http["user_agent"], "Accept-Language": "pl"}
         try:
-            resp = requests.get(self.config["base_url"], headers=headers,
-                                timeout=self.http["timeout_seconds"])
+            resp = requests.get(url, headers=headers, timeout=self.http["timeout_seconds"])
         except requests.RequestException as e:
-            raise SourceError(f"Trojmiasto: błąd sieci: {e}") from e
+            raise SourceError(f"Trojmiasto: błąd sieci ({url}): {e}") from e
         if resp.status_code != 200:
             raise SourceError(
-                f"Trojmiasto: HTTP {resp.status_code} (pierwsze 300 znaków: {resp.text[:300]!r})"
+                f"Trojmiasto: HTTP {resp.status_code} dla {url} "
+                f"(pierwsze 300 znaków: {resp.text[:300]!r})"
             )
         return resp.text
 
+    def _page_url(self, page: int) -> str:
+        """URL kolejnej strony wyników (paginacja Trojmiasto: ?strona=N)."""
+        base = self.config["base_url"]
+        if page <= 1:
+            return base
+        sep = "&" if "?" in base else "?"
+        return f"{base}{sep}strona={page}"
+
     def fetch_raw(self) -> dict[str, str]:
-        self._sleep_jitter()
-        return {"wynajem": self._get_html()}
+        out = {}
+        for page in range(1, self.config.get("pages", 1) + 1):
+            self._sleep_jitter()
+            out[f"strona_{page}"] = self._get_html(self._page_url(page))
+        return out
 
     @staticmethod
     def _num(text: str | None) -> str | None:
@@ -165,9 +176,17 @@ class TrojmiastoSource(Source):
         return offers
 
     def fetch(self) -> list[Offer]:
-        self._sleep_jitter()
-        html = self._get_html()
-        offers = self._parse_html(html)
+        # Lista Trojmiasto miesza typy (mieszkania/lokale/pokoje), więc jedna strona
+        # daje ~15 mieszkań. Kilka stron zwiększa pokrycie i daje zapas, gdy cron
+        # pominie przebiegi. Jitter między stronami (kultura pobierania).
+        offers: list[Offer] = []
+        seen_ids: set[str] = set()
+        for page in range(1, self.config.get("pages", 1) + 1):
+            self._sleep_jitter()
+            for offer in self._parse_html(self._get_html(self._page_url(page))):
+                if offer.source_id not in seen_ids:
+                    seen_ids.add(offer.source_id)
+                    offers.append(offer)
         if not offers:
             # Zero sparsowanych ofert przy stronie 200 = zmiana layoutu/blokada, nie "pusto".
             raise SourceError(

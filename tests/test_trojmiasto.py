@@ -53,6 +53,36 @@ def parse(html):
     return TrojmiastoSource(config={}, http={})._parse_html(html)
 
 
+def test_page_url_builds_pagination():
+    src = TrojmiastoSource(config={"base_url": "https://x.pl/wynajem/"}, http={})
+    assert src._page_url(1) == "https://x.pl/wynajem/"
+    assert src._page_url(3) == "https://x.pl/wynajem/?strona=3"
+    src2 = TrojmiastoSource(config={"base_url": "https://x.pl/wynajem/?a=1"}, http={})
+    assert src2._page_url(2) == "https://x.pl/wynajem/?a=1&strona=2"
+
+
+def test_fetch_aggregates_pages_and_dedupes():
+    src = TrojmiastoSource(config={"base_url": "https://x.pl/", "pages": 3}, http={})
+    pages = {
+        "https://x.pl/": FIXTURE,                       # 2 mieszkania (66466261, 66470000)
+        "https://x.pl/?strona=2": FIXTURE,              # te same -> dedup
+        "https://x.pl/?strona=3": FIXTURE.replace("66466261", "66499999"),
+    }
+    src._get_html = lambda url: pages[url]
+    offers = src.fetch()
+    ids = sorted(o.source_id for o in offers)
+    assert ids == ["66466261", "66470000", "66499999"]   # bez duplikatów, z 3 stron
+
+
+def test_fetch_raises_when_nothing_parsed():
+    import pytest
+    from sources.base import SourceError
+    src = TrojmiastoSource(config={"base_url": "https://x.pl/", "pages": 1}, http={})
+    src._get_html = lambda url: "<html><body>brak ofert</body></html>"
+    with pytest.raises(SourceError):
+        src.fetch()
+
+
 def test_parses_only_apartments():
     offers = parse(FIXTURE)
     # 2 mieszkania; pominięte: reklama bez linku, "Pokój | Marina", "Lokal usługowy"

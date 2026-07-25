@@ -129,6 +129,9 @@ sources:
     # Baza najmu (miesza typy — nie-mieszkania odsiewa parser po tytule + filtry twarde).
     # Filtr rodzaj_nieruchomosci przez GET nie działa, więc bierzemy całość i filtrujemy.
     base_url: "https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/"
+    # Lista miesza typy, więc jedna strona to tylko ~15 mieszkań (z 30 kafelków).
+    # 3 strony ≈ 55-60 mieszkań i zapas, gdy cron pominie przebiegi.
+    pages: 3
   nieruchomosci_online:
     enabled: true
     # Wyszukiwanie per-miasto (nazwa miasta w URL). Parser bierze kafelki div.tile.
@@ -150,6 +153,7 @@ sources:
     mode: sale
     enabled: true
     base_url: "https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/"
+    pages: 3
   nieruchomosci_online_sale:
     class: nieruchomosci_online
     mode: sale
