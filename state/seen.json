@@ -3069,6 +3069,12 @@
       "fingerprint": "2400|46|2|ujeścisko - łostowice",
       "id": "olx:1087354435"
     },
+    "olx:1087358954": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-25T11:45:41.338636+00:00",
+      "fingerprint": "2500|24|1|żabianka - wejhera - jelitkowo - tysiąclecia",
+      "id": "olx:1087358954"
+    },
     "olx:1087359644": {
       "cena": 2500,
       "data_wyslania": "2026-07-25T11:31:01.343448+00:00",
@@ -3411,6 +3417,12 @@
       "fingerprint": "969884.25|38.46|2|brzeźno",
       "id": "olx_sale:1081743595"
     },
+    "olx_sale:1082463983": {
+      "cena": 440000,
+      "data_wyslania": "2026-07-25T11:45:41.338636+00:00",
+      "fingerprint": "440000|37.6|2|witomino-radiostacja",
+      "id": "olx_sale:1082463983"
+    },
     "olx_sale:1082913199": {
       "cena": 1999000,
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
@@ -3452,6 +3464,12 @@
       "data_wyslania": "2026-07-25T11:01:07.168174+00:00",
       "fingerprint": "579900|61|3|",
       "id": "olx_sale:1083129244"
+    },
+    "olx_sale:1083138638": {
+      "cena": 619000,
+      "data_wyslania": "2026-07-25T11:45:41.338636+00:00",
+      "fingerprint": "619000|56|3|",
+      "id": "olx_sale:1083138638"
     },
     "olx_sale:1083308895": {
       "cena": 620000,
@@ -3861,6 +3879,12 @@
       "fingerprint": "719000|47|2|karwiny",
       "id": "olx_sale:1087140645"
     },
+    "olx_sale:1087144627": {
+      "cena": 529000,
+      "data_wyslania": "2026-07-25T11:45:41.338636+00:00",
+      "fingerprint": "529000|49.5|2|piecki-migowo",
+      "id": "olx_sale:1087144627"
+    },
     "olx_sale:1087148119": {
       "cena": 470000,
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
@@ -4197,6 +4221,12 @@
       "fingerprint": "1125000|60.95|3|dolny sopot",
       "id": "trojmiasto_sale:65989124"
     },
+    "trojmiasto_sale:66101901": {
+      "cena": 2990000,
+      "data_wyslania": "2026-07-25T11:45:41.338636+00:00",
+      "fingerprint": "2990000|320|8|przyjaźń",
+      "id": "trojmiasto_sale:66101901"
+    },
     "trojmiasto_sale:66126638": {
       "cena": 1999000,
       "data_wyslania": "2026-07-25T10:48:08.260659+00:00",
@@ -4232,6 +4262,12 @@
       "data_wyslania": "2026-07-25T11:31:01.343448+00:00",
       "fingerprint": "1190000|54.95|3|śródmieście",
       "id": "trojmiasto_sale:66411044"
+    },
+    "trojmiasto_sale:66415828": {
+      "cena": 570000,
+      "data_wyslania": "2026-07-25T11:45:41.338636+00:00",
+      "fingerprint": "570000|46|2|przymorze wielkie",
+      "id": "trojmiasto_sale:66415828"
     },
     "trojmiasto_sale:66417458": {
       "cena": 569000,
