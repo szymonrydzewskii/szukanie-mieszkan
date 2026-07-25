@@ -16,6 +16,18 @@ notify:
     ({district}, {area} m², {rooms} pok.). Czy jest jeszcze dostępne i kiedy
     moglibyśmy je obejrzeć? Wynajmujemy we dwoje, spokojni studenci UG,
     na co najmniej rok akademicki. Pozdrawiamy.
+  # Wiadomość do sprzedającego (tryb sprzedaż)
+  buy_message_template: >-
+    Dzień dobry, jesteśmy zainteresowani kupnem mieszkania ({district},
+    {area} m², {rooms} pok.). Czy oferta jest aktualna i czy moglibyśmy
+    umówić się na oglądanie? Pozdrawiamy.
+
+# ---- Tryb SPRZEDAŻ (osobne kanały #sprzedaz / #sprzedaz-odrzucone) ----
+# Metraż/pokoje/lokalizacja/typ reużywane z sekcji `filters` (te same co wynajem).
+sale:
+  budget_match: 600000         # cena <= match -> #sprzedaz
+  budget_near_miss: 650000     # match < cena <= near_miss -> #sprzedaz-odrzucone
+  deal_price_per_m2: 13000     # <= tyle zł/m² -> flaga 🔥 OKAZJA (dostrajalne)
 
 state:
   path: "state/seen.json"      # commitowany stan (Etap 5 zajmie się commitem z Actions)
@@ -114,6 +126,28 @@ sources:
     enabled: true
     # Wyszukiwanie per-miasto (nazwa miasta w URL). Parser bierze kafelki div.tile.
     search_url_template: "https://www.nieruchomosci-online.pl/szukaj.html?3,mieszkanie,wynajem,,{city}"
+    cities: [Gdańsk, Sopot, Gdynia]
+
+  # --- SPRZEDAŻ (mode: sale) — reużywają tych samych klas Source, inny URL/kategoria ---
+  olx_sale:
+    class: olx
+    mode: sale
+    enabled: true
+    base_url: "https://www.olx.pl/api/v1/offers/"
+    category_id: 14            # Mieszkania -> Sprzedaż (wynajem = 15)
+    sort_by: "created_at:desc"
+    limit: 40
+    cities: {gdansk: 5659, sopot: 15983, gdynia: 5849}
+  trojmiasto_sale:
+    class: trojmiasto
+    mode: sale
+    enabled: true
+    base_url: "https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/"
+  nieruchomosci_online_sale:
+    class: nieruchomosci_online
+    mode: sale
+    enabled: true
+    search_url_template: "https://www.nieruchomosci-online.pl/szukaj.html?3,mieszkanie,sprzedaz,,{city}"
     cities: [Gdańsk, Sopot, Gdynia]
 
 # ---- Lokalizacja: tabela dzielnic (twardy filtr) + stacje SKM (do embeda) ----

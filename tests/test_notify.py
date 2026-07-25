@@ -63,6 +63,30 @@ def test_price_drop_marks_obnizka():
     assert "OBNIŻKA" in blob and "2 500" in blob and "2 350" in blob
 
 
+def test_sale_embed_shows_price_and_price_per_m2():
+    embed = notify.build_sale_embed(make_offer(price=550000, area_m2=50.0), price_per_m2=11000,
+                                    is_deal=False)
+    blob = json.dumps(embed, ensure_ascii=False)
+    assert "550 000 zł" in blob and "11 000" in blob and "zł/m²" in blob
+    assert "OKAZJA" not in blob
+
+
+def test_sale_embed_marks_okazja_when_deal():
+    embed = notify.build_sale_embed(make_offer(price=550000, area_m2=60.0), price_per_m2=9167,
+                                    is_deal=True)
+    blob = json.dumps(embed, ensure_ascii=False)
+    assert "OKAZJA" in blob
+    assert embed["color"] == notify.COLOR_GOLD
+
+
+def test_sale_rejected_embed_compact_with_reason():
+    embed = notify.build_sale_rejected_embed(make_offer(price=630000), price_per_m2=14000,
+                                             reason="cena 630000 zł — powyżej budżetu")
+    blob = json.dumps(embed, ensure_ascii=False)
+    assert "powyżej budżetu" in blob and embed["color"] == notify.COLOR_AMBER
+    assert len(embed.get("fields", [])) <= 4
+
+
 def test_near_miss_embed_is_compact_amber_with_reason():
     embed = notify.build_rejected_embed(make_offer(), make_cost(total=3650),
                                         reason="koszt 3650 zł — ponad limit")

@@ -45,6 +45,7 @@ class Offer:
     district: str | None = None
     lat: float | None = None
     lon: float | None = None
+    market: str | None = None           # "primary"/"secondary" (rynek) — istotne przy sprzedaży
 
     created_time: str | None = None     # ISO 8601, tak jak podaje portal
     # Klucz nowości do high-water-mark. Jeśli None -> pipeline użyje created_time.

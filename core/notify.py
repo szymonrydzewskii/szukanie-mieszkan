@@ -19,8 +19,9 @@ import requests
 from core.cost import CostBreakdown
 from sources.base import Offer
 
-COLOR_GREEN = 0x2ECC71     # dopasowanie -> #mieszkania
-COLOR_AMBER = 0xE67E22     # prawie-trafienie -> #odrzucone
+COLOR_GREEN = 0x2ECC71     # dopasowanie -> #mieszkania / #sprzedaz
+COLOR_AMBER = 0xE67E22     # prawie-trafienie -> #odrzucone / #sprzedaz-odrzucone
+COLOR_GOLD = 0xF1C40F      # 🔥 okazja (sprzedaż, niskie zł/m²)
 
 
 class NotifyError(Exception):
@@ -162,6 +163,73 @@ def build_rejected_embed(offer: Offer, cost: CostBreakdown, reason: str) -> dict
     }
 
 
+def build_sale_embed(
+    offer: Offer,
+    price_per_m2: int | None,
+    is_deal: bool,
+    *,
+    station_info: tuple[str, int] | None = None,
+    photo_size: str = "640x480",
+    buy_message_template: str | None = None,
+) -> dict:
+    """Pełny embed sprzedaży (#sprzedaz): cena zakupu + zł/m² + fakty. 🔥 gdy okazja."""
+    fields = []
+    if is_deal:
+        fields.append({"name": "🔥 OKAZJA", "value": "niska cena za m²", "inline": False})
+    fields.append({"name": "Cena", "value": _fmt_pln(offer.price), "inline": True})
+    fields.append({"name": "Cena za m²",
+                   "value": _fmt_pln(price_per_m2) + "/m²" if price_per_m2 is not None else "brak danych",
+                   "inline": True})
+    fields.append({"name": "Powierzchnia",
+                   "value": f"{offer.area_m2:g} m²" if offer.area_m2 is not None else "brak danych",
+                   "inline": True})
+    fields.append({"name": "Pokoje",
+                   "value": str(offer.rooms) if offer.rooms is not None else "brak danych", "inline": True})
+    fields.append({"name": "Piętro", "value": offer.floor or "brak danych", "inline": True})
+
+    loc = " · ".join(x for x in (offer.city, offer.district) if x) or "brak danych"
+    if station_info is not None:
+        loc += f"\nSKM {station_info[0]} — ~{station_info[1]} min pieszo (szac.)"
+    fields.append({"name": "Lokalizacja", "value": loc, "inline": False})
+    fields.append({"name": "Telefon", "value": "📞 tak" if offer.has_phone else "nie", "inline": True})
+    if buy_message_template:
+        fields.append({"name": "✉ Wiadomość do sprzedającego (skopiuj)",
+                       "value": render_owner_message(offer, buy_message_template), "inline": False})
+
+    embed: dict = {
+        "title": offer.title[:256] if offer.title else "(bez tytułu)",
+        "url": offer.url,
+        "color": COLOR_GOLD if is_deal else COLOR_GREEN,
+        "fields": fields,
+        "footer": {"text": f"{offer.source.upper()} · id {offer.source_id}"},
+    }
+    if offer.created_time:
+        embed["timestamp"] = offer.created_time
+    thumb = _photo_url(offer, photo_size)
+    if thumb:
+        embed["thumbnail"] = {"url": thumb}
+    return embed
+
+
+def build_sale_rejected_embed(offer: Offer, price_per_m2: int | None, reason: str) -> dict:
+    """Kompaktowy embed sprzedaży na #sprzedaz-odrzucone (prawie-trafienie)."""
+    return {
+        "title": offer.title[:256] if offer.title else "(bez tytułu)",
+        "url": offer.url,
+        "color": COLOR_AMBER,
+        "fields": [
+            {"name": "Prawie-trafienie", "value": reason, "inline": False},
+            {"name": "Cena", "value": _fmt_pln(offer.price), "inline": True},
+            {"name": "Cena za m²",
+             "value": _fmt_pln(price_per_m2) + "/m²" if price_per_m2 is not None else "?", "inline": True},
+            {"name": "Metraż / pokoje",
+             "value": (f"{offer.area_m2:g} m²" if offer.area_m2 else "?")
+                      + f" · {offer.rooms if offer.rooms is not None else '?'} pok", "inline": True},
+        ],
+        "footer": {"text": f"{offer.source.upper()} · id {offer.source_id} · {offer.district or offer.city or ''}"},
+    }
+
+
 def _post(webhook: str, embed: dict, timeout: int) -> None:
     payload = {"embeds": [embed]}
     resp = requests.post(webhook, json=payload, timeout=timeout)
@@ -197,4 +265,27 @@ def send_offer(
     else:
         embed = build_embed(offer, cost, station_info=station_info, photo_size=photo_size,
                             price_drop=price_drop, owner_message_template=owner_message_template)
+    _post(webhook, embed, timeout)
+
+
+def send_sale_offer(
+    offer: Offer,
+    price_per_m2: int | None,
+    is_deal: bool,
+    *,
+    channel: str = "main",
+    reason: str = "",
+    station_info: tuple[str, int] | None = None,
+    photo_size: str = "640x480",
+    buy_message_template: str | None = None,
+    webhook_env: str,
+    timeout: int = 20,
+) -> None:
+    """Wyślij ofertę SPRZEDAŻY na kanał sprzedaży (webhook z env)."""
+    webhook = get_webhook(webhook_env)
+    if channel == "rejected":
+        embed = build_sale_rejected_embed(offer, price_per_m2, reason)
+    else:
+        embed = build_sale_embed(offer, price_per_m2, is_deal, station_info=station_info,
+                                 photo_size=photo_size, buy_message_template=buy_message_template)
     _post(webhook, embed, timeout)

@@ -114,6 +114,9 @@ class OlxSource(Source):
         built_v = self._param(o, "builttype")
         builttype = built_v.get("key") if built_v else None
 
+        market_v = self._param(o, "market")
+        market = market_v.get("key") if market_v else None
+
         floor_v = self._param(o, "floor_select")
         floor = None
         if floor_v and floor_v.get("key"):
@@ -149,6 +152,7 @@ class OlxSource(Source):
             district=district,
             lat=lat,
             lon=lon,
+            market=market,
             created_time=o.get("created_time"),
             description=o.get("description"),
             photo_url=photo_url,

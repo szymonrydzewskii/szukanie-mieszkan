@@ -21,7 +21,7 @@ from typing import Any
 import yaml
 
 from core import cost as cost_mod
-from core import filters, geo, notify, pipeline, state
+from core import filters, geo, notify, pipeline, sale, state
 from sources.base import Source, SourceError
 from sources.nieruchomosci_online import NieruchomosciOnlineSource
 from sources.olx import OlxSource
@@ -70,10 +70,15 @@ def load_config() -> dict[str, Any]:
 
 
 def build_source(name: str, config: dict[str, Any]) -> Source:
-    if name not in SOURCE_CLASSES:
-        raise SystemExit(f"Nieznany portal: {name!r}. Dostępne: {list(SOURCE_CLASSES)}")
     src_cfg = config["sources"][name]
-    return SOURCE_CLASSES[name](config=src_cfg, http=config["http"])
+    cls_key = src_cfg.get("class", name)  # która klasa Source (domyślnie = klucz configu)
+    if cls_key not in SOURCE_CLASSES:
+        raise SystemExit(f"Nieznana klasa portalu: {cls_key!r}. Dostępne: {list(SOURCE_CLASSES)}")
+    src = SOURCE_CLASSES[cls_key](config=src_cfg, http=config["http"])
+    # Nazwa źródła = klucz configu (np. 'olx_sale') -> osobny stan/dedup/nowość
+    # dla wynajmu i sprzedaży tego samego portalu.
+    src.name = name
+    return src
 
 
 def cmd_debug_raw(name: str, config: dict[str, Any]) -> None:
@@ -124,6 +129,8 @@ def cmd_once(config: dict[str, Any]) -> None:
     threshold = dedup_cfg.get("price_drop_threshold", 100)
     cross = dedup_cfg.get("cross_portal", {})
     loc_cfg = config["location"]
+    sale_cfg = config.get("sale", {})
+    buy_tmpl = notify_cfg.get("buy_message_template")
 
     st = state.load_state(state_path)
     now = datetime.now(timezone.utc)
@@ -157,16 +164,48 @@ def cmd_once(config: dict[str, Any]) -> None:
             total = f"{cost.total} zł" if cost.total is not None else "koszt ?"
             print(f"  -> [#mieszkania {tag}] {offer.source_id} ({total}) {offer.title[:45]}")
 
+    # --- Tryb SPRZEDAŻ ---
+    def evaluate_fn_sale(offer):
+        text = filters.offer_text(offer)
+        v = filters.classify_sale(offer, text, config, now)
+        if v.kind == "reject":
+            print(f"  [odrzut] {offer.source_id} — {v.reason}")
+        return pipeline.Decision(v.kind, v.reason, None)
+
+    def send_fn_sale(offer, cost, channel, reason, price_drop):
+        ppm = sale.price_per_m2(offer.price, offer.area_m2)
+        deal = sale.is_deal(offer.price, offer.area_m2, sale_cfg.get("deal_price_per_m2", 0))
+        if channel == "rejected":
+            if not os.environ.get("DISCORD_WEBHOOK_SALE_REJECTED"):
+                print(f"  [#sprzedaz-odrzucone pominięte — brak webhooka] {offer.source_id} — {reason}")
+                return
+            notify.send_sale_offer(offer, ppm, deal, channel="rejected", reason=reason,
+                                   webhook_env="DISCORD_WEBHOOK_SALE_REJECTED")
+            print(f"  -> [#sprzedaz-odrzucone] {offer.source_id} — {reason}")
+        else:
+            if not os.environ.get("DISCORD_WEBHOOK_SALE"):
+                print(f"  [#sprzedaz pominięte — brak DISCORD_WEBHOOK_SALE] {offer.source_id} "
+                      f"({offer.price} zł)")
+                return
+            notify.send_sale_offer(offer, ppm, deal, channel="main",
+                                   station_info=_station_info(offer, loc_cfg), photo_size=photo_size,
+                                   buy_message_template=buy_tmpl, webhook_env="DISCORD_WEBHOOK_SALE")
+            badge = "🔥OKAZJA " if deal else ""
+            print(f"  -> [#sprzedaz {badge}] {offer.source_id} ({offer.price} zł, {ppm} zł/m²) "
+                  f"{offer.title[:40]}")
+
     # Izolacja per-źródło (Etap 6): błąd jednego portalu nie wywraca pozostałych.
     for name, src_cfg in config["sources"].items():
         if not src_cfg.get("enabled"):
             continue
+        mode = src_cfg.get("mode", "rent")
+        ev, snd = (evaluate_fn_sale, send_fn_sale) if mode == "sale" else (evaluate_fn, send_fn)
         cold = state.get_high_water(st, name) is None
         try:
             source = build_source(name, config)
             offers = source.fetch()  # rzuca wyjątek przy błędzie (nigdy ciche [])
             summary = pipeline.process_source(
-                name, offers, st, threshold, now, evaluate_fn=evaluate_fn, send_fn=send_fn,
+                name, offers, st, threshold, now, evaluate_fn=ev, send_fn=snd,
                 cross_price_tol=cross.get("price_tol"), cross_area_tol=cross.get("area_tol"),
             )
         except SourceError as e:
@@ -176,9 +215,11 @@ def cmd_once(config: dict[str, Any]) -> None:
         if cold:
             print(f"{name}: cold start — zasiano {summary['seeded']} ofert, nic nie wysłano")
         else:
+            main_ch, near_ch = ("#sprzedaz", "#sprzedaz-odrzucone") if mode == "sale" \
+                else ("#mieszkania", "#odrzucone")
             print(
-                f"{name}: pobrano {summary['fetched']} | #mieszkania {summary['sent_main']} | "
-                f"#odrzucone {summary['sent_near']} | odrzucone {summary['dropped']} | "
+                f"{name} [{mode}]: pobrano {summary['fetched']} | {main_ch} {summary['sent_main']} | "
+                f"{near_ch} {summary['sent_near']} | odrzucone {summary['dropped']} | "
                 f"dubel-portal {summary['cross_dup']} | backfill {summary['backfilled']} | "
                 f"pominięte {summary['skipped']}"
             )

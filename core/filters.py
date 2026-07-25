@@ -117,3 +117,43 @@ def classify(offer: Offer, text: str, cost: CostBreakdown, config: dict, now: da
     if near:
         return Verdict("near_miss", "; ".join(near))
     return Verdict("match")
+
+
+def classify_sale(offer: Offer, text: str, config: dict, now: datetime) -> Verdict:
+    """Klasyfikacja dla trybu SPRZEDAŻ: cena zakupu zamiast kosztu miesięcznego.
+
+    Reużywa wspólnych kryteriów z sekcji `filters` (metraż, pokoje, typ, suterena,
+    łazienka, dobre dzielnice). Specyficzne: budżet zakupu + rynek wtórny.
+    """
+    f = config["filters"]
+    s = config["sale"]
+
+    if offer.city and offer.city not in f["allowed_cities"]:
+        return Verdict("reject", f"lokalizacja poza Trójmiastem: {offer.city}")
+    if offer.area_m2 is not None and offer.area_m2 < f["min_area_m2"]:
+        return Verdict("reject", f"powierzchnia {offer.area_m2:g} m² < {f['min_area_m2']} m²")
+    if offer.rooms is not None and offer.rooms < f["min_rooms"]:
+        return Verdict("reject", f"mniej niż {f['min_rooms']} pokoje ({offer.rooms})")
+    kw = _contains(text, f.get("type_reject_keywords"))
+    if kw:
+        return Verdict("reject", f"typ inny niż mieszkanie: '{kw}'")
+    kw = _contains(text, f.get("souterrain_keywords"))
+    if kw:
+        return Verdict("reject", f"suterena ('{kw}')")
+    kw = _contains(text, f.get("no_bathroom_keywords"))
+    if kw:
+        return Verdict("reject", f"brak łazienki w lokalu ('{kw}')")
+    if offer.market == "primary":
+        return Verdict("reject", "rynek pierwotny (deweloper)")
+
+    tier = location_tier(offer.city, offer.district, config["location"])
+    if tier not in f["location_accept_tiers"]:
+        return Verdict("reject", f"lokalizacja poza dobrymi dzielnicami ({offer.district or offer.city})")
+
+    if offer.price is None:
+        return Verdict("reject", "brak ceny")
+    if offer.price <= s["budget_match"]:
+        return Verdict("match")
+    if offer.price <= s["budget_near_miss"]:
+        return Verdict("near_miss", f"cena {offer.price} zł — powyżej budżetu {s['budget_match']} zł")
+    return Verdict("reject", f"cena {offer.price} zł > {s['budget_near_miss']} zł")
