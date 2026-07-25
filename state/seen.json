@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 2760,
+            "fetched": 2880,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 2164,
+            "fetched": 2263,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 15,
-            "fetched": 3480,
+            "fetched": 3627,
             "sent_main": 3,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 6,
-            "fetched": 3332,
+            "fetched": 3474,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 1317,
+            "fetched": 1378,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 1302,
+            "fetched": 1361,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -79,7 +79,7 @@
     "trojmiasto": "000066490250",
     "trojmiasto_sale": "000066489418"
   },
-  "last_run": "2026-07-25T19:15:42.139249+00:00",
+  "last_run": "2026-07-25T19:30:58.648257+00:00",
   "seen": {
     "nieruchomosci_online:21205236": {
       "cena": 2800,
@@ -2078,6 +2078,12 @@
       "data_wyslania": "2026-07-24T15:34:55.802060+00:00",
       "fingerprint": "2600|38|2|przymorze wielkie",
       "id": "olx:1083463803"
+    },
+    "olx:1083584005": {
+      "cena": 1800,
+      "data_wyslania": "2026-07-25T19:30:58.648257+00:00",
+      "fingerprint": "1800|20|1|dolny sopot",
+      "id": "olx:1083584005"
     },
     "olx:1083632272": {
       "cena": 2950,
@@ -5355,6 +5361,12 @@
       "fingerprint": "949000|55.28|3|sobieszewo",
       "id": "trojmiasto_sale:66439377"
     },
+    "trojmiasto_sale:66439499": {
+      "cena": 609000,
+      "data_wyslania": "2026-07-25T19:30:58.648257+00:00",
+      "fingerprint": "609000|49.01|2|przymorze wielkie",
+      "id": "trojmiasto_sale:66439499"
+    },
     "trojmiasto_sale:66445208": {
       "cena": 620000,
       "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
@@ -5432,6 +5444,12 @@
       "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
       "fingerprint": "748000|48|3|wzgórze św. maksymiliana",
       "id": "trojmiasto_sale:66460733"
+    },
+    "trojmiasto_sale:66463665": {
+      "cena": 1199000,
+      "data_wyslania": "2026-07-25T19:30:58.648257+00:00",
+      "fingerprint": "1199000|73.9|4|zaspa",
+      "id": "trojmiasto_sale:66463665"
     },
     "trojmiasto_sale:66466218": {
       "cena": 1959000,
