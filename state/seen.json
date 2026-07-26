@@ -13,37 +13,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 12069,
+            "fetched": 12188,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 10319,
+            "fetched": 10417,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 48,
-            "fetched": 15289,
+            "dropped": 49,
+            "fetched": 15439,
             "sent_main": 1,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 16,
-            "fetched": 14489,
+            "fetched": 14630,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 6174,
+            "fetched": 6233,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 5844,
+            "fetched": 5903,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -80,12 +80,12 @@
   "high_water": {
     "nieruchomosci_online": "000026855547",
     "nieruchomosci_online_sale": "000026855196",
-    "olx": "2026-07-26T22:28:59+02:00",
+    "olx": "2026-07-26T22:39:24+02:00",
     "olx_sale": "2026-07-26T19:39:12+02:00",
     "trojmiasto": "000066490994",
     "trojmiasto_sale": "000066490784"
   },
-  "last_run": "2026-07-26T20:45:43.648866+00:00",
+  "last_run": "2026-07-26T21:01:15.813523+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -4730,6 +4730,12 @@
       "data_wyslania": "2026-07-26T20:45:43.648866+00:00",
       "fingerprint": "2000|41|1|orunia - św. wojciech - lipce",
       "id": "olx:1087598620"
+    },
+    "olx:1087599612": {
+      "cena": 2400,
+      "data_wyslania": "2026-07-26T21:01:15.813523+00:00",
+      "fingerprint": "2400|42.92|2|chylonia",
+      "id": "olx:1087599612"
     },
     "olx:777472320": {
       "cena": 3500,
