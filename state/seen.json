@@ -11,37 +11,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 7305,
+            "fetched": 7424,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 6117,
+            "fetched": 6219,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 15,
-            "fetched": 9241,
+            "dropped": 17,
+            "fetched": 9394,
             "sent_main": 0,
-            "sent_near": 0
+            "sent_near": 1
           },
           "olx_sale": {
             "dropped": 8,
-            "fetched": 8906,
+            "fetched": 9048,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 3799,
+            "fetched": 3861,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 3568,
+            "fetched": 3626,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -78,12 +78,12 @@
   "high_water": {
     "nieruchomosci_online": "000026854838",
     "nieruchomosci_online_sale": "000026855196",
-    "olx": "2026-07-26T13:33:15+02:00",
+    "olx": "2026-07-26T13:53:40+02:00",
     "olx_sale": "2026-07-26T12:42:28+02:00",
     "trojmiasto": "000066490683",
     "trojmiasto_sale": "000066490529"
   },
-  "last_run": "2026-07-26T12:01:06.516666+00:00",
+  "last_run": "2026-07-26T12:15:45.015550+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -4051,6 +4051,24 @@
       "fingerprint": "1800|35|1|karwiny",
       "id": "olx:1087508018"
     },
+    "olx:1087509935": {
+      "cena": 2700,
+      "data_wyslania": "2026-07-26T12:15:45.015550+00:00",
+      "fingerprint": "2700|38|2|przymorze wielkie",
+      "id": "olx:1087509935"
+    },
+    "olx:1087510998": {
+      "cena": 3500,
+      "data_wyslania": "2026-07-26T12:15:45.015550+00:00",
+      "fingerprint": "3500|42|2|śródmieście",
+      "id": "olx:1087510998"
+    },
+    "olx:1087511565": {
+      "cena": 3700,
+      "data_wyslania": "2026-07-26T12:15:45.015550+00:00",
+      "fingerprint": "3700|65|4|żabianka - wejhera - jelitkowo - tysiąclecia",
+      "id": "olx:1087511565"
+    },
     "olx:777472320": {
       "cena": 3500,
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
@@ -4650,6 +4668,12 @@
       "data_wyslania": "2026-07-25T11:31:01.343448+00:00",
       "fingerprint": "179000|33|1|jasień",
       "id": "olx_sale:1083672190"
+    },
+    "olx_sale:1083677063": {
+      "cena": 960000,
+      "data_wyslania": "2026-07-26T12:15:45.015550+00:00",
+      "fingerprint": "960000|67|3|chwarzno-wiczlino",
+      "id": "olx_sale:1083677063"
     },
     "olx_sale:1083745694": {
       "cena": 765000,
