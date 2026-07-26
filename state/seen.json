@@ -13,37 +13,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 11353,
+            "fetched": 11473,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 9696,
+            "fetched": 9801,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 46,
-            "fetched": 14389,
+            "fetched": 14539,
             "sent_main": 0,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 16,
-            "fetched": 13631,
+            "fetched": 13774,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 5820,
+            "fetched": 5879,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 5492,
+            "fetched": 5550,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -80,12 +80,12 @@
   "high_water": {
     "nieruchomosci_online": "000026855319",
     "nieruchomosci_online_sale": "000026855196",
-    "olx": "2026-07-26T21:03:25+02:00",
+    "olx": "2026-07-26T21:10:14+02:00",
     "olx_sale": "2026-07-26T19:39:12+02:00",
     "trojmiasto": "000066490994",
     "trojmiasto_sale": "000066490784"
   },
-  "last_run": "2026-07-26T19:15:50.723709+00:00",
+  "last_run": "2026-07-26T19:30:58.740098+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -4658,6 +4658,12 @@
       "data_wyslania": "2026-07-26T19:15:50.723709+00:00",
       "fingerprint": "2950|26|1|piecki-migowo",
       "id": "olx:1087585432"
+    },
+    "olx:1087586763": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-26T19:30:58.740098+00:00",
+      "fingerprint": "2500|28|1|siedlce",
+      "id": "olx:1087586763"
     },
     "olx:777472320": {
       "cena": 3500,
