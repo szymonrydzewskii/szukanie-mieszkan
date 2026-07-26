@@ -7,30 +7,31 @@
           "nieruchomosci_online: Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Max retries exceede",
           "nieruchomosci_online_sale: Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Max retries exceede",
           "olx: OLX: HTTP 500 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (p",
-          "olx_sale: OLX: HTTP 500 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5849, 'sort_by': 'created_at:desc'} (p"
+          "olx_sale: OLX: HTTP 500 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5849, 'sort_by': 'created_at:desc'} (p",
+          "trojmiasto: Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTY"
         ],
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 9923,
+            "fetched": 10042,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 8428,
+            "fetched": 8534,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 34,
-            "fetched": 12570,
+            "fetched": 12723,
             "sent_main": 0,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 13,
-            "fetched": 11913,
+            "fetched": 12057,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -68,12 +69,12 @@
       "last_error": null
     },
     "trojmiasto": {
-      "bad": 0,
-      "last_error": null
+      "bad": 1,
+      "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 0,
-      "last_error": null
+      "bad": 1,
+      "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
   "high_water": {
@@ -84,7 +85,7 @@
     "trojmiasto": "000066490683",
     "trojmiasto_sale": "000066490784"
   },
-  "last_run": "2026-07-26T16:39:33.393700+00:00",
+  "last_run": "2026-07-26T16:45:48.196740+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -1891,6 +1892,12 @@
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
       "fingerprint": "729000|63|3|obłuże",
       "id": "nieruchomosci_online_sale:26807925"
+    },
+    "nieruchomosci_online_sale:26813959": {
+      "cena": 595000,
+      "data_wyslania": "2026-07-26T16:45:48.196740+00:00",
+      "fingerprint": "595000|47.2|2|gdańsk",
+      "id": "nieruchomosci_online_sale:26813959"
     },
     "nieruchomosci_online_sale:26815219": {
       "cena": 685000,
@@ -4765,6 +4772,12 @@
       "data_wyslania": "2026-07-26T16:39:33.393700+00:00",
       "fingerprint": "1620675|66.15|3|",
       "id": "olx_sale:1057346789"
+    },
+    "olx_sale:1057346796": {
+      "cena": 1576856,
+      "data_wyslania": "2026-07-26T16:45:48.196740+00:00",
+      "fingerprint": "1576856|74.38|3|",
+      "id": "olx_sale:1057346796"
     },
     "olx_sale:1057357070": {
       "cena": 1085590,
