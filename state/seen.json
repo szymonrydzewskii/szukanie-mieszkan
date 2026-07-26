@@ -13,37 +13,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 10042,
+            "fetched": 10161,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 8534,
+            "fetched": 8640,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 34,
-            "fetched": 12723,
+            "fetched": 12876,
             "sent_main": 0,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 13,
-            "fetched": 12057,
+            "fetched": 12202,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 5162,
+            "fetched": 5222,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 4850,
+            "fetched": 4909,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -69,12 +69,12 @@
       "last_error": null
     },
     "trojmiasto": {
-      "bad": 1,
-      "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
+      "bad": 0,
+      "last_error": null
     },
     "trojmiasto_sale": {
-      "bad": 1,
-      "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
+      "bad": 0,
+      "last_error": null
     }
   },
   "high_water": {
@@ -85,7 +85,7 @@
     "trojmiasto": "000066490683",
     "trojmiasto_sale": "000066490784"
   },
-  "last_run": "2026-07-26T16:45:48.196740+00:00",
+  "last_run": "2026-07-26T17:01:05.068105+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -2594,6 +2594,18 @@
       "data_wyslania": "2026-07-24T16:51:19.759478+00:00",
       "fingerprint": "3200|45|2|śródmieście",
       "id": "olx:1082010919"
+    },
+    "olx:1082043479": {
+      "cena": 2200,
+      "data_wyslania": "2026-07-26T17:01:05.068105+00:00",
+      "fingerprint": "2200|45|1|oliwa",
+      "id": "olx:1082043479"
+    },
+    "olx:1082210726": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-26T17:01:05.068105+00:00",
+      "fingerprint": "2500|50|2|siedlce",
+      "id": "olx:1082210726"
     },
     "olx:1082302693": {
       "cena": 4000,
