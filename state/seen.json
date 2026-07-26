@@ -13,37 +13,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 11831,
+            "fetched": 11950,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 10116,
+            "fetched": 10221,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 48,
-            "fetched": 14990,
+            "fetched": 15139,
             "sent_main": 1,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 16,
-            "fetched": 14202,
+            "fetched": 14346,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 6056,
+            "fetched": 6115,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 5727,
+            "fetched": 5785,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -85,7 +85,7 @@
     "trojmiasto": "000066490994",
     "trojmiasto_sale": "000066490784"
   },
-  "last_run": "2026-07-26T20:15:45.284327+00:00",
+  "last_run": "2026-07-26T20:31:00.560156+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -7082,6 +7082,12 @@
       "data_wyslania": "2026-07-25T22:13:21.883104+00:00",
       "fingerprint": "285000|27.6|1|rudniki",
       "id": "trojmiasto_sale:66420488"
+    },
+    "trojmiasto_sale:66422189": {
+      "cena": 759000,
+      "data_wyslania": "2026-07-26T20:31:00.560156+00:00",
+      "fingerprint": "759000|50.4|2|oliwa",
+      "id": "trojmiasto_sale:66422189"
     },
     "trojmiasto_sale:66424255": {
       "cena": 1339000,
