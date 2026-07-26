@@ -11,37 +11,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 7424,
+            "fetched": 7543,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 6219,
+            "fetched": 6321,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 17,
-            "fetched": 9394,
+            "fetched": 9543,
             "sent_main": 0,
             "sent_near": 1
           },
           "olx_sale": {
-            "dropped": 8,
-            "fetched": 9048,
+            "dropped": 9,
+            "fetched": 9191,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 3861,
+            "fetched": 3923,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 3626,
+            "fetched": 3683,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -79,11 +79,11 @@
     "nieruchomosci_online": "000026854838",
     "nieruchomosci_online_sale": "000026855196",
     "olx": "2026-07-26T13:53:40+02:00",
-    "olx_sale": "2026-07-26T12:42:28+02:00",
+    "olx_sale": "2026-07-26T14:20:31+02:00",
     "trojmiasto": "000066490683",
     "trojmiasto_sale": "000066490529"
   },
-  "last_run": "2026-07-26T12:15:45.015550+00:00",
+  "last_run": "2026-07-26T12:30:57.979497+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -2070,6 +2070,12 @@
       "data_wyslania": "2026-07-24T15:03:46.714760+00:00",
       "fingerprint": "2200|40|1|ujeścisko - łostowice",
       "id": "olx:1076924359"
+    },
+    "olx:1077601222": {
+      "cena": 4900,
+      "data_wyslania": "2026-07-26T12:30:57.979497+00:00",
+      "fingerprint": "4900|57|2|śródmieście",
+      "id": "olx:1077601222"
     },
     "olx:1077762890": {
       "cena": 2499,
@@ -5431,6 +5437,12 @@
       "fingerprint": "773857|74.79|4|",
       "id": "olx_sale:1087498902"
     },
+    "olx_sale:1087516168": {
+      "cena": 990399,
+      "data_wyslania": "2026-07-26T12:30:57.979497+00:00",
+      "fingerprint": "990399|61.9|3|wielki kack",
+      "id": "olx_sale:1087516168"
+    },
     "olx_sale:857316110": {
       "cena": 715000,
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
@@ -6204,6 +6216,12 @@
       "data_wyslania": "2026-07-25T22:13:21.883104+00:00",
       "fingerprint": "285000|27.6|1|rudniki",
       "id": "trojmiasto_sale:66420488"
+    },
+    "trojmiasto_sale:66424255": {
+      "cena": 1339000,
+      "data_wyslania": "2026-07-26T12:30:57.979497+00:00",
+      "fingerprint": "1339000|97.6|3|górny sopot",
+      "id": "trojmiasto_sale:66424255"
     },
     "trojmiasto_sale:66424402": {
       "cena": 669000,
