@@ -13,37 +13,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 11473,
+            "fetched": 11593,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 9801,
+            "fetched": 9906,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 46,
-            "fetched": 14539,
+            "dropped": 47,
+            "fetched": 14687,
             "sent_main": 0,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 16,
-            "fetched": 13774,
+            "fetched": 13917,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 5879,
+            "fetched": 5938,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 5550,
+            "fetched": 5609,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -78,14 +78,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026855319",
+    "nieruchomosci_online": "000026855534",
     "nieruchomosci_online_sale": "000026855196",
-    "olx": "2026-07-26T21:10:14+02:00",
+    "olx": "2026-07-26T21:29:08+02:00",
     "olx_sale": "2026-07-26T19:39:12+02:00",
     "trojmiasto": "000066490994",
     "trojmiasto_sale": "000066490784"
   },
-  "last_run": "2026-07-26T19:30:58.740098+00:00",
+  "last_run": "2026-07-26T19:45:42.890558+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -968,6 +968,12 @@
       "data_wyslania": "2026-07-26T15:42:49.239427+00:00",
       "fingerprint": "3200|50|2|wzgórze św. maksymiliana",
       "id": "nieruchomosci_online:26855319"
+    },
+    "nieruchomosci_online:26855534": {
+      "cena": 2600,
+      "data_wyslania": "2026-07-26T19:45:42.890558+00:00",
+      "fingerprint": "2600|31|1|przymorze małe",
+      "id": "nieruchomosci_online:26855534"
     },
     "nieruchomosci_online_sale:24789504": {
       "cena": 1998000,
@@ -4665,6 +4671,12 @@
       "fingerprint": "2500|28|1|siedlce",
       "id": "olx:1087586763"
     },
+    "olx:1087590249": {
+      "cena": 3800,
+      "data_wyslania": "2026-07-26T19:45:42.890558+00:00",
+      "fingerprint": "3800|43.43|2|zaspa młyniec",
+      "id": "olx:1087590249"
+    },
     "olx:777472320": {
       "cena": 3500,
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
@@ -6740,6 +6752,12 @@
       "data_wyslania": "2026-07-26T07:01:02.341765+00:00",
       "fingerprint": "969000|55.26|2|śródmieście",
       "id": "trojmiasto_sale:65891524"
+    },
+    "trojmiasto_sale:65921149": {
+      "cena": 1275000,
+      "data_wyslania": "2026-07-26T19:45:42.890558+00:00",
+      "fingerprint": "1275000|50.68|3|śródmieście",
+      "id": "trojmiasto_sale:65921149"
     },
     "trojmiasto_sale:65946538": {
       "cena": 846000,
