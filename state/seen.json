@@ -54,37 +54,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 595,
+            "fetched": 714,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 490,
+            "fetched": 588,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 0,
-            "fetched": 754,
+            "fetched": 905,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 0,
-            "fetched": 714,
+            "fetched": 856,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 295,
+            "fetched": 354,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 290,
+            "fetched": 348,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -126,7 +126,7 @@
     "trojmiasto": "000066490994",
     "trojmiasto_sale": "000066490784"
   },
-  "last_run": "2026-07-26T23:01:05.773597+00:00",
+  "last_run": "2026-07-26T23:15:45.567124+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -7387,6 +7387,12 @@
       "data_wyslania": "2026-07-25T19:30:58.648257+00:00",
       "fingerprint": "1199000|73.9|4|zaspa",
       "id": "trojmiasto_sale:66463665"
+    },
+    "trojmiasto_sale:66465769": {
+      "cena": 549000,
+      "data_wyslania": "2026-07-26T23:15:45.567124+00:00",
+      "fingerprint": "549000|43|2|pogórze",
+      "id": "trojmiasto_sale:66465769"
     },
     "trojmiasto_sale:66466218": {
       "cena": 1959000,
