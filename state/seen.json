@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 6115,
+            "fetched": 6234,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 5107,
+            "fetched": 5207,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 10,
-            "fetched": 7876,
+            "fetched": 8026,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 5,
-            "fetched": 7468,
+            "fetched": 7612,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 3179,
+            "fetched": 3241,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 2991,
+            "fetched": 3049,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -82,7 +82,7 @@
     "trojmiasto": "000066490683",
     "trojmiasto_sale": "000066490529"
   },
-  "last_run": "2026-07-26T09:45:39.297602+00:00",
+  "last_run": "2026-07-26T10:01:05.219426+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -2315,6 +2315,12 @@
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
       "fingerprint": "2950|52|2|brzeźno",
       "id": "olx:1083632272"
+    },
+    "olx:1083684445": {
+      "cena": 2800,
+      "data_wyslania": "2026-07-26T10:01:05.219426+00:00",
+      "fingerprint": "2800|28|1|wrzeszcz",
+      "id": "olx:1083684445"
     },
     "olx:1083722040": {
       "cena": 2650,
@@ -4733,6 +4739,12 @@
       "data_wyslania": "2026-07-25T11:55:45.766699+00:00",
       "fingerprint": "549000|40.19|2|",
       "id": "olx_sale:1086142581"
+    },
+    "olx_sale:1086188262": {
+      "cena": 749000,
+      "data_wyslania": "2026-07-26T10:01:05.219426+00:00",
+      "fingerprint": "749000|53|2|wrzeszcz",
+      "id": "olx_sale:1086188262"
     },
     "olx_sale:1086193184": {
       "cena": 695000,
