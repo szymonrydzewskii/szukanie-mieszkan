@@ -48,37 +48,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 1680,
+            "fetched": 1800,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 1401,
+            "fetched": 1501,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 3,
-            "fetched": 2131,
+            "fetched": 2281,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 0,
-            "fetched": 2008,
+            "fetched": 2152,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 854,
+            "fetched": 915,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 802,
+            "fetched": 859,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -120,7 +120,7 @@
     "trojmiasto": "000066490250",
     "trojmiasto_sale": "000066490529"
   },
-  "last_run": "2026-07-26T01:01:09.652651+00:00",
+  "last_run": "2026-07-26T01:15:44.138260+00:00",
   "seen": {
     "nieruchomosci_online:21205236": {
       "cena": 2800,
@@ -5707,6 +5707,12 @@
       "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
       "fingerprint": "624860|62.8|3|św. wojciech - lipce",
       "id": "trojmiasto_sale:66467327"
+    },
+    "trojmiasto_sale:66467592": {
+      "cena": 999000,
+      "data_wyslania": "2026-07-26T01:15:44.138260+00:00",
+      "fingerprint": "999000|50.36|3|wzgórze św. maksymiliana",
+      "id": "trojmiasto_sale:66467592"
     },
     "trojmiasto_sale:66468080": {
       "cena": 2990000,
