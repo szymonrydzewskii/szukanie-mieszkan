@@ -6,24 +6,25 @@
         "errors": [
           "nieruchomosci_online: Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Max retries exceede",
           "nieruchomosci_online_sale: Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Max retries exceede",
-          "olx: OLX: HTTP 500 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (p"
+          "olx: OLX: HTTP 500 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (p",
+          "olx_sale: OLX: HTTP 500 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5849, 'sort_by': 'created_at:desc'} (p"
         ],
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 9209,
+            "fetched": 9328,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 7792,
+            "fetched": 7898,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 28,
-            "fetched": 11659,
+            "dropped": 29,
+            "fetched": 11809,
             "sent_main": 0,
             "sent_near": 1
           },
@@ -35,13 +36,13 @@
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 4791,
+            "fetched": 4853,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 4500,
+            "fetched": 4558,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -63,8 +64,8 @@
       "last_error": null
     },
     "olx_sale": {
-      "bad": 0,
-      "last_error": null
+      "bad": 1,
+      "last_error": "OLX: HTTP 500 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5849, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE html>\\n<html lang=\"en\">\\n<head>\\n    <meta name=\""
     },
     "trojmiasto": {
       "bad": 0,
@@ -76,14 +77,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026854838",
+    "nieruchomosci_online": "000026855319",
     "nieruchomosci_online_sale": "000026855196",
-    "olx": "2026-07-26T17:10:41+02:00",
+    "olx": "2026-07-26T17:22:17+02:00",
     "olx_sale": "2026-07-26T16:42:31+02:00",
     "trojmiasto": "000066490683",
     "trojmiasto_sale": "000066490784"
   },
-  "last_run": "2026-07-26T15:30:58.863302+00:00",
+  "last_run": "2026-07-26T15:42:49.239427+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -948,6 +949,12 @@
       "data_wyslania": "2026-07-25T19:15:42.139249+00:00",
       "fingerprint": "2100|37.3|2|witomino",
       "id": "nieruchomosci_online:26854838"
+    },
+    "nieruchomosci_online:26855319": {
+      "cena": 3200,
+      "data_wyslania": "2026-07-26T15:42:49.239427+00:00",
+      "fingerprint": "3200|50|2|wzgórze św. maksymiliana",
+      "id": "nieruchomosci_online:26855319"
     },
     "nieruchomosci_online_sale:24789504": {
       "cena": 1998000,
@@ -4429,6 +4436,12 @@
       "fingerprint": "3500|50|2|zaspa rozstaje",
       "id": "olx:1087544082"
     },
+    "olx:1087545956": {
+      "cena": 3100,
+      "data_wyslania": "2026-07-26T15:42:49.239427+00:00",
+      "fingerprint": "3100|44|2|zaspa młyniec",
+      "id": "olx:1087545956"
+    },
     "olx:777472320": {
       "cena": 3500,
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
@@ -6258,6 +6271,12 @@
       "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
       "fingerprint": "2950|47|2|zaspa",
       "id": "trojmiasto:66485044"
+    },
+    "trojmiasto:66485273": {
+      "cena": 5800,
+      "data_wyslania": "2026-07-26T15:42:49.239427+00:00",
+      "fingerprint": "5800|72|4|prez. lecha kaczyńskiego",
+      "id": "trojmiasto:66485273"
     },
     "trojmiasto:66485308": {
       "cena": 2300,
