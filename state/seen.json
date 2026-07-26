@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 6234,
+            "fetched": 6353,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 5207,
+            "fetched": 5308,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 10,
-            "fetched": 8026,
+            "dropped": 11,
+            "fetched": 8175,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 5,
-            "fetched": 7612,
+            "fetched": 7757,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 3241,
+            "fetched": 3303,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 3049,
+            "fetched": 3106,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -77,12 +77,12 @@
   "high_water": {
     "nieruchomosci_online": "000026854838",
     "nieruchomosci_online_sale": "000026855038",
-    "olx": "2026-07-26T11:30:18+02:00",
+    "olx": "2026-07-26T11:54:26+02:00",
     "olx_sale": "2026-07-26T10:04:45+02:00",
     "trojmiasto": "000066490683",
     "trojmiasto_sale": "000066490529"
   },
-  "last_run": "2026-07-26T10:01:05.219426+00:00",
+  "last_run": "2026-07-26T10:15:49.083064+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -1278,6 +1278,12 @@
       "fingerprint": "1990000|80.5|2|śródmieście",
       "id": "nieruchomosci_online_sale:26620201"
     },
+    "nieruchomosci_online_sale:26623470": {
+      "cena": 399000,
+      "data_wyslania": "2026-07-26T10:15:49.083064+00:00",
+      "fingerprint": "399000|50|3|grabówek",
+      "id": "nieruchomosci_online_sale:26623470"
+    },
     "nieruchomosci_online_sale:26626557": {
       "cena": 920000,
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
@@ -1493,6 +1499,12 @@
       "data_wyslania": "2026-07-25T14:17:24.798865+00:00",
       "fingerprint": "499000|23|1|śródmieście",
       "id": "nieruchomosci_online_sale:26783196"
+    },
+    "nieruchomosci_online_sale:26788220": {
+      "cena": 589000,
+      "data_wyslania": "2026-07-26T10:15:49.083064+00:00",
+      "fingerprint": "589000|36|2|działki leśne",
+      "id": "nieruchomosci_online_sale:26788220"
     },
     "nieruchomosci_online_sale:26789570": {
       "cena": 1499000,
@@ -1937,6 +1949,12 @@
       "data_wyslania": "2026-07-25T09:14:24.617883+00:00",
       "fingerprint": "8000|104|4|mały kack",
       "id": "olx:1075819976"
+    },
+    "olx:1075846740": {
+      "cena": 3500,
+      "data_wyslania": "2026-07-26T10:15:49.083064+00:00",
+      "fingerprint": "3500|51.5|2|dolny sopot",
+      "id": "olx:1075846740"
     },
     "olx:1075862561": {
       "cena": 4000,
@@ -2735,6 +2753,12 @@
       "data_wyslania": "2026-07-24T13:35:48.038138+00:00",
       "fingerprint": "5000|60|3|brzeźno",
       "id": "olx:1086167150"
+    },
+    "olx:1086191300": {
+      "cena": 3500,
+      "data_wyslania": "2026-07-26T10:15:49.083064+00:00",
+      "fingerprint": "3500|49|2|siedlce",
+      "id": "olx:1086191300"
     },
     "olx:1086195958": {
       "cena": 2900,
@@ -3893,6 +3917,12 @@
       "data_wyslania": "2026-07-26T09:45:39.297602+00:00",
       "fingerprint": "3900|57|3|brzeźno",
       "id": "olx:1087486184"
+    },
+    "olx:1087490290": {
+      "cena": 2300,
+      "data_wyslania": "2026-07-26T10:15:49.083064+00:00",
+      "fingerprint": "2300|15|1|wrzeszcz",
+      "id": "olx:1087490290"
     },
     "olx:777472320": {
       "cena": 3500,
@@ -5873,6 +5903,12 @@
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
       "fingerprint": "4360000|111.8|4|jelitkowo",
       "id": "trojmiasto_sale:66392643"
+    },
+    "trojmiasto_sale:66399053": {
+      "cena": 865000,
+      "data_wyslania": "2026-07-26T10:15:49.083064+00:00",
+      "fingerprint": "865000|50.21|2|orłowo",
+      "id": "trojmiasto_sale:66399053"
     },
     "trojmiasto_sale:66399961": {
       "cena": 919000,
