@@ -11,37 +11,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 7067,
+            "fetched": 7186,
             "sent_main": 0,
-            "sent_near": 0
+            "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 5914,
+            "fetched": 6015,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 14,
-            "fetched": 8937,
+            "dropped": 15,
+            "fetched": 9087,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 8,
-            "fetched": 8619,
+            "fetched": 8763,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 3675,
+            "fetched": 3737,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 3453,
+            "fetched": 3510,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -78,12 +78,12 @@
   "high_water": {
     "nieruchomosci_online": "000026854838",
     "nieruchomosci_online_sale": "000026855038",
-    "olx": "2026-07-26T13:17:03+02:00",
+    "olx": "2026-07-26T13:33:15+02:00",
     "olx_sale": "2026-07-26T12:42:28+02:00",
     "trojmiasto": "000066490683",
     "trojmiasto_sale": "000066490529"
   },
-  "last_run": "2026-07-26T11:30:59.456601+00:00",
+  "last_run": "2026-07-26T11:45:41.937674+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -764,9 +764,9 @@
       "id": "nieruchomosci_online:26845321"
     },
     "nieruchomosci_online:26845669": {
-      "cena": 3200,
-      "data_wyslania": "2026-07-25T09:45:42.497013+00:00",
-      "fingerprint": "3200|55|3|kamienny potok",
+      "cena": 2950,
+      "data_wyslania": "2026-07-26T11:45:41.937674+00:00",
+      "fingerprint": "2950|55|3|kamienny potok",
       "id": "nieruchomosci_online:26845669"
     },
     "nieruchomosci_online:26846315": {
@@ -4032,6 +4032,12 @@
       "data_wyslania": "2026-07-26T11:30:59.456601+00:00",
       "fingerprint": "2400|21|1|centrum",
       "id": "olx:1087505219"
+    },
+    "olx:1087508018": {
+      "cena": 1800,
+      "data_wyslania": "2026-07-26T11:45:41.937674+00:00",
+      "fingerprint": "1800|35|1|karwiny",
+      "id": "olx:1087508018"
     },
     "olx:777472320": {
       "cena": 3500,
