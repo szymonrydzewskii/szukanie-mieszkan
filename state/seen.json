@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 4920,
+            "fetched": 5040,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 4101,
+            "fetched": 4201,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 3,
-            "fetched": 6376,
+            "fetched": 6530,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 0,
-            "fetched": 6031,
+            "fetched": 6175,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2562,
+            "fetched": 2623,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 2415,
+            "fetched": 2471,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -82,7 +82,7 @@
     "trojmiasto": "000066490250",
     "trojmiasto_sale": "000066490529"
   },
-  "last_run": "2026-07-26T07:30:53.257839+00:00",
+  "last_run": "2026-07-26T07:45:44.745629+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -2327,6 +2327,12 @@
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
       "fingerprint": "2700|36|2|górny sopot",
       "id": "olx:1084304341"
+    },
+    "olx:1084314057": {
+      "cena": 2800,
+      "data_wyslania": "2026-07-26T07:45:44.745629+00:00",
+      "fingerprint": "2800|45.5|2|orunia - św. wojciech - lipce",
+      "id": "olx:1084314057"
     },
     "olx:1084319539": {
       "cena": 2300,
