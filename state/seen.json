@@ -51,37 +51,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 369,
+            "fetched": 492,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 297,
+            "fetched": 396,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 2,
-            "fetched": 458,
+            "fetched": 613,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 0,
-            "fetched": 430,
+            "fetched": 572,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 186,
+            "fetched": 248,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 191,
+            "fetched": 255,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -116,14 +116,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026858420",
+    "nieruchomosci_online": "000026858432",
     "nieruchomosci_online_sale": "000026855416",
     "olx": "2026-07-28T00:07:45+02:00",
     "olx_sale": "2026-07-27T21:40:05+02:00",
     "trojmiasto": "000066492396",
     "trojmiasto_sale": "000066492503"
   },
-  "last_run": "2026-07-27T22:31:02.168625+00:00",
+  "last_run": "2026-07-27T22:45:42.325024+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -1222,6 +1222,12 @@
       "data_wyslania": "2026-07-27T22:31:02.168625+00:00",
       "fingerprint": "2100|22|1|śródmieście",
       "id": "nieruchomosci_online:26858420"
+    },
+    "nieruchomosci_online:26858432": {
+      "cena": 1999,
+      "data_wyslania": "2026-07-27T22:45:42.325024+00:00",
+      "fingerprint": "1999|35|1|centrum",
+      "id": "nieruchomosci_online:26858432"
     },
     "nieruchomosci_online_sale:24789504": {
       "cena": 1998000,
