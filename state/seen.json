@@ -9,37 +9,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 9724,
+            "fetched": 9847,
             "sent_main": 0,
             "sent_near": 2
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 8078,
+            "fetched": 8183,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 44,
-            "fetched": 12099,
+            "fetched": 12250,
             "sent_main": 1,
             "sent_near": 4
           },
           "olx_sale": {
             "dropped": 29,
-            "fetched": 11561,
+            "fetched": 11702,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 4,
-            "fetched": 4873,
+            "fetched": 4936,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 4,
-            "fetched": 4812,
+            "fetched": 4873,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -78,10 +78,10 @@
     "nieruchomosci_online_sale": "000026855416",
     "olx": "2026-07-27T18:11:21+02:00",
     "olx_sale": "2026-07-27T18:13:19+02:00",
-    "trojmiasto": "000066491891",
+    "trojmiasto": "000066492277",
     "trojmiasto_sale": "000066491904"
   },
-  "last_run": "2026-07-27T16:45:46.554703+00:00",
+  "last_run": "2026-07-27T17:01:16.309463+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -1522,6 +1522,12 @@
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
       "fingerprint": "2500000|128|6|dolny sopot",
       "id": "nieruchomosci_online_sale:26413281"
+    },
+    "nieruchomosci_online_sale:26418813": {
+      "cena": 330000,
+      "data_wyslania": "2026-07-27T17:01:16.309463+00:00",
+      "fingerprint": "330000|16.2|1|sopot",
+      "id": "nieruchomosci_online_sale:26418813"
     },
     "nieruchomosci_online_sale:26419450": {
       "cena": 1595000,
@@ -4384,6 +4390,12 @@
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
       "fingerprint": "2500|26|2|redłowo",
       "id": "olx:1086618900"
+    },
+    "olx:1086627185": {
+      "cena": 2200,
+      "data_wyslania": "2026-07-27T17:01:16.309463+00:00",
+      "fingerprint": "2200|37|2|brzeźno",
+      "id": "olx:1086627185"
     },
     "olx:1086661211": {
       "cena": 2800,
@@ -8578,6 +8590,12 @@
       "data_wyslania": "2026-07-27T16:01:07.204322+00:00",
       "fingerprint": "600|400|20|św. wojciech - lipce",
       "id": "trojmiasto:66491891"
+    },
+    "trojmiasto:66492277": {
+      "cena": 2900,
+      "data_wyslania": "2026-07-27T17:01:16.309463+00:00",
+      "fingerprint": "2900|42|2|morena",
+      "id": "trojmiasto:66492277"
     },
     "trojmiasto_sale:64570022": {
       "cena": 3800000,
