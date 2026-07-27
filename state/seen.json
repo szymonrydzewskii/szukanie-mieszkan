@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 6321,
+            "fetched": 6441,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
-            "dropped": 2,
-            "fetched": 5217,
+            "dropped": 3,
+            "fetched": 5320,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 10,
-            "fetched": 8019,
+            "fetched": 8168,
             "sent_main": 0,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 12,
-            "fetched": 7566,
+            "fetched": 7708,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 3149,
+            "fetched": 3210,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 3092,
+            "fetched": 3151,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -79,7 +79,7 @@
     "trojmiasto": "000066491381",
     "trojmiasto_sale": "000066490784"
   },
-  "last_run": "2026-07-27T10:01:11.746695+00:00",
+  "last_run": "2026-07-27T10:15:42.966494+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -1894,9 +1894,9 @@
       "id": "nieruchomosci_online_sale:26687684"
     },
     "nieruchomosci_online_sale:26688248": {
-      "cena": 496000,
-      "data_wyslania": "2026-07-27T08:40:46.839667+00:00",
-      "fingerprint": "496000|36.29|2|orunia górna",
+      "cena": 486000,
+      "data_wyslania": "2026-07-27T10:15:42.966494+00:00",
+      "fingerprint": "486000|36.29|2|orunia górna",
       "id": "nieruchomosci_online_sale:26688248"
     },
     "nieruchomosci_online_sale:26690418": {
@@ -7377,6 +7377,12 @@
       "fingerprint": "2700|20|1|przymorze małe",
       "id": "trojmiasto:66478457"
     },
+    "trojmiasto:66481691": {
+      "cena": 1600,
+      "data_wyslania": "2026-07-27T10:15:42.966494+00:00",
+      "fingerprint": "1600|15|1|śródmieście",
+      "id": "trojmiasto:66481691"
+    },
     "trojmiasto:66482285": {
       "cena": 2000,
       "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
@@ -8025,6 +8031,12 @@
       "fingerprint": "645000|53.8|2|wrzeszcz górny",
       "id": "trojmiasto_sale:66425630"
     },
+    "trojmiasto_sale:66428405": {
+      "cena": 370000,
+      "data_wyslania": "2026-07-27T10:15:42.966494+00:00",
+      "fingerprint": "370000|54|2|krakowiec - górki zachodnie",
+      "id": "trojmiasto_sale:66428405"
+    },
     "trojmiasto_sale:66428799": {
       "cena": 850000,
       "data_wyslania": "2026-07-26T09:01:05.986608+00:00",
@@ -8492,6 +8504,12 @@
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
       "fingerprint": "879000|66|3|morena",
       "id": "trojmiasto_sale:66487576"
+    },
+    "trojmiasto_sale:66487645": {
+      "cena": 529000,
+      "data_wyslania": "2026-07-27T10:15:42.966494+00:00",
+      "fingerprint": "529000|49.5|2|morena",
+      "id": "trojmiasto_sale:66487645"
     },
     "trojmiasto_sale:66487651": {
       "cena": 1599000,
