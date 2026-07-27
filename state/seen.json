@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 4521,
+            "fetched": 4640,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 3722,
+            "fetched": 3819,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 2,
-            "fetched": 5747,
+            "fetched": 5901,
             "sent_main": 0,
-            "sent_near": 0
+            "sent_near": 1
           },
           "olx_sale": {
             "dropped": 2,
-            "fetched": 5426,
+            "fetched": 5569,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2242,
+            "fetched": 2301,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 2217,
+            "fetched": 2276,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -74,12 +74,12 @@
   "high_water": {
     "nieruchomosci_online": "000026855547",
     "nieruchomosci_online_sale": "000026855416",
-    "olx": "2026-07-27T08:20:48+02:00",
+    "olx": "2026-07-27T08:35:34+02:00",
     "olx_sale": "2026-07-27T07:50:35+02:00",
     "trojmiasto": "000066490994",
     "trojmiasto_sale": "000066490784"
   },
-  "last_run": "2026-07-27T06:31:00.261952+00:00",
+  "last_run": "2026-07-27T06:45:44.169164+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -2114,6 +2114,12 @@
       "data_wyslania": "2026-07-26T10:45:45.392818+00:00",
       "fingerprint": "519000|43|3|przymorze",
       "id": "nieruchomosci_online_sale:26827741"
+    },
+    "nieruchomosci_online_sale:26830206": {
+      "cena": 649500,
+      "data_wyslania": "2026-07-27T06:45:44.169164+00:00",
+      "fingerprint": "649500|45|2|siedlce",
+      "id": "nieruchomosci_online_sale:26830206"
     },
     "nieruchomosci_online_sale:26831584": {
       "cena": 795000,
@@ -4868,6 +4874,12 @@
       "data_wyslania": "2026-07-27T06:31:00.261952+00:00",
       "fingerprint": "4200|62|3|orłowo",
       "id": "olx:1087613278"
+    },
+    "olx:1087614518": {
+      "cena": 2600,
+      "data_wyslania": "2026-07-27T06:45:44.169164+00:00",
+      "fingerprint": "2600|50|3|przymorze małe",
+      "id": "olx:1087614518"
     },
     "olx:777472320": {
       "cena": 3500,
