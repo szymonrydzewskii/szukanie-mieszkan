@@ -50,38 +50,38 @@
         "errors": [],
         "sources": {
           "nieruchomosci_online": {
-            "dropped": 0,
-            "fetched": 246,
+            "dropped": 2,
+            "fetched": 369,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 198,
+            "fetched": 297,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 2,
-            "fetched": 308,
+            "fetched": 458,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 0,
-            "fetched": 286,
+            "fetched": 430,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 124,
+            "fetched": 186,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 127,
+            "fetched": 191,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -116,14 +116,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026858205",
+    "nieruchomosci_online": "000026858420",
     "nieruchomosci_online_sale": "000026855416",
     "olx": "2026-07-28T00:07:45+02:00",
     "olx_sale": "2026-07-27T21:40:05+02:00",
     "trojmiasto": "000066492396",
     "trojmiasto_sale": "000066492503"
   },
-  "last_run": "2026-07-27T22:15:43.823972+00:00",
+  "last_run": "2026-07-27T22:31:02.168625+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -1192,6 +1192,36 @@
       "data_wyslania": "2026-07-27T19:30:59.447028+00:00",
       "fingerprint": "3000|68.9|3|karwiny",
       "id": "nieruchomosci_online:26858205"
+    },
+    "nieruchomosci_online:26858416": {
+      "cena": 1600,
+      "data_wyslania": "2026-07-27T22:31:02.168625+00:00",
+      "fingerprint": "1600|15|1|śródmieście",
+      "id": "nieruchomosci_online:26858416"
+    },
+    "nieruchomosci_online:26858417": {
+      "cena": 2000,
+      "data_wyslania": "2026-07-27T22:31:02.168625+00:00",
+      "fingerprint": "2000|19|1|kamienna góra",
+      "id": "nieruchomosci_online:26858417"
+    },
+    "nieruchomosci_online:26858418": {
+      "cena": 1900,
+      "data_wyslania": "2026-07-27T22:31:02.168625+00:00",
+      "fingerprint": "1900|18|1|kamienna góra",
+      "id": "nieruchomosci_online:26858418"
+    },
+    "nieruchomosci_online:26858419": {
+      "cena": 1600,
+      "data_wyslania": "2026-07-27T22:31:02.168625+00:00",
+      "fingerprint": "1600|15|1|śródmieście",
+      "id": "nieruchomosci_online:26858419"
+    },
+    "nieruchomosci_online:26858420": {
+      "cena": 2100,
+      "data_wyslania": "2026-07-27T22:31:02.168625+00:00",
+      "fingerprint": "2100|22|1|śródmieście",
+      "id": "nieruchomosci_online:26858420"
     },
     "nieruchomosci_online_sale:24789504": {
       "cena": 1998000,
