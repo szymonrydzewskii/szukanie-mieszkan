@@ -9,37 +9,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 4,
-            "fetched": 8740,
+            "fetched": 8863,
             "sent_main": 0,
             "sent_near": 2
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 7245,
+            "fetched": 7349,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 40,
-            "fetched": 10890,
+            "fetched": 11041,
             "sent_main": 1,
             "sent_near": 4
           },
           "olx_sale": {
             "dropped": 25,
-            "fetched": 10415,
+            "fetched": 10559,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 3,
-            "fetched": 4378,
+            "fetched": 4440,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
-            "dropped": 2,
-            "fetched": 4314,
+            "dropped": 3,
+            "fetched": 4377,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -81,7 +81,7 @@
     "trojmiasto": "000066491625",
     "trojmiasto_sale": "000066491525"
   },
-  "last_run": "2026-07-27T15:01:10.531332+00:00",
+  "last_run": "2026-07-27T15:09:10.167936+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -4018,6 +4018,12 @@
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
       "fingerprint": "2100|22|1|górny sopot",
       "id": "olx:1085415120"
+    },
+    "olx:1085444419": {
+      "cena": 2800,
+      "data_wyslania": "2026-07-27T15:09:10.167936+00:00",
+      "fingerprint": "2800|35|2|chełm z dzielnicą gdańsk południe",
+      "id": "olx:1085444419"
     },
     "olx:1085471316": {
       "cena": 2700,
@@ -9264,9 +9270,9 @@
       "id": "trojmiasto_sale:66483985"
     },
     "trojmiasto_sale:66484446": {
-      "cena": 878000,
-      "data_wyslania": "2026-07-27T14:45:41.890887+00:00",
-      "fingerprint": "878000|126.54|3|skowarcz",
+      "cena": 868000,
+      "data_wyslania": "2026-07-27T15:09:10.167936+00:00",
+      "fingerprint": "868000|126.54|3|skowarcz",
       "id": "trojmiasto_sale:66484446"
     },
     "trojmiasto_sale:66484607": {
