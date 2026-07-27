@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 4,
-            "fetched": 8006,
+            "fetched": 8128,
             "sent_main": 0,
             "sent_near": 2
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 6621,
+            "fetched": 6725,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 35,
-            "fetched": 10130,
+            "dropped": 36,
+            "fetched": 10279,
             "sent_main": 1,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 24,
-            "fetched": 9566,
+            "fetched": 9709,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 3,
-            "fetched": 4006,
+            "fetched": 4068,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 3944,
+            "fetched": 4006,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -74,12 +74,12 @@
   "high_water": {
     "nieruchomosci_online": "000026857142",
     "nieruchomosci_online_sale": "000026855416",
-    "olx": "2026-07-27T15:01:38+02:00",
+    "olx": "2026-07-27T15:30:59+02:00",
     "olx_sale": "2026-07-27T15:20:46+02:00",
     "trojmiasto": "000066491625",
     "trojmiasto_sale": "000066491525"
   },
-  "last_run": "2026-07-27T13:31:00.318394+00:00",
+  "last_run": "2026-07-27T13:45:41.863514+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -2816,6 +2816,12 @@
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
       "fingerprint": "990000|71|3|ujeścisko",
       "id": "nieruchomosci_online_sale:26852957"
+    },
+    "nieruchomosci_online_sale:26853354": {
+      "cena": 949000,
+      "data_wyslania": "2026-07-27T13:45:41.863514+00:00",
+      "fingerprint": "949000|63.2|3|piecki-migowo",
+      "id": "nieruchomosci_online_sale:26853354"
     },
     "nieruchomosci_online_sale:26854172": {
       "cena": 849000,
@@ -5840,6 +5846,12 @@
       "data_wyslania": "2026-07-27T13:15:49.942539+00:00",
       "fingerprint": "2850|46|2|działki leśne",
       "id": "olx:1087703922"
+    },
+    "olx:1087712307": {
+      "cena": 2300,
+      "data_wyslania": "2026-07-27T13:45:41.863514+00:00",
+      "fingerprint": "2300|54|3|obłuże",
+      "id": "olx:1087712307"
     },
     "olx:777472320": {
       "cena": 3500,
