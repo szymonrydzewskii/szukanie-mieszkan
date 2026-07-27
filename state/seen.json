@@ -4,24 +4,25 @@
     "days": {
       "2026-07-27": {
         "errors": [
-          "olx: OLX: błąd sieci przy zapytaniu {'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:des"
+          "olx: OLX: błąd sieci przy zapytaniu {'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:des",
+          "olx_sale: OLX: błąd sieci przy zapytaniu {'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5849, 'sort_by': 'created_at:des"
         ],
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 10462,
+            "fetched": 10585,
             "sent_main": 0,
             "sent_near": 2
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 8708,
+            "fetched": 8813,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 46,
-            "fetched": 13000,
+            "dropped": 48,
+            "fetched": 13152,
             "sent_main": 1,
             "sent_near": 4
           },
@@ -32,14 +33,14 @@
             "sent_near": 0
           },
           "trojmiasto": {
-            "dropped": 4,
-            "fetched": 5251,
+            "dropped": 5,
+            "fetched": 5313,
             "sent_main": 0,
-            "sent_near": 0
+            "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 4,
-            "fetched": 5183,
+            "fetched": 5243,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -61,8 +62,8 @@
       "last_error": null
     },
     "olx_sale": {
-      "bad": 0,
-      "last_error": null
+      "bad": 1,
+      "last_error": "OLX: błąd sieci przy zapytaniu {'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5849, 'sort_by': 'created_at:desc'}: HTTPSConnectionPool(host='www.olx.pl', port=443): Read timed out. (read tim"
     },
     "trojmiasto": {
       "bad": 0,
@@ -76,12 +77,12 @@
   "high_water": {
     "nieruchomosci_online": "000026857142",
     "nieruchomosci_online_sale": "000026855416",
-    "olx": "2026-07-27T19:34:20+02:00",
+    "olx": "2026-07-27T20:03:32+02:00",
     "olx_sale": "2026-07-27T18:13:19+02:00",
-    "trojmiasto": "000066492277",
+    "trojmiasto": "000066492396",
     "trojmiasto_sale": "000066491904"
   },
-  "last_run": "2026-07-27T18:01:09.897483+00:00",
+  "last_run": "2026-07-27T18:15:42.643426+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -6071,6 +6072,18 @@
       "fingerprint": "2400|40|2|pogórze",
       "id": "olx:1087775475"
     },
+    "olx:1087778412": {
+      "cena": 2600,
+      "data_wyslania": "2026-07-27T18:15:42.643426+00:00",
+      "fingerprint": "2600|25|1|śródmieście",
+      "id": "olx:1087778412"
+    },
+    "olx:1087784260": {
+      "cena": 4200,
+      "data_wyslania": "2026-07-27T18:15:42.643426+00:00",
+      "fingerprint": "4200|45|2|śródmieście",
+      "id": "olx:1087784260"
+    },
     "olx:777472320": {
       "cena": 3500,
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
@@ -8620,6 +8633,18 @@
       "data_wyslania": "2026-07-27T17:01:16.309463+00:00",
       "fingerprint": "2900|42|2|morena",
       "id": "trojmiasto:66492277"
+    },
+    "trojmiasto:66492393": {
+      "cena": 1950,
+      "data_wyslania": "2026-07-27T18:15:42.643426+00:00",
+      "fingerprint": "1950|28|1|",
+      "id": "trojmiasto:66492393"
+    },
+    "trojmiasto:66492396": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-27T18:15:42.643426+00:00",
+      "fingerprint": "3000|47.5|2|aniołki",
+      "id": "trojmiasto:66492396"
     },
     "trojmiasto_sale:64570022": {
       "cena": 3800000,
