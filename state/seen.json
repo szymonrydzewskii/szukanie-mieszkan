@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 10831,
+            "fetched": 10954,
             "sent_main": 0,
             "sent_near": 2
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 9023,
+            "fetched": 9128,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 49,
-            "fetched": 13453,
+            "fetched": 13605,
             "sent_main": 1,
             "sent_near": 4
           },
           "olx_sale": {
             "dropped": 31,
-            "fetched": 12695,
+            "fetched": 12837,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 5,
-            "fetched": 5437,
+            "fetched": 5499,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 4,
-            "fetched": 5366,
+            "fetched": 5427,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -80,9 +80,9 @@
     "olx": "2026-07-27T20:22:25+02:00",
     "olx_sale": "2026-07-27T20:26:52+02:00",
     "trojmiasto": "000066492396",
-    "trojmiasto_sale": "000066491904"
+    "trojmiasto_sale": "000066492423"
   },
-  "last_run": "2026-07-27T18:45:44.156988+00:00",
+  "last_run": "2026-07-27T18:51:11.879797+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -9671,6 +9671,12 @@
       "data_wyslania": "2026-07-27T16:15:42.445559+00:00",
       "fingerprint": "550000|35|2|trąbki wielkie graniczna wieś",
       "id": "trojmiasto_sale:66491904"
+    },
+    "trojmiasto_sale:66492423": {
+      "cena": 575000,
+      "data_wyslania": "2026-07-27T18:51:11.879797+00:00",
+      "fingerprint": "575000|43|2|jasień",
+      "id": "trojmiasto_sale:66492423"
     }
   },
   "version": 1
