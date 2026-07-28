@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 4548,
+            "fetched": 4670,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 3663,
+            "fetched": 3762,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 4,
-            "fetched": 5614,
+            "fetched": 5765,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 0,
-            "fetched": 5284,
+            "fetched": 5427,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2294,
+            "fetched": 2356,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 2348,
+            "fetched": 2411,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -79,7 +79,7 @@
     "trojmiasto": "000066492396",
     "trojmiasto_sale": "000066492503"
   },
-  "last_run": "2026-07-28T06:30:54.135892+00:00",
+  "last_run": "2026-07-28T06:45:42.449977+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -2415,6 +2415,12 @@
       "fingerprint": "1790000|82.1|4|górny sopot",
       "id": "nieruchomosci_online_sale:26736285"
     },
+    "nieruchomosci_online_sale:26738194": {
+      "cena": 770000,
+      "data_wyslania": "2026-07-28T06:45:42.449977+00:00",
+      "fingerprint": "770000|63.4|3|chełm",
+      "id": "nieruchomosci_online_sale:26738194"
+    },
     "nieruchomosci_online_sale:26739138": {
       "cena": 2200000,
       "data_wyslania": "2026-07-26T10:45:45.392818+00:00",
@@ -2972,6 +2978,12 @@
       "data_wyslania": "2026-07-27T09:01:08.246736+00:00",
       "fingerprint": "1280000|50|2|wzgórze św. maksymiliana",
       "id": "nieruchomosci_online_sale:26841696"
+    },
+    "nieruchomosci_online_sale:26842179": {
+      "cena": 489000,
+      "data_wyslania": "2026-07-28T06:45:42.449977+00:00",
+      "fingerprint": "489000|40.77|1|grabówek",
+      "id": "nieruchomosci_online_sale:26842179"
     },
     "nieruchomosci_online_sale:26843982": {
       "cena": 639000,
