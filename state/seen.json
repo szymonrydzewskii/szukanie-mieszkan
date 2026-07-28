@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 7,
-            "fetched": 8823,
+            "fetched": 8945,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 7105,
+            "fetched": 7206,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 37,
-            "fetched": 10917,
+            "dropped": 38,
+            "fetched": 11067,
             "sent_main": 1,
             "sent_near": 3
           },
           "olx_sale": {
-            "dropped": 22,
-            "fetched": 10276,
+            "dropped": 23,
+            "fetched": 10416,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 4441,
+            "fetched": 4500,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 4619,
+            "fetched": 4684,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -74,12 +74,12 @@
   "high_water": {
     "nieruchomosci_online": "000026859897",
     "nieruchomosci_online_sale": "000026856106",
-    "olx": "2026-07-28T16:45:01+02:00",
-    "olx_sale": "2026-07-28T16:32:01+02:00",
+    "olx": "2026-07-28T16:54:48+02:00",
+    "olx_sale": "2026-07-28T17:00:54+02:00",
     "trojmiasto": "000066492842",
     "trojmiasto_sale": "000066492503"
   },
-  "last_run": "2026-07-28T15:01:11.501237+00:00",
+  "last_run": "2026-07-28T15:15:52.373973+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -7041,6 +7041,12 @@
       "fingerprint": "3000|40|2|letnica",
       "id": "olx:1087971075"
     },
+    "olx:1087973469": {
+      "cena": 2900,
+      "data_wyslania": "2026-07-28T15:15:52.373973+00:00",
+      "fingerprint": "2900|58|3|chełm z dzielnicą gdańsk południe",
+      "id": "olx:1087973469"
+    },
     "olx:777472320": {
       "cena": 3500,
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
@@ -9266,6 +9272,12 @@
       "data_wyslania": "2026-07-28T14:45:43.825754+00:00",
       "fingerprint": "715000|53.6|2|dąbrowa",
       "id": "olx_sale:1087967934"
+    },
+    "olx_sale:1087974923": {
+      "cena": 950000,
+      "data_wyslania": "2026-07-28T15:15:52.373973+00:00",
+      "fingerprint": "950000|63.15|4|",
+      "id": "olx_sale:1087974923"
     },
     "olx_sale:857316110": {
       "cena": 715000,
