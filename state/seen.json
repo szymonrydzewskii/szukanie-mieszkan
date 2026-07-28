@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 5404,
+            "fetched": 5527,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 4356,
+            "fetched": 4455,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 8,
-            "fetched": 6671,
+            "dropped": 9,
+            "fetched": 6822,
             "sent_main": 0,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 6,
-            "fetched": 6285,
-            "sent_main": 0,
+            "fetched": 6428,
+            "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2728,
+            "fetched": 2790,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 2794,
+            "fetched": 2859,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -74,12 +74,12 @@
   "high_water": {
     "nieruchomosci_online": "000026858432",
     "nieruchomosci_online_sale": "000026856106",
-    "olx": "2026-07-28T09:42:01+02:00",
-    "olx_sale": "2026-07-28T10:04:36+02:00",
+    "olx": "2026-07-28T10:16:07+02:00",
+    "olx_sale": "2026-07-28T10:16:21+02:00",
     "trojmiasto": "000066492396",
     "trojmiasto_sale": "000066492503"
   },
-  "last_run": "2026-07-28T08:15:54.785098+00:00",
+  "last_run": "2026-07-28T08:30:56.879840+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -512,6 +512,12 @@
       "data_wyslania": "2026-07-25T09:45:42.497013+00:00",
       "fingerprint": "2700|50|2|oksywie",
       "id": "nieruchomosci_online:26772576"
+    },
+    "nieruchomosci_online:26772648": {
+      "cena": 3200,
+      "data_wyslania": "2026-07-28T08:30:56.879840+00:00",
+      "fingerprint": "3200|40.07|2|przymorze małe",
+      "id": "nieruchomosci_online:26772648"
     },
     "nieruchomosci_online:26774064": {
       "cena": 2900,
@@ -6477,6 +6483,12 @@
       "fingerprint": "2900|44|2|ujeścisko - łostowice",
       "id": "olx:1087870917"
     },
+    "olx:1087879266": {
+      "cena": 4999,
+      "data_wyslania": "2026-07-28T08:30:56.879840+00:00",
+      "fingerprint": "4999|66|3|wrzeszcz",
+      "id": "olx:1087879266"
+    },
     "olx:777472320": {
       "cena": 3500,
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
@@ -8510,6 +8522,12 @@
       "data_wyslania": "2026-07-28T08:15:54.785098+00:00",
       "fingerprint": "557055|46.8|2|",
       "id": "olx_sale:1087876587"
+    },
+    "olx_sale:1087879341": {
+      "cena": 600000,
+      "data_wyslania": "2026-07-28T08:30:56.879840+00:00",
+      "fingerprint": "600000|73.09|3|",
+      "id": "olx_sale:1087879341"
     },
     "olx_sale:857316110": {
       "cena": 715000,
