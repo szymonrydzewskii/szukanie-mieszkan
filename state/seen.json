@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 8,
-            "fetched": 12003,
+            "fetched": 12126,
             "sent_main": 1,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 9733,
+            "fetched": 9835,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 59,
-            "fetched": 15023,
+            "dropped": 60,
+            "fetched": 15174,
             "sent_main": 3,
             "sent_near": 4
           },
           "olx_sale": {
-            "dropped": 35,
-            "fetched": 14123,
+            "dropped": 36,
+            "fetched": 14266,
             "sent_main": 2,
             "sent_near": 1
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 6056,
+            "fetched": 6116,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 6378,
+            "fetched": 6443,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -77,12 +77,12 @@
   "high_water": {
     "nieruchomosci_online": "000026861200",
     "nieruchomosci_online_sale": "000026861279",
-    "olx": "2026-07-28T22:28:01+02:00",
+    "olx": "2026-07-28T22:48:16+02:00",
     "olx_sale": "2026-07-28T22:04:36+02:00",
     "trojmiasto": "000066492842",
     "trojmiasto_sale": "000066493386"
   },
-  "last_run": "2026-07-28T20:45:51.832045+00:00",
+  "last_run": "2026-07-28T21:01:10.856912+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -7296,6 +7296,12 @@
       "fingerprint": "3300|53|3|suchanino",
       "id": "olx:1088047768"
     },
+    "olx:1088051335": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-28T21:01:10.856912+00:00",
+      "fingerprint": "3000|48|2|",
+      "id": "olx:1088051335"
+    },
     "olx:777472320": {
       "cena": 3500,
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
@@ -7771,9 +7777,9 @@
       "id": "olx_sale:1065091212"
     },
     "olx_sale:1065569478": {
-      "cena": 598080,
-      "data_wyslania": "2026-07-28T20:45:51.832045+00:00",
-      "fingerprint": "598080|44.8|2|pustki cisowskie-demptowo",
+      "cena": 556405,
+      "data_wyslania": "2026-07-28T21:01:10.856912+00:00",
+      "fingerprint": "556405|44.46|2|pustki cisowskie-demptowo",
       "id": "olx_sale:1065569478"
     },
     "olx_sale:1066263818": {
