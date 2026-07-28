@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 7,
-            "fetched": 7603,
+            "fetched": 7725,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 6127,
+            "fetched": 6224,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 26,
-            "fetched": 9398,
+            "dropped": 28,
+            "fetched": 9549,
             "sent_main": 0,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 20,
-            "fetched": 8846,
+            "fetched": 8990,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 3848,
+            "fetched": 3909,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 3968,
+            "fetched": 4034,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -74,12 +74,12 @@
   "high_water": {
     "nieruchomosci_online": "000026859897",
     "nieruchomosci_online_sale": "000026856106",
-    "olx": "2026-07-28T14:13:20+02:00",
+    "olx": "2026-07-28T14:30:32+02:00",
     "olx_sale": "2026-07-28T13:51:21+02:00",
     "trojmiasto": "000066492842",
     "trojmiasto_sale": "000066492503"
   },
-  "last_run": "2026-07-28T12:30:57.918829+00:00",
+  "last_run": "2026-07-28T12:45:40.608235+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -6914,6 +6914,24 @@
       "data_wyslania": "2026-07-28T12:30:57.918829+00:00",
       "fingerprint": "2800|61|3|jasień",
       "id": "olx:1087935946"
+    },
+    "olx:1087936197": {
+      "cena": 2100,
+      "data_wyslania": "2026-07-28T12:45:40.608235+00:00",
+      "fingerprint": "2100|27|1|przymorze wielkie",
+      "id": "olx:1087936197"
+    },
+    "olx:1087937971": {
+      "cena": 4000,
+      "data_wyslania": "2026-07-28T12:45:40.608235+00:00",
+      "fingerprint": "4000|65|3|jasień",
+      "id": "olx:1087937971"
+    },
+    "olx:1087939373": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-28T12:45:40.608235+00:00",
+      "fingerprint": "3000|52|3|stogi z przeróbką",
+      "id": "olx:1087939373"
     },
     "olx:777472320": {
       "cena": 3500,
