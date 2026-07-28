@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 8,
-            "fetched": 12372,
+            "fetched": 12495,
             "sent_main": 1,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 10039,
+            "fetched": 10141,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 60,
-            "fetched": 15474,
+            "dropped": 61,
+            "fetched": 15624,
             "sent_main": 3,
             "sent_near": 4
           },
           "olx_sale": {
             "dropped": 38,
-            "fetched": 14549,
+            "fetched": 14691,
             "sent_main": 2,
             "sent_near": 1
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 6236,
+            "fetched": 6296,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 6573,
+            "fetched": 6639,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -77,12 +77,12 @@
   "high_water": {
     "nieruchomosci_online": "000026861200",
     "nieruchomosci_online_sale": "000026861279",
-    "olx": "2026-07-28T22:48:16+02:00",
+    "olx": "2026-07-28T23:34:57+02:00",
     "olx_sale": "2026-07-28T23:01:06+02:00",
     "trojmiasto": "000066492842",
     "trojmiasto_sale": "000066493386"
   },
-  "last_run": "2026-07-28T21:30:58.530423+00:00",
+  "last_run": "2026-07-28T21:43:53.557958+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -7301,6 +7301,18 @@
       "data_wyslania": "2026-07-28T21:01:10.856912+00:00",
       "fingerprint": "3000|48|2|",
       "id": "olx:1088051335"
+    },
+    "olx:1088056168": {
+      "cena": 4000,
+      "data_wyslania": "2026-07-28T21:43:53.557958+00:00",
+      "fingerprint": "4000|39|2|wrzeszcz",
+      "id": "olx:1088056168"
+    },
+    "olx:1088056687": {
+      "cena": 3300,
+      "data_wyslania": "2026-07-28T21:43:53.557958+00:00",
+      "fingerprint": "3300|49|2|zaspa rozstaje",
+      "id": "olx:1088056687"
     },
     "olx:777472320": {
       "cena": 3500,
