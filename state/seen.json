@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 7,
-            "fetched": 10043,
+            "fetched": 10165,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 8114,
+            "fetched": 8215,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 45,
-            "fetched": 12588,
+            "dropped": 46,
+            "fetched": 12741,
             "sent_main": 1,
             "sent_near": 3
           },
           "olx_sale": {
-            "dropped": 27,
-            "fetched": 11843,
+            "dropped": 28,
+            "fetched": 11987,
             "sent_main": 1,
             "sent_near": 1
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 5096,
+            "fetched": 5156,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 5338,
+            "fetched": 5404,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -77,12 +77,12 @@
   "high_water": {
     "nieruchomosci_online": "000026860847",
     "nieruchomosci_online_sale": "000026856106",
-    "olx": "2026-07-28T19:03:16+02:00",
-    "olx_sale": "2026-07-28T18:41:55+02:00",
+    "olx": "2026-07-28T19:04:40+02:00",
+    "olx_sale": "2026-07-28T19:09:32+02:00",
     "trojmiasto": "000066492842",
     "trojmiasto_sale": "000066492503"
   },
-  "last_run": "2026-07-28T17:15:49.512494+00:00",
+  "last_run": "2026-07-28T17:30:59.269820+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -5034,6 +5034,12 @@
       "fingerprint": "4300|63|3|letnica",
       "id": "olx:1086688720"
     },
+    "olx:1086702664": {
+      "cena": 3600,
+      "data_wyslania": "2026-07-28T17:30:59.269820+00:00",
+      "fingerprint": "3600|42|2|śródmieście",
+      "id": "olx:1086702664"
+    },
     "olx:1086716139": {
       "cena": 4200,
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
@@ -7139,6 +7145,12 @@
       "data_wyslania": "2026-07-28T17:13:11.771516+00:00",
       "fingerprint": "2850|53|2|pustki cisowskie-demptowo",
       "id": "olx:1088002691"
+    },
+    "olx:1088002994": {
+      "cena": 3500,
+      "data_wyslania": "2026-07-28T17:30:59.269820+00:00",
+      "fingerprint": "3500|57|3|osowa",
+      "id": "olx:1088002994"
     },
     "olx:777472320": {
       "cena": 3500,
@@ -9419,6 +9431,12 @@
       "data_wyslania": "2026-07-28T17:01:10.365151+00:00",
       "fingerprint": "547835|46.8|2|",
       "id": "olx_sale:1087998447"
+    },
+    "olx_sale:1088003967": {
+      "cena": 479000,
+      "data_wyslania": "2026-07-28T17:30:59.269820+00:00",
+      "fingerprint": "479000|33.23|1|ujeścisko - łostowice",
+      "id": "olx_sale:1088003967"
     },
     "olx_sale:857316110": {
       "cena": 715000,
