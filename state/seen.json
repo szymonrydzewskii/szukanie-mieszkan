@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 4,
-            "fetched": 6017,
+            "fetched": 6139,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 4851,
+            "fetched": 4951,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 9,
-            "fetched": 7427,
+            "dropped": 10,
+            "fetched": 7577,
             "sent_main": 0,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 8,
-            "fetched": 7000,
+            "fetched": 7144,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 3042,
+            "fetched": 3105,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 3118,
+            "fetched": 3181,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -74,12 +74,12 @@
   "high_water": {
     "nieruchomosci_online": "000026859001",
     "nieruchomosci_online_sale": "000026856106",
-    "olx": "2026-07-28T10:16:07+02:00",
+    "olx": "2026-07-28T11:10:49+02:00",
     "olx_sale": "2026-07-28T10:51:46+02:00",
     "trojmiasto": "000066492775",
     "trojmiasto_sale": "000066492503"
   },
-  "last_run": "2026-07-28T09:15:46.518191+00:00",
+  "last_run": "2026-07-28T09:31:07.033307+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -2655,6 +2655,12 @@
       "fingerprint": "447900|33.1|1|karwiny",
       "id": "nieruchomosci_online_sale:26783925"
     },
+    "nieruchomosci_online_sale:26784487": {
+      "cena": 579700,
+      "data_wyslania": "2026-07-28T09:31:07.033307+00:00",
+      "fingerprint": "579700|48.8|2|karwiny",
+      "id": "nieruchomosci_online_sale:26784487"
+    },
     "nieruchomosci_online_sale:26784488": {
       "cena": 750000,
       "data_wyslania": "2026-07-27T20:15:46.485557+00:00",
@@ -2690,6 +2696,12 @@
       "data_wyslania": "2026-07-26T10:15:49.083064+00:00",
       "fingerprint": "589000|36|2|działki leśne",
       "id": "nieruchomosci_online_sale:26788220"
+    },
+    "nieruchomosci_online_sale:26788234": {
+      "cena": 719000,
+      "data_wyslania": "2026-07-28T09:31:07.033307+00:00",
+      "fingerprint": "719000|68.6|3|dąbrowa",
+      "id": "nieruchomosci_online_sale:26788234"
     },
     "nieruchomosci_online_sale:26789210": {
       "cena": 1690000,
@@ -2972,6 +2984,12 @@
       "data_wyslania": "2026-07-25T20:45:43.643477+00:00",
       "fingerprint": "679000|64.43|3|karwiny",
       "id": "nieruchomosci_online_sale:26833186"
+    },
+    "nieruchomosci_online_sale:26833272": {
+      "cena": 549000,
+      "data_wyslania": "2026-07-28T09:31:07.033307+00:00",
+      "fingerprint": "549000|40.19|2|świętokrzyskie",
+      "id": "nieruchomosci_online_sale:26833272"
     },
     "nieruchomosci_online_sale:26833792": {
       "cena": 939999,
@@ -4094,6 +4112,24 @@
       "data_wyslania": "2026-07-28T09:11:43.501270+00:00",
       "fingerprint": "2800|38|2|letnica",
       "id": "olx:1084289043"
+    },
+    "olx:1084292807": {
+      "cena": 2300,
+      "data_wyslania": "2026-07-28T09:31:07.033307+00:00",
+      "fingerprint": "2300|40|1|śródmieście",
+      "id": "olx:1084292807"
+    },
+    "olx:1084295056": {
+      "cena": 2400,
+      "data_wyslania": "2026-07-28T09:31:07.033307+00:00",
+      "fingerprint": "2400|36|1|śródmieście",
+      "id": "olx:1084295056"
+    },
+    "olx:1084296430": {
+      "cena": 2300,
+      "data_wyslania": "2026-07-28T09:31:07.033307+00:00",
+      "fingerprint": "2300|36|1|",
+      "id": "olx:1084296430"
     },
     "olx:1084304341": {
       "cena": 2700,
@@ -6543,6 +6579,12 @@
       "fingerprint": "4999|66|3|wrzeszcz",
       "id": "olx:1087879266"
     },
+    "olx:1087891866": {
+      "cena": 2200,
+      "data_wyslania": "2026-07-28T09:31:07.033307+00:00",
+      "fingerprint": "2200|40.36|1|siedlce",
+      "id": "olx:1087891866"
+    },
     "olx:777472320": {
       "cena": 3500,
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
@@ -6722,6 +6764,12 @@
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
       "fingerprint": "1490000|91.7|4|",
       "id": "olx_sale:1048951206"
+    },
+    "olx_sale:1049211248": {
+      "cena": 890000,
+      "data_wyslania": "2026-07-28T09:31:07.033307+00:00",
+      "fingerprint": "890000|54.1|2|kamienna góra",
+      "id": "olx_sale:1049211248"
     },
     "olx_sale:1049868388": {
       "cena": 919000,
