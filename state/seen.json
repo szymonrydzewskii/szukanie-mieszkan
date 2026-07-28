@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 7,
-            "fetched": 9311,
+            "fetched": 9433,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 7509,
+            "fetched": 7610,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 40,
-            "fetched": 11671,
+            "fetched": 11825,
             "sent_main": 1,
             "sent_near": 3
           },
           "olx_sale": {
             "dropped": 26,
-            "fetched": 10987,
+            "fetched": 11129,
             "sent_main": 1,
-            "sent_near": 0
+            "sent_near": 1
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 4736,
+            "fetched": 4796,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 4946,
+            "fetched": 5012,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -50,12 +50,12 @@
   },
   "health": {
     "nieruchomosci_online": {
-      "bad": 1,
-      "last_error": "Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Max retries exceeded with url: /szukaj.html?3,mieszkanie,wynajem,,Gda%C5%84sk (Caused by ConnectTim"
+      "bad": 0,
+      "last_error": null
     },
     "nieruchomosci_online_sale": {
-      "bad": 1,
-      "last_error": "Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Max retries exceeded with url: /szukaj.html?3,mieszkanie,sprzedaz,,Gda%C5%84sk (Caused by ConnectTi"
+      "bad": 0,
+      "last_error": null
     },
     "olx": {
       "bad": 0,
@@ -78,11 +78,11 @@
     "nieruchomosci_online": "000026859897",
     "nieruchomosci_online_sale": "000026856106",
     "olx": "2026-07-28T17:42:23+02:00",
-    "olx_sale": "2026-07-28T17:14:22+02:00",
+    "olx_sale": "2026-07-28T17:59:26+02:00",
     "trojmiasto": "000066492842",
     "trojmiasto_sale": "000066492503"
   },
-  "last_run": "2026-07-28T16:01:08.712889+00:00",
+  "last_run": "2026-07-28T16:15:39.620022+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -2874,6 +2874,12 @@
       "fingerprint": "1180000|59|2|śródmieście",
       "id": "nieruchomosci_online_sale:26789571"
     },
+    "nieruchomosci_online_sale:26790942": {
+      "cena": 770000,
+      "data_wyslania": "2026-07-28T16:15:39.620022+00:00",
+      "fingerprint": "770000|53|3|żabianka",
+      "id": "nieruchomosci_online_sale:26790942"
+    },
     "nieruchomosci_online_sale:26791172": {
       "cena": 865000,
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
@@ -3395,6 +3401,12 @@
       "data_wyslania": "2026-07-27T07:01:08.843597+00:00",
       "fingerprint": "3000|50|2|śródmieście",
       "id": "olx:1019480389"
+    },
+    "olx:1022555211": {
+      "cena": 2400,
+      "data_wyslania": "2026-07-28T16:15:39.620022+00:00",
+      "fingerprint": "2400|27|1|śródmieście",
+      "id": "olx:1022555211"
     },
     "olx:1022813565": {
       "cena": 3000,
@@ -9324,6 +9336,12 @@
       "fingerprint": "2300000|80.65|3|brzeźno",
       "id": "olx_sale:1087977945"
     },
+    "olx_sale:1087989125": {
+      "cena": 619000,
+      "data_wyslania": "2026-07-28T16:15:39.620022+00:00",
+      "fingerprint": "619000|39|2|górny sopot",
+      "id": "olx_sale:1087989125"
+    },
     "olx_sale:857316110": {
       "cena": 715000,
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
@@ -9557,6 +9575,12 @@
       "data_wyslania": "2026-07-25T09:30:44.441603+00:00",
       "fingerprint": "2800|30|1|zaspa",
       "id": "trojmiasto:66459733"
+    },
+    "trojmiasto:66459852": {
+      "cena": 3200,
+      "data_wyslania": "2026-07-28T16:15:39.620022+00:00",
+      "fingerprint": "3200|40.07|2|przymorze małe",
+      "id": "trojmiasto:66459852"
     },
     "trojmiasto:66462281": {
       "cena": 10900,
