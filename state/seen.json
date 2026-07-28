@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 8,
-            "fetched": 11142,
-            "sent_main": 0,
+            "fetched": 11265,
+            "sent_main": 1,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 9025,
+            "fetched": 9126,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 52,
-            "fetched": 13965,
+            "dropped": 53,
+            "fetched": 14115,
             "sent_main": 3,
-            "sent_near": 3
+            "sent_near": 4
           },
           "olx_sale": {
-            "dropped": 32,
-            "fetched": 13126,
+            "dropped": 34,
+            "fetched": 13269,
             "sent_main": 2,
             "sent_near": 1
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 5636,
+            "fetched": 5696,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 5922,
+            "fetched": 5986,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -75,14 +75,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026861196",
+    "nieruchomosci_online": "000026861200",
     "nieruchomosci_online_sale": "000026856106",
-    "olx": "2026-07-28T21:02:28+02:00",
-    "olx_sale": "2026-07-28T20:40:56+02:00",
+    "olx": "2026-07-28T21:14:38+02:00",
+    "olx_sale": "2026-07-28T21:17:40+02:00",
     "trojmiasto": "000066492842",
     "trojmiasto_sale": "000066492503"
   },
-  "last_run": "2026-07-28T19:15:46.997761+00:00",
+  "last_run": "2026-07-28T19:31:01.978723+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -1307,6 +1307,12 @@
       "data_wyslania": "2026-07-28T19:15:46.997761+00:00",
       "fingerprint": "3500|54.27|3|kamienna góra",
       "id": "nieruchomosci_online:26861196"
+    },
+    "nieruchomosci_online:26861200": {
+      "cena": 2300,
+      "data_wyslania": "2026-07-28T19:31:01.978723+00:00",
+      "fingerprint": "2300|37.7|2|śródmieście",
+      "id": "nieruchomosci_online:26861200"
     },
     "nieruchomosci_online_sale:24789504": {
       "cena": 1998000,
@@ -3575,6 +3581,12 @@
       "data_wyslania": "2026-07-24T14:12:43.011962+00:00",
       "fingerprint": "2200|33|1|orunia - św. wojciech - lipce",
       "id": "olx:1063938798"
+    },
+    "olx:1064247487": {
+      "cena": 3500,
+      "data_wyslania": "2026-07-28T19:31:01.978723+00:00",
+      "fingerprint": "3500|49|2|",
+      "id": "olx:1064247487"
     },
     "olx:1065438289": {
       "cena": 3500,
@@ -7212,11 +7224,23 @@
       "fingerprint": "3000|47|2|działki leśne",
       "id": "olx:1088025845"
     },
+    "olx:1088027955": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-28T19:31:01.978723+00:00",
+      "fingerprint": "2500|36|2|żabianka - wejhera - jelitkowo - tysiąclecia",
+      "id": "olx:1088027955"
+    },
     "olx:1088029088": {
       "cena": 3400,
       "data_wyslania": "2026-07-28T19:15:46.997761+00:00",
       "fingerprint": "3400|50|3|",
       "id": "olx:1088029088"
+    },
+    "olx:1088031777": {
+      "cena": 3400,
+      "data_wyslania": "2026-07-28T19:31:01.978723+00:00",
+      "fingerprint": "3400|70|3|przymorze małe",
+      "id": "olx:1088031777"
     },
     "olx:777472320": {
       "cena": 3500,
@@ -9540,6 +9564,18 @@
       "fingerprint": "989000|40.7|2|wrzeszcz",
       "id": "olx_sale:1088024058"
     },
+    "olx_sale:1088030595": {
+      "cena": 690000,
+      "data_wyslania": "2026-07-28T19:31:01.978723+00:00",
+      "fingerprint": "690000|42.4|2|piecki-migowo",
+      "id": "olx_sale:1088030595"
+    },
+    "olx_sale:1088032440": {
+      "cena": 759000,
+      "data_wyslania": "2026-07-28T19:31:01.978723+00:00",
+      "fingerprint": "759000|55|3|",
+      "id": "olx_sale:1088032440"
+    },
     "olx_sale:857316110": {
       "cena": 715000,
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
@@ -10673,6 +10709,12 @@
       "data_wyslania": "2026-07-25T16:45:44.354874+00:00",
       "fingerprint": "685000|51.22|3|jasień",
       "id": "trojmiasto_sale:66435149"
+    },
+    "trojmiasto_sale:66435212": {
+      "cena": 719000,
+      "data_wyslania": "2026-07-28T19:31:01.978723+00:00",
+      "fingerprint": "719000|80.4|3|straszyn",
+      "id": "trojmiasto_sale:66435212"
     },
     "trojmiasto_sale:66439195": {
       "cena": 1849000,
