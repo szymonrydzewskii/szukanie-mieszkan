@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 6,
-            "fetched": 7359,
+            "fetched": 7481,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 5933,
+            "fetched": 6030,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 21,
-            "fetched": 9099,
+            "dropped": 24,
+            "fetched": 9248,
             "sent_main": 0,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 20,
-            "fetched": 8566,
+            "fetched": 8707,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 3726,
+            "fetched": 3787,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 3837,
+            "fetched": 3902,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -74,12 +74,12 @@
   "high_water": {
     "nieruchomosci_online": "000026859620",
     "nieruchomosci_online_sale": "000026856106",
-    "olx": "2026-07-28T13:46:17+02:00",
+    "olx": "2026-07-28T14:04:05+02:00",
     "olx_sale": "2026-07-28T13:51:21+02:00",
     "trojmiasto": "000066492842",
     "trojmiasto_sale": "000066492503"
   },
-  "last_run": "2026-07-28T12:01:07.376025+00:00",
+  "last_run": "2026-07-28T12:15:40.425332+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -6873,6 +6873,30 @@
       "fingerprint": "3200|43|2|zaspa młyniec",
       "id": "olx:1087930335"
     },
+    "olx:1087931176": {
+      "cena": 1800,
+      "data_wyslania": "2026-07-28T12:15:40.425332+00:00",
+      "fingerprint": "1800|17|1|przymorze wielkie",
+      "id": "olx:1087931176"
+    },
+    "olx:1087932374": {
+      "cena": 4500,
+      "data_wyslania": "2026-07-28T12:15:40.425332+00:00",
+      "fingerprint": "4500|43|2|oliwa",
+      "id": "olx:1087932374"
+    },
+    "olx:1087932550": {
+      "cena": 2800,
+      "data_wyslania": "2026-07-28T12:15:40.425332+00:00",
+      "fingerprint": "2800|62|4|nowy port",
+      "id": "olx:1087932550"
+    },
+    "olx:1087934089": {
+      "cena": 2000,
+      "data_wyslania": "2026-07-28T12:15:40.425332+00:00",
+      "fingerprint": "2000|22|1|centrum",
+      "id": "olx:1087934089"
+    },
     "olx:777472320": {
       "cena": 3500,
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
@@ -9362,6 +9386,12 @@
       "data_wyslania": "2026-07-25T19:15:42.139249+00:00",
       "fingerprint": "3150|40|2|przymorze wielkie",
       "id": "trojmiasto:66474290"
+    },
+    "trojmiasto:66476072": {
+      "cena": 2600,
+      "data_wyslania": "2026-07-28T12:15:40.425332+00:00",
+      "fingerprint": "2600|49|2|zaspa",
+      "id": "trojmiasto:66476072"
     },
     "trojmiasto:66476121": {
       "cena": 2500,
