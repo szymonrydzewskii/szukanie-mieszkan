@@ -2,86 +2,42 @@
   "daily": {},
   "digest": {
     "days": {
-      "2026-07-27": {
-        "errors": [
-          "olx: OLX: błąd sieci przy zapytaniu {'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:des",
-          "olx_sale: OLX: błąd sieci przy zapytaniu {'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5849, 'sort_by': 'created_at:des"
-        ],
-        "sources": {
-          "nieruchomosci_online": {
-            "dropped": 6,
-            "fetched": 12676,
-            "sent_main": 0,
-            "sent_near": 2
-          },
-          "nieruchomosci_online_sale": {
-            "dropped": 4,
-            "fetched": 10565,
-            "sent_main": 0,
-            "sent_near": 0
-          },
-          "olx": {
-            "dropped": 61,
-            "fetched": 15720,
-            "sent_main": 2,
-            "sent_near": 4
-          },
-          "olx_sale": {
-            "dropped": 34,
-            "fetched": 14828,
-            "sent_main": 0,
-            "sent_near": 0
-          },
-          "trojmiasto": {
-            "dropped": 5,
-            "fetched": 6367,
-            "sent_main": 0,
-            "sent_near": 1
-          },
-          "trojmiasto_sale": {
-            "dropped": 5,
-            "fetched": 6318,
-            "sent_main": 0,
-            "sent_near": 0
-          }
-        }
-      },
       "2026-07-28": {
         "errors": [],
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 4182,
+            "fetched": 4304,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 3366,
+            "fetched": 3465,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 2,
-            "fetched": 5160,
+            "dropped": 4,
+            "fetched": 5310,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 0,
-            "fetched": 4854,
+            "fetched": 4998,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2108,
+            "fetched": 2170,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 2158,
+            "fetched": 2221,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -118,12 +74,12 @@
   "high_water": {
     "nieruchomosci_online": "000026858432",
     "nieruchomosci_online_sale": "000026855416",
-    "olx": "2026-07-28T00:07:45+02:00",
+    "olx": "2026-07-28T07:50:05+02:00",
     "olx_sale": "2026-07-27T21:40:05+02:00",
     "trojmiasto": "000066492396",
     "trojmiasto_sale": "000066492503"
   },
-  "last_run": "2026-07-28T05:45:46.066448+00:00",
+  "last_run": "2026-07-28T06:01:02.050563+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -4763,6 +4719,12 @@
       "fingerprint": "3000|40|2|letnica",
       "id": "olx:1086950943"
     },
+    "olx:1086965945": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-28T06:01:02.050563+00:00",
+      "fingerprint": "2500|28|1|śródmieście",
+      "id": "olx:1086965945"
+    },
     "olx:1086967497": {
       "cena": 3800,
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
@@ -6400,6 +6362,18 @@
       "data_wyslania": "2026-07-27T22:15:43.823972+00:00",
       "fingerprint": "2700|60.03|3|karwiny",
       "id": "olx:1087829726"
+    },
+    "olx:1087850839": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-28T06:01:02.050563+00:00",
+      "fingerprint": "3000|45|2|chełm z dzielnicą gdańsk południe",
+      "id": "olx:1087850839"
+    },
+    "olx:1087851604": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-28T06:01:02.050563+00:00",
+      "fingerprint": "3000|45|2|",
+      "id": "olx:1087851604"
     },
     "olx:777472320": {
       "cena": 3500,
