@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 7,
-            "fetched": 10409,
+            "fetched": 10531,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 8417,
+            "fetched": 8518,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 48,
-            "fetched": 13041,
+            "dropped": 50,
+            "fetched": 13196,
             "sent_main": 1,
             "sent_near": 3
           },
           "olx_sale": {
-            "dropped": 28,
-            "fetched": 12272,
+            "dropped": 31,
+            "fetched": 12415,
             "sent_main": 1,
             "sent_near": 1
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 5276,
+            "fetched": 5336,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 5534,
+            "fetched": 5599,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -77,12 +77,12 @@
   "high_water": {
     "nieruchomosci_online": "000026860847",
     "nieruchomosci_online_sale": "000026856106",
-    "olx": "2026-07-28T19:33:24+02:00",
-    "olx_sale": "2026-07-28T19:09:32+02:00",
+    "olx": "2026-07-28T19:56:51+02:00",
+    "olx_sale": "2026-07-28T19:58:59+02:00",
     "trojmiasto": "000066492842",
     "trojmiasto_sale": "000066492503"
   },
-  "last_run": "2026-07-28T18:01:07.086976+00:00",
+  "last_run": "2026-07-28T18:15:48.648629+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -7170,6 +7170,18 @@
       "fingerprint": "3600|60|3|wrzeszcz",
       "id": "olx:1088008816"
     },
+    "olx:1088011465": {
+      "cena": 3200,
+      "data_wyslania": "2026-07-28T18:15:48.648629+00:00",
+      "fingerprint": "3200|48|2|strzyża",
+      "id": "olx:1088011465"
+    },
+    "olx:1088013583": {
+      "cena": 2300,
+      "data_wyslania": "2026-07-28T18:15:48.648629+00:00",
+      "fingerprint": "2300|23|2|orłowo",
+      "id": "olx:1088013583"
+    },
     "olx:777472320": {
       "cena": 3500,
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
@@ -7859,6 +7871,12 @@
       "data_wyslania": "2026-07-27T19:15:41.056148+00:00",
       "fingerprint": "750000|54|2|redłowo",
       "id": "olx_sale:1076493355"
+    },
+    "olx_sale:1076684738": {
+      "cena": 775000,
+      "data_wyslania": "2026-07-28T18:15:48.648629+00:00",
+      "fingerprint": "775000|33|1|brzeźno",
+      "id": "olx_sale:1076684738"
     },
     "olx_sale:1076824101": {
       "cena": 679000,
@@ -9331,9 +9349,9 @@
       "id": "olx_sale:1087886913"
     },
     "olx_sale:1087887602": {
-      "cena": 585000,
-      "data_wyslania": "2026-07-28T09:01:14.788645+00:00",
-      "fingerprint": "585000|42|2|",
+      "cena": 579000,
+      "data_wyslania": "2026-07-28T18:15:48.648629+00:00",
+      "fingerprint": "579000|43|2|",
       "id": "olx_sale:1087887602"
     },
     "olx_sale:1087896915": {
@@ -9455,6 +9473,18 @@
       "data_wyslania": "2026-07-28T17:30:59.269820+00:00",
       "fingerprint": "479000|33.23|1|ujeścisko - łostowice",
       "id": "olx_sale:1088003967"
+    },
+    "olx_sale:1088011514": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-28T18:15:48.648629+00:00",
+      "fingerprint": "3000|70|3|redłowo",
+      "id": "olx_sale:1088011514"
+    },
+    "olx_sale:1088014052": {
+      "cena": 1145000,
+      "data_wyslania": "2026-07-28T18:15:48.648629+00:00",
+      "fingerprint": "1145000|71.6|3|wzgórze świętego maksymiliana",
+      "id": "olx_sale:1088014052"
     },
     "olx_sale:857316110": {
       "cena": 715000,
