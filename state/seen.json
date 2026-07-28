@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 4670,
+            "fetched": 4792,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 3762,
+            "fetched": 3861,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 4,
-            "fetched": 5765,
+            "fetched": 5918,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 0,
-            "fetched": 5427,
+            "fetched": 5569,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2356,
+            "fetched": 2418,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 2411,
+            "fetched": 2475,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -79,7 +79,7 @@
     "trojmiasto": "000066492396",
     "trojmiasto_sale": "000066492503"
   },
-  "last_run": "2026-07-28T06:45:42.449977+00:00",
+  "last_run": "2026-07-28T07:01:13.680566+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -4365,6 +4365,12 @@
       "fingerprint": "3000|45|2|przymorze wielkie",
       "id": "olx:1085940894"
     },
+    "olx:1085984823": {
+      "cena": 3100,
+      "data_wyslania": "2026-07-28T07:01:13.680566+00:00",
+      "fingerprint": "3100|35|2|wrzeszcz",
+      "id": "olx:1085984823"
+    },
     "olx:1086031412": {
       "cena": 2500,
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
@@ -8444,6 +8450,12 @@
       "data_wyslania": "2026-07-27T07:15:44.649109+00:00",
       "fingerprint": "2500|45|2|pruszcz gdański",
       "id": "trojmiasto:66059543"
+    },
+    "trojmiasto:66175798": {
+      "cena": 3900,
+      "data_wyslania": "2026-07-28T07:01:13.680566+00:00",
+      "fingerprint": "3900|40|2|jagiellońska",
+      "id": "trojmiasto:66175798"
     },
     "trojmiasto:66208616": {
       "cena": 50000,
