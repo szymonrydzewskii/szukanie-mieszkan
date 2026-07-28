@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 7,
-            "fetched": 9799,
+            "fetched": 9921,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 7912,
+            "fetched": 8013,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 43,
-            "fetched": 12282,
+            "dropped": 45,
+            "fetched": 12435,
             "sent_main": 1,
             "sent_near": 3
           },
           "olx_sale": {
             "dropped": 27,
-            "fetched": 11557,
+            "fetched": 11700,
             "sent_main": 1,
             "sent_near": 1
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 4976,
+            "fetched": 5036,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 5208,
+            "fetched": 5273,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -77,12 +77,12 @@
   "high_water": {
     "nieruchomosci_online": "000026860847",
     "nieruchomosci_online_sale": "000026856106",
-    "olx": "2026-07-28T18:47:17+02:00",
+    "olx": "2026-07-28T19:03:16+02:00",
     "olx_sale": "2026-07-28T18:41:55+02:00",
     "trojmiasto": "000066492842",
     "trojmiasto_sale": "000066492503"
   },
-  "last_run": "2026-07-28T17:01:10.365151+00:00",
+  "last_run": "2026-07-28T17:13:11.771516+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -7121,6 +7121,24 @@
       "data_wyslania": "2026-07-28T17:01:10.365151+00:00",
       "fingerprint": "3300|55|2|śródmieście",
       "id": "olx:1087999568"
+    },
+    "olx:1088001763": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-28T17:13:11.771516+00:00",
+      "fingerprint": "3000|68.9|3|karwiny",
+      "id": "olx:1088001763"
+    },
+    "olx:1088002297": {
+      "cena": 4500,
+      "data_wyslania": "2026-07-28T17:13:11.771516+00:00",
+      "fingerprint": "4500|72|3|przymorze małe",
+      "id": "olx:1088002297"
+    },
+    "olx:1088002691": {
+      "cena": 2850,
+      "data_wyslania": "2026-07-28T17:13:11.771516+00:00",
+      "fingerprint": "2850|53|2|pustki cisowskie-demptowo",
+      "id": "olx:1088002691"
     },
     "olx:777472320": {
       "cena": 3500,
