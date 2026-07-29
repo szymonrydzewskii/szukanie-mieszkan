@@ -9,37 +9,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 4,
-            "fetched": 7828,
+            "fetched": 7950,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 6504,
+            "fetched": 6607,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 33,
-            "fetched": 9692,
+            "fetched": 9843,
             "sent_main": 2,
-            "sent_near": 2
+            "sent_near": 3
           },
           "olx_sale": {
-            "dropped": 17,
-            "fetched": 8908,
+            "dropped": 18,
+            "fetched": 9050,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 3863,
+            "fetched": 3923,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 4241,
+            "fetched": 4306,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -76,12 +76,12 @@
   "high_water": {
     "nieruchomosci_online": "000026862392",
     "nieruchomosci_online_sale": "000026862244",
-    "olx": "2026-07-29T14:29:22+02:00",
-    "olx_sale": "2026-07-29T13:58:21+02:00",
+    "olx": "2026-07-29T14:41:04+02:00",
+    "olx_sale": "2026-07-29T14:50:23+02:00",
     "trojmiasto": "000066492842",
     "trojmiasto_sale": "000066493557"
   },
-  "last_run": "2026-07-29T12:45:49.856287+00:00",
+  "last_run": "2026-07-29T13:01:18.079296+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -5387,6 +5387,12 @@
       "fingerprint": "2800|54|2|zaspa młyniec",
       "id": "olx:1086733195"
     },
+    "olx:1086741164": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-29T13:01:18.079296+00:00",
+      "fingerprint": "3000|44|2|",
+      "id": "olx:1086741164"
+    },
     "olx:1086750576": {
       "cena": 4900,
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
@@ -7919,6 +7925,12 @@
       "fingerprint": "2000|37|2|grabówek",
       "id": "olx:1088165186"
     },
+    "olx:1088167597": {
+      "cena": 2700,
+      "data_wyslania": "2026-07-29T13:01:18.079296+00:00",
+      "fingerprint": "2700|36|2|wrzeszcz",
+      "id": "olx:1088167597"
+    },
     "olx:777472320": {
       "cena": 3500,
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
@@ -8393,6 +8405,12 @@
       "fingerprint": "1980000|85.6|4|wrzeszcz",
       "id": "olx_sale:1061155289"
     },
+    "olx_sale:1061990465": {
+      "cena": 599000,
+      "data_wyslania": "2026-07-29T13:01:18.079296+00:00",
+      "fingerprint": "599000|53|3|obłuże",
+      "id": "olx_sale:1061990465"
+    },
     "olx_sale:1063196064": {
       "cena": 743647,
       "data_wyslania": "2026-07-26T08:01:05.304060+00:00",
@@ -8524,6 +8542,18 @@
       "data_wyslania": "2026-07-27T08:30:57.217167+00:00",
       "fingerprint": "780000|62.1|3|brętowo",
       "id": "olx_sale:1072725308"
+    },
+    "olx_sale:1072773778": {
+      "cena": 629000,
+      "data_wyslania": "2026-07-29T13:01:18.079296+00:00",
+      "fingerprint": "629000|49|3|karwiny",
+      "id": "olx_sale:1072773778"
+    },
+    "olx_sale:1072797858": {
+      "cena": 919000,
+      "data_wyslania": "2026-07-29T13:01:18.079296+00:00",
+      "fingerprint": "919000|80|4|jasień",
+      "id": "olx_sale:1072797858"
     },
     "olx_sale:1073393551": {
       "cena": 373087,
@@ -8782,6 +8812,12 @@
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
       "fingerprint": "589000|35.26|2|",
       "id": "olx_sale:1079316041"
+    },
+    "olx_sale:1079330906": {
+      "cena": 669000,
+      "data_wyslania": "2026-07-29T13:01:18.079296+00:00",
+      "fingerprint": "669000|53|3|chylonia",
+      "id": "olx_sale:1079330906"
     },
     "olx_sale:1079372851": {
       "cena": 2580000,
@@ -10576,6 +10612,18 @@
       "data_wyslania": "2026-07-29T12:30:58.974001+00:00",
       "fingerprint": "850000|72|3|obłuże",
       "id": "olx_sale:1088158793"
+    },
+    "olx_sale:1088168744": {
+      "cena": 520000,
+      "data_wyslania": "2026-07-29T13:01:18.079296+00:00",
+      "fingerprint": "520000|40|2|chwarzno-wiczlino",
+      "id": "olx_sale:1088168744"
+    },
+    "olx_sale:1088169515": {
+      "cena": 435000,
+      "data_wyslania": "2026-07-29T13:01:18.079296+00:00",
+      "fingerprint": "435000|60.1|3|obłuże",
+      "id": "olx_sale:1088169515"
     },
     "olx_sale:857316110": {
       "cena": 715000,
