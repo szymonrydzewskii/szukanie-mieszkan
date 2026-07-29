@@ -51,37 +51,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 3926,
+            "fetched": 4048,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 3264,
+            "fetched": 3366,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 0,
-            "fetched": 4836,
+            "dropped": 1,
+            "fetched": 4988,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 1,
-            "fetched": 4518,
+            "fetched": 4660,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 1920,
+            "fetched": 1980,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 2096,
+            "fetched": 2162,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -118,12 +118,12 @@
   "high_water": {
     "nieruchomosci_online": "000026861415",
     "nieruchomosci_online_sale": "000026861279",
-    "olx": "2026-07-28T23:52:12+02:00",
+    "olx": "2026-07-29T06:59:16+02:00",
     "olx_sale": "2026-07-29T00:18:21+02:00",
     "trojmiasto": "000066492842",
     "trojmiasto_sale": "000066493386"
   },
-  "last_run": "2026-07-29T05:15:42.351902+00:00",
+  "last_run": "2026-07-29T05:31:03.496522+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -7414,6 +7414,12 @@
       "data_wyslania": "2026-07-28T22:15:45.903898+00:00",
       "fingerprint": "2000|27|1|ujeścisko - łostowice",
       "id": "olx:1088060532"
+    },
+    "olx:1088077891": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-29T05:31:03.496522+00:00",
+      "fingerprint": "3000|43|2|przymorze małe",
+      "id": "olx:1088077891"
     },
     "olx:777472320": {
       "cena": 3500,
