@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 4902,
+            "fetched": 5024,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 4080,
+            "fetched": 4182,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 6,
-            "fetched": 6053,
+            "fetched": 6206,
             "sent_main": 1,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 2,
-            "fetched": 5649,
+            "fetched": 5790,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2407,
+            "fetched": 2468,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 2621,
+            "fetched": 2689,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -74,12 +74,12 @@
   "high_water": {
     "nieruchomosci_online": "000026861415",
     "nieruchomosci_online_sale": "000026861279",
-    "olx": "2026-07-29T08:51:45+02:00",
+    "olx": "2026-07-29T09:20:27+02:00",
     "olx_sale": "2026-07-29T07:37:25+02:00",
     "trojmiasto": "000066492842",
     "trojmiasto_sale": "000066493386"
   },
-  "last_run": "2026-07-29T07:15:54.251498+00:00",
+  "last_run": "2026-07-29T07:31:00.124186+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -7466,6 +7466,18 @@
       "data_wyslania": "2026-07-29T07:15:54.251498+00:00",
       "fingerprint": "2200|42|2|brzeźno",
       "id": "olx:1088089109"
+    },
+    "olx:1088092666": {
+      "cena": 2600,
+      "data_wyslania": "2026-07-29T07:31:00.124186+00:00",
+      "fingerprint": "2600|50|2|śródmieście",
+      "id": "olx:1088092666"
+    },
+    "olx:1088093313": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-29T07:31:00.124186+00:00",
+      "fingerprint": "2500|38|2|śródmieście",
+      "id": "olx:1088093313"
     },
     "olx:777472320": {
       "cena": 3500,
