@@ -9,37 +9,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 7096,
+            "fetched": 7218,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 5901,
+            "fetched": 6001,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 23,
-            "fetched": 8781,
+            "dropped": 25,
+            "fetched": 8934,
             "sent_main": 2,
             "sent_near": 2
           },
           "olx_sale": {
-            "dropped": 15,
-            "fetched": 8057,
+            "dropped": 16,
+            "fetched": 8199,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 3503,
+            "fetched": 3563,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 3839,
+            "fetched": 3905,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -75,13 +75,13 @@
   },
   "high_water": {
     "nieruchomosci_online": "000026862201",
-    "nieruchomosci_online_sale": "000026861279",
-    "olx": "2026-07-29T12:57:25+02:00",
+    "nieruchomosci_online_sale": "000026862244",
+    "olx": "2026-07-29T13:14:29+02:00",
     "olx_sale": "2026-07-29T12:50:33+02:00",
     "trojmiasto": "000066492842",
     "trojmiasto_sale": "000066493557"
   },
-  "last_run": "2026-07-29T11:15:44.674510+00:00",
+  "last_run": "2026-07-29T11:31:06.045180+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -3526,6 +3526,12 @@
       "data_wyslania": "2026-07-28T20:45:51.832045+00:00",
       "fingerprint": "1289000|69|3|piecki-migowo",
       "id": "nieruchomosci_online_sale:26861279"
+    },
+    "nieruchomosci_online_sale:26862244": {
+      "cena": 799000,
+      "data_wyslania": "2026-07-29T11:31:06.045180+00:00",
+      "fingerprint": "799000|66.6|3|kokoszki",
+      "id": "nieruchomosci_online_sale:26862244"
     },
     "olx:1010778181": {
       "cena": 3400,
@@ -7745,11 +7751,23 @@
       "fingerprint": "2700|38|2|chwarzno-wiczlino",
       "id": "olx:1088142534"
     },
+    "olx:1088143202": {
+      "cena": 2600,
+      "data_wyslania": "2026-07-29T11:31:06.045180+00:00",
+      "fingerprint": "2600|22|1|wrzeszcz",
+      "id": "olx:1088143202"
+    },
     "olx:1088145002": {
       "cena": 3210,
       "data_wyslania": "2026-07-29T11:15:44.674510+00:00",
       "fingerprint": "3210|40|2|wrzeszcz",
       "id": "olx:1088145002"
+    },
+    "olx:1088149415": {
+      "cena": 4170,
+      "data_wyslania": "2026-07-29T11:31:06.045180+00:00",
+      "fingerprint": "4170|53|3|wrzeszcz",
+      "id": "olx:1088149415"
     },
     "olx:777472320": {
       "cena": 3500,
@@ -10343,6 +10361,12 @@
       "fingerprint": "612950|58.2|3|",
       "id": "olx_sale:1088104276"
     },
+    "olx_sale:1088122326": {
+      "cena": 470000,
+      "data_wyslania": "2026-07-29T11:31:06.045180+00:00",
+      "fingerprint": "470000|50.6|2|orunia - św. wojciech - lipce",
+      "id": "olx_sale:1088122326"
+    },
     "olx_sale:1088124556": {
       "cena": 629000,
       "data_wyslania": "2026-07-29T10:01:17.201393+00:00",
@@ -11818,6 +11842,12 @@
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
       "fingerprint": "521000|54|2|pustki cisowskie",
       "id": "trojmiasto_sale:66474417"
+    },
+    "trojmiasto_sale:66475246": {
+      "cena": 2550000,
+      "data_wyslania": "2026-07-29T11:31:06.045180+00:00",
+      "fingerprint": "2550000|101|3|",
+      "id": "trojmiasto_sale:66475246"
     },
     "trojmiasto_sale:66475248": {
       "cena": 429000,
