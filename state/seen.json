@@ -8,38 +8,38 @@
         ],
         "sources": {
           "nieruchomosci_online": {
-            "dropped": 3,
-            "fetched": 7340,
+            "dropped": 4,
+            "fetched": 7462,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 6101,
+            "fetched": 6201,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 28,
-            "fetched": 9085,
+            "fetched": 9235,
             "sent_main": 2,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 16,
-            "fetched": 8342,
+            "fetched": 8484,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 3623,
+            "fetched": 3683,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 3973,
+            "fetched": 4041,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -74,14 +74,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026862334",
+    "nieruchomosci_online": "000026862392",
     "nieruchomosci_online_sale": "000026862244",
-    "olx": "2026-07-29T13:35:15+02:00",
+    "olx": "2026-07-29T13:44:28+02:00",
     "olx_sale": "2026-07-29T12:50:33+02:00",
     "trojmiasto": "000066492842",
     "trojmiasto_sale": "000066493557"
   },
-  "last_run": "2026-07-29T11:45:50.934057+00:00",
+  "last_run": "2026-07-29T12:01:07.409467+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -1384,6 +1384,12 @@
       "data_wyslania": "2026-07-29T11:45:50.934057+00:00",
       "fingerprint": "2900|40.3|1|śródmieście",
       "id": "nieruchomosci_online:26862334"
+    },
+    "nieruchomosci_online:26862392": {
+      "cena": 3200,
+      "data_wyslania": "2026-07-29T12:01:07.409467+00:00",
+      "fingerprint": "3200|62.2|3|śródmieście",
+      "id": "nieruchomosci_online:26862392"
     },
     "nieruchomosci_online_sale:24789504": {
       "cena": 1998000,
@@ -4210,6 +4216,12 @@
       "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
       "fingerprint": "3600|66|3|wrzeszcz",
       "id": "olx:1080032375"
+    },
+    "olx:1080488216": {
+      "cena": 3800,
+      "data_wyslania": "2026-07-29T12:01:07.409467+00:00",
+      "fingerprint": "3800|47|4|działki leśne",
+      "id": "olx:1080488216"
     },
     "olx:1080591361": {
       "cena": 3400,
@@ -7805,6 +7817,18 @@
       "fingerprint": "3100|40|2|aniołki",
       "id": "olx:1088153923"
     },
+    "olx:1088155591": {
+      "cena": 2050,
+      "data_wyslania": "2026-07-29T12:01:07.409467+00:00",
+      "fingerprint": "2050|24.5|1|wrzeszcz",
+      "id": "olx:1088155591"
+    },
+    "olx:1088155906": {
+      "cena": 2760,
+      "data_wyslania": "2026-07-29T12:01:07.409467+00:00",
+      "fingerprint": "2760|36|2|wrzeszcz",
+      "id": "olx:1088155906"
+    },
     "olx:777472320": {
       "cena": 3500,
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
@@ -10612,6 +10636,12 @@
       "data_wyslania": "2026-07-26T08:30:56.323370+00:00",
       "fingerprint": "3000|50|3|leszczynki",
       "id": "trojmiasto:66397975"
+    },
+    "trojmiasto:66398078": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-29T12:01:07.409467+00:00",
+      "fingerprint": "2500|10|?|wzgórze bernadowo",
+      "id": "trojmiasto:66398078"
     },
     "trojmiasto:66405285": {
       "cena": 3000,
