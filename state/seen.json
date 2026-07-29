@@ -9,37 +9,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 12216,
+            "fetched": 12338,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
-            "dropped": 0,
-            "fetched": 10210,
+            "dropped": 1,
+            "fetched": 10305,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 65,
-            "fetched": 15125,
+            "fetched": 15270,
             "sent_main": 4,
             "sent_near": 6
           },
           "olx_sale": {
             "dropped": 28,
-            "fetched": 13984,
+            "fetched": 14123,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 5984,
+            "fetched": 6043,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 6538,
+            "fetched": 6601,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -81,7 +81,7 @@
     "trojmiasto": "000066493903",
     "trojmiasto_sale": "000066493905"
   },
-  "last_run": "2026-07-29T20:39:09.566455+00:00",
+  "last_run": "2026-07-29T20:45:40.726624+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -1980,9 +1980,9 @@
       "id": "nieruchomosci_online_sale:26507736"
     },
     "nieruchomosci_online_sale:26510244": {
-      "cena": 650000,
-      "data_wyslania": "2026-07-26T20:45:43.648866+00:00",
-      "fingerprint": "650000|55.25|2|dolne miasto",
+      "cena": 639000,
+      "data_wyslania": "2026-07-29T20:45:40.726624+00:00",
+      "fingerprint": "639000|55.25|2|dolne miasto",
       "id": "nieruchomosci_online_sale:26510244"
     },
     "nieruchomosci_online_sale:26511673": {
@@ -8272,6 +8272,12 @@
       "data_wyslania": "2026-07-29T20:39:09.566455+00:00",
       "fingerprint": "2950|58|3|dąbrowa",
       "id": "olx:1088262428"
+    },
+    "olx:1088264568": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-29T20:45:40.726624+00:00",
+      "fingerprint": "3000|70|3|redłowo",
+      "id": "olx:1088264568"
     },
     "olx:1088264582": {
       "cena": 2200,
