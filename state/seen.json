@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 4536,
+            "fetched": 4658,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 3774,
+            "fetched": 3876,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 4,
-            "fetched": 5597,
+            "dropped": 5,
+            "fetched": 5748,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 2,
-            "fetched": 5225,
+            "fetched": 5365,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2224,
+            "fetched": 2285,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 2422,
+            "fetched": 2487,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -74,12 +74,12 @@
   "high_water": {
     "nieruchomosci_online": "000026861415",
     "nieruchomosci_online_sale": "000026861279",
-    "olx": "2026-07-29T08:10:23+02:00",
+    "olx": "2026-07-29T08:40:11+02:00",
     "olx_sale": "2026-07-29T07:37:25+02:00",
     "trojmiasto": "000066492842",
     "trojmiasto_sale": "000066493386"
   },
-  "last_run": "2026-07-29T06:30:59.480828+00:00",
+  "last_run": "2026-07-29T06:45:48.660286+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -7448,6 +7448,12 @@
       "data_wyslania": "2026-07-29T06:30:59.480828+00:00",
       "fingerprint": "3000|49|2|zaspa młyniec",
       "id": "olx:1088083257"
+    },
+    "olx:1088087484": {
+      "cena": 5700,
+      "data_wyslania": "2026-07-29T06:45:48.660286+00:00",
+      "fingerprint": "5700|68|3|wrzeszcz",
+      "id": "olx:1088087484"
     },
     "olx:777472320": {
       "cena": 3500,
