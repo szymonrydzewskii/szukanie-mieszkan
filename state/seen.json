@@ -2,86 +2,42 @@
   "daily": {},
   "digest": {
     "days": {
-      "2026-07-28": {
-        "errors": [
-          "nieruchomosci_online: Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Max retries exceede",
-          "nieruchomosci_online_sale: Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Max retries exceede"
-        ],
-        "sources": {
-          "nieruchomosci_online": {
-            "dropped": 8,
-            "fetched": 12618,
-            "sent_main": 1,
-            "sent_near": 0
-          },
-          "nieruchomosci_online_sale": {
-            "dropped": 1,
-            "fetched": 10243,
-            "sent_main": 0,
-            "sent_near": 0
-          },
-          "olx": {
-            "dropped": 61,
-            "fetched": 15775,
-            "sent_main": 3,
-            "sent_near": 4
-          },
-          "olx_sale": {
-            "dropped": 38,
-            "fetched": 14833,
-            "sent_main": 2,
-            "sent_near": 1
-          },
-          "trojmiasto": {
-            "dropped": 1,
-            "fetched": 6356,
-            "sent_main": 1,
-            "sent_near": 0
-          },
-          "trojmiasto_sale": {
-            "dropped": 1,
-            "fetched": 6705,
-            "sent_main": 0,
-            "sent_near": 0
-          }
-        }
-      },
       "2026-07-29": {
         "errors": [],
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 4170,
+            "fetched": 4292,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 3468,
+            "fetched": 3570,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 2,
-            "fetched": 5140,
+            "fetched": 5292,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 2,
-            "fetched": 4800,
+            "fetched": 4943,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2041,
+            "fetched": 2102,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 2226,
+            "fetched": 2291,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -123,7 +79,7 @@
     "trojmiasto": "000066492842",
     "trojmiasto_sale": "000066493386"
   },
-  "last_run": "2026-07-29T05:45:46.451339+00:00",
+  "last_run": "2026-07-29T06:01:09.360187+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -2398,6 +2354,12 @@
       "data_wyslania": "2026-07-27T11:01:12.851201+00:00",
       "fingerprint": "899000|63.2|3|piecki-migowo",
       "id": "nieruchomosci_online_sale:26678920"
+    },
+    "nieruchomosci_online_sale:26683107": {
+      "cena": 680000,
+      "data_wyslania": "2026-07-29T06:01:09.360187+00:00",
+      "fingerprint": "680000|43.8|2|ujeścisko",
+      "id": "nieruchomosci_online_sale:26683107"
     },
     "nieruchomosci_online_sale:26684818": {
       "cena": 1250000,
@@ -5746,6 +5708,12 @@
       "data_wyslania": "2026-07-29T05:45:46.451339+00:00",
       "fingerprint": "2300|25.85|1|śródmieście",
       "id": "olx:1087224778"
+    },
+    "olx:1087225338": {
+      "cena": 2300,
+      "data_wyslania": "2026-07-29T06:01:09.360187+00:00",
+      "fingerprint": "2300|25.85|1|śródmieście",
+      "id": "olx:1087225338"
     },
     "olx:1087225912": {
       "cena": 3500,
