@@ -9,37 +9,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 11850,
+            "fetched": 11972,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 9903,
+            "fetched": 10006,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 61,
-            "fetched": 14676,
+            "dropped": 62,
+            "fetched": 14827,
             "sent_main": 4,
-            "sent_near": 5
+            "sent_near": 6
           },
           "olx_sale": {
-            "dropped": 26,
-            "fetched": 13563,
+            "dropped": 27,
+            "fetched": 13704,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 5807,
+            "fetched": 5866,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 6349,
+            "fetched": 6411,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -76,12 +76,12 @@
   "high_water": {
     "nieruchomosci_online": "000026863646",
     "nieruchomosci_online_sale": "000026862244",
-    "olx": "2026-07-29T21:26:59+02:00",
+    "olx": "2026-07-29T21:52:08+02:00",
     "olx_sale": "2026-07-29T21:48:26+02:00",
     "trojmiasto": "000066493903",
     "trojmiasto_sale": "000066493905"
   },
-  "last_run": "2026-07-29T20:01:08.871902+00:00",
+  "last_run": "2026-07-29T20:15:42.936436+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -3676,6 +3676,12 @@
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
       "fingerprint": "2400|31|2|grabówek",
       "id": "olx:1026637284"
+    },
+    "olx:1032249589": {
+      "cena": 3100,
+      "data_wyslania": "2026-07-29T20:15:42.936436+00:00",
+      "fingerprint": "3100|42|2|letnica",
+      "id": "olx:1032249589"
     },
     "olx:1032735444": {
       "cena": 1900,
@@ -8231,6 +8237,18 @@
       "fingerprint": "4500|53|3|piecki-migowo",
       "id": "olx:1088251429"
     },
+    "olx:1088256319": {
+      "cena": 2600,
+      "data_wyslania": "2026-07-29T20:15:42.936436+00:00",
+      "fingerprint": "2600|40|2|wzgórze świętego maksymiliana",
+      "id": "olx:1088256319"
+    },
+    "olx:1088257059": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-29T20:15:42.936436+00:00",
+      "fingerprint": "2500|46|2|żabianka - wejhera - jelitkowo - tysiąclecia",
+      "id": "olx:1088257059"
+    },
     "olx:777472320": {
       "cena": 3500,
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
@@ -11014,6 +11032,12 @@
       "data_wyslania": "2026-07-29T18:45:43.860091+00:00",
       "fingerprint": "785000|54|3|",
       "id": "olx_sale:1088238760"
+    },
+    "olx_sale:1088256109": {
+      "cena": 953800,
+      "data_wyslania": "2026-07-29T20:15:42.936436+00:00",
+      "fingerprint": "953800|56|3|śródmieście",
+      "id": "olx_sale:1088256109"
     },
     "olx_sale:1088256267": {
       "cena": 468000,
