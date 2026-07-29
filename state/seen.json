@@ -51,37 +51,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 4048,
+            "fetched": 4170,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 3366,
+            "fetched": 3468,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 1,
-            "fetched": 4988,
+            "dropped": 2,
+            "fetched": 5140,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
-            "dropped": 1,
-            "fetched": 4660,
+            "dropped": 2,
+            "fetched": 4800,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 1980,
+            "fetched": 2041,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 2162,
+            "fetched": 2226,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -118,12 +118,12 @@
   "high_water": {
     "nieruchomosci_online": "000026861415",
     "nieruchomosci_online_sale": "000026861279",
-    "olx": "2026-07-29T06:59:16+02:00",
-    "olx_sale": "2026-07-29T00:18:21+02:00",
+    "olx": "2026-07-29T07:28:11+02:00",
+    "olx_sale": "2026-07-29T07:37:25+02:00",
     "trojmiasto": "000066492842",
     "trojmiasto_sale": "000066493386"
   },
-  "last_run": "2026-07-29T05:31:03.496522+00:00",
+  "last_run": "2026-07-29T05:45:46.451339+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -5693,6 +5693,12 @@
       "fingerprint": "3500|40|2|stogi z przeróbką",
       "id": "olx:1087197525"
     },
+    "olx:1087199165": {
+      "cena": 1650,
+      "data_wyslania": "2026-07-29T05:45:46.451339+00:00",
+      "fingerprint": "1650|15.53|1|śródmieście",
+      "id": "olx:1087199165"
+    },
     "olx:1087201536": {
       "cena": 3599,
       "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
@@ -5723,11 +5729,29 @@
       "fingerprint": "2200|36.4|2|karwiny",
       "id": "olx:1087217913"
     },
+    "olx:1087223773": {
+      "cena": 2100,
+      "data_wyslania": "2026-07-29T05:45:46.451339+00:00",
+      "fingerprint": "2100|22.24|1|śródmieście",
+      "id": "olx:1087223773"
+    },
     "olx:1087224587": {
       "cena": 1400,
       "data_wyslania": "2026-07-24T14:00:49.622132+00:00",
       "fingerprint": "1400|11|4|zaspa młyniec",
       "id": "olx:1087224587"
+    },
+    "olx:1087224778": {
+      "cena": 2300,
+      "data_wyslania": "2026-07-29T05:45:46.451339+00:00",
+      "fingerprint": "2300|25.85|1|śródmieście",
+      "id": "olx:1087224778"
+    },
+    "olx:1087225912": {
+      "cena": 3500,
+      "data_wyslania": "2026-07-29T05:45:46.451339+00:00",
+      "fingerprint": "3500|46.55|1|śródmieście",
+      "id": "olx:1087225912"
     },
     "olx:1087226924": {
       "cena": 3000,
@@ -6977,6 +7001,12 @@
       "fingerprint": "3000|45|2|chełm z dzielnicą gdańsk południe",
       "id": "olx:1087850839"
     },
+    "olx:1087851383": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-29T05:45:46.451339+00:00",
+      "fingerprint": "2500|31.81|1|śródmieście",
+      "id": "olx:1087851383"
+    },
     "olx:1087851604": {
       "cena": 3000,
       "data_wyslania": "2026-07-28T06:01:02.050563+00:00",
@@ -7420,6 +7450,12 @@
       "data_wyslania": "2026-07-29T05:31:03.496522+00:00",
       "fingerprint": "3000|43|2|przymorze małe",
       "id": "olx:1088077891"
+    },
+    "olx:1088079684": {
+      "cena": 2200,
+      "data_wyslania": "2026-07-29T05:45:46.451339+00:00",
+      "fingerprint": "2200|31|1|oliwa",
+      "id": "olx:1088079684"
     },
     "olx:777472320": {
       "cena": 3500,
@@ -9802,6 +9838,12 @@
       "data_wyslania": "2026-07-28T22:31:01.412759+00:00",
       "fingerprint": "1460000|112|4|chwarzno-wiczlino",
       "id": "olx_sale:1088063877"
+    },
+    "olx_sale:1088080330": {
+      "cena": 1180000,
+      "data_wyslania": "2026-07-29T05:45:46.451339+00:00",
+      "fingerprint": "1180000|81.12|4|",
+      "id": "olx_sale:1088080330"
     },
     "olx_sale:857316110": {
       "cena": 715000,
