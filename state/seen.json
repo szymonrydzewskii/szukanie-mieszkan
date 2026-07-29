@@ -9,37 +9,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 9288,
+            "fetched": 9410,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 7740,
+            "fetched": 7843,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 47,
-            "fetched": 11514,
+            "fetched": 11667,
             "sent_main": 3,
             "sent_near": 3
           },
           "olx_sale": {
             "dropped": 23,
-            "fetched": 10613,
+            "fetched": 10755,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 4569,
+            "fetched": 4627,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 5016,
+            "fetched": 5080,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -81,7 +81,7 @@
     "trojmiasto": "000066493903",
     "trojmiasto_sale": "000066493905"
   },
-  "last_run": "2026-07-29T15:31:01.498557+00:00",
+  "last_run": "2026-07-29T15:45:46.978319+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -4864,6 +4864,12 @@
       "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
       "fingerprint": "4000|56|3|wrzeszcz",
       "id": "olx:1084637739"
+    },
+    "olx:1084637756": {
+      "cena": 2200,
+      "data_wyslania": "2026-07-29T15:45:46.978319+00:00",
+      "fingerprint": "2200|20|1|chełm z dzielnicą gdańsk południe",
+      "id": "olx:1084637756"
     },
     "olx:1084646991": {
       "cena": 2900,
