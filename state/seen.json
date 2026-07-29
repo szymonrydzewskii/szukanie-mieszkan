@@ -9,37 +9,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 11240,
+            "fetched": 11362,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 9388,
+            "fetched": 9491,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 56,
-            "fetched": 13927,
+            "dropped": 57,
+            "fetched": 14078,
             "sent_main": 4,
             "sent_near": 4
           },
           "olx_sale": {
             "dropped": 25,
-            "fetched": 12861,
+            "fetched": 13000,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 5512,
+            "fetched": 5571,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 6032,
+            "fetched": 6095,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -81,7 +81,7 @@
     "trojmiasto": "000066493903",
     "trojmiasto_sale": "000066493905"
   },
-  "last_run": "2026-07-29T19:01:11.390052+00:00",
+  "last_run": "2026-07-29T19:15:48.908713+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -4469,6 +4469,12 @@
       "fingerprint": "2200|45|1|oliwa",
       "id": "olx:1082043479"
     },
+    "olx:1082057261": {
+      "cena": 3200,
+      "data_wyslania": "2026-07-29T19:15:48.908713+00:00",
+      "fingerprint": "3200|32|2|brzeźno",
+      "id": "olx:1082057261"
+    },
     "olx:1082119082": {
       "cena": 3500,
       "data_wyslania": "2026-07-27T12:00:54.890447+00:00",
@@ -7926,9 +7932,9 @@
       "id": "olx:1088140663"
     },
     "olx:1088142534": {
-      "cena": 2700,
-      "data_wyslania": "2026-07-29T11:15:44.674510+00:00",
-      "fingerprint": "2700|38|2|chwarzno-wiczlino",
+      "cena": 2500,
+      "data_wyslania": "2026-07-29T19:15:48.908713+00:00",
+      "fingerprint": "2500|38|2|chwarzno-wiczlino",
       "id": "olx:1088142534"
     },
     "olx:1088143202": {
