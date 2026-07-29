@@ -9,37 +9,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 11362,
+            "fetched": 11484,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 9491,
+            "fetched": 9594,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 57,
-            "fetched": 14078,
+            "fetched": 14229,
             "sent_main": 4,
-            "sent_near": 4
+            "sent_near": 5
           },
           "olx_sale": {
             "dropped": 25,
-            "fetched": 13000,
+            "fetched": 13141,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 5571,
+            "fetched": 5630,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 6095,
+            "fetched": 6159,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -74,14 +74,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026863015",
+    "nieruchomosci_online": "000026863646",
     "nieruchomosci_online_sale": "000026862244",
-    "olx": "2026-07-29T20:47:09+02:00",
+    "olx": "2026-07-29T21:02:23+02:00",
     "olx_sale": "2026-07-29T20:32:24+02:00",
     "trojmiasto": "000066493903",
     "trojmiasto_sale": "000066493905"
   },
-  "last_run": "2026-07-29T19:15:48.908713+00:00",
+  "last_run": "2026-07-29T19:30:56.513700+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -1402,6 +1402,12 @@
       "data_wyslania": "2026-07-29T15:15:43.118266+00:00",
       "fingerprint": "2400|24.5|1|żabianka",
       "id": "nieruchomosci_online:26863015"
+    },
+    "nieruchomosci_online:26863646": {
+      "cena": 3200,
+      "data_wyslania": "2026-07-29T19:30:56.513700+00:00",
+      "fingerprint": "3200|38|2|wrzeszcz dolny",
+      "id": "nieruchomosci_online:26863646"
     },
     "nieruchomosci_online_sale:24789504": {
       "cena": 1998000,
@@ -8188,6 +8194,12 @@
       "data_wyslania": "2026-07-29T19:01:11.390052+00:00",
       "fingerprint": "1700|48|2|śródmieście",
       "id": "olx:1088242014"
+    },
+    "olx:1088245559": {
+      "cena": 2790,
+      "data_wyslania": "2026-07-29T19:30:56.513700+00:00",
+      "fingerprint": "2790|38|2|przymorze wielkie",
+      "id": "olx:1088245559"
     },
     "olx:777472320": {
       "cena": 3500,
