@@ -8,38 +8,38 @@
         ],
         "sources": {
           "nieruchomosci_online": {
-            "dropped": 1,
-            "fetched": 6974,
+            "dropped": 2,
+            "fetched": 7096,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 5801,
+            "fetched": 5901,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 21,
-            "fetched": 8630,
+            "dropped": 23,
+            "fetched": 8781,
             "sent_main": 2,
             "sent_near": 2
           },
           "olx_sale": {
-            "dropped": 13,
-            "fetched": 7913,
+            "dropped": 15,
+            "fetched": 8057,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 3443,
+            "fetched": 3503,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 3771,
+            "fetched": 3839,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -61,8 +61,8 @@
       "last_error": null
     },
     "olx_sale": {
-      "bad": 1,
-      "last_error": "OLX: HTTP 500 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5849, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE html>\\n<html lang=\"en\">\\n<head>\\n    <meta name=\""
+      "bad": 0,
+      "last_error": null
     },
     "trojmiasto": {
       "bad": 0,
@@ -74,14 +74,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026862106",
+    "nieruchomosci_online": "000026862201",
     "nieruchomosci_online_sale": "000026861279",
-    "olx": "2026-07-29T12:42:08+02:00",
-    "olx_sale": "2026-07-29T12:35:53+02:00",
+    "olx": "2026-07-29T12:57:25+02:00",
+    "olx_sale": "2026-07-29T12:50:33+02:00",
     "trojmiasto": "000066492842",
     "trojmiasto_sale": "000066493557"
   },
-  "last_run": "2026-07-29T11:01:14.137842+00:00",
+  "last_run": "2026-07-29T11:15:44.674510+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -1366,6 +1366,18 @@
       "data_wyslania": "2026-07-29T10:45:42.040583+00:00",
       "fingerprint": "3000|59.6|3|jasień",
       "id": "nieruchomosci_online:26862106"
+    },
+    "nieruchomosci_online:26862197": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-29T11:15:44.674510+00:00",
+      "fingerprint": "3000|41|2|cisowa",
+      "id": "nieruchomosci_online:26862197"
+    },
+    "nieruchomosci_online:26862201": {
+      "cena": 2800,
+      "data_wyslania": "2026-07-29T11:15:44.674510+00:00",
+      "fingerprint": "2800|55.29|2|łostowice",
+      "id": "nieruchomosci_online:26862201"
     },
     "nieruchomosci_online_sale:24789504": {
       "cena": 1998000,
@@ -3772,6 +3784,12 @@
       "data_wyslania": "2026-07-27T16:31:04.461826+00:00",
       "fingerprint": "3200|48|2|wrzeszcz",
       "id": "olx:1069877759"
+    },
+    "olx:1070024878": {
+      "cena": 2150,
+      "data_wyslania": "2026-07-29T11:15:44.674510+00:00",
+      "fingerprint": "2150|17|1|śródmieście",
+      "id": "olx:1070024878"
     },
     "olx:1070614172": {
       "cena": 2690,
@@ -7721,6 +7739,18 @@
       "fingerprint": "2800|50|2|ujeścisko - łostowice",
       "id": "olx:1088140663"
     },
+    "olx:1088142534": {
+      "cena": 2700,
+      "data_wyslania": "2026-07-29T11:15:44.674510+00:00",
+      "fingerprint": "2700|38|2|chwarzno-wiczlino",
+      "id": "olx:1088142534"
+    },
+    "olx:1088145002": {
+      "cena": 3210,
+      "data_wyslania": "2026-07-29T11:15:44.674510+00:00",
+      "fingerprint": "3210|40|2|wrzeszcz",
+      "id": "olx:1088145002"
+    },
     "olx:777472320": {
       "cena": 3500,
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
@@ -7900,6 +7930,12 @@
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
       "fingerprint": "1800000|88|2|",
       "id": "olx_sale:1039792746"
+    },
+    "olx_sale:1039801095": {
+      "cena": 1578080,
+      "data_wyslania": "2026-07-29T11:15:44.674510+00:00",
+      "fingerprint": "1578080|84.1|4|",
+      "id": "olx_sale:1039801095"
     },
     "olx_sale:1041087333": {
       "cena": 777908,
@@ -8842,6 +8878,12 @@
       "data_wyslania": "2026-07-28T09:11:43.501270+00:00",
       "fingerprint": "579700|48.8|2|",
       "id": "olx_sale:1082248353"
+    },
+    "olx_sale:1082304731": {
+      "cena": 729500,
+      "data_wyslania": "2026-07-29T11:15:44.674510+00:00",
+      "fingerprint": "729500|63.45|3|śródmieście",
+      "id": "olx_sale:1082304731"
     },
     "olx_sale:1082463983": {
       "cena": 440000,
@@ -10336,6 +10378,18 @@
       "data_wyslania": "2026-07-29T10:45:42.040583+00:00",
       "fingerprint": "749900|60.01|3|pustki cisowskie-demptowo",
       "id": "olx_sale:1088138907"
+    },
+    "olx_sale:1088141931": {
+      "cena": 979000,
+      "data_wyslania": "2026-07-29T11:15:44.674510+00:00",
+      "fingerprint": "979000|85.5|4|wrzeszcz",
+      "id": "olx_sale:1088141931"
+    },
+    "olx_sale:1088142880": {
+      "cena": 799000,
+      "data_wyslania": "2026-07-29T11:15:44.674510+00:00",
+      "fingerprint": "799000|66.6|3|kokoszki",
+      "id": "olx_sale:1088142880"
     },
     "olx_sale:857316110": {
       "cena": 715000,
