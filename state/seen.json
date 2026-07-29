@@ -49,38 +49,38 @@
         "errors": [],
         "sources": {
           "nieruchomosci_online": {
-            "dropped": 0,
-            "fetched": 366,
+            "dropped": 1,
+            "fetched": 488,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 285,
+            "fetched": 380,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 0,
-            "fetched": 446,
+            "fetched": 596,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 0,
-            "fetched": 426,
+            "fetched": 565,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 174,
+            "fetched": 232,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 191,
+            "fetched": 254,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -115,14 +115,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026863646",
+    "nieruchomosci_online": "000026863815",
     "nieruchomosci_online_sale": "000026862244",
     "olx": "2026-07-29T22:29:08+02:00",
     "olx_sale": "2026-07-29T21:48:26+02:00",
     "trojmiasto": "000066494307",
     "trojmiasto_sale": "000066493905"
   },
-  "last_run": "2026-07-29T22:31:02.156509+00:00",
+  "last_run": "2026-07-29T22:42:47.892099+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -1449,6 +1449,12 @@
       "data_wyslania": "2026-07-29T19:30:56.513700+00:00",
       "fingerprint": "3200|38|2|wrzeszcz dolny",
       "id": "nieruchomosci_online:26863646"
+    },
+    "nieruchomosci_online:26863815": {
+      "cena": 2100,
+      "data_wyslania": "2026-07-29T22:42:47.892099+00:00",
+      "fingerprint": "2100|42.17|2|wzgórze św. maksymiliana",
+      "id": "nieruchomosci_online:26863815"
     },
     "nieruchomosci_online_sale:24789504": {
       "cena": 1998000,
