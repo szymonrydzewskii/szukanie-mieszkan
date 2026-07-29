@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 5756,
+            "fetched": 5878,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 4793,
+            "fetched": 4894,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 8,
-            "fetched": 7120,
+            "dropped": 10,
+            "fetched": 7271,
             "sent_main": 1,
-            "sent_near": 0
+            "sent_near": 2
           },
           "olx_sale": {
             "dropped": 9,
-            "fetched": 6639,
+            "fetched": 6781,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2834,
+            "fetched": 2895,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
-            "dropped": 0,
-            "fetched": 3093,
+            "dropped": 1,
+            "fetched": 3161,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -74,12 +74,12 @@
   "high_water": {
     "nieruchomosci_online": "000026861415",
     "nieruchomosci_online_sale": "000026861279",
-    "olx": "2026-07-29T10:28:56+02:00",
+    "olx": "2026-07-29T10:52:24+02:00",
     "olx_sale": "2026-07-29T10:19:42+02:00",
     "trojmiasto": "000066492842",
-    "trojmiasto_sale": "000066493386"
+    "trojmiasto_sale": "000066493557"
   },
-  "last_run": "2026-07-29T08:45:49.246502+00:00",
+  "last_run": "2026-07-29T09:01:11.475820+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -7533,6 +7533,30 @@
       "fingerprint": "2300|34|1|jasień",
       "id": "olx:1088106516"
     },
+    "olx:1088107870": {
+      "cena": 2200,
+      "data_wyslania": "2026-07-29T09:01:11.475820+00:00",
+      "fingerprint": "2200|31|1|piecki-migowo",
+      "id": "olx:1088107870"
+    },
+    "olx:1088109712": {
+      "cena": 2800,
+      "data_wyslania": "2026-07-29T09:01:11.475820+00:00",
+      "fingerprint": "2800|45|2|śródmieście",
+      "id": "olx:1088109712"
+    },
+    "olx:1088110592": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-29T09:01:11.475820+00:00",
+      "fingerprint": "3000|35|2|wrzeszcz",
+      "id": "olx:1088110592"
+    },
+    "olx:1088111998": {
+      "cena": 2800,
+      "data_wyslania": "2026-07-29T09:01:11.475820+00:00",
+      "fingerprint": "2800|40|2|przymorze wielkie",
+      "id": "olx:1088111998"
+    },
     "olx:777472320": {
       "cena": 3500,
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
@@ -8198,6 +8222,12 @@
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
       "fingerprint": "699000|63.48|3|siedlce",
       "id": "olx_sale:1075413170"
+    },
+    "olx_sale:1075467672": {
+      "cena": 847000,
+      "data_wyslania": "2026-07-29T09:01:11.475820+00:00",
+      "fingerprint": "847000|61.2|3|osowa",
+      "id": "olx_sale:1075467672"
     },
     "olx_sale:1075773467": {
       "cena": 667751,
@@ -9140,6 +9170,12 @@
       "data_wyslania": "2026-07-27T15:01:10.531332+00:00",
       "fingerprint": "825000|41|2|",
       "id": "olx_sale:1086755754"
+    },
+    "olx_sale:1086764489": {
+      "cena": 526500,
+      "data_wyslania": "2026-07-29T09:01:11.475820+00:00",
+      "fingerprint": "526500|36.75|2|osowa",
+      "id": "olx_sale:1086764489"
     },
     "olx_sale:1086797928": {
       "cena": 470790,
@@ -11864,6 +11900,18 @@
       "data_wyslania": "2026-07-28T20:22:06.632180+00:00",
       "fingerprint": "1289000|68.79|3|piecki-migowo",
       "id": "trojmiasto_sale:66493386"
+    },
+    "trojmiasto_sale:66493556": {
+      "cena": 779000,
+      "data_wyslania": "2026-07-29T09:01:11.475820+00:00",
+      "fingerprint": "779000|52|2|przymorze małe",
+      "id": "trojmiasto_sale:66493556"
+    },
+    "trojmiasto_sale:66493557": {
+      "cena": 730000,
+      "data_wyslania": "2026-07-29T09:01:11.475820+00:00",
+      "fingerprint": "730000|52|3|suchanino",
+      "id": "trojmiasto_sale:66493557"
     }
   },
   "version": 1
