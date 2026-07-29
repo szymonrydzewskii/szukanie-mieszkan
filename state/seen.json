@@ -9,37 +9,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 4,
-            "fetched": 8194,
+            "fetched": 8316,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 6813,
+            "fetched": 6916,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 39,
-            "fetched": 10150,
+            "dropped": 40,
+            "fetched": 10300,
             "sent_main": 2,
             "sent_near": 3
           },
           "olx_sale": {
-            "dropped": 20,
-            "fetched": 9332,
+            "dropped": 21,
+            "fetched": 9475,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 4043,
+            "fetched": 4103,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
-            "dropped": 1,
-            "fetched": 4436,
+            "dropped": 2,
+            "fetched": 4501,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -76,12 +76,12 @@
   "high_water": {
     "nieruchomosci_online": "000026862392",
     "nieruchomosci_online_sale": "000026862244",
-    "olx": "2026-07-29T15:15:48+02:00",
-    "olx_sale": "2026-07-29T15:02:47+02:00",
+    "olx": "2026-07-29T15:30:37+02:00",
+    "olx_sale": "2026-07-29T15:22:06+02:00",
     "trojmiasto": "000066492842",
     "trojmiasto_sale": "000066493557"
   },
-  "last_run": "2026-07-29T13:31:02.893134+00:00",
+  "last_run": "2026-07-29T13:45:40.896795+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -2716,6 +2716,12 @@
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
       "fingerprint": "1790000|82.1|4|górny sopot",
       "id": "nieruchomosci_online_sale:26736285"
+    },
+    "nieruchomosci_online_sale:26737969": {
+      "cena": 605000,
+      "data_wyslania": "2026-07-29T13:45:40.896795+00:00",
+      "fingerprint": "605000|46.03|2|obłuże",
+      "id": "nieruchomosci_online_sale:26737969"
     },
     "nieruchomosci_online_sale:26738194": {
       "cena": 770000,
@@ -5441,6 +5447,12 @@
       "fingerprint": "3100|50|3|przymorze wielkie",
       "id": "olx:1086832430"
     },
+    "olx:1086838306": {
+      "cena": 3300,
+      "data_wyslania": "2026-07-29T13:45:40.896795+00:00",
+      "fingerprint": "3300|48|2|zaspa młyniec",
+      "id": "olx:1086838306"
+    },
     "olx:1086866726": {
       "cena": 6200,
       "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
@@ -7972,6 +7984,12 @@
       "data_wyslania": "2026-07-29T13:31:02.893134+00:00",
       "fingerprint": "2400|27|1|brzeźno",
       "id": "olx:1088174251"
+    },
+    "olx:1088177186": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-29T13:45:40.896795+00:00",
+      "fingerprint": "2500|52|2|przymorze wielkie",
+      "id": "olx:1088177186"
     },
     "olx:777472320": {
       "cena": 3500,
@@ -10685,6 +10703,12 @@
       "fingerprint": "610000|40.71|2|orunia - św. wojciech - lipce",
       "id": "olx_sale:1088171926"
     },
+    "olx_sale:1088175458": {
+      "cena": 489000,
+      "data_wyslania": "2026-07-29T13:45:40.896795+00:00",
+      "fingerprint": "489000|27|1|",
+      "id": "olx_sale:1088175458"
+    },
     "olx_sale:857316110": {
       "cena": 715000,
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
@@ -11880,9 +11904,9 @@
       "id": "trojmiasto_sale:66444309"
     },
     "trojmiasto_sale:66445208": {
-      "cena": 620000,
-      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
-      "fingerprint": "620000|46.03|2|obłuże",
+      "cena": 605000,
+      "data_wyslania": "2026-07-29T13:45:40.896795+00:00",
+      "fingerprint": "605000|46.03|2|obłuże",
       "id": "trojmiasto_sale:66445208"
     },
     "trojmiasto_sale:66446496": {
