@@ -51,37 +51,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 2214,
+            "fetched": 2337,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 1836,
+            "fetched": 1938,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 0,
-            "fetched": 2723,
+            "fetched": 2875,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 1,
-            "fetched": 2543,
+            "fetched": 2683,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 1080,
+            "fetched": 1140,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 1178,
+            "fetched": 1244,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -123,7 +123,7 @@
     "trojmiasto": "000066492842",
     "trojmiasto_sale": "000066493386"
   },
-  "last_run": "2026-07-29T02:01:06.937908+00:00",
+  "last_run": "2026-07-29T02:15:43.340026+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -136,6 +136,24 @@
       "data_wyslania": "2026-07-25T09:45:42.497013+00:00",
       "fingerprint": "2800|53|2|dolny sopot",
       "id": "nieruchomosci_online:21205236"
+    },
+    "nieruchomosci_online:21205237": {
+      "cena": 3100,
+      "data_wyslania": "2026-07-29T02:15:43.340026+00:00",
+      "fingerprint": "3100|49|2|dolny sopot",
+      "id": "nieruchomosci_online:21205237"
+    },
+    "nieruchomosci_online:21205238": {
+      "cena": 2800,
+      "data_wyslania": "2026-07-29T02:15:43.340026+00:00",
+      "fingerprint": "2800|32|2|dolny sopot",
+      "id": "nieruchomosci_online:21205238"
+    },
+    "nieruchomosci_online:21914213": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-29T02:15:43.340026+00:00",
+      "fingerprint": "3000|55|2|dolny sopot",
+      "id": "nieruchomosci_online:21914213"
     },
     "nieruchomosci_online:24756336": {
       "cena": 4500,
@@ -238,6 +256,12 @@
       "data_wyslania": "2026-07-25T09:45:42.497013+00:00",
       "fingerprint": "8000|120|2|oliwa",
       "id": "nieruchomosci_online:26172283"
+    },
+    "nieruchomosci_online:26237014": {
+      "cena": 2400,
+      "data_wyslania": "2026-07-29T02:15:43.340026+00:00",
+      "fingerprint": "2400|38|2|górny sopot",
+      "id": "nieruchomosci_online:26237014"
     },
     "nieruchomosci_online:26243588": {
       "cena": 2950,
@@ -496,6 +520,12 @@
       "data_wyslania": "2026-07-25T09:45:42.497013+00:00",
       "fingerprint": "2700|30|2|dolny sopot",
       "id": "nieruchomosci_online:26749912"
+    },
+    "nieruchomosci_online:26749913": {
+      "cena": 3200,
+      "data_wyslania": "2026-07-29T02:15:43.340026+00:00",
+      "fingerprint": "3200|40|3|dolny sopot",
+      "id": "nieruchomosci_online:26749913"
     },
     "nieruchomosci_online:26752996": {
       "cena": 2500,
