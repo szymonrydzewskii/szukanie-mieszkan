@@ -9,37 +9,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 8,
-            "fetched": 9026,
+            "fetched": 9148,
             "sent_main": 1,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 7269,
+            "fetched": 7370,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 41,
-            "fetched": 11283,
+            "fetched": 11438,
             "sent_main": 1,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 30,
-            "fetched": 10574,
+            "fetched": 10715,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 4240,
+            "fetched": 4295,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 4739,
+            "fetched": 4803,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -81,7 +81,7 @@
     "trojmiasto": "000066494307",
     "trojmiasto_sale": "000066494793"
   },
-  "last_run": "2026-07-30T15:01:08.709125+00:00",
+  "last_run": "2026-07-30T15:15:50.545165+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -4475,6 +4475,12 @@
       "fingerprint": "3800|54.67|2|",
       "id": "olx:1076505952"
     },
+    "olx:1076524400": {
+      "cena": 2200,
+      "data_wyslania": "2026-07-30T15:15:50.545165+00:00",
+      "fingerprint": "2200|28|1|przymorze wielkie",
+      "id": "olx:1076524400"
+    },
     "olx:1076625297": {
       "cena": 1800,
       "data_wyslania": "2026-07-25T11:01:07.168174+00:00",
@@ -5272,6 +5278,12 @@
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
       "fingerprint": "2650|53|2|chwarzno-wiczlino",
       "id": "olx:1084509072"
+    },
+    "olx:1084509322": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-30T15:15:50.545165+00:00",
+      "fingerprint": "3000|38|2|przymorze małe",
+      "id": "olx:1084509322"
     },
     "olx:1084520012": {
       "cena": 6000,
