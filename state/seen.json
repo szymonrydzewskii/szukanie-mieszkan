@@ -9,39 +9,39 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 9,
-            "fetched": 11456,
+            "fetched": 11578,
             "sent_main": 1,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 9289,
+            "fetched": 9390,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 54,
-            "fetched": 14304,
-            "sent_main": 1,
+            "dropped": 55,
+            "fetched": 14456,
+            "sent_main": 2,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 36,
-            "fetched": 13411,
+            "fetched": 13554,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 5332,
+            "fetched": 5386,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 6042,
+            "fetched": 6109,
             "sent_main": 0,
-            "sent_near": 0
+            "sent_near": 1
           }
         }
       }
@@ -76,12 +76,12 @@
   "high_water": {
     "nieruchomosci_online": "000026865721",
     "nieruchomosci_online_sale": "000026865845",
-    "olx": "2026-07-30T20:41:35+02:00",
+    "olx": "2026-07-30T21:28:25+02:00",
     "olx_sale": "2026-07-30T19:25:32+02:00",
     "trojmiasto": "000066494307",
     "trojmiasto_sale": "000066495118"
   },
-  "last_run": "2026-07-30T19:31:02.854728+00:00",
+  "last_run": "2026-07-30T19:45:06.623237+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -4661,6 +4661,12 @@
       "fingerprint": "3450|76|3|piecki-migowo",
       "id": "olx:1079160997"
     },
+    "olx:1079247923": {
+      "cena": 2800,
+      "data_wyslania": "2026-07-30T19:45:06.623237+00:00",
+      "fingerprint": "2800|51|2|jasień",
+      "id": "olx:1079247923"
+    },
     "olx:1079258970": {
       "cena": 2400,
       "data_wyslania": "2026-07-29T16:36:31.884332+00:00",
@@ -9076,6 +9082,18 @@
       "data_wyslania": "2026-07-30T19:01:18.639072+00:00",
       "fingerprint": "2700|32|2|żabianka - wejhera - jelitkowo - tysiąclecia",
       "id": "olx:1088445652"
+    },
+    "olx:1088453359": {
+      "cena": 1700,
+      "data_wyslania": "2026-07-30T19:45:06.623237+00:00",
+      "fingerprint": "1700|48|2|śródmieście",
+      "id": "olx:1088453359"
+    },
+    "olx:1088454272": {
+      "cena": 3200,
+      "data_wyslania": "2026-07-30T19:45:06.623237+00:00",
+      "fingerprint": "3200|40|2|letnica",
+      "id": "olx:1088454272"
     },
     "olx:617323965": {
       "cena": 2500,
@@ -13800,9 +13818,9 @@
       "id": "trojmiasto_sale:66475248"
     },
     "trojmiasto_sale:66476125": {
-      "cena": 659000,
-      "data_wyslania": "2026-07-30T17:01:09.992639+00:00",
-      "fingerprint": "659000|40|3|brzeźno",
+      "cena": 639000,
+      "data_wyslania": "2026-07-30T19:45:06.623237+00:00",
+      "fingerprint": "639000|40|3|brzeźno",
       "id": "trojmiasto_sale:66476125"
     },
     "trojmiasto_sale:66477205": {
