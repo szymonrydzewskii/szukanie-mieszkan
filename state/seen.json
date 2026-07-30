@@ -54,37 +54,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 976,
+            "fetched": 1098,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 800,
+            "fetched": 900,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 1,
-            "fetched": 1207,
+            "fetched": 1358,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 1,
-            "fetched": 991,
+            "fetched": 1132,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 448,
+            "fetched": 508,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 533,
+            "fetched": 601,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -119,14 +119,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026865721",
+    "nieruchomosci_online": "000026866168",
     "nieruchomosci_online_sale": "000026865845",
     "olx": "2026-07-31T00:41:36+02:00",
     "olx_sale": "2026-07-31T00:50:28+02:00",
     "trojmiasto": "000066495219",
     "trojmiasto_sale": "000066495118"
   },
-  "last_run": "2026-07-30T23:30:55.406164+00:00",
+  "last_run": "2026-07-30T23:45:40.810393+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -1555,6 +1555,12 @@
       "data_wyslania": "2026-07-30T16:01:06.020043+00:00",
       "fingerprint": "2500|37.2|2|orunia",
       "id": "nieruchomosci_online:26865721"
+    },
+    "nieruchomosci_online:26866168": {
+      "cena": 2800,
+      "data_wyslania": "2026-07-30T23:45:40.810393+00:00",
+      "fingerprint": "2800|40.19|2|dąbrowa",
+      "id": "nieruchomosci_online:26866168"
     },
     "nieruchomosci_online_sale:24789504": {
       "cena": 1998000,
@@ -13196,6 +13202,12 @@
       "fingerprint": "3000|53.7|2|oliwa",
       "id": "trojmiasto:66494307"
     },
+    "trojmiasto:66495109": {
+      "cena": 2199,
+      "data_wyslania": "2026-07-30T23:45:40.810393+00:00",
+      "fingerprint": "2199|26|1|łostowice",
+      "id": "trojmiasto:66495109"
+    },
     "trojmiasto:66495149": {
       "cena": 4199,
       "data_wyslania": "2026-07-30T23:29:11.002026+00:00",
@@ -14395,6 +14407,12 @@
       "data_wyslania": "2026-07-30T12:31:06.864297+00:00",
       "fingerprint": "734660|67.4|4|rotmanka",
       "id": "trojmiasto_sale:66494793"
+    },
+    "trojmiasto_sale:66495110": {
+      "cena": 1299900,
+      "data_wyslania": "2026-07-30T23:45:40.810393+00:00",
+      "fingerprint": "1299900|116.6|5|trąbki wielkie",
+      "id": "trojmiasto_sale:66495110"
     },
     "trojmiasto_sale:66495118": {
       "cena": 498000,
