@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 7,
-            "fetched": 7563,
+            "fetched": 7685,
             "sent_main": 1,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 5969,
+            "fetched": 6068,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 26,
-            "fetched": 9316,
+            "dropped": 28,
+            "fetched": 9466,
             "sent_main": 0,
             "sent_near": 1
           },
           "olx_sale": {
-            "dropped": 16,
-            "fetched": 8735,
+            "dropped": 19,
+            "fetched": 8876,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 3529,
+            "fetched": 3583,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 3905,
+            "fetched": 3968,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -72,14 +72,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026864568",
+    "nieruchomosci_online": "000026864960",
     "nieruchomosci_online_sale": "000026862244",
-    "olx": "2026-07-30T13:09:16+02:00",
-    "olx_sale": "2026-07-30T13:42:27+02:00",
+    "olx": "2026-07-30T13:53:16+02:00",
+    "olx_sale": "2026-07-30T14:01:28+02:00",
     "trojmiasto": "000066494307",
     "trojmiasto_sale": "000066494726"
   },
-  "last_run": "2026-07-30T12:01:08.211993+00:00",
+  "last_run": "2026-07-30T12:15:46.106079+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -1478,6 +1478,12 @@
       "data_wyslania": "2026-07-30T10:45:45.069342+00:00",
       "fingerprint": "2500|42.2|2|żabianka",
       "id": "nieruchomosci_online:26864568"
+    },
+    "nieruchomosci_online:26864960": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-30T12:15:46.106079+00:00",
+      "fingerprint": "2500|28|1|piecki-migowo",
+      "id": "nieruchomosci_online:26864960"
     },
     "nieruchomosci_online_sale:24789504": {
       "cena": 1998000,
@@ -8739,6 +8745,18 @@
       "fingerprint": "2250|26|1|centrum",
       "id": "olx:1088347970"
     },
+    "olx:1088357722": {
+      "cena": 1950,
+      "data_wyslania": "2026-07-30T12:15:46.106079+00:00",
+      "fingerprint": "1950|20|1|wrzeszcz",
+      "id": "olx:1088357722"
+    },
+    "olx:1088357845": {
+      "cena": 3600,
+      "data_wyslania": "2026-07-30T12:15:46.106079+00:00",
+      "fingerprint": "3600|42|2|śródmieście",
+      "id": "olx:1088357845"
+    },
     "olx:617323965": {
       "cena": 2500,
       "data_wyslania": "2026-07-30T10:15:42.716194+00:00",
@@ -11787,6 +11805,24 @@
       "fingerprint": "600740|30.65|1|",
       "id": "olx_sale:1088355480"
     },
+    "olx_sale:1088360116": {
+      "cena": 815958,
+      "data_wyslania": "2026-07-30T12:15:46.106079+00:00",
+      "fingerprint": "815958|69.74|3|",
+      "id": "olx_sale:1088360116"
+    },
+    "olx_sale:1088360118": {
+      "cena": 737715,
+      "data_wyslania": "2026-07-30T12:15:46.106079+00:00",
+      "fingerprint": "737715|57.86|3|",
+      "id": "olx_sale:1088360118"
+    },
+    "olx_sale:1088360124": {
+      "cena": 795036,
+      "data_wyslania": "2026-07-30T12:15:46.106079+00:00",
+      "fingerprint": "795036|69.74|3|",
+      "id": "olx_sale:1088360124"
+    },
     "olx_sale:857316110": {
       "cena": 715000,
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
@@ -11804,6 +11840,12 @@
       "data_wyslania": "2026-07-30T07:30:58.021623+00:00",
       "fingerprint": "779000|46|3|",
       "id": "olx_sale:981577335"
+    },
+    "olx_sale:982451810": {
+      "cena": 364139,
+      "data_wyslania": "2026-07-30T12:15:46.106079+00:00",
+      "fingerprint": "364139|26.85|1|",
+      "id": "olx_sale:982451810"
     },
     "olx_sale:987670644": {
       "cena": 900000,
