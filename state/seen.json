@@ -46,6 +46,47 @@
             "sent_near": 1
           }
         }
+      },
+      "2026-07-31": {
+        "errors": [],
+        "sources": {
+          "nieruchomosci_online": {
+            "dropped": 0,
+            "fetched": 122,
+            "sent_main": 0,
+            "sent_near": 0
+          },
+          "nieruchomosci_online_sale": {
+            "dropped": 0,
+            "fetched": 100,
+            "sent_main": 0,
+            "sent_near": 0
+          },
+          "olx": {
+            "dropped": 0,
+            "fetched": 150,
+            "sent_main": 0,
+            "sent_near": 0
+          },
+          "olx_sale": {
+            "dropped": 0,
+            "fetched": 140,
+            "sent_main": 0,
+            "sent_near": 0
+          },
+          "trojmiasto": {
+            "dropped": 0,
+            "fetched": 55,
+            "sent_main": 0,
+            "sent_near": 0
+          },
+          "trojmiasto_sale": {
+            "dropped": 0,
+            "fetched": 66,
+            "sent_main": 0,
+            "sent_near": 0
+          }
+        }
       }
     }
   },
@@ -83,7 +124,7 @@
     "trojmiasto": "000066495219",
     "trojmiasto_sale": "000066495118"
   },
-  "last_run": "2026-07-30T21:45:56.735232+00:00",
+  "last_run": "2026-07-30T22:06:23.869750+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -2461,6 +2502,12 @@
       "fingerprint": "1195000|85.8|3|wrzeszcz",
       "id": "nieruchomosci_online_sale:26615294"
     },
+    "nieruchomosci_online_sale:26615670": {
+      "cena": 777777,
+      "data_wyslania": "2026-07-30T22:06:23.869750+00:00",
+      "fingerprint": "777777|73.17|4|karwiny",
+      "id": "nieruchomosci_online_sale:26615670"
+    },
     "nieruchomosci_online_sale:26620201": {
       "cena": 1990000,
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
@@ -2814,6 +2861,12 @@
       "data_wyslania": "2026-07-27T08:40:46.839667+00:00",
       "fingerprint": "939000|62|4|zaspa",
       "id": "nieruchomosci_online_sale:26703934"
+    },
+    "nieruchomosci_online_sale:26704573": {
+      "cena": 666666,
+      "data_wyslania": "2026-07-30T22:06:23.869750+00:00",
+      "fingerprint": "666666|63.51|3|karwiny",
+      "id": "nieruchomosci_online_sale:26704573"
     },
     "nieruchomosci_online_sale:26705824": {
       "cena": 765000,
