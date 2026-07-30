@@ -3,7 +3,9 @@
   "digest": {
     "days": {
       "2026-07-30": {
-        "errors": [],
+        "errors": [
+          "nieruchomosci_online: Nieruchomosci-online: HTTP 503 (pierwsze 300 znaków: '<html><body><h1>503 Service Unavailable</h1>\\nNo server is availab"
+        ],
         "sources": {
           "nieruchomosci_online": {
             "dropped": 7,
@@ -13,31 +15,31 @@
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 6267,
+            "fetched": 6367,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 31,
-            "fetched": 9772,
-            "sent_main": 0,
+            "dropped": 32,
+            "fetched": 9923,
+            "sent_main": 1,
             "sent_near": 1
           },
           "olx_sale": {
-            "dropped": 24,
-            "fetched": 9158,
+            "dropped": 27,
+            "fetched": 9298,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 3691,
+            "fetched": 3745,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 4097,
+            "fetched": 4161,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -47,8 +49,8 @@
   },
   "health": {
     "nieruchomosci_online": {
-      "bad": 0,
-      "last_error": null
+      "bad": 1,
+      "last_error": "Nieruchomosci-online: HTTP 503 (pierwsze 300 znaków: '<html><body><h1>503 Service Unavailable</h1>\\nNo server is available to handle this request.\\n</body></html>\\n')"
     },
     "nieruchomosci_online_sale": {
       "bad": 0,
@@ -74,12 +76,12 @@
   "high_water": {
     "nieruchomosci_online": "000026864960",
     "nieruchomosci_online_sale": "000026862244",
-    "olx": "2026-07-30T14:26:18+02:00",
-    "olx_sale": "2026-07-30T14:38:41+02:00",
+    "olx": "2026-07-30T14:45:10+02:00",
+    "olx_sale": "2026-07-30T14:56:21+02:00",
     "trojmiasto": "000066494307",
     "trojmiasto_sale": "000066494793"
   },
-  "last_run": "2026-07-30T12:45:46.488897+00:00",
+  "last_run": "2026-07-30T13:01:05.567669+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -8781,6 +8783,18 @@
       "fingerprint": "2600|27|1|przymorze wielkie",
       "id": "olx:1088366007"
     },
+    "olx:1088369513": {
+      "cena": 3500,
+      "data_wyslania": "2026-07-30T13:01:05.567669+00:00",
+      "fingerprint": "3500|56|3|wzgórze świętego maksymiliana",
+      "id": "olx:1088369513"
+    },
+    "olx:1088370500": {
+      "cena": 1700,
+      "data_wyslania": "2026-07-30T13:01:05.567669+00:00",
+      "fingerprint": "1700|48|2|śródmieście",
+      "id": "olx:1088370500"
+    },
     "olx:617323965": {
       "cena": 2500,
       "data_wyslania": "2026-07-30T10:15:42.716194+00:00",
@@ -11859,6 +11873,12 @@
       "fingerprint": "398000|24|2|",
       "id": "olx_sale:1088365409"
     },
+    "olx_sale:1088368874": {
+      "cena": 690000,
+      "data_wyslania": "2026-07-30T13:01:05.567669+00:00",
+      "fingerprint": "690000|38|2|",
+      "id": "olx_sale:1088368874"
+    },
     "olx_sale:1088368898": {
       "cena": 464500,
       "data_wyslania": "2026-07-30T12:45:46.488897+00:00",
@@ -11871,11 +11891,23 @@
       "fingerprint": "457000|36|2|",
       "id": "olx_sale:1088368900"
     },
+    "olx_sale:1088368902": {
+      "cena": 626000,
+      "data_wyslania": "2026-07-30T13:01:05.567669+00:00",
+      "fingerprint": "626000|53|3|",
+      "id": "olx_sale:1088368902"
+    },
     "olx_sale:1088368903": {
       "cena": 598000,
       "data_wyslania": "2026-07-30T12:45:46.488897+00:00",
       "fingerprint": "598000|51|3|",
       "id": "olx_sale:1088368903"
+    },
+    "olx_sale:1088373258": {
+      "cena": 575000,
+      "data_wyslania": "2026-07-30T13:01:05.567669+00:00",
+      "fingerprint": "575000|31|2|oliwa",
+      "id": "olx_sale:1088373258"
     },
     "olx_sale:857316110": {
       "cena": 715000,
