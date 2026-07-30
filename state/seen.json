@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 6,
-            "fetched": 6222,
+            "fetched": 6344,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 4875,
+            "fetched": 4976,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 18,
-            "fetched": 7648,
+            "fetched": 7798,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 7,
-            "fetched": 7188,
+            "fetched": 7328,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2932,
+            "fetched": 2987,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 3216,
+            "fetched": 3277,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -74,12 +74,12 @@
   "high_water": {
     "nieruchomosci_online": "000026864095",
     "nieruchomosci_online_sale": "000026862244",
-    "olx": "2026-07-30T11:29:16+02:00",
+    "olx": "2026-07-30T11:39:48+02:00",
     "olx_sale": "2026-07-30T09:41:14+02:00",
     "trojmiasto": "000066494307",
     "trojmiasto_sale": "000066493905"
   },
-  "last_run": "2026-07-30T09:45:46.964805+00:00",
+  "last_run": "2026-07-30T09:55:36.364874+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -8649,6 +8649,12 @@
       "fingerprint": "3200|50|3|wrzeszcz",
       "id": "olx:1088325141"
     },
+    "olx:1088327593": {
+      "cena": 2900,
+      "data_wyslania": "2026-07-30T09:55:36.364874+00:00",
+      "fingerprint": "2900|35|2|śródmieście",
+      "id": "olx:1088327593"
+    },
     "olx:777472320": {
       "cena": 3500,
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
@@ -8912,6 +8918,12 @@
       "data_wyslania": "2026-07-28T09:31:07.033307+00:00",
       "fingerprint": "890000|54.1|2|kamienna góra",
       "id": "olx_sale:1049211248"
+    },
+    "olx_sale:1049701843": {
+      "cena": 560000,
+      "data_wyslania": "2026-07-30T09:55:36.364874+00:00",
+      "fingerprint": "560000|32.8|1|strzyża",
+      "id": "olx_sale:1049701843"
     },
     "olx_sale:1049868388": {
       "cena": 919000,
