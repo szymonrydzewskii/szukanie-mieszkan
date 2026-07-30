@@ -4,18 +4,20 @@
     "days": {
       "2026-07-30": {
         "errors": [
-          "nieruchomosci_online: Nieruchomosci-online: HTTP 503 (pierwsze 300 znaków: '<html><body><h1>503 Service Unavailable</h1>\\nNo server is availab"
+          "nieruchomosci_online: Nieruchomosci-online: HTTP 503 (pierwsze 300 znaków: '<html><body><h1>503 Service Unavailable</h1>\\nNo server is availab",
+          "olx: OLX: HTTP 202 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (p",
+          "olx_sale: OLX: HTTP 202 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (p"
         ],
         "sources": {
           "nieruchomosci_online": {
             "dropped": 9,
-            "fetched": 12432,
+            "fetched": 12554,
             "sent_main": 1,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 10093,
+            "fetched": 10193,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -33,13 +35,13 @@
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 5768,
+            "fetched": 5823,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 6574,
+            "fetched": 6641,
             "sent_main": 0,
             "sent_near": 1
           }
@@ -57,12 +59,12 @@
       "last_error": null
     },
     "olx": {
-      "bad": 0,
-      "last_error": null
+      "bad": 1,
+      "last_error": "OLX: HTTP 202 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '')"
     },
     "olx_sale": {
-      "bad": 0,
-      "last_error": null
+      "bad": 1,
+      "last_error": "OLX: HTTP 202 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '')"
     },
     "trojmiasto": {
       "bad": 0,
@@ -81,7 +83,7 @@
     "trojmiasto": "000066495219",
     "trojmiasto_sale": "000066495118"
   },
-  "last_run": "2026-07-30T21:15:42.805329+00:00",
+  "last_run": "2026-07-30T21:30:59.595423+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
