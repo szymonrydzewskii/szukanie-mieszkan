@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 4,
-            "fetched": 5002,
+            "fetched": 5124,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 3895,
+            "fetched": 3990,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 9,
-            "fetched": 6148,
+            "fetched": 6299,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
-            "dropped": 4,
-            "fetched": 5778,
+            "dropped": 5,
+            "fetched": 5917,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2378,
+            "fetched": 2436,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 2592,
+            "fetched": 2654,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -75,11 +75,11 @@
     "nieruchomosci_online": "000026863957",
     "nieruchomosci_online_sale": "000026862244",
     "olx": "2026-07-30T08:56:14+02:00",
-    "olx_sale": "2026-07-30T07:36:45+02:00",
+    "olx_sale": "2026-07-30T09:11:38+02:00",
     "trojmiasto": "000066494307",
     "trojmiasto_sale": "000066493905"
   },
-  "last_run": "2026-07-30T07:15:45.658261+00:00",
+  "last_run": "2026-07-30T07:30:58.021623+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -5259,6 +5259,12 @@
       "fingerprint": "3000|45|2|przymorze wielkie",
       "id": "olx:1085940894"
     },
+    "olx:1085977357": {
+      "cena": 2600,
+      "data_wyslania": "2026-07-30T07:30:58.021623+00:00",
+      "fingerprint": "2600|27|1|wrzeszcz",
+      "id": "olx:1085977357"
+    },
     "olx:1085984823": {
       "cena": 3100,
       "data_wyslania": "2026-07-28T07:01:13.680566+00:00",
@@ -8913,6 +8919,12 @@
       "fingerprint": "599000|53|3|obłuże",
       "id": "olx_sale:1061990465"
     },
+    "olx_sale:1063195220": {
+      "cena": 559000,
+      "data_wyslania": "2026-07-30T07:30:58.021623+00:00",
+      "fingerprint": "559000|59.64|2|działki leśne",
+      "id": "olx_sale:1063195220"
+    },
     "olx_sale:1063196064": {
       "cena": 743647,
       "data_wyslania": "2026-07-26T08:01:05.304060+00:00",
@@ -11247,6 +11259,12 @@
       "fingerprint": "889000|39.2|2|",
       "id": "olx_sale:1088285495"
     },
+    "olx_sale:1088296328": {
+      "cena": 989000,
+      "data_wyslania": "2026-07-30T07:30:58.021623+00:00",
+      "fingerprint": "989000|70.35|3|wielki kack",
+      "id": "olx_sale:1088296328"
+    },
     "olx_sale:857316110": {
       "cena": 715000,
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
@@ -11258,6 +11276,12 @@
       "data_wyslania": "2026-07-28T12:01:07.376025+00:00",
       "fingerprint": "1350000|61|3|śródmieście",
       "id": "olx_sale:945345130"
+    },
+    "olx_sale:981577335": {
+      "cena": 779000,
+      "data_wyslania": "2026-07-30T07:30:58.021623+00:00",
+      "fingerprint": "779000|46|3|",
+      "id": "olx_sale:981577335"
     },
     "olx_sale:987670644": {
       "cena": 900000,
