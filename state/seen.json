@@ -54,37 +54,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 610,
+            "fetched": 732,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 500,
+            "fetched": 600,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 1,
-            "fetched": 751,
+            "fetched": 903,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
-            "dropped": 0,
-            "fetched": 565,
+            "dropped": 1,
+            "fetched": 706,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 275,
+            "fetched": 330,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 333,
+            "fetched": 400,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -122,11 +122,11 @@
     "nieruchomosci_online": "000026865721",
     "nieruchomosci_online_sale": "000026865845",
     "olx": "2026-07-31T00:41:36+02:00",
-    "olx_sale": "2026-07-30T19:25:32+02:00",
+    "olx_sale": "2026-07-31T00:50:28+02:00",
     "trojmiasto": "000066495219",
     "trojmiasto_sale": "000066495118"
   },
-  "last_run": "2026-07-30T23:01:13.848381+00:00",
+  "last_run": "2026-07-30T23:15:41.049222+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -12445,6 +12445,12 @@
       "data_wyslania": "2026-07-30T17:31:00.608307+00:00",
       "fingerprint": "498000|36.3|2|chwarzno-wiczlino",
       "id": "olx_sale:1088430361"
+    },
+    "olx_sale:1088480276": {
+      "cena": 500000,
+      "data_wyslania": "2026-07-30T23:15:41.049222+00:00",
+      "fingerprint": "500000|32.9|1|śródmieście",
+      "id": "olx_sale:1088480276"
     },
     "olx_sale:857316110": {
       "cena": 715000,
