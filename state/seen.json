@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 6,
-            "fetched": 5856,
+            "fetched": 5978,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 4572,
+            "fetched": 4673,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 11,
-            "fetched": 7195,
+            "dropped": 14,
+            "fetched": 7346,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 7,
-            "fetched": 6764,
+            "fetched": 6907,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2767,
+            "fetched": 2822,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 3028,
+            "fetched": 3091,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -74,12 +74,12 @@
   "high_water": {
     "nieruchomosci_online": "000026864095",
     "nieruchomosci_online_sale": "000026862244",
-    "olx": "2026-07-30T10:35:38+02:00",
+    "olx": "2026-07-30T10:57:47+02:00",
     "olx_sale": "2026-07-30T09:41:14+02:00",
     "trojmiasto": "000066494307",
     "trojmiasto_sale": "000066493905"
   },
-  "last_run": "2026-07-30T09:01:09.907649+00:00",
+  "last_run": "2026-07-30T09:15:50.877068+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -8600,6 +8600,24 @@
       "data_wyslania": "2026-07-30T08:45:44.945644+00:00",
       "fingerprint": "2800|35|1|śródmieście",
       "id": "olx:1088312467"
+    },
+    "olx:1088317058": {
+      "cena": 3200,
+      "data_wyslania": "2026-07-30T09:15:50.877068+00:00",
+      "fingerprint": "3200|42|2|wrzeszcz",
+      "id": "olx:1088317058"
+    },
+    "olx:1088317543": {
+      "cena": 2800,
+      "data_wyslania": "2026-07-30T09:15:50.877068+00:00",
+      "fingerprint": "2800|48|2|wrzeszcz",
+      "id": "olx:1088317543"
+    },
+    "olx:1088317968": {
+      "cena": 2800,
+      "data_wyslania": "2026-07-30T09:15:50.877068+00:00",
+      "fingerprint": "2800|45.18|2|śródmieście",
+      "id": "olx:1088317968"
     },
     "olx:777472320": {
       "cena": 3500,
