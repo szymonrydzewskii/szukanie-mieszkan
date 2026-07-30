@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 6,
-            "fetched": 6344,
+            "fetched": 6466,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 4976,
+            "fetched": 5077,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 18,
-            "fetched": 7798,
+            "fetched": 7950,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 7,
-            "fetched": 7328,
+            "fetched": 7467,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2987,
+            "fetched": 3042,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 3277,
+            "fetched": 3339,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -79,7 +79,7 @@
     "trojmiasto": "000066494307",
     "trojmiasto_sale": "000066493905"
   },
-  "last_run": "2026-07-30T09:55:36.364874+00:00",
+  "last_run": "2026-07-30T10:01:13.122874+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -8703,6 +8703,12 @@
       "fingerprint": "4000|34|2|aniołki",
       "id": "olx:944074251"
     },
+    "olx:960020012": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-30T10:01:13.122874+00:00",
+      "fingerprint": "2500|16|1|przymorze wielkie",
+      "id": "olx:960020012"
+    },
     "olx:969886982": {
       "cena": 3500,
       "data_wyslania": "2026-07-24T20:05:29.070584+00:00",
@@ -10100,6 +10106,12 @@
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
       "fingerprint": "685000|41|2|",
       "id": "olx_sale:1084338375"
+    },
+    "olx_sale:1084447985": {
+      "cena": 970000,
+      "data_wyslania": "2026-07-30T10:01:13.122874+00:00",
+      "fingerprint": "970000|38.27|2|śródmieście",
+      "id": "olx_sale:1084447985"
     },
     "olx_sale:1084657592": {
       "cena": 595000,
