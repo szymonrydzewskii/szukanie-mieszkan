@@ -52,37 +52,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 122,
+            "fetched": 244,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 100,
+            "fetched": 200,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 0,
-            "fetched": 150,
+            "fetched": 302,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 0,
-            "fetched": 140,
+            "fetched": 283,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 55,
+            "fetched": 110,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 66,
+            "fetched": 133,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -124,7 +124,7 @@
     "trojmiasto": "000066495219",
     "trojmiasto_sale": "000066495118"
   },
-  "last_run": "2026-07-30T22:06:23.869750+00:00",
+  "last_run": "2026-07-30T22:15:09.502446+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -3341,6 +3341,12 @@
       "data_wyslania": "2026-07-27T07:15:44.649109+00:00",
       "fingerprint": "785000|57.6|3|chełm",
       "id": "nieruchomosci_online_sale:26780813"
+    },
+    "nieruchomosci_online_sale:26781091": {
+      "cena": 949000,
+      "data_wyslania": "2026-07-30T22:15:09.502446+00:00",
+      "fingerprint": "949000|49.8|2|zaspa",
+      "id": "nieruchomosci_online_sale:26781091"
     },
     "nieruchomosci_online_sale:26783196": {
       "cena": 499000,
@@ -9851,6 +9857,12 @@
       "data_wyslania": "2026-07-30T05:45:44.806512+00:00",
       "fingerprint": "549000|39.45|2|śródmieście",
       "id": "olx_sale:1065186769"
+    },
+    "olx_sale:1065273236": {
+      "cena": 1199000,
+      "data_wyslania": "2026-07-30T22:15:09.502446+00:00",
+      "fingerprint": "1199000|113.3|4|",
+      "id": "olx_sale:1065273236"
     },
     "olx_sale:1065379259": {
       "cena": 450000,
