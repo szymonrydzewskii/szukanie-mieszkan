@@ -9,37 +9,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 8,
-            "fetched": 9392,
+            "fetched": 9514,
             "sent_main": 1,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 7572,
+            "fetched": 7673,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 41,
-            "fetched": 11740,
+            "fetched": 11892,
             "sent_main": 1,
             "sent_near": 2
           },
           "olx_sale": {
-            "dropped": 30,
-            "fetched": 10996,
+            "dropped": 32,
+            "fetched": 11137,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 4405,
+            "fetched": 4460,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 4933,
+            "fetched": 4997,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -74,14 +74,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026865389",
+    "nieruchomosci_online": "000026865721",
     "nieruchomosci_online_sale": "000026865027",
     "olx": "2026-07-30T16:46:56+02:00",
-    "olx_sale": "2026-07-30T16:19:31+02:00",
+    "olx_sale": "2026-07-30T17:43:50+02:00",
     "trojmiasto": "000066494307",
     "trojmiasto_sale": "000066494793"
   },
-  "last_run": "2026-07-30T15:45:45.267661+00:00",
+  "last_run": "2026-07-30T16:01:06.020043+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -1504,6 +1504,12 @@
       "data_wyslania": "2026-07-30T14:01:09.309221+00:00",
       "fingerprint": "2700|63|3|pogórze",
       "id": "nieruchomosci_online:26865389"
+    },
+    "nieruchomosci_online:26865721": {
+      "cena": 2500,
+      "data_wyslania": "2026-07-30T16:01:06.020043+00:00",
+      "fingerprint": "2500|37.2|2|orunia",
+      "id": "nieruchomosci_online:26865721"
     },
     "nieruchomosci_online_sale:24789504": {
       "cena": 1998000,
@@ -8555,6 +8561,12 @@
       "fingerprint": "2700|48|2|zaspa młyniec",
       "id": "olx:1088198301"
     },
+    "olx:1088204040": {
+      "cena": 2300,
+      "data_wyslania": "2026-07-30T16:01:06.020043+00:00",
+      "fingerprint": "2300|31|1|śródmieście",
+      "id": "olx:1088204040"
+    },
     "olx:1088204131": {
       "cena": 2700,
       "data_wyslania": "2026-07-29T16:01:16.026279+00:00",
@@ -10294,6 +10306,12 @@
       "data_wyslania": "2026-07-25T11:45:41.338636+00:00",
       "fingerprint": "440000|37.6|2|witomino-radiostacja",
       "id": "olx_sale:1082463983"
+    },
+    "olx_sale:1082465629": {
+      "cena": 606510,
+      "data_wyslania": "2026-07-30T16:01:06.020043+00:00",
+      "fingerprint": "606510|52.74|3|",
+      "id": "olx_sale:1082465629"
     },
     "olx_sale:1082507729": {
       "cena": 416967,
@@ -12118,6 +12136,18 @@
       "data_wyslania": "2026-07-30T14:45:46.427575+00:00",
       "fingerprint": "760000|60.01|3|",
       "id": "olx_sale:1088395627"
+    },
+    "olx_sale:1088410191": {
+      "cena": 1500261,
+      "data_wyslania": "2026-07-30T16:01:06.020043+00:00",
+      "fingerprint": "1500261|89.83|4|piecki-migowo",
+      "id": "olx_sale:1088410191"
+    },
+    "olx_sale:1088410326": {
+      "cena": 1310672,
+      "data_wyslania": "2026-07-30T16:01:06.020043+00:00",
+      "fingerprint": "1310672|74.47|3|",
+      "id": "olx_sale:1088410326"
     },
     "olx_sale:857316110": {
       "cena": 715000,
