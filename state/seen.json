@@ -11,37 +11,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 11306,
+            "fetched": 11426,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 9155,
+            "fetched": 9252,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 51,
-            "fetched": 13973,
+            "fetched": 14124,
             "sent_main": 4,
             "sent_near": 5
           },
           "olx_sale": {
             "dropped": 39,
-            "fetched": 12816,
+            "fetched": 12958,
             "sent_main": 3,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 8,
-            "fetched": 5353,
+            "fetched": 5411,
             "sent_main": 1,
             "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 6043,
+            "fetched": 6110,
             "sent_main": 1,
             "sent_near": 1
           }
@@ -83,7 +83,7 @@
     "trojmiasto": "000066495839",
     "trojmiasto_sale": "000066495668"
   },
-  "last_run": "2026-07-31T19:15:48.183975+00:00",
+  "last_run": "2026-07-31T19:31:04.543907+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -1980,6 +1980,12 @@
       "data_wyslania": "2026-07-27T16:45:46.554703+00:00",
       "fingerprint": "719000|55.55|3|oliwa",
       "id": "nieruchomosci_online_sale:26330048"
+    },
+    "nieruchomosci_online_sale:26333451": {
+      "cena": 785000,
+      "data_wyslania": "2026-07-31T19:31:04.543907+00:00",
+      "fingerprint": "785000|57.5|3|osowa",
+      "id": "nieruchomosci_online_sale:26333451"
     },
     "nieruchomosci_online_sale:26338203": {
       "cena": 2160000,
@@ -5406,6 +5412,12 @@
       "data_wyslania": "2026-07-25T16:01:04.869636+00:00",
       "fingerprint": "3450|42|2|śródmieście",
       "id": "olx:1083182157"
+    },
+    "olx:1083201642": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-31T19:31:04.543907+00:00",
+      "fingerprint": "3000|53|3|żabianka - wejhera - jelitkowo - tysiąclecia",
+      "id": "olx:1083201642"
     },
     "olx:1083305057": {
       "cena": 2590,
