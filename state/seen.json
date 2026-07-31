@@ -11,37 +11,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 8529,
+            "fetched": 8651,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 6902,
+            "fetched": 6999,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 39,
-            "fetched": 10474,
+            "dropped": 40,
+            "fetched": 10627,
             "sent_main": 3,
             "sent_near": 4
           },
           "olx_sale": {
             "dropped": 24,
-            "fetched": 9523,
-            "sent_main": 1,
+            "fetched": 9665,
+            "sent_main": 3,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 6,
-            "fetched": 4018,
+            "fetched": 4077,
             "sent_main": 1,
             "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 4513,
+            "fetched": 4581,
             "sent_main": 1,
             "sent_near": 1
           }
@@ -78,12 +78,12 @@
   "high_water": {
     "nieruchomosci_online": "000026867995",
     "nieruchomosci_online_sale": "000026865845",
-    "olx": "2026-07-31T16:01:43+02:00",
-    "olx_sale": "2026-07-31T15:44:21+02:00",
+    "olx": "2026-07-31T16:19:50+02:00",
+    "olx_sale": "2026-07-31T16:22:04+02:00",
     "trojmiasto": "000066495808",
     "trojmiasto_sale": "000066495668"
   },
-  "last_run": "2026-07-31T14:15:51.721899+00:00",
+  "last_run": "2026-07-31T14:31:00.476377+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -9913,6 +9913,12 @@
       "fingerprint": "1750|32|1|kamienna góra",
       "id": "olx:1088581181"
     },
+    "olx:1088586414": {
+      "cena": 2950,
+      "data_wyslania": "2026-07-31T14:31:00.476377+00:00",
+      "fingerprint": "2950|53|3|piecki-migowo",
+      "id": "olx:1088586414"
+    },
     "olx:617323965": {
       "cena": 2500,
       "data_wyslania": "2026-07-30T10:15:42.716194+00:00",
@@ -10362,6 +10368,12 @@
       "data_wyslania": "2026-07-26T14:45:42.984625+00:00",
       "fingerprint": "1150000|46.9|2|",
       "id": "olx_sale:1056764365"
+    },
+    "olx_sale:1056918782": {
+      "cena": 650000,
+      "data_wyslania": "2026-07-31T14:31:00.476377+00:00",
+      "fingerprint": "650000|56|3|suchanino",
+      "id": "olx_sale:1056918782"
     },
     "olx_sale:1057216642": {
       "cena": 454900,
@@ -13434,6 +13446,18 @@
       "data_wyslania": "2026-07-31T14:15:51.721899+00:00",
       "fingerprint": "549000|40.49|2|piecki-migowo",
       "id": "olx_sale:1088576836"
+    },
+    "olx_sale:1088584333": {
+      "cena": 589000,
+      "data_wyslania": "2026-07-31T14:31:00.476377+00:00",
+      "fingerprint": "589000|42.23|2|suchanino",
+      "id": "olx_sale:1088584333"
+    },
+    "olx_sale:1088587594": {
+      "cena": 548000,
+      "data_wyslania": "2026-07-31T14:31:00.476377+00:00",
+      "fingerprint": "548000|41.42|2|brzeźno",
+      "id": "olx_sale:1088587594"
     },
     "olx_sale:857316110": {
       "cena": 715000,
