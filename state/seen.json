@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 6945,
+            "fetched": 7066,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 5647,
+            "fetched": 5742,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 23,
-            "fetched": 8645,
+            "dropped": 24,
+            "fetched": 8798,
             "sent_main": 3,
             "sent_near": 3
           },
           "olx_sale": {
             "dropped": 17,
-            "fetched": 7809,
+            "fetched": 7952,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 6,
-            "fetched": 3251,
+            "fetched": 3310,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 3637,
+            "fetched": 3705,
             "sent_main": 0,
             "sent_near": 1
           }
@@ -77,12 +77,12 @@
   "high_water": {
     "nieruchomosci_online": "000026866646",
     "nieruchomosci_online_sale": "000026865845",
-    "olx": "2026-07-31T12:52:52+02:00",
+    "olx": "2026-07-31T12:55:37+02:00",
     "olx_sale": "2026-07-31T12:25:36+02:00",
     "trojmiasto": "000066495408",
     "trojmiasto_sale": "000066495326"
   },
-  "last_run": "2026-07-31T11:01:12.697961+00:00",
+  "last_run": "2026-07-31T11:15:42.351905+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -9612,6 +9612,12 @@
       "fingerprint": "2500|38|2|chełm z dzielnicą gdańsk południe",
       "id": "olx:1088542040"
     },
+    "olx:1088542661": {
+      "cena": 3200,
+      "data_wyslania": "2026-07-31T11:15:42.351905+00:00",
+      "fingerprint": "3200|30|2|oliwa",
+      "id": "olx:1088542661"
+    },
     "olx:617323965": {
       "cena": 2500,
       "data_wyslania": "2026-07-30T10:15:42.716194+00:00",
@@ -15263,6 +15269,12 @@
       "data_wyslania": "2026-07-28T11:01:12.696487+00:00",
       "fingerprint": "915000|87.48|4|działki leśne",
       "id": "trojmiasto_sale:66477205"
+    },
+    "trojmiasto_sale:66477254": {
+      "cena": 820000,
+      "data_wyslania": "2026-07-31T11:15:42.351905+00:00",
+      "fingerprint": "820000|48|2|morena",
+      "id": "trojmiasto_sale:66477254"
     },
     "trojmiasto_sale:66477695": {
       "cena": 549000,
