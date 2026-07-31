@@ -11,37 +11,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 10345,
+            "fetched": 10466,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 8378,
+            "fetched": 8476,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 48,
-            "fetched": 12753,
+            "fetched": 12907,
             "sent_main": 4,
             "sent_near": 5
           },
           "olx_sale": {
-            "dropped": 32,
-            "fetched": 11671,
+            "dropped": 35,
+            "fetched": 11815,
             "sent_main": 3,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 7,
-            "fetched": 4889,
+            "fetched": 4947,
             "sent_main": 1,
             "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 5513,
+            "fetched": 5578,
             "sent_main": 1,
             "sent_near": 1
           }
@@ -79,11 +79,11 @@
     "nieruchomosci_online": "000026867995",
     "nieruchomosci_online_sale": "000026865845",
     "olx": "2026-07-31T19:17:04+02:00",
-    "olx_sale": "2026-07-31T19:01:28+02:00",
+    "olx_sale": "2026-07-31T19:42:16+02:00",
     "trojmiasto": "000066495839",
     "trojmiasto_sale": "000066495668"
   },
-  "last_run": "2026-07-31T17:31:02.392484+00:00",
+  "last_run": "2026-07-31T17:45:52.523080+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -13662,6 +13662,24 @@
       "data_wyslania": "2026-07-31T17:15:46.983687+00:00",
       "fingerprint": "716400|65|4|",
       "id": "olx_sale:1088621180"
+    },
+    "olx_sale:1088626656": {
+      "cena": 950000,
+      "data_wyslania": "2026-07-31T17:45:52.523080+00:00",
+      "fingerprint": "950000|68|4|",
+      "id": "olx_sale:1088626656"
+    },
+    "olx_sale:1088628080": {
+      "cena": 729648,
+      "data_wyslania": "2026-07-31T17:45:52.523080+00:00",
+      "fingerprint": "729648|33.78|1|",
+      "id": "olx_sale:1088628080"
+    },
+    "olx_sale:1088628152": {
+      "cena": 1720000,
+      "data_wyslania": "2026-07-31T17:45:52.523080+00:00",
+      "fingerprint": "1720000|94|4|piecki-migowo",
+      "id": "olx_sale:1088628152"
     },
     "olx_sale:857316110": {
       "cena": 715000,
