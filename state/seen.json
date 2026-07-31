@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 6221,
+            "fetched": 6342,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 5074,
+            "fetched": 5170,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 21,
-            "fetched": 7737,
-            "sent_main": 1,
-            "sent_near": 1
+            "fetched": 7887,
+            "sent_main": 2,
+            "sent_near": 2
           },
           "olx_sale": {
             "dropped": 16,
-            "fetched": 6952,
+            "fetched": 7095,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 6,
-            "fetched": 2891,
+            "fetched": 2951,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 3237,
+            "fetched": 3304,
             "sent_main": 0,
             "sent_near": 1
           }
@@ -77,12 +77,12 @@
   "high_water": {
     "nieruchomosci_online": "000026866646",
     "nieruchomosci_online_sale": "000026865845",
-    "olx": "2026-07-31T11:27:06+02:00",
+    "olx": "2026-07-31T11:51:48+02:00",
     "olx_sale": "2026-07-31T11:23:41+02:00",
     "trojmiasto": "000066495408",
     "trojmiasto_sale": "000066495326"
   },
-  "last_run": "2026-07-31T09:45:41.998464+00:00",
+  "last_run": "2026-07-31T10:01:13.202767+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -3719,6 +3719,12 @@
       "data_wyslania": "2026-07-26T10:45:45.392818+00:00",
       "fingerprint": "519000|43|3|przymorze",
       "id": "nieruchomosci_online_sale:26827741"
+    },
+    "nieruchomosci_online_sale:26830028": {
+      "cena": 810000,
+      "data_wyslania": "2026-07-31T10:01:13.202767+00:00",
+      "fingerprint": "810000|54|2|redłowo",
+      "id": "nieruchomosci_online_sale:26830028"
     },
     "nieruchomosci_online_sale:26830206": {
       "cena": 629925,
@@ -9467,6 +9473,24 @@
       "data_wyslania": "2026-07-31T09:45:41.998464+00:00",
       "fingerprint": "2900|41|2|żabianka - wejhera - jelitkowo - tysiąclecia",
       "id": "olx:1088524317"
+    },
+    "olx:1088525535": {
+      "cena": 2400,
+      "data_wyslania": "2026-07-31T10:01:13.202767+00:00",
+      "fingerprint": "2400|30|1|górny sopot",
+      "id": "olx:1088525535"
+    },
+    "olx:1088528915": {
+      "cena": 2200,
+      "data_wyslania": "2026-07-31T10:01:13.202767+00:00",
+      "fingerprint": "2200|47|2|wrzeszcz",
+      "id": "olx:1088528915"
+    },
+    "olx:1088529518": {
+      "cena": 1700,
+      "data_wyslania": "2026-07-31T10:01:13.202767+00:00",
+      "fingerprint": "1700|48|2|śródmieście",
+      "id": "olx:1088529518"
     },
     "olx:617323965": {
       "cena": 2500,
@@ -15503,6 +15527,12 @@
       "data_wyslania": "2026-07-27T07:31:00.296896+00:00",
       "fingerprint": "629910|45|2|siedlce",
       "id": "trojmiasto_sale:66489418"
+    },
+    "trojmiasto_sale:66489917": {
+      "cena": 1599000,
+      "data_wyslania": "2026-07-31T10:01:13.202767+00:00",
+      "fingerprint": "1599000|75.12|3|wrzeszcz dolny",
+      "id": "trojmiasto_sale:66489917"
     },
     "trojmiasto_sale:66489959": {
       "cena": 419000,
