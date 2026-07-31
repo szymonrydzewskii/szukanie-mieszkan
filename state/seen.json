@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 6703,
+            "fetched": 6824,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 5457,
+            "fetched": 5552,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 22,
-            "fetched": 8341,
+            "dropped": 23,
+            "fetched": 8493,
             "sent_main": 2,
             "sent_near": 3
           },
           "olx_sale": {
             "dropped": 17,
-            "fetched": 7522,
+            "fetched": 7666,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 6,
-            "fetched": 3131,
+            "fetched": 3191,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 3505,
+            "fetched": 3571,
             "sent_main": 0,
             "sent_near": 1
           }
@@ -82,7 +82,7 @@
     "trojmiasto": "000066495408",
     "trojmiasto_sale": "000066495326"
   },
-  "last_run": "2026-07-31T10:31:02.244547+00:00",
+  "last_run": "2026-07-31T10:45:45.613334+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -563,6 +563,12 @@
       "data_wyslania": "2026-07-28T02:15:49.138793+00:00",
       "fingerprint": "3200|60|4|wyścigi",
       "id": "nieruchomosci_online:26771564"
+    },
+    "nieruchomosci_online:26772452": {
+      "cena": 3800,
+      "data_wyslania": "2026-07-31T10:45:45.613334+00:00",
+      "fingerprint": "3800|52|2|śródmieście",
+      "id": "nieruchomosci_online:26772452"
     },
     "nieruchomosci_online:26772576": {
       "cena": 2500,
@@ -1956,6 +1962,12 @@
       "fingerprint": "2160000|80|3|kamienna góra",
       "id": "nieruchomosci_online_sale:26338203"
     },
+    "nieruchomosci_online_sale:26341070": {
+      "cena": 1170000,
+      "data_wyslania": "2026-07-31T10:45:45.613334+00:00",
+      "fingerprint": "1170000|112|4|siedlce",
+      "id": "nieruchomosci_online_sale:26341070"
+    },
     "nieruchomosci_online_sale:26349835": {
       "cena": 2599000,
       "data_wyslania": "2026-07-30T08:45:44.945644+00:00",
@@ -1967,6 +1979,12 @@
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
       "fingerprint": "1150000|46.9|2|dolny sopot",
       "id": "nieruchomosci_online_sale:26357219"
+    },
+    "nieruchomosci_online_sale:26362903": {
+      "cena": 1045624,
+      "data_wyslania": "2026-07-31T10:45:45.613334+00:00",
+      "fingerprint": "1045624|59.62|2|siedlce",
+      "id": "nieruchomosci_online_sale:26362903"
     },
     "nieruchomosci_online_sale:26369778": {
       "cena": 949000,
@@ -2057,6 +2075,12 @@
       "data_wyslania": "2026-07-30T08:45:44.945644+00:00",
       "fingerprint": "1449000|67.11|3|śródmieście",
       "id": "nieruchomosci_online_sale:26420979"
+    },
+    "nieruchomosci_online_sale:26424282": {
+      "cena": 780000,
+      "data_wyslania": "2026-07-31T10:45:45.613334+00:00",
+      "fingerprint": "780000|35.75|2|śródmieście",
+      "id": "nieruchomosci_online_sale:26424282"
     },
     "nieruchomosci_online_sale:26424363": {
       "cena": 5200000,
@@ -2334,11 +2358,29 @@
       "fingerprint": "569900|38|2|przymorze",
       "id": "nieruchomosci_online_sale:26556465"
     },
+    "nieruchomosci_online_sale:26556770": {
+      "cena": 599000,
+      "data_wyslania": "2026-07-31T10:45:45.613334+00:00",
+      "fingerprint": "599000|31|2|żabianka",
+      "id": "nieruchomosci_online_sale:26556770"
+    },
+    "nieruchomosci_online_sale:26561975": {
+      "cena": 1950000,
+      "data_wyslania": "2026-07-31T10:45:45.613334+00:00",
+      "fingerprint": "1950000|97.62|4|orłowo",
+      "id": "nieruchomosci_online_sale:26561975"
+    },
     "nieruchomosci_online_sale:26564849": {
       "cena": 1399000,
       "data_wyslania": "2026-07-30T08:45:44.945644+00:00",
       "fingerprint": "1399000|164|5|dąbrowa",
       "id": "nieruchomosci_online_sale:26564849"
+    },
+    "nieruchomosci_online_sale:26567445": {
+      "cena": 1398000,
+      "data_wyslania": "2026-07-31T10:45:45.613334+00:00",
+      "fingerprint": "1398000|50.33|2|przymorze",
+      "id": "nieruchomosci_online_sale:26567445"
     },
     "nieruchomosci_online_sale:26567607": {
       "cena": 2980000,
@@ -2561,6 +2603,12 @@
       "data_wyslania": "2026-07-28T10:45:41.018619+00:00",
       "fingerprint": "2299000|92.98|3|oliwa",
       "id": "nieruchomosci_online_sale:26635842"
+    },
+    "nieruchomosci_online_sale:26637237": {
+      "cena": 625000,
+      "data_wyslania": "2026-07-31T10:45:45.613334+00:00",
+      "fingerprint": "625000|25|1|wyspa spichrzów",
+      "id": "nieruchomosci_online_sale:26637237"
     },
     "nieruchomosci_online_sale:26637752": {
       "cena": 1699000,
@@ -2976,6 +3024,12 @@
       "fingerprint": "889000|69.44|3|jasień",
       "id": "nieruchomosci_online_sale:26716653"
     },
+    "nieruchomosci_online_sale:26717142": {
+      "cena": 1100000,
+      "data_wyslania": "2026-07-31T10:45:45.613334+00:00",
+      "fingerprint": "1100000|70.9|4|wrzeszcz",
+      "id": "nieruchomosci_online_sale:26717142"
+    },
     "nieruchomosci_online_sale:26717913": {
       "cena": 510000,
       "data_wyslania": "2026-07-26T14:45:42.984625+00:00",
@@ -3155,6 +3209,12 @@
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
       "fingerprint": "2480000|92.65|4|dolny sopot",
       "id": "nieruchomosci_online_sale:26743721"
+    },
+    "nieruchomosci_online_sale:26744326": {
+      "cena": 439000,
+      "data_wyslania": "2026-07-31T10:45:45.613334+00:00",
+      "fingerprint": "439000|39.3|1|ujeścisko",
+      "id": "nieruchomosci_online_sale:26744326"
     },
     "nieruchomosci_online_sale:26744552": {
       "cena": 1400000,
@@ -4457,6 +4517,12 @@
       "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
       "fingerprint": "2950|30|1|wrzeszcz",
       "id": "olx:1073830009"
+    },
+    "olx:1074033166": {
+      "cena": 3400,
+      "data_wyslania": "2026-07-31T10:45:45.613334+00:00",
+      "fingerprint": "3400|50|3|orunia - św. wojciech - lipce",
+      "id": "olx:1074033166"
     },
     "olx:1074137188": {
       "cena": 2600,
@@ -9503,6 +9569,12 @@
       "data_wyslania": "2026-07-31T10:31:02.244547+00:00",
       "fingerprint": "2500|40|2|żabianka - wejhera - jelitkowo - tysiąclecia",
       "id": "olx:1088533229"
+    },
+    "olx:1088534578": {
+      "cena": 3790,
+      "data_wyslania": "2026-07-31T10:45:45.613334+00:00",
+      "fingerprint": "3790|78|3|wrzeszcz",
+      "id": "olx:1088534578"
     },
     "olx:1088534737": {
       "cena": 3500,
