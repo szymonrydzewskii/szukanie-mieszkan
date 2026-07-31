@@ -9,37 +9,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 4880,
+            "fetched": 5002,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 4000,
+            "fetched": 4100,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 7,
-            "fetched": 6069,
+            "dropped": 14,
+            "fetched": 6218,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 4,
-            "fetched": 5533,
+            "fetched": 5675,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 3,
-            "fetched": 2283,
+            "fetched": 2324,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 2539,
+            "fetched": 2592,
             "sent_main": 0,
             "sent_near": 1
           }
@@ -76,12 +76,12 @@
   "high_water": {
     "nieruchomosci_online": "000026866173",
     "nieruchomosci_online_sale": "000026865845",
-    "olx": "2026-07-31T09:06:04+02:00",
+    "olx": "2026-07-31T09:17:33+02:00",
     "olx_sale": "2026-07-31T07:47:14+02:00",
     "trojmiasto": "000066495314",
     "trojmiasto_sale": "000066495326"
   },
-  "last_run": "2026-07-31T07:15:45.820716+00:00",
+  "last_run": "2026-07-31T07:31:06.321636+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -9263,6 +9263,12 @@
       "fingerprint": "3000|46|2|orunia - św. wojciech - lipce",
       "id": "olx:1088497871"
     },
+    "olx:1088498073": {
+      "cena": 2100,
+      "data_wyslania": "2026-07-31T07:31:06.321636+00:00",
+      "fingerprint": "2100|32|1|siedlce",
+      "id": "olx:1088498073"
+    },
     "olx:1088498162": {
       "cena": 3600,
       "data_wyslania": "2026-07-31T07:15:45.820716+00:00",
@@ -9286,6 +9292,48 @@
       "data_wyslania": "2026-07-31T07:15:45.820716+00:00",
       "fingerprint": "3000|40|2|letnica",
       "id": "olx:1088499668"
+    },
+    "olx:1088499833": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-31T07:31:06.321636+00:00",
+      "fingerprint": "3000|31|1|śródmieście",
+      "id": "olx:1088499833"
+    },
+    "olx:1088499965": {
+      "cena": 3100,
+      "data_wyslania": "2026-07-31T07:31:06.321636+00:00",
+      "fingerprint": "3100|59|3|piecki-migowo",
+      "id": "olx:1088499965"
+    },
+    "olx:1088500050": {
+      "cena": 3500,
+      "data_wyslania": "2026-07-31T07:31:06.321636+00:00",
+      "fingerprint": "3500|49|2|zaspa rozstaje",
+      "id": "olx:1088500050"
+    },
+    "olx:1088500151": {
+      "cena": 2100,
+      "data_wyslania": "2026-07-31T07:31:06.321636+00:00",
+      "fingerprint": "2100|22|1|centrum",
+      "id": "olx:1088500151"
+    },
+    "olx:1088500584": {
+      "cena": 3100,
+      "data_wyslania": "2026-07-31T07:31:06.321636+00:00",
+      "fingerprint": "3100|35|1|śródmieście",
+      "id": "olx:1088500584"
+    },
+    "olx:1088500842": {
+      "cena": 3200,
+      "data_wyslania": "2026-07-31T07:31:06.321636+00:00",
+      "fingerprint": "3200|47|2|śródmieście",
+      "id": "olx:1088500842"
+    },
+    "olx:1088500860": {
+      "cena": 2800,
+      "data_wyslania": "2026-07-31T07:31:06.321636+00:00",
+      "fingerprint": "2800|62.1|3|brętowo",
+      "id": "olx:1088500860"
     },
     "olx:617323965": {
       "cena": 2500,
@@ -14183,6 +14231,12 @@
       "fingerprint": "525000|49.9|2|tczewskie łąki",
       "id": "trojmiasto_sale:66454349"
     },
+    "trojmiasto_sale:66454672": {
+      "cena": 599999,
+      "data_wyslania": "2026-07-31T07:31:06.321636+00:00",
+      "fingerprint": "599999|58.99|3|obłuże",
+      "id": "trojmiasto_sale:66454672"
+    },
     "trojmiasto_sale:66455076": {
       "cena": 669000,
       "data_wyslania": "2026-07-31T05:30:58.336438+00:00",
@@ -14237,6 +14291,12 @@
       "fingerprint": "2990000|118|5|kamienna góra",
       "id": "trojmiasto_sale:66457990"
     },
+    "trojmiasto_sale:66458021": {
+      "cena": 545000,
+      "data_wyslania": "2026-07-31T07:31:06.321636+00:00",
+      "fingerprint": "545000|100|6|pelplin",
+      "id": "trojmiasto_sale:66458021"
+    },
     "trojmiasto_sale:66458269": {
       "cena": 929000,
       "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
@@ -14273,6 +14333,12 @@
       "fingerprint": "748000|48|3|wzgórze św. maksymiliana",
       "id": "trojmiasto_sale:66460733"
     },
+    "trojmiasto_sale:66461260": {
+      "cena": 1190000,
+      "data_wyslania": "2026-07-31T07:31:06.321636+00:00",
+      "fingerprint": "1190000|92.85|4|cieciorka",
+      "id": "trojmiasto_sale:66461260"
+    },
     "trojmiasto_sale:66462529": {
       "cena": 550000,
       "data_wyslania": "2026-07-26T23:01:05.773597+00:00",
@@ -14290,6 +14356,12 @@
       "data_wyslania": "2026-07-25T19:30:58.648257+00:00",
       "fingerprint": "1199000|73.9|4|zaspa",
       "id": "trojmiasto_sale:66463665"
+    },
+    "trojmiasto_sale:66464603": {
+      "cena": 810000,
+      "data_wyslania": "2026-07-31T07:31:06.321636+00:00",
+      "fingerprint": "810000|43.39|2|śródmieście",
+      "id": "trojmiasto_sale:66464603"
     },
     "trojmiasto_sale:66464931": {
       "cena": 819000,
@@ -14314,6 +14386,12 @@
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
       "fingerprint": "1959000|85|4|przymorze wielkie",
       "id": "trojmiasto_sale:66466218"
+    },
+    "trojmiasto_sale:66466793": {
+      "cena": 295000,
+      "data_wyslania": "2026-07-31T07:31:06.321636+00:00",
+      "fingerprint": "295000|42|2|tczew",
+      "id": "trojmiasto_sale:66466793"
     },
     "trojmiasto_sale:66467327": {
       "cena": 624860,
@@ -14369,6 +14447,12 @@
       "fingerprint": "619000|51.1|2|osowa",
       "id": "trojmiasto_sale:66469828"
     },
+    "trojmiasto_sale:66469988": {
+      "cena": 369000,
+      "data_wyslania": "2026-07-31T07:31:06.321636+00:00",
+      "fingerprint": "369000|36.14|2|tczew",
+      "id": "trojmiasto_sale:66469988"
+    },
     "trojmiasto_sale:66470295": {
       "cena": 599000,
       "data_wyslania": "2026-07-25T15:01:07.904355+00:00",
@@ -14386,6 +14470,12 @@
       "data_wyslania": "2026-07-27T19:15:41.056148+00:00",
       "fingerprint": "699000|61.1|3|chełm",
       "id": "trojmiasto_sale:66470528"
+    },
+    "trojmiasto_sale:66473906": {
+      "cena": 555000,
+      "data_wyslania": "2026-07-31T07:31:06.321636+00:00",
+      "fingerprint": "555000|55.7|3|rokitki",
+      "id": "trojmiasto_sale:66473906"
     },
     "trojmiasto_sale:66474417": {
       "cena": 521000,
@@ -14429,6 +14519,18 @@
       "fingerprint": "549000|37|2|pogórze",
       "id": "trojmiasto_sale:66477695"
     },
+    "trojmiasto_sale:66477838": {
+      "cena": 1200000,
+      "data_wyslania": "2026-07-31T07:31:06.321636+00:00",
+      "fingerprint": "1200000|347.8|6|starogard gdański",
+      "id": "trojmiasto_sale:66477838"
+    },
+    "trojmiasto_sale:66478036": {
+      "cena": 459000,
+      "data_wyslania": "2026-07-31T07:31:06.321636+00:00",
+      "fingerprint": "459000|48|3|starogard gdański",
+      "id": "trojmiasto_sale:66478036"
+    },
     "trojmiasto_sale:66478040": {
       "cena": 569000,
       "data_wyslania": "2026-07-27T01:12:57.206744+00:00",
@@ -14464,6 +14566,18 @@
       "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
       "fingerprint": "940000|86.1|3|śródmieście",
       "id": "trojmiasto_sale:66479648"
+    },
+    "trojmiasto_sale:66480040": {
+      "cena": 489000,
+      "data_wyslania": "2026-07-31T07:31:06.321636+00:00",
+      "fingerprint": "489000|49.8|2|tczew",
+      "id": "trojmiasto_sale:66480040"
+    },
+    "trojmiasto_sale:66480041": {
+      "cena": 545000,
+      "data_wyslania": "2026-07-31T07:31:06.321636+00:00",
+      "fingerprint": "545000|60.89|3|tczew",
+      "id": "trojmiasto_sale:66480041"
     },
     "trojmiasto_sale:66480042": {
       "cena": 1399000,
