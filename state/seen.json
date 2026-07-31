@@ -54,37 +54,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 3660,
+            "fetched": 3782,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 3000,
+            "fetched": 3100,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 1,
-            "fetched": 4549,
+            "fetched": 4701,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
-            "dropped": 2,
-            "fetched": 4114,
+            "dropped": 3,
+            "fetched": 4254,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 1789,
+            "fetched": 1850,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 1996,
+            "fetched": 2063,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -122,11 +122,11 @@
     "nieruchomosci_online": "000026866173",
     "nieruchomosci_online_sale": "000026865845",
     "olx": "2026-07-31T00:41:36+02:00",
-    "olx_sale": "2026-07-31T01:54:21+02:00",
+    "olx_sale": "2026-07-31T06:46:26+02:00",
     "trojmiasto": "000066495219",
     "trojmiasto_sale": "000066495118"
   },
-  "last_run": "2026-07-31T04:45:46.490462+00:00",
+  "last_run": "2026-07-31T05:01:14.721909+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -2701,6 +2701,12 @@
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
       "fingerprint": "949000|83|3|sopot",
       "id": "nieruchomosci_online_sale:26660809"
+    },
+    "nieruchomosci_online_sale:26661719": {
+      "cena": 1712160,
+      "data_wyslania": "2026-07-31T05:01:14.721909+00:00",
+      "fingerprint": "1712160|80.01|3|brzeźno",
+      "id": "nieruchomosci_online_sale:26661719"
     },
     "nieruchomosci_online_sale:26661921": {
       "cena": 479000,
@@ -12487,6 +12493,12 @@
       "data_wyslania": "2026-07-31T00:15:51.127671+00:00",
       "fingerprint": "510000|35.32|2|oksywie",
       "id": "olx_sale:1088483307"
+    },
+    "olx_sale:1088490338": {
+      "cena": 849000,
+      "data_wyslania": "2026-07-31T05:01:14.721909+00:00",
+      "fingerprint": "849000|72|4|",
+      "id": "olx_sale:1088490338"
     },
     "olx_sale:857316110": {
       "cena": 715000,
