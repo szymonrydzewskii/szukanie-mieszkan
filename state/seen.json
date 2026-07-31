@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 5856,
+            "fetched": 5977,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 4786,
+            "fetched": 4882,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 19,
-            "fetched": 7276,
+            "dropped": 21,
+            "fetched": 7430,
             "sent_main": 1,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 10,
-            "fetched": 6525,
+            "fetched": 6669,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 6,
-            "fetched": 2711,
+            "fetched": 2771,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 3043,
+            "fetched": 3104,
             "sent_main": 0,
             "sent_near": 1
           }
@@ -77,12 +77,12 @@
   "high_water": {
     "nieruchomosci_online": "000026866646",
     "nieruchomosci_online_sale": "000026865845",
-    "olx": "2026-07-31T10:35:13+02:00",
+    "olx": "2026-07-31T11:07:59+02:00",
     "olx_sale": "2026-07-31T10:02:43+02:00",
     "trojmiasto": "000066495408",
     "trojmiasto_sale": "000066495326"
   },
-  "last_run": "2026-07-31T09:01:07.379472+00:00",
+  "last_run": "2026-07-31T09:15:44.885790+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -9414,6 +9414,30 @@
       "fingerprint": "2500|37|2|chełm z dzielnicą gdańsk południe",
       "id": "olx:1088512281"
     },
+    "olx:1088516196": {
+      "cena": 4000,
+      "data_wyslania": "2026-07-31T09:15:44.885790+00:00",
+      "fingerprint": "4000|73|4|piecki-migowo",
+      "id": "olx:1088516196"
+    },
+    "olx:1088520255": {
+      "cena": 3200,
+      "data_wyslania": "2026-07-31T09:15:44.885790+00:00",
+      "fingerprint": "3200|47|2|śródmieście",
+      "id": "olx:1088520255"
+    },
+    "olx:1088520400": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-31T09:15:44.885790+00:00",
+      "fingerprint": "3000|40|2|wielki kack",
+      "id": "olx:1088520400"
+    },
+    "olx:1088520411": {
+      "cena": 3300,
+      "data_wyslania": "2026-07-31T09:15:44.885790+00:00",
+      "fingerprint": "3300|48|2|śródmieście",
+      "id": "olx:1088520411"
+    },
     "olx:617323965": {
       "cena": 2500,
       "data_wyslania": "2026-07-30T10:15:42.716194+00:00",
@@ -12954,6 +12978,18 @@
       "fingerprint": "2800|30|1|żabianka",
       "id": "trojmiasto:66408475"
     },
+    "trojmiasto:66411912": {
+      "cena": 2400,
+      "data_wyslania": "2026-07-31T09:15:44.885790+00:00",
+      "fingerprint": "2400|43|2|łostowice",
+      "id": "trojmiasto:66411912"
+    },
+    "trojmiasto:66415033": {
+      "cena": 4000,
+      "data_wyslania": "2026-07-31T09:15:44.885790+00:00",
+      "fingerprint": "4000|112.85|4|witomino",
+      "id": "trojmiasto:66415033"
+    },
     "trojmiasto:66421993": {
       "cena": 6500,
       "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
@@ -12966,17 +13002,53 @@
       "fingerprint": "4500|43|2|oliwa",
       "id": "trojmiasto:66422006"
     },
+    "trojmiasto:66425712": {
+      "cena": 2700,
+      "data_wyslania": "2026-07-31T09:15:44.885790+00:00",
+      "fingerprint": "2700|48|2|przymorze małe",
+      "id": "trojmiasto:66425712"
+    },
+    "trojmiasto:66426215": {
+      "cena": 2600,
+      "data_wyslania": "2026-07-31T09:15:44.885790+00:00",
+      "fingerprint": "2600|40|2|jasień",
+      "id": "trojmiasto:66426215"
+    },
     "trojmiasto:66430171": {
       "cena": 2800,
       "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
       "fingerprint": "2800|50|2|jasień",
       "id": "trojmiasto:66430171"
     },
+    "trojmiasto:66432471": {
+      "cena": 3240,
+      "data_wyslania": "2026-07-31T09:15:44.885790+00:00",
+      "fingerprint": "3240|162.52|?|tczew",
+      "id": "trojmiasto:66432471"
+    },
+    "trojmiasto:66437826": {
+      "cena": 8000,
+      "data_wyslania": "2026-07-31T09:15:44.885790+00:00",
+      "fingerprint": "8000|104|5|młode miasto",
+      "id": "trojmiasto:66437826"
+    },
+    "trojmiasto:66438303": {
+      "cena": 2600,
+      "data_wyslania": "2026-07-31T09:15:44.885790+00:00",
+      "fingerprint": "2600|50.5|2|słupsk",
+      "id": "trojmiasto:66438303"
+    },
     "trojmiasto:66439814": {
       "cena": 2200,
       "data_wyslania": "2026-07-25T19:01:05.112354+00:00",
       "fingerprint": "2200|27|1|przymorze wielkie",
       "id": "trojmiasto:66439814"
+    },
+    "trojmiasto:66442337": {
+      "cena": 2200,
+      "data_wyslania": "2026-07-31T09:15:44.885790+00:00",
+      "fingerprint": "2200|38|2|rotmanka",
+      "id": "trojmiasto:66442337"
     },
     "trojmiasto:66442745": {
       "cena": 2600,
@@ -12996,17 +13068,59 @@
       "fingerprint": "4000|80|4|aniołki",
       "id": "trojmiasto:66446126"
     },
+    "trojmiasto:66447243": {
+      "cena": 2900,
+      "data_wyslania": "2026-07-31T09:15:44.885790+00:00",
+      "fingerprint": "2900|42|2|cisowa",
+      "id": "trojmiasto:66447243"
+    },
+    "trojmiasto:66448304": {
+      "cena": 5500,
+      "data_wyslania": "2026-07-31T09:15:44.885790+00:00",
+      "fingerprint": "5500|73|3|śródmieście",
+      "id": "trojmiasto:66448304"
+    },
     "trojmiasto:66448530": {
       "cena": 2500,
       "data_wyslania": "2026-07-31T08:15:46.636802+00:00",
       "fingerprint": "2500|37|2|grabówek",
       "id": "trojmiasto:66448530"
     },
+    "trojmiasto:66450966": {
+      "cena": 6000,
+      "data_wyslania": "2026-07-31T09:15:44.885790+00:00",
+      "fingerprint": "6000|78|3|młode miasto",
+      "id": "trojmiasto:66450966"
+    },
+    "trojmiasto:66451094": {
+      "cena": 2600,
+      "data_wyslania": "2026-07-31T09:15:44.885790+00:00",
+      "fingerprint": "2600|72|3|ujeścisko",
+      "id": "trojmiasto:66451094"
+    },
     "trojmiasto:66453747": {
       "cena": 3400,
       "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
       "fingerprint": "3400|52|3|suchanino",
       "id": "trojmiasto:66453747"
+    },
+    "trojmiasto:66456379": {
+      "cena": 2999,
+      "data_wyslania": "2026-07-31T09:15:44.885790+00:00",
+      "fingerprint": "2999|30|1|młode miasto",
+      "id": "trojmiasto:66456379"
+    },
+    "trojmiasto:66456508": {
+      "cena": 2400,
+      "data_wyslania": "2026-07-31T09:15:44.885790+00:00",
+      "fingerprint": "2400|32|1|oliwa",
+      "id": "trojmiasto:66456508"
+    },
+    "trojmiasto:66456686": {
+      "cena": 3200,
+      "data_wyslania": "2026-07-31T09:15:44.885790+00:00",
+      "fingerprint": "3200|52.4|2|zaspa",
+      "id": "trojmiasto:66456686"
     },
     "trojmiasto:66458735": {
       "cena": 3000,
@@ -13019,6 +13133,12 @@
       "data_wyslania": "2026-07-25T16:14:45.334443+00:00",
       "fingerprint": "2000|39|1|orunia górna",
       "id": "trojmiasto:66459200"
+    },
+    "trojmiasto:66459280": {
+      "cena": 2200,
+      "data_wyslania": "2026-07-31T09:15:44.885790+00:00",
+      "fingerprint": "2200|25|1|łostowice",
+      "id": "trojmiasto:66459280"
     },
     "trojmiasto:66459733": {
       "cena": 2800,
@@ -13086,6 +13206,12 @@
       "fingerprint": "3400|62|2|wrzeszcz górny",
       "id": "trojmiasto:66470022"
     },
+    "trojmiasto:66470413": {
+      "cena": 3000,
+      "data_wyslania": "2026-07-31T09:15:44.885790+00:00",
+      "fingerprint": "3000|40|2|przymorze małe",
+      "id": "trojmiasto:66470413"
+    },
     "trojmiasto:66470813": {
       "cena": 4900,
       "data_wyslania": "2026-07-26T12:01:06.516666+00:00",
@@ -13134,6 +13260,12 @@
       "fingerprint": "3150|40|2|przymorze wielkie",
       "id": "trojmiasto:66474290"
     },
+    "trojmiasto:66475856": {
+      "cena": 4000,
+      "data_wyslania": "2026-07-31T09:15:44.885790+00:00",
+      "fingerprint": "4000|79|3|śródmieście",
+      "id": "trojmiasto:66475856"
+    },
     "trojmiasto:66476072": {
       "cena": 2600,
       "data_wyslania": "2026-07-28T12:15:40.425332+00:00",
@@ -13164,11 +13296,23 @@
       "fingerprint": "2500|34|2|jasień",
       "id": "trojmiasto:66476755"
     },
+    "trojmiasto:66477268": {
+      "cena": 2900,
+      "data_wyslania": "2026-07-31T09:15:44.885790+00:00",
+      "fingerprint": "2900|28|1|przymorze wielkie",
+      "id": "trojmiasto:66477268"
+    },
     "trojmiasto:66478457": {
       "cena": 2700,
       "data_wyslania": "2026-07-26T08:30:56.323370+00:00",
       "fingerprint": "2700|20|1|przymorze małe",
       "id": "trojmiasto:66478457"
+    },
+    "trojmiasto:66480319": {
+      "cena": 3500,
+      "data_wyslania": "2026-07-31T09:15:44.885790+00:00",
+      "fingerprint": "3500|84|3|wzgórze św. maksymiliana",
+      "id": "trojmiasto:66480319"
     },
     "trojmiasto:66481691": {
       "cena": 1600,
