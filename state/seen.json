@@ -10,38 +10,38 @@
         ],
         "sources": {
           "nieruchomosci_online": {
-            "dropped": 3,
-            "fetched": 10706,
+            "dropped": 4,
+            "fetched": 10826,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
-            "dropped": 3,
-            "fetched": 8670,
+            "dropped": 4,
+            "fetched": 8767,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 48,
-            "fetched": 13211,
+            "fetched": 13364,
             "sent_main": 4,
             "sent_near": 5
           },
           "olx_sale": {
-            "dropped": 37,
-            "fetched": 12099,
+            "dropped": 38,
+            "fetched": 12243,
             "sent_main": 3,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 7,
-            "fetched": 5063,
+            "fetched": 5121,
             "sent_main": 1,
             "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 5710,
+            "fetched": 5777,
             "sent_main": 1,
             "sent_near": 1
           }
@@ -76,14 +76,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026868445",
+    "nieruchomosci_online": "000026868489",
     "nieruchomosci_online_sale": "000026868294",
     "olx": "2026-07-31T19:17:04+02:00",
-    "olx_sale": "2026-07-31T20:02:31+02:00",
+    "olx_sale": "2026-07-31T20:23:31+02:00",
     "trojmiasto": "000066495839",
     "trojmiasto_sale": "000066495668"
   },
-  "last_run": "2026-07-31T18:15:54.506459+00:00",
+  "last_run": "2026-07-31T18:31:05.816943+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -1567,6 +1567,12 @@
       "fingerprint": "2700|35|1|śródmieście",
       "id": "nieruchomosci_online:26868445"
     },
+    "nieruchomosci_online:26868489": {
+      "cena": 2800,
+      "data_wyslania": "2026-07-31T18:31:05.816943+00:00",
+      "fingerprint": "2800|31|2|dolny sopot",
+      "id": "nieruchomosci_online:26868489"
+    },
     "nieruchomosci_online_sale:23703220": {
       "cena": 427000,
       "data_wyslania": "2026-07-31T06:45:45.771506+00:00",
@@ -2288,9 +2294,9 @@
       "id": "nieruchomosci_online_sale:26516610"
     },
     "nieruchomosci_online_sale:26517022": {
-      "cena": 899000,
-      "data_wyslania": "2026-07-30T14:45:46.427575+00:00",
-      "fingerprint": "899000|76.4|4|górny sopot",
+      "cena": 750000,
+      "data_wyslania": "2026-07-31T18:31:05.816943+00:00",
+      "fingerprint": "750000|76.4|4|górny sopot",
       "id": "nieruchomosci_online_sale:26517022"
     },
     "nieruchomosci_online_sale:26529044": {
@@ -13728,6 +13734,12 @@
       "data_wyslania": "2026-07-31T18:15:54.506459+00:00",
       "fingerprint": "799000|85|4|wrzeszcz",
       "id": "olx_sale:1088632262"
+    },
+    "olx_sale:1088637237": {
+      "cena": 749000,
+      "data_wyslania": "2026-07-31T18:31:05.816943+00:00",
+      "fingerprint": "749000|51.3|2|chwarzno-wiczlino",
+      "id": "olx_sale:1088637237"
     },
     "olx_sale:857316110": {
       "cena": 715000,
