@@ -11,37 +11,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 8893,
+            "fetched": 9014,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 7195,
+            "fetched": 7293,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 43,
-            "fetched": 10933,
+            "fetched": 11083,
             "sent_main": 3,
             "sent_near": 5
           },
           "olx_sale": {
             "dropped": 26,
-            "fetched": 9952,
+            "fetched": 10095,
             "sent_main": 3,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 7,
-            "fetched": 4193,
+            "fetched": 4251,
             "sent_main": 1,
             "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 4716,
+            "fetched": 4784,
             "sent_main": 1,
             "sent_near": 1
           }
@@ -78,12 +78,12 @@
   "high_water": {
     "nieruchomosci_online": "000026867995",
     "nieruchomosci_online_sale": "000026865845",
-    "olx": "2026-07-31T16:43:36+02:00",
+    "olx": "2026-07-31T16:50:23+02:00",
     "olx_sale": "2026-07-31T16:39:24+02:00",
     "trojmiasto": "000066495839",
     "trojmiasto_sale": "000066495668"
   },
-  "last_run": "2026-07-31T15:01:16.633726+00:00",
+  "last_run": "2026-07-31T15:06:19.067095+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -9978,6 +9978,12 @@
       "data_wyslania": "2026-07-31T15:01:16.633726+00:00",
       "fingerprint": "2600|44|2|oliwa",
       "id": "olx:1088591777"
+    },
+    "olx:1088592864": {
+      "cena": 2300,
+      "data_wyslania": "2026-07-31T15:06:19.067095+00:00",
+      "fingerprint": "2300|26|1|śródmieście",
+      "id": "olx:1088592864"
     },
     "olx:617323965": {
       "cena": 2500,
