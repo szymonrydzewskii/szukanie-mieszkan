@@ -11,37 +11,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 8651,
+            "fetched": 8772,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 6999,
+            "fetched": 7097,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 40,
-            "fetched": 10627,
+            "dropped": 43,
+            "fetched": 10781,
             "sent_main": 3,
             "sent_near": 4
           },
           "olx_sale": {
-            "dropped": 24,
-            "fetched": 9665,
+            "dropped": 26,
+            "fetched": 9808,
             "sent_main": 3,
             "sent_near": 0
           },
           "trojmiasto": {
-            "dropped": 6,
-            "fetched": 4077,
+            "dropped": 7,
+            "fetched": 4135,
             "sent_main": 1,
             "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 4581,
+            "fetched": 4649,
             "sent_main": 1,
             "sent_near": 1
           }
@@ -78,12 +78,12 @@
   "high_water": {
     "nieruchomosci_online": "000026867995",
     "nieruchomosci_online_sale": "000026865845",
-    "olx": "2026-07-31T16:19:50+02:00",
-    "olx_sale": "2026-07-31T16:22:04+02:00",
-    "trojmiasto": "000066495808",
+    "olx": "2026-07-31T16:29:48+02:00",
+    "olx_sale": "2026-07-31T16:39:24+02:00",
+    "trojmiasto": "000066495839",
     "trojmiasto_sale": "000066495668"
   },
-  "last_run": "2026-07-31T14:31:00.476377+00:00",
+  "last_run": "2026-07-31T14:45:45.493232+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -9913,11 +9913,47 @@
       "fingerprint": "1750|32|1|kamienna góra",
       "id": "olx:1088581181"
     },
+    "olx:1088584274": {
+      "cena": 1900,
+      "data_wyslania": "2026-07-31T14:45:45.493232+00:00",
+      "fingerprint": "1900|15|1|ujeścisko - łostowice",
+      "id": "olx:1088584274"
+    },
     "olx:1088586414": {
       "cena": 2950,
       "data_wyslania": "2026-07-31T14:31:00.476377+00:00",
       "fingerprint": "2950|53|3|piecki-migowo",
       "id": "olx:1088586414"
+    },
+    "olx:1088587279": {
+      "cena": 2300,
+      "data_wyslania": "2026-07-31T14:45:45.493232+00:00",
+      "fingerprint": "2300|25|2|jasień",
+      "id": "olx:1088587279"
+    },
+    "olx:1088587981": {
+      "cena": 2100,
+      "data_wyslania": "2026-07-31T14:45:45.493232+00:00",
+      "fingerprint": "2100|35|2|wrzeszcz",
+      "id": "olx:1088587981"
+    },
+    "olx:1088588405": {
+      "cena": 2600,
+      "data_wyslania": "2026-07-31T14:45:45.493232+00:00",
+      "fingerprint": "2600|38|2|nowy port",
+      "id": "olx:1088588405"
+    },
+    "olx:1088589293": {
+      "cena": 2200,
+      "data_wyslania": "2026-07-31T14:45:45.493232+00:00",
+      "fingerprint": "2200|34|1|śródmieście",
+      "id": "olx:1088589293"
+    },
+    "olx:1088589631": {
+      "cena": 2250,
+      "data_wyslania": "2026-07-31T14:45:45.493232+00:00",
+      "fingerprint": "2250|25|2|jasień",
+      "id": "olx:1088589631"
     },
     "olx:617323965": {
       "cena": 2500,
@@ -13459,6 +13495,24 @@
       "fingerprint": "548000|41.42|2|brzeźno",
       "id": "olx_sale:1088587594"
     },
+    "olx_sale:1088589521": {
+      "cena": 1320000,
+      "data_wyslania": "2026-07-31T14:45:45.493232+00:00",
+      "fingerprint": "1320000|71|3|pogórze",
+      "id": "olx_sale:1088589521"
+    },
+    "olx_sale:1088590506": {
+      "cena": 810000,
+      "data_wyslania": "2026-07-31T14:45:45.493232+00:00",
+      "fingerprint": "810000|70|3|",
+      "id": "olx_sale:1088590506"
+    },
+    "olx_sale:1088591175": {
+      "cena": 420000,
+      "data_wyslania": "2026-07-31T14:45:45.493232+00:00",
+      "fingerprint": "420000|16.8|1|",
+      "id": "olx_sale:1088591175"
+    },
     "olx_sale:857316110": {
       "cena": 715000,
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
@@ -14562,6 +14616,12 @@
       "data_wyslania": "2026-07-31T13:45:42.902779+00:00",
       "fingerprint": "2300|27|1|p",
       "id": "trojmiasto:66495808"
+    },
+    "trojmiasto:66495839": {
+      "cena": 5500,
+      "data_wyslania": "2026-07-31T14:45:45.493232+00:00",
+      "fingerprint": "5500|84|4|wrzeszcz górny",
+      "id": "trojmiasto:66495839"
     },
     "trojmiasto_sale:64570022": {
       "cena": 3800000,
