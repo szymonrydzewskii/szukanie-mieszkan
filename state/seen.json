@@ -9,37 +9,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 4270,
+            "fetched": 4392,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 3500,
+            "fetched": 3600,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 1,
-            "fetched": 5309,
+            "fetched": 5463,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 4,
-            "fetched": 4823,
+            "fetched": 4965,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 3,
-            "fetched": 2016,
+            "fetched": 2077,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto_sale": {
-            "dropped": 1,
-            "fetched": 2285,
+            "dropped": 3,
+            "fetched": 2345,
             "sent_main": 0,
             "sent_near": 1
           }
@@ -79,9 +79,9 @@
     "olx": "2026-07-31T00:41:36+02:00",
     "olx_sale": "2026-07-31T07:47:14+02:00",
     "trojmiasto": "000066495314",
-    "trojmiasto_sale": "000066495230"
+    "trojmiasto_sale": "000066495326"
   },
-  "last_run": "2026-07-31T06:01:07.645456+00:00",
+  "last_run": "2026-07-31T06:15:40.999557+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -13871,6 +13871,12 @@
       "fingerprint": "585000|33.27|2|śródmieście",
       "id": "trojmiasto_sale:66450009"
     },
+    "trojmiasto_sale:66450562": {
+      "cena": 695000,
+      "data_wyslania": "2026-07-31T06:15:40.999557+00:00",
+      "fingerprint": "695000|41|2|śródmieście",
+      "id": "trojmiasto_sale:66450562"
+    },
     "trojmiasto_sale:66450785": {
       "cena": 739900,
       "data_wyslania": "2026-07-31T05:30:58.336438+00:00",
@@ -14176,6 +14182,12 @@
       "data_wyslania": "2026-07-27T11:15:55.334010+00:00",
       "fingerprint": "1399000|112.2|5|ujeścisko",
       "id": "trojmiasto_sale:66480042"
+    },
+    "trojmiasto_sale:66480154": {
+      "cena": 1515151,
+      "data_wyslania": "2026-07-31T06:15:40.999557+00:00",
+      "fingerprint": "1515151|214|7|wzgórze mickiewicza",
+      "id": "trojmiasto_sale:66480154"
     },
     "trojmiasto_sale:66480323": {
       "cena": 399000,
@@ -14572,6 +14584,24 @@
       "data_wyslania": "2026-07-31T05:30:58.336438+00:00",
       "fingerprint": "609000|44|2|przymorze małe",
       "id": "trojmiasto_sale:66495230"
+    },
+    "trojmiasto_sale:66495324": {
+      "cena": 335000,
+      "data_wyslania": "2026-07-31T06:15:40.999557+00:00",
+      "fingerprint": "335000|57.95|2|gardeja",
+      "id": "trojmiasto_sale:66495324"
+    },
+    "trojmiasto_sale:66495325": {
+      "cena": 485000,
+      "data_wyslania": "2026-07-31T06:15:40.999557+00:00",
+      "fingerprint": "485000|26|1|brzeźno",
+      "id": "trojmiasto_sale:66495325"
+    },
+    "trojmiasto_sale:66495326": {
+      "cena": 479000,
+      "data_wyslania": "2026-07-31T06:15:40.999557+00:00",
+      "fingerprint": "479000|36|2|przymorze wielkie",
+      "id": "trojmiasto_sale:66495326"
     }
   },
   "version": 1
