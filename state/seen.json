@@ -2,51 +2,6 @@
   "daily": {},
   "digest": {
     "days": {
-      "2026-07-30": {
-        "errors": [
-          "nieruchomosci_online: Nieruchomosci-online: HTTP 503 (pierwsze 300 znaków: '<html><body><h1>503 Service Unavailable</h1>\\nNo server is availab",
-          "olx: OLX: HTTP 202 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (p",
-          "olx_sale: OLX: HTTP 202 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (p"
-        ],
-        "sources": {
-          "nieruchomosci_online": {
-            "dropped": 9,
-            "fetched": 12676,
-            "sent_main": 1,
-            "sent_near": 1
-          },
-          "nieruchomosci_online_sale": {
-            "dropped": 2,
-            "fetched": 10293,
-            "sent_main": 0,
-            "sent_near": 0
-          },
-          "olx": {
-            "dropped": 60,
-            "fetched": 15665,
-            "sent_main": 3,
-            "sent_near": 2
-          },
-          "olx_sale": {
-            "dropped": 36,
-            "fetched": 14684,
-            "sent_main": 1,
-            "sent_near": 1
-          },
-          "trojmiasto": {
-            "dropped": 1,
-            "fetched": 5878,
-            "sent_main": 0,
-            "sent_near": 1
-          },
-          "trojmiasto_sale": {
-            "dropped": 3,
-            "fetched": 6707,
-            "sent_main": 0,
-            "sent_near": 1
-          }
-        }
-      },
       "2026-07-31": {
         "errors": [
           "olx_sale: OLX: błąd sieci przy zapytaniu {'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 15983, 'sort_by': 'created_at:de"
@@ -54,37 +9,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 4148,
+            "fetched": 4270,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 3400,
+            "fetched": 3500,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 1,
-            "fetched": 5159,
+            "fetched": 5309,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
-            "dropped": 3,
-            "fetched": 4680,
+            "dropped": 4,
+            "fetched": 4823,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
-            "dropped": 2,
-            "fetched": 1974,
+            "dropped": 3,
+            "fetched": 2016,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 2219,
+            "fetched": 2285,
             "sent_main": 0,
             "sent_near": 1
           }
@@ -122,11 +77,11 @@
     "nieruchomosci_online": "000026866173",
     "nieruchomosci_online_sale": "000026865845",
     "olx": "2026-07-31T00:41:36+02:00",
-    "olx_sale": "2026-07-31T06:46:26+02:00",
-    "trojmiasto": "000066495229",
+    "olx_sale": "2026-07-31T07:47:14+02:00",
+    "trojmiasto": "000066495314",
     "trojmiasto_sale": "000066495230"
   },
-  "last_run": "2026-07-31T05:45:43.166691+00:00",
+  "last_run": "2026-07-31T06:01:07.645456+00:00",
   "seen": {
     "nieruchomosci_online:21012575": {
       "cena": 3500,
@@ -12506,6 +12461,12 @@
       "fingerprint": "849000|72|4|",
       "id": "olx_sale:1088490338"
     },
+    "olx_sale:1088492963": {
+      "cena": 499000,
+      "data_wyslania": "2026-07-31T06:01:07.645456+00:00",
+      "fingerprint": "499000|39.4|2|witomino-radiostacja",
+      "id": "olx_sale:1088492963"
+    },
     "olx_sale:857316110": {
       "cena": 715000,
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
@@ -13250,6 +13211,12 @@
       "fingerprint": "3000|53.7|2|oliwa",
       "id": "trojmiasto:66494307"
     },
+    "trojmiasto:66494473": {
+      "cena": 2000,
+      "data_wyslania": "2026-07-31T06:01:07.645456+00:00",
+      "fingerprint": "2000|48|2|pruszcz gdański",
+      "id": "trojmiasto:66494473"
+    },
     "trojmiasto:66495106": {
       "cena": 13600,
       "data_wyslania": "2026-07-31T00:01:11.922895+00:00",
@@ -13321,6 +13288,12 @@
       "data_wyslania": "2026-07-31T05:45:43.166691+00:00",
       "fingerprint": "2500|28|1|siedlce",
       "id": "trojmiasto:66495229"
+    },
+    "trojmiasto:66495314": {
+      "cena": 3900,
+      "data_wyslania": "2026-07-31T06:01:07.645456+00:00",
+      "fingerprint": "3900|50|?|przymorze wielkie",
+      "id": "trojmiasto:66495314"
     },
     "trojmiasto_sale:64570022": {
       "cena": 3800000,
