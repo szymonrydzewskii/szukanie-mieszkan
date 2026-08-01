@@ -9,37 +9,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 6292,
+            "fetched": 6413,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 5038,
+            "fetched": 5134,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 13,
-            "fetched": 7878,
+            "fetched": 8030,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 2,
-            "fetched": 7281,
+            "fetched": 7426,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
-            "dropped": 1,
-            "fetched": 3016,
+            "dropped": 2,
+            "fetched": 3073,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 3452,
+            "fetched": 3519,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -76,12 +76,12 @@
   "high_water": {
     "nieruchomosci_online": "000026869363",
     "nieruchomosci_online_sale": "000026868294",
-    "olx": "2026-08-01T11:38:52+02:00",
+    "olx": "2026-08-01T12:04:32+02:00",
     "olx_sale": "2026-08-01T10:23:06+02:00",
-    "trojmiasto": "000066496222",
+    "trojmiasto": "000066496255",
     "trojmiasto_sale": "000066496011"
   },
-  "last_run": "2026-08-01T10:01:15.599512+00:00",
+  "last_run": "2026-08-01T10:15:45.437756+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -5915,6 +5915,12 @@
       "fingerprint": "2000|26|1|brzeźno",
       "id": "olx:1085030772"
     },
+    "olx:1085041918": {
+      "cena": 2500,
+      "data_wyslania": "2026-08-01T10:15:45.437756+00:00",
+      "fingerprint": "2500|51|2|chełm z dzielnicą gdańsk południe",
+      "id": "olx:1085041918"
+    },
     "olx:1085048031": {
       "cena": 3000,
       "data_wyslania": "2026-07-26T18:01:08.539116+00:00",
@@ -10307,6 +10313,18 @@
       "fingerprint": "900|15|3|osowa",
       "id": "olx:1088718615"
     },
+    "olx:1088718987": {
+      "cena": 2700,
+      "data_wyslania": "2026-08-01T10:15:45.437756+00:00",
+      "fingerprint": "2700|35|2|śródmieście",
+      "id": "olx:1088718987"
+    },
+    "olx:1088722583": {
+      "cena": 2400,
+      "data_wyslania": "2026-08-01T10:15:45.437756+00:00",
+      "fingerprint": "2400|37|2|jasień",
+      "id": "olx:1088722583"
+    },
     "olx:617323965": {
       "cena": 2500,
       "data_wyslania": "2026-07-30T10:15:42.716194+00:00",
@@ -12274,6 +12292,12 @@
       "data_wyslania": "2026-07-29T20:30:56.296373+00:00",
       "fingerprint": "250000|35|2|ujeścisko - łostowice",
       "id": "olx_sale:1085619445"
+    },
+    "olx_sale:1085729090": {
+      "cena": 665000,
+      "data_wyslania": "2026-08-01T10:15:45.437756+00:00",
+      "fingerprint": "665000|66.67|3|karwiny",
+      "id": "olx_sale:1085729090"
     },
     "olx_sale:1085730548": {
       "cena": 910000,
@@ -15154,6 +15178,12 @@
       "data_wyslania": "2026-08-01T09:30:57.135860+00:00",
       "fingerprint": "4100|62|3|letnica",
       "id": "trojmiasto:66496222"
+    },
+    "trojmiasto:66496255": {
+      "cena": 3700,
+      "data_wyslania": "2026-08-01T10:15:45.437756+00:00",
+      "fingerprint": "3700|60|3|chwarzno - wiczlino",
+      "id": "trojmiasto:66496255"
     },
     "trojmiasto_sale:64570022": {
       "cena": 3800000,
