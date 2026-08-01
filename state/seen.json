@@ -9,37 +9,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 8095,
+            "fetched": 8215,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 6478,
+            "fetched": 6574,
             "sent_main": 1,
             "sent_near": 0
           },
           "olx": {
             "dropped": 30,
-            "fetched": 10150,
+            "fetched": 10303,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 8,
-            "fetched": 9425,
+            "fetched": 9568,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 4,
-            "fetched": 3869,
+            "fetched": 3925,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 4435,
+            "fetched": 4500,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -81,7 +81,7 @@
     "trojmiasto": "000066496420",
     "trojmiasto_sale": "000066496011"
   },
-  "last_run": "2026-08-01T13:31:03.060296+00:00",
+  "last_run": "2026-08-01T13:45:43.911816+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -4090,6 +4090,12 @@
       "data_wyslania": "2026-07-27T09:01:08.246736+00:00",
       "fingerprint": "1280000|50|2|wzgórze św. maksymiliana",
       "id": "nieruchomosci_online_sale:26841696"
+    },
+    "nieruchomosci_online_sale:26842037": {
+      "cena": 619000,
+      "data_wyslania": "2026-08-01T13:45:43.911816+00:00",
+      "fingerprint": "619000|63|3|obłuże górne",
+      "id": "nieruchomosci_online_sale:26842037"
     },
     "nieruchomosci_online_sale:26842179": {
       "cena": 489000,
