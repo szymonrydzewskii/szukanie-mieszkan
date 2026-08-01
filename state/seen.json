@@ -9,37 +9,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 5203,
+            "fetched": 5324,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 4171,
+            "fetched": 4268,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 4,
-            "fetched": 6512,
+            "dropped": 6,
+            "fetched": 6664,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 1,
-            "fetched": 5997,
+            "fetched": 6139,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2494,
+            "fetched": 2552,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 2856,
+            "fetched": 2922,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -76,12 +76,12 @@
   "high_water": {
     "nieruchomosci_online": "000026868511",
     "nieruchomosci_online_sale": "000026868294",
-    "olx": "2026-08-01T08:46:43+02:00",
+    "olx": "2026-08-01T09:44:38+02:00",
     "olx_sale": "2026-08-01T01:50:46+02:00",
     "trojmiasto": "000066495839",
     "trojmiasto_sale": "000066496011"
   },
-  "last_run": "2026-08-01T07:45:44.624747+00:00",
+  "last_run": "2026-08-01T08:01:11.358615+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -4444,6 +4444,12 @@
       "data_wyslania": "2026-07-24T13:17:16.111517+00:00",
       "fingerprint": "4000|50|3|orunia - św. wojciech - lipce",
       "id": "olx:1051935744"
+    },
+    "olx:1052157035": {
+      "cena": 2600,
+      "data_wyslania": "2026-08-01T08:01:11.358615+00:00",
+      "fingerprint": "2600|48|2|piecki-migowo",
+      "id": "olx:1052157035"
     },
     "olx:1052374495": {
       "cena": 2200,
@@ -10198,6 +10204,18 @@
       "data_wyslania": "2026-08-01T07:01:08.061443+00:00",
       "fingerprint": "2650|28|1|siedlce",
       "id": "olx:1088698737"
+    },
+    "olx:1088702770": {
+      "cena": 2500,
+      "data_wyslania": "2026-08-01T08:01:11.358615+00:00",
+      "fingerprint": "2500|31|2|suchanino",
+      "id": "olx:1088702770"
+    },
+    "olx:1088703646": {
+      "cena": 2300,
+      "data_wyslania": "2026-08-01T08:01:11.358615+00:00",
+      "fingerprint": "2300|25|1|siedlce",
+      "id": "olx:1088703646"
     },
     "olx:617323965": {
       "cena": 2500,
