@@ -9,37 +9,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 7135,
+            "fetched": 7255,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 5710,
+            "fetched": 5806,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 17,
-            "fetched": 8942,
+            "fetched": 9094,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 4,
-            "fetched": 8286,
+            "fetched": 8427,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 4,
-            "fetched": 3414,
+            "fetched": 3471,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 3913,
+            "fetched": 3979,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -81,7 +81,7 @@
     "trojmiasto": "000066496265",
     "trojmiasto_sale": "000066496011"
   },
-  "last_run": "2026-08-01T11:31:00.104956+00:00",
+  "last_run": "2026-08-01T11:45:42.696301+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -4960,6 +4960,18 @@
       "data_wyslania": "2026-07-24T14:12:43.011962+00:00",
       "fingerprint": "2499|34|2|przymorze małe",
       "id": "olx:1077762890"
+    },
+    "olx:1077843499": {
+      "cena": 2300,
+      "data_wyslania": "2026-08-01T11:45:42.696301+00:00",
+      "fingerprint": "2300|37|2|wzgórze świętego maksymiliana",
+      "id": "olx:1077843499"
+    },
+    "olx:1077849048": {
+      "cena": 3300,
+      "data_wyslania": "2026-08-01T11:45:42.696301+00:00",
+      "fingerprint": "3300|68|3|dolny sopot",
+      "id": "olx:1077849048"
     },
     "olx:1077888725": {
       "cena": 1000,
@@ -12364,6 +12376,12 @@
       "data_wyslania": "2026-07-29T20:30:56.296373+00:00",
       "fingerprint": "250000|35|2|ujeścisko - łostowice",
       "id": "olx_sale:1085619445"
+    },
+    "olx_sale:1085642879": {
+      "cena": 990000,
+      "data_wyslania": "2026-08-01T11:45:42.696301+00:00",
+      "fingerprint": "990000|93|3|wrzeszcz",
+      "id": "olx_sale:1085642879"
     },
     "olx_sale:1085729090": {
       "cena": 665000,
