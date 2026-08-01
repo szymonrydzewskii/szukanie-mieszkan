@@ -9,37 +9,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 8455,
+            "fetched": 8575,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 6766,
+            "fetched": 6862,
             "sent_main": 1,
             "sent_near": 0
           },
           "olx": {
             "dropped": 32,
-            "fetched": 10605,
+            "fetched": 10758,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
-            "dropped": 8,
-            "fetched": 9854,
+            "dropped": 10,
+            "fetched": 9997,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 4,
-            "fetched": 4039,
+            "fetched": 4097,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 4629,
+            "fetched": 4694,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -77,11 +77,11 @@
     "nieruchomosci_online": "000026869471",
     "nieruchomosci_online_sale": "000026868294",
     "olx": "2026-08-01T16:02:55+02:00",
-    "olx_sale": "2026-08-01T15:08:30+02:00",
+    "olx_sale": "2026-08-01T16:18:27+02:00",
     "trojmiasto": "000066496433",
     "trojmiasto_sale": "000066496011"
   },
-  "last_run": "2026-08-01T14:15:44.834119+00:00",
+  "last_run": "2026-08-01T14:31:05.089328+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -10643,6 +10643,12 @@
       "fingerprint": "1570|16|1|przymorze wielkie",
       "id": "olx:961928893"
     },
+    "olx:964902215": {
+      "cena": 2349,
+      "data_wyslania": "2026-08-01T14:31:05.089328+00:00",
+      "fingerprint": "2349|21|1|śródmieście",
+      "id": "olx:964902215"
+    },
     "olx:969886982": {
       "cena": 3500,
       "data_wyslania": "2026-07-24T20:05:29.070584+00:00",
@@ -10822,6 +10828,12 @@
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
       "fingerprint": "777908|62.39|3|",
       "id": "olx_sale:1041087333"
+    },
+    "olx_sale:1042630639": {
+      "cena": 840610,
+      "data_wyslania": "2026-08-01T14:31:05.089328+00:00",
+      "fingerprint": "840610|42.36|2|śródmieście",
+      "id": "olx_sale:1042630639"
     },
     "olx_sale:1043501167": {
       "cena": 782735,
@@ -11386,6 +11398,12 @@
       "data_wyslania": "2026-07-31T12:15:51.331384+00:00",
       "fingerprint": "700000|68.9|3|",
       "id": "olx_sale:1070528360"
+    },
+    "olx_sale:1070831667": {
+      "cena": 794000,
+      "data_wyslania": "2026-08-01T14:31:05.089328+00:00",
+      "fingerprint": "794000|59.01|3|",
+      "id": "olx_sale:1070831667"
     },
     "olx_sale:1070930866": {
       "cena": 769000,
@@ -14380,6 +14398,18 @@
       "data_wyslania": "2026-08-01T13:31:03.060296+00:00",
       "fingerprint": "1650000|117|4|grabówek",
       "id": "olx_sale:1088754332"
+    },
+    "olx_sale:1088768050": {
+      "cena": 522000,
+      "data_wyslania": "2026-08-01T14:31:05.089328+00:00",
+      "fingerprint": "522000|49.21|2|jasień",
+      "id": "olx_sale:1088768050"
+    },
+    "olx_sale:1088768105": {
+      "cena": 1015000,
+      "data_wyslania": "2026-08-01T14:31:05.089328+00:00",
+      "fingerprint": "1015000|66.29|3|piecki-migowo",
+      "id": "olx_sale:1088768105"
     },
     "olx_sale:857316110": {
       "cena": 715000,
