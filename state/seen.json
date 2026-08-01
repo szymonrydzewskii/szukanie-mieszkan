@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 11943,
+            "fetched": 12064,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 9548,
+            "fetched": 9637,
             "sent_main": 1,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 50,
-            "fetched": 15005,
+            "dropped": 52,
+            "fetched": 15156,
             "sent_main": 1,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 20,
-            "fetched": 13833,
+            "fetched": 13976,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 4,
-            "fetched": 5704,
+            "fetched": 5761,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 6489,
+            "fetched": 6552,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -75,14 +75,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026869944",
+    "nieruchomosci_online": "000026869971",
     "nieruchomosci_online_sale": "000026869715",
-    "olx": "2026-08-01T21:32:45+02:00",
+    "olx": "2026-08-01T22:43:12+02:00",
     "olx_sale": "2026-08-01T20:41:04+02:00",
     "trojmiasto": "000066496433",
     "trojmiasto_sale": "000066496011"
   },
-  "last_run": "2026-08-01T20:45:42.284207+00:00",
+  "last_run": "2026-08-01T21:01:06.116476+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -1655,6 +1655,12 @@
       "data_wyslania": "2026-08-01T19:45:47.117332+00:00",
       "fingerprint": "2700|54|2|dąbrowa",
       "id": "nieruchomosci_online:26869944"
+    },
+    "nieruchomosci_online:26869971": {
+      "cena": 2900,
+      "data_wyslania": "2026-08-01T21:01:06.116476+00:00",
+      "fingerprint": "2900|38|2|kamienny potok",
+      "id": "nieruchomosci_online:26869971"
     },
     "nieruchomosci_online_sale:23703220": {
       "cena": 427000,
@@ -10757,6 +10763,18 @@
       "data_wyslania": "2026-08-01T19:59:56.243335+00:00",
       "fingerprint": "3300|87|3|chylonia",
       "id": "olx:1088825137"
+    },
+    "olx:1088832364": {
+      "cena": 27000,
+      "data_wyslania": "2026-08-01T21:01:06.116476+00:00",
+      "fingerprint": "27000|41|2|wrzeszcz",
+      "id": "olx:1088832364"
+    },
+    "olx:1088832796": {
+      "cena": 3600,
+      "data_wyslania": "2026-08-01T21:01:06.116476+00:00",
+      "fingerprint": "3600|50|2|letnica",
+      "id": "olx:1088832796"
     },
     "olx:617323965": {
       "cena": 2500,
