@@ -53,37 +53,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 363,
+            "fetched": 484,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 264,
+            "fetched": 352,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 1,
-            "fetched": 456,
+            "fetched": 608,
             "sent_main": 0,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 0,
-            "fetched": 430,
+            "fetched": 574,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 171,
+            "fetched": 228,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 189,
+            "fetched": 252,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -119,13 +119,13 @@
   },
   "high_water": {
     "nieruchomosci_online": "000026869971",
-    "nieruchomosci_online_sale": "000026869715",
+    "nieruchomosci_online_sale": "000026869998",
     "olx": "2026-08-01T23:49:29+02:00",
-    "olx_sale": "2026-08-01T20:41:04+02:00",
+    "olx_sale": "2026-08-02T00:02:28+02:00",
     "trojmiasto": "000066496433",
     "trojmiasto_sale": "000066496658"
   },
-  "last_run": "2026-08-01T22:15:46.927753+00:00",
+  "last_run": "2026-08-01T22:31:03.725290+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -4428,6 +4428,12 @@
       "data_wyslania": "2026-08-01T15:01:10.591627+00:00",
       "fingerprint": "599999|45.9|3|chylonia",
       "id": "nieruchomosci_online_sale:26869715"
+    },
+    "nieruchomosci_online_sale:26869998": {
+      "cena": 446000,
+      "data_wyslania": "2026-08-01T22:31:03.725290+00:00",
+      "fingerprint": "446000|31|1|wzgórze św. maksymiliana",
+      "id": "nieruchomosci_online_sale:26869998"
     },
     "olx:1006019650": {
       "cena": 1800,
@@ -14802,6 +14808,12 @@
       "data_wyslania": "2026-08-01T18:45:41.466388+00:00",
       "fingerprint": "642923|32.19|1|śródmieście",
       "id": "olx_sale:1088815741"
+    },
+    "olx_sale:1088837626": {
+      "cena": 446000,
+      "data_wyslania": "2026-08-01T22:31:03.725290+00:00",
+      "fingerprint": "446000|31|1|wzgórze świętego maksymiliana",
+      "id": "olx_sale:1088837626"
     },
     "olx_sale:857316110": {
       "cena": 715000,
