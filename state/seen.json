@@ -9,37 +9,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 6050,
+            "fetched": 6171,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 4846,
+            "fetched": 4942,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 11,
-            "fetched": 7576,
+            "dropped": 12,
+            "fetched": 7727,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 2,
-            "fetched": 6997,
+            "fetched": 7138,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 2900,
+            "fetched": 2958,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 3321,
+            "fetched": 3387,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -76,12 +76,12 @@
   "high_water": {
     "nieruchomosci_online": "000026868511",
     "nieruchomosci_online_sale": "000026868294",
-    "olx": "2026-08-01T11:11:47+02:00",
+    "olx": "2026-08-01T11:33:49+02:00",
     "olx_sale": "2026-08-01T10:23:06+02:00",
     "trojmiasto": "000066496222",
     "trojmiasto_sale": "000066496011"
   },
-  "last_run": "2026-08-01T09:30:57.135860+00:00",
+  "last_run": "2026-08-01T09:47:09.147179+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -5387,6 +5387,12 @@
       "fingerprint": "3000|46|2|przymorze wielkie",
       "id": "olx:1082785943"
     },
+    "olx:1082802803": {
+      "cena": 6000,
+      "data_wyslania": "2026-08-01T09:47:09.147179+00:00",
+      "fingerprint": "6000|70|3|brzeźno",
+      "id": "olx:1082802803"
+    },
     "olx:1082817920": {
       "cena": 950,
       "data_wyslania": "2026-07-30T20:15:47.509868+00:00",
@@ -9281,6 +9287,12 @@
       "fingerprint": "2850|56|2|witomino-radiostacja",
       "id": "olx:1088298451"
     },
+    "olx:1088303401": {
+      "cena": 2700,
+      "data_wyslania": "2026-08-01T09:47:09.147179+00:00",
+      "fingerprint": "2700|52|2|piecki-migowo",
+      "id": "olx:1088303401"
+    },
     "olx:1088312467": {
       "cena": 2800,
       "data_wyslania": "2026-07-30T08:45:44.945644+00:00",
@@ -10264,6 +10276,12 @@
       "data_wyslania": "2026-08-01T09:30:57.135860+00:00",
       "fingerprint": "2500|33.5|2|ujeścisko - łostowice",
       "id": "olx:1088714741"
+    },
+    "olx:1088717885": {
+      "cena": 2400,
+      "data_wyslania": "2026-08-01T09:47:09.147179+00:00",
+      "fingerprint": "2400|40|2|wielki kack",
+      "id": "olx:1088717885"
     },
     "olx:617323965": {
       "cena": 2500,
@@ -11920,6 +11938,12 @@
       "data_wyslania": "2026-07-25T11:45:41.338636+00:00",
       "fingerprint": "619000|56|3|",
       "id": "olx_sale:1083138638"
+    },
+    "olx_sale:1083285466": {
+      "cena": 420000,
+      "data_wyslania": "2026-08-01T09:47:09.147179+00:00",
+      "fingerprint": "420000|46|2|cisowa",
+      "id": "olx_sale:1083285466"
     },
     "olx_sale:1083308895": {
       "cena": 620000,
