@@ -12,37 +12,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 12306,
+            "fetched": 12427,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 9815,
+            "fetched": 9903,
             "sent_main": 1,
             "sent_near": 0
           },
           "olx": {
             "dropped": 53,
-            "fetched": 15613,
+            "fetched": 15764,
             "sent_main": 1,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 20,
-            "fetched": 14397,
+            "fetched": 14541,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 4,
-            "fetched": 5932,
+            "fetched": 5989,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 6739,
+            "fetched": 6803,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -52,12 +52,12 @@
   },
   "health": {
     "nieruchomosci_online": {
-      "bad": 1,
-      "last_error": "Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Max retries exceeded with url: /szukaj.html?3,mieszkanie,wynajem,,Gda%C5%84sk (Caused by ConnectTim"
+      "bad": 0,
+      "last_error": null
     },
     "nieruchomosci_online_sale": {
-      "bad": 1,
-      "last_error": "Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Max retries exceeded with url: /szukaj.html?3,mieszkanie,sprzedaz,,Gda%C5%84sk (Caused by ConnectTi"
+      "bad": 0,
+      "last_error": null
     },
     "olx": {
       "bad": 0,
@@ -84,7 +84,7 @@
     "trojmiasto": "000066496433",
     "trojmiasto_sale": "000066496635"
   },
-  "last_run": "2026-08-01T21:30:56.702182+00:00",
+  "last_run": "2026-08-01T21:45:51.132141+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
