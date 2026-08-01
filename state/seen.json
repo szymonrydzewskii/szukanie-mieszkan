@@ -53,37 +53,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 242,
+            "fetched": 363,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 176,
+            "fetched": 264,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 1,
-            "fetched": 303,
+            "fetched": 456,
             "sent_main": 0,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 0,
-            "fetched": 286,
+            "fetched": 430,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 114,
+            "fetched": 171,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 126,
+            "fetched": 189,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -125,7 +125,7 @@
     "trojmiasto": "000066496433",
     "trojmiasto_sale": "000066496658"
   },
-  "last_run": "2026-08-01T22:14:04.973038+00:00",
+  "last_run": "2026-08-01T22:15:46.927753+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -6048,6 +6048,12 @@
       "data_wyslania": "2026-07-29T12:30:58.974001+00:00",
       "fingerprint": "3000|61|2|redłowo",
       "id": "olx:1084738266"
+    },
+    "olx:1084778675": {
+      "cena": 3100,
+      "data_wyslania": "2026-08-01T22:15:46.927753+00:00",
+      "fingerprint": "3100|43|2|letnica",
+      "id": "olx:1084778675"
     },
     "olx:1084793926": {
       "cena": 2400,
