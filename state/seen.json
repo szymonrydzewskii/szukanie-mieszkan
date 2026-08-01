@@ -8,38 +8,38 @@
         ],
         "sources": {
           "nieruchomosci_online": {
-            "dropped": 0,
-            "fetched": 6171,
+            "dropped": 2,
+            "fetched": 6292,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 4942,
+            "fetched": 5038,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 12,
-            "fetched": 7727,
+            "dropped": 13,
+            "fetched": 7878,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 2,
-            "fetched": 7138,
+            "fetched": 7281,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 2958,
+            "fetched": 3016,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 3387,
+            "fetched": 3452,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -74,14 +74,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026868511",
+    "nieruchomosci_online": "000026869363",
     "nieruchomosci_online_sale": "000026868294",
-    "olx": "2026-08-01T11:33:49+02:00",
+    "olx": "2026-08-01T11:38:52+02:00",
     "olx_sale": "2026-08-01T10:23:06+02:00",
     "trojmiasto": "000066496222",
     "trojmiasto_sale": "000066496011"
   },
-  "last_run": "2026-08-01T09:47:09.147179+00:00",
+  "last_run": "2026-08-01T10:01:15.599512+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -1606,6 +1606,24 @@
       "data_wyslania": "2026-07-31T18:40:35.391358+00:00",
       "fingerprint": "3000|45.8|3|redłowo",
       "id": "nieruchomosci_online:26868511"
+    },
+    "nieruchomosci_online:26869350": {
+      "cena": 3800,
+      "data_wyslania": "2026-08-01T10:01:15.599512+00:00",
+      "fingerprint": "3800|84.9|3|redłowo",
+      "id": "nieruchomosci_online:26869350"
+    },
+    "nieruchomosci_online:26869354": {
+      "cena": 4100,
+      "data_wyslania": "2026-08-01T10:01:15.599512+00:00",
+      "fingerprint": "4100|62|3|letnica",
+      "id": "nieruchomosci_online:26869354"
+    },
+    "nieruchomosci_online:26869363": {
+      "cena": 3000,
+      "data_wyslania": "2026-08-01T10:01:15.599512+00:00",
+      "fingerprint": "3000|66|2|kamienna góra",
+      "id": "nieruchomosci_online:26869363"
     },
     "nieruchomosci_online_sale:23703220": {
       "cena": 427000,
@@ -10282,6 +10300,12 @@
       "data_wyslania": "2026-08-01T09:47:09.147179+00:00",
       "fingerprint": "2400|40|2|wielki kack",
       "id": "olx:1088717885"
+    },
+    "olx:1088718615": {
+      "cena": 900,
+      "data_wyslania": "2026-08-01T10:01:15.599512+00:00",
+      "fingerprint": "900|15|3|osowa",
+      "id": "olx:1088718615"
     },
     "olx:617323965": {
       "cena": 2500,
