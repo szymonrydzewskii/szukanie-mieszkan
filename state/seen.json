@@ -9,37 +9,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 8695,
+            "fetched": 8815,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
-            "dropped": 0,
-            "fetched": 6958,
+            "dropped": 1,
+            "fetched": 7054,
             "sent_main": 1,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 32,
-            "fetched": 10911,
+            "dropped": 35,
+            "fetched": 11059,
             "sent_main": 0,
-            "sent_near": 0
+            "sent_near": 1
           },
           "olx_sale": {
             "dropped": 13,
-            "fetched": 10140,
+            "fetched": 10284,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 4,
-            "fetched": 4155,
+            "fetched": 4213,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 4758,
+            "fetched": 4823,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -75,13 +75,13 @@
   },
   "high_water": {
     "nieruchomosci_online": "000026869471",
-    "nieruchomosci_online_sale": "000026868294",
-    "olx": "2026-08-01T16:02:55+02:00",
+    "nieruchomosci_online_sale": "000026869715",
+    "olx": "2026-08-01T16:39:53+02:00",
     "olx_sale": "2026-08-01T16:31:25+02:00",
     "trojmiasto": "000066496433",
     "trojmiasto_sale": "000066496011"
   },
-  "last_run": "2026-08-01T14:45:46.992849+00:00",
+  "last_run": "2026-08-01T15:01:10.591627+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -4355,6 +4355,12 @@
       "fingerprint": "799000|85|4|borkowo",
       "id": "nieruchomosci_online_sale:26868294"
     },
+    "nieruchomosci_online_sale:26869715": {
+      "cena": 599999,
+      "data_wyslania": "2026-08-01T15:01:10.591627+00:00",
+      "fingerprint": "599999|45.9|3|chylonia",
+      "id": "nieruchomosci_online_sale:26869715"
+    },
     "olx:1006019650": {
       "cena": 1800,
       "data_wyslania": "2026-07-29T14:31:06.068837+00:00",
@@ -5452,6 +5458,12 @@
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
       "fingerprint": "2500|19|4|leszczynki",
       "id": "olx:1082558017"
+    },
+    "olx:1082561234": {
+      "cena": 3300,
+      "data_wyslania": "2026-08-01T15:01:10.591627+00:00",
+      "fingerprint": "3300|39|2|przymorze wielkie",
+      "id": "olx:1082561234"
     },
     "olx:1082632288": {
       "cena": 2600,
@@ -10564,6 +10576,30 @@
       "data_wyslania": "2026-08-01T14:15:44.834119+00:00",
       "fingerprint": "2990|39|2|śródmieście",
       "id": "olx:1088764647"
+    },
+    "olx:1088771475": {
+      "cena": 2100,
+      "data_wyslania": "2026-08-01T15:01:10.591627+00:00",
+      "fingerprint": "2100|29|1|jasień",
+      "id": "olx:1088771475"
+    },
+    "olx:1088771784": {
+      "cena": 2600,
+      "data_wyslania": "2026-08-01T15:01:10.591627+00:00",
+      "fingerprint": "2600|38|2|górny sopot",
+      "id": "olx:1088771784"
+    },
+    "olx:1088772310": {
+      "cena": 1450,
+      "data_wyslania": "2026-08-01T15:01:10.591627+00:00",
+      "fingerprint": "1450|27.3|1|wrzeszcz",
+      "id": "olx:1088772310"
+    },
+    "olx:1088772597": {
+      "cena": 5100,
+      "data_wyslania": "2026-08-01T15:01:10.591627+00:00",
+      "fingerprint": "5100|53|2|śródmieście",
+      "id": "olx:1088772597"
     },
     "olx:617323965": {
       "cena": 2500,
