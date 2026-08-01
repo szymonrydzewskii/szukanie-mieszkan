@@ -9,37 +9,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 7615,
+            "fetched": 7735,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 6094,
-            "sent_main": 0,
+            "fetched": 6190,
+            "sent_main": 1,
             "sent_near": 0
           },
           "olx": {
             "dropped": 23,
-            "fetched": 9541,
+            "fetched": 9690,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 6,
-            "fetched": 8853,
+            "fetched": 8997,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 4,
-            "fetched": 3642,
+            "fetched": 3699,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 4176,
+            "fetched": 4241,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -81,7 +81,7 @@
     "trojmiasto": "000066496265",
     "trojmiasto_sale": "000066496011"
   },
-  "last_run": "2026-08-01T12:31:00.800302+00:00",
+  "last_run": "2026-08-01T12:45:47.595569+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -2093,6 +2093,12 @@
       "fingerprint": "1299000|95.5|4|śródmieście",
       "id": "nieruchomosci_online_sale:26378123"
     },
+    "nieruchomosci_online_sale:26396705": {
+      "cena": 1900000,
+      "data_wyslania": "2026-08-01T12:45:47.595569+00:00",
+      "fingerprint": "1900000|91|4|wyspa spichrzów",
+      "id": "nieruchomosci_online_sale:26396705"
+    },
     "nieruchomosci_online_sale:26403121": {
       "cena": 1094000,
       "data_wyslania": "2026-07-27T13:15:49.942539+00:00",
@@ -2951,6 +2957,12 @@
       "fingerprint": "899000|63.2|3|piecki-migowo",
       "id": "nieruchomosci_online_sale:26678920"
     },
+    "nieruchomosci_online_sale:26683080": {
+      "cena": 819000,
+      "data_wyslania": "2026-08-01T12:45:47.595569+00:00",
+      "fingerprint": "819000|65.79|3|jasień",
+      "id": "nieruchomosci_online_sale:26683080"
+    },
     "nieruchomosci_online_sale:26683107": {
       "cena": 680000,
       "data_wyslania": "2026-07-29T06:01:09.360187+00:00",
@@ -3324,9 +3336,9 @@
       "id": "nieruchomosci_online_sale:26742736"
     },
     "nieruchomosci_online_sale:26742863": {
-      "cena": 599000,
-      "data_wyslania": "2026-07-26T12:45:42.052871+00:00",
-      "fingerprint": "599000|44.53|2|wrzeszcz dolny",
+      "cena": 589000,
+      "data_wyslania": "2026-08-01T12:45:47.595569+00:00",
+      "fingerprint": "589000|44.53|2|wrzeszcz dolny",
       "id": "nieruchomosci_online_sale:26742863"
     },
     "nieruchomosci_online_sale:26743721": {
@@ -3623,6 +3635,12 @@
       "fingerprint": "870000|47.6|2|redłowo",
       "id": "nieruchomosci_online_sale:26787518"
     },
+    "nieruchomosci_online_sale:26787872": {
+      "cena": 829000,
+      "data_wyslania": "2026-08-01T12:45:47.595569+00:00",
+      "fingerprint": "829000|32.34|2|wrzeszcz dolny",
+      "id": "nieruchomosci_online_sale:26787872"
+    },
     "nieruchomosci_online_sale:26788220": {
       "cena": 589000,
       "data_wyslania": "2026-07-26T10:15:49.083064+00:00",
@@ -3916,6 +3934,12 @@
       "data_wyslania": "2026-07-26T12:45:42.052871+00:00",
       "fingerprint": "899000|64.5|3|zaspa",
       "id": "nieruchomosci_online_sale:26825941"
+    },
+    "nieruchomosci_online_sale:26826749": {
+      "cena": 899000,
+      "data_wyslania": "2026-08-01T12:45:47.595569+00:00",
+      "fingerprint": "899000|52.17|3|piecki-migowo",
+      "id": "nieruchomosci_online_sale:26826749"
     },
     "nieruchomosci_online_sale:26826970": {
       "cena": 730000,
