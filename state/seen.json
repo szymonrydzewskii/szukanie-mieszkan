@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 12185,
+            "fetched": 12306,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 9726,
+            "fetched": 9815,
             "sent_main": 1,
             "sent_near": 0
           },
           "olx": {
             "dropped": 52,
-            "fetched": 15308,
+            "fetched": 15460,
             "sent_main": 1,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 20,
-            "fetched": 14115,
+            "fetched": 14256,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 4,
-            "fetched": 5818,
+            "fetched": 5875,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto_sale": {
-            "dropped": 2,
-            "fetched": 6615,
+            "dropped": 3,
+            "fetched": 6677,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -80,9 +80,9 @@
     "olx": "2026-08-01T22:50:08+02:00",
     "olx_sale": "2026-08-01T20:41:04+02:00",
     "trojmiasto": "000066496433",
-    "trojmiasto_sale": "000066496011"
+    "trojmiasto_sale": "000066496635"
   },
-  "last_run": "2026-08-01T21:06:25.692579+00:00",
+  "last_run": "2026-08-01T21:15:47.072066+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -17621,6 +17621,12 @@
       "data_wyslania": "2026-07-31T23:01:12.806813+00:00",
       "fingerprint": "2090000|178.05|6|kębłowo",
       "id": "trojmiasto_sale:66496011"
+    },
+    "trojmiasto_sale:66496635": {
+      "cena": 446000,
+      "data_wyslania": "2026-08-01T21:15:47.072066+00:00",
+      "fingerprint": "446000|31|1|wzgórze św. maksymiliana",
+      "id": "trojmiasto_sale:66496635"
     }
   },
   "version": 1
