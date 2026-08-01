@@ -5,7 +5,9 @@
       "2026-08-01": {
         "errors": [
           "olx_sale: OLX: HTTP 502 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 15983, 'sort_by': 'created_at:desc'} (",
-          "olx_sale: OLX: HTTP 500 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (p"
+          "olx_sale: OLX: HTTP 500 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (p",
+          "nieruchomosci_online: Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Max retries exceede",
+          "nieruchomosci_online_sale: Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Max retries exceede"
         ],
         "sources": {
           "nieruchomosci_online": {
@@ -21,26 +23,26 @@
             "sent_near": 0
           },
           "olx": {
-            "dropped": 52,
-            "fetched": 15460,
+            "dropped": 53,
+            "fetched": 15613,
             "sent_main": 1,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 20,
-            "fetched": 14256,
+            "fetched": 14397,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 4,
-            "fetched": 5875,
+            "fetched": 5932,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 6677,
+            "fetched": 6739,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -50,12 +52,12 @@
   },
   "health": {
     "nieruchomosci_online": {
-      "bad": 0,
-      "last_error": null
+      "bad": 1,
+      "last_error": "Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Max retries exceeded with url: /szukaj.html?3,mieszkanie,wynajem,,Gda%C5%84sk (Caused by ConnectTim"
     },
     "nieruchomosci_online_sale": {
-      "bad": 0,
-      "last_error": null
+      "bad": 1,
+      "last_error": "Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Max retries exceeded with url: /szukaj.html?3,mieszkanie,sprzedaz,,Gda%C5%84sk (Caused by ConnectTi"
     },
     "olx": {
       "bad": 0,
@@ -77,12 +79,12 @@
   "high_water": {
     "nieruchomosci_online": "000026869971",
     "nieruchomosci_online_sale": "000026869715",
-    "olx": "2026-08-01T22:50:08+02:00",
+    "olx": "2026-08-01T23:19:44+02:00",
     "olx_sale": "2026-08-01T20:41:04+02:00",
     "trojmiasto": "000066496433",
     "trojmiasto_sale": "000066496635"
   },
-  "last_run": "2026-08-01T21:15:47.072066+00:00",
+  "last_run": "2026-08-01T21:30:56.702182+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -10781,6 +10783,12 @@
       "data_wyslania": "2026-08-01T21:06:25.692579+00:00",
       "fingerprint": "3100|50|2|letnica",
       "id": "olx:1088833283"
+    },
+    "olx:1088835360": {
+      "cena": 2900,
+      "data_wyslania": "2026-08-01T21:30:56.702182+00:00",
+      "fingerprint": "2900|27|1|śródmieście",
+      "id": "olx:1088835360"
     },
     "olx:617323965": {
       "cena": 2500,
