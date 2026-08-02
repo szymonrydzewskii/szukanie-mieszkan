@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 5938,
+            "fetched": 6058,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 4334,
+            "fetched": 4428,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 12,
-            "fetched": 7447,
+            "fetched": 7597,
             "sent_main": 1,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 3,
-            "fetched": 6930,
+            "fetched": 7072,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2748,
+            "fetched": 2807,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 3000,
+            "fetched": 3063,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -82,7 +82,7 @@
     "trojmiasto": "000066496784",
     "trojmiasto_sale": "000066496658"
   },
-  "last_run": "2026-08-02T09:26:13.389764+00:00",
+  "last_run": "2026-08-02T09:30:57.012187+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -6653,6 +6653,18 @@
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
       "fingerprint": "2400|33|2|obłuże",
       "id": "olx:1086505012"
+    },
+    "olx:1086509580": {
+      "cena": 2400,
+      "data_wyslania": "2026-08-02T09:30:57.012187+00:00",
+      "fingerprint": "2400|25|1|brzeźno",
+      "id": "olx:1086509580"
+    },
+    "olx:1086510548": {
+      "cena": 2100,
+      "data_wyslania": "2026-08-02T09:30:57.012187+00:00",
+      "fingerprint": "2100|16|1|brzeźno",
+      "id": "olx:1086510548"
     },
     "olx:1086518529": {
       "cena": 3200,
