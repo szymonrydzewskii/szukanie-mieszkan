@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 4483,
+            "fetched": 4605,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 3256,
+            "fetched": 3344,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 5,
-            "fetched": 5628,
+            "fetched": 5783,
             "sent_main": 1,
-            "sent_near": 1
+            "sent_near": 2
           },
           "olx_sale": {
             "dropped": 0,
-            "fetched": 5245,
+            "fetched": 5383,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2052,
+            "fetched": 2109,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 2249,
+            "fetched": 2311,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -66,23 +66,23 @@
       "last_error": null
     },
     "trojmiasto": {
-      "bad": 1,
-      "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
+      "bad": 0,
+      "last_error": null
     },
     "trojmiasto_sale": {
-      "bad": 1,
-      "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
+      "bad": 0,
+      "last_error": null
     }
   },
   "high_water": {
     "nieruchomosci_online": "000026870015",
     "nieruchomosci_online_sale": "000026869998",
-    "olx": "2026-08-02T07:48:10+02:00",
+    "olx": "2026-08-02T08:27:06+02:00",
     "olx_sale": "2026-08-02T00:02:28+02:00",
     "trojmiasto": "000066496433",
     "trojmiasto_sale": "000066496658"
   },
-  "last_run": "2026-08-02T06:31:02.932630+00:00",
+  "last_run": "2026-08-02T06:45:52.196069+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -10889,6 +10889,12 @@
       "data_wyslania": "2026-08-02T06:01:12.565808+00:00",
       "fingerprint": "3100|47|2|wzgórze świętego maksymiliana",
       "id": "olx:1088848293"
+    },
+    "olx:1088850901": {
+      "cena": 2700,
+      "data_wyslania": "2026-08-02T06:45:52.196069+00:00",
+      "fingerprint": "2700|40|2|chełm z dzielnicą gdańsk południe",
+      "id": "olx:1088850901"
     },
     "olx:617323965": {
       "cena": 2500,
