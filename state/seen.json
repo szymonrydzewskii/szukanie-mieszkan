@@ -2,88 +2,42 @@
   "daily": {},
   "digest": {
     "days": {
-      "2026-08-01": {
-        "errors": [
-          "olx_sale: OLX: HTTP 502 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 15983, 'sort_by': 'created_at:desc'} (",
-          "olx_sale: OLX: HTTP 500 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (p",
-          "nieruchomosci_online: Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Max retries exceede",
-          "nieruchomosci_online_sale: Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Max retries exceede"
-        ],
-        "sources": {
-          "nieruchomosci_online": {
-            "dropped": 5,
-            "fetched": 12427,
-            "sent_main": 0,
-            "sent_near": 0
-          },
-          "nieruchomosci_online_sale": {
-            "dropped": 1,
-            "fetched": 9903,
-            "sent_main": 1,
-            "sent_near": 0
-          },
-          "olx": {
-            "dropped": 53,
-            "fetched": 15764,
-            "sent_main": 1,
-            "sent_near": 1
-          },
-          "olx_sale": {
-            "dropped": 20,
-            "fetched": 14541,
-            "sent_main": 0,
-            "sent_near": 0
-          },
-          "trojmiasto": {
-            "dropped": 4,
-            "fetched": 5989,
-            "sent_main": 0,
-            "sent_near": 1
-          },
-          "trojmiasto_sale": {
-            "dropped": 3,
-            "fetched": 6803,
-            "sent_main": 0,
-            "sent_near": 0
-          }
-        }
-      },
       "2026-08-02": {
         "errors": [],
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 4117,
+            "fetched": 4239,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 2992,
+            "fetched": 3080,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 4,
-            "fetched": 5172,
+            "dropped": 5,
+            "fetched": 5326,
             "sent_main": 1,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 0,
-            "fetched": 4822,
+            "fetched": 4963,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 1938,
+            "fetched": 1995,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 2126,
+            "fetched": 2187,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -120,12 +74,12 @@
   "high_water": {
     "nieruchomosci_online": "000026870015",
     "nieruchomosci_online_sale": "000026869998",
-    "olx": "2026-08-02T07:01:33+02:00",
+    "olx": "2026-08-02T07:48:10+02:00",
     "olx_sale": "2026-08-02T00:02:28+02:00",
     "trojmiasto": "000066496433",
     "trojmiasto_sale": "000066496658"
   },
-  "last_run": "2026-08-02T05:45:42.174581+00:00",
+  "last_run": "2026-08-02T06:01:12.565808+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -10926,6 +10880,12 @@
       "data_wyslania": "2026-08-02T05:15:48.988886+00:00",
       "fingerprint": "450|1|1|centrum",
       "id": "olx:1088846842"
+    },
+    "olx:1088848293": {
+      "cena": 3100,
+      "data_wyslania": "2026-08-02T06:01:12.565808+00:00",
+      "fingerprint": "3100|47|2|wzgórze świętego maksymiliana",
+      "id": "olx:1088848293"
     },
     "olx:617323965": {
       "cena": 2500,
