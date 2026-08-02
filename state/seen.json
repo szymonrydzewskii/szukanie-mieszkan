@@ -53,37 +53,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 3873,
+            "fetched": 3995,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 2816,
+            "fetched": 2904,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 4,
-            "fetched": 4870,
+            "fetched": 5022,
             "sent_main": 1,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 0,
-            "fetched": 4544,
+            "fetched": 4683,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 1824,
+            "fetched": 1881,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 2001,
+            "fetched": 2064,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -125,7 +125,7 @@
     "trojmiasto": "000066496433",
     "trojmiasto_sale": "000066496658"
   },
-  "last_run": "2026-08-02T05:15:48.988886+00:00",
+  "last_run": "2026-08-02T05:30:57.816081+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -4878,6 +4878,12 @@
       "data_wyslania": "2026-07-24T13:35:48.038138+00:00",
       "fingerprint": "3500|35|2|aniołki",
       "id": "olx:1070668514"
+    },
+    "olx:1071170980": {
+      "cena": 2300,
+      "data_wyslania": "2026-08-02T05:30:57.816081+00:00",
+      "fingerprint": "2300|45|2|ujeścisko - łostowice",
+      "id": "olx:1071170980"
     },
     "olx:1071324886": {
       "cena": 2300,
