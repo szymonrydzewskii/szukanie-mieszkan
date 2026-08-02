@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 9542,
+            "fetched": 9662,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 7155,
+            "fetched": 7254,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 39,
-            "fetched": 11986,
+            "dropped": 40,
+            "fetched": 12135,
             "sent_main": 3,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 8,
-            "fetched": 11136,
+            "fetched": 11276,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 4534,
+            "fetched": 4594,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 4878,
+            "fetched": 4941,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -77,12 +77,12 @@
   "high_water": {
     "nieruchomosci_online": "000026870015",
     "nieruchomosci_online_sale": "000026870053",
-    "olx": "2026-08-02T17:41:54+02:00",
-    "olx_sale": "2026-08-02T17:45:14+02:00",
+    "olx": "2026-08-02T17:57:37+02:00",
+    "olx_sale": "2026-08-02T18:05:26+02:00",
     "trojmiasto": "000066496980",
     "trojmiasto_sale": "000066497050"
   },
-  "last_run": "2026-08-02T16:01:16.366138+00:00",
+  "last_run": "2026-08-02T16:15:41.574864+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -11346,6 +11346,12 @@
       "fingerprint": "2850|58|3|chylonia",
       "id": "olx:1088945675"
     },
+    "olx:1088948847": {
+      "cena": 3000,
+      "data_wyslania": "2026-08-02T16:15:41.574864+00:00",
+      "fingerprint": "3000|48|2|śródmieście",
+      "id": "olx:1088948847"
+    },
     "olx:615984429": {
       "cena": 2400,
       "data_wyslania": "2026-08-02T11:30:57.309222+00:00",
@@ -15437,6 +15443,12 @@
       "data_wyslania": "2026-08-02T16:01:16.366138+00:00",
       "fingerprint": "399000|39.1|2|krakowiec - górki zachodnie",
       "id": "olx_sale:1088946286"
+    },
+    "olx_sale:1088950748": {
+      "cena": 479000,
+      "data_wyslania": "2026-08-02T16:15:41.574864+00:00",
+      "fingerprint": "479000|53.2|3|obłuże",
+      "id": "olx_sale:1088950748"
     },
     "olx_sale:857316110": {
       "cena": 715000,
