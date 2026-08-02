@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 8578,
+            "fetched": 8698,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 6375,
+            "fetched": 6468,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 36,
-            "fetched": 10769,
+            "fetched": 10923,
             "sent_main": 3,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 7,
-            "fetched": 10018,
+            "fetched": 10156,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 4054,
+            "fetched": 4114,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 4377,
+            "fetched": 4438,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -77,12 +77,12 @@
   "high_water": {
     "nieruchomosci_online": "000026870015",
     "nieruchomosci_online_sale": "000026870053",
-    "olx": "2026-08-02T15:52:57+02:00",
+    "olx": "2026-08-02T16:09:37+02:00",
     "olx_sale": "2026-08-02T14:20:03+02:00",
     "trojmiasto": "000066496980",
     "trojmiasto_sale": "000066496658"
   },
-  "last_run": "2026-08-02T14:04:18.119786+00:00",
+  "last_run": "2026-08-02T14:15:50.546167+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -2633,6 +2633,12 @@
       "data_wyslania": "2026-07-30T10:31:04.658233+00:00",
       "fingerprint": "1225000|70|3|przymorze",
       "id": "nieruchomosci_online_sale:26574498"
+    },
+    "nieruchomosci_online_sale:26574615": {
+      "cena": 1049000,
+      "data_wyslania": "2026-08-02T14:15:50.546167+00:00",
+      "fingerprint": "1049000|77.18|4|pogórze",
+      "id": "nieruchomosci_online_sale:26574615"
     },
     "nieruchomosci_online_sale:26574790": {
       "cena": 799000,
@@ -11285,6 +11291,12 @@
       "data_wyslania": "2026-08-02T14:01:12.956309+00:00",
       "fingerprint": "2000|40|2|obłuże",
       "id": "olx:1088924577"
+    },
+    "olx:1088928478": {
+      "cena": 1900,
+      "data_wyslania": "2026-08-02T14:15:50.546167+00:00",
+      "fingerprint": "1900|30|1|górny sopot",
+      "id": "olx:1088928478"
     },
     "olx:615984429": {
       "cena": 2400,
