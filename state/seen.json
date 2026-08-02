@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 6898,
+            "fetched": 7018,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 5080,
+            "fetched": 5172,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 22,
-            "fetched": 8654,
+            "dropped": 23,
+            "fetched": 8801,
             "sent_main": 2,
             "sent_near": 2
           },
           "olx_sale": {
-            "dropped": 4,
-            "fetched": 8056,
+            "dropped": 5,
+            "fetched": 8198,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 3222,
+            "fetched": 3282,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 3502,
+            "fetched": 3565,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -77,12 +77,12 @@
   "high_water": {
     "nieruchomosci_online": "000026870015",
     "nieruchomosci_online_sale": "000026870053",
-    "olx": "2026-08-02T12:34:11+02:00",
-    "olx_sale": "2026-08-02T11:48:23+02:00",
+    "olx": "2026-08-02T13:03:04+02:00",
+    "olx_sale": "2026-08-02T13:04:41+02:00",
     "trojmiasto": "000066496784",
     "trojmiasto_sale": "000066496658"
   },
-  "last_run": "2026-08-02T11:03:56.514936+00:00",
+  "last_run": "2026-08-02T11:15:43.990198+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -11160,6 +11160,12 @@
       "fingerprint": "1700|48|2|śródmieście",
       "id": "olx:1088885731"
     },
+    "olx:1088891635": {
+      "cena": 2950,
+      "data_wyslania": "2026-08-02T11:15:43.990198+00:00",
+      "fingerprint": "2950|50|2|chwarzno-wiczlino",
+      "id": "olx:1088891635"
+    },
     "olx:617323965": {
       "cena": 2500,
       "data_wyslania": "2026-07-30T10:15:42.716194+00:00",
@@ -11225,6 +11231,12 @@
       "data_wyslania": "2026-07-30T10:15:42.716194+00:00",
       "fingerprint": "2300|16|1|przymorze wielkie",
       "id": "olx:959519073"
+    },
+    "olx:960018356": {
+      "cena": 2400,
+      "data_wyslania": "2026-08-02T11:15:43.990198+00:00",
+      "fingerprint": "2400|16|1|przymorze wielkie",
+      "id": "olx:960018356"
     },
     "olx:960020012": {
       "cena": 2500,
@@ -12935,6 +12947,12 @@
       "data_wyslania": "2026-08-01T09:47:09.147179+00:00",
       "fingerprint": "420000|46|2|cisowa",
       "id": "olx_sale:1083285466"
+    },
+    "olx_sale:1083285622": {
+      "cena": 892000,
+      "data_wyslania": "2026-08-02T11:15:43.990198+00:00",
+      "fingerprint": "892000|55.22|3|działki leśne",
+      "id": "olx_sale:1083285622"
     },
     "olx_sale:1083308895": {
       "cena": 620000,
@@ -15167,6 +15185,12 @@
       "data_wyslania": "2026-08-02T10:01:10.124570+00:00",
       "fingerprint": "945000|66.2|3|chwarzno-wiczlino",
       "id": "olx_sale:1088875692"
+    },
+    "olx_sale:1088891953": {
+      "cena": 892000,
+      "data_wyslania": "2026-08-02T11:15:43.990198+00:00",
+      "fingerprint": "892000|55.07|3|działki leśne",
+      "id": "olx_sale:1088891953"
     },
     "olx_sale:857316110": {
       "cena": 715000,
