@@ -3,29 +3,32 @@
   "digest": {
     "days": {
       "2026-08-02": {
-        "errors": [],
+        "errors": [
+          "trojmiasto: Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTY",
+          "trojmiasto_sale: Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!"
+        ],
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 4361,
+            "fetched": 4483,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 3168,
+            "fetched": 3256,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 5,
-            "fetched": 5475,
+            "fetched": 5628,
             "sent_main": 1,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 0,
-            "fetched": 5103,
+            "fetched": 5245,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -63,12 +66,12 @@
       "last_error": null
     },
     "trojmiasto": {
-      "bad": 0,
-      "last_error": null
+      "bad": 1,
+      "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 0,
-      "last_error": null
+      "bad": 1,
+      "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
   "high_water": {
@@ -79,7 +82,7 @@
     "trojmiasto": "000066496433",
     "trojmiasto_sale": "000066496658"
   },
-  "last_run": "2026-08-02T06:15:43.192879+00:00",
+  "last_run": "2026-08-02T06:31:02.932630+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
