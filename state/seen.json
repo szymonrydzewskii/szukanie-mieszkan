@@ -53,37 +53,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 2178,
+            "fetched": 2299,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 1584,
+            "fetched": 1672,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 2,
-            "fetched": 2744,
+            "fetched": 2895,
             "sent_main": 0,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 0,
-            "fetched": 2561,
+            "fetched": 2702,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 1026,
+            "fetched": 1083,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 1126,
+            "fetched": 1188,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -125,7 +125,7 @@
     "trojmiasto": "000066496433",
     "trojmiasto_sale": "000066496658"
   },
-  "last_run": "2026-08-02T02:01:08.971784+00:00",
+  "last_run": "2026-08-02T02:15:41.292244+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -247,6 +247,12 @@
       "fingerprint": "2350|40|2|wzgórze św. maksymiliana",
       "id": "nieruchomosci_online:26013152"
     },
+    "nieruchomosci_online:26026008": {
+      "cena": 2900,
+      "data_wyslania": "2026-08-02T02:15:41.292244+00:00",
+      "fingerprint": "2900|35|2|centrum",
+      "id": "nieruchomosci_online:26026008"
+    },
     "nieruchomosci_online:26026012": {
       "cena": 3300,
       "data_wyslania": "2026-07-25T09:45:42.497013+00:00",
@@ -270,6 +276,12 @@
       "data_wyslania": "2026-07-30T02:15:44.686996+00:00",
       "fingerprint": "2600|25|1|górny sopot",
       "id": "nieruchomosci_online:26029751"
+    },
+    "nieruchomosci_online:26029752": {
+      "cena": 2600,
+      "data_wyslania": "2026-08-02T02:15:41.292244+00:00",
+      "fingerprint": "2600|25|1|górny sopot",
+      "id": "nieruchomosci_online:26029752"
     },
     "nieruchomosci_online:26156671": {
       "cena": 4800,
@@ -330,6 +342,12 @@
       "data_wyslania": "2026-07-25T09:45:42.497013+00:00",
       "fingerprint": "2800|33.6|2|jasień",
       "id": "nieruchomosci_online:26434087"
+    },
+    "nieruchomosci_online:26458746": {
+      "cena": 4500,
+      "data_wyslania": "2026-08-02T02:15:41.292244+00:00",
+      "fingerprint": "4500|87|4|chwarzno-wiczlino",
+      "id": "nieruchomosci_online:26458746"
     },
     "nieruchomosci_online:26482029": {
       "cena": 4500,
@@ -426,6 +444,12 @@
       "data_wyslania": "2026-07-26T02:15:51.184244+00:00",
       "fingerprint": "6900|74|3|wzgórze św. maksymiliana",
       "id": "nieruchomosci_online:26623526"
+    },
+    "nieruchomosci_online:26635201": {
+      "cena": 6900,
+      "data_wyslania": "2026-08-02T02:15:41.292244+00:00",
+      "fingerprint": "6900|156.35|4|górny sopot",
+      "id": "nieruchomosci_online:26635201"
     },
     "nieruchomosci_online:26652477": {
       "cena": 5000,
