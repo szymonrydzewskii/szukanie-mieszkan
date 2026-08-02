@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 4849,
+            "fetched": 4971,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 3520,
+            "fetched": 3608,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 5,
-            "fetched": 6086,
+            "fetched": 6235,
             "sent_main": 1,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 0,
-            "fetched": 5662,
+            "fetched": 5801,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2224,
+            "fetched": 2282,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 2437,
+            "fetched": 2500,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -77,12 +77,12 @@
   "high_water": {
     "nieruchomosci_online": "000026870015",
     "nieruchomosci_online_sale": "000026870053",
-    "olx": "2026-08-02T08:27:06+02:00",
+    "olx": "2026-08-02T09:21:31+02:00",
     "olx_sale": "2026-08-02T00:02:28+02:00",
     "trojmiasto": "000066496433",
     "trojmiasto_sale": "000066496658"
   },
-  "last_run": "2026-08-02T07:14:59.086719+00:00",
+  "last_run": "2026-08-02T07:30:57.535195+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -10907,6 +10907,12 @@
       "data_wyslania": "2026-08-02T06:45:52.196069+00:00",
       "fingerprint": "2700|40|2|chełm z dzielnicą gdańsk południe",
       "id": "olx:1088850901"
+    },
+    "olx:1088855079": {
+      "cena": 2700,
+      "data_wyslania": "2026-08-02T07:30:57.535195+00:00",
+      "fingerprint": "2700|45|2|przymorze małe",
+      "id": "olx:1088855079"
     },
     "olx:617323965": {
       "cena": 2500,
