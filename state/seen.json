@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 12422,
+            "fetched": 12542,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 9516,
+            "fetched": 9612,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 56,
-            "fetched": 15607,
+            "dropped": 58,
+            "fetched": 15759,
             "sent_main": 3,
             "sent_near": 3
           },
           "olx_sale": {
             "dropped": 13,
-            "fetched": 14505,
+            "fetched": 14647,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 3,
-            "fetched": 5951,
+            "fetched": 6010,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 6395,
+            "fetched": 6459,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -77,12 +77,12 @@
   "high_water": {
     "nieruchomosci_online": "000026870449",
     "nieruchomosci_online_sale": "000026870492",
-    "olx": "2026-08-02T22:38:32+02:00",
+    "olx": "2026-08-02T23:18:16+02:00",
     "olx_sale": "2026-08-02T23:08:27+02:00",
     "trojmiasto": "000066496980",
     "trojmiasto_sale": "000066497050"
   },
-  "last_run": "2026-08-02T21:30:57.321283+00:00",
+  "last_run": "2026-08-02T21:45:46.750713+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -11537,6 +11537,18 @@
       "data_wyslania": "2026-08-02T21:01:08.415548+00:00",
       "fingerprint": "3500|33|1|śródmieście",
       "id": "olx:1089001850"
+    },
+    "olx:1089006327": {
+      "cena": 3300,
+      "data_wyslania": "2026-08-02T21:45:46.750713+00:00",
+      "fingerprint": "3300|35|1|przymorze małe",
+      "id": "olx:1089006327"
+    },
+    "olx:1089006397": {
+      "cena": 2550,
+      "data_wyslania": "2026-08-02T21:45:46.750713+00:00",
+      "fingerprint": "2550|46|2|karwiny",
+      "id": "olx:1089006397"
     },
     "olx:615984429": {
       "cena": 2400,
