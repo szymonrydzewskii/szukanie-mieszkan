@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 9058,
+            "fetched": 9179,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 6759,
+            "fetched": 6858,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 37,
-            "fetched": 11378,
+            "dropped": 38,
+            "fetched": 11531,
             "sent_main": 3,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 7,
-            "fetched": 10575,
+            "fetched": 10716,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 4294,
+            "fetched": 4354,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
-            "dropped": 0,
-            "fetched": 4625,
+            "dropped": 1,
+            "fetched": 4688,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -77,12 +77,12 @@
   "high_water": {
     "nieruchomosci_online": "000026870015",
     "nieruchomosci_online_sale": "000026870053",
-    "olx": "2026-08-02T16:44:41+02:00",
+    "olx": "2026-08-02T16:47:26+02:00",
     "olx_sale": "2026-08-02T14:20:03+02:00",
     "trojmiasto": "000066496980",
-    "trojmiasto_sale": "000066496658"
+    "trojmiasto_sale": "000066497028"
   },
-  "last_run": "2026-08-02T15:01:10.225620+00:00",
+  "last_run": "2026-08-02T15:15:46.148246+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -11316,6 +11316,12 @@
       "fingerprint": "3500|43|2|brzeźno",
       "id": "olx:1088934733"
     },
+    "olx:1088935198": {
+      "cena": 2900,
+      "data_wyslania": "2026-08-02T15:15:46.148246+00:00",
+      "fingerprint": "2900|41|2|orunia - św. wojciech - lipce",
+      "id": "olx:1088935198"
+    },
     "olx:615984429": {
       "cena": 2400,
       "data_wyslania": "2026-08-02T11:30:57.309222+00:00",
@@ -13181,6 +13187,12 @@
       "data_wyslania": "2026-07-25T20:45:43.643477+00:00",
       "fingerprint": "765000|60|3|",
       "id": "olx_sale:1083745694"
+    },
+    "olx_sale:1084006362": {
+      "cena": 980000,
+      "data_wyslania": "2026-08-02T15:15:46.148246+00:00",
+      "fingerprint": "980000|55.98|3|piecki-migowo",
+      "id": "olx_sale:1084006362"
     },
     "olx_sale:1084110470": {
       "cena": 2815000,
@@ -18353,6 +18365,12 @@
       "data_wyslania": "2026-08-01T22:14:04.973038+00:00",
       "fingerprint": "749000|51.3|2|chwarzno-wiczlino",
       "id": "trojmiasto_sale:66496658"
+    },
+    "trojmiasto_sale:66497028": {
+      "cena": 980000,
+      "data_wyslania": "2026-08-02T15:15:46.148246+00:00",
+      "fingerprint": "980000|55.98|3|morena",
+      "id": "trojmiasto_sale:66497028"
     }
   },
   "version": 1
