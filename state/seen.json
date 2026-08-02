@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 8098,
+            "fetched": 8218,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 6003,
+            "fetched": 6096,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 31,
-            "fetched": 10167,
+            "dropped": 34,
+            "fetched": 10318,
             "sent_main": 3,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 7,
-            "fetched": 9454,
+            "fetched": 9594,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 3818,
+            "fetched": 3877,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 4127,
+            "fetched": 4189,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -77,12 +77,12 @@
   "high_water": {
     "nieruchomosci_online": "000026870015",
     "nieruchomosci_online_sale": "000026870053",
-    "olx": "2026-08-02T14:28:12+02:00",
+    "olx": "2026-08-02T15:17:58+02:00",
     "olx_sale": "2026-08-02T14:20:03+02:00",
-    "trojmiasto": "000066496977",
+    "trojmiasto": "000066496980",
     "trojmiasto_sale": "000066496658"
   },
-  "last_run": "2026-08-02T13:15:49.070563+00:00",
+  "last_run": "2026-08-02T13:30:57.980919+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -11256,6 +11256,24 @@
       "fingerprint": "2200|42.5|2|centrum",
       "id": "olx:1088908534"
     },
+    "olx:1088913513": {
+      "cena": 2000,
+      "data_wyslania": "2026-08-02T13:30:57.980919+00:00",
+      "fingerprint": "2000|30|2|centrum",
+      "id": "olx:1088913513"
+    },
+    "olx:1088917608": {
+      "cena": 2300,
+      "data_wyslania": "2026-08-02T13:30:57.980919+00:00",
+      "fingerprint": "2300|44.41|2|redłowo",
+      "id": "olx:1088917608"
+    },
+    "olx:1088918489": {
+      "cena": 4500,
+      "data_wyslania": "2026-08-02T13:30:57.980919+00:00",
+      "fingerprint": "4500|64|4|wzgórze mickiewicza",
+      "id": "olx:1088918489"
+    },
     "olx:615984429": {
       "cena": 2400,
       "data_wyslania": "2026-08-02T11:30:57.309222+00:00",
@@ -16511,6 +16529,12 @@
       "data_wyslania": "2026-08-02T13:15:49.070563+00:00",
       "fingerprint": "4500|64|5|chełm",
       "id": "trojmiasto:66496977"
+    },
+    "trojmiasto:66496980": {
+      "cena": 2600,
+      "data_wyslania": "2026-08-02T13:30:57.980919+00:00",
+      "fingerprint": "2600|49|2|fikakowo/ wielki kack",
+      "id": "trojmiasto:66496980"
     },
     "trojmiasto_sale:64570022": {
       "cena": 3800000,
