@@ -9,37 +9,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 9302,
+            "fetched": 9423,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 7251,
+            "fetched": 7343,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 42,
-            "fetched": 11701,
+            "dropped": 45,
+            "fetched": 11852,
             "sent_main": 1,
             "sent_near": 3
           },
           "olx_sale": {
-            "dropped": 31,
-            "fetched": 10851,
+            "dropped": 32,
+            "fetched": 10996,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 4633,
+            "fetched": 4694,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 4772,
+            "fetched": 4834,
             "sent_main": 1,
             "sent_near": 0
           }
@@ -76,12 +76,12 @@
   "high_water": {
     "nieruchomosci_online": "000026873550",
     "nieruchomosci_online_sale": "000026873958",
-    "olx": "2026-08-03T17:22:48+02:00",
-    "olx_sale": "2026-08-03T16:07:45+02:00",
+    "olx": "2026-08-03T17:55:37+02:00",
+    "olx_sale": "2026-08-03T17:54:14+02:00",
     "trojmiasto": "000066496980",
     "trojmiasto_sale": "000066497626"
   },
-  "last_run": "2026-08-03T16:01:13.517088+00:00",
+  "last_run": "2026-08-03T16:15:49.698401+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -9137,6 +9137,12 @@
       "fingerprint": "2600|25|1|śródmieście",
       "id": "olx:1087778412"
     },
+    "olx:1087778917": {
+      "cena": 3200,
+      "data_wyslania": "2026-08-03T16:15:49.698401+00:00",
+      "fingerprint": "3200|50|2|wrzeszcz",
+      "id": "olx:1087778917"
+    },
     "olx:1087784260": {
       "cena": 4200,
       "data_wyslania": "2026-07-27T18:15:42.643426+00:00",
@@ -12377,6 +12383,24 @@
       "fingerprint": "3100|34|2|śródmieście",
       "id": "olx:1089148595"
     },
+    "olx:1089151356": {
+      "cena": 2100,
+      "data_wyslania": "2026-08-03T16:15:49.698401+00:00",
+      "fingerprint": "2100|33.2|1|chełm z dzielnicą gdańsk południe",
+      "id": "olx:1089151356"
+    },
+    "olx:1089153762": {
+      "cena": 2700,
+      "data_wyslania": "2026-08-03T16:15:49.698401+00:00",
+      "fingerprint": "2700|32|2|górny sopot",
+      "id": "olx:1089153762"
+    },
+    "olx:1089154673": {
+      "cena": 3200,
+      "data_wyslania": "2026-08-03T16:15:49.698401+00:00",
+      "fingerprint": "3200|41|2|siedlce",
+      "id": "olx:1089154673"
+    },
     "olx:615984429": {
       "cena": 2400,
       "data_wyslania": "2026-08-02T11:30:57.309222+00:00",
@@ -13727,11 +13751,23 @@
       "fingerprint": "989000|58|3|wyspa sobieszewska",
       "id": "olx_sale:1077496748"
     },
+    "olx_sale:1077553685": {
+      "cena": 800684,
+      "data_wyslania": "2026-08-03T16:15:49.698401+00:00",
+      "fingerprint": "800684|42.61|2|",
+      "id": "olx_sale:1077553685"
+    },
     "olx_sale:1077619995": {
       "cena": 1590000,
       "data_wyslania": "2026-08-02T18:30:59.870928+00:00",
       "fingerprint": "1590000|92.32|4|śródmieście",
       "id": "olx_sale:1077619995"
+    },
+    "olx_sale:1077732484": {
+      "cena": 922473,
+      "data_wyslania": "2026-08-03T16:15:49.698401+00:00",
+      "fingerprint": "922473|67.63|3|piecki-migowo",
+      "id": "olx_sale:1077732484"
     },
     "olx_sale:1077752528": {
       "cena": 777280,
@@ -16858,6 +16894,12 @@
       "data_wyslania": "2026-08-03T14:31:06.962722+00:00",
       "fingerprint": "760000|41.4|2|śródmieście",
       "id": "olx_sale:1089133721"
+    },
+    "olx_sale:1089154398": {
+      "cena": 469000,
+      "data_wyslania": "2026-08-03T16:15:49.698401+00:00",
+      "fingerprint": "469000|32.3|1|chełm z dzielnicą gdańsk południe",
+      "id": "olx_sale:1089154398"
     },
     "olx_sale:857316110": {
       "cena": 715000,
