@@ -9,37 +9,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 4,
-            "fetched": 7482,
+            "fetched": 7604,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 5857,
+            "fetched": 5950,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 22,
-            "fetched": 9427,
+            "dropped": 23,
+            "fetched": 9576,
             "sent_main": 0,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 22,
-            "fetched": 8716,
+            "fetched": 8856,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 3718,
+            "fetched": 3779,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 3855,
+            "fetched": 3915,
             "sent_main": 1,
             "sent_near": 0
           }
@@ -69,19 +69,19 @@
       "last_error": null
     },
     "trojmiasto_sale": {
-      "bad": 1,
-      "last_error": "Trojmiasto: HTTP 521 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html>\\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <!["
+      "bad": 0,
+      "last_error": null
     }
   },
   "high_water": {
     "nieruchomosci_online": "000026873031",
     "nieruchomosci_online_sale": "000026870492",
-    "olx": "2026-08-03T14:22:40+02:00",
+    "olx": "2026-08-03T14:24:32+02:00",
     "olx_sale": "2026-08-03T13:55:59+02:00",
     "trojmiasto": "000066496980",
     "trojmiasto_sale": "000066497626"
   },
-  "last_run": "2026-08-03T12:31:07.571088+00:00",
+  "last_run": "2026-08-03T12:45:51.270034+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -4420,6 +4420,12 @@
       "data_wyslania": "2026-07-28T06:45:42.449977+00:00",
       "fingerprint": "489000|40.77|1|grabówek",
       "id": "nieruchomosci_online_sale:26842179"
+    },
+    "nieruchomosci_online_sale:26843756": {
+      "cena": 300500,
+      "data_wyslania": "2026-08-03T12:45:51.270034+00:00",
+      "fingerprint": "300500|26|1|wrzeszcz",
+      "id": "nieruchomosci_online_sale:26843756"
     },
     "nieruchomosci_online_sale:26843982": {
       "cena": 639000,
@@ -12016,6 +12022,12 @@
       "data_wyslania": "2026-08-03T12:31:07.571088+00:00",
       "fingerprint": "3100|56|2|śródmieście",
       "id": "olx:1089108135"
+    },
+    "olx:1089108581": {
+      "cena": 5000,
+      "data_wyslania": "2026-08-03T12:45:51.270034+00:00",
+      "fingerprint": "5000|70|3|śródmieście",
+      "id": "olx:1089108581"
     },
     "olx:615984429": {
       "cena": 2400,
