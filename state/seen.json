@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 4444,
+            "fetched": 4565,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 3552,
+            "fetched": 3646,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 2,
-            "fetched": 5626,
+            "dropped": 4,
+            "fetched": 5780,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 0,
-            "fetched": 5183,
+            "fetched": 5322,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2194,
+            "fetched": 2254,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 2345,
+            "fetched": 2409,
             "sent_main": 1,
             "sent_near": 0
           }
@@ -74,12 +74,12 @@
   "high_water": {
     "nieruchomosci_online": "000026870764",
     "nieruchomosci_online_sale": "000026870492",
-    "olx": "2026-08-03T07:26:56+02:00",
+    "olx": "2026-08-03T08:28:12+02:00",
     "olx_sale": "2026-08-02T23:08:27+02:00",
     "trojmiasto": "000066496980",
     "trojmiasto_sale": "000066497050"
   },
-  "last_run": "2026-08-03T06:31:05.460174+00:00",
+  "last_run": "2026-08-03T06:45:52.472113+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -4388,6 +4388,12 @@
       "data_wyslania": "2026-07-27T19:45:46.196649+00:00",
       "fingerprint": "386879|33|2|młyniska",
       "id": "nieruchomosci_online_sale:26849037"
+    },
+    "nieruchomosci_online_sale:26849262": {
+      "cena": 639000,
+      "data_wyslania": "2026-08-03T06:45:52.472113+00:00",
+      "fingerprint": "639000|53.6|2|wyspa spichrzów",
+      "id": "nieruchomosci_online_sale:26849262"
     },
     "nieruchomosci_online_sale:26851753": {
       "cena": 2500000,
@@ -11619,6 +11625,18 @@
       "fingerprint": "5200|73.61|3|redłowo",
       "id": "olx:1089021612"
     },
+    "olx:1089026047": {
+      "cena": 2800,
+      "data_wyslania": "2026-08-03T06:45:52.472113+00:00",
+      "fingerprint": "2800|50|2|śródmieście",
+      "id": "olx:1089026047"
+    },
+    "olx:1089026156": {
+      "cena": 3300,
+      "data_wyslania": "2026-08-03T06:45:52.472113+00:00",
+      "fingerprint": "3300|43.8|2|piecki-migowo",
+      "id": "olx:1089026156"
+    },
     "olx:615984429": {
       "cena": 2400,
       "data_wyslania": "2026-08-02T11:30:57.309222+00:00",
@@ -17018,6 +17036,12 @@
       "data_wyslania": "2026-08-02T13:30:57.980919+00:00",
       "fingerprint": "2600|49|2|fikakowo/ wielki kack",
       "id": "trojmiasto:66496980"
+    },
+    "trojmiasto_sale:64569988": {
+      "cena": 3800000,
+      "data_wyslania": "2026-08-03T06:45:52.472113+00:00",
+      "fingerprint": "3800000|618.98|?|kowale",
+      "id": "trojmiasto_sale:64569988"
     },
     "trojmiasto_sale:64570022": {
       "cena": 3800000,
