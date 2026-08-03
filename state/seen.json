@@ -3,35 +3,37 @@
   "digest": {
     "days": {
       "2026-08-03": {
-        "errors": [],
+        "errors": [
+          "trojmiasto_sale: Trojmiasto: HTTP 521 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!"
+        ],
         "sources": {
           "nieruchomosci_online": {
             "dropped": 4,
-            "fetched": 7360,
+            "fetched": 7482,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 5768,
+            "fetched": 5857,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 20,
-            "fetched": 9277,
+            "dropped": 22,
+            "fetched": 9427,
             "sent_main": 0,
             "sent_near": 2
           },
           "olx_sale": {
-            "dropped": 21,
-            "fetched": 8573,
+            "dropped": 22,
+            "fetched": 8716,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 3657,
+            "fetched": 3718,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -67,19 +69,19 @@
       "last_error": null
     },
     "trojmiasto_sale": {
-      "bad": 0,
-      "last_error": null
+      "bad": 1,
+      "last_error": "Trojmiasto: HTTP 521 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html>\\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <!["
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026872727",
+    "nieruchomosci_online": "000026873031",
     "nieruchomosci_online_sale": "000026870492",
-    "olx": "2026-08-03T13:56:30+02:00",
+    "olx": "2026-08-03T14:22:40+02:00",
     "olx_sale": "2026-08-03T13:55:59+02:00",
     "trojmiasto": "000066496980",
     "trojmiasto_sale": "000066497626"
   },
-  "last_run": "2026-08-03T12:15:49.485346+00:00",
+  "last_run": "2026-08-03T12:31:07.571088+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -1772,6 +1774,12 @@
       "data_wyslania": "2026-08-03T11:31:01.767541+00:00",
       "fingerprint": "5900|91|3|karlikowo",
       "id": "nieruchomosci_online:26872727"
+    },
+    "nieruchomosci_online:26873031": {
+      "cena": 3100,
+      "data_wyslania": "2026-08-03T12:31:07.571088+00:00",
+      "fingerprint": "3100|42.2|2|dolny sopot",
+      "id": "nieruchomosci_online:26873031"
     },
     "nieruchomosci_online_sale:23703220": {
       "cena": 427000,
@@ -11985,11 +11993,29 @@
       "fingerprint": "2350|32|2|",
       "id": "olx:1089101950"
     },
+    "olx:1089102944": {
+      "cena": 2500,
+      "data_wyslania": "2026-08-03T12:31:07.571088+00:00",
+      "fingerprint": "2500|27|1|przymorze wielkie",
+      "id": "olx:1089102944"
+    },
     "olx:1089103052": {
       "cena": 2700,
       "data_wyslania": "2026-08-03T12:15:49.485346+00:00",
       "fingerprint": "2700|47|3|śródmieście",
       "id": "olx:1089103052"
+    },
+    "olx:1089107426": {
+      "cena": 5000,
+      "data_wyslania": "2026-08-03T12:31:07.571088+00:00",
+      "fingerprint": "5000|70|3|śródmieście",
+      "id": "olx:1089107426"
+    },
+    "olx:1089108135": {
+      "cena": 3100,
+      "data_wyslania": "2026-08-03T12:31:07.571088+00:00",
+      "fingerprint": "3100|56|2|śródmieście",
+      "id": "olx:1089108135"
     },
     "olx:615984429": {
       "cena": 2400,
@@ -16306,9 +16332,9 @@
       "id": "olx_sale:1089056827"
     },
     "olx_sale:1089056970": {
-      "cena": 1229000,
-      "data_wyslania": "2026-08-03T09:16:48.431939+00:00",
-      "fingerprint": "1229000|70|3|piecki-migowo",
+      "cena": 1189000,
+      "data_wyslania": "2026-08-03T12:31:07.571088+00:00",
+      "fingerprint": "1189000|70|3|piecki-migowo",
       "id": "olx_sale:1089056970"
     },
     "olx_sale:1089066498": {
