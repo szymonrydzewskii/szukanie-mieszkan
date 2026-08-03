@@ -12,37 +12,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 6,
-            "fetched": 10633,
+            "fetched": 10754,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 8272,
+            "fetched": 8365,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 62,
-            "fetched": 13217,
+            "fetched": 13369,
             "sent_main": 2,
             "sent_near": 5
           },
           "olx_sale": {
             "dropped": 33,
-            "fetched": 12143,
+            "fetched": 12286,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 5304,
+            "fetched": 5365,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 5449,
+            "fetched": 5510,
             "sent_main": 1,
             "sent_near": 0
           }
@@ -84,7 +84,7 @@
     "trojmiasto": "000066496980",
     "trojmiasto_sale": "000066497626"
   },
-  "last_run": "2026-08-03T18:31:01.039991+00:00",
+  "last_run": "2026-08-03T18:45:53.104411+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -14570,6 +14570,12 @@
       "fingerprint": "520000|39.1|2|wrzeszcz",
       "id": "olx_sale:1083187514"
     },
+    "olx_sale:1083274257": {
+      "cena": 555000,
+      "data_wyslania": "2026-08-03T18:45:53.104411+00:00",
+      "fingerprint": "555000|38.1|2|wzgórze świętego maksymiliana",
+      "id": "olx_sale:1083274257"
+    },
     "olx_sale:1083285466": {
       "cena": 420000,
       "data_wyslania": "2026-08-01T09:47:09.147179+00:00",
@@ -20167,6 +20173,12 @@
       "data_wyslania": "2026-07-29T09:01:11.475820+00:00",
       "fingerprint": "730000|52|3|suchanino",
       "id": "trojmiasto_sale:66493557"
+    },
+    "trojmiasto_sale:66493575": {
+      "cena": 580000,
+      "data_wyslania": "2026-08-03T18:45:53.104411+00:00",
+      "fingerprint": "580000|42.5|2|oliwa",
+      "id": "trojmiasto_sale:66493575"
     },
     "trojmiasto_sale:66493905": {
       "cena": 699000,
