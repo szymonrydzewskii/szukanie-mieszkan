@@ -9,37 +9,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 9060,
+            "fetched": 9181,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 7067,
+            "fetched": 7159,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 40,
-            "fetched": 11394,
+            "dropped": 41,
+            "fetched": 11547,
             "sent_main": 1,
             "sent_near": 3
           },
           "olx_sale": {
             "dropped": 31,
-            "fetched": 10563,
+            "fetched": 10706,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 4511,
+            "fetched": 4572,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 4650,
+            "fetched": 4712,
             "sent_main": 1,
             "sent_near": 0
           }
@@ -76,12 +76,12 @@
   "high_water": {
     "nieruchomosci_online": "000026873550",
     "nieruchomosci_online_sale": "000026873256",
-    "olx": "2026-08-03T17:15:36+02:00",
+    "olx": "2026-08-03T17:22:48+02:00",
     "olx_sale": "2026-08-03T16:07:45+02:00",
     "trojmiasto": "000066496980",
     "trojmiasto_sale": "000066497626"
   },
-  "last_run": "2026-08-03T15:31:06.000479+00:00",
+  "last_run": "2026-08-03T15:45:51.236052+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -6419,6 +6419,12 @@
       "fingerprint": "4000|55|2|wzgórze mickiewicza",
       "id": "olx:1083387207"
     },
+    "olx:1083394542": {
+      "cena": 3300,
+      "data_wyslania": "2026-08-03T15:45:51.236052+00:00",
+      "fingerprint": "3300|39|2|orłowo",
+      "id": "olx:1083394542"
+    },
     "olx:1083463803": {
       "cena": 2600,
       "data_wyslania": "2026-07-24T15:34:55.802060+00:00",
@@ -12359,6 +12365,12 @@
       "fingerprint": "2000|38.5|2|jasień",
       "id": "olx:1089147237"
     },
+    "olx:1089148595": {
+      "cena": 3100,
+      "data_wyslania": "2026-08-03T15:45:51.236052+00:00",
+      "fingerprint": "3100|34|2|śródmieście",
+      "id": "olx:1089148595"
+    },
     "olx:615984429": {
       "cena": 2400,
       "data_wyslania": "2026-08-02T11:30:57.309222+00:00",
@@ -17890,6 +17902,12 @@
       "data_wyslania": "2026-07-31T06:01:07.645456+00:00",
       "fingerprint": "2000|48|2|pruszcz gdański",
       "id": "trojmiasto:66494473"
+    },
+    "trojmiasto:66494690": {
+      "cena": 2600,
+      "data_wyslania": "2026-08-03T15:45:51.236052+00:00",
+      "fingerprint": "2600|36|2|jasień",
+      "id": "trojmiasto:66494690"
     },
     "trojmiasto:66495106": {
       "cena": 13600,
