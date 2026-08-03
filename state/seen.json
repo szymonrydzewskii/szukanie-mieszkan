@@ -9,37 +9,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 4,
-            "fetched": 7970,
+            "fetched": 8092,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
-            "dropped": 3,
-            "fetched": 6229,
+            "dropped": 4,
+            "fetched": 6322,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 29,
-            "fetched": 10028,
+            "dropped": 30,
+            "fetched": 10180,
             "sent_main": 0,
             "sent_near": 3
           },
           "olx_sale": {
             "dropped": 29,
-            "fetched": 9284,
+            "fetched": 9425,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 3962,
+            "fetched": 4023,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 4098,
+            "fetched": 4158,
             "sent_main": 1,
             "sent_near": 0
           }
@@ -76,12 +76,12 @@
   "high_water": {
     "nieruchomosci_online": "000026873031",
     "nieruchomosci_online_sale": "000026873256",
-    "olx": "2026-08-03T15:18:41+02:00",
+    "olx": "2026-08-03T15:30:11+02:00",
     "olx_sale": "2026-08-03T15:02:08+02:00",
     "trojmiasto": "000066496980",
     "trojmiasto_sale": "000066497626"
   },
-  "last_run": "2026-08-03T13:31:04.557544+00:00",
+  "last_run": "2026-08-03T13:45:47.505385+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -4746,9 +4746,9 @@
       "id": "nieruchomosci_online_sale:26870492"
     },
     "nieruchomosci_online_sale:26870737": {
-      "cena": 469000,
-      "data_wyslania": "2026-08-03T13:15:45.890113+00:00",
-      "fingerprint": "469000|57.12|3|grabówek",
+      "cena": 456000,
+      "data_wyslania": "2026-08-03T13:45:47.505385+00:00",
+      "fingerprint": "456000|57.12|3|grabówek",
       "id": "nieruchomosci_online_sale:26870737"
     },
     "nieruchomosci_online_sale:26870739": {
@@ -12137,6 +12137,18 @@
       "fingerprint": "2400|29|1|jasień",
       "id": "olx:1089122698"
     },
+    "olx:1089124675": {
+      "cena": 3600,
+      "data_wyslania": "2026-08-03T13:45:47.505385+00:00",
+      "fingerprint": "3600|83|3|grabówek",
+      "id": "olx:1089124675"
+    },
+    "olx:1089125161": {
+      "cena": 3000,
+      "data_wyslania": "2026-08-03T13:45:47.505385+00:00",
+      "fingerprint": "3000|42|2|przymorze wielkie",
+      "id": "olx:1089125161"
+    },
     "olx:615984429": {
       "cena": 2400,
       "data_wyslania": "2026-08-02T11:30:57.309222+00:00",
@@ -18346,6 +18358,12 @@
       "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
       "fingerprint": "910000|52|2|śródmieście",
       "id": "trojmiasto_sale:66401901"
+    },
+    "trojmiasto_sale:66404696": {
+      "cena": 3492000,
+      "data_wyslania": "2026-08-03T13:45:47.505385+00:00",
+      "fingerprint": "3492000|393|12|orłowo",
+      "id": "trojmiasto_sale:66404696"
     },
     "trojmiasto_sale:66406610": {
       "cena": 890000,
