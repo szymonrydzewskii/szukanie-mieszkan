@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 6506,
+            "fetched": 6628,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 5145,
+            "fetched": 5234,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 12,
-            "fetched": 8207,
+            "dropped": 13,
+            "fetched": 8357,
             "sent_main": 0,
             "sent_near": 2
           },
           "olx_sale": {
-            "dropped": 15,
-            "fetched": 7576,
+            "dropped": 16,
+            "fetched": 7717,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 3228,
+            "fetched": 3289,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 3425,
+            "fetched": 3488,
             "sent_main": 1,
             "sent_near": 0
           }
@@ -74,12 +74,12 @@
   "high_water": {
     "nieruchomosci_online": "000026872245",
     "nieruchomosci_online_sale": "000026870492",
-    "olx": "2026-08-03T12:17:06+02:00",
-    "olx_sale": "2026-08-03T12:21:43+02:00",
+    "olx": "2026-08-03T12:35:49+02:00",
+    "olx_sale": "2026-08-03T12:41:37+02:00",
     "trojmiasto": "000066496980",
     "trojmiasto_sale": "000066497626"
   },
-  "last_run": "2026-08-03T10:45:45.559298+00:00",
+  "last_run": "2026-08-03T11:01:11.224371+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -11901,6 +11901,12 @@
       "fingerprint": "3600|56|3|przymorze wielkie",
       "id": "olx:1089075639"
     },
+    "olx:1089081990": {
+      "cena": 2800,
+      "data_wyslania": "2026-08-03T11:01:11.224371+00:00",
+      "fingerprint": "2800|47|2|pogórze",
+      "id": "olx:1089081990"
+    },
     "olx:615984429": {
       "cena": 2400,
       "data_wyslania": "2026-08-02T11:30:57.309222+00:00",
@@ -16256,6 +16262,12 @@
       "data_wyslania": "2026-08-03T10:45:45.559298+00:00",
       "fingerprint": "519000|38|2|",
       "id": "olx_sale:1089076871"
+    },
+    "olx_sale:1089083376": {
+      "cena": 899000,
+      "data_wyslania": "2026-08-03T11:01:11.224371+00:00",
+      "fingerprint": "899000|73.83|3|osowa",
+      "id": "olx_sale:1089083376"
     },
     "olx_sale:857316110": {
       "cena": 715000,
