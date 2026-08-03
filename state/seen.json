@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 4,
-            "fetched": 6994,
+            "fetched": 7116,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 5501,
+            "fetched": 5590,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 14,
-            "fetched": 8815,
+            "dropped": 15,
+            "fetched": 8969,
             "sent_main": 0,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 20,
-            "fetched": 8147,
+            "fetched": 8290,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 3473,
+            "fetched": 3535,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 3671,
+            "fetched": 3732,
             "sent_main": 1,
             "sent_near": 0
           }
@@ -74,12 +74,12 @@
   "high_water": {
     "nieruchomosci_online": "000026872727",
     "nieruchomosci_online_sale": "000026870492",
-    "olx": "2026-08-03T13:16:28+02:00",
+    "olx": "2026-08-03T13:39:48+02:00",
     "olx_sale": "2026-08-03T13:17:46+02:00",
     "trojmiasto": "000066496980",
     "trojmiasto_sale": "000066497626"
   },
-  "last_run": "2026-08-03T11:45:48.196673+00:00",
+  "last_run": "2026-08-03T11:49:52.592062+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -11936,6 +11936,18 @@
       "data_wyslania": "2026-08-03T11:45:48.196673+00:00",
       "fingerprint": "2200|20|1|centrum",
       "id": "olx:1089092563"
+    },
+    "olx:1089097006": {
+      "cena": 2200,
+      "data_wyslania": "2026-08-03T11:49:52.592062+00:00",
+      "fingerprint": "2200|28.5|1|ujeścisko - łostowice",
+      "id": "olx:1089097006"
+    },
+    "olx:1089098454": {
+      "cena": 2800,
+      "data_wyslania": "2026-08-03T11:49:52.592062+00:00",
+      "fingerprint": "2800|45|2|letnica",
+      "id": "olx:1089098454"
     },
     "olx:615984429": {
       "cena": 2400,
