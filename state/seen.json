@@ -12,37 +12,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 6178,
+            "fetched": 6300,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 4569,
+            "fetched": 4662,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 19,
-            "fetched": 7454,
+            "dropped": 20,
+            "fetched": 7607,
             "sent_main": 0,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 16,
-            "fetched": 7007,
+            "fetched": 7152,
             "sent_main": 2,
             "sent_near": 1
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 3142,
+            "fetched": 3203,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 3136,
+            "fetched": 3199,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -79,12 +79,12 @@
   "high_water": {
     "nieruchomosci_online": "000026874887",
     "nieruchomosci_online_sale": "000026874513",
-    "olx": "2026-08-04T11:36:07+02:00",
+    "olx": "2026-08-04T12:04:34+02:00",
     "olx_sale": "2026-08-04T11:29:27+02:00",
     "trojmiasto": "000066498520",
     "trojmiasto_sale": "000066498395"
   },
-  "last_run": "2026-08-04T10:01:16.621197+00:00",
+  "last_run": "2026-08-04T10:15:48.779352+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -5035,6 +5035,12 @@
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
       "fingerprint": "2400|31|2|grabówek",
       "id": "olx:1026637284"
+    },
+    "olx:1031135462": {
+      "cena": 1650,
+      "data_wyslania": "2026-08-04T10:15:48.779352+00:00",
+      "fingerprint": "1650|20|1|mały kack",
+      "id": "olx:1031135462"
     },
     "olx:1032249589": {
       "cena": 3100,
@@ -12943,6 +12949,12 @@
       "data_wyslania": "2026-08-04T10:01:16.621197+00:00",
       "fingerprint": "2600|41.39|2|",
       "id": "olx:1089266789"
+    },
+    "olx:1089272216": {
+      "cena": 2090,
+      "data_wyslania": "2026-08-04T10:15:48.779352+00:00",
+      "fingerprint": "2090|25|1|orłowo",
+      "id": "olx:1089272216"
     },
     "olx:615984429": {
       "cena": 2400,
