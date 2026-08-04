@@ -12,37 +12,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 6056,
+            "fetched": 6178,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 4476,
+            "fetched": 4569,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 17,
-            "fetched": 7303,
+            "dropped": 19,
+            "fetched": 7454,
             "sent_main": 0,
             "sent_near": 1
           },
           "olx_sale": {
-            "dropped": 8,
-            "fetched": 6863,
+            "dropped": 16,
+            "fetched": 7007,
             "sent_main": 2,
             "sent_near": 1
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 3081,
+            "fetched": 3142,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 3072,
+            "fetched": 3136,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -60,12 +60,12 @@
       "last_error": null
     },
     "olx": {
-      "bad": 1,
-      "last_error": "OLX: HTTP 202 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '')"
+      "bad": 0,
+      "last_error": null
     },
     "olx_sale": {
-      "bad": 1,
-      "last_error": "OLX: HTTP 202 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '')"
+      "bad": 0,
+      "last_error": null
     },
     "trojmiasto": {
       "bad": 0,
@@ -79,12 +79,12 @@
   "high_water": {
     "nieruchomosci_online": "000026874887",
     "nieruchomosci_online_sale": "000026874513",
-    "olx": "2026-08-04T11:17:57+02:00",
-    "olx_sale": "2026-08-04T11:29:25+02:00",
-    "trojmiasto": "000066498232",
+    "olx": "2026-08-04T11:36:07+02:00",
+    "olx_sale": "2026-08-04T11:29:27+02:00",
+    "trojmiasto": "000066498520",
     "trojmiasto_sale": "000066498395"
   },
-  "last_run": "2026-08-04T09:45:47.686975+00:00",
+  "last_run": "2026-08-04T10:01:16.621197+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -12926,6 +12926,24 @@
       "fingerprint": "4500|57.77|3|orunia - św. wojciech - lipce",
       "id": "olx:1089263357"
     },
+    "olx:1089264573": {
+      "cena": 2500,
+      "data_wyslania": "2026-08-04T10:01:16.621197+00:00",
+      "fingerprint": "2500|35|2|śródmieście",
+      "id": "olx:1089264573"
+    },
+    "olx:1089266424": {
+      "cena": 5000,
+      "data_wyslania": "2026-08-04T10:01:16.621197+00:00",
+      "fingerprint": "5000|70|4|wrzeszcz",
+      "id": "olx:1089266424"
+    },
+    "olx:1089266789": {
+      "cena": 2600,
+      "data_wyslania": "2026-08-04T10:01:16.621197+00:00",
+      "fingerprint": "2600|41.39|2|",
+      "id": "olx:1089266789"
+    },
     "olx:615984429": {
       "cena": 2400,
       "data_wyslania": "2026-08-02T11:30:57.309222+00:00",
@@ -14119,6 +14137,12 @@
       "data_wyslania": "2026-08-01T18:01:13.361351+00:00",
       "fingerprint": "1590000|51|3|wyspa sobieszewska",
       "id": "olx_sale:1073737119"
+    },
+    "olx_sale:1073824882": {
+      "cena": 795836,
+      "data_wyslania": "2026-08-04T10:01:16.621197+00:00",
+      "fingerprint": "795836|73.71|4|",
+      "id": "olx_sale:1073824882"
     },
     "olx_sale:1073855171": {
       "cena": 639740,
@@ -17678,17 +17702,65 @@
       "fingerprint": "1197000|59|3|brzeźno",
       "id": "olx_sale:1089260012"
     },
+    "olx_sale:1089263344": {
+      "cena": 1150000,
+      "data_wyslania": "2026-08-04T10:01:16.621197+00:00",
+      "fingerprint": "1150000|58.58|3|piecki-migowo",
+      "id": "olx_sale:1089263344"
+    },
     "olx_sale:1089264758": {
       "cena": 815000,
       "data_wyslania": "2026-08-04T09:31:01.506881+00:00",
       "fingerprint": "815000|77.45|4|orunia - św. wojciech - lipce",
       "id": "olx_sale:1089264758"
     },
+    "olx_sale:1089265302": {
+      "cena": 568195,
+      "data_wyslania": "2026-08-04T10:01:16.621197+00:00",
+      "fingerprint": "568195|41.59|2|",
+      "id": "olx_sale:1089265302"
+    },
+    "olx_sale:1089265378": {
+      "cena": 464865,
+      "data_wyslania": "2026-08-04T10:01:16.621197+00:00",
+      "fingerprint": "464865|36.46|2|",
+      "id": "olx_sale:1089265378"
+    },
+    "olx_sale:1089265379": {
+      "cena": 653785,
+      "data_wyslania": "2026-08-04T10:01:16.621197+00:00",
+      "fingerprint": "653785|55.17|3|",
+      "id": "olx_sale:1089265379"
+    },
     "olx_sale:1089265380": {
       "cena": 671874,
       "data_wyslania": "2026-08-04T09:31:01.506881+00:00",
       "fingerprint": "671874|56.46|3|",
       "id": "olx_sale:1089265380"
+    },
+    "olx_sale:1089265381": {
+      "cena": 467978,
+      "data_wyslania": "2026-08-04T10:01:16.621197+00:00",
+      "fingerprint": "467978|36.54|2|",
+      "id": "olx_sale:1089265381"
+    },
+    "olx_sale:1089265383": {
+      "cena": 458640,
+      "data_wyslania": "2026-08-04T10:01:16.621197+00:00",
+      "fingerprint": "458640|35.79|2|",
+      "id": "olx_sale:1089265383"
+    },
+    "olx_sale:1089265385": {
+      "cena": 531154,
+      "data_wyslania": "2026-08-04T10:01:16.621197+00:00",
+      "fingerprint": "531154|41.59|2|",
+      "id": "olx_sale:1089265385"
+    },
+    "olx_sale:1089265388": {
+      "cena": 380705,
+      "data_wyslania": "2026-08-04T10:01:16.621197+00:00",
+      "fingerprint": "380705|26.53|1|",
+      "id": "olx_sale:1089265388"
     },
     "olx_sale:857316110": {
       "cena": 715000,
@@ -18961,6 +19033,12 @@
       "data_wyslania": "2026-08-03T23:31:04.890112+00:00",
       "fingerprint": "3999|55.4|2|brzeźno",
       "id": "trojmiasto:66498232"
+    },
+    "trojmiasto:66498520": {
+      "cena": 2500,
+      "data_wyslania": "2026-08-04T10:01:16.621197+00:00",
+      "fingerprint": "2500|32|1|zaspa młyniec",
+      "id": "trojmiasto:66498520"
     },
     "trojmiasto_sale:64569988": {
       "cena": 3800000,
