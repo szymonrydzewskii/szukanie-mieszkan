@@ -12,37 +12,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 10592,
+            "fetched": 10714,
             "sent_main": 1,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 7940,
+            "fetched": 8033,
             "sent_main": 0,
             "sent_near": 1
           },
           "olx": {
             "dropped": 72,
-            "fetched": 12798,
+            "fetched": 12952,
             "sent_main": 3,
             "sent_near": 3
           },
           "olx_sale": {
             "dropped": 39,
-            "fetched": 12006,
+            "fetched": 12148,
             "sent_main": 2,
             "sent_near": 1
           },
           "trojmiasto": {
             "dropped": 4,
-            "fetched": 5338,
+            "fetched": 5399,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 5,
-            "fetched": 5439,
+            "fetched": 5503,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -84,7 +84,7 @@
     "trojmiasto": "000066498704",
     "trojmiasto_sale": "000066498989"
   },
-  "last_run": "2026-08-04T18:01:15.180695+00:00",
+  "last_run": "2026-08-04T18:15:55.278089+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -21859,6 +21859,12 @@
       "data_wyslania": "2026-07-29T09:01:11.475820+00:00",
       "fingerprint": "730000|52|3|suchanino",
       "id": "trojmiasto_sale:66493557"
+    },
+    "trojmiasto_sale:66493572": {
+      "cena": 849000,
+      "data_wyslania": "2026-08-04T18:15:55.278089+00:00",
+      "fingerprint": "849000|40|2|wrzeszcz górny",
+      "id": "trojmiasto_sale:66493572"
     },
     "trojmiasto_sale:66493575": {
       "cena": 580000,
