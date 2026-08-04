@@ -12,37 +12,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 8881,
+            "fetched": 9004,
             "sent_main": 1,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 6640,
+            "fetched": 6732,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 54,
-            "fetched": 10804,
+            "dropped": 55,
+            "fetched": 10958,
             "sent_main": 1,
             "sent_near": 3
           },
           "olx_sale": {
-            "dropped": 29,
-            "fetched": 10151,
+            "dropped": 31,
+            "fetched": 10294,
             "sent_main": 2,
             "sent_near": 1
           },
           "trojmiasto": {
-            "dropped": 3,
-            "fetched": 4484,
+            "dropped": 4,
+            "fetched": 4545,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
-            "dropped": 3,
-            "fetched": 4537,
+            "dropped": 4,
+            "fetched": 4602,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -80,11 +80,11 @@
     "nieruchomosci_online": "000026876646",
     "nieruchomosci_online_sale": "000026876326",
     "olx": "2026-08-04T16:52:06+02:00",
-    "olx_sale": "2026-08-04T16:34:55+02:00",
+    "olx_sale": "2026-08-04T17:02:01+02:00",
     "trojmiasto": "000066498704",
-    "trojmiasto_sale": "000066498395"
+    "trojmiasto_sale": "000066498899"
   },
-  "last_run": "2026-08-04T15:01:11.707920+00:00",
+  "last_run": "2026-08-04T15:15:52.067960+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -11601,9 +11601,9 @@
       "id": "olx:1088711582"
     },
     "olx:1088712868": {
-      "cena": 4500,
-      "data_wyslania": "2026-08-01T09:15:43.392085+00:00",
-      "fingerprint": "4500|74|3|chwarzno-wiczlino",
+      "cena": 4200,
+      "data_wyslania": "2026-08-04T15:15:52.067960+00:00",
+      "fingerprint": "4200|74|3|chwarzno-wiczlino",
       "id": "olx:1088712868"
     },
     "olx:1088714741": {
@@ -18356,6 +18356,18 @@
       "fingerprint": "835500|42|2|wrzeszcz",
       "id": "olx_sale:1089332091"
     },
+    "olx_sale:1089337224": {
+      "cena": 450000,
+      "data_wyslania": "2026-08-04T15:15:52.067960+00:00",
+      "fingerprint": "450000|28|1|wzgórze świętego maksymiliana",
+      "id": "olx_sale:1089337224"
+    },
+    "olx_sale:1089337538": {
+      "cena": 1450000,
+      "data_wyslania": "2026-08-04T15:15:52.067960+00:00",
+      "fingerprint": "1450000|66.07|2|śródmieście",
+      "id": "olx_sale:1089337538"
+    },
     "olx_sale:857316110": {
       "cena": 715000,
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
@@ -19341,9 +19353,9 @@
       "id": "trojmiasto:66491381"
     },
     "trojmiasto:66491625": {
-      "cena": 4500,
-      "data_wyslania": "2026-07-27T13:01:05.170413+00:00",
-      "fingerprint": "4500|74|3|chwarzno - wiczlino",
+      "cena": 4200,
+      "data_wyslania": "2026-08-04T15:15:52.067960+00:00",
+      "fingerprint": "4200|74|3|chwarzno - wiczlino",
       "id": "trojmiasto:66491625"
     },
     "trojmiasto:66491874": {
@@ -20504,6 +20516,12 @@
       "fingerprint": "829000|67|3|jasień",
       "id": "trojmiasto_sale:66439472"
     },
+    "trojmiasto_sale:66439473": {
+      "cena": 679000,
+      "data_wyslania": "2026-08-04T15:15:52.067960+00:00",
+      "fingerprint": "679000|46.03|3|przymorze małe",
+      "id": "trojmiasto_sale:66439473"
+    },
     "trojmiasto_sale:66439499": {
       "cena": 609000,
       "data_wyslania": "2026-07-25T19:30:58.648257+00:00",
@@ -21661,6 +21679,12 @@
       "data_wyslania": "2026-08-04T09:01:11.326005+00:00",
       "fingerprint": "96000|?|?|rumia janowo",
       "id": "trojmiasto_sale:66498395"
+    },
+    "trojmiasto_sale:66498899": {
+      "cena": 379000,
+      "data_wyslania": "2026-08-04T15:15:52.067960+00:00",
+      "fingerprint": "379000|38.29|2|orunia",
+      "id": "trojmiasto_sale:66498899"
     }
   },
   "version": 1
