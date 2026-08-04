@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 4839,
+            "fetched": 4960,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 3560,
+            "fetched": 3651,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 4,
-            "fetched": 5938,
+            "dropped": 7,
+            "fetched": 6087,
             "sent_main": 0,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 1,
-            "fetched": 5578,
-            "sent_main": 0,
+            "fetched": 5721,
+            "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 2471,
+            "fetched": 2532,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 2452,
+            "fetched": 2514,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -77,12 +77,12 @@
   "high_water": {
     "nieruchomosci_online": "000026874525",
     "nieruchomosci_online_sale": "000026874346",
-    "olx": "2026-08-04T08:43:16+02:00",
-    "olx_sale": "2026-08-04T05:27:02+02:00",
+    "olx": "2026-08-04T09:18:26+02:00",
+    "olx_sale": "2026-08-04T08:47:30+02:00",
     "trojmiasto": "000066498232",
     "trojmiasto_sale": "000066497626"
   },
-  "last_run": "2026-08-04T07:15:45.146881+00:00",
+  "last_run": "2026-08-04T07:31:06.005321+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -4632,6 +4632,12 @@
       "fingerprint": "386879|33|2|wrzeszcz",
       "id": "nieruchomosci_online_sale:26848959"
     },
+    "nieruchomosci_online_sale:26849036": {
+      "cena": 386879,
+      "data_wyslania": "2026-08-04T07:31:06.005321+00:00",
+      "fingerprint": "386879|33|2|aniołki",
+      "id": "nieruchomosci_online_sale:26849036"
+    },
     "nieruchomosci_online_sale:26849037": {
       "cena": 386879,
       "data_wyslania": "2026-07-27T19:45:46.196649+00:00",
@@ -6156,6 +6162,12 @@
       "fingerprint": "3200|45|2|śródmieście",
       "id": "olx:1082010919"
     },
+    "olx:1082019731": {
+      "cena": 2790,
+      "data_wyslania": "2026-08-04T07:31:06.005321+00:00",
+      "fingerprint": "2790|55|2|brzeźno",
+      "id": "olx:1082019731"
+    },
     "olx:1082043479": {
       "cena": 2200,
       "data_wyslania": "2026-07-26T17:01:05.068105+00:00",
@@ -6545,6 +6557,12 @@
       "data_wyslania": "2026-07-25T19:30:58.648257+00:00",
       "fingerprint": "1800|20|1|dolny sopot",
       "id": "olx:1083584005"
+    },
+    "olx:1083619666": {
+      "cena": 2300,
+      "data_wyslania": "2026-08-04T07:31:06.005321+00:00",
+      "fingerprint": "2300|23.5|1|śródmieście",
+      "id": "olx:1083619666"
     },
     "olx:1083632272": {
       "cena": 2950,
@@ -12397,9 +12415,9 @@
       "id": "olx:1089118035"
     },
     "olx:1089119616": {
-      "cena": 2800,
-      "data_wyslania": "2026-08-03T13:31:04.557544+00:00",
-      "fingerprint": "2800|67|2|mały kack",
+      "cena": 2600,
+      "data_wyslania": "2026-08-04T07:31:06.005321+00:00",
+      "fingerprint": "2600|67|2|mały kack",
       "id": "olx:1089119616"
     },
     "olx:1089122698": {
@@ -12755,6 +12773,18 @@
       "data_wyslania": "2026-08-04T07:01:10.586768+00:00",
       "fingerprint": "2190|33|1|działki leśne",
       "id": "olx:1089240341"
+    },
+    "olx:1089242533": {
+      "cena": 2700,
+      "data_wyslania": "2026-08-04T07:31:06.005321+00:00",
+      "fingerprint": "2700|30|1|wzgórze świętego maksymiliana",
+      "id": "olx:1089242533"
+    },
+    "olx:1089244041": {
+      "cena": 2650,
+      "data_wyslania": "2026-08-04T07:31:06.005321+00:00",
+      "fingerprint": "2650|27|1|strzyża",
+      "id": "olx:1089244041"
     },
     "olx:615984429": {
       "cena": 2400,
@@ -17375,6 +17405,12 @@
       "data_wyslania": "2026-08-04T03:44:36.610115+00:00",
       "fingerprint": "480000|43.63|2|chwarzno-wiczlino",
       "id": "olx_sale:1089232292"
+    },
+    "olx_sale:1089240716": {
+      "cena": 499999,
+      "data_wyslania": "2026-08-04T07:31:06.005321+00:00",
+      "fingerprint": "499999|37|2|śródmieście",
+      "id": "olx_sale:1089240716"
     },
     "olx_sale:857316110": {
       "cena": 715000,
