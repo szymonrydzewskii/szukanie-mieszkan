@@ -56,37 +56,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 1814,
+            "fetched": 1935,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 1335,
+            "fetched": 1424,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 0,
-            "fetched": 2140,
+            "fetched": 2293,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 0,
-            "fetched": 1999,
+            "fetched": 2143,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 923,
+            "fetched": 985,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 921,
+            "fetched": 982,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -128,7 +128,7 @@
     "trojmiasto": "000066498232",
     "trojmiasto_sale": "000066497626"
   },
-  "last_run": "2026-08-04T01:01:08.985960+00:00",
+  "last_run": "2026-08-04T01:15:42.282105+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -20001,6 +20001,12 @@
       "data_wyslania": "2026-07-26T14:01:04.140631+00:00",
       "fingerprint": "399000|36|2|chylonia",
       "id": "trojmiasto_sale:66482066"
+    },
+    "trojmiasto_sale:66482067": {
+      "cena": 729000,
+      "data_wyslania": "2026-08-04T01:15:42.282105+00:00",
+      "fingerprint": "729000|53|2|zaspa",
+      "id": "trojmiasto_sale:66482067"
     },
     "trojmiasto_sale:66482229": {
       "cena": 970000,
