@@ -56,37 +56,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 3871,
+            "fetched": 3992,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 2848,
+            "fetched": 2937,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 0,
-            "fetched": 4718,
+            "fetched": 4871,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 1,
-            "fetched": 4440,
+            "fetched": 4581,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 1977,
+            "fetched": 2039,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 1965,
+            "fetched": 2026,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -128,7 +128,7 @@
     "trojmiasto": "000066498232",
     "trojmiasto_sale": "000066497626"
   },
-  "last_run": "2026-08-04T05:15:46.823358+00:00",
+  "last_run": "2026-08-04T05:31:08.633457+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -19113,6 +19113,12 @@
       "data_wyslania": "2026-07-25T17:30:57.132087+00:00",
       "fingerprint": "1949000|101.76|3|dolny sopot",
       "id": "trojmiasto_sale:66387059"
+    },
+    "trojmiasto_sale:66388358": {
+      "cena": 669900,
+      "data_wyslania": "2026-08-04T05:31:08.633457+00:00",
+      "fingerprint": "669900|45|2|przymorze małe",
+      "id": "trojmiasto_sale:66388358"
     },
     "trojmiasto_sale:66391958": {
       "cena": 625000,
