@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 4597,
+            "fetched": 4718,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 3382,
+            "fetched": 3471,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 2,
-            "fetched": 5635,
+            "dropped": 4,
+            "fetched": 5786,
             "sent_main": 0,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 1,
-            "fetched": 5291,
+            "fetched": 5434,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 2349,
+            "fetched": 2410,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
-            "dropped": 1,
-            "fetched": 2330,
+            "dropped": 2,
+            "fetched": 2391,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -77,12 +77,12 @@
   "high_water": {
     "nieruchomosci_online": "000026874525",
     "nieruchomosci_online_sale": "000026874346",
-    "olx": "2026-08-04T07:46:47+02:00",
+    "olx": "2026-08-04T08:43:16+02:00",
     "olx_sale": "2026-08-04T05:27:02+02:00",
     "trojmiasto": "000066498232",
     "trojmiasto_sale": "000066497626"
   },
-  "last_run": "2026-08-04T06:45:44.958751+00:00",
+  "last_run": "2026-08-04T07:01:10.586768+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -12744,6 +12744,18 @@
       "fingerprint": "3200|38|2|",
       "id": "olx:1089236156"
     },
+    "olx:1089239793": {
+      "cena": 3400,
+      "data_wyslania": "2026-08-04T07:01:10.586768+00:00",
+      "fingerprint": "3400|44|2|wrzeszcz",
+      "id": "olx:1089239793"
+    },
+    "olx:1089240341": {
+      "cena": 2190,
+      "data_wyslania": "2026-08-04T07:01:10.586768+00:00",
+      "fingerprint": "2190|33|1|działki leśne",
+      "id": "olx:1089240341"
+    },
     "olx:615984429": {
       "cena": 2400,
       "data_wyslania": "2026-08-02T11:30:57.309222+00:00",
@@ -19639,9 +19651,9 @@
       "id": "trojmiasto_sale:66456305"
     },
     "trojmiasto_sale:66456442": {
-      "cena": 790000,
-      "data_wyslania": "2026-07-25T11:01:07.168174+00:00",
-      "fingerprint": "790000|30.94|2|dolny sopot",
+      "cena": 750000,
+      "data_wyslania": "2026-08-04T07:01:10.586768+00:00",
+      "fingerprint": "750000|30.94|2|dolny sopot",
       "id": "trojmiasto_sale:66456442"
     },
     "trojmiasto_sale:66456721": {
