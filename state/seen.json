@@ -12,37 +12,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 9250,
+            "fetched": 9372,
             "sent_main": 1,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 6917,
+            "fetched": 7010,
             "sent_main": 0,
             "sent_near": 1
           },
           "olx": {
-            "dropped": 56,
-            "fetched": 11266,
-            "sent_main": 1,
+            "dropped": 58,
+            "fetched": 11421,
+            "sent_main": 2,
             "sent_near": 3
           },
           "olx_sale": {
             "dropped": 31,
-            "fetched": 10578,
+            "fetched": 10719,
             "sent_main": 2,
             "sent_near": 1
           },
           "trojmiasto": {
             "dropped": 4,
-            "fetched": 4667,
+            "fetched": 4728,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 4,
-            "fetched": 4732,
+            "fetched": 4796,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -79,12 +79,12 @@
   "high_water": {
     "nieruchomosci_online": "000026876646",
     "nieruchomosci_online_sale": "000026876855",
-    "olx": "2026-08-04T17:28:57+02:00",
+    "olx": "2026-08-04T17:49:07+02:00",
     "olx_sale": "2026-08-04T17:02:01+02:00",
     "trojmiasto": "000066498704",
     "trojmiasto_sale": "000066498899"
   },
-  "last_run": "2026-08-04T15:45:45.698565+00:00",
+  "last_run": "2026-08-04T15:58:57.363169+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -13381,6 +13381,24 @@
       "data_wyslania": "2026-08-04T15:45:45.698565+00:00",
       "fingerprint": "2300|21|1|centrum",
       "id": "olx:1089343747"
+    },
+    "olx:1089345515": {
+      "cena": 1800,
+      "data_wyslania": "2026-08-04T15:58:57.363169+00:00",
+      "fingerprint": "1800|18|1|orunia - św. wojciech - lipce",
+      "id": "olx:1089345515"
+    },
+    "olx:1089345835": {
+      "cena": 3500,
+      "data_wyslania": "2026-08-04T15:58:57.363169+00:00",
+      "fingerprint": "3500|50|3|dolny sopot",
+      "id": "olx:1089345835"
+    },
+    "olx:1089347757": {
+      "cena": 1700,
+      "data_wyslania": "2026-08-04T15:58:57.363169+00:00",
+      "fingerprint": "1700|48|2|śródmieście",
+      "id": "olx:1089347757"
     },
     "olx:615984429": {
       "cena": 2400,
