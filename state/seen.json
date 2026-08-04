@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 4234,
+            "fetched": 4355,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 3115,
+            "fetched": 3204,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 1,
-            "fetched": 5174,
+            "dropped": 2,
+            "fetched": 5328,
             "sent_main": 0,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 1,
-            "fetched": 4864,
+            "fetched": 5004,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 2163,
+            "fetched": 2225,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 2149,
+            "fetched": 2210,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -82,7 +82,7 @@
     "trojmiasto": "000066498232",
     "trojmiasto_sale": "000066497626"
   },
-  "last_run": "2026-08-04T06:01:12.348615+00:00",
+  "last_run": "2026-08-04T06:16:00.278929+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -12246,6 +12246,12 @@
       "fingerprint": "3600|56|3|przymorze wielkie",
       "id": "olx:1089075639"
     },
+    "olx:1089076194": {
+      "cena": 2500,
+      "data_wyslania": "2026-08-04T06:16:00.278929+00:00",
+      "fingerprint": "2500|40|2|orunia - św. wojciech - lipce",
+      "id": "olx:1089076194"
+    },
     "olx:1089081990": {
       "cena": 2800,
       "data_wyslania": "2026-08-03T11:01:11.224371+00:00",
@@ -18617,6 +18623,12 @@
       "data_wyslania": "2026-07-25T16:01:04.869636+00:00",
       "fingerprint": "3800000|618|10|kowale",
       "id": "trojmiasto_sale:64570022"
+    },
+    "trojmiasto_sale:64634158": {
+      "cena": 4200000,
+      "data_wyslania": "2026-08-04T06:16:00.278929+00:00",
+      "fingerprint": "4200000|550|17|rowy",
+      "id": "trojmiasto_sale:64634158"
     },
     "trojmiasto_sale:64946185": {
       "cena": 2600000,
