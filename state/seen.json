@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 4476,
+            "fetched": 4597,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 3293,
+            "fetched": 3382,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 2,
-            "fetched": 5481,
+            "fetched": 5635,
             "sent_main": 0,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 1,
-            "fetched": 5147,
+            "fetched": 5291,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 2287,
+            "fetched": 2349,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 2271,
+            "fetched": 2330,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -82,7 +82,7 @@
     "trojmiasto": "000066498232",
     "trojmiasto_sale": "000066497626"
   },
-  "last_run": "2026-08-04T06:31:00.635616+00:00",
+  "last_run": "2026-08-04T06:45:44.958751+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -5256,6 +5256,12 @@
       "fingerprint": "4000|65|3|letnica",
       "id": "olx:1060392578"
     },
+    "olx:1061296263": {
+      "cena": 2290,
+      "data_wyslania": "2026-08-04T06:45:44.958751+00:00",
+      "fingerprint": "2290|23|1|piecki-migowo",
+      "id": "olx:1061296263"
+    },
     "olx:1062102175": {
       "cena": 3200,
       "data_wyslania": "2026-07-28T14:01:05.964874+00:00",
@@ -6335,6 +6341,12 @@
       "data_wyslania": "2026-07-24T13:15:17.302685+00:00",
       "fingerprint": "3200|42|2|jasień",
       "id": "olx:1082824344"
+    },
+    "olx:1082841069": {
+      "cena": 3130,
+      "data_wyslania": "2026-08-04T06:45:44.958751+00:00",
+      "fingerprint": "3130|50|2|mały kack",
+      "id": "olx:1082841069"
     },
     "olx:1082871355": {
       "cena": 3300,
