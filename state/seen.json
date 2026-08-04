@@ -11,38 +11,38 @@
         ],
         "sources": {
           "nieruchomosci_online": {
-            "dropped": 3,
-            "fetched": 11690,
+            "dropped": 4,
+            "fetched": 11813,
             "sent_main": 1,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 8777,
+            "fetched": 8870,
             "sent_main": 0,
             "sent_near": 1
           },
           "olx": {
             "dropped": 77,
-            "fetched": 14177,
+            "fetched": 14329,
             "sent_main": 5,
             "sent_near": 6
           },
           "olx_sale": {
             "dropped": 44,
-            "fetched": 13290,
+            "fetched": 13434,
             "sent_main": 2,
             "sent_near": 1
           },
           "trojmiasto": {
             "dropped": 4,
-            "fetched": 5887,
+            "fetched": 5948,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 7,
-            "fetched": 6024,
+            "fetched": 6090,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -77,14 +77,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026877304",
+    "nieruchomosci_online": "000026877352",
     "nieruchomosci_online_sale": "000026876855",
     "olx": "2026-08-04T21:43:08+02:00",
     "olx_sale": "2026-08-04T21:46:41+02:00",
     "trojmiasto": "000066498704",
     "trojmiasto_sale": "000066499065"
   },
-  "last_run": "2026-08-04T20:01:10.676250+00:00",
+  "last_run": "2026-08-04T20:15:53.167627+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -1933,6 +1933,12 @@
       "data_wyslania": "2026-08-04T19:31:05.179798+00:00",
       "fingerprint": "3000|52.4|3|witomino",
       "id": "nieruchomosci_online:26877304"
+    },
+    "nieruchomosci_online:26877352": {
+      "cena": 3200,
+      "data_wyslania": "2026-08-04T20:15:53.167627+00:00",
+      "fingerprint": "3200|48|3|dolny sopot",
+      "id": "nieruchomosci_online:26877352"
     },
     "nieruchomosci_online_sale:23703220": {
       "cena": 427000,
