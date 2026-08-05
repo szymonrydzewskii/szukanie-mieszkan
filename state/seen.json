@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 8358,
+            "fetched": 8479,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 6289,
+            "fetched": 6382,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 48,
-            "fetched": 10073,
+            "dropped": 49,
+            "fetched": 10225,
             "sent_main": 3,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 28,
-            "fetched": 9453,
+            "fetched": 9598,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 3,
-            "fetched": 4082,
+            "fetched": 4141,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 4522,
+            "fetched": 4589,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -77,12 +77,12 @@
   "high_water": {
     "nieruchomosci_online": "000026879329",
     "nieruchomosci_online_sale": "000026878043",
-    "olx": "2026-08-05T15:23:12+02:00",
+    "olx": "2026-08-05T15:24:57+02:00",
     "olx_sale": "2026-08-05T14:37:08+02:00",
     "trojmiasto": "000066499717",
     "trojmiasto_sale": "000066499065"
   },
-  "last_run": "2026-08-05T13:31:09.691421+00:00",
+  "last_run": "2026-08-05T13:45:52.715213+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -14382,6 +14382,12 @@
       "fingerprint": "2450|26|1|siedlce",
       "id": "olx:1089507109"
     },
+    "olx:1089507436": {
+      "cena": 2800,
+      "data_wyslania": "2026-08-05T13:45:52.715213+00:00",
+      "fingerprint": "2800|56|2|orłowo",
+      "id": "olx:1089507436"
+    },
     "olx:615984429": {
       "cena": 2400,
       "data_wyslania": "2026-08-02T11:30:57.309222+00:00",
@@ -14909,6 +14915,12 @@
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
       "fingerprint": "499000|45.71|2|",
       "id": "olx_sale:1046196431"
+    },
+    "olx_sale:1046290455": {
+      "cena": 1235000,
+      "data_wyslania": "2026-08-05T13:45:52.715213+00:00",
+      "fingerprint": "1235000|40|2|wyspa sobieszewska",
+      "id": "olx_sale:1046290455"
     },
     "olx_sale:1046317401": {
       "cena": 486135,
