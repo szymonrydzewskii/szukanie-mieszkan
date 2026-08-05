@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 7503,
+            "fetched": 7626,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 5640,
+            "fetched": 5732,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 38,
-            "fetched": 9016,
+            "dropped": 42,
+            "fetched": 9167,
             "sent_main": 3,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 24,
-            "fetched": 8444,
+            "fetched": 8589,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 3670,
+            "fetched": 3729,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 4058,
+            "fetched": 4124,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -75,14 +75,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026878676",
+    "nieruchomosci_online": "000026878756",
     "nieruchomosci_online_sale": "000026878043",
-    "olx": "2026-08-05T13:43:55+02:00",
+    "olx": "2026-08-05T14:08:02+02:00",
     "olx_sale": "2026-08-05T13:41:56+02:00",
     "trojmiasto": "000066499649",
     "trojmiasto_sale": "000066499065"
   },
-  "last_run": "2026-08-05T12:01:19.954114+00:00",
+  "last_run": "2026-08-05T12:15:47.830356+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -2027,6 +2027,12 @@
       "data_wyslania": "2026-08-05T11:45:42.730079+00:00",
       "fingerprint": "4500|55|2|dolny sopot",
       "id": "nieruchomosci_online:26878676"
+    },
+    "nieruchomosci_online:26878756": {
+      "cena": 2350,
+      "data_wyslania": "2026-08-05T12:15:47.830356+00:00",
+      "fingerprint": "2350|27.7|1|karlikowo",
+      "id": "nieruchomosci_online:26878756"
     },
     "nieruchomosci_online_sale:23703220": {
       "cena": 427000,
@@ -14279,6 +14285,30 @@
       "data_wyslania": "2026-08-05T12:01:19.954114+00:00",
       "fingerprint": "3300|49|2|strzyża",
       "id": "olx:1089485342"
+    },
+    "olx:1089487027": {
+      "cena": 1000,
+      "data_wyslania": "2026-08-05T12:15:47.830356+00:00",
+      "fingerprint": "1000|9|3|piecki-migowo",
+      "id": "olx:1089487027"
+    },
+    "olx:1089487486": {
+      "cena": 3400,
+      "data_wyslania": "2026-08-05T12:15:47.830356+00:00",
+      "fingerprint": "3400|49|3|wzgórze świętego maksymiliana",
+      "id": "olx:1089487486"
+    },
+    "olx:1089488363": {
+      "cena": 2900,
+      "data_wyslania": "2026-08-05T12:15:47.830356+00:00",
+      "fingerprint": "2900|43|2|letnica",
+      "id": "olx:1089488363"
+    },
+    "olx:1089490378": {
+      "cena": 21000,
+      "data_wyslania": "2026-08-05T12:15:47.830356+00:00",
+      "fingerprint": "21000|114|4|orłowo",
+      "id": "olx:1089490378"
     },
     "olx:615984429": {
       "cena": 2400,
