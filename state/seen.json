@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 4797,
+            "fetched": 4920,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 3627,
+            "fetched": 3720,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 5,
-            "fetched": 5666,
+            "dropped": 9,
+            "fetched": 5819,
             "sent_main": 1,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 0,
-            "fetched": 5298,
+            "fetched": 5440,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2368,
+            "fetched": 2427,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 2591,
+            "fetched": 2657,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -77,12 +77,12 @@
   "high_water": {
     "nieruchomosci_online": "000026877352",
     "nieruchomosci_online_sale": "000026876855",
-    "olx": "2026-08-05T08:31:45+02:00",
+    "olx": "2026-08-05T09:10:49+02:00",
     "olx_sale": "2026-08-05T07:23:47+02:00",
     "trojmiasto": "000066498704",
     "trojmiasto_sale": "000066499065"
   },
-  "last_run": "2026-08-05T07:01:09.790703+00:00",
+  "last_run": "2026-08-05T07:15:45.308834+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -7086,6 +7086,12 @@
       "fingerprint": "2700|36|2|górny sopot",
       "id": "olx:1084304341"
     },
+    "olx:1084311049": {
+      "cena": 2890,
+      "data_wyslania": "2026-08-05T07:15:45.308834+00:00",
+      "fingerprint": "2890|47|2|karwiny",
+      "id": "olx:1084311049"
+    },
     "olx:1084314057": {
       "cena": 2800,
       "data_wyslania": "2026-07-26T07:45:44.745629+00:00",
@@ -13805,6 +13811,30 @@
       "data_wyslania": "2026-08-05T06:45:45.471038+00:00",
       "fingerprint": "3200|45|2|przymorze wielkie",
       "id": "olx:1089424710"
+    },
+    "olx:1089426960": {
+      "cena": 2900,
+      "data_wyslania": "2026-08-05T07:15:45.308834+00:00",
+      "fingerprint": "2900|50|2|siedlce",
+      "id": "olx:1089426960"
+    },
+    "olx:1089427665": {
+      "cena": 2500,
+      "data_wyslania": "2026-08-05T07:15:45.308834+00:00",
+      "fingerprint": "2500|30|1|grabówek",
+      "id": "olx:1089427665"
+    },
+    "olx:1089428433": {
+      "cena": 3300,
+      "data_wyslania": "2026-08-05T07:15:45.308834+00:00",
+      "fingerprint": "3300|48|3|aniołki",
+      "id": "olx:1089428433"
+    },
+    "olx:1089429291": {
+      "cena": 3300,
+      "data_wyslania": "2026-08-05T07:15:45.308834+00:00",
+      "fingerprint": "3300|48|3|aniołki",
+      "id": "olx:1089429291"
     },
     "olx:615984429": {
       "cena": 2400,
