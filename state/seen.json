@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 8963,
+            "fetched": 9084,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 6756,
+            "fetched": 6851,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 52,
-            "fetched": 10836,
-            "sent_main": 3,
+            "dropped": 55,
+            "fetched": 10986,
+            "sent_main": 4,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 30,
-            "fetched": 10174,
+            "fetched": 10317,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 3,
-            "fetched": 4377,
+            "fetched": 4436,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 4857,
+            "fetched": 4923,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -77,12 +77,12 @@
   "high_water": {
     "nieruchomosci_online": "000026879329",
     "nieruchomosci_online_sale": "000026878043",
-    "olx": "2026-08-05T16:24:37+02:00",
+    "olx": "2026-08-05T16:46:06+02:00",
     "olx_sale": "2026-08-05T16:05:32+02:00",
     "trojmiasto": "000066499717",
     "trojmiasto_sale": "000066499065"
   },
-  "last_run": "2026-08-05T14:45:44.332349+00:00",
+  "last_run": "2026-08-05T14:58:31.035083+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -7199,6 +7199,12 @@
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
       "fingerprint": "2650|59|2|śródmieście",
       "id": "olx:1083722040"
+    },
+    "olx:1083737085": {
+      "cena": 2000,
+      "data_wyslania": "2026-08-05T14:58:31.035083+00:00",
+      "fingerprint": "2000|22|1|wzgórze świętego maksymiliana",
+      "id": "olx:1083737085"
     },
     "olx:1083744264": {
       "cena": 2890,
@@ -14441,6 +14447,30 @@
       "data_wyslania": "2026-08-05T14:45:44.332349+00:00",
       "fingerprint": "2500|40|2|jasień",
       "id": "olx:1089520181"
+    },
+    "olx:1089521663": {
+      "cena": 1800,
+      "data_wyslania": "2026-08-05T14:58:31.035083+00:00",
+      "fingerprint": "1800|34|1|obłuże",
+      "id": "olx:1089521663"
+    },
+    "olx:1089523983": {
+      "cena": 1600,
+      "data_wyslania": "2026-08-05T14:58:31.035083+00:00",
+      "fingerprint": "1600|54|2|brzeźno",
+      "id": "olx:1089523983"
+    },
+    "olx:1089524407": {
+      "cena": 3500,
+      "data_wyslania": "2026-08-05T14:58:31.035083+00:00",
+      "fingerprint": "3500|50|2|wrzeszcz",
+      "id": "olx:1089524407"
+    },
+    "olx:1089524764": {
+      "cena": 3700,
+      "data_wyslania": "2026-08-05T14:58:31.035083+00:00",
+      "fingerprint": "3700|40|2|działki leśne",
+      "id": "olx:1089524764"
     },
     "olx:615984429": {
       "cena": 2400,
