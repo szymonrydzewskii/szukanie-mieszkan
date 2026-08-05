@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 8600,
+            "fetched": 8721,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 6475,
+            "fetched": 6568,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 49,
-            "fetched": 10378,
+            "fetched": 10531,
             "sent_main": 3,
             "sent_near": 2
           },
           "olx_sale": {
-            "dropped": 29,
-            "fetched": 9743,
+            "dropped": 30,
+            "fetched": 9886,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 3,
-            "fetched": 4200,
+            "fetched": 4259,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 4656,
+            "fetched": 4723,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -77,12 +77,12 @@
   "high_water": {
     "nieruchomosci_online": "000026879329",
     "nieruchomosci_online_sale": "000026878043",
-    "olx": "2026-08-05T15:39:57+02:00",
-    "olx_sale": "2026-08-05T15:46:57+02:00",
+    "olx": "2026-08-05T15:47:56+02:00",
+    "olx_sale": "2026-08-05T16:05:32+02:00",
     "trojmiasto": "000066499717",
     "trojmiasto_sale": "000066499065"
   },
-  "last_run": "2026-08-05T14:01:08.074702+00:00",
+  "last_run": "2026-08-05T14:15:56.187259+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -14406,6 +14406,12 @@
       "fingerprint": "2500|32|2|jasień",
       "id": "olx:1089510285"
     },
+    "olx:1089511928": {
+      "cena": 3200,
+      "data_wyslania": "2026-08-05T14:15:56.187259+00:00",
+      "fingerprint": "3200|45|2|śródmieście",
+      "id": "olx:1089511928"
+    },
     "olx:615984429": {
       "cena": 2400,
       "data_wyslania": "2026-08-02T11:30:57.309222+00:00",
@@ -19920,6 +19926,18 @@
       "fingerprint": "1061159|69.52|3|",
       "id": "olx_sale:1089511735"
     },
+    "olx_sale:1089514927": {
+      "cena": 945000,
+      "data_wyslania": "2026-08-05T14:15:56.187259+00:00",
+      "fingerprint": "945000|67.9|3|dąbrowa",
+      "id": "olx_sale:1089514927"
+    },
+    "olx_sale:1089515452": {
+      "cena": 615000,
+      "data_wyslania": "2026-08-05T14:15:56.187259+00:00",
+      "fingerprint": "615000|59.4|3|karwiny",
+      "id": "olx_sale:1089515452"
+    },
     "olx_sale:857316110": {
       "cena": 715000,
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
@@ -21953,6 +21971,12 @@
       "data_wyslania": "2026-07-31T09:01:07.379472+00:00",
       "fingerprint": "791934|66|3|karczemki",
       "id": "trojmiasto_sale:66416155"
+    },
+    "trojmiasto_sale:66416834": {
+      "cena": 888000,
+      "data_wyslania": "2026-08-05T14:15:56.187259+00:00",
+      "fingerprint": "888000|37.62|2|śródmieście",
+      "id": "trojmiasto_sale:66416834"
     },
     "trojmiasto_sale:66417458": {
       "cena": 569000,
