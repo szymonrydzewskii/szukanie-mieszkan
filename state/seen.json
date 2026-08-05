@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 11759,
+            "fetched": 11881,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 5,
-            "fetched": 8945,
+            "fetched": 9040,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 73,
-            "fetched": 14188,
+            "fetched": 14341,
             "sent_main": 6,
             "sent_near": 2
           },
           "olx_sale": {
-            "dropped": 34,
-            "fetched": 13307,
+            "dropped": 35,
+            "fetched": 13450,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 4,
-            "fetched": 5734,
+            "fetched": 5793,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 6395,
+            "fetched": 6461,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -78,11 +78,11 @@
     "nieruchomosci_online": "000026880077",
     "nieruchomosci_online_sale": "000026878043",
     "olx": "2026-08-05T21:35:14+02:00",
-    "olx_sale": "2026-08-05T21:10:13+02:00",
+    "olx_sale": "2026-08-05T21:37:13+02:00",
     "trojmiasto": "000066499991",
     "trojmiasto_sale": "000066499065"
   },
-  "last_run": "2026-08-05T19:45:46.063647+00:00",
+  "last_run": "2026-08-05T20:01:17.278110+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -20291,6 +20291,12 @@
       "data_wyslania": "2026-08-05T19:31:02.888809+00:00",
       "fingerprint": "569000|42.8|2|orunia - św. wojciech - lipce",
       "id": "olx_sale:1089576130"
+    },
+    "olx_sale:1089581414": {
+      "cena": 699000,
+      "data_wyslania": "2026-08-05T20:01:17.278110+00:00",
+      "fingerprint": "699000|61.7|3|działki leśne",
+      "id": "olx_sale:1089581414"
     },
     "olx_sale:857316110": {
       "cena": 715000,
