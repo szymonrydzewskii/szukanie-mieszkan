@@ -9,38 +9,38 @@
         ],
         "sources": {
           "nieruchomosci_online": {
-            "dropped": 0,
-            "fetched": 5781,
+            "dropped": 1,
+            "fetched": 5904,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 4372,
+            "fetched": 4465,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 13,
-            "fetched": 6878,
+            "dropped": 14,
+            "fetched": 7028,
             "sent_main": 1,
             "sent_near": 1
           },
           "olx_sale": {
-            "dropped": 3,
-            "fetched": 6437,
+            "dropped": 4,
+            "fetched": 6581,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2840,
+            "fetched": 2899,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 3128,
+            "fetched": 3196,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -75,14 +75,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026877352",
+    "nieruchomosci_online": "000026877896",
     "nieruchomosci_online_sale": "000026876855",
-    "olx": "2026-08-05T10:06:41+02:00",
-    "olx_sale": "2026-08-05T10:19:15+02:00",
+    "olx": "2026-08-05T10:44:11+02:00",
+    "olx_sale": "2026-08-05T10:43:08+02:00",
     "trojmiasto": "000066498704",
     "trojmiasto_sale": "000066499065"
   },
-  "last_run": "2026-08-05T08:45:52.815577+00:00",
+  "last_run": "2026-08-05T09:01:12.655177+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -1985,6 +1985,12 @@
       "data_wyslania": "2026-08-04T20:15:53.167627+00:00",
       "fingerprint": "3200|48|3|dolny sopot",
       "id": "nieruchomosci_online:26877352"
+    },
+    "nieruchomosci_online:26877896": {
+      "cena": 4800,
+      "data_wyslania": "2026-08-05T09:01:12.655177+00:00",
+      "fingerprint": "4800|78.2|4|mały kack",
+      "id": "nieruchomosci_online:26877896"
     },
     "nieruchomosci_online_sale:23703220": {
       "cena": 427000,
@@ -13938,6 +13944,24 @@
       "fingerprint": "2500|30|2|matarnia",
       "id": "olx:1089436866"
     },
+    "olx:1089441917": {
+      "cena": 3800,
+      "data_wyslania": "2026-08-05T09:01:12.655177+00:00",
+      "fingerprint": "3800|56|2|dolny sopot",
+      "id": "olx:1089441917"
+    },
+    "olx:1089441989": {
+      "cena": 3800,
+      "data_wyslania": "2026-08-05T09:01:12.655177+00:00",
+      "fingerprint": "3800|46|2|oliwa",
+      "id": "olx:1089441989"
+    },
+    "olx:1089442706": {
+      "cena": 2800,
+      "data_wyslania": "2026-08-05T09:01:12.655177+00:00",
+      "fingerprint": "2800|44|2|chylonia",
+      "id": "olx:1089442706"
+    },
     "olx:615984429": {
       "cena": 2400,
       "data_wyslania": "2026-08-02T11:30:57.309222+00:00",
@@ -14202,6 +14226,12 @@
       "fingerprint": "1428840|68.04|3|wrzeszcz",
       "id": "olx_sale:1025670587"
     },
+    "olx_sale:1025810612": {
+      "cena": 2554800,
+      "data_wyslania": "2026-08-05T09:01:12.655177+00:00",
+      "fingerprint": "2554800|106.45|4|śródmieście",
+      "id": "olx_sale:1025810612"
+    },
     "olx_sale:1028291671": {
       "cena": 1250000,
       "data_wyslania": "2026-07-29T08:15:55.970009+00:00",
@@ -14273,6 +14303,12 @@
       "data_wyslania": "2026-08-03T16:31:07.225987+00:00",
       "fingerprint": "1360411|67.68|3|",
       "id": "olx_sale:1031532475"
+    },
+    "olx_sale:1031639843": {
+      "cena": 1419819,
+      "data_wyslania": "2026-08-05T09:01:12.655177+00:00",
+      "fingerprint": "1419819|68.34|3|",
+      "id": "olx_sale:1031639843"
     },
     "olx_sale:1032136389": {
       "cena": 750000,
@@ -14466,6 +14502,12 @@
       "fingerprint": "833760|30.88|1|śródmieście",
       "id": "olx_sale:1047703424"
     },
+    "olx_sale:1047816902": {
+      "cena": 1765126,
+      "data_wyslania": "2026-08-05T09:01:12.655177+00:00",
+      "fingerprint": "1765126|81.81|3|",
+      "id": "olx_sale:1047816902"
+    },
     "olx_sale:1047837553": {
       "cena": 1512692,
       "data_wyslania": "2026-08-04T08:01:06.304709+00:00",
@@ -14627,6 +14669,12 @@
       "data_wyslania": "2026-07-26T08:30:56.323370+00:00",
       "fingerprint": "630000|36.73|2|wrzeszcz",
       "id": "olx_sale:1053870074"
+    },
+    "olx_sale:1053975680": {
+      "cena": 2995538,
+      "data_wyslania": "2026-08-05T09:01:12.655177+00:00",
+      "fingerprint": "2995538|99.19|3|siedlce",
+      "id": "olx_sale:1053975680"
     },
     "olx_sale:1054170379": {
       "cena": 1499000,
@@ -15149,6 +15197,12 @@
       "data_wyslania": "2026-08-04T13:01:10.551195+00:00",
       "fingerprint": "895000|80.6|3|",
       "id": "olx_sale:1071461614"
+    },
+    "olx_sale:1071462251": {
+      "cena": 554000,
+      "data_wyslania": "2026-08-05T09:01:12.655177+00:00",
+      "fingerprint": "554000|36|2|",
+      "id": "olx_sale:1071462251"
     },
     "olx_sale:1071517047": {
       "cena": 1130468,
@@ -16308,11 +16362,23 @@
       "fingerprint": "179000|33|1|jasień",
       "id": "olx_sale:1083672190"
     },
+    "olx_sale:1083672363": {
+      "cena": 494970,
+      "data_wyslania": "2026-08-05T09:01:12.655177+00:00",
+      "fingerprint": "494970|44.67|2|",
+      "id": "olx_sale:1083672363"
+    },
     "olx_sale:1083677063": {
       "cena": 960000,
       "data_wyslania": "2026-07-26T12:15:45.015550+00:00",
       "fingerprint": "960000|67|3|chwarzno-wiczlino",
       "id": "olx_sale:1083677063"
+    },
+    "olx_sale:1083728314": {
+      "cena": 475000,
+      "data_wyslania": "2026-08-05T09:01:12.655177+00:00",
+      "fingerprint": "475000|34.37|2|jasień",
+      "id": "olx_sale:1083728314"
     },
     "olx_sale:1083728315": {
       "cena": 686153,
@@ -19175,6 +19241,12 @@
       "data_wyslania": "2026-08-05T08:31:12.910533+00:00",
       "fingerprint": "545000|60.2|3|obłuże",
       "id": "olx_sale:1089438573"
+    },
+    "olx_sale:1089442513": {
+      "cena": 579975,
+      "data_wyslania": "2026-08-05T09:01:12.655177+00:00",
+      "fingerprint": "579975|49.65|3|pustki cisowskie-demptowo",
+      "id": "olx_sale:1089442513"
     },
     "olx_sale:857316110": {
       "cena": 715000,
