@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 12490,
+            "fetched": 12611,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 5,
-            "fetched": 9507,
+            "fetched": 9598,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 77,
-            "fetched": 15110,
+            "dropped": 79,
+            "fetched": 15263,
             "sent_main": 6,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 35,
-            "fetched": 14169,
+            "fetched": 14313,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 4,
-            "fetched": 6088,
+            "fetched": 6147,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 6794,
+            "fetched": 6861,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -77,12 +77,12 @@
   "high_water": {
     "nieruchomosci_online": "000026880298",
     "nieruchomosci_online_sale": "000026878043",
-    "olx": "2026-08-05T22:35:25+02:00",
+    "olx": "2026-08-05T22:46:44+02:00",
     "olx_sale": "2026-08-05T21:37:13+02:00",
     "trojmiasto": "000066499991",
     "trojmiasto_sale": "000066499065"
   },
-  "last_run": "2026-08-05T21:01:05.257161+00:00",
+  "last_run": "2026-08-05T21:15:45.673321+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -14783,6 +14783,18 @@
       "data_wyslania": "2026-08-05T20:45:44.827229+00:00",
       "fingerprint": "2300|32|1|ujeścisko - łostowice",
       "id": "olx:1089590655"
+    },
+    "olx:1089591715": {
+      "cena": 3050,
+      "data_wyslania": "2026-08-05T21:15:45.673321+00:00",
+      "fingerprint": "3050|42|2|jasień",
+      "id": "olx:1089591715"
+    },
+    "olx:1089591904": {
+      "cena": 4500,
+      "data_wyslania": "2026-08-05T21:15:45.673321+00:00",
+      "fingerprint": "4500|61|3|wrzeszcz",
+      "id": "olx:1089591904"
     },
     "olx:615984429": {
       "cena": 2400,
