@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 11271,
+            "fetched": 11393,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 5,
-            "fetched": 8565,
+            "fetched": 8660,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 71,
-            "fetched": 13579,
+            "dropped": 72,
+            "fetched": 13734,
             "sent_main": 6,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 33,
-            "fetched": 12748,
+            "fetched": 12891,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 4,
-            "fetched": 5498,
+            "fetched": 5557,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 6131,
+            "fetched": 6197,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,12 +58,12 @@
       "last_error": null
     },
     "olx": {
-      "bad": 1,
-      "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
+      "bad": 0,
+      "last_error": null
     },
     "olx_sale": {
-      "bad": 1,
-      "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
+      "bad": 0,
+      "last_error": null
     },
     "trojmiasto": {
       "bad": 0,
@@ -77,12 +77,12 @@
   "high_water": {
     "nieruchomosci_online": "000026880077",
     "nieruchomosci_online_sale": "000026878043",
-    "olx": "2026-08-05T20:06:55+02:00",
+    "olx": "2026-08-05T20:42:12+02:00",
     "olx_sale": "2026-08-05T20:07:59+02:00",
     "trojmiasto": "000066499991",
     "trojmiasto_sale": "000066499065"
   },
-  "last_run": "2026-08-05T18:45:45.564458+00:00",
+  "last_run": "2026-08-05T19:01:11.837989+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -14688,6 +14688,12 @@
       "fingerprint": "3400|42|2|",
       "id": "olx:1089563891"
     },
+    "olx:1089571007": {
+      "cena": 1900,
+      "data_wyslania": "2026-08-05T19:01:11.837989+00:00",
+      "fingerprint": "1900|20|1|przymorze małe",
+      "id": "olx:1089571007"
+    },
     "olx:615984429": {
       "cena": 2400,
       "data_wyslania": "2026-08-02T11:30:57.309222+00:00",
@@ -14843,6 +14849,12 @@
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
       "fingerprint": "3900|70|3|dolny sopot",
       "id": "olx:984629700"
+    },
+    "olx:992273708": {
+      "cena": 2200,
+      "data_wyslania": "2026-08-05T19:01:11.837989+00:00",
+      "fingerprint": "2200|17|1|aniołki",
+      "id": "olx:992273708"
     },
     "olx:994968241": {
       "cena": 3900,
@@ -17027,6 +17039,12 @@
       "data_wyslania": "2026-08-04T16:45:52.070519+00:00",
       "fingerprint": "499000|47.81|3|",
       "id": "olx_sale:1082923605"
+    },
+    "olx_sale:1083032353": {
+      "cena": 775000,
+      "data_wyslania": "2026-08-05T19:01:11.837989+00:00",
+      "fingerprint": "775000|33|1|śródmieście",
+      "id": "olx_sale:1083032353"
     },
     "olx_sale:1083047019": {
       "cena": 697800,
