@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 7749,
+            "fetched": 7872,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 5824,
+            "fetched": 5916,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 42,
-            "fetched": 9318,
+            "dropped": 43,
+            "fetched": 9470,
             "sent_main": 3,
             "sent_near": 2
           },
           "olx_sale": {
-            "dropped": 24,
-            "fetched": 8733,
+            "dropped": 25,
+            "fetched": 8877,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 3,
-            "fetched": 3787,
+            "fetched": 3846,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 4190,
+            "fetched": 4256,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -77,12 +77,12 @@
   "high_water": {
     "nieruchomosci_online": "000026878756",
     "nieruchomosci_online_sale": "000026878043",
-    "olx": "2026-08-05T14:08:02+02:00",
-    "olx_sale": "2026-08-05T13:41:56+02:00",
+    "olx": "2026-08-05T14:14:17+02:00",
+    "olx_sale": "2026-08-05T14:17:15+02:00",
     "trojmiasto": "000066499717",
     "trojmiasto_sale": "000066499065"
   },
-  "last_run": "2026-08-05T12:19:47.726499+00:00",
+  "last_run": "2026-08-05T12:30:58.004574+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -14310,6 +14310,12 @@
       "fingerprint": "21000|114|4|orłowo",
       "id": "olx:1089490378"
     },
+    "olx:1089491550": {
+      "cena": 4000,
+      "data_wyslania": "2026-08-05T12:30:58.004574+00:00",
+      "fingerprint": "4000|48|2|dolny sopot",
+      "id": "olx:1089491550"
+    },
     "olx:615984429": {
       "cena": 2400,
       "data_wyslania": "2026-08-02T11:30:57.309222+00:00",
@@ -19787,6 +19793,12 @@
       "data_wyslania": "2026-08-05T12:01:19.954114+00:00",
       "fingerprint": "475000|34.37|2|jasień",
       "id": "olx_sale:1089484932"
+    },
+    "olx_sale:1089492068": {
+      "cena": 1175000,
+      "data_wyslania": "2026-08-05T12:30:58.004574+00:00",
+      "fingerprint": "1175000|54.5|3|",
+      "id": "olx_sale:1089492068"
     },
     "olx_sale:857316110": {
       "cena": 715000,
