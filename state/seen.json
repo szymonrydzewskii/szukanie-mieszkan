@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 12247,
+            "fetched": 12369,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 5,
-            "fetched": 9325,
+            "fetched": 9416,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 77,
-            "fetched": 14804,
+            "fetched": 14959,
             "sent_main": 6,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 35,
-            "fetched": 13882,
+            "fetched": 14026,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 4,
-            "fetched": 5970,
+            "fetched": 6029,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 6661,
+            "fetched": 6728,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -77,12 +77,12 @@
   "high_water": {
     "nieruchomosci_online": "000026880077",
     "nieruchomosci_online_sale": "000026878043",
-    "olx": "2026-08-05T22:18:14+02:00",
+    "olx": "2026-08-05T22:35:25+02:00",
     "olx_sale": "2026-08-05T21:37:13+02:00",
     "trojmiasto": "000066499991",
     "trojmiasto_sale": "000066499065"
   },
-  "last_run": "2026-08-05T20:31:08.482700+00:00",
+  "last_run": "2026-08-05T20:45:44.827229+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -6270,6 +6270,12 @@
       "fingerprint": "3200|42|2|żabianka - wejhera - jelitkowo - tysiąclecia",
       "id": "olx:1077126113"
     },
+    "olx:1077148586": {
+      "cena": 4250,
+      "data_wyslania": "2026-08-05T20:45:44.827229+00:00",
+      "fingerprint": "4250|50.82|2|wrzeszcz",
+      "id": "olx:1077148586"
+    },
     "olx:1077308383": {
       "cena": 4300,
       "data_wyslania": "2026-07-29T11:45:50.934057+00:00",
@@ -7355,6 +7361,12 @@
       "data_wyslania": "2026-08-05T16:31:05.010173+00:00",
       "fingerprint": "3150|43.87|2|",
       "id": "olx:1083994105"
+    },
+    "olx:1083996239": {
+      "cena": 4700,
+      "data_wyslania": "2026-08-05T20:45:44.827229+00:00",
+      "fingerprint": "4700|62|3|aniołki",
+      "id": "olx:1083996239"
     },
     "olx:1084010352": {
       "cena": 3000,
@@ -14753,6 +14765,18 @@
       "data_wyslania": "2026-08-05T20:31:08.482700+00:00",
       "fingerprint": "2900|41|2|piecki-migowo",
       "id": "olx:1089588411"
+    },
+    "olx:1089590176": {
+      "cena": 3700,
+      "data_wyslania": "2026-08-05T20:45:44.827229+00:00",
+      "fingerprint": "3700|58|2|śródmieście",
+      "id": "olx:1089590176"
+    },
+    "olx:1089590655": {
+      "cena": 2300,
+      "data_wyslania": "2026-08-05T20:45:44.827229+00:00",
+      "fingerprint": "2300|32|1|ujeścisko - łostowice",
+      "id": "olx:1089590655"
     },
     "olx:615984429": {
       "cena": 2400,
