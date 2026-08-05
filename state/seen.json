@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 10539,
+            "fetched": 10661,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 5,
-            "fetched": 7994,
+            "fetched": 8090,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 67,
-            "fetched": 12813,
+            "fetched": 12965,
             "sent_main": 5,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 30,
-            "fetched": 12037,
+            "fetched": 12179,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 4,
-            "fetched": 5144,
+            "fetched": 5203,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 5729,
+            "fetched": 5797,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -75,14 +75,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026879947",
+    "nieruchomosci_online": "000026880077",
     "nieruchomosci_online_sale": "000026878043",
     "olx": "2026-08-05T19:13:35+02:00",
     "olx_sale": "2026-08-05T16:05:32+02:00",
     "trojmiasto": "000066499991",
     "trojmiasto_sale": "000066499065"
   },
-  "last_run": "2026-08-05T17:31:05.328272+00:00",
+  "last_run": "2026-08-05T17:45:55.093248+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -2051,6 +2051,12 @@
       "data_wyslania": "2026-08-05T16:15:48.370159+00:00",
       "fingerprint": "3200|57.38|2|karwiny",
       "id": "nieruchomosci_online:26879947"
+    },
+    "nieruchomosci_online:26880077": {
+      "cena": 2700,
+      "data_wyslania": "2026-08-05T17:45:55.093248+00:00",
+      "fingerprint": "2700|45.45|2|zielenisz",
+      "id": "nieruchomosci_online:26880077"
     },
     "nieruchomosci_online_sale:23703220": {
       "cena": 427000,
