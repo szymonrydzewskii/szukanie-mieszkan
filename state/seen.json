@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 12853,
+            "fetched": 12974,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 5,
-            "fetched": 9780,
+            "fetched": 9871,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 79,
-            "fetched": 15569,
+            "fetched": 15722,
             "sent_main": 6,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 35,
-            "fetched": 14599,
+            "fetched": 14741,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 4,
-            "fetched": 6265,
+            "fetched": 6324,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 6992,
+            "fetched": 7058,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -82,7 +82,7 @@
     "trojmiasto": "000066499991",
     "trojmiasto_sale": "000066499065"
   },
-  "last_run": "2026-08-05T21:38:42.735104+00:00",
+  "last_run": "2026-08-05T21:45:46.470068+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -3725,6 +3725,12 @@
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
       "fingerprint": "990000|44.34|2|śródmieście",
       "id": "nieruchomosci_online_sale:26710435"
+    },
+    "nieruchomosci_online_sale:26711066": {
+      "cena": 1200000,
+      "data_wyslania": "2026-08-05T21:45:46.470068+00:00",
+      "fingerprint": "1200000|49.7|3|śródmieście",
+      "id": "nieruchomosci_online_sale:26711066"
     },
     "nieruchomosci_online_sale:26711714": {
       "cena": 1254000,
@@ -21047,6 +21053,12 @@
       "data_wyslania": "2026-07-26T08:30:56.323370+00:00",
       "fingerprint": "2700|20|1|przymorze małe",
       "id": "trojmiasto:66478457"
+    },
+    "trojmiasto:66479488": {
+      "cena": 2700,
+      "data_wyslania": "2026-08-05T21:45:46.470068+00:00",
+      "fingerprint": "2700|39|2|śródmieście",
+      "id": "trojmiasto:66479488"
     },
     "trojmiasto:66480319": {
       "cena": 3500,
