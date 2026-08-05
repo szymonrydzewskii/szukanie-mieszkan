@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 10173,
+            "fetched": 10295,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
-            "dropped": 4,
-            "fetched": 7706,
+            "dropped": 5,
+            "fetched": 7802,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 62,
-            "fetched": 12357,
-            "sent_main": 4,
+            "dropped": 64,
+            "fetched": 12510,
+            "sent_main": 5,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 30,
-            "fetched": 11606,
+            "fetched": 11750,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 4,
-            "fetched": 4967,
+            "fetched": 5026,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 5529,
+            "fetched": 5596,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -77,12 +77,12 @@
   "high_water": {
     "nieruchomosci_online": "000026879947",
     "nieruchomosci_online_sale": "000026878043",
-    "olx": "2026-08-05T18:20:19+02:00",
+    "olx": "2026-08-05T18:51:40+02:00",
     "olx_sale": "2026-08-05T16:05:32+02:00",
     "trojmiasto": "000066499991",
     "trojmiasto_sale": "000066499065"
   },
-  "last_run": "2026-08-05T16:48:34.056743+00:00",
+  "last_run": "2026-08-05T17:01:13.906776+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -4333,9 +4333,9 @@
       "id": "nieruchomosci_online_sale:26789571"
     },
     "nieruchomosci_online_sale:26790942": {
-      "cena": 770000,
-      "data_wyslania": "2026-07-28T16:15:39.620022+00:00",
-      "fingerprint": "770000|53|3|żabianka",
+      "cena": 710000,
+      "data_wyslania": "2026-08-05T17:01:13.906776+00:00",
+      "fingerprint": "710000|53|3|żabianka",
       "id": "nieruchomosci_online_sale:26790942"
     },
     "nieruchomosci_online_sale:26791150": {
@@ -14591,6 +14591,24 @@
       "data_wyslania": "2026-08-05T16:31:05.010173+00:00",
       "fingerprint": "1650|27|1|leszczynki",
       "id": "olx:1089543592"
+    },
+    "olx:1089546565": {
+      "cena": 4000,
+      "data_wyslania": "2026-08-05T17:01:13.906776+00:00",
+      "fingerprint": "4000|35|2|letnica",
+      "id": "olx:1089546565"
+    },
+    "olx:1089547274": {
+      "cena": 2300,
+      "data_wyslania": "2026-08-05T17:01:13.906776+00:00",
+      "fingerprint": "2300|49.5|2|chełm z dzielnicą gdańsk południe",
+      "id": "olx:1089547274"
+    },
+    "olx:1089549577": {
+      "cena": 3300,
+      "data_wyslania": "2026-08-05T17:01:13.906776+00:00",
+      "fingerprint": "3300|50|2|",
+      "id": "olx:1089549577"
     },
     "olx:615984429": {
       "cena": 2400,
