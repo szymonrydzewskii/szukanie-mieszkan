@@ -6,38 +6,38 @@
         "errors": [],
         "sources": {
           "nieruchomosci_online": {
-            "dropped": 6,
-            "fetched": 7524,
+            "dropped": 7,
+            "fetched": 7646,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 5570,
+            "fetched": 5659,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 34,
-            "fetched": 9486,
+            "fetched": 9638,
             "sent_main": 3,
             "sent_near": 2
           },
           "olx_sale": {
-            "dropped": 16,
-            "fetched": 8867,
+            "dropped": 17,
+            "fetched": 9011,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 3702,
+            "fetched": 3764,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 4145,
+            "fetched": 4214,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -72,14 +72,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026881414",
+    "nieruchomosci_online": "000026881594",
     "nieruchomosci_online_sale": "000026880437",
-    "olx": "2026-08-06T13:45:23+02:00",
-    "olx_sale": "2026-08-06T13:32:56+02:00",
+    "olx": "2026-08-06T13:49:25+02:00",
+    "olx_sale": "2026-08-06T14:01:55+02:00",
     "trojmiasto": "000066500338",
     "trojmiasto_sale": "000066499065"
   },
-  "last_run": "2026-08-06T12:01:21.135194+00:00",
+  "last_run": "2026-08-06T12:15:48.008351+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -2132,6 +2132,12 @@
       "data_wyslania": "2026-08-06T11:30:59.464478+00:00",
       "fingerprint": "18000|111.21|4|orłowo",
       "id": "nieruchomosci_online:26881414"
+    },
+    "nieruchomosci_online:26881594": {
+      "cena": 8600,
+      "data_wyslania": "2026-08-06T12:15:48.008351+00:00",
+      "fingerprint": "8600|200|4|wielki kack",
+      "id": "nieruchomosci_online:26881594"
     },
     "nieruchomosci_online_sale:23703220": {
       "cena": 427000,
@@ -7184,6 +7190,12 @@
       "data_wyslania": "2026-07-29T10:01:17.201393+00:00",
       "fingerprint": "3700|56|2|wrzeszcz",
       "id": "olx:1083028485"
+    },
+    "olx:1083056419": {
+      "cena": 2500,
+      "data_wyslania": "2026-08-06T12:15:48.008351+00:00",
+      "fingerprint": "2500|38|2|przymorze wielkie",
+      "id": "olx:1083056419"
     },
     "olx:1083062295": {
       "cena": 2500,
@@ -15261,6 +15273,12 @@
       "fingerprint": "3400|48|3|jasień",
       "id": "olx:1089681707"
     },
+    "olx:1089682881": {
+      "cena": 2800,
+      "data_wyslania": "2026-08-06T12:15:48.008351+00:00",
+      "fingerprint": "2800|30|1|zaspa rozstaje",
+      "id": "olx:1089682881"
+    },
     "olx:615984429": {
       "cena": 2400,
       "data_wyslania": "2026-08-02T11:30:57.309222+00:00",
@@ -21062,6 +21080,12 @@
       "data_wyslania": "2026-08-06T12:01:21.135194+00:00",
       "fingerprint": "485000|26|1|brzeźno",
       "id": "olx_sale:1089678259"
+    },
+    "olx_sale:1089686385": {
+      "cena": 629000,
+      "data_wyslania": "2026-08-06T12:15:48.008351+00:00",
+      "fingerprint": "629000|45|2|jasień",
+      "id": "olx_sale:1089686385"
     },
     "olx_sale:857316110": {
       "cena": 715000,
