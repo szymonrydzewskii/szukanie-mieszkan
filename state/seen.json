@@ -53,37 +53,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 122,
+            "fetched": 244,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 93,
+            "fetched": 186,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 13,
-            "fetched": 154,
-            "sent_main": 0,
-            "sent_near": 0
+            "dropped": 14,
+            "fetched": 307,
+            "sent_main": 1,
+            "sent_near": 1
           },
           "olx_sale": {
             "dropped": 6,
-            "fetched": 143,
+            "fetched": 285,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto": {
             "dropped": 3,
-            "fetched": 67,
+            "fetched": 134,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 71,
+            "fetched": 142,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -120,12 +120,12 @@
   "high_water": {
     "nieruchomosci_online": "000026882573",
     "nieruchomosci_online_sale": "000026882743",
-    "olx": "2026-08-06T22:49:46+02:00",
+    "olx": "2026-08-07T00:02:25+02:00",
     "olx_sale": "2026-08-06T23:26:50+02:00",
     "trojmiasto": "000066501314",
     "trojmiasto_sale": "000066499197"
   },
-  "last_run": "2026-08-06T22:01:01.323359+00:00",
+  "last_run": "2026-08-06T23:00:29.896391+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -1320,6 +1320,12 @@
       "data_wyslania": "2026-07-26T11:45:41.937674+00:00",
       "fingerprint": "2950|55|3|kamienny potok",
       "id": "nieruchomosci_online:26845669"
+    },
+    "nieruchomosci_online:26846143": {
+      "cena": 3100,
+      "data_wyslania": "2026-08-06T23:00:29.896391+00:00",
+      "fingerprint": "3100|43.13|2|wyspa spichrzów",
+      "id": "nieruchomosci_online:26846143"
     },
     "nieruchomosci_online:26846315": {
       "cena": 2400,
@@ -15702,6 +15708,36 @@
       "data_wyslania": "2026-08-06T22:01:01.323359+00:00",
       "fingerprint": "2900|43|2|śródmieście",
       "id": "olx:1089804181"
+    },
+    "olx:1089808153": {
+      "cena": 3500,
+      "data_wyslania": "2026-08-06T23:00:29.896391+00:00",
+      "fingerprint": "3500|72|3|kokoszki",
+      "id": "olx:1089808153"
+    },
+    "olx:1089808724": {
+      "cena": 1700,
+      "data_wyslania": "2026-08-06T23:00:29.896391+00:00",
+      "fingerprint": "1700|48|2|śródmieście",
+      "id": "olx:1089808724"
+    },
+    "olx:1089808809": {
+      "cena": 2400,
+      "data_wyslania": "2026-08-06T23:00:29.896391+00:00",
+      "fingerprint": "2400|36|2|orunia - św. wojciech - lipce",
+      "id": "olx:1089808809"
+    },
+    "olx:1089809353": {
+      "cena": 2500,
+      "data_wyslania": "2026-08-06T23:00:29.896391+00:00",
+      "fingerprint": "2500|38|2|przymorze małe",
+      "id": "olx:1089809353"
+    },
+    "olx:1089809519": {
+      "cena": 2700,
+      "data_wyslania": "2026-08-06T23:00:29.896391+00:00",
+      "fingerprint": "2700|39|3|",
+      "id": "olx:1089809519"
     },
     "olx:615984429": {
       "cena": 2400,
