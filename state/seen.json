@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 4362,
+            "fetched": 4484,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 3278,
+            "fetched": 3368,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 2,
-            "fetched": 5507,
+            "fetched": 5663,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
-            "dropped": 0,
-            "fetched": 5136,
+            "dropped": 1,
+            "fetched": 5280,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2124,
+            "fetched": 2183,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 2396,
+            "fetched": 2462,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -75,11 +75,11 @@
     "nieruchomosci_online": "000026880435",
     "nieruchomosci_online_sale": "000026880437",
     "olx": "2026-08-06T07:40:11+02:00",
-    "olx_sale": "2026-08-05T21:37:13+02:00",
+    "olx_sale": "2026-08-06T08:03:44+02:00",
     "trojmiasto": "000066500112",
     "trojmiasto_sale": "000066499065"
   },
-  "last_run": "2026-08-06T06:01:07.559784+00:00",
+  "last_run": "2026-08-06T06:15:50.332757+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -5222,6 +5222,12 @@
       "data_wyslania": "2026-07-31T12:01:14.948939+00:00",
       "fingerprint": "385000|31.2|1|łostowice",
       "id": "nieruchomosci_online_sale:26863459"
+    },
+    "nieruchomosci_online_sale:26864495": {
+      "cena": 659999,
+      "data_wyslania": "2026-08-06T06:15:50.332757+00:00",
+      "fingerprint": "659999|49.5|2|śródmieście",
+      "id": "nieruchomosci_online_sale:26864495"
     },
     "nieruchomosci_online_sale:26864814": {
       "cena": 629000,
@@ -20444,6 +20450,12 @@
       "data_wyslania": "2026-08-05T20:01:17.278110+00:00",
       "fingerprint": "699000|61.7|3|działki leśne",
       "id": "olx_sale:1089581414"
+    },
+    "olx_sale:1089608706": {
+      "cena": 659999,
+      "data_wyslania": "2026-08-06T06:15:50.332757+00:00",
+      "fingerprint": "659999|49.5|2|",
+      "id": "olx_sale:1089608706"
     },
     "olx_sale:857316110": {
       "cena": 715000,
