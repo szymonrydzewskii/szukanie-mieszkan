@@ -53,37 +53,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 244,
+            "fetched": 366,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 186,
+            "fetched": 279,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 14,
-            "fetched": 307,
+            "fetched": 463,
             "sent_main": 1,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 6,
-            "fetched": 285,
+            "fetched": 428,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto": {
             "dropped": 3,
-            "fetched": 134,
+            "fetched": 201,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 142,
+            "fetched": 213,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -125,7 +125,7 @@
     "trojmiasto": "000066501314",
     "trojmiasto_sale": "000066499197"
   },
-  "last_run": "2026-08-06T23:00:29.896391+00:00",
+  "last_run": "2026-08-06T23:07:25.636884+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -7986,6 +7986,12 @@
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
       "fingerprint": "3100|38|2|śródmieście",
       "id": "olx:1084566883"
+    },
+    "olx:1084609881": {
+      "cena": 3000,
+      "data_wyslania": "2026-08-06T23:07:25.636884+00:00",
+      "fingerprint": "3000|34|2|aniołki",
+      "id": "olx:1084609881"
     },
     "olx:1084622463": {
       "cena": 2000,
