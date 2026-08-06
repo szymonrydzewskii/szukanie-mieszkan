@@ -12,37 +12,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 9,
-            "fetched": 9468,
+            "fetched": 9589,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 3,
-            "fetched": 7007,
+            "fetched": 7099,
             "sent_main": 1,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 47,
-            "fetched": 11776,
+            "dropped": 48,
+            "fetched": 11930,
             "sent_main": 4,
             "sent_near": 3
           },
           "olx_sale": {
             "dropped": 27,
-            "fetched": 11017,
+            "fetched": 11160,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 4756,
+            "fetched": 4818,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 5326,
+            "fetched": 5396,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -77,14 +77,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026882525",
+    "nieruchomosci_online": "000026882573",
     "nieruchomosci_online_sale": "000026882446",
-    "olx": "2026-08-06T18:32:33+02:00",
+    "olx": "2026-08-06T19:20:39+02:00",
     "olx_sale": "2026-08-06T17:51:32+02:00",
     "trojmiasto": "000066501133",
     "trojmiasto_sale": "000066499197"
   },
-  "last_run": "2026-08-06T17:15:37.301671+00:00",
+  "last_run": "2026-08-06T17:33:34.276387+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -2167,6 +2167,12 @@
       "data_wyslania": "2026-08-06T17:15:37.301671+00:00",
       "fingerprint": "3000|53.6|3|chylonia",
       "id": "nieruchomosci_online:26882525"
+    },
+    "nieruchomosci_online:26882573": {
+      "cena": 3000,
+      "data_wyslania": "2026-08-06T17:33:34.276387+00:00",
+      "fingerprint": "3000|40|2|śródmieście",
+      "id": "nieruchomosci_online:26882573"
     },
     "nieruchomosci_online_sale:23703220": {
       "cena": 427000,
@@ -6319,6 +6325,12 @@
       "data_wyslania": "2026-07-29T22:01:14.071806+00:00",
       "fingerprint": "2600|36|2|vii dwór",
       "id": "olx:1074137188"
+    },
+    "olx:1074308982": {
+      "cena": 3500,
+      "data_wyslania": "2026-08-06T17:33:34.276387+00:00",
+      "fingerprint": "3500|100|3|mały kack",
+      "id": "olx:1074308982"
     },
     "olx:1074440554": {
       "cena": 3500,
@@ -15529,6 +15541,12 @@
       "data_wyslania": "2026-08-06T17:15:37.301671+00:00",
       "fingerprint": "2000|46.5|2|chylonia",
       "id": "olx:1089757413"
+    },
+    "olx:1089766035": {
+      "cena": 2700,
+      "data_wyslania": "2026-08-06T17:33:34.276387+00:00",
+      "fingerprint": "2700|32|1|ujeścisko - łostowice",
+      "id": "olx:1089766035"
     },
     "olx:615984429": {
       "cena": 2400,
