@@ -51,37 +51,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 2299,
+            "fetched": 2420,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 1729,
+            "fetched": 1820,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 0,
-            "fetched": 2911,
+            "fetched": 3063,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 0,
-            "fetched": 2707,
+            "fetched": 2848,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 1121,
+            "fetched": 1180,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 1260,
+            "fetched": 1326,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -123,7 +123,7 @@
     "trojmiasto": "000066500112",
     "trojmiasto_sale": "000066499065"
   },
-  "last_run": "2026-08-06T02:01:11.642074+00:00",
+  "last_run": "2026-08-06T02:15:44.882237+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -503,6 +503,12 @@
       "fingerprint": "2990|54|2|jasień",
       "id": "nieruchomosci_online:26606669"
     },
+    "nieruchomosci_online:26607246": {
+      "cena": 3200,
+      "data_wyslania": "2026-08-06T02:15:44.882237+00:00",
+      "fingerprint": "3200|43.9|2|działki leśne",
+      "id": "nieruchomosci_online:26607246"
+    },
     "nieruchomosci_online:26609221": {
       "cena": 4500,
       "data_wyslania": "2026-07-25T09:45:42.497013+00:00",
@@ -580,6 +586,12 @@
       "data_wyslania": "2026-07-25T09:45:42.497013+00:00",
       "fingerprint": "2500|32|1|żabianka",
       "id": "nieruchomosci_online:26700300"
+    },
+    "nieruchomosci_online:26702179": {
+      "cena": 2700,
+      "data_wyslania": "2026-08-06T02:15:44.882237+00:00",
+      "fingerprint": "2700|45.64|3|chylonia",
+      "id": "nieruchomosci_online:26702179"
     },
     "nieruchomosci_online:26705229": {
       "cena": 20000,
