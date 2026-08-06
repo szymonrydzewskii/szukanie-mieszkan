@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 4606,
+            "fetched": 4728,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 3458,
+            "fetched": 3546,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 2,
-            "fetched": 5814,
+            "fetched": 5966,
             "sent_main": 0,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 1,
-            "fetched": 5424,
+            "fetched": 5569,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2242,
+            "fetched": 2301,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 2527,
+            "fetched": 2593,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -75,11 +75,11 @@
     "nieruchomosci_online": "000026880435",
     "nieruchomosci_online_sale": "000026880437",
     "olx": "2026-08-06T08:04:15+02:00",
-    "olx_sale": "2026-08-06T08:03:44+02:00",
+    "olx_sale": "2026-08-06T08:31:27+02:00",
     "trojmiasto": "000066500112",
     "trojmiasto_sale": "000066499065"
   },
-  "last_run": "2026-08-06T06:31:07.937084+00:00",
+  "last_run": "2026-08-06T06:45:50.805383+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -20468,6 +20468,12 @@
       "data_wyslania": "2026-08-06T06:15:50.332757+00:00",
       "fingerprint": "659999|49.5|2|",
       "id": "olx_sale:1089608706"
+    },
+    "olx_sale:1089610959": {
+      "cena": 2370000,
+      "data_wyslania": "2026-08-06T06:45:50.805383+00:00",
+      "fingerprint": "2370000|89.43|3|kamienna góra",
+      "id": "olx_sale:1089610959"
     },
     "olx_sale:857316110": {
       "cena": 715000,
