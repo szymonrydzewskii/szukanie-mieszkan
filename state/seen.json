@@ -51,37 +51,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 1936,
+            "fetched": 2057,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 1456,
+            "fetched": 1547,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 0,
-            "fetched": 2451,
+            "fetched": 2605,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 0,
-            "fetched": 2281,
+            "fetched": 2424,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 944,
+            "fetched": 1003,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 1059,
+            "fetched": 1126,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -120,10 +120,10 @@
     "nieruchomosci_online_sale": "000026878043",
     "olx": "2026-08-05T22:46:44+02:00",
     "olx_sale": "2026-08-05T21:37:13+02:00",
-    "trojmiasto": "000066499991",
+    "trojmiasto": "000066500112",
     "trojmiasto_sale": "000066499065"
   },
-  "last_run": "2026-08-06T01:15:42.216879+00:00",
+  "last_run": "2026-08-06T01:30:59.758342+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -21814,6 +21814,12 @@
       "data_wyslania": "2026-08-05T16:01:13.134223+00:00",
       "fingerprint": "2500|31|2|żabianka",
       "id": "trojmiasto:66499991"
+    },
+    "trojmiasto:66500112": {
+      "cena": 3499,
+      "data_wyslania": "2026-08-06T01:30:59.758342+00:00",
+      "fingerprint": "3499|47|2|śródmieście",
+      "id": "trojmiasto:66500112"
     },
     "trojmiasto_sale:64569988": {
       "cena": 3800000,
