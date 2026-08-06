@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 4970,
+            "fetched": 5091,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 3722,
+            "fetched": 3810,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 5,
-            "fetched": 6272,
+            "fetched": 6425,
             "sent_main": 0,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 1,
-            "fetched": 5856,
+            "fetched": 5999,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2419,
+            "fetched": 2478,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 2727,
+            "fetched": 2793,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -79,7 +79,7 @@
     "trojmiasto": "000066500112",
     "trojmiasto_sale": "000066499065"
   },
-  "last_run": "2026-08-06T07:15:48.994154+00:00",
+  "last_run": "2026-08-06T07:23:04.588822+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -5810,6 +5810,12 @@
       "data_wyslania": "2026-08-04T16:15:58.916836+00:00",
       "fingerprint": "2600|55|3|chwarzno-wiczlino",
       "id": "olx:1060858369"
+    },
+    "olx:1060988677": {
+      "cena": 2400,
+      "data_wyslania": "2026-08-06T07:23:04.588822+00:00",
+      "fingerprint": "2400|39|2|pogórze",
+      "id": "olx:1060988677"
     },
     "olx:1060994781": {
       "cena": 2200,
