@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 5817,
+            "fetched": 5939,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 4338,
+            "fetched": 4426,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 10,
-            "fetched": 7341,
+            "dropped": 12,
+            "fetched": 7494,
             "sent_main": 0,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 5,
-            "fetched": 6861,
+            "fetched": 7005,
             "sent_main": 0,
-            "sent_near": 0
+            "sent_near": 1
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 2834,
+            "fetched": 2896,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 3192,
+            "fetched": 3258,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -74,12 +74,12 @@
   "high_water": {
     "nieruchomosci_online": "000026880748",
     "nieruchomosci_online_sale": "000026880437",
-    "olx": "2026-08-06T10:10:48+02:00",
-    "olx_sale": "2026-08-06T10:07:55+02:00",
+    "olx": "2026-08-06T10:41:50+02:00",
+    "olx_sale": "2026-08-06T10:53:11+02:00",
     "trojmiasto": "000066500338",
     "trojmiasto_sale": "000066499065"
   },
-  "last_run": "2026-08-06T08:45:45.293049+00:00",
+  "last_run": "2026-08-06T09:01:14.414891+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -14985,6 +14985,18 @@
       "fingerprint": "4000|56.76|3|piecki-migowo",
       "id": "olx:1089625692"
     },
+    "olx:1089631846": {
+      "cena": 3600,
+      "data_wyslania": "2026-08-06T09:01:14.414891+00:00",
+      "fingerprint": "3600|59|3|przymorze małe",
+      "id": "olx:1089631846"
+    },
+    "olx:1089632290": {
+      "cena": 8400,
+      "data_wyslania": "2026-08-06T09:01:14.414891+00:00",
+      "fingerprint": "8400|78|4|oliwa",
+      "id": "olx:1089632290"
+    },
     "olx:615984429": {
       "cena": 2400,
       "data_wyslania": "2026-08-02T11:30:57.309222+00:00",
@@ -15728,6 +15740,12 @@
       "data_wyslania": "2026-07-28T07:45:44.846862+00:00",
       "fingerprint": "565000|48.46|2|osowa",
       "id": "olx_sale:1053108347"
+    },
+    "olx_sale:1053182647": {
+      "cena": 643655,
+      "data_wyslania": "2026-08-06T09:01:14.414891+00:00",
+      "fingerprint": "643655|33.35|1|siedlce",
+      "id": "olx_sale:1053182647"
     },
     "olx_sale:1053257614": {
       "cena": 2719080,
@@ -20631,6 +20649,12 @@
       "fingerprint": "485000|53|3|oksywie",
       "id": "olx_sale:1089625143"
     },
+    "olx_sale:1089634974": {
+      "cena": 649000,
+      "data_wyslania": "2026-08-06T09:01:14.414891+00:00",
+      "fingerprint": "649000|52.7|3|",
+      "id": "olx_sale:1089634974"
+    },
     "olx_sale:857316110": {
       "cena": 715000,
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
@@ -21986,6 +22010,12 @@
       "data_wyslania": "2026-08-05T10:31:01.286866+00:00",
       "fingerprint": "3400|63.31|3|śródmieście",
       "id": "trojmiasto:66499564"
+    },
+    "trojmiasto:66499575": {
+      "cena": 3000,
+      "data_wyslania": "2026-08-06T09:01:14.414891+00:00",
+      "fingerprint": "3000|32|3|oliwa",
+      "id": "trojmiasto:66499575"
     },
     "trojmiasto:66499649": {
       "cena": 8000,
