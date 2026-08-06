@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 5454,
+            "fetched": 5575,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 4074,
+            "fetched": 4162,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 7,
-            "fetched": 6882,
+            "dropped": 8,
+            "fetched": 7036,
             "sent_main": 0,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 2,
-            "fetched": 6433,
+            "fetched": 6574,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2655,
+            "fetched": 2714,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 2994,
+            "fetched": 3059,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -72,14 +72,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026880435",
+    "nieruchomosci_online": "000026880658",
     "nieruchomosci_online_sale": "000026880437",
     "olx": "2026-08-06T09:50:20+02:00",
     "olx_sale": "2026-08-06T09:47:40+02:00",
     "trojmiasto": "000066500112",
     "trojmiasto_sale": "000066499065"
   },
-  "last_run": "2026-08-06T08:01:08.862165+00:00",
+  "last_run": "2026-08-06T08:15:49.736445+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -2090,6 +2090,12 @@
       "data_wyslania": "2026-08-06T04:15:47.080982+00:00",
       "fingerprint": "2990|50|2|przymorze",
       "id": "nieruchomosci_online:26880435"
+    },
+    "nieruchomosci_online:26880658": {
+      "cena": 3200,
+      "data_wyslania": "2026-08-06T08:15:49.736445+00:00",
+      "fingerprint": "3200|57|2|wzgórze św. maksymiliana",
+      "id": "nieruchomosci_online:26880658"
     },
     "nieruchomosci_online_sale:23703220": {
       "cena": 427000,
@@ -14924,6 +14930,12 @@
       "data_wyslania": "2026-08-06T08:01:08.862165+00:00",
       "fingerprint": "2500|46|2|przymorze wielkie",
       "id": "olx:1089620729"
+    },
+    "olx:1089621655": {
+      "cena": 4200,
+      "data_wyslania": "2026-08-06T08:15:49.736445+00:00",
+      "fingerprint": "4200|72.5|3|",
+      "id": "olx:1089621655"
     },
     "olx:1089621787": {
       "cena": 2700,
