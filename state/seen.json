@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 7,
-            "fetched": 8012,
+            "fetched": 8134,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 5927,
+            "fetched": 6017,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 34,
-            "fetched": 10096,
+            "fetched": 10250,
             "sent_main": 3,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 19,
-            "fetched": 9441,
+            "fetched": 9585,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 3950,
+            "fetched": 4012,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 4420,
+            "fetched": 4489,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -79,7 +79,7 @@
     "trojmiasto": "000066500338",
     "trojmiasto_sale": "000066499065"
   },
-  "last_run": "2026-08-06T12:45:48.419439+00:00",
+  "last_run": "2026-08-06T13:01:12.337723+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -3921,6 +3921,12 @@
       "fingerprint": "529000|50.18|3|obłuże",
       "id": "nieruchomosci_online_sale:26719066"
     },
+    "nieruchomosci_online_sale:26721344": {
+      "cena": 499000,
+      "data_wyslania": "2026-08-06T13:01:12.337723+00:00",
+      "fingerprint": "499000|46.23|2|cisowa",
+      "id": "nieruchomosci_online_sale:26721344"
+    },
     "nieruchomosci_online_sale:26724896": {
       "cena": 1999000,
       "data_wyslania": "2026-07-28T10:45:41.018619+00:00",
@@ -5480,6 +5486,12 @@
       "data_wyslania": "2026-08-03T16:01:13.517088+00:00",
       "fingerprint": "469000|32.3|1|orunia górna - gdańsk południe",
       "id": "nieruchomosci_online_sale:26873958"
+    },
+    "nieruchomosci_online_sale:26874190": {
+      "cena": 1399000,
+      "data_wyslania": "2026-08-06T13:01:12.337723+00:00",
+      "fingerprint": "1399000|69.09|3|przymorze małe",
+      "id": "nieruchomosci_online_sale:26874190"
     },
     "nieruchomosci_online_sale:26874346": {
       "cena": 729000,
@@ -8678,6 +8690,12 @@
       "data_wyslania": "2026-07-28T18:30:57.212574+00:00",
       "fingerprint": "2600|45|2|przymorze wielkie",
       "id": "olx:1086936661"
+    },
+    "olx:1086937467": {
+      "cena": 2400,
+      "data_wyslania": "2026-08-06T13:01:12.337723+00:00",
+      "fingerprint": "2400|35|2|śródmieście",
+      "id": "olx:1086937467"
     },
     "olx:1086939645": {
       "cena": 2900,
@@ -17726,6 +17744,12 @@
       "data_wyslania": "2026-07-28T20:45:51.832045+00:00",
       "fingerprint": "839000|60.01|3|osowa",
       "id": "olx_sale:1082823669"
+    },
+    "olx_sale:1082847940": {
+      "cena": 499000,
+      "data_wyslania": "2026-08-06T13:01:12.337723+00:00",
+      "fingerprint": "499000|36.57|2|redłowo",
+      "id": "olx_sale:1082847940"
     },
     "olx_sale:1082875607": {
       "cena": 522000,
