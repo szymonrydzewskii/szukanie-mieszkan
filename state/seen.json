@@ -12,37 +12,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 7,
-            "fetched": 9105,
+            "fetched": 9226,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 3,
-            "fetched": 6734,
+            "fetched": 6824,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 41,
-            "fetched": 11318,
+            "dropped": 44,
+            "fetched": 11468,
             "sent_main": 3,
             "sent_near": 2
           },
           "olx_sale": {
-            "dropped": 24,
-            "fetched": 10589,
+            "dropped": 25,
+            "fetched": 10732,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 4570,
+            "fetched": 4632,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 5116,
+            "fetched": 5186,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -52,20 +52,20 @@
   },
   "health": {
     "nieruchomosci_online": {
-      "bad": 1,
-      "last_error": "Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Max retries exceeded with url: /szukaj.html?3,mieszkanie,wynajem,,Gda%C5%84sk (Caused by ConnectTim"
+      "bad": 0,
+      "last_error": null
     },
     "nieruchomosci_online_sale": {
-      "bad": 1,
-      "last_error": "Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Max retries exceeded with url: /szukaj.html?3,mieszkanie,sprzedaz,,Gda%C5%84sk (Caused by ConnectTi"
+      "bad": 0,
+      "last_error": null
     },
     "olx": {
-      "bad": 1,
-      "last_error": "OLX: HTTP 202 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '')"
+      "bad": 0,
+      "last_error": null
     },
     "olx_sale": {
-      "bad": 1,
-      "last_error": "OLX: HTTP 202 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '')"
+      "bad": 0,
+      "last_error": null
     },
     "trojmiasto": {
       "bad": 0,
@@ -79,12 +79,12 @@
   "high_water": {
     "nieruchomosci_online": "000026882098",
     "nieruchomosci_online_sale": "000026880437",
-    "olx": "2026-08-06T16:15:01+02:00",
-    "olx_sale": "2026-08-06T16:28:44+02:00",
+    "olx": "2026-08-06T17:07:00+02:00",
+    "olx_sale": "2026-08-06T16:46:30+02:00",
     "trojmiasto": "000066501040",
     "trojmiasto_sale": "000066499197"
   },
-  "last_run": "2026-08-06T15:01:15.195922+00:00",
+  "last_run": "2026-08-06T15:15:46.669606+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -15428,6 +15428,24 @@
       "fingerprint": "2100|45|2|cisowa",
       "id": "olx:1089728469"
     },
+    "olx:1089737771": {
+      "cena": 2700,
+      "data_wyslania": "2026-08-06T15:15:46.669606+00:00",
+      "fingerprint": "2700|50|2|siedlce",
+      "id": "olx:1089737771"
+    },
+    "olx:1089738198": {
+      "cena": 3700,
+      "data_wyslania": "2026-08-06T15:15:46.669606+00:00",
+      "fingerprint": "3700|60|3|piecki-migowo",
+      "id": "olx:1089738198"
+    },
+    "olx:1089740500": {
+      "cena": 2600,
+      "data_wyslania": "2026-08-06T15:15:46.669606+00:00",
+      "fingerprint": "2600|41|2|chwarzno-wiczlino",
+      "id": "olx:1089740500"
+    },
     "olx:615984429": {
       "cena": 2400,
       "data_wyslania": "2026-08-02T11:30:57.309222+00:00",
@@ -21325,6 +21343,12 @@
       "data_wyslania": "2026-08-06T14:45:51.237805+00:00",
       "fingerprint": "1390000|149|4|grabówek",
       "id": "olx_sale:1089732261"
+    },
+    "olx_sale:1089736261": {
+      "cena": 1115000,
+      "data_wyslania": "2026-08-06T15:15:46.669606+00:00",
+      "fingerprint": "1115000|58|2|przymorze wielkie",
+      "id": "olx_sale:1089736261"
     },
     "olx_sale:857316110": {
       "cena": 715000,
