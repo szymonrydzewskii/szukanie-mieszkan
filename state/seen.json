@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 4758,
+            "fetched": 4880,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 3627,
+            "fetched": 3720,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 17,
-            "fetched": 5980,
+            "dropped": 19,
+            "fetched": 6133,
             "sent_main": 1,
             "sent_near": 3
           },
           "olx_sale": {
             "dropped": 7,
-            "fetched": 5543,
+            "fetched": 5685,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto": {
             "dropped": 3,
-            "fetched": 2615,
+            "fetched": 2683,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 2749,
+            "fetched": 2821,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -74,12 +74,12 @@
   "high_water": {
     "nieruchomosci_online": "000026882573",
     "nieruchomosci_online_sale": "000026882743",
-    "olx": "2026-08-07T07:33:37+02:00",
+    "olx": "2026-08-07T08:47:26+02:00",
     "olx_sale": "2026-08-07T08:18:43+02:00",
     "trojmiasto": "000066501314",
     "trojmiasto_sale": "000066499197"
   },
-  "last_run": "2026-08-07T06:51:03.168219+00:00",
+  "last_run": "2026-08-07T07:01:17.010264+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -15776,6 +15776,18 @@
       "data_wyslania": "2026-08-07T05:45:45.972749+00:00",
       "fingerprint": "2800|35|2|karwiny",
       "id": "olx:1089817223"
+    },
+    "olx:1089822575": {
+      "cena": 2900,
+      "data_wyslania": "2026-08-07T07:01:17.010264+00:00",
+      "fingerprint": "2900|47|2|grabówek",
+      "id": "olx:1089822575"
+    },
+    "olx:1089822913": {
+      "cena": 3100,
+      "data_wyslania": "2026-08-07T07:01:17.010264+00:00",
+      "fingerprint": "3100|44|2|wzgórze świętego maksymiliana",
+      "id": "olx:1089822913"
     },
     "olx:615984429": {
       "cena": 2400,
