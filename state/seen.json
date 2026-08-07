@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 9235,
+            "fetched": 9355,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 7139,
+            "fetched": 7231,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 55,
-            "fetched": 11636,
-            "sent_main": 3,
+            "fetched": 11790,
+            "sent_main": 4,
             "sent_near": 3
           },
           "olx_sale": {
             "dropped": 62,
-            "fetched": 10809,
+            "fetched": 10950,
             "sent_main": 1,
             "sent_near": 4
           },
           "trojmiasto": {
-            "dropped": 5,
-            "fetched": 5013,
+            "dropped": 6,
+            "fetched": 5079,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 5,
-            "fetched": 5390,
+            "fetched": 5462,
             "sent_main": 1,
             "sent_near": 0
           }
@@ -74,12 +74,12 @@
   "high_water": {
     "nieruchomosci_online": "000026884780",
     "nieruchomosci_online_sale": "000026884141",
-    "olx": "2026-08-07T16:13:56+02:00",
+    "olx": "2026-08-07T16:41:21+02:00",
     "olx_sale": "2026-08-07T16:26:39+02:00",
-    "trojmiasto": "000066501933",
+    "trojmiasto": "000066502009",
     "trojmiasto_sale": "000066501831"
   },
-  "last_run": "2026-08-07T14:45:56.164867+00:00",
+  "last_run": "2026-08-07T15:01:20.324232+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -6536,6 +6536,12 @@
       "data_wyslania": "2026-07-24T14:00:49.622132+00:00",
       "fingerprint": "2400|36|2|chełm z dzielnicą gdańsk południe",
       "id": "olx:1073045094"
+    },
+    "olx:1073103702": {
+      "cena": 2000,
+      "data_wyslania": "2026-08-07T15:01:20.324232+00:00",
+      "fingerprint": "2000|35|1|ujeścisko - łostowice",
+      "id": "olx:1073103702"
     },
     "olx:1073261537": {
       "cena": 4300,
@@ -16359,6 +16365,12 @@
       "fingerprint": "2600|40|2|przymorze wielkie",
       "id": "olx:1089916208"
     },
+    "olx:1089922777": {
+      "cena": 1700,
+      "data_wyslania": "2026-08-07T15:01:20.324232+00:00",
+      "fingerprint": "1700|48|2|śródmieście",
+      "id": "olx:1089922777"
+    },
     "olx:615984429": {
       "cena": 2400,
       "data_wyslania": "2026-08-02T11:30:57.309222+00:00",
@@ -24506,6 +24518,12 @@
       "data_wyslania": "2026-08-07T13:45:56.216378+00:00",
       "fingerprint": "2800|50|2|letnica",
       "id": "trojmiasto:66501933"
+    },
+    "trojmiasto:66502009": {
+      "cena": 2000,
+      "data_wyslania": "2026-08-07T15:01:20.324232+00:00",
+      "fingerprint": "2000|20|1|chełm",
+      "id": "trojmiasto:66502009"
     },
     "trojmiasto_sale:64569988": {
       "cena": 3800000,
