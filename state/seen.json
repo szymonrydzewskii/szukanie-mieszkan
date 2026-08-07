@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 11275,
+            "fetched": 11395,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 3,
-            "fetched": 8721,
+            "fetched": 8816,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 64,
-            "fetched": 14392,
+            "dropped": 65,
+            "fetched": 14548,
             "sent_main": 5,
             "sent_near": 4
           },
           "olx_sale": {
             "dropped": 65,
-            "fetched": 13367,
+            "fetched": 13509,
             "sent_main": 1,
             "sent_near": 4
           },
           "trojmiasto": {
             "dropped": 6,
-            "fetched": 6162,
+            "fetched": 6225,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 5,
-            "fetched": 6679,
+            "fetched": 6750,
             "sent_main": 1,
             "sent_near": 0
           }
@@ -75,14 +75,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026885074",
+    "nieruchomosci_online": "000026885110",
     "nieruchomosci_online_sale": "000026885093",
-    "olx": "2026-08-07T19:44:47+02:00",
+    "olx": "2026-08-07T20:05:02+02:00",
     "olx_sale": "2026-08-07T19:46:29+02:00",
     "trojmiasto": "000066502009",
     "trojmiasto_sale": "000066501831"
   },
-  "last_run": "2026-08-07T18:15:53.079850+00:00",
+  "last_run": "2026-08-07T18:31:02.168505+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -2285,6 +2285,12 @@
       "data_wyslania": "2026-08-07T17:45:52.358656+00:00",
       "fingerprint": "3500|38|2|piecki-migowo",
       "id": "nieruchomosci_online:26885074"
+    },
+    "nieruchomosci_online:26885110": {
+      "cena": 2500,
+      "data_wyslania": "2026-08-07T18:31:02.168505+00:00",
+      "fingerprint": "2500|40.6|2|witomino-leśniczówka",
+      "id": "nieruchomosci_online:26885110"
     },
     "nieruchomosci_online_sale:23703220": {
       "cena": 427000,
@@ -16517,6 +16523,12 @@
       "data_wyslania": "2026-08-07T18:01:19.829341+00:00",
       "fingerprint": "5900|80|3|śródmieście",
       "id": "olx:1089959770"
+    },
+    "olx:1089963237": {
+      "cena": 3000,
+      "data_wyslania": "2026-08-07T18:31:02.168505+00:00",
+      "fingerprint": "3000|43|2|przymorze wielkie",
+      "id": "olx:1089963237"
     },
     "olx:615984429": {
       "cena": 2400,
