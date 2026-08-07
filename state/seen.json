@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 10315,
+            "fetched": 10435,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 7968,
+            "fetched": 8062,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 60,
-            "fetched": 13169,
+            "dropped": 61,
+            "fetched": 13322,
             "sent_main": 4,
             "sent_near": 3
           },
           "olx_sale": {
             "dropped": 64,
-            "fetched": 12232,
+            "fetched": 12376,
             "sent_main": 1,
             "sent_near": 4
           },
           "trojmiasto": {
             "dropped": 6,
-            "fetched": 5658,
+            "fetched": 5721,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 5,
-            "fetched": 6108,
+            "fetched": 6181,
             "sent_main": 1,
             "sent_near": 0
           }
@@ -77,12 +77,12 @@
   "high_water": {
     "nieruchomosci_online": "000026884952",
     "nieruchomosci_online_sale": "000026884141",
-    "olx": "2026-08-07T18:08:55+02:00",
+    "olx": "2026-08-07T18:29:44+02:00",
     "olx_sale": "2026-08-07T18:19:37+02:00",
     "trojmiasto": "000066502009",
     "trojmiasto_sale": "000066501831"
   },
-  "last_run": "2026-08-07T16:45:45.535531+00:00",
+  "last_run": "2026-08-07T17:01:13.686337+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -16451,6 +16451,12 @@
       "data_wyslania": "2026-08-07T16:31:10.031844+00:00",
       "fingerprint": "2300|27|1|przymorze wielkie",
       "id": "olx:1089940841"
+    },
+    "olx:1089945642": {
+      "cena": 3500,
+      "data_wyslania": "2026-08-07T17:01:13.686337+00:00",
+      "fingerprint": "3500|55|1|dolny sopot",
+      "id": "olx:1089945642"
     },
     "olx:615984429": {
       "cena": 2400,
