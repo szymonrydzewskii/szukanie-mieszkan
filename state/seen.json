@@ -12,37 +12,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 13075,
+            "fetched": 13195,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 3,
-            "fetched": 10138,
+            "fetched": 10233,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 69,
-            "fetched": 16556,
+            "dropped": 70,
+            "fetched": 16706,
             "sent_main": 6,
             "sent_near": 4
           },
           "olx_sale": {
             "dropped": 72,
-            "fetched": 15351,
+            "fetched": 15494,
             "sent_main": 1,
             "sent_near": 4
           },
           "trojmiasto": {
             "dropped": 6,
-            "fetched": 7099,
+            "fetched": 7161,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 6,
-            "fetched": 7766,
+            "fetched": 7838,
             "sent_main": 1,
             "sent_near": 0
           }
@@ -79,12 +79,12 @@
   "high_water": {
     "nieruchomosci_online": "000026885144",
     "nieruchomosci_online_sale": "000026885184",
-    "olx": "2026-08-07T22:59:16+02:00",
+    "olx": "2026-08-07T23:00:17+02:00",
     "olx_sale": "2026-08-07T22:54:08+02:00",
     "trojmiasto": "000066502009",
     "trojmiasto_sale": "000066502174"
   },
-  "last_run": "2026-08-07T21:15:44.851715+00:00",
+  "last_run": "2026-08-07T21:30:59.389836+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -16615,6 +16615,12 @@
       "data_wyslania": "2026-08-07T21:15:44.851715+00:00",
       "fingerprint": "2900|45.67|3|chełm z dzielnicą gdańsk południe",
       "id": "olx:1089996871"
+    },
+    "olx:1089996956": {
+      "cena": 3400,
+      "data_wyslania": "2026-08-07T21:30:59.389836+00:00",
+      "fingerprint": "3400|60|3|redłowo",
+      "id": "olx:1089996956"
     },
     "olx:615984429": {
       "cena": 2400,
