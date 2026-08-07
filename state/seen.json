@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 4392,
+            "fetched": 4514,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 3348,
+            "fetched": 3441,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 16,
-            "fetched": 5521,
+            "dropped": 17,
+            "fetched": 5674,
             "sent_main": 1,
             "sent_near": 3
           },
           "olx_sale": {
-            "dropped": 6,
-            "fetched": 5119,
+            "dropped": 7,
+            "fetched": 5262,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto": {
             "dropped": 3,
-            "fetched": 2412,
+            "fetched": 2479,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 2536,
+            "fetched": 2607,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -75,11 +75,11 @@
     "nieruchomosci_online": "000026882573",
     "nieruchomosci_online_sale": "000026882743",
     "olx": "2026-08-07T07:33:37+02:00",
-    "olx_sale": "2026-08-06T23:26:50+02:00",
+    "olx_sale": "2026-08-07T08:18:43+02:00",
     "trojmiasto": "000066501314",
     "trojmiasto_sale": "000066499197"
   },
-  "last_run": "2026-08-07T06:15:44.437963+00:00",
+  "last_run": "2026-08-07T06:31:03.609621+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -15711,6 +15711,12 @@
       "fingerprint": "2500|34|2|chełm z dzielnicą gdańsk południe",
       "id": "olx:1089787835"
     },
+    "olx:1089794764": {
+      "cena": 250,
+      "data_wyslania": "2026-08-07T06:31:03.609621+00:00",
+      "fingerprint": "250|54|2|letnica",
+      "id": "olx:1089794764"
+    },
     "olx:1089804181": {
       "cena": 2900,
       "data_wyslania": "2026-08-06T22:01:01.323359+00:00",
@@ -21794,6 +21800,12 @@
       "data_wyslania": "2026-08-06T22:01:01.323359+00:00",
       "fingerprint": "499000|34.3|2|wrzeszcz",
       "id": "olx_sale:1089807655"
+    },
+    "olx_sale:1089820292": {
+      "cena": 3790000,
+      "data_wyslania": "2026-08-07T06:31:03.609621+00:00",
+      "fingerprint": "3790000|140|4|śródmieście",
+      "id": "olx_sale:1089820292"
     },
     "olx_sale:857316110": {
       "cena": 715000,
