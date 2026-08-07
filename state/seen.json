@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 7070,
+            "fetched": 7191,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 5438,
+            "fetched": 5535,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 36,
-            "fetched": 8884,
+            "dropped": 39,
+            "fetched": 9037,
             "sent_main": 1,
             "sent_near": 3
           },
           "olx_sale": {
-            "dropped": 55,
-            "fetched": 8253,
+            "dropped": 57,
+            "fetched": 8397,
             "sent_main": 1,
             "sent_near": 3
           },
           "trojmiasto": {
             "dropped": 4,
-            "fetched": 3879,
+            "fetched": 3941,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 4,
-            "fetched": 4067,
+            "fetched": 4138,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -74,12 +74,12 @@
   "high_water": {
     "nieruchomosci_online": "000026883718",
     "nieruchomosci_online_sale": "000026883298",
-    "olx": "2026-08-07T12:20:38+02:00",
-    "olx_sale": "2026-08-07T12:19:03+02:00",
+    "olx": "2026-08-07T12:43:56+02:00",
+    "olx_sale": "2026-08-07T12:51:05+02:00",
     "trojmiasto": "000066501483",
     "trojmiasto_sale": "000066501596"
   },
-  "last_run": "2026-08-07T10:45:48.325341+00:00",
+  "last_run": "2026-08-07T11:01:15.095259+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -16101,6 +16101,24 @@
       "fingerprint": "2980|42|2|ujeścisko - łostowice",
       "id": "olx:1089861318"
     },
+    "olx:1089865706": {
+      "cena": 3400,
+      "data_wyslania": "2026-08-07T11:01:15.095259+00:00",
+      "fingerprint": "3400|78|4|orunia - św. wojciech - lipce",
+      "id": "olx:1089865706"
+    },
+    "olx:1089865931": {
+      "cena": 2350,
+      "data_wyslania": "2026-08-07T11:01:15.095259+00:00",
+      "fingerprint": "2350|18|1|ujeścisko - łostowice",
+      "id": "olx:1089865931"
+    },
+    "olx:1089866458": {
+      "cena": 2050,
+      "data_wyslania": "2026-08-07T11:01:15.095259+00:00",
+      "fingerprint": "2050|32|1|śródmieście",
+      "id": "olx:1089866458"
+    },
     "olx:615984429": {
       "cena": 2400,
       "data_wyslania": "2026-08-02T11:30:57.309222+00:00",
@@ -22689,6 +22707,18 @@
       "fingerprint": "473000|24.3|1|oliwa",
       "id": "olx_sale:1089860931"
     },
+    "olx_sale:1089867809": {
+      "cena": 455000,
+      "data_wyslania": "2026-08-07T11:01:15.095259+00:00",
+      "fingerprint": "455000|34.5|1|mały kack",
+      "id": "olx_sale:1089867809"
+    },
+    "olx_sale:1089867896": {
+      "cena": 470000,
+      "data_wyslania": "2026-08-07T11:01:15.095259+00:00",
+      "fingerprint": "470000|28.5|1|śródmieście",
+      "id": "olx_sale:1089867896"
+    },
     "olx_sale:857316110": {
       "cena": 715000,
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
@@ -24285,6 +24315,12 @@
       "fingerprint": "1399000|104|4|śródmieście",
       "id": "trojmiasto_sale:66019629"
     },
+    "trojmiasto_sale:66022211": {
+      "cena": 749000,
+      "data_wyslania": "2026-08-07T11:01:15.095259+00:00",
+      "fingerprint": "749000|34.81|2|śródmieście",
+      "id": "trojmiasto_sale:66022211"
+    },
     "trojmiasto_sale:66022769": {
       "cena": 10900000,
       "data_wyslania": "2026-07-31T06:45:45.771506+00:00",
@@ -25484,6 +25520,12 @@
       "data_wyslania": "2026-07-25T15:01:07.904355+00:00",
       "fingerprint": "599000|37.77|2|łostowice",
       "id": "trojmiasto_sale:66470295"
+    },
+    "trojmiasto_sale:66470358": {
+      "cena": 2100000,
+      "data_wyslania": "2026-08-07T11:01:15.095259+00:00",
+      "fingerprint": "2100000|65|2|śródmieście",
+      "id": "trojmiasto_sale:66470358"
     },
     "trojmiasto_sale:66470527": {
       "cena": 530000,
