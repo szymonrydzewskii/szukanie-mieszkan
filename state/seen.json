@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 9835,
+            "fetched": 9955,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 7599,
+            "fetched": 7691,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 59,
-            "fetched": 12550,
+            "dropped": 60,
+            "fetched": 12706,
             "sent_main": 4,
             "sent_near": 3
           },
           "olx_sale": {
             "dropped": 63,
-            "fetched": 11663,
+            "fetched": 11806,
             "sent_main": 1,
             "sent_near": 4
           },
           "trojmiasto": {
             "dropped": 6,
-            "fetched": 5404,
+            "fetched": 5468,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 5,
-            "fetched": 5822,
+            "fetched": 5893,
             "sent_main": 1,
             "sent_near": 0
           }
@@ -82,7 +82,7 @@
     "trojmiasto": "000066502009",
     "trojmiasto_sale": "000066501831"
   },
-  "last_run": "2026-08-07T16:01:24.040440+00:00",
+  "last_run": "2026-08-07T16:11:44.190543+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -16433,6 +16433,12 @@
       "data_wyslania": "2026-08-07T15:31:15.396586+00:00",
       "fingerprint": "3500|56|2|śródmieście",
       "id": "olx:1089930090"
+    },
+    "olx:1089935431": {
+      "cena": 3300,
+      "data_wyslania": "2026-08-07T16:11:44.190543+00:00",
+      "fingerprint": "3300|48|2|siedlce",
+      "id": "olx:1089935431"
     },
     "olx:1089936024": {
       "cena": 2600,
