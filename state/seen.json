@@ -53,37 +53,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 1464,
+            "fetched": 1586,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 1116,
+            "fetched": 1209,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 15,
-            "fetched": 1845,
+            "fetched": 1997,
             "sent_main": 1,
-            "sent_near": 1
+            "sent_near": 2
           },
           "olx_sale": {
             "dropped": 6,
-            "fetched": 1709,
+            "fetched": 1851,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto": {
             "dropped": 3,
-            "fetched": 804,
+            "fetched": 871,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 844,
+            "fetched": 915,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -120,12 +120,12 @@
   "high_water": {
     "nieruchomosci_online": "000026882573",
     "nieruchomosci_online_sale": "000026882743",
-    "olx": "2026-08-07T02:11:50+02:00",
+    "olx": "2026-08-07T02:39:47+02:00",
     "olx_sale": "2026-08-06T23:26:50+02:00",
     "trojmiasto": "000066501314",
     "trojmiasto_sale": "000066499197"
   },
-  "last_run": "2026-08-07T00:45:48.983729+00:00",
+  "last_run": "2026-08-07T01:01:08.166648+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -15756,6 +15756,12 @@
       "data_wyslania": "2026-08-07T00:30:58.876255+00:00",
       "fingerprint": "2600|42|1|centrum",
       "id": "olx:1089812744"
+    },
+    "olx:1089813024": {
+      "cena": 2800,
+      "data_wyslania": "2026-08-07T01:01:08.166648+00:00",
+      "fingerprint": "2800|38|2|żabianka - wejhera - jelitkowo - tysiąclecia",
+      "id": "olx:1089813024"
     },
     "olx:615984429": {
       "cena": 2400,
