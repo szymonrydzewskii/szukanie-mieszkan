@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 6222,
+            "fetched": 6344,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 4763,
+            "fetched": 4859,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 31,
-            "fetched": 7814,
+            "fetched": 7969,
             "sent_main": 1,
             "sent_near": 3
           },
           "olx_sale": {
             "dropped": 36,
-            "fetched": 7252,
+            "fetched": 7395,
             "sent_main": 1,
             "sent_near": 3
           },
           "trojmiasto": {
             "dropped": 4,
-            "fetched": 3420,
+            "fetched": 3486,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 3584,
+            "fetched": 3654,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -79,7 +79,7 @@
     "trojmiasto": "000066501483",
     "trojmiasto_sale": "000066501469"
   },
-  "last_run": "2026-08-07T09:31:07.251290+00:00",
+  "last_run": "2026-08-07T09:35:15.100925+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -18705,6 +18705,12 @@
       "fingerprint": "1886850|89.85|4|wrzeszcz",
       "id": "olx_sale:1083488907"
     },
+    "olx_sale:1083488964": {
+      "cena": 1148000,
+      "data_wyslania": "2026-08-07T09:35:15.100925+00:00",
+      "fingerprint": "1148000|61.19|3|jasień",
+      "id": "olx_sale:1083488964"
+    },
     "olx_sale:1083489036": {
       "cena": 947484,
       "data_wyslania": "2026-08-03T19:01:10.279038+00:00",
@@ -18914,6 +18920,12 @@
       "data_wyslania": "2026-07-25T11:01:07.168174+00:00",
       "fingerprint": "749000|50|2|grabówek",
       "id": "olx_sale:1084239609"
+    },
+    "olx_sale:1084245841": {
+      "cena": 484386,
+      "data_wyslania": "2026-08-07T09:35:15.100925+00:00",
+      "fingerprint": "484386|42.49|2|",
+      "id": "olx_sale:1084245841"
     },
     "olx_sale:1084261753": {
       "cena": 2004831,
