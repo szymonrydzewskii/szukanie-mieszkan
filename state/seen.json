@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 8275,
+            "fetched": 8395,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 6402,
+            "fetched": 6495,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 51,
-            "fetched": 10412,
+            "dropped": 52,
+            "fetched": 10568,
             "sent_main": 1,
             "sent_near": 3
           },
           "olx_sale": {
             "dropped": 60,
-            "fetched": 9672,
+            "fetched": 9815,
             "sent_main": 1,
             "sent_near": 4
           },
           "trojmiasto": {
             "dropped": 4,
-            "fetched": 4499,
+            "fetched": 4561,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 5,
-            "fetched": 4810,
+            "fetched": 4885,
             "sent_main": 1,
             "sent_near": 0
           }
@@ -74,12 +74,12 @@
   "high_water": {
     "nieruchomosci_online": "000026883718",
     "nieruchomosci_online_sale": "000026884141",
-    "olx": "2026-08-07T14:43:32+02:00",
+    "olx": "2026-08-07T14:58:37+02:00",
     "olx_sale": "2026-08-07T13:37:08+02:00",
     "trojmiasto": "000066501483",
     "trojmiasto_sale": "000066501831"
   },
-  "last_run": "2026-08-07T13:01:21.068555+00:00",
+  "last_run": "2026-08-07T13:15:52.070449+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -5097,6 +5097,12 @@
       "fingerprint": "1049000|64|3|siedlce",
       "id": "nieruchomosci_online_sale:26834161"
     },
+    "nieruchomosci_online_sale:26834388": {
+      "cena": 450000,
+      "data_wyslania": "2026-08-07T13:15:52.070449+00:00",
+      "fingerprint": "450000|42.6|2|dąbrowa",
+      "id": "nieruchomosci_online_sale:26834388"
+    },
     "nieruchomosci_online_sale:26834890": {
       "cena": 1199000,
       "data_wyslania": "2026-08-07T02:15:45.363070+00:00",
@@ -5684,6 +5690,12 @@
       "data_wyslania": "2026-08-04T09:01:11.326005+00:00",
       "fingerprint": "591591|39|2|ujeścisko",
       "id": "nieruchomosci_online_sale:26874513"
+    },
+    "nieruchomosci_online_sale:26875543": {
+      "cena": 699000,
+      "data_wyslania": "2026-08-07T13:15:52.070449+00:00",
+      "fingerprint": "699000|48|2|matarnia",
+      "id": "nieruchomosci_online_sale:26875543"
     },
     "nieruchomosci_online_sale:26876326": {
       "cena": 835000,
@@ -7082,6 +7094,12 @@
       "data_wyslania": "2026-08-03T15:01:17.888389+00:00",
       "fingerprint": "3100|48|2|śródmieście",
       "id": "olx:1080455019"
+    },
+    "olx:1080469537": {
+      "cena": 7990,
+      "data_wyslania": "2026-08-07T13:15:52.070449+00:00",
+      "fingerprint": "7990|101.7|4|śródmieście",
+      "id": "olx:1080469537"
     },
     "olx:1080488216": {
       "cena": 3800,
@@ -16262,6 +16280,12 @@
       "data_wyslania": "2026-08-07T13:01:21.068555+00:00",
       "fingerprint": "3400|40|2|dolny sopot",
       "id": "olx:1089894027"
+    },
+    "olx:1089897375": {
+      "cena": 3300,
+      "data_wyslania": "2026-08-07T13:15:52.070449+00:00",
+      "fingerprint": "3300|31|2|żabianka - wejhera - jelitkowo - tysiąclecia",
+      "id": "olx:1089897375"
     },
     "olx:615984429": {
       "cena": 2400,
