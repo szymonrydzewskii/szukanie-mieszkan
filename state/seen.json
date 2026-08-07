@@ -12,37 +12,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 12715,
+            "fetched": 12835,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 3,
-            "fetched": 9853,
+            "fetched": 9948,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 67,
-            "fetched": 16089,
+            "dropped": 68,
+            "fetched": 16245,
             "sent_main": 6,
             "sent_near": 4
           },
           "olx_sale": {
-            "dropped": 70,
-            "fetched": 14923,
+            "dropped": 71,
+            "fetched": 15063,
             "sent_main": 1,
             "sent_near": 4
           },
           "trojmiasto": {
             "dropped": 6,
-            "fetched": 6913,
+            "fetched": 6975,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 6,
-            "fetched": 7547,
+            "fetched": 7620,
             "sent_main": 1,
             "sent_near": 0
           }
@@ -79,12 +79,12 @@
   "high_water": {
     "nieruchomosci_online": "000026885144",
     "nieruchomosci_online_sale": "000026885184",
-    "olx": "2026-08-07T22:11:40+02:00",
+    "olx": "2026-08-07T22:43:00+02:00",
     "olx_sale": "2026-08-07T21:57:17+02:00",
     "trojmiasto": "000066502009",
     "trojmiasto_sale": "000066502174"
   },
-  "last_run": "2026-08-07T20:45:55.406694+00:00",
+  "last_run": "2026-08-07T21:01:16.239964+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -16592,6 +16592,24 @@
       "fingerprint": "2200|31|1|leszczynki",
       "id": "olx:1089991518"
     },
+    "olx:1089993910": {
+      "cena": 2700,
+      "data_wyslania": "2026-08-07T21:01:16.239964+00:00",
+      "fingerprint": "2700|42|2|jasień",
+      "id": "olx:1089993910"
+    },
+    "olx:1089995051": {
+      "cena": 2200,
+      "data_wyslania": "2026-08-07T21:01:16.239964+00:00",
+      "fingerprint": "2200|20|1|żabianka - wejhera - jelitkowo - tysiąclecia",
+      "id": "olx:1089995051"
+    },
+    "olx:1089995307": {
+      "cena": 3000,
+      "data_wyslania": "2026-08-07T21:01:16.239964+00:00",
+      "fingerprint": "3000|49|2|jasień",
+      "id": "olx:1089995307"
+    },
     "olx:615984429": {
       "cena": 2400,
       "data_wyslania": "2026-08-02T11:30:57.309222+00:00",
@@ -23095,6 +23113,12 @@
       "data_wyslania": "2026-08-07T09:15:53.830990+00:00",
       "fingerprint": "570000|31.92|2|letnica",
       "id": "olx_sale:1089844001"
+    },
+    "olx_sale:1089844192": {
+      "cena": 850000,
+      "data_wyslania": "2026-08-07T21:01:16.239964+00:00",
+      "fingerprint": "850000|75.59|3|mały kack",
+      "id": "olx_sale:1089844192"
     },
     "olx_sale:1089844623": {
       "cena": 3300000,
