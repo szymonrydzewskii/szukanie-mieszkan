@@ -53,37 +53,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 3538,
+            "fetched": 3660,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 2697,
+            "fetched": 2790,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 15,
-            "fetched": 4452,
+            "fetched": 4604,
             "sent_main": 1,
             "sent_near": 3
           },
           "olx_sale": {
             "dropped": 6,
-            "fetched": 4129,
+            "fetched": 4270,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto": {
             "dropped": 3,
-            "fetched": 1943,
+            "fetched": 2010,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 2042,
+            "fetched": 2112,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -125,7 +125,7 @@
     "trojmiasto": "000066501314",
     "trojmiasto_sale": "000066499197"
   },
-  "last_run": "2026-08-07T04:45:46.097675+00:00",
+  "last_run": "2026-08-07T05:01:12.261273+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
