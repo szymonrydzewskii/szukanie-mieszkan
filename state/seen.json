@@ -12,37 +12,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 14224,
+            "fetched": 14345,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 11107,
+            "fetched": 11201,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 39,
-            "fetched": 17888,
+            "dropped": 40,
+            "fetched": 18041,
             "sent_main": 3,
             "sent_near": 5
           },
           "olx_sale": {
             "dropped": 21,
-            "fetched": 16602,
+            "fetched": 16743,
             "sent_main": 1,
             "sent_near": 1
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 7512,
+            "fetched": 7575,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 4,
-            "fetched": 8623,
+            "fetched": 8694,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -79,12 +79,12 @@
   "high_water": {
     "nieruchomosci_online": "000026885886",
     "nieruchomosci_online_sale": "000026885678",
-    "olx": "2026-08-08T22:32:26+02:00",
+    "olx": "2026-08-08T23:10:02+02:00",
     "olx_sale": "2026-08-08T21:48:10+02:00",
     "trojmiasto": "000066502576",
     "trojmiasto_sale": "000066502431"
   },
-  "last_run": "2026-08-08T21:15:42.335532+00:00",
+  "last_run": "2026-08-08T21:31:00.433307+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -17041,6 +17041,18 @@
       "data_wyslania": "2026-08-08T20:52:17.190680+00:00",
       "fingerprint": "3000|50|3|górny sopot",
       "id": "olx:1090134927"
+    },
+    "olx:1090137683": {
+      "cena": 2750,
+      "data_wyslania": "2026-08-08T21:31:00.433307+00:00",
+      "fingerprint": "2750|40|2|śródmieście",
+      "id": "olx:1090137683"
+    },
+    "olx:1090137855": {
+      "cena": 3700,
+      "data_wyslania": "2026-08-08T21:31:00.433307+00:00",
+      "fingerprint": "3700|50|2|chylonia",
+      "id": "olx:1090137855"
     },
     "olx:615984429": {
       "cena": 2400,
