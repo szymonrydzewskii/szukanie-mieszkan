@@ -12,37 +12,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 9263,
+            "fetched": 9384,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 7275,
+            "fetched": 7367,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 23,
-            "fetched": 11623,
+            "dropped": 24,
+            "fetched": 11776,
             "sent_main": 1,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 16,
-            "fetched": 10780,
-            "sent_main": 0,
+            "fetched": 10922,
+            "sent_main": 1,
             "sent_near": 1
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 4929,
+            "fetched": 4992,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 5650,
+            "fetched": 5723,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -79,12 +79,12 @@
   "high_water": {
     "nieruchomosci_online": "000026885553",
     "nieruchomosci_online_sale": "000026885678",
-    "olx": "2026-08-08T14:34:24+02:00",
-    "olx_sale": "2026-08-08T13:19:46+02:00",
+    "olx": "2026-08-08T15:34:55+02:00",
+    "olx_sale": "2026-08-08T15:24:00+02:00",
     "trojmiasto": "000066502273",
     "trojmiasto_sale": "000066502174"
   },
-  "last_run": "2026-08-08T13:31:10.658814+00:00",
+  "last_run": "2026-08-08T13:45:43.430742+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -4819,6 +4819,12 @@
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
       "fingerprint": "1599000|84.8|3|górny sopot",
       "id": "nieruchomosci_online_sale:26799419"
+    },
+    "nieruchomosci_online_sale:26799564": {
+      "cena": 999000,
+      "data_wyslania": "2026-08-08T13:45:43.430742+00:00",
+      "fingerprint": "999000|76.54|4|pogórze górne",
+      "id": "nieruchomosci_online_sale:26799564"
     },
     "nieruchomosci_online_sale:26799786": {
       "cena": 2595000,
@@ -16898,6 +16904,18 @@
       "fingerprint": "1800|22|1|cisowa",
       "id": "olx:1090064542"
     },
+    "olx:1090071821": {
+      "cena": 2500,
+      "data_wyslania": "2026-08-08T13:45:43.430742+00:00",
+      "fingerprint": "2500|48|2|przymorze wielkie",
+      "id": "olx:1090071821"
+    },
+    "olx:1090073472": {
+      "cena": 2600,
+      "data_wyslania": "2026-08-08T13:45:43.430742+00:00",
+      "fingerprint": "2600|39|2|karwiny",
+      "id": "olx:1090073472"
+    },
     "olx:615984429": {
       "cena": 2400,
       "data_wyslania": "2026-08-02T11:30:57.309222+00:00",
@@ -23821,6 +23839,12 @@
       "data_wyslania": "2026-08-08T11:31:04.316344+00:00",
       "fingerprint": "942334|45.7|2|działki leśne",
       "id": "olx_sale:1090052883"
+    },
+    "olx_sale:1090071892": {
+      "cena": 599000,
+      "data_wyslania": "2026-08-08T13:45:43.430742+00:00",
+      "fingerprint": "599000|50|2|piecki-migowo",
+      "id": "olx_sale:1090071892"
     },
     "olx_sale:857316110": {
       "cena": 715000,
