@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 5520,
+            "fetched": 5640,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 4370,
+            "fetched": 4465,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 6,
-            "fetched": 6899,
+            "dropped": 7,
+            "fetched": 7052,
             "sent_main": 0,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 1,
-            "fetched": 6394,
+            "fetched": 6535,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2890,
+            "fetched": 2954,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 3333,
+            "fetched": 3406,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,12 +58,12 @@
       "last_error": null
     },
     "olx": {
-      "bad": 1,
-      "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
+      "bad": 0,
+      "last_error": null
     },
     "olx_sale": {
-      "bad": 1,
-      "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
+      "bad": 0,
+      "last_error": null
     },
     "trojmiasto": {
       "bad": 0,
@@ -77,12 +77,12 @@
   "high_water": {
     "nieruchomosci_online": "000026885453",
     "nieruchomosci_online_sale": "000026885184",
-    "olx": "2026-08-08T08:31:57+02:00",
+    "olx": "2026-08-08T09:11:48+02:00",
     "olx_sale": "2026-08-08T00:08:45+02:00",
     "trojmiasto": "000066502273",
     "trojmiasto_sale": "000066502174"
   },
-  "last_run": "2026-08-08T07:31:03.158164+00:00",
+  "last_run": "2026-08-08T07:45:52.737658+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -16692,6 +16692,12 @@
       "fingerprint": "3100|45|3|żabianka - wejhera - jelitkowo - tysiąclecia",
       "id": "olx:1090011010"
     },
+    "olx:1090013909": {
+      "cena": 2200,
+      "data_wyslania": "2026-08-08T07:45:52.737658+00:00",
+      "fingerprint": "2200|30|1|kokoszki",
+      "id": "olx:1090013909"
+    },
     "olx:615984429": {
       "cena": 2400,
       "data_wyslania": "2026-08-02T11:30:57.309222+00:00",
@@ -18827,6 +18833,12 @@
       "data_wyslania": "2026-08-03T10:01:10.809663+00:00",
       "fingerprint": "569999|46|2|wielki kack",
       "id": "olx_sale:1078525757"
+    },
+    "olx_sale:1078618396": {
+      "cena": 399000,
+      "data_wyslania": "2026-08-08T07:45:52.737658+00:00",
+      "fingerprint": "399000|29.25|1|",
+      "id": "olx_sale:1078618396"
     },
     "olx_sale:1078864505": {
       "cena": 809000,
