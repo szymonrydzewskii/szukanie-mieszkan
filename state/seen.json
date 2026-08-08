@@ -3,17 +3,20 @@
   "digest": {
     "days": {
       "2026-08-08": {
-        "errors": [],
+        "errors": [
+          "olx: OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (p",
+          "olx_sale: OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (p"
+        ],
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 5400,
+            "fetched": 5520,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 4275,
+            "fetched": 4370,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -31,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2826,
+            "fetched": 2890,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 3260,
+            "fetched": 3333,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -55,12 +58,12 @@
       "last_error": null
     },
     "olx": {
-      "bad": 0,
-      "last_error": null
+      "bad": 1,
+      "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 0,
-      "last_error": null
+      "bad": 1,
+      "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
       "bad": 0,
@@ -72,14 +75,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026885288",
+    "nieruchomosci_online": "000026885453",
     "nieruchomosci_online_sale": "000026885184",
     "olx": "2026-08-08T08:31:57+02:00",
     "olx_sale": "2026-08-08T00:08:45+02:00",
     "trojmiasto": "000066502273",
     "trojmiasto_sale": "000066502174"
   },
-  "last_run": "2026-08-08T07:15:49.907413+00:00",
+  "last_run": "2026-08-08T07:31:03.158164+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -2300,6 +2303,12 @@
       "data_wyslania": "2026-08-07T22:01:13.719053+00:00",
       "fingerprint": "2300|39|2|witomino",
       "id": "nieruchomosci_online:26885288"
+    },
+    "nieruchomosci_online:26885453": {
+      "cena": 3200,
+      "data_wyslania": "2026-08-08T07:31:03.158164+00:00",
+      "fingerprint": "3200|41|2|siedlce",
+      "id": "nieruchomosci_online:26885453"
     },
     "nieruchomosci_online_sale:23703220": {
       "cena": 427000,
