@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 8295,
+            "fetched": 8416,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 6543,
+            "fetched": 6634,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 21,
-            "fetched": 10397,
+            "dropped": 22,
+            "fetched": 10550,
             "sent_main": 1,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 16,
-            "fetched": 9645,
+            "fetched": 9788,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 4362,
+            "fetched": 4425,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 4996,
+            "fetched": 5069,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -77,12 +77,12 @@
   "high_water": {
     "nieruchomosci_online": "000026885553",
     "nieruchomosci_online_sale": "000026885678",
-    "olx": "2026-08-08T13:23:58+02:00",
+    "olx": "2026-08-08T13:47:29+02:00",
     "olx_sale": "2026-08-08T13:19:46+02:00",
     "trojmiasto": "000066502273",
     "trojmiasto_sale": "000066502174"
   },
-  "last_run": "2026-08-08T11:48:00.092921+00:00",
+  "last_run": "2026-08-08T12:01:20.238091+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -16866,6 +16866,18 @@
       "fingerprint": "3100|45|2|dolny sopot",
       "id": "olx:1090053574"
     },
+    "olx:1090056751": {
+      "cena": 2900,
+      "data_wyslania": "2026-08-08T12:01:20.238091+00:00",
+      "fingerprint": "2900|40|2|dolny sopot",
+      "id": "olx:1090056751"
+    },
+    "olx:1090057324": {
+      "cena": 2500,
+      "data_wyslania": "2026-08-08T12:01:20.238091+00:00",
+      "fingerprint": "2500|37|2|leszczynki",
+      "id": "olx:1090057324"
+    },
     "olx:615984429": {
       "cena": 2400,
       "data_wyslania": "2026-08-02T11:30:57.309222+00:00",
@@ -18947,6 +18959,12 @@
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
       "fingerprint": "989000|58|3|wyspa sobieszewska",
       "id": "olx_sale:1077496748"
+    },
+    "olx_sale:1077510551": {
+      "cena": 680000,
+      "data_wyslania": "2026-08-08T12:01:20.238091+00:00",
+      "fingerprint": "680000|43.8|2|",
+      "id": "olx_sale:1077510551"
     },
     "olx_sale:1077521236": {
       "cena": 596000,
