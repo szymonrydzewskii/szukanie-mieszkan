@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 7690,
+            "fetched": 7811,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 6088,
+            "fetched": 6179,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 19,
-            "fetched": 9646,
+            "dropped": 20,
+            "fetched": 9799,
             "sent_main": 1,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 13,
-            "fetched": 8945,
+            "fetched": 9087,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 4042,
+            "fetched": 4106,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
-            "dropped": 2,
-            "fetched": 4636,
+            "dropped": 3,
+            "fetched": 4708,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -77,12 +77,12 @@
   "high_water": {
     "nieruchomosci_online": "000026885553",
     "nieruchomosci_online_sale": "000026885184",
-    "olx": "2026-08-08T12:40:22+02:00",
+    "olx": "2026-08-08T13:05:56+02:00",
     "olx_sale": "2026-08-08T12:43:06+02:00",
     "trojmiasto": "000066502273",
     "trojmiasto_sale": "000066502174"
   },
-  "last_run": "2026-08-08T11:01:08.369385+00:00",
+  "last_run": "2026-08-08T11:13:59.325380+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -16818,6 +16818,30 @@
       "fingerprint": "2600|43|2|śródmieście",
       "id": "olx:1090046347"
     },
+    "olx:1090048927": {
+      "cena": 3100,
+      "data_wyslania": "2026-08-08T11:13:59.325380+00:00",
+      "fingerprint": "3100|42|2|śródmieście",
+      "id": "olx:1090048927"
+    },
+    "olx:1090049643": {
+      "cena": 2600,
+      "data_wyslania": "2026-08-08T11:13:59.325380+00:00",
+      "fingerprint": "2600|45|2|śródmieście",
+      "id": "olx:1090049643"
+    },
+    "olx:1090050018": {
+      "cena": 1850,
+      "data_wyslania": "2026-08-08T11:13:59.325380+00:00",
+      "fingerprint": "1850|27|1|żabianka - wejhera - jelitkowo - tysiąclecia",
+      "id": "olx:1090050018"
+    },
+    "olx:1090050679": {
+      "cena": 2900,
+      "data_wyslania": "2026-08-08T11:13:59.325380+00:00",
+      "fingerprint": "2900|50|2|śródmieście",
+      "id": "olx:1090050679"
+    },
     "olx:615984429": {
       "cena": 2400,
       "data_wyslania": "2026-08-02T11:30:57.309222+00:00",
@@ -26203,9 +26227,9 @@
       "id": "trojmiasto_sale:66444034"
     },
     "trojmiasto_sale:66444309": {
-      "cena": 991000,
-      "data_wyslania": "2026-07-29T07:01:11.502367+00:00",
-      "fingerprint": "991000|61.7|3|zaspa rozstaje",
+      "cena": 980000,
+      "data_wyslania": "2026-08-08T11:13:59.325380+00:00",
+      "fingerprint": "980000|61.7|3|zaspa rozstaje",
       "id": "trojmiasto_sale:66444309"
     },
     "trojmiasto_sale:66445208": {
