@@ -12,37 +12,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 12893,
+            "fetched": 13014,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 10070,
+            "fetched": 10164,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 36,
-            "fetched": 16211,
-            "sent_main": 2,
+            "dropped": 37,
+            "fetched": 16364,
+            "sent_main": 3,
             "sent_near": 5
           },
           "olx_sale": {
             "dropped": 19,
-            "fetched": 15033,
+            "fetched": 15176,
             "sent_main": 1,
             "sent_near": 1
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 6819,
+            "fetched": 6882,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 4,
-            "fetched": 7828,
+            "fetched": 7901,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -79,12 +79,12 @@
   "high_water": {
     "nieruchomosci_online": "000026885886",
     "nieruchomosci_online_sale": "000026885678",
-    "olx": "2026-08-08T20:16:30+02:00",
+    "olx": "2026-08-08T21:15:37+02:00",
     "olx_sale": "2026-08-08T20:54:30+02:00",
     "trojmiasto": "000066502576",
     "trojmiasto_sale": "000066502431"
   },
-  "last_run": "2026-08-08T19:15:45.547599+00:00",
+  "last_run": "2026-08-08T19:31:11.374826+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -17011,6 +17011,18 @@
       "data_wyslania": "2026-08-08T18:45:43.948374+00:00",
       "fingerprint": "2500|52|2|piecki-migowo",
       "id": "olx:1090113456"
+    },
+    "olx:1090121509": {
+      "cena": 1700,
+      "data_wyslania": "2026-08-08T19:31:11.374826+00:00",
+      "fingerprint": "1700|48|2|śródmieście",
+      "id": "olx:1090121509"
+    },
+    "olx:1090123980": {
+      "cena": 2200,
+      "data_wyslania": "2026-08-08T19:31:11.374826+00:00",
+      "fingerprint": "2200|47|2|osowa",
+      "id": "olx:1090123980"
     },
     "olx:615984429": {
       "cena": 2400,
