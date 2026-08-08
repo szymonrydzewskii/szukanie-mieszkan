@@ -12,37 +12,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 9384,
+            "fetched": 9505,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 7367,
+            "fetched": 7458,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 24,
-            "fetched": 11776,
+            "fetched": 11928,
             "sent_main": 1,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 16,
-            "fetched": 10922,
+            "fetched": 11064,
             "sent_main": 1,
             "sent_near": 1
           },
           "trojmiasto": {
-            "dropped": 0,
-            "fetched": 4992,
+            "dropped": 1,
+            "fetched": 5055,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 5723,
+            "fetched": 5795,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -81,10 +81,10 @@
     "nieruchomosci_online_sale": "000026885678",
     "olx": "2026-08-08T15:34:55+02:00",
     "olx_sale": "2026-08-08T15:24:00+02:00",
-    "trojmiasto": "000066502273",
+    "trojmiasto": "000066502576",
     "trojmiasto_sale": "000066502174"
   },
-  "last_run": "2026-08-08T13:45:43.430742+00:00",
+  "last_run": "2026-08-08T14:01:18.246938+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -25363,6 +25363,12 @@
       "data_wyslania": "2026-08-08T01:45:45.734933+00:00",
       "fingerprint": "2499|36|2|wrzeszcz górny",
       "id": "trojmiasto:66502273"
+    },
+    "trojmiasto:66502576": {
+      "cena": 2300,
+      "data_wyslania": "2026-08-08T14:01:18.246938+00:00",
+      "fingerprint": "2300|50|2|kowale kasztelańska 9",
+      "id": "trojmiasto:66502576"
     },
     "trojmiasto_sale:64569988": {
       "cena": 3800000,
