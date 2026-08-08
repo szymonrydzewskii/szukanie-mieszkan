@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 6480,
+            "fetched": 6601,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 5143,
+            "fetched": 5239,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 13,
-            "fetched": 8118,
+            "dropped": 15,
+            "fetched": 8272,
             "sent_main": 0,
             "sent_near": 1
           },
           "olx_sale": {
-            "dropped": 7,
-            "fetched": 7525,
+            "dropped": 8,
+            "fetched": 7666,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 3402,
+            "fetched": 3466,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 3915,
+            "fetched": 3987,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -75,14 +75,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026885453",
+    "nieruchomosci_online": "000026885553",
     "nieruchomosci_online_sale": "000026885184",
-    "olx": "2026-08-08T10:44:14+02:00",
+    "olx": "2026-08-08T11:04:58+02:00",
     "olx_sale": "2026-08-08T10:37:05+02:00",
     "trojmiasto": "000066502273",
     "trojmiasto_sale": "000066502174"
   },
-  "last_run": "2026-08-08T09:04:22.682151+00:00",
+  "last_run": "2026-08-08T09:15:42.974504+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -2309,6 +2309,12 @@
       "data_wyslania": "2026-08-08T07:31:03.158164+00:00",
       "fingerprint": "3200|41|2|siedlce",
       "id": "nieruchomosci_online:26885453"
+    },
+    "nieruchomosci_online:26885553": {
+      "cena": 3200,
+      "data_wyslania": "2026-08-08T09:15:42.974504+00:00",
+      "fingerprint": "3200|56|2|dolny sopot",
+      "id": "nieruchomosci_online:26885553"
     },
     "nieruchomosci_online_sale:23703220": {
       "cena": 427000,
@@ -16752,6 +16758,18 @@
       "fingerprint": "2300|38|2|kamienna góra",
       "id": "olx:1090025187"
     },
+    "olx:1090027682": {
+      "cena": 4500,
+      "data_wyslania": "2026-08-08T09:15:42.974504+00:00",
+      "fingerprint": "4500|60|3|",
+      "id": "olx:1090027682"
+    },
+    "olx:1090028286": {
+      "cena": 2800,
+      "data_wyslania": "2026-08-08T09:15:42.974504+00:00",
+      "fingerprint": "2800|30|2|",
+      "id": "olx:1090028286"
+    },
     "olx:615984429": {
       "cena": 2400,
       "data_wyslania": "2026-08-02T11:30:57.309222+00:00",
@@ -23567,6 +23585,12 @@
       "data_wyslania": "2026-08-08T08:31:03.711974+00:00",
       "fingerprint": "529000|44.62|2|cisowa",
       "id": "olx_sale:1090021976"
+    },
+    "olx_sale:1090023256": {
+      "cena": 450000,
+      "data_wyslania": "2026-08-08T09:15:42.974504+00:00",
+      "fingerprint": "450000|31|1|zaspa młyniec",
+      "id": "olx_sale:1090023256"
     },
     "olx_sale:1090024040": {
       "cena": 829000,
