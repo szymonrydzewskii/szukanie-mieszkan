@@ -12,37 +12,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 12046,
+            "fetched": 12167,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 9412,
+            "fetched": 9506,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 33,
-            "fetched": 15140,
+            "dropped": 35,
+            "fetched": 15294,
             "sent_main": 2,
             "sent_near": 3
           },
           "olx_sale": {
             "dropped": 17,
-            "fetched": 14041,
+            "fetched": 14179,
             "sent_main": 1,
             "sent_near": 1
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 6378,
+            "fetched": 6441,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 4,
-            "fetched": 7318,
+            "fetched": 7391,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -79,12 +79,12 @@
   "high_water": {
     "nieruchomosci_online": "000026885886",
     "nieruchomosci_online_sale": "000026885678",
-    "olx": "2026-08-08T19:22:12+02:00",
+    "olx": "2026-08-08T19:46:04+02:00",
     "olx_sale": "2026-08-08T17:52:25+02:00",
     "trojmiasto": "000066502576",
     "trojmiasto_sale": "000066502431"
   },
-  "last_run": "2026-08-08T17:45:44.625308+00:00",
+  "last_run": "2026-08-08T18:01:13.101921+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -14961,9 +14961,9 @@
       "id": "olx:1089356325"
     },
     "olx:1089357614": {
-      "cena": 2300,
-      "data_wyslania": "2026-08-04T16:45:52.070519+00:00",
-      "fingerprint": "2300|34|1|jasień",
+      "cena": 2100,
+      "data_wyslania": "2026-08-08T18:01:13.101921+00:00",
+      "fingerprint": "2100|34|1|jasień",
       "id": "olx:1089357614"
     },
     "olx:1089358647": {
@@ -16993,6 +16993,12 @@
       "data_wyslania": "2026-08-08T17:30:58.694843+00:00",
       "fingerprint": "3500|55.82|3|śródmieście",
       "id": "olx:1090106233"
+    },
+    "olx:1090109366": {
+      "cena": 2600,
+      "data_wyslania": "2026-08-08T18:01:13.101921+00:00",
+      "fingerprint": "2600|40|2|redłowo",
+      "id": "olx:1090109366"
     },
     "olx:615984429": {
       "cena": 2400,
