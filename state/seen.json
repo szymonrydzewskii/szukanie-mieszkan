@@ -12,37 +12,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 9021,
+            "fetched": 9142,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 7091,
+            "fetched": 7183,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 23,
-            "fetched": 11316,
+            "fetched": 11470,
             "sent_main": 1,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 16,
-            "fetched": 10500,
+            "fetched": 10640,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 4803,
+            "fetched": 4866,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 5504,
+            "fetched": 5577,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -84,7 +84,7 @@
     "trojmiasto": "000066502273",
     "trojmiasto_sale": "000066502174"
   },
-  "last_run": "2026-08-08T13:15:45.439661+00:00",
+  "last_run": "2026-08-08T13:28:55.593370+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -3007,6 +3007,12 @@
       "data_wyslania": "2026-07-25T14:17:24.798865+00:00",
       "fingerprint": "630000|36.73|2|wrzeszcz",
       "id": "nieruchomosci_online_sale:26436763"
+    },
+    "nieruchomosci_online_sale:26437462": {
+      "cena": 599000,
+      "data_wyslania": "2026-08-08T13:28:55.593370+00:00",
+      "fingerprint": "599000|43|2|przymorze",
+      "id": "nieruchomosci_online_sale:26437462"
     },
     "nieruchomosci_online_sale:26445176": {
       "cena": 949000,
