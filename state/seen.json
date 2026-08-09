@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 5445,
+            "fetched": 5566,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 4227,
+            "fetched": 4320,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 2,
-            "fetched": 6856,
+            "dropped": 5,
+            "fetched": 7010,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 1,
-            "fetched": 6399,
+            "fetched": 6540,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2835,
+            "fetched": 2898,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 3268,
+            "fetched": 3342,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -74,12 +74,12 @@
   "high_water": {
     "nieruchomosci_online": "000026885886",
     "nieruchomosci_online_sale": "000026885678",
-    "olx": "2026-08-09T08:43:01+02:00",
+    "olx": "2026-08-09T09:12:13+02:00",
     "olx_sale": "2026-08-09T00:32:12+02:00",
     "trojmiasto": "000066502576",
     "trojmiasto_sale": "000066502650"
   },
-  "last_run": "2026-08-09T07:15:48.175553+00:00",
+  "last_run": "2026-08-09T07:31:00.747593+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -8192,6 +8192,12 @@
       "data_wyslania": "2026-07-24T09:39:53.032890+00:00",
       "fingerprint": "3000|40|2|letnica",
       "id": "olx:1083787600"
+    },
+    "olx:1083816025": {
+      "cena": 3500,
+      "data_wyslania": "2026-08-09T07:31:00.747593+00:00",
+      "fingerprint": "3500|48|2|śródmieście",
+      "id": "olx:1083816025"
     },
     "olx:1083817190": {
       "cena": 2900,
@@ -17121,6 +17127,12 @@
       "fingerprint": "3000|50|3|górny sopot",
       "id": "olx:1090134927"
     },
+    "olx:1090136270": {
+      "cena": 4250,
+      "data_wyslania": "2026-08-09T07:31:00.747593+00:00",
+      "fingerprint": "4250|54|2|letnica",
+      "id": "olx:1090136270"
+    },
     "olx:1090137683": {
       "cena": 2750,
       "data_wyslania": "2026-08-08T21:31:00.433307+00:00",
@@ -17144,6 +17156,18 @@
       "data_wyslania": "2026-08-09T07:01:08.351330+00:00",
       "fingerprint": "2200|23|1|śródmieście",
       "id": "olx:1090148706"
+    },
+    "olx:1090150843": {
+      "cena": 4300,
+      "data_wyslania": "2026-08-09T07:31:00.747593+00:00",
+      "fingerprint": "4300|64.5|3|piecki-migowo",
+      "id": "olx:1090150843"
+    },
+    "olx:1090151037": {
+      "cena": 3300,
+      "data_wyslania": "2026-08-09T07:31:00.747593+00:00",
+      "fingerprint": "3300|40|2|oliwa",
+      "id": "olx:1090151037"
     },
     "olx:615984429": {
       "cena": 2400,
