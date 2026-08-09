@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 10647,
+            "fetched": 10768,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 8306,
+            "fetched": 8405,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 26,
-            "fetched": 13440,
+            "fetched": 13593,
             "sent_main": 1,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 10,
-            "fetched": 12519,
+            "fetched": 12662,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 5574,
+            "fetched": 5638,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 6429,
+            "fetched": 6503,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -74,12 +74,12 @@
   "high_water": {
     "nieruchomosci_online": "000026886452",
     "nieruchomosci_online_sale": "000026885678",
-    "olx": "2026-08-09T16:57:15+02:00",
+    "olx": "2026-08-09T17:12:53+02:00",
     "olx_sale": "2026-08-09T17:22:23+02:00",
     "trojmiasto": "000066503158",
     "trojmiasto_sale": "000066503176"
   },
-  "last_run": "2026-08-09T15:31:10.152685+00:00",
+  "last_run": "2026-08-09T15:40:03.813279+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -9081,6 +9081,12 @@
       "fingerprint": "3200|54|3|vii dwór",
       "id": "olx:1086211513"
     },
+    "olx:1086228513": {
+      "cena": 1750,
+      "data_wyslania": "2026-08-09T15:40:03.813279+00:00",
+      "fingerprint": "1750|29|1|orłowo",
+      "id": "olx:1086228513"
+    },
     "olx:1086228893": {
       "cena": 2700,
       "data_wyslania": "2026-07-24T14:12:43.011962+00:00",
@@ -17402,6 +17408,12 @@
       "data_wyslania": "2026-08-09T15:15:46.734822+00:00",
       "fingerprint": "2500|31|1|piecki-migowo",
       "id": "olx:1090230761"
+    },
+    "olx:1090233869": {
+      "cena": 2600,
+      "data_wyslania": "2026-08-09T15:40:03.813279+00:00",
+      "fingerprint": "2600|54|3|ujeścisko - łostowice",
+      "id": "olx:1090233869"
     },
     "olx:615984429": {
       "cena": 2400,
