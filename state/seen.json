@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 11494,
+            "fetched": 11615,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 8999,
+            "fetched": 9098,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 28,
-            "fetched": 14507,
+            "fetched": 14660,
             "sent_main": 1,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 10,
-            "fetched": 13514,
+            "fetched": 13657,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 6022,
+            "fetched": 6085,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 6941,
+            "fetched": 7014,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -79,7 +79,7 @@
     "trojmiasto": "000066503158",
     "trojmiasto_sale": "000066503176"
   },
-  "last_run": "2026-08-09T17:00:16.392604+00:00",
+  "last_run": "2026-08-09T17:15:46.700299+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -9020,6 +9020,12 @@
       "data_wyslania": "2026-07-25T09:14:24.617883+00:00",
       "fingerprint": "3000|45|2|przymorze wielkie",
       "id": "olx:1085940894"
+    },
+    "olx:1085972185": {
+      "cena": 2000,
+      "data_wyslania": "2026-08-09T17:15:46.700299+00:00",
+      "fingerprint": "2000|22|1|przymorze małe",
+      "id": "olx:1085972185"
     },
     "olx:1085977357": {
       "cena": 2600,
@@ -20858,6 +20864,12 @@
       "data_wyslania": "2026-08-07T09:45:45.346677+00:00",
       "fingerprint": "507548.5|32.72|2|piecki-migowo",
       "id": "olx_sale:1084684590"
+    },
+    "olx_sale:1084718219": {
+      "cena": 430000,
+      "data_wyslania": "2026-08-09T17:15:46.700299+00:00",
+      "fingerprint": "430000|30.2|2|witomino-leśniczówka",
+      "id": "olx_sale:1084718219"
     },
     "olx_sale:1084736175": {
       "cena": 685000,
