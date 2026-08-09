@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 12341,
+            "fetched": 12462,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 9692,
+            "fetched": 9791,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 30,
-            "fetched": 15573,
+            "dropped": 31,
+            "fetched": 15727,
             "sent_main": 2,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 10,
-            "fetched": 14513,
+            "fetched": 14654,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 6463,
+            "fetched": 6526,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 7452,
+            "fetched": 7525,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -79,7 +79,7 @@
     "trojmiasto": "000066503158",
     "trojmiasto_sale": "000066503176"
   },
-  "last_run": "2026-08-09T18:17:07.612486+00:00",
+  "last_run": "2026-08-09T18:31:04.394909+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -6872,6 +6872,12 @@
       "data_wyslania": "2026-08-06T13:31:07.631228+00:00",
       "fingerprint": "2500|28|1|śródmieście",
       "id": "olx:1074958997"
+    },
+    "olx:1075104920": {
+      "cena": 3000,
+      "data_wyslania": "2026-08-09T18:31:04.394909+00:00",
+      "fingerprint": "3000|48.7|2|suchanino",
+      "id": "olx:1075104920"
     },
     "olx:1075105141": {
       "cena": 2800,
@@ -17480,6 +17486,12 @@
       "data_wyslania": "2026-08-09T17:00:16.392604+00:00",
       "fingerprint": "2600|44|2|chwarzno-wiczlino",
       "id": "olx:1090250709"
+    },
+    "olx:1090257136": {
+      "cena": 1990,
+      "data_wyslania": "2026-08-09T18:31:04.394909+00:00",
+      "fingerprint": "1990|60|4|chełm z dzielnicą gdańsk południe",
+      "id": "olx:1090257136"
     },
     "olx:1090260158": {
       "cena": 3200,
