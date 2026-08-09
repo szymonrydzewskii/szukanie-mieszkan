@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 11978,
+            "fetched": 12099,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 9395,
+            "fetched": 9494,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 28,
-            "fetched": 15120,
-            "sent_main": 1,
+            "fetched": 15271,
+            "sent_main": 2,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 10,
-            "fetched": 14087,
+            "fetched": 14229,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 6274,
+            "fetched": 6337,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 7233,
+            "fetched": 7306,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -74,12 +74,12 @@
   "high_water": {
     "nieruchomosci_online": "000026886452",
     "nieruchomosci_online_sale": "000026886467",
-    "olx": "2026-08-09T18:52:17+02:00",
+    "olx": "2026-08-09T19:45:20+02:00",
     "olx_sale": "2026-08-09T17:22:23+02:00",
     "trojmiasto": "000066503158",
     "trojmiasto_sale": "000066503176"
   },
-  "last_run": "2026-08-09T17:45:49.715344+00:00",
+  "last_run": "2026-08-09T18:01:15.912720+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -8805,6 +8805,12 @@
       "fingerprint": "2200|50|2|śródmieście",
       "id": "olx:1085157476"
     },
+    "olx:1085166329": {
+      "cena": 2600,
+      "data_wyslania": "2026-08-09T18:01:15.912720+00:00",
+      "fingerprint": "2600|26|1|siedlce",
+      "id": "olx:1085166329"
+    },
     "olx:1085167945": {
       "cena": 2400,
       "data_wyslania": "2026-08-04T09:15:45.528510+00:00",
@@ -17468,6 +17474,12 @@
       "data_wyslania": "2026-08-09T17:00:16.392604+00:00",
       "fingerprint": "2600|44|2|chwarzno-wiczlino",
       "id": "olx:1090250709"
+    },
+    "olx:1090260201": {
+      "cena": 1700,
+      "data_wyslania": "2026-08-09T18:01:15.912720+00:00",
+      "fingerprint": "1700|48|2|śródmieście",
+      "id": "olx:1090260201"
     },
     "olx:615984429": {
       "cena": 2400,
