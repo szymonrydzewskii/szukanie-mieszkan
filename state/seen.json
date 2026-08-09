@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 9196,
+            "fetched": 9317,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 7123,
+            "fetched": 7221,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 17,
-            "fetched": 11604,
+            "dropped": 19,
+            "fetched": 11758,
             "sent_main": 0,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 6,
-            "fetched": 10805,
+            "fetched": 10947,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 4803,
+            "fetched": 4867,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 5547,
+            "fetched": 5621,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -74,12 +74,12 @@
   "high_water": {
     "nieruchomosci_online": "000026886277",
     "nieruchomosci_online_sale": "000026885678",
-    "olx": "2026-08-09T13:48:17+02:00",
+    "olx": "2026-08-09T15:12:59+02:00",
     "olx_sale": "2026-08-09T13:35:06+02:00",
     "trojmiasto": "000066502932",
     "trojmiasto_sale": "000066502650"
   },
-  "last_run": "2026-08-09T13:15:47.823963+00:00",
+  "last_run": "2026-08-09T13:26:57.224259+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -13258,9 +13258,9 @@
       "id": "olx:1088711582"
     },
     "olx:1088712868": {
-      "cena": 4200,
-      "data_wyslania": "2026-08-04T15:15:52.067960+00:00",
-      "fingerprint": "4200|74|3|chwarzno-wiczlino",
+      "cena": 4000,
+      "data_wyslania": "2026-08-09T13:26:57.224259+00:00",
+      "fingerprint": "4000|74|3|chwarzno-wiczlino",
       "id": "olx:1088712868"
     },
     "olx:1088714741": {
@@ -17312,6 +17312,18 @@
       "data_wyslania": "2026-08-09T12:01:15.931870+00:00",
       "fingerprint": "3500|28|2|wzgórze świętego maksymiliana",
       "id": "olx:1090194133"
+    },
+    "olx:1090209156": {
+      "cena": 2500,
+      "data_wyslania": "2026-08-09T13:26:57.224259+00:00",
+      "fingerprint": "2500|51|2|działki leśne",
+      "id": "olx:1090209156"
+    },
+    "olx:1090210483": {
+      "cena": 3400,
+      "data_wyslania": "2026-08-09T13:26:57.224259+00:00",
+      "fingerprint": "3400|61|2|wrzeszcz",
+      "id": "olx:1090210483"
     },
     "olx:615984429": {
       "cena": 2400,
