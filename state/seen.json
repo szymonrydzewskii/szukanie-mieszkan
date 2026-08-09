@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 13672,
+            "fetched": 13793,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 10781,
+            "fetched": 10879,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 40,
-            "fetched": 17262,
+            "dropped": 41,
+            "fetched": 17418,
             "sent_main": 2,
             "sent_near": 2
           },
           "olx_sale": {
-            "dropped": 12,
-            "fetched": 16080,
+            "dropped": 13,
+            "fetched": 16223,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 7156,
+            "fetched": 7218,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 8247,
+            "fetched": 8320,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -74,12 +74,12 @@
   "high_water": {
     "nieruchomosci_online": "000026886452",
     "nieruchomosci_online_sale": "000026886467",
-    "olx": "2026-08-09T22:17:19+02:00",
-    "olx_sale": "2026-08-09T21:53:24+02:00",
+    "olx": "2026-08-09T22:31:43+02:00",
+    "olx_sale": "2026-08-09T22:20:44+02:00",
     "trojmiasto": "000066503158",
     "trojmiasto_sale": "000066503176"
   },
-  "last_run": "2026-08-09T20:31:03.189685+00:00",
+  "last_run": "2026-08-09T20:45:51.257606+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -17583,6 +17583,18 @@
       "fingerprint": "3200|37|2|wrzeszcz",
       "id": "olx:1090288813"
     },
+    "olx:1090289295": {
+      "cena": 4400,
+      "data_wyslania": "2026-08-09T20:45:51.257606+00:00",
+      "fingerprint": "4400|60|4|górny sopot",
+      "id": "olx:1090289295"
+    },
+    "olx:1090290748": {
+      "cena": 2300,
+      "data_wyslania": "2026-08-09T20:45:51.257606+00:00",
+      "fingerprint": "2300|32|1|ujeścisko - łostowice",
+      "id": "olx:1090290748"
+    },
     "olx:554617410": {
       "cena": 3250,
       "data_wyslania": "2026-08-09T20:31:03.189685+00:00",
@@ -24794,6 +24806,12 @@
       "data_wyslania": "2026-08-09T20:01:20.242926+00:00",
       "fingerprint": "659000|53|2|wielki kack",
       "id": "olx_sale:1090285183"
+    },
+    "olx_sale:1090289285": {
+      "cena": 640000,
+      "data_wyslania": "2026-08-09T20:45:51.257606+00:00",
+      "fingerprint": "640000|28|1|wrzeszcz",
+      "id": "olx_sale:1090289285"
     },
     "olx_sale:857316110": {
       "cena": 715000,
