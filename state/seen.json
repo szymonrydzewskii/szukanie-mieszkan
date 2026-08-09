@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 10889,
+            "fetched": 11010,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 8504,
+            "fetched": 8603,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 26,
-            "fetched": 13744,
+            "fetched": 13896,
             "sent_main": 1,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 10,
-            "fetched": 12802,
+            "fetched": 12946,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 5702,
+            "fetched": 5766,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 6576,
+            "fetched": 6649,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -73,13 +73,13 @@
   },
   "high_water": {
     "nieruchomosci_online": "000026886452",
-    "nieruchomosci_online_sale": "000026885678",
+    "nieruchomosci_online_sale": "000026886467",
     "olx": "2026-08-09T17:12:53+02:00",
     "olx_sale": "2026-08-09T17:22:23+02:00",
     "trojmiasto": "000066503158",
     "trojmiasto_sale": "000066503176"
   },
-  "last_run": "2026-08-09T15:45:44.654648+00:00",
+  "last_run": "2026-08-09T16:01:15.843443+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -6026,6 +6026,12 @@
       "data_wyslania": "2026-08-08T11:45:46.718519+00:00",
       "fingerprint": "1149000|67.74|3|jasień",
       "id": "nieruchomosci_online_sale:26885678"
+    },
+    "nieruchomosci_online_sale:26886467": {
+      "cena": 628000,
+      "data_wyslania": "2026-08-09T16:01:15.843443+00:00",
+      "fingerprint": "628000|42.5|2|przymorze",
+      "id": "nieruchomosci_online_sale:26886467"
     },
     "olx:1006019650": {
       "cena": 1800,
