@@ -7,37 +7,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 4961,
+            "fetched": 5082,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 3854,
+            "fetched": 3948,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 2,
-            "fetched": 6245,
+            "fetched": 6396,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx_sale": {
             "dropped": 1,
-            "fetched": 5834,
+            "fetched": 5974,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2583,
+            "fetched": 2646,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 2974,
+            "fetched": 3048,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -79,7 +79,7 @@
     "trojmiasto": "000066502576",
     "trojmiasto_sale": "000066502650"
   },
-  "last_run": "2026-08-09T06:25:31.435882+00:00",
+  "last_run": "2026-08-09T06:31:12.368995+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -8822,6 +8822,12 @@
       "data_wyslania": "2026-07-24T13:17:16.111517+00:00",
       "fingerprint": "2700|44|2|aniołki",
       "id": "olx:1085471316"
+    },
+    "olx:1085494075": {
+      "cena": 2400,
+      "data_wyslania": "2026-08-09T06:31:12.368995+00:00",
+      "fingerprint": "2400|30.2|1|górny sopot",
+      "id": "olx:1085494075"
     },
     "olx:1085502473": {
       "cena": 2000,
