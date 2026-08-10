@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 5929,
+            "fetched": 6050,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
-            "dropped": 0,
-            "fetched": 4909,
+            "dropped": 2,
+            "fetched": 5010,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 11,
-            "fetched": 7340,
+            "fetched": 7493,
             "sent_main": 1,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 3,
-            "fetched": 6835,
+            "fetched": 6978,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 3038,
+            "fetched": 3100,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 3538,
+            "fetched": 3610,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -76,13 +76,13 @@
   },
   "high_water": {
     "nieruchomosci_online": "000026886452",
-    "nieruchomosci_online_sale": "000026887116",
+    "nieruchomosci_online_sale": "000026887217",
     "olx": "2026-08-10T10:01:35+02:00",
     "olx_sale": "2026-08-10T10:23:36+02:00",
     "trojmiasto": "000066503337",
     "trojmiasto_sale": "000066503454"
   },
-  "last_run": "2026-08-10T08:31:05.880579+00:00",
+  "last_run": "2026-08-10T08:45:49.510955+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -6185,6 +6185,18 @@
       "data_wyslania": "2026-08-10T08:15:57.631406+00:00",
       "fingerprint": "415000|24.8|1|kamienny potok",
       "id": "nieruchomosci_online_sale:26887116"
+    },
+    "nieruchomosci_online_sale:26887182": {
+      "cena": 339000,
+      "data_wyslania": "2026-08-10T08:45:49.510955+00:00",
+      "fingerprint": "339000|17|1|gdańsk",
+      "id": "nieruchomosci_online_sale:26887182"
+    },
+    "nieruchomosci_online_sale:26887217": {
+      "cena": 730000,
+      "data_wyslania": "2026-08-10T08:45:49.510955+00:00",
+      "fingerprint": "730000|38|2|oliwa",
+      "id": "nieruchomosci_online_sale:26887217"
     },
     "olx:1006019650": {
       "cena": 1800,
