@@ -11,37 +11,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 10190,
+            "fetched": 10312,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 6,
-            "fetched": 8505,
+            "fetched": 8604,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 49,
-            "fetched": 12855,
+            "dropped": 50,
+            "fetched": 13009,
             "sent_main": 6,
             "sent_near": 2
           },
           "olx_sale": {
             "dropped": 30,
-            "fetched": 11955,
+            "fetched": 12098,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 5276,
+            "fetched": 5339,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 4,
-            "fetched": 6117,
+            "fetched": 6187,
             "sent_main": 1,
             "sent_near": 0
           }
@@ -78,12 +78,12 @@
   "high_water": {
     "nieruchomosci_online": "000026888219",
     "nieruchomosci_online_sale": "000026889121",
-    "olx": "2026-08-10T18:03:40+02:00",
+    "olx": "2026-08-10T18:26:57+02:00",
     "olx_sale": "2026-08-10T17:15:47+02:00",
     "trojmiasto": "000066504026",
     "trojmiasto_sale": "000066503655"
   },
-  "last_run": "2026-08-10T16:31:14.687624+00:00",
+  "last_run": "2026-08-10T16:38:10.336495+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -786,6 +786,12 @@
       "data_wyslania": "2026-07-30T02:15:44.686996+00:00",
       "fingerprint": "4750|55|2|dolny sopot",
       "id": "nieruchomosci_online:26766865"
+    },
+    "nieruchomosci_online:26767078": {
+      "cena": 2350,
+      "data_wyslania": "2026-08-10T16:38:10.336495+00:00",
+      "fingerprint": "2350|38|2|stare miasto",
+      "id": "nieruchomosci_online:26767078"
     },
     "nieruchomosci_online:26769492": {
       "cena": 3000,
@@ -18552,6 +18558,24 @@
       "data_wyslania": "2026-08-10T16:31:14.687624+00:00",
       "fingerprint": "2500|38|2|przymorze wielkie",
       "id": "olx:1090431634"
+    },
+    "olx:1090435136": {
+      "cena": 2900,
+      "data_wyslania": "2026-08-10T16:38:10.336495+00:00",
+      "fingerprint": "2900|68|3|babie doły",
+      "id": "olx:1090435136"
+    },
+    "olx:1090437221": {
+      "cena": 2690,
+      "data_wyslania": "2026-08-10T16:38:10.336495+00:00",
+      "fingerprint": "2690|27|1|śródmieście",
+      "id": "olx:1090437221"
+    },
+    "olx:1090437339": {
+      "cena": 2190,
+      "data_wyslania": "2026-08-10T16:38:10.336495+00:00",
+      "fingerprint": "2190|37|1|śródmieście",
+      "id": "olx:1090437339"
     },
     "olx:554617410": {
       "cena": 3250,
