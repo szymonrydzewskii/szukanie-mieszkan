@@ -11,37 +11,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 9336,
+            "fetched": 9458,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 5,
-            "fetched": 7812,
+            "fetched": 7911,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 46,
-            "fetched": 11778,
+            "fetched": 11931,
             "sent_main": 3,
             "sent_near": 1
           },
           "olx_sale": {
-            "dropped": 25,
-            "fetched": 10961,
+            "dropped": 26,
+            "fetched": 11103,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 4837,
+            "fetched": 4899,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 5623,
+            "fetched": 5694,
             "sent_main": 1,
             "sent_near": 0
           }
@@ -83,7 +83,7 @@
     "trojmiasto": "000066503937",
     "trojmiasto_sale": "000066503655"
   },
-  "last_run": "2026-08-10T14:45:49.859982+00:00",
+  "last_run": "2026-08-10T15:01:34.277099+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -25926,6 +25926,12 @@
       "data_wyslania": "2026-08-10T14:45:49.859982+00:00",
       "fingerprint": "549000|41|2|",
       "id": "olx_sale:1090409269"
+    },
+    "olx_sale:1090411167": {
+      "cena": 599000,
+      "data_wyslania": "2026-08-10T15:01:34.277099+00:00",
+      "fingerprint": "599000|38|2|",
+      "id": "olx_sale:1090411167"
     },
     "olx_sale:1090412078": {
       "cena": 539000,
