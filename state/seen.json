@@ -11,37 +11,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 11776,
+            "fetched": 11898,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 7,
-            "fetched": 9792,
+            "fetched": 9891,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 63,
-            "fetched": 14855,
-            "sent_main": 6,
+            "dropped": 65,
+            "fetched": 15009,
+            "sent_main": 7,
             "sent_near": 4
           },
           "olx_sale": {
             "dropped": 31,
-            "fetched": 13809,
+            "fetched": 13952,
             "sent_main": 2,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 6094,
+            "fetched": 6156,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 4,
-            "fetched": 7031,
+            "fetched": 7101,
             "sent_main": 1,
             "sent_near": 0
           }
@@ -78,12 +78,12 @@
   "high_water": {
     "nieruchomosci_online": "000026888219",
     "nieruchomosci_online_sale": "000026889121",
-    "olx": "2026-08-10T20:52:47+02:00",
+    "olx": "2026-08-10T20:55:59+02:00",
     "olx_sale": "2026-08-10T20:30:37+02:00",
     "trojmiasto": "000066504026",
     "trojmiasto_sale": "000066503655"
   },
-  "last_run": "2026-08-10T19:01:10.409490+00:00",
+  "last_run": "2026-08-10T19:15:48.148340+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -18702,6 +18702,24 @@
       "data_wyslania": "2026-08-10T19:01:10.409490+00:00",
       "fingerprint": "4000|61|3|piecki-migowo",
       "id": "olx:1090470850"
+    },
+    "olx:1090470858": {
+      "cena": 3700,
+      "data_wyslania": "2026-08-10T19:15:48.148340+00:00",
+      "fingerprint": "3700|40|2|aniołki",
+      "id": "olx:1090470858"
+    },
+    "olx:1090471226": {
+      "cena": 1700,
+      "data_wyslania": "2026-08-10T19:15:48.148340+00:00",
+      "fingerprint": "1700|48|2|śródmieście",
+      "id": "olx:1090471226"
+    },
+    "olx:1090471596": {
+      "cena": 1900,
+      "data_wyslania": "2026-08-10T19:15:48.148340+00:00",
+      "fingerprint": "1900|34|1|dolny sopot",
+      "id": "olx:1090471596"
     },
     "olx:554617410": {
       "cena": 3250,
