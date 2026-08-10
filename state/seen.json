@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 6655,
+            "fetched": 6776,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
-            "dropped": 2,
-            "fetched": 5522,
+            "dropped": 4,
+            "fetched": 5622,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 15,
-            "fetched": 8255,
+            "dropped": 16,
+            "fetched": 8406,
             "sent_main": 2,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 7,
-            "fetched": 7687,
+            "fetched": 7831,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 3410,
+            "fetched": 3472,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
-            "dropped": 0,
-            "fetched": 3974,
+            "dropped": 1,
+            "fetched": 4046,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -80,9 +80,9 @@
     "olx": "2026-08-10T11:34:38+02:00",
     "olx_sale": "2026-08-10T11:32:07+02:00",
     "trojmiasto": "000066503337",
-    "trojmiasto_sale": "000066503624"
+    "trojmiasto_sale": "000066503655"
   },
-  "last_run": "2026-08-10T09:45:50.360017+00:00",
+  "last_run": "2026-08-10T10:01:15.943228+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -3205,9 +3205,9 @@
       "id": "nieruchomosci_online_sale:26456897"
     },
     "nieruchomosci_online_sale:26457608": {
-      "cena": 680000,
-      "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
-      "fingerprint": "680000|43.39|2|gdynia",
+      "cena": 675000,
+      "data_wyslania": "2026-08-10T10:01:15.943228+00:00",
+      "fingerprint": "675000|43.39|2|gdynia",
       "id": "nieruchomosci_online_sale:26457608"
     },
     "nieruchomosci_online_sale:26458095": {
@@ -5155,9 +5155,9 @@
       "id": "nieruchomosci_online_sale:26805779"
     },
     "nieruchomosci_online_sale:26806780": {
-      "cena": 598000,
-      "data_wyslania": "2026-07-27T07:45:49.040261+00:00",
-      "fingerprint": "598000|37.92|1|gdynia",
+      "cena": 595000,
+      "data_wyslania": "2026-08-10T10:01:15.943228+00:00",
+      "fingerprint": "595000|37.92|1|gdynia",
       "id": "nieruchomosci_online_sale:26806780"
     },
     "nieruchomosci_online_sale:26807905": {
@@ -18012,6 +18012,12 @@
       "fingerprint": "2000|20|1|",
       "id": "olx:1090336349"
     },
+    "olx:1090339149": {
+      "cena": 2100,
+      "data_wyslania": "2026-08-10T10:01:15.943228+00:00",
+      "fingerprint": "2100|32|1|żabianka - wejhera - jelitkowo - tysiąclecia",
+      "id": "olx:1090339149"
+    },
     "olx:1090342302": {
       "cena": 1200,
       "data_wyslania": "2026-08-10T09:43:10.240779+00:00",
@@ -29159,6 +29165,12 @@
       "data_wyslania": "2026-08-10T09:31:02.927364+00:00",
       "fingerprint": "650000|39.2|2|wrzeszcz dolny",
       "id": "trojmiasto_sale:66503624"
+    },
+    "trojmiasto_sale:66503655": {
+      "cena": 1050000,
+      "data_wyslania": "2026-08-10T10:01:15.943228+00:00",
+      "fingerprint": "1050000|94|5|orunia górna",
+      "id": "trojmiasto_sale:66503655"
     }
   },
   "version": 1
