@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 5324,
+            "fetched": 5445,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 4404,
+            "fetched": 4505,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 7,
-            "fetched": 6575,
+            "dropped": 8,
+            "fetched": 6726,
             "sent_main": 0,
             "sent_near": 1
           },
           "olx_sale": {
-            "dropped": 1,
-            "fetched": 6121,
+            "dropped": 2,
+            "fetched": 6263,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2728,
+            "fetched": 2790,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 3177,
+            "fetched": 3249,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -77,12 +77,12 @@
   "high_water": {
     "nieruchomosci_online": "000026886452",
     "nieruchomosci_online_sale": "000026886467",
-    "olx": "2026-08-10T09:06:15+02:00",
-    "olx_sale": "2026-08-10T08:59:50+02:00",
+    "olx": "2026-08-10T09:28:33+02:00",
+    "olx_sale": "2026-08-10T09:19:46+02:00",
     "trojmiasto": "000066503337",
     "trojmiasto_sale": "000066503454"
   },
-  "last_run": "2026-08-10T07:31:05.973305+00:00",
+  "last_run": "2026-08-10T07:45:45.168314+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -17862,6 +17862,18 @@
       "fingerprint": "2900|37|2|piecki-migowo",
       "id": "olx:1090315249"
     },
+    "olx:1090317630": {
+      "cena": 3400,
+      "data_wyslania": "2026-08-10T07:45:45.168314+00:00",
+      "fingerprint": "3400|57.5|3|piecki-migowo",
+      "id": "olx:1090317630"
+    },
+    "olx:1090318730": {
+      "cena": 1900,
+      "data_wyslania": "2026-08-10T07:45:45.168314+00:00",
+      "fingerprint": "1900|30|1|witomino-radiostacja",
+      "id": "olx:1090318730"
+    },
     "olx:554617410": {
       "cena": 3250,
       "data_wyslania": "2026-08-09T20:31:03.189685+00:00",
@@ -25092,6 +25104,12 @@
       "fingerprint": "477000|31.2|2|wrzeszcz",
       "id": "olx_sale:1090314506"
     },
+    "olx_sale:1090317421": {
+      "cena": 698500,
+      "data_wyslania": "2026-08-10T07:45:45.168314+00:00",
+      "fingerprint": "698500|60|3|",
+      "id": "olx_sale:1090317421"
+    },
     "olx_sale:857316110": {
       "cena": 715000,
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
@@ -25109,6 +25127,12 @@
       "data_wyslania": "2026-07-28T12:01:07.376025+00:00",
       "fingerprint": "1350000|61|3|śródmieście",
       "id": "olx_sale:945345130"
+    },
+    "olx_sale:946792221": {
+      "cena": 1050000,
+      "data_wyslania": "2026-08-10T07:45:45.168314+00:00",
+      "fingerprint": "1050000|109.4|4|śródmieście",
+      "id": "olx_sale:946792221"
     },
     "olx_sale:973875917": {
       "cena": 1065296,
