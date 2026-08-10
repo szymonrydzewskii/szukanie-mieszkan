@@ -10,37 +10,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 7141,
+            "fetched": 7263,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 5922,
+            "fetched": 6022,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
             "dropped": 21,
-            "fetched": 8864,
+            "fetched": 9016,
             "sent_main": 2,
             "sent_near": 1
           },
           "olx_sale": {
-            "dropped": 14,
-            "fetched": 8261,
+            "dropped": 16,
+            "fetched": 8404,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 3658,
+            "fetched": 3720,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 4262,
+            "fetched": 4334,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -78,11 +78,11 @@
     "nieruchomosci_online": "000026887701",
     "nieruchomosci_online_sale": "000026887217",
     "olx": "2026-08-10T12:30:54+02:00",
-    "olx_sale": "2026-08-10T12:31:35+02:00",
+    "olx_sale": "2026-08-10T12:33:02+02:00",
     "trojmiasto": "000066503337",
     "trojmiasto_sale": "000066503655"
   },
-  "last_run": "2026-08-10T10:45:56.480796+00:00",
+  "last_run": "2026-08-10T10:50:53.305421+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -25439,6 +25439,18 @@
       "data_wyslania": "2026-08-10T10:45:56.480796+00:00",
       "fingerprint": "530214|32.79|1|piecki-migowo",
       "id": "olx_sale:1090355300"
+    },
+    "olx_sale:1090355583": {
+      "cena": 1010446,
+      "data_wyslania": "2026-08-10T10:50:53.305421+00:00",
+      "fingerprint": "1010446|69.59|3|piecki-migowo",
+      "id": "olx_sale:1090355583"
+    },
+    "olx_sale:1090355625": {
+      "cena": 997000,
+      "data_wyslania": "2026-08-10T10:50:53.305421+00:00",
+      "fingerprint": "997000|49|2|śródmieście",
+      "id": "olx_sale:1090355625"
     },
     "olx_sale:857316110": {
       "cena": 715000,
