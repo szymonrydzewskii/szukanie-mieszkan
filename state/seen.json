@@ -11,37 +11,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 12386,
+            "fetched": 12508,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 7,
-            "fetched": 10287,
+            "fetched": 10386,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 67,
-            "fetched": 15621,
+            "dropped": 68,
+            "fetched": 15772,
             "sent_main": 7,
             "sent_near": 6
           },
           "olx_sale": {
             "dropped": 32,
-            "fetched": 14519,
+            "fetched": 14660,
             "sent_main": 2,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 6401,
+            "fetched": 6462,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 4,
-            "fetched": 7380,
+            "fetched": 7450,
             "sent_main": 1,
             "sent_near": 0
           }
@@ -78,12 +78,12 @@
   "high_water": {
     "nieruchomosci_online": "000026888219",
     "nieruchomosci_online_sale": "000026889121",
-    "olx": "2026-08-10T21:43:23+02:00",
+    "olx": "2026-08-10T21:54:53+02:00",
     "olx_sale": "2026-08-10T21:36:06+02:00",
     "trojmiasto": "000066504201",
     "trojmiasto_sale": "000066503655"
   },
-  "last_run": "2026-08-10T20:01:11.462959+00:00",
+  "last_run": "2026-08-10T20:15:51.528532+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -18768,6 +18768,12 @@
       "data_wyslania": "2026-08-10T20:01:11.462959+00:00",
       "fingerprint": "2650|55|2|mały kack",
       "id": "olx:1090482006"
+    },
+    "olx:1090483985": {
+      "cena": 2100,
+      "data_wyslania": "2026-08-10T20:15:51.528532+00:00",
+      "fingerprint": "2100|34|1|grabówek",
+      "id": "olx:1090483985"
     },
     "olx:554617410": {
       "cena": 3250,
