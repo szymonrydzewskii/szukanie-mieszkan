@@ -11,37 +11,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 7995,
+            "fetched": 8116,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 5,
-            "fetched": 6722,
+            "fetched": 6822,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 33,
-            "fetched": 10086,
+            "dropped": 34,
+            "fetched": 10240,
             "sent_main": 2,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 17,
-            "fetched": 9402,
+            "fetched": 9546,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 4154,
+            "fetched": 4216,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 4832,
+            "fetched": 4904,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -51,8 +51,8 @@
   },
   "health": {
     "nieruchomosci_online": {
-      "bad": 1,
-      "last_error": "Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Read timed out. (read timeout=20)"
+      "bad": 0,
+      "last_error": null
     },
     "nieruchomosci_online_sale": {
       "bad": 0,
@@ -76,14 +76,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026888194",
+    "nieruchomosci_online": "000026888219",
     "nieruchomosci_online_sale": "000026888042",
-    "olx": "2026-08-10T14:01:23+02:00",
+    "olx": "2026-08-10T14:18:47+02:00",
     "olx_sale": "2026-08-10T14:08:01+02:00",
     "trojmiasto": "000066503703",
     "trojmiasto_sale": "000066503655"
   },
-  "last_run": "2026-08-10T12:15:52.521791+00:00",
+  "last_run": "2026-08-10T12:31:06.564965+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -2466,6 +2466,12 @@
       "data_wyslania": "2026-08-10T12:01:32.646401+00:00",
       "fingerprint": "3000|57|3|wielki kack",
       "id": "nieruchomosci_online:26888194"
+    },
+    "nieruchomosci_online:26888219": {
+      "cena": 2300,
+      "data_wyslania": "2026-08-10T12:31:06.564965+00:00",
+      "fingerprint": "2300|34|1|grabówek",
+      "id": "nieruchomosci_online:26888219"
     },
     "nieruchomosci_online_sale:23703220": {
       "cena": 427000,
@@ -6264,6 +6270,18 @@
       "data_wyslania": "2026-08-10T08:45:49.510955+00:00",
       "fingerprint": "730000|38|2|oliwa",
       "id": "nieruchomosci_online_sale:26887217"
+    },
+    "nieruchomosci_online_sale:26887427": {
+      "cena": 949000,
+      "data_wyslania": "2026-08-10T12:31:06.564965+00:00",
+      "fingerprint": "949000|75.9|4|pogodne",
+      "id": "nieruchomosci_online_sale:26887427"
+    },
+    "nieruchomosci_online_sale:26887473": {
+      "cena": 550000,
+      "data_wyslania": "2026-08-10T12:31:06.564965+00:00",
+      "fingerprint": "550000|35.13|2|łostowice",
+      "id": "nieruchomosci_online_sale:26887473"
     },
     "nieruchomosci_online_sale:26888033": {
       "cena": 1950000,
@@ -18247,6 +18265,18 @@
       "fingerprint": "2000|25|1|oliwa",
       "id": "olx:1090375570"
     },
+    "olx:1090377937": {
+      "cena": 2800,
+      "data_wyslania": "2026-08-10T12:31:06.564965+00:00",
+      "fingerprint": "2800|38|2|wzgórze świętego maksymiliana",
+      "id": "olx:1090377937"
+    },
+    "olx:1090379322": {
+      "cena": 2300,
+      "data_wyslania": "2026-08-10T12:31:06.564965+00:00",
+      "fingerprint": "2300|30|1|chełm z dzielnicą gdańsk południe",
+      "id": "olx:1090379322"
+    },
     "olx:554617410": {
       "cena": 3250,
       "data_wyslania": "2026-08-09T20:31:03.189685+00:00",
@@ -19806,6 +19836,12 @@
       "data_wyslania": "2026-08-06T10:01:10.412459+00:00",
       "fingerprint": "1699000|75|3|śródmieście",
       "id": "olx_sale:1065728669"
+    },
+    "olx_sale:1066171628": {
+      "cena": 384245,
+      "data_wyslania": "2026-08-10T12:31:06.564965+00:00",
+      "fingerprint": "384245|33|2|młyniska",
+      "id": "olx_sale:1066171628"
     },
     "olx_sale:1066263818": {
       "cena": 369000,
