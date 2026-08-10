@@ -11,37 +11,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 12752,
+            "fetched": 12874,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 7,
-            "fetched": 10584,
+            "fetched": 10683,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 68,
-            "fetched": 16079,
+            "dropped": 69,
+            "fetched": 16230,
             "sent_main": 7,
-            "sent_near": 6
+            "sent_near": 7
           },
           "olx_sale": {
             "dropped": 32,
-            "fetched": 14943,
+            "fetched": 15082,
             "sent_main": 2,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 6584,
+            "fetched": 6645,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 4,
-            "fetched": 7590,
+            "fetched": 7660,
             "sent_main": 1,
             "sent_near": 0
           }
@@ -78,12 +78,12 @@
   "high_water": {
     "nieruchomosci_online": "000026888219",
     "nieruchomosci_online_sale": "000026889121",
-    "olx": "2026-08-10T21:54:53+02:00",
+    "olx": "2026-08-10T22:24:26+02:00",
     "olx_sale": "2026-08-10T21:36:06+02:00",
     "trojmiasto": "000066504201",
     "trojmiasto_sale": "000066503655"
   },
-  "last_run": "2026-08-10T20:31:05.917982+00:00",
+  "last_run": "2026-08-10T20:45:57.042070+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -18780,6 +18780,18 @@
       "data_wyslania": "2026-08-10T20:15:51.528532+00:00",
       "fingerprint": "2100|34|1|grabówek",
       "id": "olx:1090483985"
+    },
+    "olx:1090487745": {
+      "cena": 2600,
+      "data_wyslania": "2026-08-10T20:45:57.042070+00:00",
+      "fingerprint": "2600|21.46|1|żabianka - wejhera - jelitkowo - tysiąclecia",
+      "id": "olx:1090487745"
+    },
+    "olx:1090488559": {
+      "cena": 2600,
+      "data_wyslania": "2026-08-10T20:45:57.042070+00:00",
+      "fingerprint": "2600|42|2|piecki-migowo",
+      "id": "olx:1090488559"
     },
     "olx:554617410": {
       "cena": 3250,
