@@ -11,37 +11,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 7928,
+            "fetched": 8050,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 3,
-            "fetched": 6397,
+            "fetched": 6494,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 47,
-            "fetched": 9800,
+            "dropped": 48,
+            "fetched": 9954,
             "sent_main": 2,
             "sent_near": 1
           },
           "olx_sale": {
-            "dropped": 8,
-            "fetched": 8936,
+            "dropped": 9,
+            "fetched": 9078,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 3912,
+            "fetched": 3973,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 4502,
+            "fetched": 4572,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -78,12 +78,12 @@
   "high_water": {
     "nieruchomosci_online": "000026890558",
     "nieruchomosci_online_sale": "000026890453",
-    "olx": "2026-08-11T13:17:43+02:00",
-    "olx_sale": "2026-08-11T13:18:27+02:00",
+    "olx": "2026-08-11T13:25:56+02:00",
+    "olx_sale": "2026-08-11T13:40:23+02:00",
     "trojmiasto": "000066504685",
     "trojmiasto_sale": "000066503655"
   },
-  "last_run": "2026-08-11T11:31:03.382252+00:00",
+  "last_run": "2026-08-11T11:45:55.699655+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -19471,6 +19471,18 @@
       "fingerprint": "4600|47|2|brzeźno",
       "id": "olx:1090563275"
     },
+    "olx:1090564070": {
+      "cena": 2950,
+      "data_wyslania": "2026-08-11T11:45:55.699655+00:00",
+      "fingerprint": "2950|30|1|przymorze wielkie",
+      "id": "olx:1090564070"
+    },
+    "olx:1090564997": {
+      "cena": 3000,
+      "data_wyslania": "2026-08-11T11:45:55.699655+00:00",
+      "fingerprint": "3000|30.5|2|śródmieście",
+      "id": "olx:1090564997"
+    },
     "olx:554617410": {
       "cena": 3250,
       "data_wyslania": "2026-08-09T20:31:03.189685+00:00",
@@ -27120,6 +27132,12 @@
       "data_wyslania": "2026-08-11T11:31:03.382252+00:00",
       "fingerprint": "599000|38|2|jasień",
       "id": "olx_sale:1090563401"
+    },
+    "olx_sale:1090568137": {
+      "cena": 389000,
+      "data_wyslania": "2026-08-11T11:45:55.699655+00:00",
+      "fingerprint": "389000|26.9|1|",
+      "id": "olx_sale:1090568137"
     },
     "olx_sale:857316110": {
       "cena": 715000,
