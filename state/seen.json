@@ -11,37 +11,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 5368,
+            "fetched": 5490,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 4332,
+            "fetched": 4430,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 8,
-            "fetched": 6580,
+            "dropped": 9,
+            "fetched": 6735,
             "sent_main": 1,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 0,
-            "fetched": 5947,
+            "fetched": 6090,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2640,
+            "fetched": 2700,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 3043,
+            "fetched": 3111,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -83,7 +83,7 @@
     "trojmiasto": "000066504201",
     "trojmiasto_sale": "000066503655"
   },
-  "last_run": "2026-08-11T07:01:14.624296+00:00",
+  "last_run": "2026-08-11T07:15:46.041191+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -2599,6 +2599,12 @@
       "fingerprint": "1135000|44.65|2|śródmieście",
       "id": "nieruchomosci_online_sale:25505566"
     },
+    "nieruchomosci_online_sale:25514577": {
+      "cena": 1099000,
+      "data_wyslania": "2026-08-11T07:15:46.041191+00:00",
+      "fingerprint": "1099000|49.49|2|wrzeszcz dolny",
+      "id": "nieruchomosci_online_sale:25514577"
+    },
     "nieruchomosci_online_sale:25672752": {
       "cena": 1310000,
       "data_wyslania": "2026-07-28T10:45:41.018619+00:00",
@@ -3955,6 +3961,12 @@
       "fingerprint": "1099000|73.56|3|piecki-migowo",
       "id": "nieruchomosci_online_sale:26648363"
     },
+    "nieruchomosci_online_sale:26648370": {
+      "cena": 1999000,
+      "data_wyslania": "2026-08-11T07:15:46.041191+00:00",
+      "fingerprint": "1999000|72.47|3|śródmieście",
+      "id": "nieruchomosci_online_sale:26648370"
+    },
     "nieruchomosci_online_sale:26648418": {
       "cena": 2750000,
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
@@ -4488,6 +4500,12 @@
       "data_wyslania": "2026-08-06T13:01:12.337723+00:00",
       "fingerprint": "499000|46.23|2|cisowa",
       "id": "nieruchomosci_online_sale:26721344"
+    },
+    "nieruchomosci_online_sale:26722915": {
+      "cena": 790000,
+      "data_wyslania": "2026-08-11T07:15:46.041191+00:00",
+      "fingerprint": "790000|35.8|1|śródmieście",
+      "id": "nieruchomosci_online_sale:26722915"
     },
     "nieruchomosci_online_sale:26724102": {
       "cena": 619000,
@@ -9193,6 +9211,12 @@
       "fingerprint": "2900|49|2|wrzeszcz",
       "id": "olx:1084646991"
     },
+    "olx:1084693007": {
+      "cena": 3200,
+      "data_wyslania": "2026-08-11T07:15:46.041191+00:00",
+      "fingerprint": "3200|45|2|wrzeszcz",
+      "id": "olx:1084693007"
+    },
     "olx:1084715375": {
       "cena": 4500,
       "data_wyslania": "2026-07-24T18:39:28.501664+00:00",
@@ -11360,9 +11384,9 @@
       "id": "olx:1087582804"
     },
     "olx:1087585432": {
-      "cena": 2950,
-      "data_wyslania": "2026-07-26T19:15:50.723709+00:00",
-      "fingerprint": "2950|26|1|piecki-migowo",
+      "cena": 2800,
+      "data_wyslania": "2026-08-11T07:15:46.041191+00:00",
+      "fingerprint": "2800|26|1|piecki-migowo",
       "id": "olx:1087585432"
     },
     "olx:1087586763": {
