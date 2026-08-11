@@ -2,51 +2,6 @@
   "daily": {},
   "digest": {
     "days": {
-      "2026-08-10": {
-        "errors": [
-          "olx: OLX: HTTP 202 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (p",
-          "olx_sale: OLX: HTTP 202 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (p",
-          "nieruchomosci_online: Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Read timed out. (re"
-        ],
-        "sources": {
-          "nieruchomosci_online": {
-            "dropped": 3,
-            "fetched": 13484,
-            "sent_main": 0,
-            "sent_near": 0
-          },
-          "nieruchomosci_online_sale": {
-            "dropped": 7,
-            "fetched": 11178,
-            "sent_main": 0,
-            "sent_near": 0
-          },
-          "olx": {
-            "dropped": 73,
-            "fetched": 16845,
-            "sent_main": 8,
-            "sent_near": 9
-          },
-          "olx_sale": {
-            "dropped": 32,
-            "fetched": 15791,
-            "sent_main": 2,
-            "sent_near": 0
-          },
-          "trojmiasto": {
-            "dropped": 2,
-            "fetched": 6950,
-            "sent_main": 0,
-            "sent_near": 0
-          },
-          "trojmiasto_sale": {
-            "dropped": 4,
-            "fetched": 8008,
-            "sent_main": 1,
-            "sent_near": 0
-          }
-        }
-      },
       "2026-08-11": {
         "errors": [
           "olx_sale: OLX: HTTP 202 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (p"
@@ -54,37 +9,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 4636,
+            "fetched": 4758,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 3744,
+            "fetched": 3842,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 6,
-            "fetched": 5811,
+            "dropped": 7,
+            "fetched": 5966,
             "sent_main": 1,
-            "sent_near": 0
+            "sent_near": 1
           },
           "olx_sale": {
             "dropped": 0,
-            "fetched": 5244,
+            "fetched": 5384,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2280,
+            "fetched": 2340,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 2637,
+            "fetched": 2703,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -121,12 +76,12 @@
   "high_water": {
     "nieruchomosci_online": "000026888219",
     "nieruchomosci_online_sale": "000026889121",
-    "olx": "2026-08-11T06:56:43+02:00",
-    "olx_sale": "2026-08-10T21:36:06+02:00",
+    "olx": "2026-08-11T07:25:52+02:00",
+    "olx_sale": "2026-08-11T07:46:23+02:00",
     "trojmiasto": "000066504201",
     "trojmiasto_sale": "000066503655"
   },
-  "last_run": "2026-08-11T05:45:55.570634+00:00",
+  "last_run": "2026-08-11T06:01:15.099186+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -19022,6 +18977,12 @@
       "fingerprint": "2400|44|2|dolny sopot",
       "id": "olx:1090503702"
     },
+    "olx:1090503802": {
+      "cena": 320,
+      "data_wyslania": "2026-08-11T06:01:15.099186+00:00",
+      "fingerprint": "320|45|2|stogi z przeróbką",
+      "id": "olx:1090503802"
+    },
     "olx:1090503886": {
       "cena": 1900,
       "data_wyslania": "2026-08-11T04:45:49.410123+00:00",
@@ -19039,6 +19000,12 @@
       "data_wyslania": "2026-08-11T05:15:47.232877+00:00",
       "fingerprint": "2200|50|2|siedlce",
       "id": "olx:1090504820"
+    },
+    "olx:1090506173": {
+      "cena": 2800,
+      "data_wyslania": "2026-08-11T06:01:15.099186+00:00",
+      "fingerprint": "2800|54|3|chełm z dzielnicą gdańsk południe",
+      "id": "olx:1090506173"
     },
     "olx:554617410": {
       "cena": 3250,
@@ -26569,6 +26536,12 @@
       "data_wyslania": "2026-08-10T19:44:15.916710+00:00",
       "fingerprint": "789000|63.5|3|",
       "id": "olx_sale:1090480526"
+    },
+    "olx_sale:1090507569": {
+      "cena": 489000,
+      "data_wyslania": "2026-08-11T06:01:15.099186+00:00",
+      "fingerprint": "489000|40.77|1|grabówek",
+      "id": "olx_sale:1090507569"
     },
     "olx_sale:857316110": {
       "cena": 715000,
