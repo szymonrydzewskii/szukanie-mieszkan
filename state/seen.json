@@ -11,37 +11,37 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 6222,
+            "fetched": 6344,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
-            "dropped": 0,
-            "fetched": 5018,
+            "dropped": 2,
+            "fetched": 5117,
             "sent_main": 0,
             "sent_near": 0
           },
           "olx": {
-            "dropped": 16,
-            "fetched": 7647,
+            "dropped": 17,
+            "fetched": 7798,
             "sent_main": 1,
             "sent_near": 1
           },
           "olx_sale": {
             "dropped": 3,
-            "fetched": 6945,
+            "fetched": 7085,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 3060,
+            "fetched": 3119,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 3519,
+            "fetched": 3588,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -77,13 +77,13 @@
   },
   "high_water": {
     "nieruchomosci_online": "000026890067",
-    "nieruchomosci_online_sale": "000026889121",
-    "olx": "2026-08-11T10:15:55+02:00",
+    "nieruchomosci_online_sale": "000026890159",
+    "olx": "2026-08-11T10:34:00+02:00",
     "olx_sale": "2026-08-11T09:51:19+02:00",
     "trojmiasto": "000066504201",
     "trojmiasto_sale": "000066503655"
   },
-  "last_run": "2026-08-11T08:31:10.919263+00:00",
+  "last_run": "2026-08-11T08:45:45.712401+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -6463,6 +6463,18 @@
       "fingerprint": "1980000|92.18|4|górny sopot",
       "id": "nieruchomosci_online_sale:26889121"
     },
+    "nieruchomosci_online_sale:26890158": {
+      "cena": 2050000,
+      "data_wyslania": "2026-08-11T08:45:45.712401+00:00",
+      "fingerprint": "2050000|77.8|3|dolny sopot",
+      "id": "nieruchomosci_online_sale:26890158"
+    },
+    "nieruchomosci_online_sale:26890159": {
+      "cena": 730000,
+      "data_wyslania": "2026-08-11T08:45:45.712401+00:00",
+      "fingerprint": "730000|62.6|3|górny sopot",
+      "id": "nieruchomosci_online_sale:26890159"
+    },
     "olx:1006019650": {
       "cena": 1800,
       "data_wyslania": "2026-07-29T14:31:06.068837+00:00",
@@ -6732,6 +6744,12 @@
       "data_wyslania": "2026-08-10T14:31:19.700448+00:00",
       "fingerprint": "2700|32|1|przymorze małe",
       "id": "olx:1049803655"
+    },
+    "olx:1050493557": {
+      "cena": 2300,
+      "data_wyslania": "2026-08-11T08:45:45.712401+00:00",
+      "fingerprint": "2300|22|1|śródmieście",
+      "id": "olx:1050493557"
     },
     "olx:1050606106": {
       "cena": 2500,
@@ -19135,6 +19153,24 @@
       "fingerprint": "2900|60|3|zaspa rozstaje",
       "id": "olx:1090526015"
     },
+    "olx:1090528889": {
+      "cena": 2670,
+      "data_wyslania": "2026-08-11T08:45:45.712401+00:00",
+      "fingerprint": "2670|27|1|śródmieście",
+      "id": "olx:1090528889"
+    },
+    "olx:1090529087": {
+      "cena": 2300,
+      "data_wyslania": "2026-08-11T08:45:45.712401+00:00",
+      "fingerprint": "2300|21|1|śródmieście",
+      "id": "olx:1090529087"
+    },
+    "olx:1090529222": {
+      "cena": 3500,
+      "data_wyslania": "2026-08-11T08:45:45.712401+00:00",
+      "fingerprint": "3500|60|3|przymorze wielkie",
+      "id": "olx:1090529222"
+    },
     "olx:554617410": {
       "cena": 3250,
       "data_wyslania": "2026-08-09T20:31:03.189685+00:00",
@@ -21168,6 +21204,12 @@
       "data_wyslania": "2026-07-25T11:01:07.168174+00:00",
       "fingerprint": "699000|55.4|3|jasień",
       "id": "olx_sale:1075864148"
+    },
+    "olx_sale:1075960233": {
+      "cena": 409785,
+      "data_wyslania": "2026-08-11T08:45:45.712401+00:00",
+      "fingerprint": "409785|32.14|2|",
+      "id": "olx_sale:1075960233"
     },
     "olx_sale:1076003754": {
       "cena": 479000,
