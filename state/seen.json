@@ -11,14 +11,14 @@
         ],
         "sources": {
           "nieruchomosci_online": {
-            "dropped": 1,
-            "fetched": 6044,
+            "dropped": 2,
+            "fetched": 6165,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 5174,
+            "fetched": 5276,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -36,13 +36,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 3114,
+            "fetched": 3174,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
-            "dropped": 1,
-            "fetched": 3616,
+            "dropped": 2,
+            "fetched": 3685,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -60,11 +60,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 92,
+      "bad": 93,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 92,
+      "bad": 93,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -77,14 +77,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026892669",
+    "nieruchomosci_online": "000026893027",
     "nieruchomosci_online_sale": "000026890453",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066505363",
     "trojmiasto_sale": "000066505154"
   },
-  "last_run": "2026-08-12T09:15:50.218977+00:00",
+  "last_run": "2026-08-12T09:31:09.206623+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -2641,6 +2641,18 @@
       "data_wyslania": "2026-08-12T05:31:02.351386+00:00",
       "fingerprint": "2500|31|1|oliwa",
       "id": "nieruchomosci_online:26892669"
+    },
+    "nieruchomosci_online:26893008": {
+      "cena": 3200,
+      "data_wyslania": "2026-08-12T09:31:09.206623+00:00",
+      "fingerprint": "3200|40.6|2|karlikowo",
+      "id": "nieruchomosci_online:26893008"
+    },
+    "nieruchomosci_online:26893027": {
+      "cena": 3600,
+      "data_wyslania": "2026-08-12T09:31:09.206623+00:00",
+      "fingerprint": "3600|59.8|3|dąbrowa",
+      "id": "nieruchomosci_online:26893027"
     },
     "nieruchomosci_online_sale:23703220": {
       "cena": 427000,
@@ -29337,9 +29349,9 @@
       "id": "trojmiasto_sale:66090853"
     },
     "trojmiasto_sale:66100319": {
-      "cena": 2799999,
-      "data_wyslania": "2026-08-07T10:15:49.882583+00:00",
-      "fingerprint": "2799999|83.44|4|śródmieście",
+      "cena": 2649999,
+      "data_wyslania": "2026-08-12T09:31:09.206623+00:00",
+      "fingerprint": "2649999|83.44|4|śródmieście",
       "id": "trojmiasto_sale:66100319"
     },
     "trojmiasto_sale:66101901": {
@@ -30421,6 +30433,18 @@
       "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
       "fingerprint": "748000|48|3|wzgórze św. maksymiliana",
       "id": "trojmiasto_sale:66460733"
+    },
+    "trojmiasto_sale:66461254": {
+      "cena": 998633,
+      "data_wyslania": "2026-08-12T09:31:09.206623+00:00",
+      "fingerprint": "998633|66.58|3|pogórze",
+      "id": "trojmiasto_sale:66461254"
+    },
+    "trojmiasto_sale:66461256": {
+      "cena": 967136,
+      "data_wyslania": "2026-08-12T09:31:09.206623+00:00",
+      "fingerprint": "967136|64.48|3|pogórze",
+      "id": "trojmiasto_sale:66461256"
     },
     "trojmiasto_sale:66461260": {
       "cena": 1190000,
