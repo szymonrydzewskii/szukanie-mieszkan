@@ -57,13 +57,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 1936,
+            "fetched": 2057,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 1662,
+            "fetched": 1766,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -81,13 +81,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 960,
+            "fetched": 1020,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 1108,
+            "fetched": 1178,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -105,11 +105,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 56,
+      "bad": 57,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 56,
+      "bad": 57,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -129,7 +129,7 @@
     "trojmiasto": "000066505170",
     "trojmiasto_sale": "000066503968"
   },
-  "last_run": "2026-08-12T01:15:48.102762+00:00",
+  "last_run": "2026-08-12T01:31:11.541608+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
