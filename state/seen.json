@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 7843,
+            "fetched": 7962,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
-            "dropped": 2,
-            "fetched": 6682,
+            "dropped": 3,
+            "fetched": 6784,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -36,13 +36,13 @@
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 4028,
+            "fetched": 4089,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 4644,
+            "fetched": 4712,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -60,11 +60,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 107,
+      "bad": 108,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 107,
+      "bad": 108,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -84,7 +84,7 @@
     "trojmiasto": "000066505431",
     "trojmiasto_sale": "000066505154"
   },
-  "last_run": "2026-08-12T12:31:04.278758+00:00",
+  "last_run": "2026-08-12T12:45:53.945779+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -5493,9 +5493,9 @@
       "id": "nieruchomosci_online_sale:26804286"
     },
     "nieruchomosci_online_sale:26804832": {
-      "cena": 620000,
-      "data_wyslania": "2026-08-06T12:45:48.419439+00:00",
-      "fingerprint": "620000|53.12|2|ujeścisko",
+      "cena": 610000,
+      "data_wyslania": "2026-08-12T12:45:53.945779+00:00",
+      "fingerprint": "610000|53.12|2|ujeścisko",
       "id": "nieruchomosci_online_sale:26804832"
     },
     "nieruchomosci_online_sale:26805673": {
