@@ -11,13 +11,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 6782,
+            "fetched": 6901,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 6038,
+            "fetched": 6147,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -35,13 +35,13 @@
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 3247,
+            "fetched": 3303,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 5,
-            "fetched": 3928,
+            "fetched": 3995,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -59,11 +59,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 208,
+      "bad": 209,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 208,
+      "bad": 209,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -83,7 +83,7 @@
     "trojmiasto": "000066506342",
     "trojmiasto_sale": "000066505987"
   },
-  "last_run": "2026-08-13T10:15:51.000232+00:00",
+  "last_run": "2026-08-13T10:31:11.610315+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -3265,6 +3265,12 @@
       "fingerprint": "1235000|40|2|sobieszewo",
       "id": "nieruchomosci_online_sale:26342664"
     },
+    "nieruchomosci_online_sale:26346682": {
+      "cena": 474000,
+      "data_wyslania": "2026-08-13T10:31:11.610315+00:00",
+      "fingerprint": "474000|53.3|3|chylonia",
+      "id": "nieruchomosci_online_sale:26346682"
+    },
     "nieruchomosci_online_sale:26349835": {
       "cena": 2599000,
       "data_wyslania": "2026-07-30T08:45:44.945644+00:00",
@@ -4524,6 +4530,12 @@
       "data_wyslania": "2026-07-28T10:45:41.018619+00:00",
       "fingerprint": "514900|26|1|wyspa spichrzów",
       "id": "nieruchomosci_online_sale:26692833"
+    },
+    "nieruchomosci_online_sale:26693611": {
+      "cena": 1199000,
+      "data_wyslania": "2026-08-13T10:31:11.610315+00:00",
+      "fingerprint": "1199000|54.13|2|stare miasto",
+      "id": "nieruchomosci_online_sale:26693611"
     },
     "nieruchomosci_online_sale:26694866": {
       "cena": 580000,
