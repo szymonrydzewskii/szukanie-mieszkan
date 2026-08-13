@@ -11,13 +11,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 9517,
+            "fetched": 9636,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
-            "dropped": 4,
-            "fetched": 8386,
+            "dropped": 5,
+            "fetched": 8489,
             "sent_main": 1,
             "sent_near": 0
           },
@@ -35,13 +35,13 @@
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 4559,
+            "fetched": 4616,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 8,
-            "fetched": 5498,
+            "fetched": 5566,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -59,11 +59,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 231,
+      "bad": 232,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 231,
+      "bad": 232,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -77,13 +77,13 @@
   },
   "high_water": {
     "nieruchomosci_online": "000026896793",
-    "nieruchomosci_online_sale": "000026896863",
+    "nieruchomosci_online_sale": "000026897058",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066506342",
     "trojmiasto_sale": "000066506581"
   },
-  "last_run": "2026-08-13T15:01:22.401370+00:00",
+  "last_run": "2026-08-13T15:15:50.891064+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -7068,6 +7068,12 @@
       "data_wyslania": "2026-08-13T14:31:10.575000+00:00",
       "fingerprint": "549000|43|2|brodwino",
       "id": "nieruchomosci_online_sale:26896863"
+    },
+    "nieruchomosci_online_sale:26897058": {
+      "cena": 759000,
+      "data_wyslania": "2026-08-13T15:15:50.891064+00:00",
+      "fingerprint": "759000|45|2|wzgórze św. maksymiliana",
+      "id": "nieruchomosci_online_sale:26897058"
     },
     "olx:1006019650": {
       "cena": 1800,
