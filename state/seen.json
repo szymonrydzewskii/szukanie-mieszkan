@@ -11,13 +11,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 8922,
+            "fetched": 9041,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 7879,
+            "fetched": 7979,
             "sent_main": 1,
             "sent_near": 0
           },
@@ -35,13 +35,13 @@
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 4274,
+            "fetched": 4331,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 8,
-            "fetched": 5155,
+            "fetched": 5222,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -59,11 +59,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 226,
+      "bad": 227,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 226,
+      "bad": 227,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -83,7 +83,7 @@
     "trojmiasto": "000066506342",
     "trojmiasto_sale": "000066506581"
   },
-  "last_run": "2026-08-13T14:01:19.315205+00:00",
+  "last_run": "2026-08-13T14:10:16.310171+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -31896,6 +31896,12 @@
       "data_wyslania": "2026-08-08T16:01:19.236808+00:00",
       "fingerprint": "729000|61.3|3|morena",
       "id": "trojmiasto_sale:66502431"
+    },
+    "trojmiasto_sale:66502467": {
+      "cena": 479000,
+      "data_wyslania": "2026-08-13T14:10:16.310171+00:00",
+      "fingerprint": "479000|26.4|1|brzeźno",
+      "id": "trojmiasto_sale:66502467"
     },
     "trojmiasto_sale:66502522": {
       "cena": 1830000,
