@@ -11,13 +11,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 7258,
+            "fetched": 7377,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 6464,
+            "fetched": 6566,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -35,13 +35,13 @@
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 3476,
+            "fetched": 3533,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 6,
-            "fetched": 4200,
+            "fetched": 4268,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -59,11 +59,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 212,
+      "bad": 213,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 212,
+      "bad": 213,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -83,7 +83,7 @@
     "trojmiasto": "000066506342",
     "trojmiasto_sale": "000066506392"
   },
-  "last_run": "2026-08-13T11:01:14.985650+00:00",
+  "last_run": "2026-08-13T11:15:50.274062+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -6498,6 +6498,12 @@
       "data_wyslania": "2026-08-05T15:31:06.747275+00:00",
       "fingerprint": "849000|60|3|chwarzno-wiczlino",
       "id": "nieruchomosci_online_sale:26867161"
+    },
+    "nieruchomosci_online_sale:26867526": {
+      "cena": 749000,
+      "data_wyslania": "2026-08-13T11:15:50.274062+00:00",
+      "fingerprint": "749000|66.8|3|wrzeszcz",
+      "id": "nieruchomosci_online_sale:26867526"
     },
     "nieruchomosci_online_sale:26867540": {
       "cena": 644000,
