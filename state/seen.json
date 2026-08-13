@@ -11,13 +11,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 6068,
+            "fetched": 6187,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 5388,
+            "fetched": 5497,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -35,13 +35,13 @@
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 2908,
+            "fetched": 2965,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
-            "dropped": 4,
-            "fetched": 3523,
+            "dropped": 5,
+            "fetched": 3592,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -59,11 +59,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 202,
+      "bad": 203,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 202,
+      "bad": 203,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -83,7 +83,7 @@
     "trojmiasto": "000066506106",
     "trojmiasto_sale": "000066505987"
   },
-  "last_run": "2026-08-13T09:01:16.958023+00:00",
+  "last_run": "2026-08-13T09:15:48.638982+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -28465,6 +28465,12 @@
       "fingerprint": "2500|51|2|śródmieście",
       "id": "trojmiasto:66483156"
     },
+    "trojmiasto:66483204": {
+      "cena": 2700,
+      "data_wyslania": "2026-08-13T09:15:48.638982+00:00",
+      "fingerprint": "2700|46|2|śródmieście",
+      "id": "trojmiasto:66483204"
+    },
     "trojmiasto:66483230": {
       "cena": 2499,
       "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
@@ -30247,6 +30253,12 @@
       "fingerprint": "623520|5196|?|kolbudy",
       "id": "trojmiasto_sale:66434048"
     },
+    "trojmiasto_sale:66434971": {
+      "cena": 800000,
+      "data_wyslania": "2026-08-13T09:15:48.638982+00:00",
+      "fingerprint": "800000|80.64|4|banino",
+      "id": "trojmiasto_sale:66434971"
+    },
     "trojmiasto_sale:66435149": {
       "cena": 685000,
       "data_wyslania": "2026-07-25T16:45:44.354874+00:00",
@@ -30446,9 +30458,9 @@
       "id": "trojmiasto_sale:66452057"
     },
     "trojmiasto_sale:66452146": {
-      "cena": 669000,
-      "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
-      "fingerprint": "669000|53|3|chylonia",
+      "cena": 649000,
+      "data_wyslania": "2026-08-13T09:15:48.638982+00:00",
+      "fingerprint": "649000|53|3|chylonia",
       "id": "trojmiasto_sale:66452146"
     },
     "trojmiasto_sale:66452266": {
