@@ -11,13 +11,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 9279,
+            "fetched": 9398,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 8180,
+            "fetched": 8283,
             "sent_main": 1,
             "sent_near": 0
           },
@@ -35,13 +35,13 @@
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 4445,
+            "fetched": 4502,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 8,
-            "fetched": 5361,
+            "fetched": 5430,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -59,11 +59,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 229,
+      "bad": 230,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 229,
+      "bad": 230,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -83,7 +83,7 @@
     "trojmiasto": "000066506342",
     "trojmiasto_sale": "000066506581"
   },
-  "last_run": "2026-08-13T14:31:10.575000+00:00",
+  "last_run": "2026-08-13T14:45:49.067843+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -1081,6 +1081,18 @@
       "fingerprint": "2599|40|1|świemirowo",
       "id": "nieruchomosci_online:26803929"
     },
+    "nieruchomosci_online:26804549": {
+      "cena": 3000,
+      "data_wyslania": "2026-08-13T14:45:49.067843+00:00",
+      "fingerprint": "3000|48|2|śródmieście",
+      "id": "nieruchomosci_online:26804549"
+    },
+    "nieruchomosci_online:26804551": {
+      "cena": 4100,
+      "data_wyslania": "2026-08-13T14:45:49.067843+00:00",
+      "fingerprint": "4100|70|3|śródmieście",
+      "id": "nieruchomosci_online:26804551"
+    },
     "nieruchomosci_online:26804570": {
       "cena": 2400,
       "data_wyslania": "2026-07-25T09:45:42.497013+00:00",
@@ -1266,6 +1278,12 @@
       "data_wyslania": "2026-07-27T05:30:57.446288+00:00",
       "fingerprint": "6500|87.89|4|widoki",
       "id": "nieruchomosci_online:26831026"
+    },
+    "nieruchomosci_online:26831474": {
+      "cena": 4200,
+      "data_wyslania": "2026-08-13T14:45:49.067843+00:00",
+      "fingerprint": "4200|63|3|mariacka",
+      "id": "nieruchomosci_online:26831474"
     },
     "nieruchomosci_online:26832013": {
       "cena": 3600,
@@ -2502,6 +2520,18 @@
       "data_wyslania": "2026-08-09T15:31:10.152685+00:00",
       "fingerprint": "2200|34|1|centrum",
       "id": "nieruchomosci_online:26886452"
+    },
+    "nieruchomosci_online:26887027": {
+      "cena": 5500,
+      "data_wyslania": "2026-08-13T14:45:49.067843+00:00",
+      "fingerprint": "5500|61|3|brzeźno",
+      "id": "nieruchomosci_online:26887027"
+    },
+    "nieruchomosci_online:26887179": {
+      "cena": 3000,
+      "data_wyslania": "2026-08-13T14:45:49.067843+00:00",
+      "fingerprint": "3000|53|2|ujeścisko",
+      "id": "nieruchomosci_online:26887179"
     },
     "nieruchomosci_online:26887362": {
       "cena": 2300,
