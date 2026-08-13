@@ -11,13 +11,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 7139,
+            "fetched": 7258,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 6362,
+            "fetched": 6464,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -35,13 +35,13 @@
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 3419,
+            "fetched": 3476,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 6,
-            "fetched": 4132,
+            "fetched": 4200,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -59,11 +59,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 211,
+      "bad": 212,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 211,
+      "bad": 212,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -83,7 +83,7 @@
     "trojmiasto": "000066506342",
     "trojmiasto_sale": "000066506392"
   },
-  "last_run": "2026-08-13T10:45:51.942650+00:00",
+  "last_run": "2026-08-13T11:01:14.985650+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -6895,6 +6895,12 @@
       "fingerprint": "730000|62.6|3|górny sopot",
       "id": "nieruchomosci_online_sale:26890159"
     },
+    "nieruchomosci_online_sale:26890358": {
+      "cena": 389000,
+      "data_wyslania": "2026-08-13T11:01:14.985650+00:00",
+      "fingerprint": "389000|33.34|2|śródmieście",
+      "id": "nieruchomosci_online_sale:26890358"
+    },
     "nieruchomosci_online_sale:26890453": {
       "cena": 769000,
       "data_wyslania": "2026-08-11T10:01:20.386402+00:00",
@@ -6912,6 +6918,12 @@
       "data_wyslania": "2026-08-12T17:15:49.427182+00:00",
       "fingerprint": "670000|59.5|3|dąbrowa",
       "id": "nieruchomosci_online_sale:26894624"
+    },
+    "nieruchomosci_online_sale:26895019": {
+      "cena": 785000,
+      "data_wyslania": "2026-08-13T11:01:14.985650+00:00",
+      "fingerprint": "785000|69|3|łostowice",
+      "id": "nieruchomosci_online_sale:26895019"
     },
     "nieruchomosci_online_sale:26895615": {
       "cena": 1970000,
@@ -29874,6 +29886,12 @@
       "data_wyslania": "2026-07-27T13:01:05.170413+00:00",
       "fingerprint": "499000|50|2|oksywie",
       "id": "trojmiasto_sale:66358093"
+    },
+    "trojmiasto_sale:66359393": {
+      "cena": 2690000,
+      "data_wyslania": "2026-08-13T11:01:14.985650+00:00",
+      "fingerprint": "2690000|127.34|4|siedlce",
+      "id": "trojmiasto_sale:66359393"
     },
     "trojmiasto_sale:66361087": {
       "cena": 550000,
