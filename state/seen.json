@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 6441,
+            "fetched": 6561,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 5538,
+            "fetched": 5642,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 3024,
+            "fetched": 3080,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 3679,
+            "fetched": 3747,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 319,
+      "bad": 320,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 319,
+      "bad": 320,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -76,13 +76,13 @@
   },
   "high_water": {
     "nieruchomosci_online": "000026898217",
-    "nieruchomosci_online_sale": "000026897058",
+    "nieruchomosci_online_sale": "000026898394",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066507276",
     "trojmiasto_sale": "000066506581"
   },
-  "last_run": "2026-08-14T10:01:00.612541+00:00",
+  "last_run": "2026-08-14T10:12:56.835794+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -3738,6 +3738,12 @@
       "fingerprint": "2260000|69.16|3|brzeźno",
       "id": "nieruchomosci_online_sale:26484706"
     },
+    "nieruchomosci_online_sale:26484944": {
+      "cena": 529900,
+      "data_wyslania": "2026-08-14T10:12:56.835794+00:00",
+      "fingerprint": "529900|25.72|1|przymorze",
+      "id": "nieruchomosci_online_sale:26484944"
+    },
     "nieruchomosci_online_sale:26486412": {
       "cena": 660000,
       "data_wyslania": "2026-08-05T20:15:48.162064+00:00",
@@ -7104,6 +7110,12 @@
       "fingerprint": "415000|24.8|1|kamienny potok",
       "id": "nieruchomosci_online_sale:26887116"
     },
+    "nieruchomosci_online_sale:26887180": {
+      "cena": 1099000,
+      "data_wyslania": "2026-08-14T10:12:56.835794+00:00",
+      "fingerprint": "1099000|100|3|królewskie wzgórze",
+      "id": "nieruchomosci_online_sale:26887180"
+    },
     "nieruchomosci_online_sale:26887182": {
       "cena": 339000,
       "data_wyslania": "2026-08-10T08:45:49.510955+00:00",
@@ -7229,6 +7241,12 @@
       "data_wyslania": "2026-08-13T15:15:50.891064+00:00",
       "fingerprint": "759000|45|2|wzgórze św. maksymiliana",
       "id": "nieruchomosci_online_sale:26897058"
+    },
+    "nieruchomosci_online_sale:26898394": {
+      "cena": 415000,
+      "data_wyslania": "2026-08-14T10:12:56.835794+00:00",
+      "fingerprint": "415000|24.8|1|kamienny potok",
+      "id": "nieruchomosci_online_sale:26898394"
     },
     "olx:1006019650": {
       "cena": 1800,
