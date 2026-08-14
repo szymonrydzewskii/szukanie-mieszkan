@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 5121,
+            "fetched": 5241,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 4408,
+            "fetched": 4510,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2408,
+            "fetched": 2464,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 2930,
+            "fetched": 2998,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 308,
+      "bad": 309,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 308,
+      "bad": 309,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066506342",
     "trojmiasto_sale": "000066506581"
   },
-  "last_run": "2026-08-14T07:30:56.053935+00:00",
+  "last_run": "2026-08-14T07:45:39.564997+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -5256,6 +5256,12 @@
       "fingerprint": "2600000|70|2|orłowo",
       "id": "nieruchomosci_online_sale:26748461"
     },
+    "nieruchomosci_online_sale:26753008": {
+      "cena": 955000,
+      "data_wyslania": "2026-08-14T07:45:39.564997+00:00",
+      "fingerprint": "955000|38.8|2|mariacka",
+      "id": "nieruchomosci_online_sale:26753008"
+    },
     "nieruchomosci_online_sale:26753438": {
       "cena": 1695000,
       "data_wyslania": "2026-08-14T02:15:50.165754+00:00",
@@ -6851,6 +6857,12 @@
       "data_wyslania": "2026-08-03T13:15:45.890113+00:00",
       "fingerprint": "960000|131.5|5|jasień",
       "id": "nieruchomosci_online_sale:26873256"
+    },
+    "nieruchomosci_online_sale:26873601": {
+      "cena": 449000,
+      "data_wyslania": "2026-08-14T07:45:39.564997+00:00",
+      "fingerprint": "449000|46.23|2|cisowa",
+      "id": "nieruchomosci_online_sale:26873601"
     },
     "nieruchomosci_online_sale:26873958": {
       "cena": 469000,
