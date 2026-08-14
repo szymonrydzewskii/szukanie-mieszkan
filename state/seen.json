@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 4,
-            "fetched": 7521,
+            "fetched": 7641,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 6461,
+            "fetched": 6561,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 3529,
+            "fetched": 3586,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 4292,
+            "fetched": 4361,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 328,
+      "bad": 329,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 328,
+      "bad": 329,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -75,14 +75,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026898620",
+    "nieruchomosci_online": "000026898803",
     "nieruchomosci_online_sale": "000026898394",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066507470",
     "trojmiasto_sale": "000066506581"
   },
-  "last_run": "2026-08-14T11:45:48.058022+00:00",
+  "last_run": "2026-08-14T12:00:27.683500+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -2831,6 +2831,12 @@
       "data_wyslania": "2026-08-14T11:30:51.585186+00:00",
       "fingerprint": "3300|68|4|leszczynki",
       "id": "nieruchomosci_online:26898620"
+    },
+    "nieruchomosci_online:26898803": {
+      "cena": 1950,
+      "data_wyslania": "2026-08-14T12:00:27.683500+00:00",
+      "fingerprint": "1950|20.1|1|grabówek",
+      "id": "nieruchomosci_online:26898803"
     },
     "nieruchomosci_online_sale:23703220": {
       "cena": 427000,
