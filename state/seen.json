@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 4761,
+            "fetched": 4881,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 4100,
+            "fetched": 4203,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2240,
+            "fetched": 2296,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 2727,
+            "fetched": 2795,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 305,
+      "bad": 306,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 305,
+      "bad": 306,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066506342",
     "trojmiasto_sale": "000066506581"
   },
-  "last_run": "2026-08-14T06:45:42.010471+00:00",
+  "last_run": "2026-08-14T07:01:02.277560+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -28157,6 +28157,12 @@
       "data_wyslania": "2026-08-11T13:31:04.875034+00:00",
       "fingerprint": "4600|63|4|wrzeszcz",
       "id": "trojmiasto:66193904"
+    },
+    "trojmiasto:66203962": {
+      "cena": 3400,
+      "data_wyslania": "2026-08-14T07:01:02.277560+00:00",
+      "fingerprint": "3400|46.5|2|morena",
+      "id": "trojmiasto:66203962"
     },
     "trojmiasto:66206997": {
       "cena": 990,
