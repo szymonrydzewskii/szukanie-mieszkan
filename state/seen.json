@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 4,
-            "fetched": 7882,
+            "fetched": 8003,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 6759,
+            "fetched": 6865,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 3700,
+            "fetched": 3757,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
-            "dropped": 2,
-            "fetched": 4498,
+            "dropped": 3,
+            "fetched": 4566,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 331,
+      "bad": 332,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 331,
+      "bad": 332,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -80,9 +80,9 @@
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066507551",
-    "trojmiasto_sale": "000066506581"
+    "trojmiasto_sale": "000066507577"
   },
-  "last_run": "2026-08-14T12:30:51.105313+00:00",
+  "last_run": "2026-08-14T12:45:37.748638+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -32357,6 +32357,12 @@
       "data_wyslania": "2026-08-13T13:01:17.157112+00:00",
       "fingerprint": "655000|49|2|nowy port",
       "id": "trojmiasto_sale:66506581"
+    },
+    "trojmiasto_sale:66507577": {
+      "cena": 649000,
+      "data_wyslania": "2026-08-14T12:45:37.748638+00:00",
+      "fingerprint": "649000|60|3|rumia janowo",
+      "id": "trojmiasto_sale:66507577"
     }
   },
   "version": 1
