@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 4641,
+            "fetched": 4761,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 3997,
+            "fetched": 4100,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2184,
+            "fetched": 2240,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 2658,
+            "fetched": 2727,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 304,
+      "bad": 305,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 304,
+      "bad": 305,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066506342",
     "trojmiasto_sale": "000066506581"
   },
-  "last_run": "2026-08-14T06:30:55.815199+00:00",
+  "last_run": "2026-08-14T06:45:42.010471+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -3815,6 +3815,12 @@
       "data_wyslania": "2026-08-03T09:16:48.431939+00:00",
       "fingerprint": "895000|94|4|łostowice",
       "id": "nieruchomosci_online_sale:26526422"
+    },
+    "nieruchomosci_online_sale:26527354": {
+      "cena": 949000,
+      "data_wyslania": "2026-08-14T06:45:42.010471+00:00",
+      "fingerprint": "949000|64|3|suchanino",
+      "id": "nieruchomosci_online_sale:26527354"
     },
     "nieruchomosci_online_sale:26529044": {
       "cena": 1895000,
