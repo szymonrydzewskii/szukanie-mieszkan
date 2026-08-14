@@ -55,13 +55,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 3689,
+            "fetched": 3808,
             "sent_main": 0,
-            "sent_near": 0
+            "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 3181,
+            "fetched": 3283,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -79,13 +79,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 1736,
+            "fetched": 1792,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 2111,
+            "fetched": 2179,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -103,11 +103,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 296,
+      "bad": 297,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 296,
+      "bad": 297,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -127,7 +127,7 @@
     "trojmiasto": "000066506342",
     "trojmiasto_sale": "000066506581"
   },
-  "last_run": "2026-08-14T04:45:42.858871+00:00",
+  "last_run": "2026-08-14T05:01:02.620557+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -2548,9 +2548,9 @@
       "id": "nieruchomosci_online:26885453"
     },
     "nieruchomosci_online:26885553": {
-      "cena": 3200,
-      "data_wyslania": "2026-08-08T09:15:42.974504+00:00",
-      "fingerprint": "3200|56|2|dolny sopot",
+      "cena": 3000,
+      "data_wyslania": "2026-08-14T05:01:02.620557+00:00",
+      "fingerprint": "3000|56|2|dolny sopot",
       "id": "nieruchomosci_online:26885553"
     },
     "nieruchomosci_online:26885836": {
