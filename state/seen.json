@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 5841,
+            "fetched": 5961,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
-            "dropped": 0,
-            "fetched": 5022,
+            "dropped": 1,
+            "fetched": 5125,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 2744,
+            "fetched": 2800,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 3340,
+            "fetched": 3407,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 314,
+      "bad": 315,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 314,
+      "bad": 315,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066507276",
     "trojmiasto_sale": "000066506581"
   },
-  "last_run": "2026-08-14T08:52:37.256342+00:00",
+  "last_run": "2026-08-14T09:01:02.275110+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -4645,9 +4645,9 @@
       "id": "nieruchomosci_online_sale:26678558"
     },
     "nieruchomosci_online_sale:26678920": {
-      "cena": 899000,
-      "data_wyslania": "2026-07-27T11:01:12.851201+00:00",
-      "fingerprint": "899000|63.2|3|piecki-migowo",
+      "cena": 880000,
+      "data_wyslania": "2026-08-14T09:01:02.275110+00:00",
+      "fingerprint": "880000|63.2|3|piecki-migowo",
       "id": "nieruchomosci_online_sale:26678920"
     },
     "nieruchomosci_online_sale:26679633": {
