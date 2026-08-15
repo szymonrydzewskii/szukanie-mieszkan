@@ -9,14 +9,14 @@
         ],
         "sources": {
           "nieruchomosci_online": {
-            "dropped": 0,
-            "fetched": 8589,
+            "dropped": 1,
+            "fetched": 8710,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 7469,
+            "fetched": 7570,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 3959,
+            "fetched": 4014,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 4856,
+            "fetched": 4923,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 448,
+      "bad": 449,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 448,
+      "bad": 449,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066508137",
     "trojmiasto_sale": "000066508099"
   },
-  "last_run": "2026-08-15T11:00:59.583556+00:00",
+  "last_run": "2026-08-15T11:15:35.897122+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -1585,9 +1585,9 @@
       "id": "nieruchomosci_online:26847596"
     },
     "nieruchomosci_online:26847631": {
-      "cena": 4300,
-      "data_wyslania": "2026-08-05T20:15:48.162064+00:00",
-      "fingerprint": "4300|70.4|3|aniołki",
+      "cena": 3999,
+      "data_wyslania": "2026-08-15T11:15:35.897122+00:00",
+      "fingerprint": "3999|70.4|3|aniołki",
       "id": "nieruchomosci_online:26847631"
     },
     "nieruchomosci_online:26847944": {
