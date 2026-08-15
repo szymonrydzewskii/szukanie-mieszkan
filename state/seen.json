@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 5685,
+            "fetched": 5806,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 4999,
+            "fetched": 5103,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2636,
+            "fetched": 2692,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 3219,
+            "fetched": 3287,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 424,
+      "bad": 425,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 424,
+      "bad": 425,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066508056",
     "trojmiasto_sale": "000066507999"
   },
-  "last_run": "2026-08-15T06:55:18.812163+00:00",
+  "last_run": "2026-08-15T07:01:01.415252+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -28481,6 +28481,12 @@
       "data_wyslania": "2026-07-28T09:11:43.501270+00:00",
       "fingerprint": "3100|50|2|górny sopot",
       "id": "trojmiasto:66236072"
+    },
+    "trojmiasto:66238274": {
+      "cena": 2100,
+      "data_wyslania": "2026-08-15T07:01:01.415252+00:00",
+      "fingerprint": "2100|26|1|wzgórze św. maksymiliana",
+      "id": "trojmiasto:66238274"
     },
     "trojmiasto:66244459": {
       "cena": 2300,
