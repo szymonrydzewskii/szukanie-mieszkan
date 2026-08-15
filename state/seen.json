@@ -56,13 +56,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 2418,
+            "fetched": 2539,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 2140,
+            "fetched": 2247,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -80,13 +80,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 1120,
+            "fetched": 1176,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
-            "dropped": 0,
-            "fetched": 1370,
+            "dropped": 1,
+            "fetched": 1439,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -104,11 +104,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 397,
+      "bad": 398,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 397,
+      "bad": 398,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -128,7 +128,7 @@
     "trojmiasto": "000066507799",
     "trojmiasto_sale": "000066507701"
   },
-  "last_run": "2026-08-15T01:45:40.553943+00:00",
+  "last_run": "2026-08-15T02:01:00.349147+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -31301,9 +31301,9 @@
       "id": "trojmiasto_sale:66459081"
     },
     "trojmiasto_sale:66459972": {
-      "cena": 1029000,
-      "data_wyslania": "2026-07-25T17:45:42.975765+00:00",
-      "fingerprint": "1029000|70.44|3|morena",
+      "cena": 969000,
+      "data_wyslania": "2026-08-15T02:01:00.349147+00:00",
+      "fingerprint": "969000|70.44|3|morena",
       "id": "trojmiasto_sale:66459972"
     },
     "trojmiasto_sale:66460733": {
