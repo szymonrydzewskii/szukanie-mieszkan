@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 12690,
+            "fetched": 12810,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 10726,
+            "fetched": 10826,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -35,14 +35,14 @@
             "sent_near": 0
           },
           "trojmiasto": {
-            "dropped": 1,
-            "fetched": 5772,
+            "dropped": 2,
+            "fetched": 5827,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 7315,
+            "fetched": 7386,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -60,11 +60,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 613,
+      "bad": 614,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 613,
+      "bad": 614,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -84,7 +84,7 @@
     "trojmiasto": "000066508879",
     "trojmiasto_sale": "000066508634"
   },
-  "last_run": "2026-08-16T17:15:34.876242+00:00",
+  "last_run": "2026-08-16T17:30:49.781082+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -29949,9 +29949,9 @@
       "id": "trojmiasto:66502932"
     },
     "trojmiasto:66503122": {
-      "cena": 2500,
-      "data_wyslania": "2026-08-09T14:45:44.293391+00:00",
-      "fingerprint": "2500|42.1|2|stogi",
+      "cena": 2300,
+      "data_wyslania": "2026-08-16T17:30:49.781082+00:00",
+      "fingerprint": "2300|42.1|2|stogi",
       "id": "trojmiasto:66503122"
     },
     "trojmiasto:66503158": {
