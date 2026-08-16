@@ -54,13 +54,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 2662,
+            "fetched": 2783,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 2244,
+            "fetched": 2346,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -78,13 +78,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 1210,
+            "fetched": 1265,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 1526,
+            "fetched": 1596,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -102,11 +102,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 530,
+      "bad": 531,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 530,
+      "bad": 531,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -126,7 +126,7 @@
     "trojmiasto": "000066508271",
     "trojmiasto_sale": "000066508099"
   },
-  "last_run": "2026-08-16T02:01:03.431641+00:00",
+  "last_run": "2026-08-16T02:15:37.150126+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -757,6 +757,12 @@
       "data_wyslania": "2026-08-07T12:15:49.078820+00:00",
       "fingerprint": "10000|67.35|3|kolibki",
       "id": "nieruchomosci_online:26693811"
+    },
+    "nieruchomosci_online:26698677": {
+      "cena": 2100,
+      "data_wyslania": "2026-08-16T02:15:37.150126+00:00",
+      "fingerprint": "2100|45|2|pogórze",
+      "id": "nieruchomosci_online:26698677"
     },
     "nieruchomosci_online:26700300": {
       "cena": 2500,
@@ -1531,6 +1537,12 @@
       "data_wyslania": "2026-08-01T02:31:00.408194+00:00",
       "fingerprint": "3000|40.9|2|orłowo",
       "id": "nieruchomosci_online:26842269"
+    },
+    "nieruchomosci_online:26842327": {
+      "cena": 3400,
+      "data_wyslania": "2026-08-16T02:15:37.150126+00:00",
+      "fingerprint": "3400|51|2|kamienna góra",
+      "id": "nieruchomosci_online:26842327"
     },
     "nieruchomosci_online:26843557": {
       "cena": 2600,
@@ -4400,6 +4412,12 @@
       "fingerprint": "1990000|80.5|2|śródmieście",
       "id": "nieruchomosci_online_sale:26620201"
     },
+    "nieruchomosci_online_sale:26622819": {
+      "cena": 399000,
+      "data_wyslania": "2026-08-16T02:15:37.150126+00:00",
+      "fingerprint": "399000|17|1|przylesie",
+      "id": "nieruchomosci_online_sale:26622819"
+    },
     "nieruchomosci_online_sale:26623337": {
       "cena": 959000,
       "data_wyslania": "2026-07-27T14:45:41.890887+00:00",
@@ -4945,6 +4963,12 @@
       "data_wyslania": "2026-07-27T08:40:46.839667+00:00",
       "fingerprint": "725000|57|3|orunia górna",
       "id": "nieruchomosci_online_sale:26700733"
+    },
+    "nieruchomosci_online_sale:26700806": {
+      "cena": 1195000,
+      "data_wyslania": "2026-08-16T02:15:37.150126+00:00",
+      "fingerprint": "1195000|38.89|2|przylesie",
+      "id": "nieruchomosci_online_sale:26700806"
     },
     "nieruchomosci_online_sale:26701914": {
       "cena": 525000,
@@ -5755,6 +5779,12 @@
       "data_wyslania": "2026-07-26T20:45:43.648866+00:00",
       "fingerprint": "720000|48.2|2|zaspa-młyniec",
       "id": "nieruchomosci_online_sale:26786980"
+    },
+    "nieruchomosci_online_sale:26787264": {
+      "cena": 1910000,
+      "data_wyslania": "2026-08-16T02:15:37.150126+00:00",
+      "fingerprint": "1910000|87|4|dolny sopot",
+      "id": "nieruchomosci_online_sale:26787264"
     },
     "nieruchomosci_online_sale:26787501": {
       "cena": 835000,
