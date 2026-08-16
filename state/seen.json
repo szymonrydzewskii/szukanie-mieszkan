@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 12090,
+            "fetched": 12210,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 10223,
+            "fetched": 10326,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -35,14 +35,14 @@
             "sent_near": 0
           },
           "trojmiasto": {
-            "dropped": 0,
-            "fetched": 5492,
+            "dropped": 1,
+            "fetched": 5548,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 6957,
+            "fetched": 7029,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -60,20 +60,20 @@
       "last_error": null
     },
     "olx": {
-      "bad": 608,
+      "bad": 609,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 608,
+      "bad": 609,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 1,
-      "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
+      "bad": 0,
+      "last_error": null
     },
     "trojmiasto_sale": {
-      "bad": 1,
-      "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
+      "bad": 0,
+      "last_error": null
     }
   },
   "high_water": {
@@ -81,10 +81,10 @@
     "nieruchomosci_online_sale": "000026900293",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
-    "trojmiasto": "000066508653",
+    "trojmiasto": "000066508879",
     "trojmiasto_sale": "000066508634"
   },
-  "last_run": "2026-08-16T16:30:52.183865+00:00",
+  "last_run": "2026-08-16T16:36:11.076205+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -30151,6 +30151,12 @@
       "data_wyslania": "2026-08-16T11:45:39.375856+00:00",
       "fingerprint": "2990|53|3|chełm",
       "id": "trojmiasto:66508653"
+    },
+    "trojmiasto:66508879": {
+      "cena": 3200,
+      "data_wyslania": "2026-08-16T16:36:11.076205+00:00",
+      "fingerprint": "3200|60|3|chylonia",
+      "id": "trojmiasto:66508879"
     },
     "trojmiasto_sale:64569988": {
       "cena": 3800000,
