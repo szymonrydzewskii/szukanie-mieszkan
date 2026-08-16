@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 13650,
+            "fetched": 13770,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 11526,
+            "fetched": 11626,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -36,13 +36,13 @@
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 6219,
+            "fetched": 6275,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 7885,
+            "fetched": 7956,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -60,11 +60,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 621,
+      "bad": 622,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 621,
+      "bad": 622,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -84,7 +84,7 @@
     "trojmiasto": "000066508879",
     "trojmiasto_sale": "000066508634"
   },
-  "last_run": "2026-08-16T18:45:36.794315+00:00",
+  "last_run": "2026-08-16T19:01:00.681248+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -30782,6 +30782,12 @@
       "fingerprint": "679000|48|2|zaspa",
       "id": "trojmiasto_sale:66399963"
     },
+    "trojmiasto_sale:66400812": {
+      "cena": 849000,
+      "data_wyslania": "2026-08-16T19:01:00.681248+00:00",
+      "fingerprint": "849000|255|3|borucino",
+      "id": "trojmiasto_sale:66400812"
+    },
     "trojmiasto_sale:66401901": {
       "cena": 910000,
       "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
@@ -30829,6 +30835,12 @@
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
       "fingerprint": "2500000|83.82|3|śródmieście",
       "id": "trojmiasto_sale:66407354"
+    },
+    "trojmiasto_sale:66408153": {
+      "cena": 849000,
+      "data_wyslania": "2026-08-16T19:01:00.681248+00:00",
+      "fingerprint": "849000|255|3|stężyca",
+      "id": "trojmiasto_sale:66408153"
     },
     "trojmiasto_sale:66410490": {
       "cena": 1500000,
@@ -32443,6 +32455,12 @@
       "data_wyslania": "2026-08-06T13:45:52.412112+00:00",
       "fingerprint": "899000|51|3|śródmieście",
       "id": "trojmiasto_sale:66499197"
+    },
+    "trojmiasto_sale:66499430": {
+      "cena": 475000,
+      "data_wyslania": "2026-08-16T19:01:00.681248+00:00",
+      "fingerprint": "475000|40.3|2|siedlce",
+      "id": "trojmiasto_sale:66499430"
     },
     "trojmiasto_sale:66500386": {
       "cena": 2380000,
