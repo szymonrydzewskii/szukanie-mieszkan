@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 9438,
+            "fetched": 9559,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 7957,
+            "fetched": 8060,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 4337,
+            "fetched": 4392,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 5459,
+            "fetched": 5530,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 586,
+      "bad": 587,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 586,
+      "bad": 587,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066508653",
     "trojmiasto_sale": "000066508634"
   },
-  "last_run": "2026-08-16T12:45:36.195414+00:00",
+  "last_run": "2026-08-16T12:55:34.834830+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -3011,6 +3011,12 @@
       "data_wyslania": "2026-07-28T10:45:41.018619+00:00",
       "fingerprint": "1599000|100|5|śródmieście",
       "id": "nieruchomosci_online_sale:25745608"
+    },
+    "nieruchomosci_online_sale:25782786": {
+      "cena": 440000,
+      "data_wyslania": "2026-08-16T12:55:34.834830+00:00",
+      "fingerprint": "440000|17.01|1|centrum",
+      "id": "nieruchomosci_online_sale:25782786"
     },
     "nieruchomosci_online_sale:25792062": {
       "cena": 1595000,
