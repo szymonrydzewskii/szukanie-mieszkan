@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 7703,
+            "fetched": 7824,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 6414,
+            "fetched": 6512,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 3,
-            "fetched": 3721,
+            "fetched": 3784,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 4490,
+            "fetched": 4561,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 702,
+      "bad": 703,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 702,
+      "bad": 703,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066509466",
     "trojmiasto_sale": "000066509178"
   },
-  "last_run": "2026-08-17T10:51:03.899957+00:00",
+  "last_run": "2026-08-17T11:00:59.552533+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -7481,6 +7481,12 @@
       "data_wyslania": "2026-08-10T15:15:51.121533+00:00",
       "fingerprint": "1980000|92.18|4|górny sopot",
       "id": "nieruchomosci_online_sale:26889121"
+    },
+    "nieruchomosci_online_sale:26889603": {
+      "cena": 639639,
+      "data_wyslania": "2026-08-17T11:00:59.552533+00:00",
+      "fingerprint": "639639|71.91|4|obłuże",
+      "id": "nieruchomosci_online_sale:26889603"
     },
     "nieruchomosci_online_sale:26890158": {
       "cena": 2050000,
