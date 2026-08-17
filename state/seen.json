@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 11218,
+            "fetched": 11339,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 9365,
+            "fetched": 9469,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 3,
-            "fetched": 5595,
+            "fetched": 5661,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 6525,
+            "fetched": 6594,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 731,
+      "bad": 732,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 731,
+      "bad": 732,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066509611",
     "trojmiasto_sale": "000066509178"
   },
-  "last_run": "2026-08-17T16:09:40.213996+00:00",
+  "last_run": "2026-08-17T16:15:36.795222+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -5633,6 +5633,12 @@
       "data_wyslania": "2026-07-28T10:45:41.018619+00:00",
       "fingerprint": "960000|69|3|jasień",
       "id": "nieruchomosci_online_sale:26762343"
+    },
+    "nieruchomosci_online_sale:26763026": {
+      "cena": 419000,
+      "data_wyslania": "2026-08-17T16:15:36.795222+00:00",
+      "fingerprint": "419000|37|2|nowy port",
+      "id": "nieruchomosci_online_sale:26763026"
     },
     "nieruchomosci_online_sale:26765019": {
       "cena": 2025000,
