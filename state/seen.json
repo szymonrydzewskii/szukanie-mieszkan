@@ -9,14 +9,14 @@
         ],
         "sources": {
           "nieruchomosci_online": {
-            "dropped": 2,
-            "fetched": 6534,
+            "dropped": 3,
+            "fetched": 6655,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 5536,
+            "fetched": 5633,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 3554,
+            "fetched": 3619,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 3913,
+            "fetched": 3984,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 812,
+      "bad": 813,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 812,
+      "bad": 813,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066510080",
     "trojmiasto_sale": "000066510073"
   },
-  "last_run": "2026-08-18T08:45:38.896899+00:00",
+  "last_run": "2026-08-18T08:48:39.790192+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -571,9 +571,9 @@
       "id": "nieruchomosci_online:26458746"
     },
     "nieruchomosci_online:26481071": {
-      "cena": 4000,
-      "data_wyslania": "2026-08-17T22:15:34.694074+00:00",
-      "fingerprint": "4000|34|2|śródmieście",
+      "cena": 3800,
+      "data_wyslania": "2026-08-18T08:48:39.790192+00:00",
+      "fingerprint": "3800|34|2|śródmieście",
       "id": "nieruchomosci_online:26481071"
     },
     "nieruchomosci_online:26482029": {
@@ -611,6 +611,12 @@
       "data_wyslania": "2026-07-27T07:45:49.040261+00:00",
       "fingerprint": "2500|55.6|3|działki leśne",
       "id": "nieruchomosci_online:26539732"
+    },
+    "nieruchomosci_online:26550961": {
+      "cena": 3800,
+      "data_wyslania": "2026-08-18T08:48:39.790192+00:00",
+      "fingerprint": "3800|32|1|świętojańska",
+      "id": "nieruchomosci_online:26550961"
     },
     "nieruchomosci_online:26558391": {
       "cena": 4400,
