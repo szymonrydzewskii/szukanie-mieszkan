@@ -11,13 +11,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 6,
-            "fetched": 13794,
+            "fetched": 13915,
             "sent_main": 1,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 9,
-            "fetched": 11261,
+            "fetched": 11358,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,14 +34,14 @@
             "sent_near": 0
           },
           "trojmiasto": {
-            "dropped": 1,
-            "fetched": 7525,
+            "dropped": 2,
+            "fetched": 7592,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 8,
-            "fetched": 8112,
+            "fetched": 8181,
             "sent_main": 1,
             "sent_near": 0
           }
@@ -59,11 +59,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 872,
+      "bad": 873,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 872,
+      "bad": 873,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -83,7 +83,7 @@
     "trojmiasto": "000066510533",
     "trojmiasto_sale": "000066510073"
   },
-  "last_run": "2026-08-18T20:01:07.576128+00:00",
+  "last_run": "2026-08-18T20:15:37.832997+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -30776,9 +30776,9 @@
       "id": "trojmiasto:66509974"
     },
     "trojmiasto:66509984": {
-      "cena": 2900,
-      "data_wyslania": "2026-08-17T18:45:39.445376+00:00",
-      "fingerprint": "2900|53.2|2|pruszcz gdański",
+      "cena": 2700,
+      "data_wyslania": "2026-08-18T20:15:37.832997+00:00",
+      "fingerprint": "2700|53.2|2|pruszcz gdański",
       "id": "trojmiasto:66509984"
     },
     "trojmiasto:66510080": {
