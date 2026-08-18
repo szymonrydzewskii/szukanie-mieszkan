@@ -11,13 +11,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 6,
-            "fetched": 13552,
+            "fetched": 13673,
             "sent_main": 1,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 9,
-            "fetched": 11067,
+            "fetched": 11164,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -35,13 +35,13 @@
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 7391,
+            "fetched": 7458,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 8,
-            "fetched": 7972,
+            "fetched": 8042,
             "sent_main": 1,
             "sent_near": 0
           }
@@ -59,11 +59,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 870,
+      "bad": 871,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 870,
+      "bad": 871,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -83,7 +83,7 @@
     "trojmiasto": "000066510533",
     "trojmiasto_sale": "000066510073"
   },
-  "last_run": "2026-08-18T19:36:26.033625+00:00",
+  "last_run": "2026-08-18T19:45:41.227706+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -33390,6 +33390,12 @@
       "data_wyslania": "2026-08-18T11:15:35.645611+00:00",
       "fingerprint": "479000|27|1|przymorze wielkie",
       "id": "trojmiasto_sale:66509930"
+    },
+    "trojmiasto_sale:66510062": {
+      "cena": 480000,
+      "data_wyslania": "2026-08-18T19:45:41.227706+00:00",
+      "fingerprint": "480000|33.2|2|matarnia",
+      "id": "trojmiasto_sale:66510062"
     },
     "trojmiasto_sale:66510073": {
       "cena": 1050000,
