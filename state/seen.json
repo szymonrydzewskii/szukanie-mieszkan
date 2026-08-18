@@ -11,13 +11,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 9801,
+            "fetched": 9922,
             "sent_main": 1,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 8,
-            "fetched": 8097,
+            "fetched": 8192,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -35,13 +35,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 5311,
+            "fetched": 5378,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 6,
-            "fetched": 5815,
+            "fetched": 5884,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -59,11 +59,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 839,
+      "bad": 840,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 839,
+      "bad": 840,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -76,14 +76,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026905820",
+    "nieruchomosci_online": "000026905927",
     "nieruchomosci_online_sale": "000026905059",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066510080",
     "trojmiasto_sale": "000066510073"
   },
-  "last_run": "2026-08-18T13:45:42.161141+00:00",
+  "last_run": "2026-08-18T14:00:13.110533+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -3072,6 +3072,12 @@
       "data_wyslania": "2026-08-18T13:45:42.161141+00:00",
       "fingerprint": "2400|36.88|2|śródmieście",
       "id": "nieruchomosci_online:26905820"
+    },
+    "nieruchomosci_online:26905927": {
+      "cena": 3500,
+      "data_wyslania": "2026-08-18T14:00:13.110533+00:00",
+      "fingerprint": "3500|35|2|śródmieście",
+      "id": "nieruchomosci_online:26905927"
     },
     "nieruchomosci_online_sale:23703220": {
       "cena": 427000,
