@@ -11,13 +11,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 6,
-            "fetched": 10769,
+            "fetched": 10890,
             "sent_main": 1,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
-            "dropped": 8,
-            "fetched": 8855,
+            "dropped": 9,
+            "fetched": 8950,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -35,13 +35,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 5847,
+            "fetched": 5914,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 7,
-            "fetched": 6372,
+            "fetched": 6441,
             "sent_main": 1,
             "sent_near": 0
           }
@@ -59,11 +59,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 847,
+      "bad": 848,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 847,
+      "bad": 848,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -83,7 +83,7 @@
     "trojmiasto": "000066510080",
     "trojmiasto_sale": "000066510073"
   },
-  "last_run": "2026-08-18T15:17:40.987660+00:00",
+  "last_run": "2026-08-18T15:31:00.808462+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -4580,9 +4580,9 @@
       "id": "nieruchomosci_online_sale:26608259"
     },
     "nieruchomosci_online_sale:26610002": {
-      "cena": 895000,
-      "data_wyslania": "2026-08-18T02:15:37.397558+00:00",
-      "fingerprint": "895000|58.67|2|centrum",
+      "cena": 860000,
+      "data_wyslania": "2026-08-18T15:31:00.808462+00:00",
+      "fingerprint": "860000|58.67|2|centrum",
       "id": "nieruchomosci_online_sale:26610002"
     },
     "nieruchomosci_online_sale:26610373": {
