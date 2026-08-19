@@ -11,13 +11,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 6342,
+            "fetched": 6464,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 5081,
+            "fetched": 5181,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -35,13 +35,13 @@
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 3483,
+            "fetched": 3549,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
-            "dropped": 0,
-            "fetched": 3593,
+            "dropped": 1,
+            "fetched": 3662,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -59,11 +59,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 934,
+      "bad": 935,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 934,
+      "bad": 935,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -83,7 +83,7 @@
     "trojmiasto": "000066511136",
     "trojmiasto_sale": "000066510073"
   },
-  "last_run": "2026-08-19T08:00:58.922694+00:00",
+  "last_run": "2026-08-19T08:15:38.375560+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -264,6 +264,12 @@
       "data_wyslania": "2026-07-28T02:15:49.138793+00:00",
       "fingerprint": "2300|40|2|dolny sopot",
       "id": "nieruchomosci_online:25411853"
+    },
+    "nieruchomosci_online:25487739": {
+      "cena": 5000,
+      "data_wyslania": "2026-08-19T08:15:38.375560+00:00",
+      "fingerprint": "5000|73|3|chwarzno-wiczlino",
+      "id": "nieruchomosci_online:25487739"
     },
     "nieruchomosci_online:25525576": {
       "cena": 8400,
@@ -33434,9 +33440,9 @@
       "id": "trojmiasto_sale:66507998"
     },
     "trojmiasto_sale:66507999": {
-      "cena": 1094700,
-      "data_wyslania": "2026-08-15T02:45:34.798239+00:00",
-      "fingerprint": "1094700|54.31|2|śródmieście",
+      "cena": 922500,
+      "data_wyslania": "2026-08-19T08:15:38.375560+00:00",
+      "fingerprint": "922500|54.31|2|śródmieście",
       "id": "trojmiasto_sale:66507999"
     },
     "trojmiasto_sale:66508099": {
