@@ -56,13 +56,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 3936,
+            "fetched": 4059,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 3168,
+            "fetched": 3267,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -80,13 +80,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 1984,
+            "fetched": 2046,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
-            "dropped": 1,
-            "fetched": 2157,
+            "dropped": 2,
+            "fetched": 2224,
             "sent_main": 1,
             "sent_near": 0
           }
@@ -104,11 +104,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 1038,
+      "bad": 1039,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 1038,
+      "bad": 1039,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -126,9 +126,9 @@
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066511293",
-    "trojmiasto_sale": "000066512040"
+    "trojmiasto_sale": "000066512063"
   },
-  "last_run": "2026-08-20T04:15:39.349703+00:00",
+  "last_run": "2026-08-20T04:30:51.269843+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -33855,6 +33855,12 @@
       "data_wyslania": "2026-08-20T01:30:50.199289+00:00",
       "fingerprint": "585000|46|3|przymorze wielkie",
       "id": "trojmiasto_sale:66512040"
+    },
+    "trojmiasto_sale:66512063": {
+      "cena": 859000,
+      "data_wyslania": "2026-08-20T04:30:51.269843+00:00",
+      "fingerprint": "859000|54|3|kokoszki",
+      "id": "trojmiasto_sale:66512063"
     }
   },
   "version": 1
