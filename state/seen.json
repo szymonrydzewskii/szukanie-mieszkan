@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 13828,
+            "fetched": 13950,
             "sent_main": 2,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 7,
-            "fetched": 11566,
+            "fetched": 11674,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 4,
-            "fetched": 7092,
+            "fetched": 7155,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 4,
-            "fetched": 7452,
+            "fetched": 7516,
             "sent_main": 1,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 1119,
+      "bad": 1120,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 1119,
+      "bad": 1120,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066512782",
     "trojmiasto_sale": "000066512905"
   },
-  "last_run": "2026-08-20T20:30:52.686175+00:00",
+  "last_run": "2026-08-20T20:39:22.736659+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -8099,6 +8099,12 @@
       "data_wyslania": "2026-08-08T11:45:46.718519+00:00",
       "fingerprint": "1149000|67.74|3|jasień",
       "id": "nieruchomosci_online_sale:26885678"
+    },
+    "nieruchomosci_online_sale:26886074": {
+      "cena": 1100000,
+      "data_wyslania": "2026-08-20T20:39:22.736659+00:00",
+      "fingerprint": "1100000|58|3|wyspa spichrzów",
+      "id": "nieruchomosci_online_sale:26886074"
     },
     "nieruchomosci_online_sale:26886133": {
       "cena": 1280000,
