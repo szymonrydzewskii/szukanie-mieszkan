@@ -56,13 +56,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 2091,
+            "fetched": 2214,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 1683,
+            "fetched": 1782,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -80,14 +80,14 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 1054,
+            "fetched": 1116,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
-            "dropped": 0,
-            "fetched": 1165,
-            "sent_main": 0,
+            "dropped": 1,
+            "fetched": 1230,
+            "sent_main": 1,
             "sent_near": 0
           }
         }
@@ -104,11 +104,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 1023,
+      "bad": 1024,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 1023,
+      "bad": 1024,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -126,9 +126,9 @@
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066511293",
-    "trojmiasto_sale": "000066511825"
+    "trojmiasto_sale": "000066512040"
   },
-  "last_run": "2026-08-20T01:15:39.681356+00:00",
+  "last_run": "2026-08-20T01:30:50.199289+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -33807,6 +33807,18 @@
       "data_wyslania": "2026-08-19T17:01:04.677832+00:00",
       "fingerprint": "635000|53|3|kartuzy",
       "id": "trojmiasto_sale:66511825"
+    },
+    "trojmiasto_sale:66512010": {
+      "cena": 219900,
+      "data_wyslania": "2026-08-20T01:30:50.199289+00:00",
+      "fingerprint": "219900|1000|?|tczewskie łąki",
+      "id": "trojmiasto_sale:66512010"
+    },
+    "trojmiasto_sale:66512040": {
+      "cena": 585000,
+      "data_wyslania": "2026-08-20T01:30:50.199289+00:00",
+      "fingerprint": "585000|46|3|przymorze wielkie",
+      "id": "trojmiasto_sale:66512040"
     }
   },
   "version": 1
