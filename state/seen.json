@@ -2,52 +2,6 @@
   "daily": {},
   "digest": {
     "days": {
-      "2026-08-19": {
-        "errors": [
-          "olx: OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (p",
-          "olx_sale: OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (p",
-          "olx: OLX: błąd sieci przy zapytaniu {'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:des",
-          "nieruchomosci_online: Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Read timed out. (re"
-        ],
-        "sources": {
-          "nieruchomosci_online": {
-            "dropped": 4,
-            "fetched": 15015,
-            "sent_main": 0,
-            "sent_near": 0
-          },
-          "nieruchomosci_online_sale": {
-            "dropped": 4,
-            "fetched": 12142,
-            "sent_main": 0,
-            "sent_near": 0
-          },
-          "olx": {
-            "dropped": 0,
-            "fetched": 0,
-            "sent_main": 0,
-            "sent_near": 0
-          },
-          "olx_sale": {
-            "dropped": 0,
-            "fetched": 0,
-            "sent_main": 0,
-            "sent_near": 0
-          },
-          "trojmiasto": {
-            "dropped": 2,
-            "fetched": 8155,
-            "sent_main": 0,
-            "sent_near": 0
-          },
-          "trojmiasto_sale": {
-            "dropped": 6,
-            "fetched": 8507,
-            "sent_main": 0,
-            "sent_near": 0
-          }
-        }
-      },
       "2026-08-20": {
         "errors": [
           "olx: OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (p",
@@ -56,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 4920,
+            "fetched": 5043,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 3960,
+            "fetched": 4059,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -80,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2480,
+            "fetched": 2542,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 2692,
+            "fetched": 2758,
             "sent_main": 1,
             "sent_near": 0
           }
@@ -104,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 1046,
+      "bad": 1047,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 1046,
+      "bad": 1047,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -128,7 +82,7 @@
     "trojmiasto": "000066511293",
     "trojmiasto_sale": "000066512063"
   },
-  "last_run": "2026-08-20T05:45:39.566341+00:00",
+  "last_run": "2026-08-20T06:01:06.098602+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
