@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 13706,
+            "fetched": 13828,
             "sent_main": 2,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 7,
-            "fetched": 11459,
+            "fetched": 11566,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 4,
-            "fetched": 7029,
+            "fetched": 7092,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 4,
-            "fetched": 7388,
+            "fetched": 7452,
             "sent_main": 1,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 1118,
+      "bad": 1119,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 1118,
+      "bad": 1119,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066512782",
     "trojmiasto_sale": "000066512905"
   },
-  "last_run": "2026-08-20T20:15:34.874526+00:00",
+  "last_run": "2026-08-20T20:30:52.686175+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -8489,6 +8489,12 @@
       "data_wyslania": "2026-08-20T13:01:11.524337+00:00",
       "fingerprint": "1450000|55.5|3|dolny sopot",
       "id": "nieruchomosci_online_sale:26911049"
+    },
+    "nieruchomosci_online_sale:26911658": {
+      "cena": 718000,
+      "data_wyslania": "2026-08-20T20:30:52.686175+00:00",
+      "fingerprint": "718000|50.34|2|chwarzno",
+      "id": "nieruchomosci_online_sale:26911658"
     },
     "nieruchomosci_online_sale:26912075": {
       "cena": 419000,
