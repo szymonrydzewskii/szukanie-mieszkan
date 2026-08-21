@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 8040,
+            "fetched": 8163,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
-            "dropped": 3,
-            "fetched": 7056,
+            "dropped": 4,
+            "fetched": 7153,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 4191,
+            "fetched": 4256,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 4248,
+            "fetched": 4313,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 1193,
+      "bad": 1194,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 1193,
+      "bad": 1194,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -76,13 +76,13 @@
   },
   "high_water": {
     "nieruchomosci_online": "000026913115",
-    "nieruchomosci_online_sale": "000026912871",
+    "nieruchomosci_online_sale": "000026913212",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066513316",
     "trojmiasto_sale": "000066512905"
   },
-  "last_run": "2026-08-21T10:45:36.499276+00:00",
+  "last_run": "2026-08-21T11:01:01.730031+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -587,6 +587,12 @@
       "data_wyslania": "2026-07-25T09:45:42.497013+00:00",
       "fingerprint": "8500|71|3|górny sopot",
       "id": "nieruchomosci_online:26425260"
+    },
+    "nieruchomosci_online:26425336": {
+      "cena": 4000,
+      "data_wyslania": "2026-08-21T11:01:01.730031+00:00",
+      "fingerprint": "4000|53|2|śródmieście",
+      "id": "nieruchomosci_online:26425336"
     },
     "nieruchomosci_online:26434087": {
       "cena": 2800,
@@ -2999,6 +3005,12 @@
       "data_wyslania": "2026-08-17T08:00:59.735662+00:00",
       "fingerprint": "2700|35|2|wzgórze św. maksymiliana",
       "id": "nieruchomosci_online:26901616"
+    },
+    "nieruchomosci_online:26902389": {
+      "cena": 3300,
+      "data_wyslania": "2026-08-21T11:01:01.730031+00:00",
+      "fingerprint": "3300|48.2|2|zaspa",
+      "id": "nieruchomosci_online:26902389"
     },
     "nieruchomosci_online:26902454": {
       "cena": 10000,
@@ -6540,6 +6552,12 @@
       "fingerprint": "599000|38|2|przymorze",
       "id": "nieruchomosci_online_sale:26792549"
     },
+    "nieruchomosci_online_sale:26793198": {
+      "cena": 880000,
+      "data_wyslania": "2026-08-21T11:01:01.730031+00:00",
+      "fingerprint": "880000|55.22|2|dolny sopot",
+      "id": "nieruchomosci_online_sale:26793198"
+    },
     "nieruchomosci_online_sale:26793272": {
       "cena": 599000,
       "data_wyslania": "2026-07-25T14:17:24.798865+00:00",
@@ -8591,6 +8609,12 @@
       "data_wyslania": "2026-08-21T09:30:53.447783+00:00",
       "fingerprint": "1485825|54.03|2|przylesie",
       "id": "nieruchomosci_online_sale:26912871"
+    },
+    "nieruchomosci_online_sale:26913212": {
+      "cena": 715000,
+      "data_wyslania": "2026-08-21T11:01:01.730031+00:00",
+      "fingerprint": "715000|52.7|3|brodwino",
+      "id": "nieruchomosci_online_sale:26913212"
     },
     "olx:1006019650": {
       "cena": 1800,
@@ -34115,6 +34139,12 @@
       "data_wyslania": "2026-08-17T20:45:36.922399+00:00",
       "fingerprint": "1050000|95|5|kartuzy centrum",
       "id": "trojmiasto_sale:66510073"
+    },
+    "trojmiasto_sale:66510265": {
+      "cena": 1200000,
+      "data_wyslania": "2026-08-21T11:01:01.730031+00:00",
+      "fingerprint": "1200000|76|3|wrzeszcz górny",
+      "id": "trojmiasto_sale:66510265"
     },
     "trojmiasto_sale:66510785": {
       "cena": 1969000,
