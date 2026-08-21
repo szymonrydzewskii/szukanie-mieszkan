@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 7,
-            "fetched": 12589,
+            "fetched": 12712,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 7,
-            "fetched": 10677,
+            "fetched": 10777,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -35,14 +35,14 @@
             "sent_near": 0
           },
           "trojmiasto": {
-            "dropped": 4,
-            "fetched": 6538,
+            "dropped": 5,
+            "fetched": 6603,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 6596,
+            "fetched": 6662,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -60,11 +60,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 1230,
+      "bad": 1231,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 1230,
+      "bad": 1231,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -84,7 +84,7 @@
     "trojmiasto": "000066513654",
     "trojmiasto_sale": "000066513589"
   },
-  "last_run": "2026-08-21T17:45:40.794991+00:00",
+  "last_run": "2026-08-21T18:00:59.845092+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -8677,6 +8677,12 @@
       "data_wyslania": "2026-08-21T11:01:01.730031+00:00",
       "fingerprint": "715000|52.7|3|brodwino",
       "id": "nieruchomosci_online_sale:26913212"
+    },
+    "nieruchomosci_online_sale:26913548": {
+      "cena": 548000,
+      "data_wyslania": "2026-08-21T18:00:59.845092+00:00",
+      "fingerprint": "548000|50|2|zakoniczyn",
+      "id": "nieruchomosci_online_sale:26913548"
     },
     "nieruchomosci_online_sale:26914044": {
       "cena": 750000,
@@ -29600,6 +29606,12 @@
       "fingerprint": "637050|42.47|3|wyspa sobieszewska",
       "id": "olx_sale:999147895"
     },
+    "trojmiasto:64594292": {
+      "cena": 2500,
+      "data_wyslania": "2026-08-21T18:00:59.845092+00:00",
+      "fingerprint": "2500|12|?|wrzeszcz górny",
+      "id": "trojmiasto:64594292"
+    },
     "trojmiasto:64716014": {
       "cena": 350,
       "data_wyslania": "2026-08-21T17:37:45.846202+00:00",
@@ -29715,9 +29727,9 @@
       "id": "trojmiasto:66203962"
     },
     "trojmiasto:66205054": {
-      "cena": 2200,
-      "data_wyslania": "2026-08-20T16:01:07.503584+00:00",
-      "fingerprint": "2200|26|1|kamienny potok",
+      "cena": 2000,
+      "data_wyslania": "2026-08-21T18:00:59.845092+00:00",
+      "fingerprint": "2000|26|1|kamienny potok",
       "id": "trojmiasto:66205054"
     },
     "trojmiasto:66206997": {
