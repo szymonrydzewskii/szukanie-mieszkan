@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 10365,
+            "fetched": 10486,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 8188,
+            "fetched": 8275,
             "sent_main": 0,
             "sent_near": 1
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 5400,
+            "fetched": 5463,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
-            "dropped": 2,
-            "fetched": 5587,
+            "dropped": 3,
+            "fetched": 5652,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 1336,
+      "bad": 1337,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 1336,
+      "bad": 1337,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066514130",
     "trojmiasto_sale": "000066513857"
   },
-  "last_run": "2026-08-22T13:30:50.897124+00:00",
+  "last_run": "2026-08-22T13:38:48.168810+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -32971,9 +32971,9 @@
       "id": "trojmiasto_sale:66439377"
     },
     "trojmiasto_sale:66439472": {
-      "cena": 829000,
-      "data_wyslania": "2026-07-26T06:45:41.304930+00:00",
-      "fingerprint": "829000|67|3|jasień",
+      "cena": 799000,
+      "data_wyslania": "2026-08-22T13:38:48.168810+00:00",
+      "fingerprint": "799000|67|3|jasień",
       "id": "trojmiasto_sale:66439472"
     },
     "trojmiasto_sale:66439473": {
