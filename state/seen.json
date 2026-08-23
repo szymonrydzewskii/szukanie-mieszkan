@@ -11,13 +11,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 11722,
+            "fetched": 11843,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 8923,
+            "fetched": 9034,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,14 +34,14 @@
             "sent_near": 0
           },
           "trojmiasto": {
-            "dropped": 0,
-            "fetched": 6018,
+            "dropped": 1,
+            "fetched": 6080,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 6343,
+            "fetched": 6410,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -59,11 +59,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 1478,
+      "bad": 1479,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 1478,
+      "bad": 1479,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -83,7 +83,7 @@
     "trojmiasto": "000066514682",
     "trojmiasto_sale": "000066514717"
   },
-  "last_run": "2026-08-23T16:15:34.877101+00:00",
+  "last_run": "2026-08-23T16:30:50.464604+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -30764,9 +30764,9 @@
       "id": "trojmiasto:66480329"
     },
     "trojmiasto:66481430": {
-      "cena": 4000,
-      "data_wyslania": "2026-08-22T19:40:39.438736+00:00",
-      "fingerprint": "4000|62|2|oliwa",
+      "cena": 3800,
+      "data_wyslania": "2026-08-23T16:30:50.464604+00:00",
+      "fingerprint": "3800|62|2|oliwa",
       "id": "trojmiasto:66481430"
     },
     "trojmiasto:66481691": {
