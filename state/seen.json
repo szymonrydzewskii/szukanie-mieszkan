@@ -11,13 +11,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 14989,
+            "fetched": 15110,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 6,
-            "fetched": 11890,
+            "fetched": 11999,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -35,13 +35,13 @@
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 7850,
+            "fetched": 7919,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
-            "dropped": 1,
-            "fetched": 8208,
+            "dropped": 2,
+            "fetched": 8278,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -59,11 +59,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 1505,
+      "bad": 1506,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 1505,
+      "bad": 1506,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -83,7 +83,7 @@
     "trojmiasto": "000066514912",
     "trojmiasto_sale": "000066514717"
   },
-  "last_run": "2026-08-23T21:02:12.134771+00:00",
+  "last_run": "2026-08-23T21:15:37.116733+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -34328,9 +34328,9 @@
       "id": "trojmiasto_sale:66491673"
     },
     "trojmiasto_sale:66491822": {
-      "cena": 675000,
-      "data_wyslania": "2026-08-22T00:15:39.587737+00:00",
-      "fingerprint": "675000|47.1|2|kamienna góra",
+      "cena": 655000,
+      "data_wyslania": "2026-08-23T21:15:37.116733+00:00",
+      "fingerprint": "655000|47.1|2|kamienna góra",
       "id": "trojmiasto_sale:66491822"
     },
     "trojmiasto_sale:66491904": {
