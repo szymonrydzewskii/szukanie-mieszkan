@@ -11,13 +11,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 13174,
+            "fetched": 13295,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 5,
-            "fetched": 10255,
+            "fetched": 10364,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -35,13 +35,13 @@
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 6815,
+            "fetched": 6884,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 7169,
+            "fetched": 7238,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -59,11 +59,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 1490,
+      "bad": 1491,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 1490,
+      "bad": 1491,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -83,7 +83,7 @@
     "trojmiasto": "000066514912",
     "trojmiasto_sale": "000066514717"
   },
-  "last_run": "2026-08-23T18:30:48.674369+00:00",
+  "last_run": "2026-08-23T18:44:24.198684+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -858,6 +858,12 @@
       "data_wyslania": "2026-07-25T09:45:42.497013+00:00",
       "fingerprint": "4300|78|4|pogórze",
       "id": "nieruchomosci_online:26717539"
+    },
+    "nieruchomosci_online:26721954": {
+      "cena": 2100,
+      "data_wyslania": "2026-08-23T18:44:24.198684+00:00",
+      "fingerprint": "2100|36|1|orunia",
+      "id": "nieruchomosci_online:26721954"
     },
     "nieruchomosci_online:26723177": {
       "cena": 2500,
