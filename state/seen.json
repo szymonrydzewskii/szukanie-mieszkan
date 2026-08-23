@@ -54,13 +54,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 4520,
+            "fetched": 4643,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 3183,
+            "fetched": 3269,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -78,13 +78,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2331,
+            "fetched": 2394,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 2424,
+            "fetched": 2489,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -102,11 +102,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 1419,
+      "bad": 1420,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 1419,
+      "bad": 1420,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -126,7 +126,7 @@
     "trojmiasto": "000066514373",
     "trojmiasto_sale": "000066514303"
   },
-  "last_run": "2026-08-23T05:15:41.948142+00:00",
+  "last_run": "2026-08-23T05:30:48.860695+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -34843,6 +34843,12 @@
       "data_wyslania": "2026-08-22T01:01:01.788964+00:00",
       "fingerprint": "1125000|60.22|3|olszynka",
       "id": "trojmiasto_sale:66512723"
+    },
+    "trojmiasto_sale:66512902": {
+      "cena": 470000,
+      "data_wyslania": "2026-08-23T05:30:48.860695+00:00",
+      "fingerprint": "470000|30.9|1|żabianka",
+      "id": "trojmiasto_sale:66512902"
     },
     "trojmiasto_sale:66512905": {
       "cena": 260820,
