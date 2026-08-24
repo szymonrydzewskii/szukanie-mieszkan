@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 5687,
+            "fetched": 5808,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 5096,
+            "fetched": 5204,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 3387,
+            "fetched": 3460,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 3246,
+            "fetched": 3314,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 1557,
+      "bad": 1558,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 1557,
+      "bad": 1558,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066515350",
     "trojmiasto_sale": "000066514717"
   },
-  "last_run": "2026-08-24T07:30:56.144281+00:00",
+  "last_run": "2026-08-24T07:45:40.352766+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -30527,6 +30527,12 @@
       "data_wyslania": "2026-07-31T09:15:44.885790+00:00",
       "fingerprint": "2900|42|2|cisowa",
       "id": "trojmiasto:66447243"
+    },
+    "trojmiasto:66448130": {
+      "cena": 2000,
+      "data_wyslania": "2026-08-24T07:45:40.352766+00:00",
+      "fingerprint": "2000|37|2|borkowo cztery pory roku",
+      "id": "trojmiasto:66448130"
     },
     "trojmiasto:66448304": {
       "cena": 5500,
