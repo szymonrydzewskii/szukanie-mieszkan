@@ -9,14 +9,14 @@
         ],
         "sources": {
           "nieruchomosci_online": {
-            "dropped": 1,
-            "fetched": 6897,
+            "dropped": 2,
+            "fetched": 7018,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 6128,
+            "fetched": 6227,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 4117,
+            "fetched": 4190,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 3924,
+            "fetched": 3992,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 1567,
+      "bad": 1568,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 1567,
+      "bad": 1568,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -75,14 +75,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026916805",
+    "nieruchomosci_online": "000026916841",
     "nieruchomosci_online_sale": "000026916778",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066515350",
     "trojmiasto_sale": "000066514717"
   },
-  "last_run": "2026-08-24T09:30:52.342378+00:00",
+  "last_run": "2026-08-24T09:45:37.970376+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -3401,6 +3401,18 @@
       "data_wyslania": "2026-08-24T09:30:52.342378+00:00",
       "fingerprint": "2500|44|2|chylonia",
       "id": "nieruchomosci_online:26916805"
+    },
+    "nieruchomosci_online:26916820": {
+      "cena": 2100,
+      "data_wyslania": "2026-08-24T09:45:37.970376+00:00",
+      "fingerprint": "2100|39|1|redłowo",
+      "id": "nieruchomosci_online:26916820"
+    },
+    "nieruchomosci_online:26916841": {
+      "cena": 2300,
+      "data_wyslania": "2026-08-24T09:45:37.970376+00:00",
+      "fingerprint": "2300|42|2|wielki kack",
+      "id": "nieruchomosci_online:26916841"
     },
     "nieruchomosci_online_sale:23703220": {
       "cena": 427000,
@@ -9125,6 +9137,12 @@
       "data_wyslania": "2026-08-21T09:30:53.447783+00:00",
       "fingerprint": "1485825|54.03|2|przylesie",
       "id": "nieruchomosci_online_sale:26912871"
+    },
+    "nieruchomosci_online_sale:26912891": {
+      "cena": 899000,
+      "data_wyslania": "2026-08-24T09:45:37.970376+00:00",
+      "fingerprint": "899000|58.31|3|piecki-migowo",
+      "id": "nieruchomosci_online_sale:26912891"
     },
     "nieruchomosci_online_sale:26913212": {
       "cena": 715000,
