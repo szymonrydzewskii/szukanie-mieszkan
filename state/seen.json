@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 7623,
+            "fetched": 7744,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 6719,
+            "fetched": 6813,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 4553,
+            "fetched": 4625,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 4331,
+            "fetched": 4398,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 1573,
+      "bad": 1574,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 1573,
+      "bad": 1574,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066515350",
     "trojmiasto_sale": "000066514717"
   },
-  "last_run": "2026-08-24T10:45:39.927074+00:00",
+  "last_run": "2026-08-24T10:56:38.795460+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -8441,6 +8441,12 @@
       "data_wyslania": "2026-08-23T12:45:38.285823+00:00",
       "fingerprint": "710000|52.97|3|siedlce",
       "id": "nieruchomosci_online_sale:26875203"
+    },
+    "nieruchomosci_online_sale:26875421": {
+      "cena": 490000,
+      "data_wyslania": "2026-08-24T10:56:38.795460+00:00",
+      "fingerprint": "490000|53.7|3|cisowa",
+      "id": "nieruchomosci_online_sale:26875421"
     },
     "nieruchomosci_online_sale:26875543": {
       "cena": 699000,
