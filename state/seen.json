@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 6171,
+            "fetched": 6292,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 5528,
+            "fetched": 5635,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 3679,
+            "fetched": 3752,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 3517,
+            "fetched": 3585,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 1561,
+      "bad": 1562,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 1561,
+      "bad": 1562,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066515350",
     "trojmiasto_sale": "000066514717"
   },
-  "last_run": "2026-08-24T08:15:41.958246+00:00",
+  "last_run": "2026-08-24T08:30:51.156265+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -7830,6 +7830,12 @@
       "fingerprint": "689000|57.8|3|działki leśne",
       "id": "nieruchomosci_online_sale:26852655"
     },
+    "nieruchomosci_online_sale:26852685": {
+      "cena": 462999,
+      "data_wyslania": "2026-08-24T08:30:51.156265+00:00",
+      "fingerprint": "462999|35.5|2|jasień",
+      "id": "nieruchomosci_online_sale:26852685"
+    },
     "nieruchomosci_online_sale:26852957": {
       "cena": 990000,
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
@@ -9023,6 +9029,12 @@
       "data_wyslania": "2026-08-18T10:45:37.678287+00:00",
       "fingerprint": "1699000|55.99|2|świemirowo",
       "id": "nieruchomosci_online_sale:26905059"
+    },
+    "nieruchomosci_online_sale:26906060": {
+      "cena": 1969000,
+      "data_wyslania": "2026-08-24T08:30:51.156265+00:00",
+      "fingerprint": "1969000|79|3|przymorze",
+      "id": "nieruchomosci_online_sale:26906060"
     },
     "nieruchomosci_online_sale:26906535": {
       "cena": 1035000,
