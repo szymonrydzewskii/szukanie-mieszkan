@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 10185,
+            "fetched": 10308,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 8726,
+            "fetched": 8827,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -36,13 +36,13 @@
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 5993,
+            "fetched": 6063,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 5677,
+            "fetched": 5746,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -60,11 +60,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 1594,
+      "bad": 1595,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 1594,
+      "bad": 1595,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -84,7 +84,7 @@
     "trojmiasto": "000066515350",
     "trojmiasto_sale": "000066516032"
   },
-  "last_run": "2026-08-24T15:01:22.137832+00:00",
+  "last_run": "2026-08-24T15:15:39.962655+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -9151,6 +9151,12 @@
       "data_wyslania": "2026-08-23T17:45:37.146595+00:00",
       "fingerprint": "1035000|74|4|chwarzno-wiczlino",
       "id": "nieruchomosci_online_sale:26906535"
+    },
+    "nieruchomosci_online_sale:26906680": {
+      "cena": 729000,
+      "data_wyslania": "2026-08-24T15:15:39.962655+00:00",
+      "fingerprint": "729000|53|2|witomino",
+      "id": "nieruchomosci_online_sale:26906680"
     },
     "nieruchomosci_online_sale:26907023": {
       "cena": 895000,
