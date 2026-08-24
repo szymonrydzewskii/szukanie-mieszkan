@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 14489,
+            "fetched": 14612,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 7,
-            "fetched": 12271,
+            "fetched": 12373,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -36,13 +36,13 @@
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 8427,
+            "fetched": 8497,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
-            "dropped": 1,
-            "fetched": 8049,
+            "dropped": 2,
+            "fetched": 8116,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -60,11 +60,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 1629,
+      "bad": 1630,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 1629,
+      "bad": 1630,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -84,7 +84,7 @@
     "trojmiasto": "000066516295",
     "trojmiasto_sale": "000066516032"
   },
-  "last_run": "2026-08-24T21:45:38.124808+00:00",
+  "last_run": "2026-08-24T21:48:15.836787+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -33561,9 +33561,9 @@
       "id": "trojmiasto_sale:66439472"
     },
     "trojmiasto_sale:66439473": {
-      "cena": 679000,
-      "data_wyslania": "2026-08-04T15:15:52.067960+00:00",
-      "fingerprint": "679000|46.03|3|przymorze małe",
+      "cena": 659000,
+      "data_wyslania": "2026-08-24T21:48:15.836787+00:00",
+      "fingerprint": "659000|46.03|3|przymorze małe",
       "id": "trojmiasto_sale:66439473"
     },
     "trojmiasto_sale:66439499": {
