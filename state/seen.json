@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 6273,
+            "fetched": 6396,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 4784,
+            "fetched": 4875,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 3311,
+            "fetched": 3375,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 3334,
+            "fetched": 3400,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 1804,
+      "bad": 1805,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 1804,
+      "bad": 1805,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -76,13 +76,13 @@
   },
   "high_water": {
     "nieruchomosci_online": "000026921233",
-    "nieruchomosci_online_sale": "000026921504",
+    "nieruchomosci_online_sale": "000026922004",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066517179",
     "trojmiasto_sale": "000066516977"
   },
-  "last_run": "2026-08-26T07:45:39.881682+00:00",
+  "last_run": "2026-08-26T08:01:07.536203+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -7902,6 +7902,12 @@
       "fingerprint": "529000|49.5|2|piecki-migowo",
       "id": "nieruchomosci_online_sale:26846639"
     },
+    "nieruchomosci_online_sale:26846841": {
+      "cena": 3850000,
+      "data_wyslania": "2026-08-26T08:01:07.536203+00:00",
+      "fingerprint": "3850000|117.56|5|wyspa spichrzów",
+      "id": "nieruchomosci_online_sale:26846841"
+    },
     "nieruchomosci_online_sale:26847213": {
       "cena": 1180000,
       "data_wyslania": "2026-08-13T08:31:08.819486+00:00",
@@ -9557,6 +9563,12 @@
       "data_wyslania": "2026-08-25T19:45:40.562746+00:00",
       "fingerprint": "550000|41|2|brodwino",
       "id": "nieruchomosci_online_sale:26921504"
+    },
+    "nieruchomosci_online_sale:26922004": {
+      "cena": 2590000,
+      "data_wyslania": "2026-08-26T08:01:07.536203+00:00",
+      "fingerprint": "2590000|83.4|3|świemirowo",
+      "id": "nieruchomosci_online_sale:26922004"
     },
     "olx:1006019650": {
       "cena": 1800,
