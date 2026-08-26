@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 6888,
+            "fetched": 7011,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 5241,
+            "fetched": 5334,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 3631,
+            "fetched": 3696,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 3660,
+            "fetched": 3726,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 1809,
+      "bad": 1810,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 1809,
+      "bad": 1810,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066517179",
     "trojmiasto_sale": "000066516977"
   },
-  "last_run": "2026-08-26T08:45:40.080419+00:00",
+  "last_run": "2026-08-26T09:01:06.276172+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -31115,6 +31115,12 @@
       "data_wyslania": "2026-08-17T07:15:37.142064+00:00",
       "fingerprint": "1800|39|2|gdynia chylonia",
       "id": "trojmiasto:66469525"
+    },
+    "trojmiasto:66469783": {
+      "cena": 2500,
+      "data_wyslania": "2026-08-26T09:01:06.276172+00:00",
+      "fingerprint": "2500|38|2|przymorze",
+      "id": "trojmiasto:66469783"
     },
     "trojmiasto:66469817": {
       "cena": 2500,
