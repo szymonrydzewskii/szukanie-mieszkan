@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 7349,
+            "fetched": 7470,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 3,
-            "fetched": 6488,
+            "fetched": 6587,
             "sent_main": 1,
             "sent_near": 0
           },
@@ -36,13 +36,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 4067,
+            "fetched": 4132,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 4078,
+            "fetched": 4145,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -60,11 +60,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 1930,
+      "bad": 1931,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 1930,
+      "bad": 1931,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -84,7 +84,7 @@
     "trojmiasto": "000066518637",
     "trojmiasto_sale": "000066518065"
   },
-  "last_run": "2026-08-27T12:45:41.044187+00:00",
+  "last_run": "2026-08-27T13:01:12.510463+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -6481,6 +6481,12 @@
       "data_wyslania": "2026-08-14T15:01:05.728663+00:00",
       "fingerprint": "550000|57.2|2|śródmieście",
       "id": "nieruchomosci_online_sale:26733139"
+    },
+    "nieruchomosci_online_sale:26733420": {
+      "cena": 435000,
+      "data_wyslania": "2026-08-27T13:01:12.510463+00:00",
+      "fingerprint": "435000|37.4|2|chylonia",
+      "id": "nieruchomosci_online_sale:26733420"
     },
     "nieruchomosci_online_sale:26733748": {
       "cena": 825000,
