@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 7,
-            "fetched": 8567,
+            "fetched": 8689,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
-            "dropped": 3,
-            "fetched": 7502,
+            "dropped": 4,
+            "fetched": 7606,
             "sent_main": 1,
             "sent_near": 0
           },
@@ -36,13 +36,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 4723,
+            "fetched": 4789,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 4743,
+            "fetched": 4811,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -60,11 +60,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 1940,
+      "bad": 1941,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 1940,
+      "bad": 1941,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -78,13 +78,13 @@
   },
   "high_water": {
     "nieruchomosci_online": "000026926263",
-    "nieruchomosci_online_sale": "000026925323",
+    "nieruchomosci_online_sale": "000026926301",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066518637",
     "trojmiasto_sale": "000066518712"
   },
-  "last_run": "2026-08-27T15:15:45.680995+00:00",
+  "last_run": "2026-08-27T15:30:59.304974+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -9877,6 +9877,12 @@
       "data_wyslania": "2026-08-27T11:15:45.810469+00:00",
       "fingerprint": "579000|39.4|2|kamienny potok",
       "id": "nieruchomosci_online_sale:26925323"
+    },
+    "nieruchomosci_online_sale:26926301": {
+      "cena": 1399000,
+      "data_wyslania": "2026-08-27T15:30:59.304974+00:00",
+      "fingerprint": "1399000|69.47|3|śródmieście",
+      "id": "nieruchomosci_online_sale:26926301"
     },
     "olx:1006019650": {
       "cena": 1800,
