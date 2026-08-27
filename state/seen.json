@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 6252,
+            "fetched": 6374,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 5602,
+            "fetched": 5705,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 3404,
+            "fetched": 3471,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 3414,
+            "fetched": 3480,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 1920,
+      "bad": 1921,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 1920,
+      "bad": 1921,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066518314",
     "trojmiasto_sale": "000066518065"
   },
-  "last_run": "2026-08-27T10:15:40.573984+00:00",
+  "last_run": "2026-08-27T10:30:56.761191+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -32771,6 +32771,12 @@
       "data_wyslania": "2026-08-19T09:30:54.507566+00:00",
       "fingerprint": "2950|35.5|2|jasień",
       "id": "trojmiasto:66511293"
+    },
+    "trojmiasto:66511372": {
+      "cena": 2350,
+      "data_wyslania": "2026-08-27T10:30:56.761191+00:00",
+      "fingerprint": "2350|23|1|",
+      "id": "trojmiasto:66511372"
     },
     "trojmiasto:66511980": {
       "cena": 3500,
