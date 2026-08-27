@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 4425,
+            "fetched": 4547,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 3993,
+            "fetched": 4104,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2380,
+            "fetched": 2449,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 2420,
+            "fetched": 2486,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 1905,
+      "bad": 1906,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 1905,
+      "bad": 1906,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066517760",
     "trojmiasto_sale": "000066518065"
   },
-  "last_run": "2026-08-27T06:30:51.472562+00:00",
+  "last_run": "2026-08-27T06:45:40.631735+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -31199,6 +31199,12 @@
       "data_wyslania": "2026-07-25T09:30:44.441603+00:00",
       "fingerprint": "10900|270|?|witomino",
       "id": "trojmiasto:66462281"
+    },
+    "trojmiasto:66463350": {
+      "cena": 3400,
+      "data_wyslania": "2026-08-27T06:45:40.631735+00:00",
+      "fingerprint": "3400|50.8|2|wrzeszcz dolny",
+      "id": "trojmiasto:66463350"
     },
     "trojmiasto:66463695": {
       "cena": 2400,
