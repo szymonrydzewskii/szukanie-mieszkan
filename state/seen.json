@@ -9,14 +9,14 @@
         ],
         "sources": {
           "nieruchomosci_online": {
-            "dropped": 1,
-            "fetched": 4547,
+            "dropped": 2,
+            "fetched": 4669,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 4104,
+            "fetched": 4215,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2449,
+            "fetched": 2518,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 2486,
+            "fetched": 2551,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 1906,
+      "bad": 1907,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 1906,
+      "bad": 1907,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066517760",
     "trojmiasto_sale": "000066518065"
   },
-  "last_run": "2026-08-27T06:45:40.631735+00:00",
+  "last_run": "2026-08-27T07:01:08.597811+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -2125,9 +2125,9 @@
       "id": "nieruchomosci_online:26862392"
     },
     "nieruchomosci_online:26863000": {
-      "cena": 2200,
-      "data_wyslania": "2026-07-29T14:31:06.068837+00:00",
-      "fingerprint": "2200|33|1|ujeścisko-łostowice",
+      "cena": 2000,
+      "data_wyslania": "2026-08-27T07:01:08.597811+00:00",
+      "fingerprint": "2000|33|1|ujeścisko-łostowice",
       "id": "nieruchomosci_online:26863000"
     },
     "nieruchomosci_online:26863015": {
