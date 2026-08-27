@@ -9,14 +9,14 @@
         ],
         "sources": {
           "nieruchomosci_online": {
-            "dropped": 3,
-            "fetched": 6008,
+            "dropped": 5,
+            "fetched": 6130,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
-            "dropped": 1,
-            "fetched": 5396,
+            "dropped": 2,
+            "fetched": 5499,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 3270,
+            "fetched": 3337,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 3281,
+            "fetched": 3348,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 1918,
+      "bad": 1919,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 1918,
+      "bad": 1919,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -75,14 +75,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026924979",
-    "nieruchomosci_online_sale": "000026924340",
+    "nieruchomosci_online": "000026925044",
+    "nieruchomosci_online_sale": "000026925045",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066518314",
     "trojmiasto_sale": "000066518065"
   },
-  "last_run": "2026-08-27T09:45:41.024852+00:00",
+  "last_run": "2026-08-27T10:01:07.751716+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -3623,6 +3623,18 @@
       "data_wyslania": "2026-08-27T09:45:41.024852+00:00",
       "fingerprint": "3400|60|3|piecki-migowo",
       "id": "nieruchomosci_online:26924979"
+    },
+    "nieruchomosci_online:26925018": {
+      "cena": 4500,
+      "data_wyslania": "2026-08-27T10:01:07.751716+00:00",
+      "fingerprint": "4500|44.8|2|orłowo",
+      "id": "nieruchomosci_online:26925018"
+    },
+    "nieruchomosci_online:26925044": {
+      "cena": 6000,
+      "data_wyslania": "2026-08-27T10:01:07.751716+00:00",
+      "fingerprint": "6000|129|4|bernadowo",
+      "id": "nieruchomosci_online:26925044"
     },
     "nieruchomosci_online_sale:23703220": {
       "cena": 427000,
@@ -9737,6 +9749,12 @@
       "data_wyslania": "2026-08-26T22:01:05.247801+00:00",
       "fingerprint": "1843000|92.18|3|górny sopot",
       "id": "nieruchomosci_online_sale:26924340"
+    },
+    "nieruchomosci_online_sale:26925045": {
+      "cena": 849000,
+      "data_wyslania": "2026-08-27T10:01:07.751716+00:00",
+      "fingerprint": "849000|104|3|dolny sopot",
+      "id": "nieruchomosci_online_sale:26925045"
     },
     "olx:1006019650": {
       "cena": 1800,
@@ -35933,6 +35951,12 @@
       "data_wyslania": "2026-08-26T20:30:51.993042+00:00",
       "fingerprint": "1250000|64.1|3|wrzeszcz górny",
       "id": "trojmiasto_sale:66518024"
+    },
+    "trojmiasto_sale:66518064": {
+      "cena": 499000,
+      "data_wyslania": "2026-08-27T10:01:07.751716+00:00",
+      "fingerprint": "499000|35.7|2|vii dwór",
+      "id": "trojmiasto_sale:66518064"
     },
     "trojmiasto_sale:66518065": {
       "cena": 699000,
