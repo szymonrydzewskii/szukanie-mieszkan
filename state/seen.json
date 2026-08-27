@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 4912,
+            "fetched": 5033,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 4437,
+            "fetched": 4548,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2656,
+            "fetched": 2725,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 2683,
+            "fetched": 2749,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 1909,
+      "bad": 1910,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 1909,
+      "bad": 1910,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066517760",
     "trojmiasto_sale": "000066518065"
   },
-  "last_run": "2026-08-27T07:30:55.889829+00:00",
+  "last_run": "2026-08-27T07:45:39.052343+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -6744,6 +6744,12 @@
       "fingerprint": "676000|36.15|2|świemirowo",
       "id": "nieruchomosci_online_sale:26760901"
     },
+    "nieruchomosci_online_sale:26761055": {
+      "cena": 549900,
+      "data_wyslania": "2026-08-27T07:45:39.052343+00:00",
+      "fingerprint": "549900|50.27|2|łostowice",
+      "id": "nieruchomosci_online_sale:26761055"
+    },
     "nieruchomosci_online_sale:26762213": {
       "cena": 949000,
       "data_wyslania": "2026-08-06T10:45:42.845587+00:00",
@@ -9389,6 +9395,12 @@
       "data_wyslania": "2026-08-18T10:45:37.678287+00:00",
       "fingerprint": "1699000|55.99|2|świemirowo",
       "id": "nieruchomosci_online_sale:26905059"
+    },
+    "nieruchomosci_online_sale:26905332": {
+      "cena": 780000,
+      "data_wyslania": "2026-08-27T07:45:39.052343+00:00",
+      "fingerprint": "780000|72|4|ujeścisko",
+      "id": "nieruchomosci_online_sale:26905332"
     },
     "nieruchomosci_online_sale:26906060": {
       "cena": 1969000,
@@ -35531,6 +35543,12 @@
       "data_wyslania": "2026-08-12T12:15:44.128547+00:00",
       "fingerprint": "449000|25.46|1|śródmieście",
       "id": "trojmiasto_sale:66504179"
+    },
+    "trojmiasto_sale:66504551": {
+      "cena": 1690000,
+      "data_wyslania": "2026-08-27T07:45:39.052343+00:00",
+      "fingerprint": "1690000|90.5|5|górny sopot",
+      "id": "trojmiasto_sale:66504551"
     },
     "trojmiasto_sale:66504589": {
       "cena": 1275000,
