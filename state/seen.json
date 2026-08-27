@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 7,
-            "fetched": 9657,
+            "fetched": 9778,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
-            "dropped": 6,
-            "fetched": 8441,
+            "dropped": 7,
+            "fetched": 8546,
             "sent_main": 1,
             "sent_near": 0
           },
@@ -36,13 +36,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 5322,
+            "fetched": 5389,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 5348,
+            "fetched": 5415,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -60,11 +60,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 1949,
+      "bad": 1950,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 1949,
+      "bad": 1950,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -84,7 +84,7 @@
     "trojmiasto": "000066518850",
     "trojmiasto_sale": "000066518712"
   },
-  "last_run": "2026-08-27T17:15:39.473636+00:00",
+  "last_run": "2026-08-27T17:31:00.469669+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -7629,9 +7629,9 @@
       "id": "nieruchomosci_online_sale:26818204"
     },
     "nieruchomosci_online_sale:26819635": {
-      "cena": 849000,
-      "data_wyslania": "2026-08-03T13:01:19.974154+00:00",
-      "fingerprint": "849000|77|3|fikakowo",
+      "cena": 819000,
+      "data_wyslania": "2026-08-27T17:31:00.469669+00:00",
+      "fingerprint": "819000|77|3|fikakowo",
       "id": "nieruchomosci_online_sale:26819635"
     },
     "nieruchomosci_online_sale:26819720": {
@@ -9559,6 +9559,12 @@
       "data_wyslania": "2026-08-27T16:45:42.259389+00:00",
       "fingerprint": "635000|45.18|2|ujeścisko",
       "id": "nieruchomosci_online_sale:26907681"
+    },
+    "nieruchomosci_online_sale:26907938": {
+      "cena": 525000,
+      "data_wyslania": "2026-08-27T17:31:00.469669+00:00",
+      "fingerprint": "525000|41.76|2|leszczynki",
+      "id": "nieruchomosci_online_sale:26907938"
     },
     "nieruchomosci_online_sale:26909182": {
       "cena": 3300000,
