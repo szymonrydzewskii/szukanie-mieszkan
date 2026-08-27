@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 7105,
+            "fetched": 7227,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 3,
-            "fetched": 6292,
+            "fetched": 6389,
             "sent_main": 1,
             "sent_near": 0
           },
@@ -36,13 +36,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 3936,
+            "fetched": 4002,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 3944,
+            "fetched": 4011,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -60,11 +60,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 1928,
+      "bad": 1929,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 1928,
+      "bad": 1929,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -77,14 +77,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026925044",
+    "nieruchomosci_online": "000026925593",
     "nieruchomosci_online_sale": "000026925323",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066518314",
     "trojmiasto_sale": "000066518065"
   },
-  "last_run": "2026-08-27T12:15:40.107984+00:00",
+  "last_run": "2026-08-27T12:30:55.834107+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -3637,6 +3637,12 @@
       "data_wyslania": "2026-08-27T10:01:07.751716+00:00",
       "fingerprint": "6000|129|4|bernadowo",
       "id": "nieruchomosci_online:26925044"
+    },
+    "nieruchomosci_online:26925593": {
+      "cena": 2900,
+      "data_wyslania": "2026-08-27T12:30:55.834107+00:00",
+      "fingerprint": "2900|42.2|2|dolny sopot",
+      "id": "nieruchomosci_online:26925593"
     },
     "nieruchomosci_online_sale:23703220": {
       "cena": 427000,
