@@ -56,13 +56,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 122,
+            "fetched": 244,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 100,
+            "fetched": 200,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -80,13 +80,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 67,
+            "fetched": 134,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 67,
+            "fetched": 136,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -104,11 +104,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 1968,
+      "bad": 1969,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 1968,
+      "bad": 1969,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -128,7 +128,7 @@
     "trojmiasto": "000066519026",
     "trojmiasto_sale": "000066518790"
   },
-  "last_run": "2026-08-27T22:01:07.875418+00:00",
+  "last_run": "2026-08-27T22:15:39.778159+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -8337,6 +8337,12 @@
       "data_wyslania": "2026-07-29T10:45:42.040583+00:00",
       "fingerprint": "715000|56|3|dąbrowa",
       "id": "nieruchomosci_online_sale:26853475"
+    },
+    "nieruchomosci_online_sale:26853548": {
+      "cena": 1599000,
+      "data_wyslania": "2026-08-27T22:15:39.778159+00:00",
+      "fingerprint": "1599000|75.12|3|wrzeszcz",
+      "id": "nieruchomosci_online_sale:26853548"
     },
     "nieruchomosci_online_sale:26854157": {
       "cena": 1250000,
