@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 6,
-            "fetched": 6710,
+            "fetched": 6833,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 5530,
+            "fetched": 5629,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 3652,
+            "fetched": 3716,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
-            "dropped": 1,
-            "fetched": 3761,
+            "dropped": 2,
+            "fetched": 3828,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 2022,
+      "bad": 2023,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 2022,
+      "bad": 2023,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -80,9 +80,9 @@
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066519308",
-    "trojmiasto_sale": "000066518956"
+    "trojmiasto_sale": "000066519158"
   },
-  "last_run": "2026-08-28T11:15:40.876306+00:00",
+  "last_run": "2026-08-28T11:30:55.697666+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -36371,6 +36371,12 @@
       "data_wyslania": "2026-08-28T09:15:41.950101+00:00",
       "fingerprint": "379000|30|2|chylonia",
       "id": "trojmiasto_sale:66518956"
+    },
+    "trojmiasto_sale:66519158": {
+      "cena": 865000,
+      "data_wyslania": "2026-08-28T11:30:55.697666+00:00",
+      "fingerprint": "865000|99|4|banino",
+      "id": "trojmiasto_sale:66519158"
     }
   },
   "version": 1
