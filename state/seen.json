@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 6,
-            "fetched": 7202,
+            "fetched": 7324,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 5921,
+            "fetched": 6021,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 3908,
+            "fetched": 3972,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
-            "dropped": 2,
-            "fetched": 4032,
+            "dropped": 4,
+            "fetched": 4100,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 2026,
+      "bad": 2027,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 2026,
+      "bad": 2027,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -80,9 +80,9 @@
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066519308",
-    "trojmiasto_sale": "000066519158"
+    "trojmiasto_sale": "000066519289"
   },
-  "last_run": "2026-08-28T12:15:41.631315+00:00",
+  "last_run": "2026-08-28T12:30:58.105724+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -4128,6 +4128,12 @@
       "fingerprint": "2890000|114.93|4|kamienny potok",
       "id": "nieruchomosci_online_sale:26156181"
     },
+    "nieruchomosci_online_sale:26156204": {
+      "cena": 1690000,
+      "data_wyslania": "2026-08-28T12:30:58.105724+00:00",
+      "fingerprint": "1690000|72|3|śródmieście",
+      "id": "nieruchomosci_online_sale:26156204"
+    },
     "nieruchomosci_online_sale:26156211": {
       "cena": 3500000,
       "data_wyslania": "2026-07-25T10:45:45.689800+00:00",
@@ -4175,6 +4181,12 @@
       "data_wyslania": "2026-08-02T08:45:48.594958+00:00",
       "fingerprint": "1140000|123.9|5|chwarzno-wiczlino",
       "id": "nieruchomosci_online_sale:26156366"
+    },
+    "nieruchomosci_online_sale:26156412": {
+      "cena": 810000,
+      "data_wyslania": "2026-08-28T12:30:58.105724+00:00",
+      "fingerprint": "810000|60|3|kiełpinek",
+      "id": "nieruchomosci_online_sale:26156412"
     },
     "nieruchomosci_online_sale:26156426": {
       "cena": 849000,
@@ -4409,6 +4421,12 @@
       "data_wyslania": "2026-08-03T10:45:45.559298+00:00",
       "fingerprint": "519000|23|1|śródmieście",
       "id": "nieruchomosci_online_sale:26244313"
+    },
+    "nieruchomosci_online_sale:26244704": {
+      "cena": 1950000,
+      "data_wyslania": "2026-08-28T12:30:58.105724+00:00",
+      "fingerprint": "1950000|55.85|2|śródmieście",
+      "id": "nieruchomosci_online_sale:26244704"
     },
     "nieruchomosci_online_sale:26246727": {
       "cena": 995000,
@@ -34080,6 +34098,12 @@
       "fingerprint": "980000|60.05|2|śródmieście",
       "id": "trojmiasto_sale:66394539"
     },
+    "trojmiasto_sale:66397779": {
+      "cena": 2600000,
+      "data_wyslania": "2026-08-28T12:30:58.105724+00:00",
+      "fingerprint": "2600000|103.5|4|śródmieście",
+      "id": "trojmiasto_sale:66397779"
+    },
     "trojmiasto_sale:66399053": {
       "cena": 819000,
       "data_wyslania": "2026-08-18T17:13:04.238258+00:00",
@@ -34783,15 +34807,15 @@
       "id": "trojmiasto_sale:66460733"
     },
     "trojmiasto_sale:66461254": {
-      "cena": 998633,
-      "data_wyslania": "2026-08-12T09:31:09.206623+00:00",
-      "fingerprint": "998633|66.58|3|pogórze",
+      "cena": 932100,
+      "data_wyslania": "2026-08-28T12:30:58.105724+00:00",
+      "fingerprint": "932100|66.58|3|pogórze",
       "id": "trojmiasto_sale:66461254"
     },
     "trojmiasto_sale:66461256": {
-      "cena": 967136,
-      "data_wyslania": "2026-08-12T09:31:09.206623+00:00",
-      "fingerprint": "967136|64.48|3|pogórze",
+      "cena": 902700,
+      "data_wyslania": "2026-08-28T12:30:58.105724+00:00",
+      "fingerprint": "902700|64.48|3|pogórze",
       "id": "trojmiasto_sale:66461256"
     },
     "trojmiasto_sale:66461260": {
@@ -36180,6 +36204,12 @@
       "fingerprint": "689000|53.43|3|wrzeszcz górny",
       "id": "trojmiasto_sale:66509250"
     },
+    "trojmiasto_sale:66509395": {
+      "cena": 3350000,
+      "data_wyslania": "2026-08-28T12:30:58.105724+00:00",
+      "fingerprint": "3350000|98.6|3|oliwa",
+      "id": "trojmiasto_sale:66509395"
+    },
     "trojmiasto_sale:66509930": {
       "cena": 479000,
       "data_wyslania": "2026-08-18T11:15:35.645611+00:00",
@@ -36330,6 +36360,12 @@
       "fingerprint": "1299900|116.6|5|trąbki wielkie",
       "id": "trojmiasto_sale:66514717"
     },
+    "trojmiasto_sale:66515994": {
+      "cena": 2500000,
+      "data_wyslania": "2026-08-28T12:30:58.105724+00:00",
+      "fingerprint": "2500000|104.66|4|aniołki",
+      "id": "trojmiasto_sale:66515994"
+    },
     "trojmiasto_sale:66516032": {
       "cena": 699000,
       "data_wyslania": "2026-08-24T14:45:41.873345+00:00",
@@ -36413,6 +36449,12 @@
       "data_wyslania": "2026-08-28T11:30:55.697666+00:00",
       "fingerprint": "865000|99|4|banino",
       "id": "trojmiasto_sale:66519158"
+    },
+    "trojmiasto_sale:66519289": {
+      "cena": 1800000,
+      "data_wyslania": "2026-08-28T12:30:58.105724+00:00",
+      "fingerprint": "1800000|99.24|4|górny sopot",
+      "id": "trojmiasto_sale:66519289"
     }
   },
   "version": 1
