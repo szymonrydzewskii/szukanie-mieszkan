@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 5022,
+            "fetched": 5144,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 3891,
+            "fetched": 3984,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 2617,
+            "fetched": 2682,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 2765,
+            "fetched": 2833,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 2106,
+      "bad": 2107,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 2106,
+      "bad": 2107,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -79,10 +79,10 @@
     "nieruchomosci_online_sale": "000026929531",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
-    "trojmiasto": "000066520017",
+    "trojmiasto": "000066520043",
     "trojmiasto_sale": "000066520036"
   },
-  "last_run": "2026-08-29T07:30:54.305977+00:00",
+  "last_run": "2026-08-29T07:45:38.821905+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -33539,6 +33539,12 @@
       "data_wyslania": "2026-08-29T06:15:37.785801+00:00",
       "fingerprint": "3600|74|3|chwarzno - wiczlino",
       "id": "trojmiasto:66520017"
+    },
+    "trojmiasto:66520043": {
+      "cena": 3250,
+      "data_wyslania": "2026-08-29T07:45:38.821905+00:00",
+      "fingerprint": "3250|46|2|jasień",
+      "id": "trojmiasto:66520043"
     },
     "trojmiasto_sale:64569988": {
       "cena": 3800000,
