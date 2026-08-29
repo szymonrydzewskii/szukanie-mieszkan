@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 7096,
+            "fetched": 7218,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 5499,
+            "fetched": 5595,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 3724,
+            "fetched": 3792,
             "sent_main": 0,
-            "sent_near": 0
+            "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 3924,
+            "fetched": 3992,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 2123,
+      "bad": 2124,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 2123,
+      "bad": 2124,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -79,10 +79,10 @@
     "nieruchomosci_online_sale": "000026929662",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
-    "trojmiasto": "000066520083",
-    "trojmiasto_sale": "000066520036"
+    "trojmiasto": "000066520185",
+    "trojmiasto_sale": "000066520178"
   },
-  "last_run": "2026-08-29T11:30:55.632679+00:00",
+  "last_run": "2026-08-29T11:45:39.419434+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -31236,6 +31236,12 @@
       "fingerprint": "3000|31|2|wrzeszcz dolny",
       "id": "trojmiasto:66183114"
     },
+    "trojmiasto:66192590": {
+      "cena": 3000,
+      "data_wyslania": "2026-08-29T11:45:39.419434+00:00",
+      "fingerprint": "3000|50|2|brzeźno",
+      "id": "trojmiasto:66192590"
+    },
     "trojmiasto:66193904": {
       "cena": 4600,
       "data_wyslania": "2026-08-11T13:31:04.875034+00:00",
@@ -33563,6 +33569,12 @@
       "data_wyslania": "2026-08-29T09:01:08.282728+00:00",
       "fingerprint": "1800|36.4|2|kolbudy",
       "id": "trojmiasto:66520083"
+    },
+    "trojmiasto:66520185": {
+      "cena": 2900,
+      "data_wyslania": "2026-08-29T11:45:39.419434+00:00",
+      "fingerprint": "2900|40|2|",
+      "id": "trojmiasto:66520185"
     },
     "trojmiasto_sale:64569988": {
       "cena": 3800000,
@@ -36551,6 +36563,12 @@
       "data_wyslania": "2026-08-29T07:30:54.305977+00:00",
       "fingerprint": "659000|40.94|2|",
       "id": "trojmiasto_sale:66520036"
+    },
+    "trojmiasto_sale:66520178": {
+      "cena": 545000,
+      "data_wyslania": "2026-08-29T11:45:39.419434+00:00",
+      "fingerprint": "545000|46|2|ujescisko łostowice",
+      "id": "trojmiasto_sale:66520178"
     }
   },
   "version": 1
