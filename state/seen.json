@@ -57,13 +57,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 122,
+            "fetched": 244,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 99,
+            "fetched": 198,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -81,13 +81,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 69,
+            "fetched": 138,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 65,
+            "fetched": 130,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -105,11 +105,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 2268,
+      "bad": 2269,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 2268,
+      "bad": 2269,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -129,7 +129,7 @@
     "trojmiasto": "000066521090",
     "trojmiasto_sale": "000066520818"
   },
-  "last_run": "2026-08-30T22:01:07.562813+00:00",
+  "last_run": "2026-08-30T22:15:38.289000+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -31570,6 +31570,12 @@
       "data_wyslania": "2026-08-26T19:30:58.237193+00:00",
       "fingerprint": "3300|46|2|",
       "id": "trojmiasto:66339653"
+    },
+    "trojmiasto:66343003": {
+      "cena": 4000,
+      "data_wyslania": "2026-08-30T22:15:38.289000+00:00",
+      "fingerprint": "4000|74|3|pętkowice-wejherowo  pętkowice",
+      "id": "trojmiasto:66343003"
     },
     "trojmiasto:66346753": {
       "cena": 3000,
