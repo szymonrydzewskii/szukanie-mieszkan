@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 8338,
+            "fetched": 8459,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 6911,
+            "fetched": 7007,
             "sent_main": 1,
             "sent_near": 0
           },
@@ -36,13 +36,13 @@
           },
           "trojmiasto": {
             "dropped": 3,
-            "fetched": 4756,
+            "fetched": 4827,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 4446,
+            "fetched": 4512,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -60,11 +60,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 2235,
+      "bad": 2236,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 2235,
+      "bad": 2236,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -84,7 +84,7 @@
     "trojmiasto": "000066520801",
     "trojmiasto_sale": "000066520818"
   },
-  "last_run": "2026-08-30T14:15:36.440203+00:00",
+  "last_run": "2026-08-30T14:30:55.915256+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -31616,6 +31616,12 @@
       "fingerprint": "4000|112.85|4|witomino",
       "id": "trojmiasto:66415033"
     },
+    "trojmiasto:66421118": {
+      "cena": 2500,
+      "data_wyslania": "2026-08-30T14:30:55.915256+00:00",
+      "fingerprint": "2500|53|3|trąbki wielkie",
+      "id": "trojmiasto:66421118"
+    },
     "trojmiasto:66421993": {
       "cena": 6500,
       "data_wyslania": "2026-07-25T14:30:53.912478+00:00",
@@ -33217,6 +33223,12 @@
       "data_wyslania": "2026-08-16T16:36:11.076205+00:00",
       "fingerprint": "3200|60|3|chylonia",
       "id": "trojmiasto:66508879"
+    },
+    "trojmiasto:66508910": {
+      "cena": 2200,
+      "data_wyslania": "2026-08-30T14:30:55.915256+00:00",
+      "fingerprint": "2200|34|1|orunia górna",
+      "id": "trojmiasto:66508910"
     },
     "trojmiasto:66509021": {
       "cena": 2700,
