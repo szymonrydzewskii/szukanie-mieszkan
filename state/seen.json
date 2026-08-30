@@ -57,14 +57,14 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 732,
+            "fetched": 854,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 594,
-            "sent_main": 0,
+            "fetched": 693,
+            "sent_main": 1,
             "sent_near": 0
           },
           "olx": {
@@ -81,13 +81,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 414,
+            "fetched": 483,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 392,
+            "fetched": 457,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -105,11 +105,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 2273,
+      "bad": 2274,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 2273,
+      "bad": 2274,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -123,13 +123,13 @@
   },
   "high_water": {
     "nieruchomosci_online": "000026930791",
-    "nieruchomosci_online_sale": "000026930781",
+    "nieruchomosci_online_sale": "000026930794",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066521090",
     "trojmiasto_sale": "000066520818"
   },
-  "last_run": "2026-08-30T23:01:08.203176+00:00",
+  "last_run": "2026-08-30T23:15:38.921782+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -10384,6 +10384,12 @@
       "data_wyslania": "2026-08-30T23:01:08.203176+00:00",
       "fingerprint": "3600000|189|8|dolny sopot",
       "id": "nieruchomosci_online_sale:26930781"
+    },
+    "nieruchomosci_online_sale:26930794": {
+      "cena": 514900,
+      "data_wyslania": "2026-08-30T23:15:38.921782+00:00",
+      "fingerprint": "514900|35.4|2|górny sopot",
+      "id": "nieruchomosci_online_sale:26930794"
     },
     "olx:1006019650": {
       "cena": 1800,
