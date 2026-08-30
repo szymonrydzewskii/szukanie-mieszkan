@@ -7,7 +7,8 @@
           "olx: OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (p",
           "olx_sale: OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (p",
           "trojmiasto: Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTY",
-          "trojmiasto_sale: Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!"
+          "trojmiasto_sale: Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!",
+          "nieruchomosci_online: Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Max retries exceede"
         ],
         "sources": {
           "nieruchomosci_online": {
@@ -36,13 +37,13 @@
           },
           "trojmiasto": {
             "dropped": 3,
-            "fetched": 5813,
+            "fetched": 5882,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 5430,
+            "fetched": 5496,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -52,19 +53,19 @@
   },
   "health": {
     "nieruchomosci_online": {
-      "bad": 0,
-      "last_error": null
+      "bad": 1,
+      "last_error": "Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Max retries exceeded with url: /szukaj.html?3,mieszkanie,wynajem,,Gda%C5%84sk (Caused by NewConnect"
     },
     "nieruchomosci_online_sale": {
-      "bad": 0,
-      "last_error": null
+      "bad": 1,
+      "last_error": "Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Max retries exceeded with url: /szukaj.html?3,mieszkanie,sprzedaz,,Gda%C5%84sk (Caused by NewConnec"
     },
     "olx": {
-      "bad": 2250,
+      "bad": 2251,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 2250,
+      "bad": 2251,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -84,7 +85,7 @@
     "trojmiasto": "000066520846",
     "trojmiasto_sale": "000066520818"
   },
-  "last_run": "2026-08-30T17:45:37.418083+00:00",
+  "last_run": "2026-08-30T18:01:03.182352+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -33037,6 +33038,12 @@
       "data_wyslania": "2026-08-10T19:44:15.916710+00:00",
       "fingerprint": "2650|55|2|mały kack",
       "id": "trojmiasto:66504201"
+    },
+    "trojmiasto:66504590": {
+      "cena": 3490,
+      "data_wyslania": "2026-08-30T18:01:03.182352+00:00",
+      "fingerprint": "3490|48|2|siedlce",
+      "id": "trojmiasto:66504590"
     },
     "trojmiasto:66504595": {
       "cena": 350,
