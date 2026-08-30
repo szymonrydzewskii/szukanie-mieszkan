@@ -10,14 +10,14 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 4182,
+            "fetched": 4305,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 3570,
-            "sent_main": 0,
+            "fetched": 3675,
+            "sent_main": 1,
             "sent_near": 0
           },
           "olx": {
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 2419,
+            "fetched": 2491,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 2259,
+            "fetched": 2324,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 2201,
+      "bad": 2202,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 2201,
+      "bad": 2202,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -76,13 +76,13 @@
   },
   "high_water": {
     "nieruchomosci_online": "000026929423",
-    "nieruchomosci_online_sale": "000026930133",
+    "nieruchomosci_online_sale": "000026930182",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066520354",
     "trojmiasto_sale": "000066520236"
   },
-  "last_run": "2026-08-30T06:01:04.903008+00:00",
+  "last_run": "2026-08-30T06:15:37.789499+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -10259,6 +10259,12 @@
       "data_wyslania": "2026-08-29T19:30:52.067035+00:00",
       "fingerprint": "640000|44|2|kowale",
       "id": "nieruchomosci_online_sale:26930133"
+    },
+    "nieruchomosci_online_sale:26930182": {
+      "cena": 579000,
+      "data_wyslania": "2026-08-30T06:15:37.789499+00:00",
+      "fingerprint": "579000|37|3|przymorze",
+      "id": "nieruchomosci_online_sale:26930182"
     },
     "olx:1006019650": {
       "cena": 1800,
