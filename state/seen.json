@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 7974,
+            "fetched": 8096,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 6623,
+            "fetched": 6719,
             "sent_main": 1,
             "sent_near": 0
           },
@@ -36,13 +36,13 @@
           },
           "trojmiasto": {
             "dropped": 3,
-            "fetched": 4546,
+            "fetched": 4616,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
-            "dropped": 2,
-            "fetched": 4251,
+            "dropped": 3,
+            "fetched": 4315,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -60,11 +60,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 2232,
+      "bad": 2233,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 2232,
+      "bad": 2233,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,9 +82,9 @@
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066520801",
-    "trojmiasto_sale": "000066520535"
+    "trojmiasto_sale": "000066520818"
   },
-  "last_run": "2026-08-30T13:30:53.797216+00:00",
+  "last_run": "2026-08-30T13:45:37.102690+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -33638,6 +33638,12 @@
       "fingerprint": "2800|30.5|1|wrzeszcz górny",
       "id": "trojmiasto:66517760"
     },
+    "trojmiasto:66518014": {
+      "cena": 2600,
+      "data_wyslania": "2026-08-30T13:45:37.102690+00:00",
+      "fingerprint": "2600|33|2|nowy port",
+      "id": "trojmiasto:66518014"
+    },
     "trojmiasto:66518305": {
       "cena": 4200,
       "data_wyslania": "2026-08-27T09:01:08.255578+00:00",
@@ -36757,6 +36763,12 @@
       "data_wyslania": "2026-08-30T07:15:45.055002+00:00",
       "fingerprint": "690000|41|2|siedlce",
       "id": "trojmiasto_sale:66520535"
+    },
+    "trojmiasto_sale:66520818": {
+      "cena": 1460000,
+      "data_wyslania": "2026-08-30T13:45:37.102690+00:00",
+      "fingerprint": "1460000|112|3|chwarzno - wiczlino",
+      "id": "trojmiasto_sale:66520818"
     }
   },
   "version": 1
