@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 7,
-            "fetched": 8649,
+            "fetched": 8769,
             "sent_main": 0,
             "sent_near": 2
           },
           "nieruchomosci_online_sale": {
             "dropped": 6,
-            "fetched": 7024,
+            "fetched": 7119,
             "sent_main": 2,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 4860,
+            "fetched": 4926,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 4637,
+            "fetched": 4703,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 2338,
+      "bad": 2339,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 2338,
+      "bad": 2339,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -75,14 +75,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026932436",
+    "nieruchomosci_online": "000026932697",
     "nieruchomosci_online_sale": "000026931772",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066521220",
     "trojmiasto_sale": "000066520818"
   },
-  "last_run": "2026-08-31T14:45:43.200887+00:00",
+  "last_run": "2026-08-31T15:01:10.565839+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -3935,6 +3935,12 @@
       "data_wyslania": "2026-08-31T13:31:01.076161+00:00",
       "fingerprint": "2100|30|2|karlikowo",
       "id": "nieruchomosci_online:26932436"
+    },
+    "nieruchomosci_online:26932697": {
+      "cena": 2450,
+      "data_wyslania": "2026-08-31T15:01:10.565839+00:00",
+      "fingerprint": "2450|28.17|1|działki leśne",
+      "id": "nieruchomosci_online:26932697"
     },
     "nieruchomosci_online_sale:23703220": {
       "cena": 427000,
