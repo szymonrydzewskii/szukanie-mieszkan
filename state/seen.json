@@ -54,13 +54,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 720,
+            "fetched": 840,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 540,
+            "fetched": 630,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -78,13 +78,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 402,
+            "fetched": 469,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 374,
+            "fetched": 436,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -102,11 +102,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 2373,
+      "bad": 2374,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 2373,
+      "bad": 2374,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -124,9 +124,9 @@
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066521992",
-    "trojmiasto_sale": "000066520818"
+    "trojmiasto_sale": "000066521492"
   },
-  "last_run": "2026-08-31T23:15:42.228296+00:00",
+  "last_run": "2026-08-31T23:30:54.115424+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -37207,6 +37207,12 @@
       "data_wyslania": "2026-08-30T13:45:37.102690+00:00",
       "fingerprint": "1460000|112|3|chwarzno - wiczlino",
       "id": "trojmiasto_sale:66520818"
+    },
+    "trojmiasto_sale:66521492": {
+      "cena": 459000,
+      "data_wyslania": "2026-08-31T23:30:54.115424+00:00",
+      "fingerprint": "459000|26.5|1|vii dwór",
+      "id": "trojmiasto_sale:66521492"
     }
   },
   "version": 1
