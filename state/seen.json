@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 4,
-            "fetched": 7319,
+            "fetched": 7441,
             "sent_main": 0,
             "sent_near": 2
           },
           "nieruchomosci_online_sale": {
             "dropped": 6,
-            "fetched": 5924,
+            "fetched": 6020,
             "sent_main": 2,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 4119,
+            "fetched": 4187,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
-            "dropped": 1,
-            "fetched": 3918,
+            "dropped": 2,
+            "fetched": 3983,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 2327,
+      "bad": 2328,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 2327,
+      "bad": 2328,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066521220",
     "trojmiasto_sale": "000066520818"
   },
-  "last_run": "2026-08-31T12:01:10.897191+00:00",
+  "last_run": "2026-08-31T12:15:39.294225+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -36853,9 +36853,9 @@
       "id": "trojmiasto_sale:66514717"
     },
     "trojmiasto_sale:66515994": {
-      "cena": 2500000,
-      "data_wyslania": "2026-08-28T12:30:58.105724+00:00",
-      "fingerprint": "2500000|104.66|4|aniołki",
+      "cena": 2390000,
+      "data_wyslania": "2026-08-31T12:15:39.294225+00:00",
+      "fingerprint": "2390000|104.66|4|aniołki",
       "id": "trojmiasto_sale:66515994"
     },
     "trojmiasto_sale:66516032": {
