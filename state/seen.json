@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 7,
-            "fetched": 8409,
+            "fetched": 8529,
             "sent_main": 0,
             "sent_near": 2
           },
           "nieruchomosci_online_sale": {
             "dropped": 6,
-            "fetched": 6828,
+            "fetched": 6929,
             "sent_main": 2,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 4727,
+            "fetched": 4794,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 4507,
+            "fetched": 4572,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 2336,
+      "bad": 2337,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 2336,
+      "bad": 2337,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066521220",
     "trojmiasto_sale": "000066520818"
   },
-  "last_run": "2026-08-31T14:15:42.112777+00:00",
+  "last_run": "2026-08-31T14:30:55.758744+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -10326,6 +10326,12 @@
       "fingerprint": "584999|57.5|3|orunia górna - gdańsk południe",
       "id": "nieruchomosci_online_sale:26922911"
     },
+    "nieruchomosci_online_sale:26923331": {
+      "cena": 599000,
+      "data_wyslania": "2026-08-31T14:30:55.758744+00:00",
+      "fingerprint": "599000|60.5|3|pogórze",
+      "id": "nieruchomosci_online_sale:26923331"
+    },
     "nieruchomosci_online_sale:26923697": {
       "cena": 444000,
       "data_wyslania": "2026-08-27T09:45:41.024852+00:00",
@@ -10355,6 +10361,12 @@
       "data_wyslania": "2026-08-26T22:01:05.247801+00:00",
       "fingerprint": "1843000|92.18|3|górny sopot",
       "id": "nieruchomosci_online_sale:26924340"
+    },
+    "nieruchomosci_online_sale:26924819": {
+      "cena": 579000,
+      "data_wyslania": "2026-08-31T14:30:55.758744+00:00",
+      "fingerprint": "579000|50.67|2|działki leśne",
+      "id": "nieruchomosci_online_sale:26924819"
     },
     "nieruchomosci_online_sale:26925045": {
       "cena": 849000,
