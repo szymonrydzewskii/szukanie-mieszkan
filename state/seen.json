@@ -54,13 +54,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 2160,
+            "fetched": 2280,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 1620,
+            "fetched": 1710,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -78,13 +78,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 1206,
+            "fetched": 1273,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 1114,
+            "fetched": 1176,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -102,11 +102,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 2385,
+      "bad": 2386,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 2385,
+      "bad": 2386,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -126,7 +126,7 @@
     "trojmiasto": "000066521992",
     "trojmiasto_sale": "000066521492"
   },
-  "last_run": "2026-09-01T02:01:05.273986+00:00",
+  "last_run": "2026-09-01T02:15:40.215354+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -668,6 +668,12 @@
       "fingerprint": "2400|23|1|jelitkowo",
       "id": "nieruchomosci_online:26354627"
     },
+    "nieruchomosci_online:26376319": {
+      "cena": 2100,
+      "data_wyslania": "2026-09-01T02:15:40.215354+00:00",
+      "fingerprint": "2100|32|1|oksywie",
+      "id": "nieruchomosci_online:26376319"
+    },
     "nieruchomosci_online:26376320": {
       "cena": 2400,
       "data_wyslania": "2026-08-11T02:15:45.261162+00:00",
@@ -967,6 +973,12 @@
       "data_wyslania": "2026-07-26T02:15:51.184244+00:00",
       "fingerprint": "20000|170|6|centrum",
       "id": "nieruchomosci_online:26709169"
+    },
+    "nieruchomosci_online:26710058": {
+      "cena": 5000,
+      "data_wyslania": "2026-09-01T02:15:40.215354+00:00",
+      "fingerprint": "5000|93|3|mały kack",
+      "id": "nieruchomosci_online:26710058"
     },
     "nieruchomosci_online:26712802": {
       "cena": 2600,
@@ -1303,6 +1315,12 @@
       "data_wyslania": "2026-07-25T09:45:42.497013+00:00",
       "fingerprint": "4200|62|2|długie ogrody",
       "id": "nieruchomosci_online:26794103"
+    },
+    "nieruchomosci_online:26795218": {
+      "cena": 3000,
+      "data_wyslania": "2026-09-01T02:15:40.215354+00:00",
+      "fingerprint": "3000|66|1|kamienna góra",
+      "id": "nieruchomosci_online:26795218"
     },
     "nieruchomosci_online:26795708": {
       "cena": 3800,
