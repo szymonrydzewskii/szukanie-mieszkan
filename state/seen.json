@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 6000,
+            "fetched": 6120,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 3,
-            "fetched": 4496,
+            "fetched": 4587,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -36,13 +36,13 @@
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 3449,
+            "fetched": 3518,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 3135,
+            "fetched": 3195,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -52,19 +52,19 @@
   },
   "health": {
     "nieruchomosci_online": {
-      "bad": 1,
-      "last_error": "Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Max retries exceeded with url: /szukaj.html?3,mieszkanie,wynajem,,Gda%C5%84sk (Caused by ConnectTim"
+      "bad": 0,
+      "last_error": null
     },
     "nieruchomosci_online_sale": {
-      "bad": 1,
-      "last_error": "Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Max retries exceeded with url: /szukaj.html?3,mieszkanie,sprzedaz,,Gda%C5%84sk (Caused by ConnectTi"
+      "bad": 0,
+      "last_error": null
     },
     "olx": {
-      "bad": 2418,
+      "bad": 2419,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 2418,
+      "bad": 2419,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -77,14 +77,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026934654",
+    "nieruchomosci_online": "000026934873",
     "nieruchomosci_online_sale": "000026934466",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066522117",
     "trojmiasto_sale": "000066521492"
   },
-  "last_run": "2026-09-01T10:31:08.103272+00:00",
+  "last_run": "2026-09-01T10:45:41.694434+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -4010,6 +4010,12 @@
       "fingerprint": "3000|55|2|chełm",
       "id": "nieruchomosci_online:26934654"
     },
+    "nieruchomosci_online:26934873": {
+      "cena": 2600,
+      "data_wyslania": "2026-09-01T10:45:41.694434+00:00",
+      "fingerprint": "2600|65.21|3|leszczynki",
+      "id": "nieruchomosci_online:26934873"
+    },
     "nieruchomosci_online_sale:23703220": {
       "cena": 427000,
       "data_wyslania": "2026-07-31T06:45:45.771506+00:00",
@@ -7177,6 +7183,12 @@
       "data_wyslania": "2026-07-26T18:45:42.280463+00:00",
       "fingerprint": "1450000|58.05|2|śródmieście",
       "id": "nieruchomosci_online_sale:26757955"
+    },
+    "nieruchomosci_online_sale:26758825": {
+      "cena": 695000,
+      "data_wyslania": "2026-09-01T10:45:41.694434+00:00",
+      "fingerprint": "695000|41.22|2|śródmieście",
+      "id": "nieruchomosci_online_sale:26758825"
     },
     "nieruchomosci_online_sale:26759339": {
       "cena": 939000,
