@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 6723,
+            "fetched": 6844,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 5,
-            "fetched": 5038,
+            "fetched": 5128,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -36,13 +36,13 @@
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 3860,
+            "fetched": 3928,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 3499,
+            "fetched": 3560,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -60,11 +60,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 2424,
+      "bad": 2425,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 2424,
+      "bad": 2425,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -77,14 +77,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026935181",
+    "nieruchomosci_online": "000026935417",
     "nieruchomosci_online_sale": "000026935334",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066522371",
     "trojmiasto_sale": "000066521492"
   },
-  "last_run": "2026-09-01T12:01:09.057858+00:00",
+  "last_run": "2026-09-01T12:15:44.065377+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -4033,6 +4033,12 @@
       "data_wyslania": "2026-09-01T11:30:57.634545+00:00",
       "fingerprint": "3000|25|1|wzgórze św. maksymiliana",
       "id": "nieruchomosci_online:26935181"
+    },
+    "nieruchomosci_online:26935417": {
+      "cena": 2800,
+      "data_wyslania": "2026-09-01T12:15:44.065377+00:00",
+      "fingerprint": "2800|46|2|grabówek",
+      "id": "nieruchomosci_online:26935417"
     },
     "nieruchomosci_online_sale:23703220": {
       "cena": 427000,
