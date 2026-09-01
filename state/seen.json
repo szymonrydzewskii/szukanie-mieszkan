@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 6,
-            "fetched": 7932,
+            "fetched": 8052,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 7,
-            "fetched": 6007,
+            "fetched": 6105,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -36,13 +36,13 @@
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 4540,
+            "fetched": 4609,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 4103,
+            "fetched": 4163,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -60,11 +60,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 2434,
+      "bad": 2435,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 2434,
+      "bad": 2435,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -84,7 +84,7 @@
     "trojmiasto": "000066522371",
     "trojmiasto_sale": "000066522450"
   },
-  "last_run": "2026-09-01T14:30:56.846268+00:00",
+  "last_run": "2026-09-01T14:45:40.044470+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -34237,6 +34237,12 @@
       "data_wyslania": "2026-08-29T17:15:38.754783+00:00",
       "fingerprint": "2400|40|2|dąbrowa",
       "id": "trojmiasto:66520354"
+    },
+    "trojmiasto:66520382": {
+      "cena": 3200,
+      "data_wyslania": "2026-09-01T14:45:40.044470+00:00",
+      "fingerprint": "3200|43|2|gdańsk śródmieście",
+      "id": "trojmiasto:66520382"
     },
     "trojmiasto:66520801": {
       "cena": 7000,
