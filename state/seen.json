@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 8529,
+            "fetched": 8650,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
-            "dropped": 4,
-            "fetched": 7202,
+            "dropped": 5,
+            "fetched": 7304,
             "sent_main": 0,
             "sent_near": 1
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 3645,
+            "fetched": 3702,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 4129,
+            "fetched": 4189,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 2537,
+      "bad": 2538,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 2537,
+      "bad": 2538,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066523516",
     "trojmiasto_sale": "000066522450"
   },
-  "last_run": "2026-09-02T14:45:40.057739+00:00",
+  "last_run": "2026-09-02T15:01:11.441216+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -9319,9 +9319,9 @@
       "id": "nieruchomosci_online_sale:26869715"
     },
     "nieruchomosci_online_sale:26869998": {
-      "cena": 446000,
-      "data_wyslania": "2026-08-01T22:31:03.725290+00:00",
-      "fingerprint": "446000|31|1|wzgórze św. maksymiliana",
+      "cena": 420000,
+      "data_wyslania": "2026-09-02T15:01:11.441216+00:00",
+      "fingerprint": "420000|31|1|śródmieście",
       "id": "nieruchomosci_online_sale:26869998"
     },
     "nieruchomosci_online_sale:26870053": {
