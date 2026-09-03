@@ -9,14 +9,14 @@
         ],
         "sources": {
           "nieruchomosci_online": {
-            "dropped": 1,
-            "fetched": 7222,
+            "dropped": 2,
+            "fetched": 7343,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 6125,
+            "fetched": 6225,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 3979,
+            "fetched": 4045,
             "sent_main": 0,
             "sent_near": 2
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 4086,
+            "fetched": 4154,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 2627,
+      "bad": 2628,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 2627,
+      "bad": 2628,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066524518",
     "trojmiasto_sale": "000066524422"
   },
-  "last_run": "2026-09-03T12:01:10.064118+00:00",
+  "last_run": "2026-09-03T12:15:50.242907+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -1819,9 +1819,9 @@
       "id": "nieruchomosci_online:26846315"
     },
     "nieruchomosci_online:26846563": {
-      "cena": 3600,
-      "data_wyslania": "2026-07-25T09:45:42.497013+00:00",
-      "fingerprint": "3600|50|2|wyścigi",
+      "cena": 3400,
+      "data_wyslania": "2026-09-03T12:15:50.242907+00:00",
+      "fingerprint": "3400|50|2|wyścigi",
       "id": "nieruchomosci_online:26846563"
     },
     "nieruchomosci_online:26847245": {
