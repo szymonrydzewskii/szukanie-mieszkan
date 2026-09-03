@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 8,
-            "fetched": 9993,
+            "fetched": 10114,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 5,
-            "fetched": 8304,
+            "fetched": 8391,
             "sent_main": 0,
             "sent_near": 1
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 3,
-            "fetched": 5496,
+            "fetched": 5563,
             "sent_main": 0,
             "sent_near": 2
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 5640,
+            "fetched": 5706,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 2650,
+      "bad": 2651,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 2650,
+      "bad": 2651,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066524960",
     "trojmiasto_sale": "000066524946"
   },
-  "last_run": "2026-09-03T17:45:41.352405+00:00",
+  "last_run": "2026-09-03T18:01:07.626040+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -33851,6 +33851,12 @@
       "data_wyslania": "2026-08-25T08:15:39.126102+00:00",
       "fingerprint": "2500|20|1|dolny sopot",
       "id": "trojmiasto:66504058"
+    },
+    "trojmiasto:66504168": {
+      "cena": 2800,
+      "data_wyslania": "2026-09-03T18:01:07.626040+00:00",
+      "fingerprint": "2800|51|2|orunia górna",
+      "id": "trojmiasto:66504168"
     },
     "trojmiasto:66504201": {
       "cena": 2650,
