@@ -10,15 +10,15 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 7464,
+            "fetched": 7585,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 6325,
+            "fetched": 6426,
             "sent_main": 0,
-            "sent_near": 0
+            "sent_near": 1
           },
           "olx": {
             "dropped": 0,
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 4111,
+            "fetched": 4177,
             "sent_main": 0,
             "sent_near": 2
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 4223,
+            "fetched": 4291,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 2629,
+      "bad": 2630,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 2629,
+      "bad": 2630,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066524518",
     "trojmiasto_sale": "000066524422"
   },
-  "last_run": "2026-09-03T12:31:00.716888+00:00",
+  "last_run": "2026-09-03T12:45:44.718697+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -9985,9 +9985,9 @@
       "id": "nieruchomosci_online_sale:26893346"
     },
     "nieruchomosci_online_sale:26893731": {
-      "cena": 635000,
-      "data_wyslania": "2026-08-31T12:01:10.897191+00:00",
-      "fingerprint": "635000|40.9|2|oliwa",
+      "cena": 629000,
+      "data_wyslania": "2026-09-03T12:45:44.718697+00:00",
+      "fingerprint": "629000|40.9|2|oliwa",
       "id": "nieruchomosci_online_sale:26893731"
     },
     "nieruchomosci_online_sale:26893968": {
