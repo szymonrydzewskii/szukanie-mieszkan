@@ -11,13 +11,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 6292,
+            "fetched": 6413,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 4700,
+            "fetched": 4790,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -35,13 +35,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 3236,
+            "fetched": 3285,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
-            "dropped": 1,
-            "fetched": 3480,
+            "dropped": 2,
+            "fetched": 3547,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -59,11 +59,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 2720,
+      "bad": 2721,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 2720,
+      "bad": 2721,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -83,7 +83,7 @@
     "trojmiasto": "000066525461",
     "trojmiasto_sale": "000066525415"
   },
-  "last_run": "2026-09-04T10:30:54.572278+00:00",
+  "last_run": "2026-09-04T10:45:43.005413+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -10237,6 +10237,12 @@
       "fingerprint": "999900|88|3|pustki cisowskie-demptowo",
       "id": "nieruchomosci_online_sale:26898072"
     },
+    "nieruchomosci_online_sale:26898350": {
+      "cena": 850000,
+      "data_wyslania": "2026-09-04T10:45:43.005413+00:00",
+      "fingerprint": "850000|75.29|4|ujeścisko",
+      "id": "nieruchomosci_online_sale:26898350"
+    },
     "nieruchomosci_online_sale:26898394": {
       "cena": 415000,
       "data_wyslania": "2026-08-14T10:12:56.835794+00:00",
@@ -10422,6 +10428,12 @@
       "data_wyslania": "2026-08-27T07:45:39.052343+00:00",
       "fingerprint": "780000|72|4|ujeścisko",
       "id": "nieruchomosci_online_sale:26905332"
+    },
+    "nieruchomosci_online_sale:26905987": {
+      "cena": 1769000,
+      "data_wyslania": "2026-09-04T10:45:43.005413+00:00",
+      "fingerprint": "1769000|94.07|4|słoneczna morena",
+      "id": "nieruchomosci_online_sale:26905987"
     },
     "nieruchomosci_online_sale:26906060": {
       "cena": 1969000,
@@ -37610,9 +37622,9 @@
       "id": "trojmiasto_sale:66505862"
     },
     "trojmiasto_sale:66505951": {
-      "cena": 785000,
-      "data_wyslania": "2026-08-14T09:30:52.690832+00:00",
-      "fingerprint": "785000|65|3|łostowice",
+      "cena": 773500,
+      "data_wyslania": "2026-09-04T10:45:43.005413+00:00",
+      "fingerprint": "773500|65|3|łostowice",
       "id": "trojmiasto_sale:66505951"
     },
     "trojmiasto_sale:66505987": {
