@@ -11,13 +11,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 6,
-            "fetched": 8111,
+            "fetched": 8233,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 5,
-            "fetched": 6138,
+            "fetched": 6239,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -35,13 +35,13 @@
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 3948,
+            "fetched": 3996,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
-            "dropped": 4,
-            "fetched": 4467,
+            "dropped": 5,
+            "fetched": 4532,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -59,11 +59,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 2735,
+      "bad": 2736,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 2735,
+      "bad": 2736,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -81,9 +81,9 @@
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066525749",
-    "trojmiasto_sale": "000066525756"
+    "trojmiasto_sale": "000066525885"
   },
-  "last_run": "2026-09-04T14:01:19.346193+00:00",
+  "last_run": "2026-09-04T14:15:39.052874+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -38292,6 +38292,12 @@
       "data_wyslania": "2026-09-04T13:01:08.667432+00:00",
       "fingerprint": "3500000|252|6|suchanino",
       "id": "trojmiasto_sale:66525756"
+    },
+    "trojmiasto_sale:66525885": {
+      "cena": 795000,
+      "data_wyslania": "2026-09-04T14:15:39.052874+00:00",
+      "fingerprint": "795000|67|3|kacze buki",
+      "id": "trojmiasto_sale:66525885"
     }
   },
   "version": 1
