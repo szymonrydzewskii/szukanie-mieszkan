@@ -10,14 +10,14 @@
         ],
         "sources": {
           "nieruchomosci_online": {
-            "dropped": 3,
-            "fetched": 6171,
+            "dropped": 5,
+            "fetched": 6292,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 4613,
+            "fetched": 4700,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -35,13 +35,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 3187,
+            "fetched": 3236,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 3414,
+            "fetched": 3480,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -59,11 +59,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 2719,
+      "bad": 2720,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 2719,
+      "bad": 2720,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -76,14 +76,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026943566",
+    "nieruchomosci_online": "000026944318",
     "nieruchomosci_online_sale": "000026941145",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066525461",
     "trojmiasto_sale": "000066525415"
   },
-  "last_run": "2026-09-04T10:15:44.867366+00:00",
+  "last_run": "2026-09-04T10:30:54.572278+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -3470,9 +3470,9 @@
       "id": "nieruchomosci_online:26912947"
     },
     "nieruchomosci_online:26913070": {
-      "cena": 2700,
-      "data_wyslania": "2026-08-21T10:30:51.952644+00:00",
-      "fingerprint": "2700|68.9|3|karwiny",
+      "cena": 2500,
+      "data_wyslania": "2026-09-04T10:30:54.572278+00:00",
+      "fingerprint": "2500|68.9|3|karwiny",
       "id": "nieruchomosci_online:26913070"
     },
     "nieruchomosci_online:26913115": {
@@ -4284,6 +4284,12 @@
       "data_wyslania": "2026-09-04T07:31:01.106603+00:00",
       "fingerprint": "7500|80|3|kolibki",
       "id": "nieruchomosci_online:26943566"
+    },
+    "nieruchomosci_online:26944318": {
+      "cena": 4200,
+      "data_wyslania": "2026-09-04T10:30:54.572278+00:00",
+      "fingerprint": "4200|72|4|chełm",
+      "id": "nieruchomosci_online:26944318"
     },
     "nieruchomosci_online_sale:23703220": {
       "cena": 427000,
