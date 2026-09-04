@@ -5,7 +5,8 @@
       "2026-09-04": {
         "errors": [
           "olx: OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (p",
-          "olx_sale: OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (p"
+          "olx_sale: OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (p",
+          "nieruchomosci_online: Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Read timed out. (re"
         ],
         "sources": {
           "nieruchomosci_online": {
@@ -16,7 +17,7 @@
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 4266,
+            "fetched": 4353,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +35,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2985,
+            "fetched": 3037,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 3149,
+            "fetched": 3215,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -50,19 +51,19 @@
   },
   "health": {
     "nieruchomosci_online": {
-      "bad": 0,
-      "last_error": null
+      "bad": 1,
+      "last_error": "Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Read timed out. (read timeout=20)"
     },
     "nieruchomosci_online_sale": {
       "bad": 0,
       "last_error": null
     },
     "olx": {
-      "bad": 2715,
+      "bad": 2716,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 2715,
+      "bad": 2716,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -79,10 +80,10 @@
     "nieruchomosci_online_sale": "000026941145",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
-    "trojmiasto": "000066525346",
+    "trojmiasto": "000066525461",
     "trojmiasto_sale": "000066525415"
   },
-  "last_run": "2026-09-04T09:15:43.861711+00:00",
+  "last_run": "2026-09-04T09:30:54.602204+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -34944,6 +34945,12 @@
       "fingerprint": "2800|32|2|przymorze wielkie",
       "id": "trojmiasto:66525346"
     },
+    "trojmiasto:66525461": {
+      "cena": 2500,
+      "data_wyslania": "2026-09-04T09:30:54.602204+00:00",
+      "fingerprint": "2500|39|2|ujeścisko - łostowice",
+      "id": "trojmiasto:66525461"
+    },
     "trojmiasto_sale:64569988": {
       "cena": 3800000,
       "data_wyslania": "2026-08-03T06:45:52.472113+00:00",
@@ -38087,6 +38094,12 @@
       "data_wyslania": "2026-08-31T23:30:54.115424+00:00",
       "fingerprint": "459000|26.5|1|vii dwór",
       "id": "trojmiasto_sale:66521492"
+    },
+    "trojmiasto_sale:66522433": {
+      "cena": 1345678,
+      "data_wyslania": "2026-09-04T09:30:54.602204+00:00",
+      "fingerprint": "1345678|125|5|górny sopot",
+      "id": "trojmiasto_sale:66522433"
     },
     "trojmiasto_sale:66522450": {
       "cena": 700000,
