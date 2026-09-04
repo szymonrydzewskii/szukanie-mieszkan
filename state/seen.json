@@ -11,13 +11,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 6413,
+            "fetched": 6534,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
-            "dropped": 0,
-            "fetched": 4790,
+            "dropped": 3,
+            "fetched": 4882,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -35,13 +35,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 3285,
+            "fetched": 3334,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 3547,
+            "fetched": 3613,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -59,11 +59,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 2721,
+      "bad": 2722,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 2721,
+      "bad": 2722,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -76,14 +76,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026944318",
-    "nieruchomosci_online_sale": "000026941145",
+    "nieruchomosci_online": "000026944439",
+    "nieruchomosci_online_sale": "000026944265",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066525461",
     "trojmiasto_sale": "000066525415"
   },
-  "last_run": "2026-09-04T10:45:43.005413+00:00",
+  "last_run": "2026-09-04T11:01:09.433932+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -3637,6 +3637,12 @@
       "fingerprint": "4300|60|4|sopot",
       "id": "nieruchomosci_online:26919432"
     },
+    "nieruchomosci_online:26919965": {
+      "cena": 3100,
+      "data_wyslania": "2026-09-04T11:01:09.433932+00:00",
+      "fingerprint": "3100|58.2|3|jasień",
+      "id": "nieruchomosci_online:26919965"
+    },
     "nieruchomosci_online:26919996": {
       "cena": 3800,
       "data_wyslania": "2026-08-25T11:01:08.057162+00:00",
@@ -4290,6 +4296,12 @@
       "data_wyslania": "2026-09-04T10:30:54.572278+00:00",
       "fingerprint": "4200|72|4|chełm",
       "id": "nieruchomosci_online:26944318"
+    },
+    "nieruchomosci_online:26944439": {
+      "cena": 2300,
+      "data_wyslania": "2026-09-04T11:01:09.433932+00:00",
+      "fingerprint": "2300|28.08|1|cisowa",
+      "id": "nieruchomosci_online:26944439"
     },
     "nieruchomosci_online_sale:23703220": {
       "cena": 427000,
@@ -9613,6 +9625,12 @@
       "fingerprint": "610000|40.71|2|orunia górna - gdańsk południe",
       "id": "nieruchomosci_online_sale:26872903"
     },
+    "nieruchomosci_online_sale:26873028": {
+      "cena": 720000,
+      "data_wyslania": "2026-09-04T11:01:09.433932+00:00",
+      "fingerprint": "720000|60.4|3|cisowa",
+      "id": "nieruchomosci_online_sale:26873028"
+    },
     "nieruchomosci_online_sale:26873256": {
       "cena": 960000,
       "data_wyslania": "2026-08-03T13:15:45.890113+00:00",
@@ -10320,6 +10338,12 @@
       "data_wyslania": "2026-08-20T19:01:04.219959+00:00",
       "fingerprint": "439000|30.2|2|witomino-leśniczówka",
       "id": "nieruchomosci_online_sale:26899961"
+    },
+    "nieruchomosci_online_sale:26900008": {
+      "cena": 431950,
+      "data_wyslania": "2026-09-04T11:01:09.433932+00:00",
+      "fingerprint": "431950|19.51|1|przymorze",
+      "id": "nieruchomosci_online_sale:26900008"
     },
     "nieruchomosci_online_sale:26900070": {
       "cena": 3900000,
@@ -11142,6 +11166,24 @@
       "data_wyslania": "2026-09-03T10:30:57.466901+00:00",
       "fingerprint": "689000|33|2|śródmieście",
       "id": "nieruchomosci_online_sale:26941145"
+    },
+    "nieruchomosci_online_sale:26941684": {
+      "cena": 712000,
+      "data_wyslania": "2026-09-04T11:01:09.433932+00:00",
+      "fingerprint": "712000|47.5|2|chylonia nowa",
+      "id": "nieruchomosci_online_sale:26941684"
+    },
+    "nieruchomosci_online_sale:26943710": {
+      "cena": 609000,
+      "data_wyslania": "2026-09-04T11:01:09.433932+00:00",
+      "fingerprint": "609000|60|3|obłuże",
+      "id": "nieruchomosci_online_sale:26943710"
+    },
+    "nieruchomosci_online_sale:26944265": {
+      "cena": 475000,
+      "data_wyslania": "2026-09-04T11:01:09.433932+00:00",
+      "fingerprint": "475000|47.3|2|oksywie",
+      "id": "nieruchomosci_online_sale:26944265"
     },
     "olx:1006019650": {
       "cena": 1800,
