@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 6,
-            "fetched": 10234,
+            "fetched": 10356,
             "sent_main": 2,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 8160,
+            "fetched": 8257,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 3896,
+            "fetched": 3941,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 5688,
+            "fetched": 5758,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 2852,
+      "bad": 2853,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 2852,
+      "bad": 2853,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066526625",
     "trojmiasto_sale": "000066525885"
   },
-  "last_run": "2026-09-05T17:45:38.291656+00:00",
+  "last_run": "2026-09-05T18:01:03.458689+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -5369,6 +5369,12 @@
       "data_wyslania": "2026-07-29T12:45:49.856287+00:00",
       "fingerprint": "1299000|95.5|4|śródmieście",
       "id": "nieruchomosci_online_sale:26378123"
+    },
+    "nieruchomosci_online_sale:26383428": {
+      "cena": 550000,
+      "data_wyslania": "2026-09-05T18:01:03.458689+00:00",
+      "fingerprint": "550000|52.1|4|brzeźno",
+      "id": "nieruchomosci_online_sale:26383428"
     },
     "nieruchomosci_online_sale:26390929": {
       "cena": 660000,
@@ -38429,6 +38435,12 @@
       "data_wyslania": "2026-08-23T10:15:46.875940+00:00",
       "fingerprint": "1299900|116.6|5|trąbki wielkie",
       "id": "trojmiasto_sale:66514717"
+    },
+    "trojmiasto_sale:66515603": {
+      "cena": 779000,
+      "data_wyslania": "2026-09-05T18:01:03.458689+00:00",
+      "fingerprint": "779000|48.2|3|zaspa",
+      "id": "trojmiasto_sale:66515603"
     },
     "trojmiasto_sale:66515994": {
       "cena": 2390000,
