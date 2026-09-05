@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 6338,
+            "fetched": 6459,
             "sent_main": 2,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 5128,
+            "fetched": 5225,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 2454,
+            "fetched": 2499,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 3468,
+            "fetched": 3538,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 2820,
+      "bad": 2821,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 2820,
+      "bad": 2821,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066526237",
     "trojmiasto_sale": "000066525885"
   },
-  "last_run": "2026-09-05T10:01:04.305074+00:00",
+  "last_run": "2026-09-05T10:15:40.596364+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -35525,6 +35525,12 @@
       "data_wyslania": "2026-07-25T11:45:41.338636+00:00",
       "fingerprint": "2990000|320|8|przyjaźń",
       "id": "trojmiasto_sale:66101901"
+    },
+    "trojmiasto_sale:66123770": {
+      "cena": 898000,
+      "data_wyslania": "2026-09-05T10:15:40.596364+00:00",
+      "fingerprint": "898000|132.38|4|miszewko dąbrowa",
+      "id": "trojmiasto_sale:66123770"
     },
     "trojmiasto_sale:66126638": {
       "cena": 1999000,
