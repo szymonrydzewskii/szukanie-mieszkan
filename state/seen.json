@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 6,
-            "fetched": 12064,
+            "fetched": 12186,
             "sent_main": 2,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 9642,
+            "fetched": 9743,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 4594,
+            "fetched": 4640,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 6730,
+            "fetched": 6798,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 2867,
+      "bad": 2868,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 2867,
+      "bad": 2868,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -75,14 +75,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026946933",
+    "nieruchomosci_online": "000026947236",
     "nieruchomosci_online_sale": "000026946901",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066526625",
     "trojmiasto_sale": "000066525885"
   },
-  "last_run": "2026-09-05T21:01:03.116074+00:00",
+  "last_run": "2026-09-05T21:15:38.875040+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -4433,6 +4433,12 @@
       "data_wyslania": "2026-09-05T14:30:53.781057+00:00",
       "fingerprint": "3500|82|3|pustki cisowskie-demptowo",
       "id": "nieruchomosci_online:26946933"
+    },
+    "nieruchomosci_online:26947236": {
+      "cena": 3200,
+      "data_wyslania": "2026-09-05T21:15:38.875040+00:00",
+      "fingerprint": "3200|53|3|suchanino",
+      "id": "nieruchomosci_online:26947236"
     },
     "nieruchomosci_online_sale:23703220": {
       "cena": 427000,
