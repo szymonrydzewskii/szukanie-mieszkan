@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 6217,
+            "fetched": 6338,
             "sent_main": 2,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 5031,
+            "fetched": 5128,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 2409,
+            "fetched": 2454,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 3400,
+            "fetched": 3468,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 2819,
+      "bad": 2820,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 2819,
+      "bad": 2820,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066526237",
     "trojmiasto_sale": "000066525885"
   },
-  "last_run": "2026-09-05T09:45:39.370114+00:00",
+  "last_run": "2026-09-05T10:01:04.305074+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -11231,6 +11231,12 @@
       "data_wyslania": "2026-09-01T14:30:56.846268+00:00",
       "fingerprint": "379000|25.3|1|żabianka",
       "id": "nieruchomosci_online_sale:26928953"
+    },
+    "nieruchomosci_online_sale:26929329": {
+      "cena": 630000,
+      "data_wyslania": "2026-09-05T10:01:04.305074+00:00",
+      "fingerprint": "630000|55.5|3|dąbrowa",
+      "id": "nieruchomosci_online_sale:26929329"
     },
     "nieruchomosci_online_sale:26929531": {
       "cena": 1617000,
