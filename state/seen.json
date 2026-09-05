@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 6,
-            "fetched": 11332,
+            "fetched": 11454,
             "sent_main": 2,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 9040,
+            "fetched": 9140,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 4317,
+            "fetched": 4364,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 6315,
+            "fetched": 6384,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 2861,
+      "bad": 2862,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 2861,
+      "bad": 2862,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066526625",
     "trojmiasto_sale": "000066525885"
   },
-  "last_run": "2026-09-05T19:45:40.615956+00:00",
+  "last_run": "2026-09-05T20:01:39.526809+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -10926,6 +10926,12 @@
       "fingerprint": "949000|63.2|3|piecki-migowo",
       "id": "nieruchomosci_online_sale:26915443"
     },
+    "nieruchomosci_online_sale:26915688": {
+      "cena": 459000,
+      "data_wyslania": "2026-09-05T20:01:39.526809+00:00",
+      "fingerprint": "459000|27|1|przymorze",
+      "id": "nieruchomosci_online_sale:26915688"
+    },
     "nieruchomosci_online_sale:26915699": {
       "cena": 780000,
       "data_wyslania": "2026-08-23T08:30:51.839361+00:00",
@@ -11207,6 +11213,12 @@
       "data_wyslania": "2026-08-27T11:15:45.810469+00:00",
       "fingerprint": "579000|39.4|2|kamienny potok",
       "id": "nieruchomosci_online_sale:26925323"
+    },
+    "nieruchomosci_online_sale:26925555": {
+      "cena": 599000,
+      "data_wyslania": "2026-09-05T20:01:39.526809+00:00",
+      "fingerprint": "599000|46|4|przymorze",
+      "id": "nieruchomosci_online_sale:26925555"
     },
     "nieruchomosci_online_sale:26926301": {
       "cena": 1399000,
