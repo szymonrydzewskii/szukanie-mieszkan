@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 6,
-            "fetched": 12308,
+            "fetched": 12430,
             "sent_main": 2,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 9844,
+            "fetched": 9945,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 4686,
+            "fetched": 4732,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 6867,
+            "fetched": 6936,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 2869,
+      "bad": 2870,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 2869,
+      "bad": 2870,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066526625",
     "trojmiasto_sale": "000066525885"
   },
-  "last_run": "2026-09-05T21:30:51.690530+00:00",
+  "last_run": "2026-09-05T21:45:38.785943+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -7463,6 +7463,12 @@
       "data_wyslania": "2026-07-26T12:45:42.052871+00:00",
       "fingerprint": "890000|54.4|3|sobieszewo",
       "id": "nieruchomosci_online_sale:26735920"
+    },
+    "nieruchomosci_online_sale:26735922": {
+      "cena": 800000,
+      "data_wyslania": "2026-09-05T21:45:38.785943+00:00",
+      "fingerprint": "800000|32.5|2|letnica",
+      "id": "nieruchomosci_online_sale:26735922"
     },
     "nieruchomosci_online_sale:26736266": {
       "cena": 655000,
