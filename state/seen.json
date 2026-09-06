@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 10980,
+            "fetched": 11102,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 9138,
+            "fetched": 9233,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -36,13 +36,13 @@
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 4142,
+            "fetched": 4189,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 6025,
+            "fetched": 6091,
             "sent_main": 0,
             "sent_near": 1
           }
@@ -60,11 +60,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 2960,
+      "bad": 2961,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 2960,
+      "bad": 2961,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -81,10 +81,10 @@
     "nieruchomosci_online_sale": "000026946901",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
-    "trojmiasto": "000066527339",
+    "trojmiasto": "000066527482",
     "trojmiasto_sale": "000066527451"
   },
-  "last_run": "2026-09-06T18:30:54.640149+00:00",
+  "last_run": "2026-09-06T18:45:43.708772+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -35485,6 +35485,12 @@
       "data_wyslania": "2026-09-06T14:30:50.720565+00:00",
       "fingerprint": "2850|39.4|2|śródmieście lastadia",
       "id": "trojmiasto:66527339"
+    },
+    "trojmiasto:66527482": {
+      "cena": 3400,
+      "data_wyslania": "2026-09-06T18:45:43.708772+00:00",
+      "fingerprint": "3400|44|2|siedlce",
+      "id": "trojmiasto:66527482"
     },
     "trojmiasto_sale:64569988": {
       "cena": 3800000,
