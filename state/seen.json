@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 11834,
+            "fetched": 11956,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
-            "dropped": 0,
-            "fetched": 9803,
+            "dropped": 1,
+            "fetched": 9898,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -36,13 +36,13 @@
           },
           "trojmiasto": {
             "dropped": 5,
-            "fetched": 4479,
+            "fetched": 4532,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 6496,
+            "fetched": 6564,
             "sent_main": 0,
             "sent_near": 1
           }
@@ -60,11 +60,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 2967,
+      "bad": 2968,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 2967,
+      "bad": 2968,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -84,7 +84,7 @@
     "trojmiasto": "000066527583",
     "trojmiasto_sale": "000066527506"
   },
-  "last_run": "2026-09-06T20:15:39.714320+00:00",
+  "last_run": "2026-09-06T20:30:54.544248+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -8037,9 +8037,9 @@
       "id": "nieruchomosci_online_sale:26783725"
     },
     "nieruchomosci_online_sale:26783925": {
-      "cena": 447900,
-      "data_wyslania": "2026-07-26T20:45:43.648866+00:00",
-      "fingerprint": "447900|33.1|1|karwiny",
+      "cena": 445900,
+      "data_wyslania": "2026-09-06T20:30:54.544248+00:00",
+      "fingerprint": "445900|33.1|1|karwiny",
       "id": "nieruchomosci_online_sale:26783925"
     },
     "nieruchomosci_online_sale:26784435": {
@@ -32491,6 +32491,12 @@
       "data_wyslania": "2026-08-21T17:37:45.846202+00:00",
       "fingerprint": "350|10|?|",
       "id": "trojmiasto:64716014"
+    },
+    "trojmiasto:64991668": {
+      "cena": 3000,
+      "data_wyslania": "2026-09-06T20:30:54.544248+00:00",
+      "fingerprint": "3000|68|2|wyścigi / karlikowo",
+      "id": "trojmiasto:64991668"
     },
     "trojmiasto:65012882": {
       "cena": 3100,
