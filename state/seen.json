@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 4,
-            "fetched": 6199,
+            "fetched": 6320,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 5064,
+            "fetched": 5160,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -33,14 +33,14 @@
             "sent_near": 0
           },
           "trojmiasto": {
-            "dropped": 1,
-            "fetched": 3758,
+            "dropped": 2,
+            "fetched": 3834,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 3311,
+            "fetched": 3377,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 3126,
+      "bad": 3127,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 3126,
+      "bad": 3127,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066528892",
     "trojmiasto_sale": "000066528792"
   },
-  "last_run": "2026-09-08T10:02:37.535190+00:00",
+  "last_run": "2026-09-08T10:15:47.322167+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -3545,6 +3545,12 @@
       "data_wyslania": "2026-08-21T15:42:38.096200+00:00",
       "fingerprint": "2800|63.3|2|grabówek",
       "id": "nieruchomosci_online:26914304"
+    },
+    "nieruchomosci_online:26914668": {
+      "cena": 2350,
+      "data_wyslania": "2026-09-08T10:15:47.322167+00:00",
+      "fingerprint": "2350|31|1|przymorze",
+      "id": "nieruchomosci_online:26914668"
     },
     "nieruchomosci_online:26914903": {
       "cena": 2550,
@@ -35071,9 +35077,9 @@
       "id": "trojmiasto:66511980"
     },
     "trojmiasto:66512124": {
-      "cena": 7000,
-      "data_wyslania": "2026-09-04T07:45:41.575613+00:00",
-      "fingerprint": "7000|114.84|4|mechelinki",
+      "cena": 6700,
+      "data_wyslania": "2026-09-08T10:15:47.322167+00:00",
+      "fingerprint": "6700|114.84|4|mechelinki",
       "id": "trojmiasto:66512124"
     },
     "trojmiasto:66512138": {
