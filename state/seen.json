@@ -11,13 +11,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 8,
-            "fetched": 8634,
+            "fetched": 8755,
             "sent_main": 0,
             "sent_near": 2
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 7113,
+            "fetched": 7217,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -35,13 +35,13 @@
           },
           "trojmiasto": {
             "dropped": 4,
-            "fetched": 5287,
+            "fetched": 5355,
             "sent_main": 0,
             "sent_near": 2
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 4674,
+            "fetched": 4736,
             "sent_main": 0,
             "sent_near": 2
           }
@@ -59,11 +59,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 3147,
+      "bad": 3148,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 3147,
+      "bad": 3148,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -80,10 +80,10 @@
     "nieruchomosci_online_sale": "000026952762",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
-    "trojmiasto": "000066529310",
+    "trojmiasto": "000066529391",
     "trojmiasto_sale": "000066529338"
   },
-  "last_run": "2026-09-08T15:15:47.932936+00:00",
+  "last_run": "2026-09-08T15:31:02.576135+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -35994,6 +35994,12 @@
       "data_wyslania": "2026-09-08T14:30:30.023278+00:00",
       "fingerprint": "1850|20|1|",
       "id": "trojmiasto:66529310"
+    },
+    "trojmiasto:66529391": {
+      "cena": 2500,
+      "data_wyslania": "2026-09-08T15:31:02.576135+00:00",
+      "fingerprint": "2500|25|1|zakoniczyn",
+      "id": "trojmiasto:66529391"
     },
     "trojmiasto_sale:64569988": {
       "cena": 3800000,
