@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 7051,
+            "fetched": 7173,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 5726,
+            "fetched": 5820,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 2,
-            "fetched": 4290,
+            "fetched": 4366,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 2,
-            "fetched": 3769,
+            "fetched": 3833,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 3133,
+      "bad": 3134,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 3133,
+      "bad": 3134,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066528892",
     "trojmiasto_sale": "000066528792"
   },
-  "last_run": "2026-09-08T11:45:46.432733+00:00",
+  "last_run": "2026-09-08T12:01:12.340460+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -11436,6 +11436,12 @@
       "fingerprint": "849000|104|3|dolny sopot",
       "id": "nieruchomosci_online_sale:26925045"
     },
+    "nieruchomosci_online_sale:26925123": {
+      "cena": 2999999,
+      "data_wyslania": "2026-09-08T12:01:12.340460+00:00",
+      "fingerprint": "2999999|107.93|4|aniołki",
+      "id": "nieruchomosci_online_sale:26925123"
+    },
     "nieruchomosci_online_sale:26925240": {
       "cena": 1159000,
       "data_wyslania": "2026-08-27T10:45:42.292645+00:00",
@@ -11771,6 +11777,12 @@
       "data_wyslania": "2026-09-04T11:01:09.433932+00:00",
       "fingerprint": "712000|47.5|2|chylonia nowa",
       "id": "nieruchomosci_online_sale:26941684"
+    },
+    "nieruchomosci_online_sale:26941741": {
+      "cena": 740000,
+      "data_wyslania": "2026-09-08T12:01:12.340460+00:00",
+      "fingerprint": "740000|65.6|3|osowa",
+      "id": "nieruchomosci_online_sale:26941741"
     },
     "nieruchomosci_online_sale:26941848": {
       "cena": 739000,
