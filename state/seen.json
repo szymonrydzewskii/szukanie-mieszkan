@@ -54,13 +54,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 3416,
+            "fetched": 3538,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
-            "dropped": 0,
-            "fetched": 2800,
+            "dropped": 1,
+            "fetched": 2900,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -78,13 +78,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 2017,
+            "fetched": 2090,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 1817,
+            "fetched": 1882,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -102,11 +102,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 3103,
+      "bad": 3104,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 3103,
+      "bad": 3104,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -120,13 +120,13 @@
   },
   "high_water": {
     "nieruchomosci_online": "000026951301",
-    "nieruchomosci_online_sale": "000026950918",
+    "nieruchomosci_online_sale": "000026951359",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066528656",
     "trojmiasto_sale": "000066528637"
   },
-  "last_run": "2026-09-08T04:45:44.391145+00:00",
+  "last_run": "2026-09-08T05:01:02.493963+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -11779,6 +11779,12 @@
       "data_wyslania": "2026-09-07T18:30:58.846311+00:00",
       "fingerprint": "433000|39.7|2|orunia górna - gdańsk południe",
       "id": "nieruchomosci_online_sale:26950918"
+    },
+    "nieruchomosci_online_sale:26951359": {
+      "cena": 898000,
+      "data_wyslania": "2026-09-08T05:01:02.493963+00:00",
+      "fingerprint": "898000|55|3|kamienna góra",
+      "id": "nieruchomosci_online_sale:26951359"
     },
     "olx:1006019650": {
       "cena": 1800,
