@@ -11,13 +11,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 9,
-            "fetched": 9118,
+            "fetched": 9239,
             "sent_main": 0,
             "sent_near": 2
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 7529,
+            "fetched": 7633,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -35,13 +35,13 @@
           },
           "trojmiasto": {
             "dropped": 4,
-            "fetched": 5559,
+            "fetched": 5627,
             "sent_main": 0,
             "sent_near": 2
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 4929,
+            "fetched": 4994,
             "sent_main": 0,
             "sent_near": 2
           }
@@ -59,11 +59,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 3151,
+      "bad": 3152,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 3151,
+      "bad": 3152,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -83,7 +83,7 @@
     "trojmiasto": "000066529391",
     "trojmiasto_sale": "000066529338"
   },
-  "last_run": "2026-09-08T16:15:52.899219+00:00",
+  "last_run": "2026-09-08T16:31:04.679315+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -11875,6 +11875,12 @@
       "fingerprint": "609000|60|3|obłuże",
       "id": "nieruchomosci_online_sale:26943710"
     },
+    "nieruchomosci_online_sale:26944115": {
+      "cena": 589500,
+      "data_wyslania": "2026-09-08T16:31:04.679315+00:00",
+      "fingerprint": "589500|35.18|2|łostowice",
+      "id": "nieruchomosci_online_sale:26944115"
+    },
     "nieruchomosci_online_sale:26944265": {
       "cena": 475000,
       "data_wyslania": "2026-09-04T11:01:09.433932+00:00",
@@ -11892,6 +11898,12 @@
       "data_wyslania": "2026-09-07T13:15:39.853869+00:00",
       "fingerprint": "459000|30.9|1|zaspa",
       "id": "nieruchomosci_online_sale:26944823"
+    },
+    "nieruchomosci_online_sale:26946229": {
+      "cena": 847440,
+      "data_wyslania": "2026-09-08T16:31:04.679315+00:00",
+      "fingerprint": "847440|38.52|2|zaspa",
+      "id": "nieruchomosci_online_sale:26946229"
     },
     "nieruchomosci_online_sale:26946899": {
       "cena": 940000,
