@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 7359,
+            "fetched": 7480,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 6355,
+            "fetched": 6455,
             "sent_main": 0,
             "sent_near": 1
           },
@@ -33,14 +33,14 @@
             "sent_near": 0
           },
           "trojmiasto": {
-            "dropped": 0,
-            "fetched": 4019,
+            "dropped": 1,
+            "fetched": 4085,
             "sent_main": 1,
             "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 3872,
+            "fetched": 3942,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 3235,
+      "bad": 3236,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 3235,
+      "bad": 3236,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -79,10 +79,10 @@
     "nieruchomosci_online_sale": "000026952762",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
-    "trojmiasto": "000066529933",
+    "trojmiasto": "000066530125",
     "trojmiasto_sale": "000066529876"
   },
-  "last_run": "2026-09-09T12:01:12.094823+00:00",
+  "last_run": "2026-09-09T12:15:47.522526+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -36119,6 +36119,12 @@
       "data_wyslania": "2026-09-09T10:45:52.832876+00:00",
       "fingerprint": "1400|71|2|wrzeszcz górny",
       "id": "trojmiasto:66529933"
+    },
+    "trojmiasto:66530125": {
+      "cena": 1600,
+      "data_wyslania": "2026-09-09T12:15:47.522526+00:00",
+      "fingerprint": "1600|21|1|rumia biała rzeka",
+      "id": "trojmiasto:66530125"
     },
     "trojmiasto_sale:64569988": {
       "cena": 3800000,
