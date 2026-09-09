@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 5910,
+            "fetched": 6030,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 5145,
+            "fetched": 5247,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 3227,
+            "fetched": 3292,
             "sent_main": 0,
             "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 3098,
+            "fetched": 3159,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 3223,
+      "bad": 3224,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 3223,
+      "bad": 3224,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066529775",
     "trojmiasto_sale": "000066529338"
   },
-  "last_run": "2026-09-09T09:15:49.148016+00:00",
+  "last_run": "2026-09-09T09:31:04.026748+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -11729,6 +11729,12 @@
       "data_wyslania": "2026-08-31T11:01:07.762428+00:00",
       "fingerprint": "729000|52.7|3|brodwino",
       "id": "nieruchomosci_online_sale:26931772"
+    },
+    "nieruchomosci_online_sale:26933023": {
+      "cena": 999000,
+      "data_wyslania": "2026-09-09T09:31:04.026748+00:00",
+      "fingerprint": "999000|55.04|3|śródmieście",
+      "id": "nieruchomosci_online_sale:26933023"
     },
     "nieruchomosci_online_sale:26933316": {
       "cena": 669000,
