@@ -9,14 +9,14 @@
         ],
         "sources": {
           "nieruchomosci_online": {
-            "dropped": 8,
-            "fetched": 9584,
+            "dropped": 9,
+            "fetched": 9706,
             "sent_main": 1,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 8357,
+            "fetched": 8454,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 5260,
+            "fetched": 5323,
             "sent_main": 1,
             "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 3,
-            "fetched": 5478,
+            "fetched": 5545,
             "sent_main": 1,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 3355,
+      "bad": 3356,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 3355,
+      "bad": 3356,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -75,14 +75,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026959251",
+    "nieruchomosci_online": "000026960039",
     "nieruchomosci_online_sale": "000026952762",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066531209",
     "trojmiasto_sale": "000066530629"
   },
-  "last_run": "2026-09-10T16:30:57.028260+00:00",
+  "last_run": "2026-09-10T16:45:48.521202+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -4758,6 +4758,12 @@
       "fingerprint": "4000|67|2|wzgórze św. maksymiliana",
       "id": "nieruchomosci_online:26959251"
     },
+    "nieruchomosci_online:26960039": {
+      "cena": 2200,
+      "data_wyslania": "2026-09-10T16:45:48.521202+00:00",
+      "fingerprint": "2200|52|2|pustki cisowskie",
+      "id": "nieruchomosci_online:26960039"
+    },
     "nieruchomosci_online_sale:23703220": {
       "cena": 427000,
       "data_wyslania": "2026-07-31T06:45:45.771506+00:00",
@@ -8309,6 +8315,12 @@
       "data_wyslania": "2026-08-18T11:45:36.395433+00:00",
       "fingerprint": "710000|54|3|przymorze",
       "id": "nieruchomosci_online_sale:26774393"
+    },
+    "nieruchomosci_online_sale:26774552": {
+      "cena": 669000,
+      "data_wyslania": "2026-09-10T16:45:48.521202+00:00",
+      "fingerprint": "669000|61|3|nowy port",
+      "id": "nieruchomosci_online_sale:26774552"
     },
     "nieruchomosci_online_sale:26775546": {
       "cena": 419900,
