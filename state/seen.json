@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 6779,
+            "fetched": 6901,
             "sent_main": 1,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
-            "dropped": 0,
-            "fetched": 5938,
+            "dropped": 1,
+            "fetched": 6040,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 3773,
+            "fetched": 3839,
             "sent_main": 1,
             "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 1,
-            "fetched": 3913,
+            "fetched": 3983,
             "sent_main": 1,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 3332,
+      "bad": 3333,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 3332,
+      "bad": 3333,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066530976",
     "trojmiasto_sale": "000066530629"
   },
-  "last_run": "2026-09-10T11:01:11.320886+00:00",
+  "last_run": "2026-09-10T11:15:51.322611+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -9235,9 +9235,9 @@
       "id": "nieruchomosci_online_sale:26833890"
     },
     "nieruchomosci_online_sale:26834161": {
-      "cena": 1049000,
-      "data_wyslania": "2026-07-31T12:01:14.948939+00:00",
-      "fingerprint": "1049000|64|3|siedlce",
+      "cena": 999900,
+      "data_wyslania": "2026-09-10T11:15:51.322611+00:00",
+      "fingerprint": "999900|65|3|siedlce",
       "id": "nieruchomosci_online_sale:26834161"
     },
     "nieruchomosci_online_sale:26834325": {
