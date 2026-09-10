@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 8,
-            "fetched": 8852,
+            "fetched": 8974,
             "sent_main": 1,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 7715,
+            "fetched": 7822,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 4882,
+            "fetched": 4945,
             "sent_main": 1,
             "sent_near": 1
           },
           "trojmiasto_sale": {
-            "dropped": 2,
-            "fetched": 5078,
+            "dropped": 3,
+            "fetched": 5144,
             "sent_main": 1,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 3349,
+      "bad": 3350,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 3349,
+      "bad": 3350,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066531209",
     "trojmiasto_sale": "000066530629"
   },
-  "last_run": "2026-09-10T15:01:14.990671+00:00",
+  "last_run": "2026-09-10T15:15:49.502999+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -34950,6 +34950,12 @@
       "fingerprint": "3500|42.87|2|aniołki",
       "id": "trojmiasto:66500387"
     },
+    "trojmiasto:66500389": {
+      "cena": 3100,
+      "data_wyslania": "2026-09-10T15:15:49.502999+00:00",
+      "fingerprint": "3100|42.84|2|aniołki",
+      "id": "trojmiasto:66500389"
+    },
     "trojmiasto:66500490": {
       "cena": 2800,
       "data_wyslania": "2026-08-12T07:15:56.787282+00:00",
@@ -35957,6 +35963,18 @@
       "data_wyslania": "2026-09-01T08:01:08.684569+00:00",
       "fingerprint": "50|12|?|kamienna góra",
       "id": "trojmiasto:66522117"
+    },
+    "trojmiasto:66522313": {
+      "cena": 2150,
+      "data_wyslania": "2026-09-10T15:15:49.502999+00:00",
+      "fingerprint": "2150|18.2|1|stogi",
+      "id": "trojmiasto:66522313"
+    },
+    "trojmiasto:66522314": {
+      "cena": 2350,
+      "data_wyslania": "2026-09-10T15:15:49.502999+00:00",
+      "fingerprint": "2350|23|1|stogi",
+      "id": "trojmiasto:66522314"
     },
     "trojmiasto:66522371": {
       "cena": 2000,
@@ -39271,9 +39289,9 @@
       "id": "trojmiasto_sale:66509395"
     },
     "trojmiasto_sale:66509930": {
-      "cena": 479000,
-      "data_wyslania": "2026-08-18T11:15:35.645611+00:00",
-      "fingerprint": "479000|27|1|przymorze wielkie",
+      "cena": 455000,
+      "data_wyslania": "2026-09-10T15:15:49.502999+00:00",
+      "fingerprint": "455000|27|1|przymorze wielkie",
       "id": "trojmiasto_sale:66509930"
     },
     "trojmiasto_sale:66510062": {
