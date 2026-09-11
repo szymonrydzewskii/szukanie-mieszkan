@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 5973,
+            "fetched": 6095,
             "sent_main": 0,
             "sent_near": 2
           },
           "nieruchomosci_online_sale": {
-            "dropped": 1,
-            "fetched": 4707,
+            "dropped": 2,
+            "fetched": 4803,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 3110,
+            "fetched": 3174,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 3289,
+            "fetched": 3356,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 3427,
+      "bad": 3428,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 3427,
+      "bad": 3428,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066531800",
     "trojmiasto_sale": "000066531271"
   },
-  "last_run": "2026-09-11T09:15:44.602690+00:00",
+  "last_run": "2026-09-11T09:31:01.894617+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -9690,6 +9690,12 @@
       "fingerprint": "595000|37.55|2|ujeścisko-łostowice",
       "id": "nieruchomosci_online_sale:26849814"
     },
+    "nieruchomosci_online_sale:26850841": {
+      "cena": 1179000,
+      "data_wyslania": "2026-09-11T09:31:01.894617+00:00",
+      "fingerprint": "1179000|78.4|4|piecki-migowo",
+      "id": "nieruchomosci_online_sale:26850841"
+    },
     "nieruchomosci_online_sale:26851753": {
       "cena": 2500000,
       "data_wyslania": "2026-08-02T12:15:43.710725+00:00",
@@ -9853,9 +9859,9 @@
       "id": "nieruchomosci_online_sale:26855781"
     },
     "nieruchomosci_online_sale:26855846": {
-      "cena": 715000,
-      "data_wyslania": "2026-08-03T10:31:01.443244+00:00",
-      "fingerprint": "715000|58.7|2|dąbrowa",
+      "cena": 699000,
+      "data_wyslania": "2026-09-11T09:31:01.894617+00:00",
+      "fingerprint": "699000|58.7|2|dąbrowa",
       "id": "nieruchomosci_online_sale:26855846"
     },
     "nieruchomosci_online_sale:26856106": {
@@ -12209,6 +12215,12 @@
       "data_wyslania": "2026-09-08T12:31:00.381923+00:00",
       "fingerprint": "849000|85.63|4|wzgórze św. maksymiliana",
       "id": "nieruchomosci_online_sale:26949383"
+    },
+    "nieruchomosci_online_sale:26950807": {
+      "cena": 1999000,
+      "data_wyslania": "2026-09-11T09:31:01.894617+00:00",
+      "fingerprint": "1999000|111.9|2|śródmieście",
+      "id": "nieruchomosci_online_sale:26950807"
     },
     "nieruchomosci_online_sale:26950834": {
       "cena": 1259000,
