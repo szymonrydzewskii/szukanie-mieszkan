@@ -54,13 +54,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 122,
+            "fetched": 244,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 104,
+            "fetched": 208,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -78,13 +78,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 67,
+            "fetched": 134,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 75,
+            "fetched": 149,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -102,11 +102,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 3482,
+      "bad": 3483,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 3482,
+      "bad": 3483,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -126,7 +126,7 @@
     "trojmiasto": "000066532089",
     "trojmiasto_sale": "000066532458"
   },
-  "last_run": "2026-09-11T22:01:08.449019+00:00",
+  "last_run": "2026-09-11T22:15:45.483626+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -4099,6 +4099,12 @@
       "data_wyslania": "2026-08-31T10:15:38.158784+00:00",
       "fingerprint": "3100|41|2|wzgórze św. maksymiliana",
       "id": "nieruchomosci_online:26931548"
+    },
+    "nieruchomosci_online:26931601": {
+      "cena": 2400,
+      "data_wyslania": "2026-09-11T22:15:45.483626+00:00",
+      "fingerprint": "2400|33.2|2|jasień",
+      "id": "nieruchomosci_online:26931601"
     },
     "nieruchomosci_online:26931837": {
       "cena": 2100,
@@ -9091,6 +9097,12 @@
       "data_wyslania": "2026-08-22T09:30:50.844438+00:00",
       "fingerprint": "960000|62|3|myśliwskie",
       "id": "nieruchomosci_online_sale:26807031"
+    },
+    "nieruchomosci_online_sale:26807900": {
+      "cena": 1569000,
+      "data_wyslania": "2026-09-11T22:15:45.483626+00:00",
+      "fingerprint": "1569000|61.18|3|przymorze",
+      "id": "nieruchomosci_online_sale:26807900"
     },
     "nieruchomosci_online_sale:26807905": {
       "cena": 859000,
