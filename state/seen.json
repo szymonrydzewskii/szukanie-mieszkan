@@ -5,18 +5,19 @@
       "2026-09-12": {
         "errors": [
           "olx: OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (p",
-          "olx_sale: OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (p"
+          "olx_sale: OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (p",
+          "trojmiasto: Trojmiasto: błąd sieci (https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/): HTTPSConnectionPool(host='ogl"
         ],
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 8413,
+            "fetched": 8534,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 6992,
+            "fetched": 7088,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -40,7 +41,7 @@
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 5099,
+            "fetched": 5169,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,16 +59,16 @@
       "last_error": null
     },
     "olx": {
-      "bad": 3550,
+      "bad": 3551,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 3550,
+      "bad": 3551,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 0,
-      "last_error": null
+      "bad": 1,
+      "last_error": "Trojmiasto: błąd sieci (https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/): HTTPSConnectionPool(host='ogloszenia.trojmiasto.pl', port=443): Max retries exceeded with url: /nieruchomosci"
     },
     "trojmiasto_sale": {
       "bad": 0,
@@ -82,7 +83,7 @@
     "trojmiasto": "000066532741",
     "trojmiasto_sale": "000066532458"
   },
-  "last_run": "2026-09-12T14:01:13.669372+00:00",
+  "last_run": "2026-09-12T14:16:27.695000+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
