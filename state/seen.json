@@ -10,13 +10,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 5612,
+            "fetched": 5734,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 4771,
+            "fetched": 4872,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -34,13 +34,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 3091,
+            "fetched": 3159,
             "sent_main": 1,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 3416,
+            "fetched": 3488,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -58,11 +58,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 3527,
+      "bad": 3528,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 3527,
+      "bad": 3528,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -82,7 +82,7 @@
     "trojmiasto": "000066532089",
     "trojmiasto_sale": "000066532458"
   },
-  "last_run": "2026-09-12T08:31:01.768151+00:00",
+  "last_run": "2026-09-12T08:45:42.126684+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -12144,6 +12144,12 @@
       "fingerprint": "729000|52.7|3|brodwino",
       "id": "nieruchomosci_online_sale:26931772"
     },
+    "nieruchomosci_online_sale:26932299": {
+      "cena": 1754000,
+      "data_wyslania": "2026-09-12T08:45:42.126684+00:00",
+      "fingerprint": "1754000|67.11|3|młode miasto",
+      "id": "nieruchomosci_online_sale:26932299"
+    },
     "nieruchomosci_online_sale:26933023": {
       "cena": 999000,
       "data_wyslania": "2026-09-09T09:31:04.026748+00:00",
@@ -12257,6 +12263,12 @@
       "data_wyslania": "2026-09-05T22:30:50.647311+00:00",
       "fingerprint": "849000|48.95|2|piecki-migowo",
       "id": "nieruchomosci_online_sale:26939259"
+    },
+    "nieruchomosci_online_sale:26939957": {
+      "cena": 1099000,
+      "data_wyslania": "2026-09-12T08:45:42.126684+00:00",
+      "fingerprint": "1099000|92.25|4|chełm",
+      "id": "nieruchomosci_online_sale:26939957"
     },
     "nieruchomosci_online_sale:26940831": {
       "cena": 1249000,
