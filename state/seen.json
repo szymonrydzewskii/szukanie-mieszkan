@@ -57,13 +57,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 488,
+            "fetched": 610,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 352,
+            "fetched": 440,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -81,13 +81,13 @@
           },
           "trojmiasto": {
             "dropped": 0,
-            "fetched": 288,
+            "fetched": 360,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 274,
+            "fetched": 342,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -105,11 +105,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 3690,
+      "bad": 3691,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 3690,
+      "bad": 3691,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -122,14 +122,14 @@
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026965176",
+    "nieruchomosci_online": "000026965279",
     "nieruchomosci_online_sale": "000026965162",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066533501",
     "trojmiasto_sale": "000066533359"
   },
-  "last_run": "2026-09-13T22:45:43.918104+00:00",
+  "last_run": "2026-09-13T23:01:07.769794+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -5008,6 +5008,12 @@
       "data_wyslania": "2026-09-13T20:30:59.427652+00:00",
       "fingerprint": "4800|74|3|redłowo",
       "id": "nieruchomosci_online:26965176"
+    },
+    "nieruchomosci_online:26965279": {
+      "cena": 2200,
+      "data_wyslania": "2026-09-13T23:01:07.769794+00:00",
+      "fingerprint": "2200|35.9|1|oksywie",
+      "id": "nieruchomosci_online:26965279"
     },
     "nieruchomosci_online_sale:23703220": {
       "cena": 427000,
