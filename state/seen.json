@@ -13,13 +13,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 8107,
+            "fetched": 8228,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 6546,
+            "fetched": 6645,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -37,13 +37,13 @@
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 4629,
+            "fetched": 4702,
             "sent_main": 0,
-            "sent_near": 0
+            "sent_near": 1
           },
           "trojmiasto_sale": {
             "dropped": 0,
-            "fetched": 4537,
+            "fetched": 4606,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -61,11 +61,11 @@
       "last_error": null
     },
     "olx": {
-      "bad": 3652,
+      "bad": 3653,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 3652,
+      "bad": 3653,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
@@ -85,7 +85,7 @@
     "trojmiasto": "000066533207",
     "trojmiasto_sale": "000066532912"
   },
-  "last_run": "2026-09-13T14:01:08.764395+00:00",
+  "last_run": "2026-09-13T14:15:44.533905+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -36304,9 +36304,9 @@
       "id": "trojmiasto:66520801"
     },
     "trojmiasto:66520846": {
-      "cena": 3000,
-      "data_wyslania": "2026-08-30T14:45:41.779016+00:00",
-      "fingerprint": "3000|47|2|śródmieście",
+      "cena": 2800,
+      "data_wyslania": "2026-09-13T14:15:44.533905+00:00",
+      "fingerprint": "2800|47|2|śródmieście",
       "id": "trojmiasto:66520846"
     },
     "trojmiasto:66521031": {
