@@ -13,13 +13,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 9753,
+            "fetched": 9875,
             "sent_main": 0,
             "sent_near": 2
           },
           "nieruchomosci_online_sale": {
-            "dropped": 7,
-            "fetched": 7221,
+            "dropped": 8,
+            "fetched": 7320,
             "sent_main": 1,
             "sent_near": 0
           },
@@ -61,31 +61,31 @@
       "last_error": null
     },
     "olx": {
-      "bad": 3767,
+      "bad": 3768,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 3767,
+      "bad": 3768,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 29,
+      "bad": 30,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 29,
+      "bad": 30,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
   "high_water": {
     "nieruchomosci_online": "000026967616",
-    "nieruchomosci_online_sale": "000026967026",
+    "nieruchomosci_online_sale": "000026968011",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-09-14T17:01:13.119955+00:00",
+  "last_run": "2026-09-14T17:15:46.567106+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -7503,6 +7503,12 @@
       "fingerprint": "975000|78.34|4|śródmieście",
       "id": "nieruchomosci_online_sale:26667726"
     },
+    "nieruchomosci_online_sale:26668998": {
+      "cena": 648000,
+      "data_wyslania": "2026-09-14T17:15:46.567106+00:00",
+      "fingerprint": "648000|43.21|2|stare miasto",
+      "id": "nieruchomosci_online_sale:26668998"
+    },
     "nieruchomosci_online_sale:26669970": {
       "cena": 3300000,
       "data_wyslania": "2026-08-19T02:15:37.243754+00:00",
@@ -12735,6 +12741,12 @@
       "fingerprint": "699000|52.95|3|wrzeszcz górny",
       "id": "nieruchomosci_online_sale:26962152"
     },
+    "nieruchomosci_online_sale:26962259": {
+      "cena": 749000,
+      "data_wyslania": "2026-09-14T17:15:46.567106+00:00",
+      "fingerprint": "749000|66.2|3|pogórze",
+      "id": "nieruchomosci_online_sale:26962259"
+    },
     "nieruchomosci_online_sale:26962869": {
       "cena": 2389000,
       "data_wyslania": "2026-09-13T02:15:40.574262+00:00",
@@ -12752,6 +12764,12 @@
       "data_wyslania": "2026-09-12T21:30:59.822999+00:00",
       "fingerprint": "700000|46.19|3|górny sopot",
       "id": "nieruchomosci_online_sale:26964375"
+    },
+    "nieruchomosci_online_sale:26964616": {
+      "cena": 789000,
+      "data_wyslania": "2026-09-14T17:15:46.567106+00:00",
+      "fingerprint": "789000|53.11|3|przymorze",
+      "id": "nieruchomosci_online_sale:26964616"
     },
     "nieruchomosci_online_sale:26964751": {
       "cena": 2499000,
@@ -12794,6 +12812,12 @@
       "data_wyslania": "2026-09-14T13:58:17.725670+00:00",
       "fingerprint": "579000|39.4|2|kamienny potok",
       "id": "nieruchomosci_online_sale:26967026"
+    },
+    "nieruchomosci_online_sale:26968011": {
+      "cena": 1199000,
+      "data_wyslania": "2026-09-14T17:15:46.567106+00:00",
+      "fingerprint": "1199000|50|2|wrzeszcz",
+      "id": "nieruchomosci_online_sale:26968011"
     },
     "olx:1006019650": {
       "cena": 1800,
