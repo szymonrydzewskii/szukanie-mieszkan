@@ -12,14 +12,14 @@
         ],
         "sources": {
           "nieruchomosci_online": {
-            "dropped": 0,
-            "fetched": 5850,
+            "dropped": 1,
+            "fetched": 5972,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 4220,
+            "fetched": 4306,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -53,39 +53,39 @@
   },
   "health": {
     "nieruchomosci_online": {
-      "bad": 1,
-      "last_error": "Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Max retries exceeded with url: /szukaj.html?3,mieszkanie,wynajem,,Gda%C5%84sk (Caused by ConnectTim"
+      "bad": 0,
+      "last_error": null
     },
     "nieruchomosci_online_sale": {
-      "bad": 1,
-      "last_error": "Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Max retries exceeded with url: /szukaj.html?3,mieszkanie,sprzedaz,,Gda%C5%84sk (Caused by ConnectTi"
+      "bad": 0,
+      "last_error": null
     },
     "olx": {
-      "bad": 3735,
+      "bad": 3736,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 3735,
+      "bad": 3736,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 8,
+      "bad": 9,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 8,
+      "bad": 9,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026965279",
+    "nieruchomosci_online": "000026965705",
     "nieruchomosci_online_sale": "000026965162",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066533620",
     "trojmiasto_sale": "000066533604"
   },
-  "last_run": "2026-09-14T09:15:46.493639+00:00",
+  "last_run": "2026-09-14T09:31:03.313649+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -352,9 +352,9 @@
       "id": "nieruchomosci_online:25531387"
     },
     "nieruchomosci_online:25784183": {
-      "cena": 3700,
-      "data_wyslania": "2026-08-05T05:15:47.749550+00:00",
-      "fingerprint": "3700|51|3|piecki-migowo",
+      "cena": 3500,
+      "data_wyslania": "2026-09-14T09:31:03.313649+00:00",
+      "fingerprint": "3500|51|3|piecki-migowo",
       "id": "nieruchomosci_online:25784183"
     },
     "nieruchomosci_online:25805486": {
@@ -4982,6 +4982,12 @@
       "data_wyslania": "2026-09-13T23:01:07.769794+00:00",
       "fingerprint": "2200|35.9|1|oksywie",
       "id": "nieruchomosci_online:26965279"
+    },
+    "nieruchomosci_online:26965705": {
+      "cena": 2750,
+      "data_wyslania": "2026-09-14T09:31:03.313649+00:00",
+      "fingerprint": "2750|44.5|2|grabówek",
+      "id": "nieruchomosci_online:26965705"
     },
     "nieruchomosci_online_sale:23703220": {
       "cena": 427000,
@@ -10755,6 +10761,12 @@
       "fingerprint": "459000|26.8|1|zaspa",
       "id": "nieruchomosci_online_sale:26881113"
     },
+    "nieruchomosci_online_sale:26881330": {
+      "cena": 795000,
+      "data_wyslania": "2026-09-14T09:31:03.313649+00:00",
+      "fingerprint": "795000|43.65|2|chełm",
+      "id": "nieruchomosci_online_sale:26881330"
+    },
     "nieruchomosci_online_sale:26881411": {
       "cena": 2950000,
       "data_wyslania": "2026-08-24T09:30:52.342378+00:00",
@@ -10892,6 +10904,12 @@
       "data_wyslania": "2026-08-08T11:45:46.718519+00:00",
       "fingerprint": "1149000|67.74|3|jasień",
       "id": "nieruchomosci_online_sale:26885678"
+    },
+    "nieruchomosci_online_sale:26885940": {
+      "cena": 849000,
+      "data_wyslania": "2026-09-14T09:31:03.313649+00:00",
+      "fingerprint": "849000|71.6|3|orunia górna",
+      "id": "nieruchomosci_online_sale:26885940"
     },
     "nieruchomosci_online_sale:26886011": {
       "cena": 639000,
@@ -11522,6 +11540,18 @@
       "data_wyslania": "2026-08-27T17:31:00.469669+00:00",
       "fingerprint": "525000|41.76|2|leszczynki",
       "id": "nieruchomosci_online_sale:26907938"
+    },
+    "nieruchomosci_online_sale:26908150": {
+      "cena": 969000,
+      "data_wyslania": "2026-09-14T09:31:03.313649+00:00",
+      "fingerprint": "969000|66.38|3|piecki-migowo",
+      "id": "nieruchomosci_online_sale:26908150"
+    },
+    "nieruchomosci_online_sale:26908151": {
+      "cena": 1249000,
+      "data_wyslania": "2026-09-14T09:31:03.313649+00:00",
+      "fingerprint": "1249000|89.47|3|chwarzno-wiczlino",
+      "id": "nieruchomosci_online_sale:26908151"
     },
     "nieruchomosci_online_sale:26908973": {
       "cena": 899000,
