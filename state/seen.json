@@ -13,13 +13,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 6094,
+            "fetched": 6216,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 4395,
+            "fetched": 4484,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -37,13 +37,13 @@
           },
           "trojmiasto": {
             "dropped": 1,
-            "fetched": 2949,
+            "fetched": 3007,
             "sent_main": 0,
             "sent_near": 0
           },
           "trojmiasto_sale": {
-            "dropped": 1,
-            "fetched": 2801,
+            "dropped": 2,
+            "fetched": 2867,
             "sent_main": 0,
             "sent_near": 0
           }
@@ -61,20 +61,20 @@
       "last_error": null
     },
     "olx": {
-      "bad": 3737,
+      "bad": 3738,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 3737,
+      "bad": 3738,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 10,
-      "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
+      "bad": 0,
+      "last_error": null
     },
     "trojmiasto_sale": {
-      "bad": 10,
-      "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
+      "bad": 0,
+      "last_error": null
     }
   },
   "high_water": {
@@ -82,10 +82,10 @@
     "nieruchomosci_online_sale": "000026965798",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
-    "trojmiasto": "000066533620",
-    "trojmiasto_sale": "000066533604"
+    "trojmiasto": "000066533700",
+    "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-09-14T09:45:46.161700+00:00",
+  "last_run": "2026-09-14T10:01:37.300505+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -3098,6 +3098,12 @@
       "data_wyslania": "2026-08-12T23:31:02.919988+00:00",
       "fingerprint": "3000|58|3|śródmieście",
       "id": "nieruchomosci_online:26895062"
+    },
+    "nieruchomosci_online:26895540": {
+      "cena": 5500,
+      "data_wyslania": "2026-09-14T10:01:37.300505+00:00",
+      "fingerprint": "5500|66|3|przymorze",
+      "id": "nieruchomosci_online:26895540"
     },
     "nieruchomosci_online:26896192": {
       "cena": 2950,
@@ -35931,6 +35937,12 @@
       "fingerprint": "2350|23|1|",
       "id": "trojmiasto:66511372"
     },
+    "trojmiasto:66511700": {
+      "cena": 3300,
+      "data_wyslania": "2026-09-14T10:01:37.300505+00:00",
+      "fingerprint": "3300|50|2|wrzeszcz górny",
+      "id": "trojmiasto:66511700"
+    },
     "trojmiasto:66511980": {
       "cena": 3500,
       "data_wyslania": "2026-08-20T13:45:37.955786+00:00",
@@ -36465,6 +36477,12 @@
       "fingerprint": "2000|36|2|pogórze",
       "id": "trojmiasto:66522371"
     },
+    "trojmiasto:66522595": {
+      "cena": 5500,
+      "data_wyslania": "2026-09-14T10:01:37.300505+00:00",
+      "fingerprint": "5500|71|3|zaspa",
+      "id": "trojmiasto:66522595"
+    },
     "trojmiasto:66522712": {
       "cena": 4500,
       "data_wyslania": "2026-09-01T15:01:13.538461+00:00",
@@ -36992,6 +37010,12 @@
       "data_wyslania": "2026-09-14T07:01:15.372349+00:00",
       "fingerprint": "3000|36.6|2|",
       "id": "trojmiasto:66533620"
+    },
+    "trojmiasto:66533700": {
+      "cena": 2500,
+      "data_wyslania": "2026-09-14T10:01:37.300505+00:00",
+      "fingerprint": "2500|28|1|oliwa",
+      "id": "trojmiasto:66533700"
     },
     "trojmiasto_sale:64569988": {
       "cena": 3800000,
@@ -40257,6 +40281,12 @@
       "fingerprint": "839000|40.6|2|śródmieście",
       "id": "trojmiasto_sale:66516676"
     },
+    "trojmiasto_sale:66516866": {
+      "cena": 999000,
+      "data_wyslania": "2026-09-14T10:01:37.300505+00:00",
+      "fingerprint": "999000|80.01|4|demptowo",
+      "id": "trojmiasto_sale:66516866"
+    },
     "trojmiasto_sale:66516937": {
       "cena": 415000,
       "data_wyslania": "2026-08-29T16:15:40.197497+00:00",
@@ -40688,6 +40718,12 @@
       "data_wyslania": "2026-09-14T06:30:59.001812+00:00",
       "fingerprint": "689000|62.7|3|piecki-migowo",
       "id": "trojmiasto_sale:66533604"
+    },
+    "trojmiasto_sale:66533754": {
+      "cena": 1690000,
+      "data_wyslania": "2026-09-14T10:01:37.300505+00:00",
+      "fingerprint": "1690000|190|6|straszyn",
+      "id": "trojmiasto_sale:66533754"
     }
   },
   "version": 1
