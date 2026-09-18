@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 12,
-            "fetched": 10303,
+            "fetched": 10425,
             "sent_main": 1,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 12,
-            "fetched": 8349,
+            "fetched": 8446,
             "sent_main": 1,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 4176,
+      "bad": 4177,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 4176,
+      "bad": 4177,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 438,
+      "bad": 439,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 438,
+      "bad": 439,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-09-18T18:01:15.458180+00:00",
+  "last_run": "2026-09-18T18:15:51.153993+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -6572,6 +6572,12 @@
       "fingerprint": "1055000|46.9|2|dolny sopot",
       "id": "nieruchomosci_online_sale:26357219"
     },
+    "nieruchomosci_online_sale:26358532": {
+      "cena": 889945,
+      "data_wyslania": "2026-09-18T18:15:51.153993+00:00",
+      "fingerprint": "889945|37.87|2|śródmieście",
+      "id": "nieruchomosci_online_sale:26358532"
+    },
     "nieruchomosci_online_sale:26362730": {
       "cena": 719000,
       "data_wyslania": "2026-09-14T10:45:48.466472+00:00",
@@ -10303,6 +10309,12 @@
       "data_wyslania": "2026-08-27T14:01:10.715373+00:00",
       "fingerprint": "669000|67|2|chełm",
       "id": "nieruchomosci_online_sale:26835000"
+    },
+    "nieruchomosci_online_sale:26835355": {
+      "cena": 1352630,
+      "data_wyslania": "2026-09-18T18:15:51.153993+00:00",
+      "fingerprint": "1352630|58.81|3|śródmieście",
+      "id": "nieruchomosci_online_sale:26835355"
     },
     "nieruchomosci_online_sale:26835384": {
       "cena": 599000,
