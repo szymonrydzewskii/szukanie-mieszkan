@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 4680,
+            "fetched": 4800,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 3976,
+            "fetched": 4078,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 4537,
+      "bad": 4538,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 4537,
+      "bad": 4538,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 799,
+      "bad": 800,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 799,
+      "bad": 800,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-09-22T07:15:56.486352+00:00",
+  "last_run": "2026-09-22T07:31:02.812165+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -14395,6 +14395,12 @@
       "data_wyslania": "2026-09-21T12:15:44.014452+00:00",
       "fingerprint": "615000|59.4|3|karwiny",
       "id": "nieruchomosci_online_sale:26983183"
+    },
+    "nieruchomosci_online_sale:26983188": {
+      "cena": 509000,
+      "data_wyslania": "2026-09-22T07:31:02.812165+00:00",
+      "fingerprint": "509000|30|2|przymorze",
+      "id": "nieruchomosci_online_sale:26983188"
     },
     "nieruchomosci_online_sale:26983458": {
       "cena": 579000,
