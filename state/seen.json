@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 8978,
+            "fetched": 9100,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 3,
-            "fetched": 7542,
+            "fetched": 7643,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 4672,
+      "bad": 4673,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 4672,
+      "bad": 4673,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 934,
+      "bad": 935,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 934,
+      "bad": 935,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-09-23T15:31:04.989131+00:00",
+  "last_run": "2026-09-23T15:45:43.619385+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -3823,6 +3823,12 @@
       "data_wyslania": "2026-09-02T09:30:58.158786+00:00",
       "fingerprint": "4950|59|3|dolny sopot",
       "id": "nieruchomosci_online:26937716"
+    },
+    "nieruchomosci_online:26938076": {
+      "cena": 2750,
+      "data_wyslania": "2026-09-23T15:45:43.619385+00:00",
+      "fingerprint": "2750|48|2|wyspa spichrzów",
+      "id": "nieruchomosci_online:26938076"
     },
     "nieruchomosci_online:26938111": {
       "cena": 2700,
@@ -15212,12 +15218,6 @@
       "fingerprint": "2200|18|1|wrzeszcz",
       "id": "olx:1082606123"
     },
-    "olx:1082632288": {
-      "cena": 2600,
-      "data_wyslania": "2026-07-25T15:45:43.332971+00:00",
-      "fingerprint": "2600|31.5|1|zaspa młyniec",
-      "id": "olx:1082632288"
-    },
     "olx:1082693290": {
       "cena": 3000,
       "data_wyslania": "2026-08-07T09:31:07.251290+00:00",
@@ -15662,12 +15662,6 @@
       "fingerprint": "2000|22|1|wzgórze świętego maksymiliana",
       "id": "olx:1083737085"
     },
-    "olx:1083744264": {
-      "cena": 2890,
-      "data_wyslania": "2026-07-25T15:45:43.332971+00:00",
-      "fingerprint": "2890|30|1|śródmieście",
-      "id": "olx:1083744264"
-    },
     "olx:1083746927": {
       "cena": 2299,
       "data_wyslania": "2026-08-05T09:31:05.476033+00:00",
@@ -15907,12 +15901,6 @@
       "data_wyslania": "2026-08-06T12:22:12.263421+00:00",
       "fingerprint": "2500|19|1|wrzeszcz",
       "id": "olx:1084386577"
-    },
-    "olx:1084388166": {
-      "cena": 2100,
-      "data_wyslania": "2026-07-25T15:45:43.332971+00:00",
-      "fingerprint": "2100|36|1|siedlce",
-      "id": "olx:1084388166"
     },
     "olx:1084429517": {
       "cena": 3000,
@@ -16573,12 +16561,6 @@
       "data_wyslania": "2026-07-25T22:01:09.859638+00:00",
       "fingerprint": "1990|30|1|orunia - św. wojciech - lipce",
       "id": "olx:1087387053"
-    },
-    "olx:1087399018": {
-      "cena": 2800,
-      "data_wyslania": "2026-07-25T15:45:43.332971+00:00",
-      "fingerprint": "2800|25|1|suchanino",
-      "id": "olx:1087399018"
     },
     "olx:1087401847": {
       "cena": 1500,
@@ -35095,12 +35077,6 @@
       "data_wyslania": "2026-07-26T12:45:42.052871+00:00",
       "fingerprint": "870000|62.41|3|ujeścisko",
       "id": "trojmiasto_sale:65946544"
-    },
-    "trojmiasto_sale:65946549": {
-      "cena": 1125000,
-      "data_wyslania": "2026-07-25T15:45:43.332971+00:00",
-      "fingerprint": "1125000|85.5|4|matarnia",
-      "id": "trojmiasto_sale:65946549"
     },
     "trojmiasto_sale:65960642": {
       "cena": 420000,
