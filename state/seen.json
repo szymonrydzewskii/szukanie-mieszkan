@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 10806,
+            "fetched": 10928,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 9058,
+            "fetched": 9158,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 4687,
+      "bad": 4688,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 4687,
+      "bad": 4688,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 949,
+      "bad": 950,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 949,
+      "bad": 950,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-09-23T19:01:15.476320+00:00",
+  "last_run": "2026-09-23T19:15:44.376136+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -1519,12 +1519,6 @@
       "data_wyslania": "2026-09-05T11:30:53.159480+00:00",
       "fingerprint": "3500|48.69|2|wrzeszcz",
       "id": "nieruchomosci_online:26853018"
-    },
-    "nieruchomosci_online:26854838": {
-      "cena": 2100,
-      "data_wyslania": "2026-07-25T19:15:42.139249+00:00",
-      "fingerprint": "2100|37.3|2|witomino",
-      "id": "nieruchomosci_online:26854838"
     },
     "nieruchomosci_online:26855306": {
       "cena": 2700,
@@ -5738,12 +5732,6 @@
       "fingerprint": "605467|43.56|2|dąbrowa",
       "id": "nieruchomosci_online_sale:25796851"
     },
-    "nieruchomosci_online_sale:25802240": {
-      "cena": 686400,
-      "data_wyslania": "2026-07-25T19:15:42.139249+00:00",
-      "fingerprint": "686400|52|3|suchanino",
-      "id": "nieruchomosci_online_sale:25802240"
-    },
     "nieruchomosci_online_sale:25802938": {
       "cena": 4290000,
       "data_wyslania": "2026-08-11T10:45:47.041740+00:00",
@@ -6613,12 +6601,6 @@
       "data_wyslania": "2026-08-31T08:30:54.530535+00:00",
       "fingerprint": "670000|43.39|2|gdynia",
       "id": "nieruchomosci_online_sale:26457608"
-    },
-    "nieruchomosci_online_sale:26458747": {
-      "cena": 1039000,
-      "data_wyslania": "2026-07-25T19:15:42.139249+00:00",
-      "fingerprint": "1039000|72.84|3|działki leśne",
-      "id": "nieruchomosci_online_sale:26458747"
     },
     "nieruchomosci_online_sale:26460488": {
       "cena": 769000,
@@ -16495,18 +16477,6 @@
       "data_wyslania": "2026-07-25T19:51:36.362411+00:00",
       "fingerprint": "2900|41|2|piecki-migowo",
       "id": "olx:1087427887"
-    },
-    "olx:1087430331": {
-      "cena": 2600,
-      "data_wyslania": "2026-07-25T19:15:42.139249+00:00",
-      "fingerprint": "2600|42|2|śródmieście",
-      "id": "olx:1087430331"
-    },
-    "olx:1087431154": {
-      "cena": 2900,
-      "data_wyslania": "2026-07-25T19:15:42.139249+00:00",
-      "fingerprint": "2900|43|2|",
-      "id": "olx:1087431154"
     },
     "olx:1087435880": {
       "cena": 2550,
@@ -32437,12 +32407,6 @@
       "data_wyslania": "2026-07-30T23:29:11.002026+00:00",
       "fingerprint": "2600|43|2|grabówek",
       "id": "trojmiasto:66473081"
-    },
-    "trojmiasto:66474290": {
-      "cena": 3150,
-      "data_wyslania": "2026-07-25T19:15:42.139249+00:00",
-      "fingerprint": "3150|40|2|przymorze wielkie",
-      "id": "trojmiasto:66474290"
     },
     "trojmiasto:66475135": {
       "cena": 3800,
