@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 4,
-            "fetched": 6904,
+            "fetched": 7026,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 3,
-            "fetched": 5816,
+            "fetched": 5919,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,31 +60,31 @@
       "last_error": null
     },
     "olx": {
-      "bad": 4655,
+      "bad": 4656,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 4655,
+      "bad": 4656,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 917,
+      "bad": 918,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 917,
+      "bad": 918,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026989754",
+    "nieruchomosci_online": "000026990410",
     "nieruchomosci_online_sale": "000026989888",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-09-23T11:31:02.241230+00:00",
+  "last_run": "2026-09-23T11:45:48.280710+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -5461,6 +5461,12 @@
       "data_wyslania": "2026-09-23T09:31:37.631770+00:00",
       "fingerprint": "2100|37|1|mały kack",
       "id": "nieruchomosci_online:26989754"
+    },
+    "nieruchomosci_online:26990410": {
+      "cena": 1800,
+      "data_wyslania": "2026-09-23T11:45:48.280710+00:00",
+      "fingerprint": "1800|36|2|pogórze",
+      "id": "nieruchomosci_online:26990410"
     },
     "nieruchomosci_online_sale:23703220": {
       "cena": 427000,
@@ -16628,12 +16634,6 @@
       "fingerprint": "3500|46.55|1|śródmieście",
       "id": "olx:1087225912"
     },
-    "olx:1087358954": {
-      "cena": 2500,
-      "data_wyslania": "2026-07-25T11:45:41.338636+00:00",
-      "fingerprint": "2500|24|1|żabianka - wejhera - jelitkowo - tysiąclecia",
-      "id": "olx:1087358954"
-    },
     "olx:1087369142": {
       "cena": 2750,
       "data_wyslania": "2026-07-25T14:17:24.798865+00:00",
@@ -27692,12 +27692,6 @@
       "fingerprint": "850000|69|3|orunia - św. wojciech - lipce",
       "id": "olx_sale:1082408075"
     },
-    "olx_sale:1082463983": {
-      "cena": 440000,
-      "data_wyslania": "2026-07-25T11:45:41.338636+00:00",
-      "fingerprint": "440000|37.6|2|witomino-radiostacja",
-      "id": "olx_sale:1082463983"
-    },
     "olx_sale:1082465629": {
       "cena": 606510,
       "data_wyslania": "2026-07-30T16:01:06.020043+00:00",
@@ -27853,12 +27847,6 @@
       "data_wyslania": "2026-08-01T13:01:16.788467+00:00",
       "fingerprint": "835000|43.16|2|letnica",
       "id": "olx_sale:1083105332"
-    },
-    "olx_sale:1083138638": {
-      "cena": 619000,
-      "data_wyslania": "2026-07-25T11:45:41.338636+00:00",
-      "fingerprint": "619000|56|3|",
-      "id": "olx_sale:1083138638"
     },
     "olx_sale:1083187514": {
       "cena": 520000,
@@ -28435,12 +28423,6 @@
       "data_wyslania": "2026-07-31T05:30:58.336438+00:00",
       "fingerprint": "596445|54.1|2|żabianka - wejhera - jelitkowo - tysiąclecia",
       "id": "olx_sale:1087137394"
-    },
-    "olx_sale:1087144627": {
-      "cena": 529000,
-      "data_wyslania": "2026-07-25T11:45:41.338636+00:00",
-      "fingerprint": "529000|49.5|2|piecki-migowo",
-      "id": "olx_sale:1087144627"
     },
     "olx_sale:1087188424": {
       "cena": 525000,
@@ -35641,12 +35623,6 @@
       "data_wyslania": "2026-08-12T09:31:09.206623+00:00",
       "fingerprint": "2649999|83.44|4|śródmieście",
       "id": "trojmiasto_sale:66100319"
-    },
-    "trojmiasto_sale:66101901": {
-      "cena": 2990000,
-      "data_wyslania": "2026-07-25T11:45:41.338636+00:00",
-      "fingerprint": "2990000|320|8|przyjaźń",
-      "id": "trojmiasto_sale:66101901"
     },
     "trojmiasto_sale:66114107": {
       "cena": 1091796,
