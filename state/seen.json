@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 10176,
+            "fetched": 10298,
             "sent_main": 2,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 8434,
+            "fetched": 8532,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 4783,
+      "bad": 4784,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 4783,
+      "bad": 4784,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 1045,
+      "bad": 1046,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 1045,
+      "bad": 1046,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-09-24T17:45:50.724255+00:00",
+  "last_run": "2026-09-24T18:01:12.560468+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -13796,12 +13796,6 @@
       "fingerprint": "2600|43|2|jasień",
       "id": "olx:1057545156"
     },
-    "olx:1057820590": {
-      "cena": 2000,
-      "data_wyslania": "2026-07-26T18:01:08.539116+00:00",
-      "fingerprint": "2000|17|1|górny sopot",
-      "id": "olx:1057820590"
-    },
     "olx:1058967162": {
       "cena": 2800,
       "data_wyslania": "2026-07-31T07:15:45.820716+00:00",
@@ -15458,12 +15452,6 @@
       "fingerprint": "2500|51|2|chełm z dzielnicą gdańsk południe",
       "id": "olx:1085041918"
     },
-    "olx:1085048031": {
-      "cena": 3000,
-      "data_wyslania": "2026-07-26T18:01:08.539116+00:00",
-      "fingerprint": "3000|32|1|przymorze wielkie",
-      "id": "olx:1085048031"
-    },
     "olx:1085049775": {
       "cena": 3800,
       "data_wyslania": "2026-08-06T22:01:01.323359+00:00",
@@ -15961,18 +15949,6 @@
       "data_wyslania": "2026-07-26T18:15:42.050003+00:00",
       "fingerprint": "2100|34|1|jasień",
       "id": "olx:1087569646"
-    },
-    "olx:1087570057": {
-      "cena": 1800,
-      "data_wyslania": "2026-07-26T18:01:08.539116+00:00",
-      "fingerprint": "1800|34|2|",
-      "id": "olx:1087570057"
-    },
-    "olx:1087570066": {
-      "cena": 2600,
-      "data_wyslania": "2026-07-26T18:01:08.539116+00:00",
-      "fingerprint": "2600|45|2|chełm z dzielnicą gdańsk południe",
-      "id": "olx:1087570066"
     },
     "olx:1087577378": {
       "cena": 5000,
@@ -24524,12 +24500,6 @@
       "fingerprint": "1099917|77.35|4|piecki-migowo",
       "id": "olx_sale:1032848185"
     },
-    "olx_sale:1032848246": {
-      "cena": 863584,
-      "data_wyslania": "2026-07-26T18:01:08.539116+00:00",
-      "fingerprint": "863584|49.68|2|wyspa sobieszewska",
-      "id": "olx_sale:1032848246"
-    },
     "olx_sale:1035837854": {
       "cena": 1089728,
       "data_wyslania": "2026-07-27T07:31:00.296896+00:00",
@@ -24985,12 +24955,6 @@
       "data_wyslania": "2026-07-27T11:01:12.851201+00:00",
       "fingerprint": "1112150|74.2|2|wyspa sobieszewska",
       "id": "olx_sale:1057254559"
-    },
-    "olx_sale:1057254581": {
-      "cena": 669775,
-      "data_wyslania": "2026-07-26T18:01:08.539116+00:00",
-      "fingerprint": "669775|36.5|1|młyniska",
-      "id": "olx_sale:1057254581"
     },
     "olx_sale:1057496422": {
       "cena": 994881,
@@ -25580,12 +25544,6 @@
       "fingerprint": "653000|50.14|3|",
       "id": "olx_sale:1072924709"
     },
-    "olx_sale:1073393551": {
-      "cena": 373087,
-      "data_wyslania": "2026-07-26T18:01:08.539116+00:00",
-      "fingerprint": "373087|26.09|1|",
-      "id": "olx_sale:1073393551"
-    },
     "olx_sale:1073674440": {
       "cena": 524412,
       "data_wyslania": "2026-07-27T07:31:00.296896+00:00",
@@ -25729,12 +25687,6 @@
       "data_wyslania": "2026-08-02T08:15:40.411712+00:00",
       "fingerprint": "1408237|119.85|4|olszynka",
       "id": "olx_sale:1076242592"
-    },
-    "olx_sale:1076374176": {
-      "cena": 700178,
-      "data_wyslania": "2026-07-26T18:01:08.539116+00:00",
-      "fingerprint": "700178|56.77|3|",
-      "id": "olx_sale:1076374176"
     },
     "olx_sale:1076385008": {
       "cena": 2239000,
@@ -27019,18 +26971,6 @@
       "data_wyslania": "2026-07-27T07:31:00.296896+00:00",
       "fingerprint": "409|52.01|1|",
       "id": "olx_sale:1087215763"
-    },
-    "olx_sale:1087568955": {
-      "cena": 711621,
-      "data_wyslania": "2026-07-26T18:01:08.539116+00:00",
-      "fingerprint": "711621|64.11|3|",
-      "id": "olx_sale:1087568955"
-    },
-    "olx_sale:1087569262": {
-      "cena": 1298086,
-      "data_wyslania": "2026-07-26T18:01:08.539116+00:00",
-      "fingerprint": "1298086|62.05|4|jasień",
-      "id": "olx_sale:1087569262"
     },
     "olx_sale:1087611071": {
       "cena": 1029000,
@@ -31375,12 +31315,6 @@
       "data_wyslania": "2026-07-31T12:45:48.794942+00:00",
       "fingerprint": "3100|49|2|jasień",
       "id": "trojmiasto:66486925"
-    },
-    "trojmiasto:66487951": {
-      "cena": 3200,
-      "data_wyslania": "2026-07-26T18:01:08.539116+00:00",
-      "fingerprint": "3200|53|3|brodwino",
-      "id": "trojmiasto:66487951"
     },
     "trojmiasto:66487957": {
       "cena": 3000,
