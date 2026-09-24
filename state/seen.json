@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 9810,
+            "fetched": 9932,
             "sent_main": 2,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 8140,
+            "fetched": 8238,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 4780,
+      "bad": 4781,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 4780,
+      "bad": 4781,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 1042,
+      "bad": 1043,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 1042,
+      "bad": 1043,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-09-24T17:01:17.475348+00:00",
+  "last_run": "2026-09-24T17:15:54.321303+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -15962,18 +15962,6 @@
       "fingerprint": "2500|38|2|chełm z dzielnicą gdańsk południe",
       "id": "olx:1087420649"
     },
-    "olx:1087560607": {
-      "cena": 2500,
-      "data_wyslania": "2026-07-26T17:15:43.652329+00:00",
-      "fingerprint": "2500|39|2|śródmieście",
-      "id": "olx:1087560607"
-    },
-    "olx:1087560802": {
-      "cena": 2200,
-      "data_wyslania": "2026-07-26T17:15:43.652329+00:00",
-      "fingerprint": "2200|30|1|chełm z dzielnicą gdańsk południe",
-      "id": "olx:1087560802"
-    },
     "olx:1087563435": {
       "cena": 3000,
       "data_wyslania": "2026-07-26T17:30:53.240799+00:00",
@@ -30788,12 +30776,6 @@
       "fingerprint": "2800|40|2|stogi",
       "id": "trojmiasto:66252376"
     },
-    "trojmiasto:66279579": {
-      "cena": 2350,
-      "data_wyslania": "2026-07-26T17:15:43.652329+00:00",
-      "fingerprint": "2350|32|2|jasień",
-      "id": "trojmiasto:66279579"
-    },
     "trojmiasto:66279711": {
       "cena": 2900,
       "data_wyslania": "2026-08-19T18:15:37.481067+00:00",
@@ -31190,12 +31172,6 @@
       "fingerprint": "3200|47|2|zaspa",
       "id": "trojmiasto:66468980"
     },
-    "trojmiasto:66469465": {
-      "cena": 400,
-      "data_wyslania": "2026-07-26T17:15:43.652329+00:00",
-      "fingerprint": "400|60|3|",
-      "id": "trojmiasto:66469465"
-    },
     "trojmiasto:66469525": {
       "cena": 1800,
       "data_wyslania": "2026-08-17T07:15:37.142064+00:00",
@@ -31501,12 +31477,6 @@
       "data_wyslania": "2026-07-31T12:45:48.794942+00:00",
       "fingerprint": "3000|49|2|zaspa",
       "id": "trojmiasto:66490683"
-    },
-    "trojmiasto:66490994": {
-      "cena": 2600,
-      "data_wyslania": "2026-07-26T17:15:43.652329+00:00",
-      "fingerprint": "2600|36|2|śródmieście",
-      "id": "trojmiasto:66490994"
     },
     "trojmiasto:66491285": {
       "cena": 2400,
@@ -35083,12 +35053,6 @@
       "data_wyslania": "2026-08-11T05:43:12.022595+00:00",
       "fingerprint": "240000|22.4|1|bolszewo",
       "id": "trojmiasto_sale:66481137"
-    },
-    "trojmiasto_sale:66481374": {
-      "cena": 285000,
-      "data_wyslania": "2026-07-26T17:15:43.652329+00:00",
-      "fingerprint": "285000|33.63|1|orunia",
-      "id": "trojmiasto_sale:66481374"
     },
     "trojmiasto_sale:66481412": {
       "cena": 599000,
