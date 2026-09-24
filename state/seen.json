@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 6,
-            "fetched": 11391,
+            "fetched": 11512,
             "sent_main": 2,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 3,
-            "fetched": 9424,
+            "fetched": 9524,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 4793,
+      "bad": 4794,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 4793,
+      "bad": 4794,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 1055,
+      "bad": 1056,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 1055,
+      "bad": 1056,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-09-24T20:01:13.098571+00:00",
+  "last_run": "2026-09-24T20:15:47.852730+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -1423,12 +1423,6 @@
       "data_wyslania": "2026-07-27T10:30:59.754987+00:00",
       "fingerprint": "3000|50|2|wzgórze św. maksymiliana",
       "id": "nieruchomosci_online:26855319"
-    },
-    "nieruchomosci_online:26855547": {
-      "cena": 2400,
-      "data_wyslania": "2026-07-26T20:01:48.803887+00:00",
-      "fingerprint": "2400|31.71|1|gdańsk",
-      "id": "nieruchomosci_online:26855547"
     },
     "nieruchomosci_online:26855916": {
       "cena": 2299,
@@ -15668,12 +15662,6 @@
       "fingerprint": "2900|52|2|redłowo",
       "id": "olx:1086299252"
     },
-    "olx:1086305641": {
-      "cena": 4000,
-      "data_wyslania": "2026-07-26T20:01:48.803887+00:00",
-      "fingerprint": "4000|55|3|zaspa rozstaje",
-      "id": "olx:1086305641"
-    },
     "olx:1086315511": {
       "cena": 3100,
       "data_wyslania": "2026-08-10T20:26:25.112266+00:00",
@@ -15955,18 +15943,6 @@
       "data_wyslania": "2026-08-11T07:15:46.041191+00:00",
       "fingerprint": "2800|26|1|piecki-migowo",
       "id": "olx:1087585432"
-    },
-    "olx:1087593997": {
-      "cena": 3000,
-      "data_wyslania": "2026-07-26T20:15:45.284327+00:00",
-      "fingerprint": "3000|38|2|oliwa",
-      "id": "olx:1087593997"
-    },
-    "olx:1087594517": {
-      "cena": 1700,
-      "data_wyslania": "2026-07-26T20:15:45.284327+00:00",
-      "fingerprint": "1700|48|2|śródmieście",
-      "id": "olx:1087594517"
     },
     "olx:1087598620": {
       "cena": 2000,
