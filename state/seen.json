@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 7,
-            "fetched": 11875,
+            "fetched": 11996,
             "sent_main": 2,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 3,
-            "fetched": 9824,
+            "fetched": 9924,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 4797,
+      "bad": 4798,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 4797,
+      "bad": 4798,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 1059,
+      "bad": 1060,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 1059,
+      "bad": 1060,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-09-24T21:01:14.100580+00:00",
+  "last_run": "2026-09-24T21:15:45.815932+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -15938,18 +15938,6 @@
       "fingerprint": "2800|26|1|piecki-migowo",
       "id": "olx:1087585432"
     },
-    "olx:1087599612": {
-      "cena": 2400,
-      "data_wyslania": "2026-07-26T21:01:15.813523+00:00",
-      "fingerprint": "2400|42.92|2|chylonia",
-      "id": "olx:1087599612"
-    },
-    "olx:1087601283": {
-      "cena": 2690,
-      "data_wyslania": "2026-07-26T21:09:03.435245+00:00",
-      "fingerprint": "2690|33|1|śródmieście",
-      "id": "olx:1087601283"
-    },
     "olx:1087604895": {
       "cena": 3100,
       "data_wyslania": "2026-07-27T05:45:43.460889+00:00",
@@ -26126,12 +26114,6 @@
       "fingerprint": "720000|56.99|2|pustki cisowskie-demptowo",
       "id": "olx_sale:1082042567"
     },
-    "olx_sale:1082080190": {
-      "cena": 949000,
-      "data_wyslania": "2026-07-26T21:09:03.435245+00:00",
-      "fingerprint": "949000|49.8|2|",
-      "id": "olx_sale:1082080190"
-    },
     "olx_sale:1082130581": {
       "cena": 389000,
       "data_wyslania": "2026-07-27T09:01:08.246736+00:00",
@@ -26143,12 +26125,6 @@
       "data_wyslania": "2026-07-28T14:15:46.530232+00:00",
       "fingerprint": "990000|50.2|2|orłowo",
       "id": "olx_sale:1082173014"
-    },
-    "olx_sale:1082180967": {
-      "cena": 699000,
-      "data_wyslania": "2026-07-26T21:09:03.435245+00:00",
-      "fingerprint": "699000|38|2|kamienna góra",
-      "id": "olx_sale:1082180967"
     },
     "olx_sale:1082230998": {
       "cena": 599000,
