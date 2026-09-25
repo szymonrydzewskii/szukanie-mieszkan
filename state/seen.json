@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 4719,
+            "fetched": 4840,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 3897,
+            "fetched": 3991,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 4840,
+      "bad": 4841,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 4840,
+      "bad": 4841,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 1102,
+      "bad": 1103,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 1102,
+      "bad": 1103,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-09-25T07:01:15.683214+00:00",
+  "last_run": "2026-09-25T07:15:47.514409+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -8576,12 +8576,6 @@
       "fingerprint": "779000|44.5|2|piecki-migowo",
       "id": "nieruchomosci_online_sale:26778846"
     },
-    "nieruchomosci_online_sale:26780813": {
-      "cena": 785000,
-      "data_wyslania": "2026-07-27T07:15:44.649109+00:00",
-      "fingerprint": "785000|57.6|3|chełm",
-      "id": "nieruchomosci_online_sale:26780813"
-    },
     "nieruchomosci_online_sale:26781091": {
       "cena": 949000,
       "data_wyslania": "2026-07-30T22:15:09.502446+00:00",
@@ -13405,12 +13399,6 @@
       "data_wyslania": "2026-07-28T16:15:39.620022+00:00",
       "fingerprint": "2400|27|1|śródmieście",
       "id": "olx:1022555211"
-    },
-    "olx:1022813565": {
-      "cena": 3000,
-      "data_wyslania": "2026-07-27T07:15:44.649109+00:00",
-      "fingerprint": "3000|40|2|letnica",
-      "id": "olx:1022813565"
     },
     "olx:1023689040": {
       "cena": 1900,
@@ -30265,12 +30253,6 @@
       "data_wyslania": "2026-09-04T07:45:41.575613+00:00",
       "fingerprint": "12500|105|3|śródmieście",
       "id": "trojmiasto:65992100"
-    },
-    "trojmiasto:66059543": {
-      "cena": 2500,
-      "data_wyslania": "2026-07-27T07:15:44.649109+00:00",
-      "fingerprint": "2500|45|2|pruszcz gdański",
-      "id": "trojmiasto:66059543"
     },
     "trojmiasto:66085181": {
       "cena": 1699,
