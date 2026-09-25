@@ -58,13 +58,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 605,
+            "fetched": 726,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
-            "dropped": 0,
-            "fetched": 505,
+            "dropped": 1,
+            "fetched": 606,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -106,31 +106,31 @@
       "last_error": null
     },
     "olx": {
-      "bad": 4905,
+      "bad": 4906,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 4905,
+      "bad": 4906,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 1167,
+      "bad": 1168,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 1167,
+      "bad": 1168,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
   "high_water": {
     "nieruchomosci_online": "000026998066",
-    "nieruchomosci_online_sale": "000026997631",
+    "nieruchomosci_online_sale": "000026998362",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-09-25T23:01:12.815541+00:00",
+  "last_run": "2026-09-25T23:15:41.677910+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -12845,6 +12845,12 @@
       "data_wyslania": "2026-09-25T15:01:19.008117+00:00",
       "fingerprint": "1100000|66|3|śródmieście",
       "id": "nieruchomosci_online_sale:26997631"
+    },
+    "nieruchomosci_online_sale:26998362": {
+      "cena": 930000,
+      "data_wyslania": "2026-09-25T23:15:41.677910+00:00",
+      "fingerprint": "930000|64.75|3|łostowice",
+      "id": "nieruchomosci_online_sale:26998362"
     },
     "olx:1006019650": {
       "cena": 1800,
