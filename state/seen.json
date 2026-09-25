@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 8331,
+            "fetched": 8452,
             "sent_main": 0,
             "sent_near": 2
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 6836,
+            "fetched": 6937,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 4870,
+      "bad": 4871,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 4870,
+      "bad": 4871,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 1132,
+      "bad": 1133,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 1132,
+      "bad": 1133,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-09-25T14:15:44.876435+00:00",
+  "last_run": "2026-09-25T14:31:09.894691+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -15338,48 +15338,6 @@
       "fingerprint": "3600|64|3|śródmieście",
       "id": "olx:1087672723"
     },
-    "olx:1087715132": {
-      "cena": 2500,
-      "data_wyslania": "2026-07-27T14:15:49.189029+00:00",
-      "fingerprint": "2500|47|2|strzyża",
-      "id": "olx:1087715132"
-    },
-    "olx:1087717690": {
-      "cena": 2300,
-      "data_wyslania": "2026-07-27T14:31:01.257854+00:00",
-      "fingerprint": "2300|48|2|karwiny",
-      "id": "olx:1087717690"
-    },
-    "olx:1087718833": {
-      "cena": 2600,
-      "data_wyslania": "2026-07-27T14:15:49.189029+00:00",
-      "fingerprint": "2600|49|2|wrzeszcz",
-      "id": "olx:1087718833"
-    },
-    "olx:1087720898": {
-      "cena": 3000,
-      "data_wyslania": "2026-07-27T14:15:49.189029+00:00",
-      "fingerprint": "3000|39|2|śródmieście",
-      "id": "olx:1087720898"
-    },
-    "olx:1087722694": {
-      "cena": 3200,
-      "data_wyslania": "2026-07-27T14:15:49.189029+00:00",
-      "fingerprint": "3200|47|2|śródmieście",
-      "id": "olx:1087722694"
-    },
-    "olx:1087723321": {
-      "cena": 3200,
-      "data_wyslania": "2026-07-27T14:31:01.257854+00:00",
-      "fingerprint": "3200|69|3|jasień",
-      "id": "olx:1087723321"
-    },
-    "olx:1087724733": {
-      "cena": 2700,
-      "data_wyslania": "2026-07-27T14:31:01.257854+00:00",
-      "fingerprint": "2700|46.3|2|ujeścisko - łostowice",
-      "id": "olx:1087724733"
-    },
     "olx:1087734270": {
       "cena": 3500,
       "data_wyslania": "2026-07-27T15:15:42.545657+00:00",
@@ -25742,12 +25700,6 @@
       "fingerprint": "739000|53|2|wrzeszcz",
       "id": "olx_sale:1086188262"
     },
-    "olx_sale:1086532790": {
-      "cena": 1150000,
-      "data_wyslania": "2026-07-27T14:31:01.257854+00:00",
-      "fingerprint": "1150000|44.3|2|",
-      "id": "olx_sale:1086532790"
-    },
     "olx_sale:1086568413": {
       "cena": 850000,
       "data_wyslania": "2026-07-28T10:45:41.018619+00:00",
@@ -25807,12 +25759,6 @@
       "data_wyslania": "2026-07-31T05:30:58.336438+00:00",
       "fingerprint": "596445|54.1|2|żabianka - wejhera - jelitkowo - tysiąclecia",
       "id": "olx_sale:1087137394"
-    },
-    "olx_sale:1087721298": {
-      "cena": 1985000,
-      "data_wyslania": "2026-07-27T14:15:49.189029+00:00",
-      "fingerprint": "1985000|55|2|oliwa",
-      "id": "olx_sale:1087721298"
     },
     "olx_sale:1087748500": {
       "cena": 464500,
