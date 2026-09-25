@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 7242,
+            "fetched": 7363,
             "sent_main": 0,
             "sent_near": 2
           },
           "nieruchomosci_online_sale": {
-            "dropped": 3,
-            "fetched": 5938,
+            "dropped": 4,
+            "fetched": 6040,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,31 +60,31 @@
       "last_error": null
     },
     "olx": {
-      "bad": 4861,
+      "bad": 4862,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 4861,
+      "bad": 4862,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 1123,
+      "bad": 1124,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 1123,
+      "bad": 1124,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000026996714",
-    "nieruchomosci_online_sale": "000026991444",
+    "nieruchomosci_online": "000026997003",
+    "nieruchomosci_online_sale": "000026996971",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-09-25T12:01:16.682929+00:00",
+  "last_run": "2026-09-25T12:15:48.137312+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -1339,12 +1339,6 @@
       "data_wyslania": "2026-09-05T11:30:53.159480+00:00",
       "fingerprint": "3500|48.69|2|wrzeszcz",
       "id": "nieruchomosci_online:26853018"
-    },
-    "nieruchomosci_online:26857076": {
-      "cena": 3000,
-      "data_wyslania": "2026-07-27T12:15:47.656305+00:00",
-      "fingerprint": "3000|49.89|2|redłowo",
-      "id": "nieruchomosci_online:26857076"
     },
     "nieruchomosci_online:26857124": {
       "cena": 3300,
@@ -5413,6 +5407,18 @@
       "data_wyslania": "2026-09-25T11:15:49.447477+00:00",
       "fingerprint": "1900|45|2|chylonia",
       "id": "nieruchomosci_online:26996714"
+    },
+    "nieruchomosci_online:26997000": {
+      "cena": 3500,
+      "data_wyslania": "2026-09-25T12:15:48.137312+00:00",
+      "fingerprint": "3500|40|2|dolny sopot",
+      "id": "nieruchomosci_online:26997000"
+    },
+    "nieruchomosci_online:26997003": {
+      "cena": 2300,
+      "data_wyslania": "2026-09-25T12:15:48.137312+00:00",
+      "fingerprint": "2300|35.5|2|śródmieście",
+      "id": "nieruchomosci_online:26997003"
     },
     "nieruchomosci_online_sale:23703220": {
       "cena": 427000,
@@ -12944,6 +12950,12 @@
       "fingerprint": "790000|39.94|2|chwarzno-wiczlino",
       "id": "nieruchomosci_online_sale:26991444"
     },
+    "nieruchomosci_online_sale:26996971": {
+      "cena": 443000,
+      "data_wyslania": "2026-09-25T12:15:48.137312+00:00",
+      "fingerprint": "443000|37.5|2|chylonia",
+      "id": "nieruchomosci_online_sale:26996971"
+    },
     "olx:1006019650": {
       "cena": 1800,
       "data_wyslania": "2026-07-29T14:31:06.068837+00:00",
@@ -15385,42 +15397,6 @@
       "data_wyslania": "2026-07-31T19:01:15.438096+00:00",
       "fingerprint": "3600|64|3|śródmieście",
       "id": "olx:1087672723"
-    },
-    "olx:1087673939": {
-      "cena": 3300,
-      "data_wyslania": "2026-07-27T12:15:47.656305+00:00",
-      "fingerprint": "3300|78|4|wzgórze świętego maksymiliana",
-      "id": "olx:1087673939"
-    },
-    "olx:1087681382": {
-      "cena": 2850,
-      "data_wyslania": "2026-07-27T12:15:47.656305+00:00",
-      "fingerprint": "2850|46|2|wzgórze świętego maksymiliana",
-      "id": "olx:1087681382"
-    },
-    "olx:1087684164": {
-      "cena": 2100,
-      "data_wyslania": "2026-07-27T12:15:47.656305+00:00",
-      "fingerprint": "2100|25|1|przymorze wielkie",
-      "id": "olx:1087684164"
-    },
-    "olx:1087685698": {
-      "cena": 2850,
-      "data_wyslania": "2026-07-27T12:15:47.656305+00:00",
-      "fingerprint": "2850|34|2|chełm z dzielnicą gdańsk południe",
-      "id": "olx:1087685698"
-    },
-    "olx:1087685885": {
-      "cena": 3000,
-      "data_wyslania": "2026-07-27T12:15:47.656305+00:00",
-      "fingerprint": "3000|43|2|śródmieście",
-      "id": "olx:1087685885"
-    },
-    "olx:1087685951": {
-      "cena": 2100,
-      "data_wyslania": "2026-07-27T12:15:47.656305+00:00",
-      "fingerprint": "2100|35|2|chylonia",
-      "id": "olx:1087685951"
     },
     "olx:1087691915": {
       "cena": 2800,
@@ -25226,12 +25202,6 @@
       "fingerprint": "870000|47.6|2|redłowo",
       "id": "olx_sale:1081752182"
     },
-    "olx_sale:1081900221": {
-      "cena": 619000,
-      "data_wyslania": "2026-07-27T12:15:47.656305+00:00",
-      "fingerprint": "619000|44.7|2|wrzeszcz",
-      "id": "olx_sale:1081900221"
-    },
     "olx_sale:1081999009": {
       "cena": 799000,
       "data_wyslania": "2026-07-30T10:15:42.716194+00:00",
@@ -25951,30 +25921,6 @@
       "data_wyslania": "2026-07-31T05:30:58.336438+00:00",
       "fingerprint": "596445|54.1|2|żabianka - wejhera - jelitkowo - tysiąclecia",
       "id": "olx_sale:1087137394"
-    },
-    "olx_sale:1087682696": {
-      "cena": 679000,
-      "data_wyslania": "2026-07-27T12:15:47.656305+00:00",
-      "fingerprint": "679000|55.5|3|",
-      "id": "olx_sale:1087682696"
-    },
-    "olx_sale:1087686989": {
-      "cena": 489000,
-      "data_wyslania": "2026-07-27T12:15:47.656305+00:00",
-      "fingerprint": "489000|45.3|3|chylonia",
-      "id": "olx_sale:1087686989"
-    },
-    "olx_sale:1087686991": {
-      "cena": 380000,
-      "data_wyslania": "2026-07-27T12:15:47.656305+00:00",
-      "fingerprint": "380000|37.3|2|chylonia",
-      "id": "olx_sale:1087686991"
-    },
-    "olx_sale:1087686992": {
-      "cena": 499000,
-      "data_wyslania": "2026-07-27T12:15:47.656305+00:00",
-      "fingerprint": "499000|50|2|oksywie",
-      "id": "olx_sale:1087686992"
     },
     "olx_sale:1087706904": {
       "cena": 567854,
