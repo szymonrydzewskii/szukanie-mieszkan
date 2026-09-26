@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 10301,
+            "fetched": 10423,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 3,
-            "fetched": 8631,
+            "fetched": 8735,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 4985,
+      "bad": 4986,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 4985,
+      "bad": 4986,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 1247,
+      "bad": 1248,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 1247,
+      "bad": 1248,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-09-26T18:15:41.847312+00:00",
+  "last_run": "2026-09-26T18:31:00.589787+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -14738,12 +14738,6 @@
       "fingerprint": "2800|38|2|przymorze wielkie",
       "id": "olx:1086918200"
     },
-    "olx:1086936661": {
-      "cena": 2600,
-      "data_wyslania": "2026-07-28T18:30:57.212574+00:00",
-      "fingerprint": "2600|45|2|przymorze wielkie",
-      "id": "olx:1086936661"
-    },
     "olx:1086937467": {
       "cena": 2400,
       "data_wyslania": "2026-08-06T13:01:12.337723+00:00",
@@ -14893,24 +14887,6 @@
       "data_wyslania": "2026-08-07T13:45:56.216378+00:00",
       "fingerprint": "3800|68|3|jasień",
       "id": "olx:1087963417"
-    },
-    "olx:1088011465": {
-      "cena": 3200,
-      "data_wyslania": "2026-07-28T18:15:48.648629+00:00",
-      "fingerprint": "3200|48|2|strzyża",
-      "id": "olx:1088011465"
-    },
-    "olx:1088013583": {
-      "cena": 2300,
-      "data_wyslania": "2026-07-28T18:15:48.648629+00:00",
-      "fingerprint": "2300|23|2|orłowo",
-      "id": "olx:1088013583"
-    },
-    "olx:1088017942": {
-      "cena": 1700,
-      "data_wyslania": "2026-07-28T18:30:57.212574+00:00",
-      "fingerprint": "1700|48|2|śródmieście",
-      "id": "olx:1088017942"
     },
     "olx:1088025845": {
       "cena": 3000,
@@ -22988,12 +22964,6 @@
       "fingerprint": "990000|35.68|1|śródmieście",
       "id": "olx_sale:1060531018"
     },
-    "olx_sale:1060707689": {
-      "cena": 425000,
-      "data_wyslania": "2026-07-28T18:30:57.212574+00:00",
-      "fingerprint": "425000|45|2|leszczynki",
-      "id": "olx_sale:1060707689"
-    },
     "olx_sale:1060999933": {
       "cena": 1049000,
       "data_wyslania": "2026-08-01T14:15:44.834119+00:00",
@@ -23563,12 +23533,6 @@
       "data_wyslania": "2026-07-29T14:45:40.563973+00:00",
       "fingerprint": "3560772|122.87|4|śródmieście",
       "id": "olx_sale:1076552650"
-    },
-    "olx_sale:1076684738": {
-      "cena": 775000,
-      "data_wyslania": "2026-07-28T18:15:48.648629+00:00",
-      "fingerprint": "775000|33|1|brzeźno",
-      "id": "olx_sale:1076684738"
     },
     "olx_sale:1076686617": {
       "cena": 999900,
@@ -24596,35 +24560,11 @@
       "fingerprint": "596445|54.1|2|żabianka - wejhera - jelitkowo - tysiąclecia",
       "id": "olx_sale:1087137394"
     },
-    "olx_sale:1087887602": {
-      "cena": 579000,
-      "data_wyslania": "2026-07-28T18:15:48.648629+00:00",
-      "fingerprint": "579000|43|2|",
-      "id": "olx_sale:1087887602"
-    },
     "olx_sale:1087942333": {
       "cena": 549000,
       "data_wyslania": "2026-07-29T20:30:56.296373+00:00",
       "fingerprint": "549000|26.7|1|wzgórze świętego maksymiliana",
       "id": "olx_sale:1087942333"
-    },
-    "olx_sale:1088011514": {
-      "cena": 3000,
-      "data_wyslania": "2026-07-28T18:15:48.648629+00:00",
-      "fingerprint": "3000|70|3|redłowo",
-      "id": "olx_sale:1088011514"
-    },
-    "olx_sale:1088014052": {
-      "cena": 1145000,
-      "data_wyslania": "2026-07-28T18:15:48.648629+00:00",
-      "fingerprint": "1145000|71.6|3|wzgórze świętego maksymiliana",
-      "id": "olx_sale:1088014052"
-    },
-    "olx_sale:1088018347": {
-      "cena": 599000,
-      "data_wyslania": "2026-07-28T18:30:57.212574+00:00",
-      "fingerprint": "599000|50|2|przymorze wielkie",
-      "id": "olx_sale:1088018347"
     },
     "olx_sale:1088024058": {
       "cena": 989000,
