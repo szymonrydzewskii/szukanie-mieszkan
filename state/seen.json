@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 10667,
+            "fetched": 10789,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 8945,
+            "fetched": 9051,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 4988,
+      "bad": 4989,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 4988,
+      "bad": 4989,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 1250,
+      "bad": 1251,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 1250,
+      "bad": 1251,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-09-26T18:45:43.649411+00:00",
+  "last_run": "2026-09-26T19:01:11.817618+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -7922,6 +7922,12 @@
       "fingerprint": "999000|25.6|1|dolny sopot",
       "id": "nieruchomosci_online_sale:26764656"
     },
+    "nieruchomosci_online_sale:26765019": {
+      "cena": 2025000,
+      "data_wyslania": "2026-09-26T19:01:11.817618+00:00",
+      "fingerprint": "2025000|84.39|3|śródmieście",
+      "id": "nieruchomosci_online_sale:26765019"
+    },
     "nieruchomosci_online_sale:26765587": {
       "cena": 696000,
       "data_wyslania": "2026-07-31T10:15:41.634880+00:00",
@@ -13028,12 +13034,6 @@
       "fingerprint": "2000|27|1|oliwa",
       "id": "olx:1059125473"
     },
-    "olx:1059446319": {
-      "cena": 3600,
-      "data_wyslania": "2026-07-28T18:50:41.673059+00:00",
-      "fingerprint": "3600|53|3|letnica",
-      "id": "olx:1059446319"
-    },
     "olx:1060089189": {
       "cena": 2900,
       "data_wyslania": "2026-08-06T16:08:19.289820+00:00",
@@ -13387,12 +13387,6 @@
       "data_wyslania": "2026-07-30T15:15:50.545165+00:00",
       "fingerprint": "2200|28|1|przymorze wielkie",
       "id": "olx:1076524400"
-    },
-    "olx:1076949539": {
-      "cena": 2500,
-      "data_wyslania": "2026-07-28T19:01:06.502315+00:00",
-      "fingerprint": "2500|33|2|chwarzno-wiczlino",
-      "id": "olx:1076949539"
     },
     "olx:1077126113": {
       "cena": 3200,
@@ -14887,12 +14881,6 @@
       "data_wyslania": "2026-08-07T13:45:56.216378+00:00",
       "fingerprint": "3800|68|3|jasień",
       "id": "olx:1087963417"
-    },
-    "olx:1088025845": {
-      "cena": 3000,
-      "data_wyslania": "2026-07-28T19:01:06.502315+00:00",
-      "fingerprint": "3000|47|2|działki leśne",
-      "id": "olx:1088025845"
     },
     "olx:1088027955": {
       "cena": 2500,
@@ -24565,12 +24553,6 @@
       "data_wyslania": "2026-07-29T20:30:56.296373+00:00",
       "fingerprint": "549000|26.7|1|wzgórze świętego maksymiliana",
       "id": "olx_sale:1087942333"
-    },
-    "olx_sale:1088024058": {
-      "cena": 989000,
-      "data_wyslania": "2026-07-28T18:50:41.673059+00:00",
-      "fingerprint": "989000|40.7|2|wrzeszcz",
-      "id": "olx_sale:1088024058"
     },
     "olx_sale:1088030595": {
       "cena": 690000,
