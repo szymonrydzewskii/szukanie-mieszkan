@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 8229,
+            "fetched": 8351,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 3,
-            "fetched": 6862,
+            "fetched": 6967,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 4968,
+      "bad": 4969,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 4968,
+      "bad": 4969,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 1230,
+      "bad": 1231,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 1230,
+      "bad": 1231,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-09-26T14:15:45.171619+00:00",
+  "last_run": "2026-09-26T14:31:01.858373+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -517,6 +517,12 @@
       "data_wyslania": "2026-08-10T17:45:47.488549+00:00",
       "fingerprint": "3500|80|3|śródmieście",
       "id": "nieruchomosci_online:26124571"
+    },
+    "nieruchomosci_online:26156314": {
+      "cena": 3950,
+      "data_wyslania": "2026-09-26T14:31:01.858373+00:00",
+      "fingerprint": "3950|71.6|4|dolny sopot",
+      "id": "nieruchomosci_online:26156314"
     },
     "nieruchomosci_online:26156671": {
       "cena": 4800,
@@ -7628,12 +7634,6 @@
       "fingerprint": "988000|62.77|3|chełm",
       "id": "nieruchomosci_online_sale:26731081"
     },
-    "nieruchomosci_online_sale:26731145": {
-      "cena": 814080,
-      "data_wyslania": "2026-07-28T14:31:00.313482+00:00",
-      "fingerprint": "814080|50.88|2|słoneczna morena",
-      "id": "nieruchomosci_online_sale:26731145"
-    },
     "nieruchomosci_online_sale:26731496": {
       "cena": 699000,
       "data_wyslania": "2026-08-13T10:15:51.000232+00:00",
@@ -14306,12 +14306,6 @@
       "fingerprint": "3000|50|2|",
       "id": "olx:1084216810"
     },
-    "olx:1084236285": {
-      "cena": 3200,
-      "data_wyslania": "2026-07-28T14:31:00.313482+00:00",
-      "fingerprint": "3200|41|2|siedlce",
-      "id": "olx:1084236285"
-    },
     "olx:1084253871": {
       "cena": 3500,
       "data_wyslania": "2026-08-07T10:15:49.882583+00:00",
@@ -14714,12 +14708,6 @@
       "fingerprint": "2100|16|1|brzeźno",
       "id": "olx:1086510548"
     },
-    "olx:1086560814": {
-      "cena": 2800,
-      "data_wyslania": "2026-07-28T14:31:00.313482+00:00",
-      "fingerprint": "2800|52|2|śródmieście",
-      "id": "olx:1086560814"
-    },
     "olx:1086618900": {
       "cena": 1900,
       "data_wyslania": "2026-07-29T14:15:47.214066+00:00",
@@ -14953,12 +14941,6 @@
       "data_wyslania": "2026-07-31T07:15:45.820716+00:00",
       "fingerprint": "5100|96|4|dolny sopot",
       "id": "olx:1087906046"
-    },
-    "olx:1087955989": {
-      "cena": 2500,
-      "data_wyslania": "2026-07-28T14:15:46.530232+00:00",
-      "fingerprint": "2500|44|1|śródmieście",
-      "id": "olx:1087955989"
     },
     "olx:1087963417": {
       "cena": 3800,
@@ -24139,12 +24121,6 @@
       "data_wyslania": "2026-08-06T11:01:11.946528+00:00",
       "fingerprint": "720000|56.99|2|pustki cisowskie-demptowo",
       "id": "olx_sale:1082042567"
-    },
-    "olx_sale:1082173014": {
-      "cena": 990000,
-      "data_wyslania": "2026-07-28T14:15:46.530232+00:00",
-      "fingerprint": "990000|50.2|2|orłowo",
-      "id": "olx_sale:1082173014"
     },
     "olx_sale:1082304731": {
       "cena": 729500,
