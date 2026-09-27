@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 5368,
+            "fetched": 5489,
             "sent_main": 1,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 4618,
+            "fetched": 4723,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 5045,
+      "bad": 5046,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 5045,
+      "bad": 5046,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 1307,
+      "bad": 1308,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 1307,
+      "bad": 1308,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-09-27T08:15:46.987955+00:00",
+  "last_run": "2026-09-27T08:30:57.453719+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -21992,12 +21992,6 @@
       "fingerprint": "648192|30.72|1|siedlce",
       "id": "olx_sale:1019146747"
     },
-    "olx_sale:1020922155": {
-      "cena": 2790483,
-      "data_wyslania": "2026-07-29T08:15:55.970009+00:00",
-      "fingerprint": "2790483|111.5|3|",
-      "id": "olx_sale:1020922155"
-    },
     "olx_sale:1021720452": {
       "cena": 539000,
       "data_wyslania": "2026-08-06T10:30:59.501251+00:00",
@@ -22063,12 +22057,6 @@
       "data_wyslania": "2026-08-07T09:45:45.346677+00:00",
       "fingerprint": "650000|37.5|2|śródmieście",
       "id": "olx_sale:1028289983"
-    },
-    "olx_sale:1028291671": {
-      "cena": 1250000,
-      "data_wyslania": "2026-07-29T08:15:55.970009+00:00",
-      "fingerprint": "1250000|74.94|3|śródmieście",
-      "id": "olx_sale:1028291671"
     },
     "olx_sale:1029507231": {
       "cena": 699000,
@@ -22153,18 +22141,6 @@
       "data_wyslania": "2026-08-08T18:31:02.851800+00:00",
       "fingerprint": "775504|44.6|2|",
       "id": "olx_sale:1031661122"
-    },
-    "olx_sale:1032136389": {
-      "cena": 750000,
-      "data_wyslania": "2026-07-29T08:15:55.970009+00:00",
-      "fingerprint": "750000|39.82|2|śródmieście",
-      "id": "olx_sale:1032136389"
-    },
-    "olx_sale:1032136409": {
-      "cena": 899000,
-      "data_wyslania": "2026-07-29T08:15:55.970009+00:00",
-      "fingerprint": "899000|84.48|4|wrzeszcz",
-      "id": "olx_sale:1032136409"
     },
     "olx_sale:1032162232": {
       "cena": 834500,
@@ -22315,12 +22291,6 @@
       "data_wyslania": "2026-08-06T13:31:07.631228+00:00",
       "fingerprint": "729050|40.61|2|",
       "id": "olx_sale:1043501031"
-    },
-    "olx_sale:1043546500": {
-      "cena": 2500000,
-      "data_wyslania": "2026-07-29T08:15:55.970009+00:00",
-      "fingerprint": "2500000|85.89|4|",
-      "id": "olx_sale:1043546500"
     },
     "olx_sale:1043729807": {
       "cena": 861334,
@@ -22712,12 +22682,6 @@
       "fingerprint": "1050000|36|2|śródmieście",
       "id": "olx_sale:1061155285"
     },
-    "olx_sale:1061155289": {
-      "cena": 1980000,
-      "data_wyslania": "2026-07-29T08:15:55.970009+00:00",
-      "fingerprint": "1980000|85.6|4|wrzeszcz",
-      "id": "olx_sale:1061155289"
-    },
     "olx_sale:1061155291": {
       "cena": 1100000,
       "data_wyslania": "2026-08-07T09:45:45.346677+00:00",
@@ -22982,12 +22946,6 @@
       "fingerprint": "1456357|56.23|3|",
       "id": "olx_sale:1071225865"
     },
-    "olx_sale:1071229821": {
-      "cena": 635000,
-      "data_wyslania": "2026-07-29T08:15:55.970009+00:00",
-      "fingerprint": "635000|42.9|2|oliwa",
-      "id": "olx_sale:1071229821"
-    },
     "olx_sale:1071426435": {
       "cena": 749570,
       "data_wyslania": "2026-08-03T19:01:10.279038+00:00",
@@ -23149,12 +23107,6 @@
       "data_wyslania": "2026-08-09T08:15:45.368568+00:00",
       "fingerprint": "1640000|74.58|3|wzgórze świętego maksymiliana",
       "id": "olx_sale:1074703035"
-    },
-    "olx_sale:1074805573": {
-      "cena": 995000,
-      "data_wyslania": "2026-07-29T08:15:55.970009+00:00",
-      "fingerprint": "995000|50.92|3|śródmieście",
-      "id": "olx_sale:1074805573"
     },
     "olx_sale:1075285308": {
       "cena": 899000,
@@ -23522,12 +23474,6 @@
       "fingerprint": "1749000|139.23|4|",
       "id": "olx_sale:1080952833"
     },
-    "olx_sale:1080953719": {
-      "cena": 1250000,
-      "data_wyslania": "2026-07-29T08:15:55.970009+00:00",
-      "fingerprint": "1250000|73.17|3|letnica",
-      "id": "olx_sale:1080953719"
-    },
     "olx_sale:1080954756": {
       "cena": 579000,
       "data_wyslania": "2026-07-31T09:31:01.376219+00:00",
@@ -23558,12 +23504,6 @@
       "fingerprint": "669000|53|3|chylonia",
       "id": "olx_sale:1080954830"
     },
-    "olx_sale:1080955008": {
-      "cena": 750000,
-      "data_wyslania": "2026-07-29T08:15:55.970009+00:00",
-      "fingerprint": "750000|63.25|3|",
-      "id": "olx_sale:1080955008"
-    },
     "olx_sale:1081135319": {
       "cena": 1250000,
       "data_wyslania": "2026-08-03T20:15:42.960675+00:00",
@@ -23593,18 +23533,6 @@
       "data_wyslania": "2026-07-30T14:45:46.427575+00:00",
       "fingerprint": "749900|53.15|3|",
       "id": "olx_sale:1081246119"
-    },
-    "olx_sale:1081354401": {
-      "cena": 1999999,
-      "data_wyslania": "2026-07-29T08:15:55.970009+00:00",
-      "fingerprint": "1999999|93.5|3|śródmieście",
-      "id": "olx_sale:1081354401"
-    },
-    "olx_sale:1081354424": {
-      "cena": 1200000,
-      "data_wyslania": "2026-07-29T08:15:55.970009+00:00",
-      "fingerprint": "1200000|59.23|3|śródmieście",
-      "id": "olx_sale:1081354424"
     },
     "olx_sale:1081679832": {
       "cena": 450000,
@@ -24272,12 +24200,6 @@
       "fingerprint": "549000|26.7|1|wzgórze świętego maksymiliana",
       "id": "olx_sale:1087942333"
     },
-    "olx_sale:1088101503": {
-      "cena": 2300000,
-      "data_wyslania": "2026-07-29T08:15:55.970009+00:00",
-      "fingerprint": "2300000|167.6|4|brętowo",
-      "id": "olx_sale:1088101503"
-    },
     "olx_sale:1088101504": {
       "cena": 699000,
       "data_wyslania": "2026-07-29T08:31:03.445133+00:00",
@@ -24289,18 +24211,6 @@
       "data_wyslania": "2026-07-29T08:31:03.445133+00:00",
       "fingerprint": "545000|36.9|2|jasień",
       "id": "olx_sale:1088101511"
-    },
-    "olx_sale:1088101513": {
-      "cena": 799999,
-      "data_wyslania": "2026-07-29T08:15:55.970009+00:00",
-      "fingerprint": "799999|57.83|3|jasień",
-      "id": "olx_sale:1088101513"
-    },
-    "olx_sale:1088101993": {
-      "cena": 690000,
-      "data_wyslania": "2026-07-29T08:15:55.970009+00:00",
-      "fingerprint": "690000|53.7|3|strzyża",
-      "id": "olx_sale:1088101993"
     },
     "olx_sale:1088104269": {
       "cena": 678300,
