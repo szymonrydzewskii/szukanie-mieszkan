@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 6215,
+            "fetched": 6336,
             "sent_main": 1,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 5364,
+            "fetched": 5471,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 5052,
+      "bad": 5053,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 5052,
+      "bad": 5053,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 1314,
+      "bad": 1315,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 1314,
+      "bad": 1315,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-09-27T10:01:13.278091+00:00",
+  "last_run": "2026-09-27T10:15:42.287397+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -13742,12 +13742,6 @@
       "fingerprint": "2700|40|2|ujeścisko - łostowice",
       "id": "olx:1082992061"
     },
-    "olx:1083028485": {
-      "cena": 3700,
-      "data_wyslania": "2026-07-29T10:01:17.201393+00:00",
-      "fingerprint": "3700|56|2|wrzeszcz",
-      "id": "olx:1083028485"
-    },
     "olx:1083056419": {
       "cena": 2500,
       "data_wyslania": "2026-08-06T12:15:48.008351+00:00",
@@ -14113,12 +14107,6 @@
       "data_wyslania": "2026-08-04T18:45:46.605538+00:00",
       "fingerprint": "3200|44|2|letnica",
       "id": "olx:1084020147"
-    },
-    "olx:1084056618": {
-      "cena": 2000,
-      "data_wyslania": "2026-07-29T10:01:17.201393+00:00",
-      "fingerprint": "2000|30|1|",
-      "id": "olx:1084056618"
     },
     "olx:1084083162": {
       "cena": 3000,
@@ -14737,12 +14725,6 @@
       "data_wyslania": "2026-07-29T10:15:47.575865+00:00",
       "fingerprint": "2500|30.64|1|śródmieście",
       "id": "olx:1088124938"
-    },
-    "olx:1088126087": {
-      "cena": 2900,
-      "data_wyslania": "2026-07-29T10:01:17.201393+00:00",
-      "fingerprint": "2900|46|2|",
-      "id": "olx:1088126087"
     },
     "olx:1088134206": {
       "cena": 3600,
@@ -24025,12 +24007,6 @@
       "data_wyslania": "2026-07-29T11:31:06.045180+00:00",
       "fingerprint": "470000|50.6|2|orunia - św. wojciech - lipce",
       "id": "olx_sale:1088122326"
-    },
-    "olx_sale:1088124556": {
-      "cena": 629000,
-      "data_wyslania": "2026-07-29T10:01:17.201393+00:00",
-      "fingerprint": "629000|82.4|4|",
-      "id": "olx_sale:1088124556"
     },
     "olx_sale:1088126542": {
       "cena": 500000,
