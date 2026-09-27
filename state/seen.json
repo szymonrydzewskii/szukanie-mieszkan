@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 8514,
+            "fetched": 8635,
             "sent_main": 1,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 7356,
+            "fetched": 7457,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 5071,
+      "bad": 5072,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 5071,
+      "bad": 5072,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 1333,
+      "bad": 1334,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 1333,
+      "bad": 1334,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-09-27T14:30:59.787077+00:00",
+  "last_run": "2026-09-27T14:45:48.357178+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -12584,12 +12584,6 @@
       "fingerprint": "980000|49|2|mariacka",
       "id": "nieruchomosci_online_sale:26999331"
     },
-    "olx:1006019650": {
-      "cena": 1800,
-      "data_wyslania": "2026-07-29T14:31:06.068837+00:00",
-      "fingerprint": "1800|100|4|wzgórze mickiewicza",
-      "id": "olx:1006019650"
-    },
     "olx:1008983013": {
       "cena": 1800,
       "data_wyslania": "2026-08-02T10:01:10.124570+00:00",
@@ -14593,30 +14587,6 @@
       "data_wyslania": "2026-07-29T19:15:48.908713+00:00",
       "fingerprint": "2500|38|2|chwarzno-wiczlino",
       "id": "olx:1088142534"
-    },
-    "olx:1088185290": {
-      "cena": 1700,
-      "data_wyslania": "2026-07-29T14:31:06.068837+00:00",
-      "fingerprint": "1700|48|2|śródmieście",
-      "id": "olx:1088185290"
-    },
-    "olx:1088187675": {
-      "cena": 4000,
-      "data_wyslania": "2026-07-29T14:45:40.563973+00:00",
-      "fingerprint": "4000|50|2|przymorze wielkie",
-      "id": "olx:1088187675"
-    },
-    "olx:1088188298": {
-      "cena": 3900,
-      "data_wyslania": "2026-07-29T14:31:06.068837+00:00",
-      "fingerprint": "3900|60|3|brzeźno",
-      "id": "olx:1088188298"
-    },
-    "olx:1088190824": {
-      "cena": 3000,
-      "data_wyslania": "2026-07-29T14:45:40.563973+00:00",
-      "fingerprint": "3000|50|2|oksywie",
-      "id": "olx:1088190824"
     },
     "olx:1088195027": {
       "cena": 2400,
@@ -22700,12 +22670,6 @@
       "fingerprint": "1049000|60.11|2|śródmieście",
       "id": "olx_sale:1076446239"
     },
-    "olx_sale:1076552650": {
-      "cena": 3560772,
-      "data_wyslania": "2026-07-29T14:45:40.563973+00:00",
-      "fingerprint": "3560772|122.87|4|śródmieście",
-      "id": "olx_sale:1076552650"
-    },
     "olx_sale:1076686617": {
       "cena": 999900,
       "data_wyslania": "2026-07-31T06:31:03.447723+00:00",
@@ -23635,12 +23599,6 @@
       "data_wyslania": "2026-07-29T20:30:56.296373+00:00",
       "fingerprint": "549000|26.7|1|wzgórze świętego maksymiliana",
       "id": "olx_sale:1087942333"
-    },
-    "olx_sale:1088189525": {
-      "cena": 1082400,
-      "data_wyslania": "2026-07-29T14:45:40.563973+00:00",
-      "fingerprint": "1082400|41.93|2|aniołki",
-      "id": "olx_sale:1088189525"
     },
     "olx_sale:1088213425": {
       "cena": 480000,
