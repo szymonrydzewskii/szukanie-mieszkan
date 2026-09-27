@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 8393,
+            "fetched": 8514,
             "sent_main": 1,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 7254,
+            "fetched": 7356,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 5070,
+      "bad": 5071,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 5070,
+      "bad": 5071,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 1332,
+      "bad": 1333,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 1332,
+      "bad": 1333,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-09-27T14:15:43.308021+00:00",
+  "last_run": "2026-09-27T14:30:59.787077+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -12554,6 +12554,18 @@
       "fingerprint": "599000|53|2|pustki cisowskie",
       "id": "nieruchomosci_online_sale:26998578"
     },
+    "nieruchomosci_online_sale:26998687": {
+      "cena": 1199000,
+      "data_wyslania": "2026-09-27T14:30:59.787077+00:00",
+      "fingerprint": "1199000|94.23|3|wrzeszcz dolny",
+      "id": "nieruchomosci_online_sale:26998687"
+    },
+    "nieruchomosci_online_sale:26998693": {
+      "cena": 649000,
+      "data_wyslania": "2026-09-27T14:30:59.787077+00:00",
+      "fingerprint": "649000|60.19|3|orunia górna",
+      "id": "nieruchomosci_online_sale:26998693"
+    },
     "nieruchomosci_online_sale:26999069": {
       "cena": 565000,
       "data_wyslania": "2026-09-27T12:01:10.353734+00:00",
@@ -14408,12 +14420,6 @@
       "fingerprint": "2100|16|1|brzeźno",
       "id": "olx:1086510548"
     },
-    "olx:1086618900": {
-      "cena": 1900,
-      "data_wyslania": "2026-07-29T14:15:47.214066+00:00",
-      "fingerprint": "1900|26|1|chylonia",
-      "id": "olx:1086618900"
-    },
     "olx:1086634255": {
       "cena": 4000,
       "data_wyslania": "2026-08-10T07:15:46.712739+00:00",
@@ -14558,12 +14564,6 @@
       "fingerprint": "3600|64|3|śródmieście",
       "id": "olx:1087672723"
     },
-    "olx:1087736415": {
-      "cena": 3200,
-      "data_wyslania": "2026-07-29T14:15:47.214066+00:00",
-      "fingerprint": "3200|48|2|cisowa",
-      "id": "olx:1087736415"
-    },
     "olx:1087778917": {
       "cena": 3200,
       "data_wyslania": "2026-08-03T16:15:49.698401+00:00",
@@ -14593,12 +14593,6 @@
       "data_wyslania": "2026-07-29T19:15:48.908713+00:00",
       "fingerprint": "2500|38|2|chwarzno-wiczlino",
       "id": "olx:1088142534"
-    },
-    "olx:1088184977": {
-      "cena": 5500,
-      "data_wyslania": "2026-07-29T14:15:47.214066+00:00",
-      "fingerprint": "5500|80|4|śródmieście",
-      "id": "olx:1088184977"
     },
     "olx:1088185290": {
       "cena": 1700,
@@ -27385,18 +27379,6 @@
       "data_wyslania": "2026-08-24T15:45:41.791336+00:00",
       "fingerprint": "2400|32|1|oliwa",
       "id": "trojmiasto:66493019"
-    },
-    "trojmiasto:66493881": {
-      "cena": 2650,
-      "data_wyslania": "2026-07-29T14:15:47.214066+00:00",
-      "fingerprint": "2650|20|?|stzryża",
-      "id": "trojmiasto:66493881"
-    },
-    "trojmiasto:66493903": {
-      "cena": 1950,
-      "data_wyslania": "2026-07-29T14:15:47.214066+00:00",
-      "fingerprint": "1950|12|?|stzryża",
-      "id": "trojmiasto:66493903"
     },
     "trojmiasto:66494294": {
       "cena": 1590,
