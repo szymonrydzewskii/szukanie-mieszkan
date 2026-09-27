@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 8998,
+            "fetched": 9119,
             "sent_main": 1,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
-            "dropped": 4,
-            "fetched": 7760,
+            "dropped": 5,
+            "fetched": 7861,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 5075,
+      "bad": 5076,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 5075,
+      "bad": 5076,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 1337,
+      "bad": 1338,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 1337,
+      "bad": 1338,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-09-27T15:20:51.409212+00:00",
+  "last_run": "2026-09-27T15:31:01.754942+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -10797,9 +10797,9 @@
       "id": "nieruchomosci_online_sale:26915966"
     },
     "nieruchomosci_online_sale:26916099": {
-      "cena": 635000,
-      "data_wyslania": "2026-09-25T16:45:48.930703+00:00",
-      "fingerprint": "635000|37|1|śródmieście",
+      "cena": 620000,
+      "data_wyslania": "2026-09-27T15:31:01.754942+00:00",
+      "fingerprint": "620000|37|1|śródmieście",
       "id": "nieruchomosci_online_sale:26916099"
     },
     "nieruchomosci_online_sale:26916138": {
@@ -14581,12 +14581,6 @@
       "data_wyslania": "2026-07-29T19:15:48.908713+00:00",
       "fingerprint": "2500|38|2|chwarzno-wiczlino",
       "id": "olx:1088142534"
-    },
-    "olx:1088198301": {
-      "cena": 2700,
-      "data_wyslania": "2026-07-29T15:31:01.498557+00:00",
-      "fingerprint": "2700|48|2|zaspa młyniec",
-      "id": "olx:1088198301"
     },
     "olx:1088204040": {
       "cena": 2300,
