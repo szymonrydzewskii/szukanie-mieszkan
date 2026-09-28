@@ -7,7 +7,8 @@
           "olx: OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (p",
           "trojmiasto: Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTY",
           "olx_sale: OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (p",
-          "trojmiasto_sale: Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!"
+          "trojmiasto_sale: Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!",
+          "nieruchomosci_online: Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Max retries exceede"
         ],
         "sources": {
           "nieruchomosci_online": {
@@ -52,27 +53,27 @@
   },
   "health": {
     "nieruchomosci_online": {
-      "bad": 0,
-      "last_error": null
+      "bad": 1,
+      "last_error": "Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Max retries exceeded with url: /szukaj.html?3,mieszkanie,wynajem,,Gda%C5%84sk (Caused by ConnectTim"
     },
     "nieruchomosci_online_sale": {
-      "bad": 0,
-      "last_error": null
+      "bad": 1,
+      "last_error": "Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Max retries exceeded with url: /szukaj.html?3,mieszkanie,sprzedaz,,Gda%C5%84sk (Caused by ConnectTi"
     },
     "olx": {
-      "bad": 5163,
+      "bad": 5164,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 5163,
+      "bad": 5164,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 1425,
+      "bad": 1426,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 1425,
+      "bad": 1426,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +85,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-09-28T12:15:49.065770+00:00",
+  "last_run": "2026-09-28T12:31:07.371690+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -13400,12 +13401,6 @@
       "fingerprint": "3900|64|4|jasień",
       "id": "olx:1082289770"
     },
-    "olx:1082316346": {
-      "cena": 3100,
-      "data_wyslania": "2026-07-30T12:31:06.864297+00:00",
-      "fingerprint": "3100|46|2|przymorze małe",
-      "id": "olx:1082316346"
-    },
     "olx:1082484223": {
       "cena": 2700,
       "data_wyslania": "2026-08-02T19:15:47.799213+00:00",
@@ -14455,12 +14450,6 @@
       "data_wyslania": "2026-08-01T09:47:09.147179+00:00",
       "fingerprint": "2700|52|2|piecki-migowo",
       "id": "olx:1088303401"
-    },
-    "olx:1088361727": {
-      "cena": 4500,
-      "data_wyslania": "2026-07-30T12:31:06.864297+00:00",
-      "fingerprint": "4500|53|3|piecki-migowo",
-      "id": "olx:1088361727"
     },
     "olx:1088364731": {
       "cena": 1600,
@@ -22934,12 +22923,6 @@
       "fingerprint": "596445|54.1|2|żabianka - wejhera - jelitkowo - tysiąclecia",
       "id": "olx_sale:1087137394"
     },
-    "olx_sale:1088363615": {
-      "cena": 345000,
-      "data_wyslania": "2026-07-30T12:31:06.864297+00:00",
-      "fingerprint": "345000|30|1|stogi z przeróbką",
-      "id": "olx_sale:1088363615"
-    },
     "olx_sale:1088365409": {
       "cena": 398000,
       "data_wyslania": "2026-07-30T12:45:46.488897+00:00",
@@ -30049,12 +30032,6 @@
       "data_wyslania": "2026-09-02T12:30:55.461139+00:00",
       "fingerprint": "689000|68|4|rumia",
       "id": "trojmiasto_sale:66493905"
-    },
-    "trojmiasto_sale:66494793": {
-      "cena": 734660,
-      "data_wyslania": "2026-07-30T12:31:06.864297+00:00",
-      "fingerprint": "734660|67.4|4|rotmanka",
-      "id": "trojmiasto_sale:66494793"
     },
     "trojmiasto_sale:66495110": {
       "cena": 1299900,
