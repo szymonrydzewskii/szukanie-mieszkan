@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 6,
-            "fetched": 5807,
+            "fetched": 5927,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 4983,
+            "fetched": 5085,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 5150,
+      "bad": 5151,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 5150,
+      "bad": 5151,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 1412,
+      "bad": 1413,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 1412,
+      "bad": 1413,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-09-28T09:01:17.714065+00:00",
+  "last_run": "2026-09-28T09:15:54.715132+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -6818,6 +6818,12 @@
       "fingerprint": "1188000|91.75|4|osowa",
       "id": "nieruchomosci_online_sale:26645558"
     },
+    "nieruchomosci_online_sale:26646238": {
+      "cena": 2668500,
+      "data_wyslania": "2026-09-28T09:15:54.715132+00:00",
+      "fingerprint": "2668500|111|4|przylesie",
+      "id": "nieruchomosci_online_sale:26646238"
+    },
     "nieruchomosci_online_sale:26648370": {
       "cena": 1999000,
       "data_wyslania": "2026-08-11T07:15:46.041191+00:00",
@@ -10940,6 +10946,12 @@
       "fingerprint": "849000|104|3|dolny sopot",
       "id": "nieruchomosci_online_sale:26925045"
     },
+    "nieruchomosci_online_sale:26925073": {
+      "cena": 2680000,
+      "data_wyslania": "2026-09-28T09:15:54.715132+00:00",
+      "fingerprint": "2680000|99.7|3|przymorze małe",
+      "id": "nieruchomosci_online_sale:26925073"
+    },
     "nieruchomosci_online_sale:26925123": {
       "cena": 2999999,
       "data_wyslania": "2026-09-08T12:01:12.340460+00:00",
@@ -10969,6 +10981,12 @@
       "data_wyslania": "2026-09-05T20:01:39.526809+00:00",
       "fingerprint": "599000|46|4|przymorze",
       "id": "nieruchomosci_online_sale:26925555"
+    },
+    "nieruchomosci_online_sale:26926235": {
+      "cena": 1429000,
+      "data_wyslania": "2026-09-28T09:15:54.715132+00:00",
+      "fingerprint": "1429000|57.76|2|kamienna góra",
+      "id": "nieruchomosci_online_sale:26926235"
     },
     "nieruchomosci_online_sale:26926301": {
       "cena": 1399000,
@@ -14401,24 +14419,6 @@
       "data_wyslania": "2026-08-01T09:47:09.147179+00:00",
       "fingerprint": "2700|52|2|piecki-migowo",
       "id": "olx:1088303401"
-    },
-    "olx:1088317058": {
-      "cena": 3200,
-      "data_wyslania": "2026-07-30T09:15:50.877068+00:00",
-      "fingerprint": "3200|42|2|wrzeszcz",
-      "id": "olx:1088317058"
-    },
-    "olx:1088317543": {
-      "cena": 2800,
-      "data_wyslania": "2026-07-30T09:15:50.877068+00:00",
-      "fingerprint": "2800|48|2|wrzeszcz",
-      "id": "olx:1088317543"
-    },
-    "olx:1088317968": {
-      "cena": 2800,
-      "data_wyslania": "2026-07-30T09:15:50.877068+00:00",
-      "fingerprint": "2800|45.18|2|śródmieście",
-      "id": "olx:1088317968"
     },
     "olx:1088320292": {
       "cena": 3000,
