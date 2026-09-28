@@ -13,13 +13,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 14,
-            "fetched": 10486,
+            "fetched": 10606,
             "sent_main": 1,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 3,
-            "fetched": 9028,
+            "fetched": 9131,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -61,19 +61,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 5191,
+      "bad": 5192,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 5191,
+      "bad": 5192,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 1453,
+      "bad": 1454,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 1453,
+      "bad": 1454,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -85,7 +85,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-09-28T19:01:20.151280+00:00",
+  "last_run": "2026-09-28T19:15:54.156140+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -12536,6 +12536,12 @@
       "data_wyslania": "2026-09-27T20:15:43.788034+00:00",
       "fingerprint": "749000|70.37|4|chełm",
       "id": "nieruchomosci_online_sale:26999749"
+    },
+    "nieruchomosci_online_sale:27000976": {
+      "cena": 339000,
+      "data_wyslania": "2026-09-28T19:15:54.156140+00:00",
+      "fingerprint": "339000|17|1|zaspa",
+      "id": "nieruchomosci_online_sale:27000976"
     },
     "nieruchomosci_online_sale:27001215": {
       "cena": 680000,
