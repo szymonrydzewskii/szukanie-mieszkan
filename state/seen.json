@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 4840,
+            "fetched": 4961,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 4158,
+            "fetched": 4263,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 5142,
+      "bad": 5143,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 5142,
+      "bad": 5143,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 1404,
+      "bad": 1405,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 1404,
+      "bad": 1405,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-09-28T07:02:29.111184+00:00",
+  "last_run": "2026-09-28T07:15:52.581387+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -1273,12 +1273,6 @@
       "data_wyslania": "2026-08-27T07:01:08.597811+00:00",
       "fingerprint": "2000|33|1|ujeścisko-łostowice",
       "id": "nieruchomosci_online:26863000"
-    },
-    "nieruchomosci_online:26863957": {
-      "cena": 2800,
-      "data_wyslania": "2026-07-30T07:15:45.658261+00:00",
-      "fingerprint": "2800|53.88|2|ujeścisko",
-      "id": "nieruchomosci_online:26863957"
     },
     "nieruchomosci_online:26864031": {
       "cena": 4000,
@@ -14551,12 +14545,6 @@
       "data_wyslania": "2026-07-30T16:01:06.020043+00:00",
       "fingerprint": "2300|31|1|śródmieście",
       "id": "olx:1088204040"
-    },
-    "olx:1088293896": {
-      "cena": 2950,
-      "data_wyslania": "2026-07-30T07:15:45.658261+00:00",
-      "fingerprint": "2950|45|2|chełm z dzielnicą gdańsk południe",
-      "id": "olx:1088293896"
     },
     "olx:1088298451": {
       "cena": 2850,
