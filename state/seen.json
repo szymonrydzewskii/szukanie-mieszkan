@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 9,
-            "fetched": 6527,
+            "fetched": 6647,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 5595,
+            "fetched": 5702,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 5156,
+      "bad": 5157,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 5156,
+      "bad": 5157,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 1418,
+      "bad": 1419,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 1418,
+      "bad": 1419,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-09-28T10:31:09.194465+00:00",
+  "last_run": "2026-09-28T10:45:52.036465+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -1279,12 +1279,6 @@
       "data_wyslania": "2026-09-28T08:15:46.753354+00:00",
       "fingerprint": "4000|50|2|śródmieście",
       "id": "nieruchomosci_online:26864031"
-    },
-    "nieruchomosci_online:26864568": {
-      "cena": 2500,
-      "data_wyslania": "2026-07-30T10:45:45.069342+00:00",
-      "fingerprint": "2500|42.2|2|żabianka",
-      "id": "nieruchomosci_online:26864568"
     },
     "nieruchomosci_online:26864960": {
       "cena": 2500,
@@ -12422,6 +12416,12 @@
       "fingerprint": "549000|37.8|1|górny sopot",
       "id": "nieruchomosci_online_sale:26987358"
     },
+    "nieruchomosci_online_sale:26988521": {
+      "cena": 599990,
+      "data_wyslania": "2026-09-28T10:45:52.036465+00:00",
+      "fingerprint": "599990|44|2|łostowice",
+      "id": "nieruchomosci_online_sale:26988521"
+    },
     "nieruchomosci_online_sale:26988966": {
       "cena": 1199000,
       "data_wyslania": "2026-09-22T20:01:13.411023+00:00",
@@ -22940,12 +22940,6 @@
       "fingerprint": "639000|40|3|brzeźno",
       "id": "olx_sale:1086672091"
     },
-    "olx_sale:1086988425": {
-      "cena": 680400,
-      "data_wyslania": "2026-07-30T10:45:45.069342+00:00",
-      "fingerprint": "680400|28.35|1|śródmieście",
-      "id": "olx_sale:1086988425"
-    },
     "olx_sale:1086998334": {
       "cena": 695000,
       "data_wyslania": "2026-08-09T00:01:20.381103+00:00",
@@ -22963,12 +22957,6 @@
       "data_wyslania": "2026-07-31T05:30:58.336438+00:00",
       "fingerprint": "596445|54.1|2|żabianka - wejhera - jelitkowo - tysiąclecia",
       "id": "olx_sale:1087137394"
-    },
-    "olx_sale:1088336264": {
-      "cena": 779000,
-      "data_wyslania": "2026-07-30T10:45:45.069342+00:00",
-      "fingerprint": "779000|51.8|2|",
-      "id": "olx_sale:1088336264"
     },
     "olx_sale:1088339416": {
       "cena": 899000,
