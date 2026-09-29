@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 6,
-            "fetched": 8284,
+            "fetched": 8405,
             "sent_main": 1,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 6,
-            "fetched": 7058,
+            "fetched": 7161,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 5272,
+      "bad": 5273,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 5272,
+      "bad": 5273,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 1534,
+      "bad": 1535,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 1534,
+      "bad": 1535,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-09-29T14:15:43.863886+00:00",
+  "last_run": "2026-09-29T14:31:07.253302+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -12596,12 +12596,6 @@
       "fingerprint": "2800|42|2|brzeźno",
       "id": "olx:1040979397"
     },
-    "olx:1044698359": {
-      "cena": 2600,
-      "data_wyslania": "2026-07-31T14:15:51.721899+00:00",
-      "fingerprint": "2600|30|2|karwiny",
-      "id": "olx:1044698359"
-    },
     "olx:1045884480": {
       "cena": 2250,
       "data_wyslania": "2026-08-10T18:31:11.603444+00:00",
@@ -14192,35 +14186,11 @@
       "fingerprint": "3500|54|2|strzyża",
       "id": "olx:1088554957"
     },
-    "olx:1088578744": {
-      "cena": 2900,
-      "data_wyslania": "2026-07-31T14:15:51.721899+00:00",
-      "fingerprint": "2900|39|2|śródmieście",
-      "id": "olx:1088578744"
-    },
-    "olx:1088580630": {
-      "cena": 2600,
-      "data_wyslania": "2026-07-31T14:15:51.721899+00:00",
-      "fingerprint": "2600|50|2|śródmieście",
-      "id": "olx:1088580630"
-    },
-    "olx:1088581181": {
-      "cena": 1750,
-      "data_wyslania": "2026-07-31T14:15:51.721899+00:00",
-      "fingerprint": "1750|32|1|kamienna góra",
-      "id": "olx:1088581181"
-    },
     "olx:1088584274": {
       "cena": 1900,
       "data_wyslania": "2026-07-31T14:45:45.493232+00:00",
       "fingerprint": "1900|15|1|ujeścisko - łostowice",
       "id": "olx:1088584274"
-    },
-    "olx:1088586414": {
-      "cena": 2950,
-      "data_wyslania": "2026-07-31T14:31:00.476377+00:00",
-      "fingerprint": "2950|53|3|piecki-migowo",
-      "id": "olx:1088586414"
     },
     "olx:1088587279": {
       "cena": 2300,
@@ -20612,12 +20582,6 @@
       "fingerprint": "1055000|46.9|2|",
       "id": "olx_sale:1056764365"
     },
-    "olx_sale:1056918782": {
-      "cena": 650000,
-      "data_wyslania": "2026-07-31T14:31:00.476377+00:00",
-      "fingerprint": "650000|56|3|suchanino",
-      "id": "olx_sale:1056918782"
-    },
     "olx_sale:1057509169": {
       "cena": 1099000,
       "data_wyslania": "2026-08-07T08:19:40.479641+00:00",
@@ -21853,24 +21817,6 @@
       "data_wyslania": "2026-08-09T00:01:20.381103+00:00",
       "fingerprint": "695000|54|3|",
       "id": "olx_sale:1086998334"
-    },
-    "olx_sale:1088576836": {
-      "cena": 549000,
-      "data_wyslania": "2026-07-31T14:15:51.721899+00:00",
-      "fingerprint": "549000|40.49|2|piecki-migowo",
-      "id": "olx_sale:1088576836"
-    },
-    "olx_sale:1088584333": {
-      "cena": 589000,
-      "data_wyslania": "2026-07-31T14:31:00.476377+00:00",
-      "fingerprint": "589000|42.23|2|suchanino",
-      "id": "olx_sale:1088584333"
-    },
-    "olx_sale:1088587594": {
-      "cena": 548000,
-      "data_wyslania": "2026-07-31T14:31:00.476377+00:00",
-      "fingerprint": "548000|41.42|2|brzeźno",
-      "id": "olx_sale:1088587594"
     },
     "olx_sale:1088589521": {
       "cena": 1320000,
