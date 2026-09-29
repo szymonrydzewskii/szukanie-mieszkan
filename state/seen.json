@@ -13,13 +13,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 6,
-            "fetched": 9131,
+            "fetched": 9252,
             "sent_main": 1,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 6,
-            "fetched": 7795,
+            "fetched": 7902,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -61,19 +61,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 5279,
+      "bad": 5280,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 5279,
+      "bad": 5280,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 1541,
+      "bad": 1542,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 1541,
+      "bad": 1542,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -85,7 +85,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-09-29T16:01:19.554588+00:00",
+  "last_run": "2026-09-29T16:15:49.084199+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -6921,6 +6921,12 @@
       "fingerprint": "11900000|536.99|12|dolny sopot",
       "id": "nieruchomosci_online_sale:26672903"
     },
+    "nieruchomosci_online_sale:26674740": {
+      "cena": 1699000,
+      "data_wyslania": "2026-09-29T16:15:49.084199+00:00",
+      "fingerprint": "1699000|88.3|4|przymorze",
+      "id": "nieruchomosci_online_sale:26674740"
+    },
     "nieruchomosci_online_sale:26677603": {
       "cena": 650000,
       "data_wyslania": "2026-09-24T10:45:45.842649+00:00",
@@ -8114,6 +8120,12 @@
       "data_wyslania": "2026-09-11T09:01:12.386735+00:00",
       "fingerprint": "550000|60|3|obłuże",
       "id": "nieruchomosci_online_sale:26816191"
+    },
+    "nieruchomosci_online_sale:26816548": {
+      "cena": 1049000,
+      "data_wyslania": "2026-09-29T16:15:49.084199+00:00",
+      "fingerprint": "1049000|68.3|3|karlikowo",
+      "id": "nieruchomosci_online_sale:26816548"
     },
     "nieruchomosci_online_sale:26817090": {
       "cena": 1500000,
@@ -10820,6 +10832,12 @@
       "data_wyslania": "2026-09-05T20:01:39.526809+00:00",
       "fingerprint": "599000|46|4|przymorze",
       "id": "nieruchomosci_online_sale:26925555"
+    },
+    "nieruchomosci_online_sale:26925951": {
+      "cena": 1069000,
+      "data_wyslania": "2026-09-29T16:15:49.084199+00:00",
+      "fingerprint": "1069000|54.89|3|mały kack",
+      "id": "nieruchomosci_online_sale:26925951"
     },
     "nieruchomosci_online_sale:26926235": {
       "cena": 1429000,
@@ -14198,12 +14216,6 @@
       "data_wyslania": "2026-08-02T18:15:46.176544+00:00",
       "fingerprint": "2400|44|2|oliwa",
       "id": "olx:1088591777"
-    },
-    "olx:1088608450": {
-      "cena": 1700,
-      "data_wyslania": "2026-07-31T16:15:41.611283+00:00",
-      "fingerprint": "1700|48|2|śródmieście",
-      "id": "olx:1088608450"
     },
     "olx:1088610105": {
       "cena": 1900,
@@ -19929,12 +19941,6 @@
       "fingerprint": "1650|19|1|śródmieście",
       "id": "olx:994728432"
     },
-    "olx:994968241": {
-      "cena": 3900,
-      "data_wyslania": "2026-07-31T16:15:41.611283+00:00",
-      "fingerprint": "3900|70|3|śródmieście",
-      "id": "olx:994968241"
-    },
     "olx:999100631": {
       "cena": 3500,
       "data_wyslania": "2026-08-08T15:31:01.234647+00:00",
@@ -20492,12 +20498,6 @@
       "data_wyslania": "2026-08-06T09:31:03.329218+00:00",
       "fingerprint": "494000|38|2|orunia - św. wojciech - lipce",
       "id": "olx_sale:1056660121"
-    },
-    "olx_sale:1056764365": {
-      "cena": 1055000,
-      "data_wyslania": "2026-07-31T16:15:41.611283+00:00",
-      "fingerprint": "1055000|46.9|2|",
-      "id": "olx_sale:1056764365"
     },
     "olx_sale:1057509169": {
       "cena": 1099000,
