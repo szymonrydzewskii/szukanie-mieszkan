@@ -59,13 +59,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 854,
+            "fetched": 976,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 732,
+            "fetched": 837,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -107,19 +107,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 5410,
+      "bad": 5411,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 5410,
+      "bad": 5411,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 1672,
+      "bad": 1673,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 1672,
+      "bad": 1673,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -131,7 +131,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-09-30T23:31:04.966647+00:00",
+  "last_run": "2026-09-30T23:45:46.778682+00:00",
   "seen": {
     "nieruchomosci_online:21205236": {
       "cena": 2400,
@@ -1284,12 +1284,6 @@
       "data_wyslania": "2026-09-01T11:15:47.907007+00:00",
       "fingerprint": "2500|70|2|mały kack",
       "id": "nieruchomosci_online:26869471"
-    },
-    "nieruchomosci_online:26870015": {
-      "cena": 2900,
-      "data_wyslania": "2026-08-01T23:45:44.072725+00:00",
-      "fingerprint": "2900|65|3|wielki kack",
-      "id": "nieruchomosci_online:26870015"
     },
     "nieruchomosci_online:26870449": {
       "cena": 3300,
@@ -23754,12 +23748,6 @@
       "data_wyslania": "2026-09-04T07:45:41.575613+00:00",
       "fingerprint": "10000|71|3|śródmieście",
       "id": "trojmiasto:66480201"
-    },
-    "trojmiasto:66480329": {
-      "cena": 2500,
-      "data_wyslania": "2026-08-01T23:45:44.072725+00:00",
-      "fingerprint": "2500|20|?|śródmieście",
-      "id": "trojmiasto:66480329"
     },
     "trojmiasto:66481430": {
       "cena": 3800,
