@@ -13,13 +13,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 6405,
+            "fetched": 6526,
             "sent_main": 2,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 5438,
+            "fetched": 5539,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -61,19 +61,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 5356,
+      "bad": 5357,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 5356,
+      "bad": 5357,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 1618,
+      "bad": 1619,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 1618,
+      "bad": 1619,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -85,7 +85,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-09-30T10:15:45.514781+00:00",
+  "last_run": "2026-09-30T10:31:04.594453+00:00",
   "seen": {
     "nieruchomosci_online:21205236": {
       "cena": 2400,
@@ -1232,18 +1232,6 @@
       "data_wyslania": "2026-09-06T02:15:45.435334+00:00",
       "fingerprint": "2500|31|2|dolny sopot",
       "id": "nieruchomosci_online:26868489"
-    },
-    "nieruchomosci_online:26869421": {
-      "cena": 2500,
-      "data_wyslania": "2026-08-01T10:31:04.042755+00:00",
-      "fingerprint": "2500|39|1|śródmieście",
-      "id": "nieruchomosci_online:26869421"
-    },
-    "nieruchomosci_online:26869422": {
-      "cena": 2500,
-      "data_wyslania": "2026-08-01T10:31:04.042755+00:00",
-      "fingerprint": "2500|39|1|śródmieście",
-      "id": "nieruchomosci_online:26869422"
     },
     "nieruchomosci_online:26869471": {
       "cena": 2500,
@@ -14175,35 +14163,11 @@
       "fingerprint": "4000|74|3|chwarzno-wiczlino",
       "id": "olx:1088712868"
     },
-    "olx:1088721158": {
-      "cena": 2200,
-      "data_wyslania": "2026-08-01T10:31:04.042755+00:00",
-      "fingerprint": "2200|30|2|chełm z dzielnicą gdańsk południe",
-      "id": "olx:1088721158"
-    },
     "olx:1088722333": {
       "cena": 3000,
       "data_wyslania": "2026-08-01T11:01:07.833215+00:00",
       "fingerprint": "3000|44|2|przymorze wielkie",
       "id": "olx:1088722333"
-    },
-    "olx:1088724045": {
-      "cena": 4200,
-      "data_wyslania": "2026-08-01T10:31:04.042755+00:00",
-      "fingerprint": "4200|55.5|3|",
-      "id": "olx:1088724045"
-    },
-    "olx:1088724245": {
-      "cena": 3500,
-      "data_wyslania": "2026-08-01T10:31:04.042755+00:00",
-      "fingerprint": "3500|62|3|jasień",
-      "id": "olx:1088724245"
-    },
-    "olx:1088724896": {
-      "cena": 4100,
-      "data_wyslania": "2026-08-01T10:31:04.042755+00:00",
-      "fingerprint": "4100|62|3|letnica",
-      "id": "olx:1088724896"
     },
     "olx:1088737619": {
       "cena": 2800,
@@ -19676,12 +19640,6 @@
       "data_wyslania": "2026-08-05T18:01:19.784543+00:00",
       "fingerprint": "4800|30|2|letnica",
       "id": "olx:939759919"
-    },
-    "olx:940699964": {
-      "cena": 3650,
-      "data_wyslania": "2026-08-01T10:31:04.042755+00:00",
-      "fingerprint": "3650|65.72|3|chełm z dzielnicą gdańsk południe",
-      "id": "olx:940699964"
     },
     "olx:945760181": {
       "cena": 3200,
