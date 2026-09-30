@@ -13,13 +13,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 6647,
+            "fetched": 6768,
             "sent_main": 2,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 5640,
+            "fetched": 5741,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -61,19 +61,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 5358,
+      "bad": 5359,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 5358,
+      "bad": 5359,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 1620,
+      "bad": 1621,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 1620,
+      "bad": 1621,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -85,7 +85,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-09-30T10:45:49.993712+00:00",
+  "last_run": "2026-09-30T11:01:17.828040+00:00",
   "seen": {
     "nieruchomosci_online:21205236": {
       "cena": 2400,
@@ -13017,12 +13017,6 @@
       "fingerprint": "2500|20|1|przymorze wielkie",
       "id": "olx:1076247851"
     },
-    "olx:1076444293": {
-      "cena": 2400,
-      "data_wyslania": "2026-08-01T11:01:07.833215+00:00",
-      "fingerprint": "2400|36.5|2|",
-      "id": "olx:1076444293"
-    },
     "olx:1077146855": {
       "cena": 2490,
       "data_wyslania": "2026-08-07T09:15:53.830990+00:00",
@@ -13340,12 +13334,6 @@
       "data_wyslania": "2026-08-06T12:15:48.008351+00:00",
       "fingerprint": "2500|38|2|przymorze wielkie",
       "id": "olx:1083056419"
-    },
-    "olx:1083062295": {
-      "cena": 2500,
-      "data_wyslania": "2026-08-01T11:01:07.833215+00:00",
-      "fingerprint": "2500|36|2|śródmieście",
-      "id": "olx:1083062295"
     },
     "olx:1083063502": {
       "cena": 2800,
@@ -14162,12 +14150,6 @@
       "data_wyslania": "2026-08-09T13:26:57.224259+00:00",
       "fingerprint": "4000|74|3|chwarzno-wiczlino",
       "id": "olx:1088712868"
-    },
-    "olx:1088722333": {
-      "cena": 3000,
-      "data_wyslania": "2026-08-01T11:01:07.833215+00:00",
-      "fingerprint": "3000|44|2|przymorze wielkie",
-      "id": "olx:1088722333"
     },
     "olx:1088737619": {
       "cena": 2800,
