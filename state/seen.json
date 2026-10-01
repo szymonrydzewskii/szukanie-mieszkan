@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 8,
-            "fetched": 9639,
+            "fetched": 9761,
             "sent_main": 1,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 3,
-            "fetched": 8224,
+            "fetched": 8332,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 5482,
+      "bad": 5483,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 5482,
+      "bad": 5483,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 1744,
+      "bad": 1745,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 1744,
+      "bad": 1745,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-01T16:45:46.678582+00:00",
+  "last_run": "2026-10-01T17:01:19.341008+00:00",
   "seen": {
     "nieruchomosci_online:21205236": {
       "cena": 2400,
@@ -8864,12 +8864,6 @@
       "fingerprint": "2590000|83.4|3|świemirowo",
       "id": "nieruchomosci_online_sale:26865161"
     },
-    "nieruchomosci_online_sale:26865254": {
-      "cena": 475000,
-      "data_wyslania": "2026-08-02T16:45:47.083194+00:00",
-      "fingerprint": "475000|55.8|3|orunia",
-      "id": "nieruchomosci_online_sale:26865254"
-    },
     "nieruchomosci_online_sale:26865449": {
       "cena": 750900,
       "data_wyslania": "2026-08-31T17:45:43.104375+00:00",
@@ -8989,12 +8983,6 @@
       "data_wyslania": "2026-08-07T09:45:45.346677+00:00",
       "fingerprint": "650000|39.2|2|wrzeszcz dolny",
       "id": "nieruchomosci_online_sale:26870433"
-    },
-    "nieruchomosci_online_sale:26870492": {
-      "cena": 479000,
-      "data_wyslania": "2026-08-02T17:01:11.322334+00:00",
-      "fingerprint": "479000|57.7|3|obłuże",
-      "id": "nieruchomosci_online_sale:26870492"
     },
     "nieruchomosci_online_sale:26870514": {
       "cena": 599000,
@@ -13933,24 +13921,6 @@
       "data_wyslania": "2026-08-10T07:58:47.279433+00:00",
       "fingerprint": "2700|41|2|chełm z dzielnicą gdańsk południe",
       "id": "olx:1088935198"
-    },
-    "olx:1088954562": {
-      "cena": 4200,
-      "data_wyslania": "2026-08-02T16:45:47.083194+00:00",
-      "fingerprint": "4200|62|3|wrzeszcz",
-      "id": "olx:1088954562"
-    },
-    "olx:1088955745": {
-      "cena": 2500,
-      "data_wyslania": "2026-08-02T17:01:11.322334+00:00",
-      "fingerprint": "2500|28|1|oksywie",
-      "id": "olx:1088955745"
-    },
-    "olx:1088957132": {
-      "cena": 3000,
-      "data_wyslania": "2026-08-02T17:01:11.322334+00:00",
-      "fingerprint": "3000|60|3|obłuże",
-      "id": "olx:1088957132"
     },
     "olx:1088960621": {
       "cena": 2900,
@@ -25369,12 +25339,6 @@
       "data_wyslania": "2026-09-05T07:30:51.806499+00:00",
       "fingerprint": "590000|44.37|2|orunia górna gdańsk południe",
       "id": "trojmiasto_sale:66414595"
-    },
-    "trojmiasto_sale:66414610": {
-      "cena": 1300000,
-      "data_wyslania": "2026-08-02T16:45:47.083194+00:00",
-      "fingerprint": "1300000|60.36|3|śródmieście",
-      "id": "trojmiasto_sale:66414610"
     },
     "trojmiasto_sale:66415438": {
       "cena": 1469000,
