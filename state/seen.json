@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 10531,
+            "fetched": 10654,
             "sent_main": 2,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 6,
-            "fetched": 8828,
+            "fetched": 8931,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 5589,
+      "bad": 5590,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 5589,
+      "bad": 5590,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 1851,
+      "bad": 1852,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 1851,
+      "bad": 1852,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-02T18:15:49.444027+00:00",
+  "last_run": "2026-10-02T18:31:09.725652+00:00",
   "seen": {
     "nieruchomosci_online:21205236": {
       "cena": 2400,
@@ -13861,30 +13861,6 @@
       "data_wyslania": "2026-08-08T19:01:12.355482+00:00",
       "fingerprint": "3000|40|2|mały kack",
       "id": "olx:1089163406"
-    },
-    "olx:1089176343": {
-      "cena": 2300,
-      "data_wyslania": "2026-08-03T18:15:51.189493+00:00",
-      "fingerprint": "2300|32|2|pogórze",
-      "id": "olx:1089176343"
-    },
-    "olx:1089178011": {
-      "cena": 3000,
-      "data_wyslania": "2026-08-03T18:15:51.189493+00:00",
-      "fingerprint": "3000|43|2|piecki-migowo",
-      "id": "olx:1089178011"
-    },
-    "olx:1089178323": {
-      "cena": 2200,
-      "data_wyslania": "2026-08-03T18:15:51.189493+00:00",
-      "fingerprint": "2200|22|1|działki leśne",
-      "id": "olx:1089178323"
-    },
-    "olx:1089179945": {
-      "cena": 3000,
-      "data_wyslania": "2026-08-03T18:15:51.189493+00:00",
-      "fingerprint": "3000|21.18|1|centrum",
-      "id": "olx:1089179945"
     },
     "olx:1089193088": {
       "cena": 2600,
