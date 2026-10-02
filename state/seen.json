@@ -2,52 +2,6 @@
   "daily": {},
   "digest": {
     "days": {
-      "2026-10-01": {
-        "errors": [
-          "olx: OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (p",
-          "trojmiasto: Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTY",
-          "olx_sale: OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (p",
-          "trojmiasto_sale: Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!"
-        ],
-        "sources": {
-          "nieruchomosci_online": {
-            "dropped": 9,
-            "fetched": 12201,
-            "sent_main": 1,
-            "sent_near": 0
-          },
-          "nieruchomosci_online_sale": {
-            "dropped": 3,
-            "fetched": 10412,
-            "sent_main": 0,
-            "sent_near": 0
-          },
-          "olx": {
-            "dropped": 0,
-            "fetched": 0,
-            "sent_main": 0,
-            "sent_near": 0
-          },
-          "olx_sale": {
-            "dropped": 0,
-            "fetched": 0,
-            "sent_main": 0,
-            "sent_near": 0
-          },
-          "trojmiasto": {
-            "dropped": 0,
-            "fetched": 0,
-            "sent_main": 0,
-            "sent_near": 0
-          },
-          "trojmiasto_sale": {
-            "dropped": 0,
-            "fetched": 0,
-            "sent_main": 0,
-            "sent_near": 0
-          }
-        }
-      },
       "2026-10-02": {
         "errors": [
           "olx: OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (p",
@@ -58,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 4148,
+            "fetched": 4270,
             "sent_main": 1,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 3468,
+            "fetched": 3570,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -106,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 5537,
+      "bad": 5538,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 5537,
+      "bad": 5538,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 1799,
+      "bad": 1800,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 1799,
+      "bad": 1800,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -130,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-02T05:45:47.864157+00:00",
+  "last_run": "2026-10-02T06:01:18.242857+00:00",
   "seen": {
     "nieruchomosci_online:21205236": {
       "cena": 2400,
@@ -1235,12 +1189,6 @@
       "data_wyslania": "2026-08-03T14:01:15.323905+00:00",
       "fingerprint": "4000|52|3|piecki-migowo",
       "id": "nieruchomosci_online:26870517"
-    },
-    "nieruchomosci_online:26870764": {
-      "cena": 3300,
-      "data_wyslania": "2026-08-03T05:45:54.073968+00:00",
-      "fingerprint": "3300|37.42|2|śródmieście",
-      "id": "nieruchomosci_online:26870764"
     },
     "nieruchomosci_online:26872154": {
       "cena": 3500,
@@ -13907,12 +13855,6 @@
       "data_wyslania": "2026-08-10T07:58:47.279433+00:00",
       "fingerprint": "2700|41|2|chełm z dzielnicą gdańsk południe",
       "id": "olx:1088935198"
-    },
-    "olx:1089021612": {
-      "cena": 5200,
-      "data_wyslania": "2026-08-03T05:45:54.073968+00:00",
-      "fingerprint": "5200|73.61|3|redłowo",
-      "id": "olx:1089021612"
     },
     "olx:1089026047": {
       "cena": 2800,
