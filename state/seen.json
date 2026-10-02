@@ -58,13 +58,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 3538,
+            "fetched": 3660,
             "sent_main": 1,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 2958,
+            "fetched": 3060,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -106,19 +106,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 5532,
+      "bad": 5533,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 5532,
+      "bad": 5533,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 1794,
+      "bad": 1795,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 1794,
+      "bad": 1795,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -130,7 +130,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-02T04:30:58.249264+00:00",
+  "last_run": "2026-10-02T04:45:46.929302+00:00",
   "seen": {
     "nieruchomosci_online:21205236": {
       "cena": 2400,
@@ -13907,12 +13907,6 @@
       "data_wyslania": "2026-08-10T07:58:47.279433+00:00",
       "fingerprint": "2700|41|2|chełm z dzielnicą gdańsk południe",
       "id": "olx:1088935198"
-    },
-    "olx:1089019042": {
-      "cena": 2700,
-      "data_wyslania": "2026-08-03T04:40:40.174645+00:00",
-      "fingerprint": "2700|39|2|ujeścisko - łostowice",
-      "id": "olx:1089019042"
     },
     "olx:1089021612": {
       "cena": 5200,
