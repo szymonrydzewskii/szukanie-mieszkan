@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 11761,
+            "fetched": 11884,
             "sent_main": 2,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
-            "dropped": 6,
-            "fetched": 9858,
+            "dropped": 7,
+            "fetched": 9957,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 5599,
+      "bad": 5600,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 5599,
+      "bad": 5600,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 1861,
+      "bad": 1862,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 1861,
+      "bad": 1862,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-02T20:31:05.651019+00:00",
+  "last_run": "2026-10-02T20:45:52.863693+00:00",
   "seen": {
     "nieruchomosci_online:21205236": {
       "cena": 2400,
@@ -8295,9 +8295,9 @@
       "id": "nieruchomosci_online_sale:26830028"
     },
     "nieruchomosci_online_sale:26830206": {
-      "cena": 569000,
-      "data_wyslania": "2026-09-14T17:01:13.119955+00:00",
-      "fingerprint": "569000|45|2|siedlce",
+      "cena": 535000,
+      "data_wyslania": "2026-10-02T20:45:52.863693+00:00",
+      "fingerprint": "535000|45|2|siedlce",
       "id": "nieruchomosci_online_sale:26830206"
     },
     "nieruchomosci_online_sale:26830456": {
