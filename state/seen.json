@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 7210,
+            "fetched": 7333,
             "sent_main": 2,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 5998,
+            "fetched": 6098,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 5562,
+      "bad": 5563,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 5562,
+      "bad": 5563,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 1824,
+      "bad": 1825,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 1824,
+      "bad": 1825,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-02T11:45:45.984298+00:00",
+  "last_run": "2026-10-02T12:01:20.608004+00:00",
   "seen": {
     "nieruchomosci_online:21205236": {
       "cena": 2400,
@@ -12656,12 +12656,6 @@
       "fingerprint": "3800|58.58|2|żabianka - wejhera - jelitkowo - tysiąclecia",
       "id": "olx:1064157789"
     },
-    "olx:1065494692": {
-      "cena": 3200,
-      "data_wyslania": "2026-08-03T11:45:48.196673+00:00",
-      "fingerprint": "3200|40|2|letnica",
-      "id": "olx:1065494692"
-    },
     "olx:1069312318": {
       "cena": 2300,
       "data_wyslania": "2026-08-04T08:15:46.753925+00:00",
@@ -13748,41 +13742,11 @@
       "fingerprint": "2500|40|2|orunia - św. wojciech - lipce",
       "id": "olx:1089076194"
     },
-    "olx:1089092563": {
-      "cena": 2200,
-      "data_wyslania": "2026-08-03T11:45:48.196673+00:00",
-      "fingerprint": "2200|20|1|centrum",
-      "id": "olx:1089092563"
-    },
-    "olx:1089097006": {
-      "cena": 2200,
-      "data_wyslania": "2026-08-03T11:49:52.592062+00:00",
-      "fingerprint": "2200|28.5|1|ujeścisko - łostowice",
-      "id": "olx:1089097006"
-    },
-    "olx:1089098454": {
-      "cena": 2800,
-      "data_wyslania": "2026-08-03T11:49:52.592062+00:00",
-      "fingerprint": "2800|45|2|letnica",
-      "id": "olx:1089098454"
-    },
-    "olx:1089100253": {
-      "cena": 3600,
-      "data_wyslania": "2026-08-03T12:01:12.909703+00:00",
-      "fingerprint": "3600|68|3|piecki-migowo",
-      "id": "olx:1089100253"
-    },
     "olx:1089100915": {
       "cena": 2250,
       "data_wyslania": "2026-08-03T12:15:49.485346+00:00",
       "fingerprint": "2250|31|1|siedlce",
       "id": "olx:1089100915"
-    },
-    "olx:1089101325": {
-      "cena": 2800,
-      "data_wyslania": "2026-08-03T12:01:12.909703+00:00",
-      "fingerprint": "2800|61|3|oliwa",
-      "id": "olx:1089101325"
     },
     "olx:1089101950": {
       "cena": 2350,
@@ -19844,12 +19808,6 @@
       "fingerprint": "1189000|70|3|piecki-migowo",
       "id": "olx_sale:1089056970"
     },
-    "olx_sale:1089100459": {
-      "cena": 692645,
-      "data_wyslania": "2026-08-03T12:01:12.909703+00:00",
-      "fingerprint": "692645|44|2|brzeźno",
-      "id": "olx_sale:1089100459"
-    },
     "olx_sale:1089102914": {
       "cena": 2180000,
       "data_wyslania": "2026-08-03T12:15:49.485346+00:00",
@@ -24907,12 +24865,6 @@
       "data_wyslania": "2026-08-25T11:12:25.837290+00:00",
       "fingerprint": "670000|61.4|3|chełm",
       "id": "trojmiasto_sale:66470528"
-    },
-    "trojmiasto_sale:66471278": {
-      "cena": 692645,
-      "data_wyslania": "2026-08-03T11:45:48.196673+00:00",
-      "fingerprint": "692645|43.7|2|brzeźno",
-      "id": "trojmiasto_sale:66471278"
     },
     "trojmiasto_sale:66475266": {
       "cena": 1690000,
