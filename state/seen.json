@@ -58,13 +58,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 861,
+            "fetched": 984,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 665,
+            "fetched": 760,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -106,19 +106,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 5611,
+      "bad": 5612,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 5611,
+      "bad": 5612,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 1873,
+      "bad": 1874,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 1873,
+      "bad": 1874,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -130,7 +130,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-02T23:30:58.320486+00:00",
+  "last_run": "2026-10-02T23:44:43.416647+00:00",
   "seen": {
     "nieruchomosci_online:21205236": {
       "cena": 2400,
@@ -1211,12 +1211,6 @@
       "data_wyslania": "2026-08-31T13:45:39.907131+00:00",
       "fingerprint": "3500|54|2|wrzeszcz",
       "id": "nieruchomosci_online:26873928"
-    },
-    "nieruchomosci_online:26874525": {
-      "cena": 2100,
-      "data_wyslania": "2026-08-03T23:31:04.890112+00:00",
-      "fingerprint": "2100|68|2|chwarzno-wiczlino",
-      "id": "nieruchomosci_online:26874525"
     },
     "nieruchomosci_online:26874887": {
       "cena": 2200,
@@ -21888,23 +21882,11 @@
       "fingerprint": "2500|47|2|pogórze",
       "id": "trojmiasto:66498014"
     },
-    "trojmiasto:66498223": {
-      "cena": 2499,
-      "data_wyslania": "2026-08-03T23:31:04.890112+00:00",
-      "fingerprint": "2499|46|2|przymorze wielkie",
-      "id": "trojmiasto:66498223"
-    },
     "trojmiasto:66498229": {
       "cena": 2300,
       "data_wyslania": "2026-08-26T13:45:42.179170+00:00",
       "fingerprint": "2300|39|2|stogi",
       "id": "trojmiasto:66498229"
-    },
-    "trojmiasto:66498232": {
-      "cena": 3999,
-      "data_wyslania": "2026-08-03T23:31:04.890112+00:00",
-      "fingerprint": "3999|55.4|2|brzeźno",
-      "id": "trojmiasto:66498232"
     },
     "trojmiasto:66498249": {
       "cena": 8600,
@@ -24527,12 +24509,6 @@
       "data_wyslania": "2026-08-18T11:15:35.645611+00:00",
       "fingerprint": "1100000|88.5|4|oliwa",
       "id": "trojmiasto_sale:66496061"
-    },
-    "trojmiasto_sale:66496081": {
-      "cena": 3499000,
-      "data_wyslania": "2026-08-03T23:31:04.890112+00:00",
-      "fingerprint": "3499000|9382|?|reda",
-      "id": "trojmiasto_sale:66496081"
     },
     "trojmiasto_sale:66496635": {
       "cena": 420000,
