@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 6222,
+            "fetched": 6344,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
-            "dropped": 1,
-            "fetched": 5129,
+            "dropped": 2,
+            "fetched": 5226,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,31 +60,31 @@
       "last_error": null
     },
     "olx": {
-      "bad": 5755,
+      "bad": 5756,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 5755,
+      "bad": 5756,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 2017,
+      "bad": 2018,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 2017,
+      "bad": 2018,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
   "high_water": {
     "nieruchomosci_online": "000027016477",
-    "nieruchomosci_online_sale": "000027016446",
+    "nieruchomosci_online_sale": "000027016493",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-04T09:45:52.736886+00:00",
+  "last_run": "2026-10-04T10:01:17.234447+00:00",
   "seen": {
     "nieruchomosci_online:21205236": {
       "cena": 2400,
@@ -1105,12 +1105,6 @@
       "data_wyslania": "2026-09-17T12:11:54.976329+00:00",
       "fingerprint": "4400|78.2|4|mały kack",
       "id": "nieruchomosci_online:26877896"
-    },
-    "nieruchomosci_online:26878143": {
-      "cena": 2700,
-      "data_wyslania": "2026-08-05T10:01:11.286547+00:00",
-      "fingerprint": "2700|42|2|witomino",
-      "id": "nieruchomosci_online:26878143"
     },
     "nieruchomosci_online:26878218": {
       "cena": 3000,
@@ -5929,12 +5923,6 @@
       "data_wyslania": "2026-08-18T02:15:37.397558+00:00",
       "fingerprint": "990000|68.5|4|górny sopot",
       "id": "nieruchomosci_online_sale:26350379"
-    },
-    "nieruchomosci_online_sale:26353594": {
-      "cena": 619000,
-      "data_wyslania": "2026-08-05T10:01:11.286547+00:00",
-      "fingerprint": "619000|60|2|siedlce",
-      "id": "nieruchomosci_online_sale:26353594"
     },
     "nieruchomosci_online_sale:26353685": {
       "cena": 1320000,
@@ -12752,6 +12740,12 @@
       "fingerprint": "910000|38.83|2|przymorze małe",
       "id": "nieruchomosci_online_sale:27016446"
     },
+    "nieruchomosci_online_sale:27016493": {
+      "cena": 3600000,
+      "data_wyslania": "2026-10-04T10:01:17.234447+00:00",
+      "fingerprint": "3600000|82.13|3|orłowo",
+      "id": "nieruchomosci_online_sale:27016493"
+    },
     "olx:1009673364": {
       "cena": 2400,
       "data_wyslania": "2026-08-07T15:15:48.359479+00:00",
@@ -13693,18 +13687,6 @@
       "data_wyslania": "2026-08-06T22:01:01.323359+00:00",
       "fingerprint": "3300|54.5|3|piecki-migowo",
       "id": "olx:1089440266"
-    },
-    "olx:1089447020": {
-      "cena": 2500,
-      "data_wyslania": "2026-08-05T10:01:11.286547+00:00",
-      "fingerprint": "2500|46|2|przymorze wielkie",
-      "id": "olx:1089447020"
-    },
-    "olx:1089452100": {
-      "cena": 3500,
-      "data_wyslania": "2026-08-05T10:01:11.286547+00:00",
-      "fingerprint": "3500|35|2|śródmieście",
-      "id": "olx:1089452100"
     },
     "olx:1089459796": {
       "cena": 5300,
@@ -17336,12 +17318,6 @@
       "fingerprint": "890000|35|1|śródmieście",
       "id": "olx_sale:1049610984"
     },
-    "olx_sale:1050192288": {
-      "cena": 790000,
-      "data_wyslania": "2026-08-05T10:01:11.286547+00:00",
-      "fingerprint": "790000|53|3|działki leśne",
-      "id": "olx_sale:1050192288"
-    },
     "olx_sale:1051783181": {
       "cena": 839000,
       "data_wyslania": "2026-08-10T18:31:11.603444+00:00",
@@ -18031,12 +18007,6 @@
       "data_wyslania": "2026-08-07T16:45:45.535531+00:00",
       "fingerprint": "640000|57|2|orunia - św. wojciech - lipce",
       "id": "olx_sale:1089055754"
-    },
-    "olx_sale:1089455045": {
-      "cena": 460000,
-      "data_wyslania": "2026-08-05T10:01:11.286547+00:00",
-      "fingerprint": "460000|53|3|obłuże",
-      "id": "olx_sale:1089455045"
     },
     "olx_sale:1089461943": {
       "cena": 819000,
