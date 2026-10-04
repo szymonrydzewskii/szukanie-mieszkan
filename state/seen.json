@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 6466,
+            "fetched": 6588,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 5323,
+            "fetched": 5420,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 5757,
+      "bad": 5758,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 5757,
+      "bad": 5758,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 2019,
+      "bad": 2020,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 2019,
+      "bad": 2020,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-04T10:15:46.940269+00:00",
+  "last_run": "2026-10-04T10:31:04.026249+00:00",
   "seen": {
     "nieruchomosci_online:21205236": {
       "cena": 2400,
@@ -7292,12 +7292,6 @@
       "fingerprint": "679000|42.96|2|śródmieście",
       "id": "nieruchomosci_online_sale:26718994"
     },
-    "nieruchomosci_online_sale:26719066": {
-      "cena": 529000,
-      "data_wyslania": "2026-08-05T10:31:01.286866+00:00",
-      "fingerprint": "529000|50.18|3|obłuże",
-      "id": "nieruchomosci_online_sale:26719066"
-    },
     "nieruchomosci_online_sale:26720968": {
       "cena": 2490000,
       "data_wyslania": "2026-08-11T02:15:45.261162+00:00",
@@ -7699,12 +7693,6 @@
       "data_wyslania": "2026-09-10T16:45:48.521202+00:00",
       "fingerprint": "669000|61|3|nowy port",
       "id": "nieruchomosci_online_sale:26774552"
-    },
-    "nieruchomosci_online_sale:26776281": {
-      "cena": 384000,
-      "data_wyslania": "2026-08-05T10:31:01.286866+00:00",
-      "fingerprint": "384000|34.33|2|śródmieście",
-      "id": "nieruchomosci_online_sale:26776281"
     },
     "nieruchomosci_online_sale:26776786": {
       "cena": 889000,
@@ -8336,12 +8324,6 @@
       "fingerprint": "429000|30|1|nowy port",
       "id": "nieruchomosci_online_sale:26832774"
     },
-    "nieruchomosci_online_sale:26832968": {
-      "cena": 446500,
-      "data_wyslania": "2026-08-05T10:31:01.286866+00:00",
-      "fingerprint": "446500|19.51|1|przymorze",
-      "id": "nieruchomosci_online_sale:26832968"
-    },
     "nieruchomosci_online_sale:26833185": {
       "cena": 990000,
       "data_wyslania": "2026-09-09T09:01:13.203486+00:00",
@@ -8563,12 +8545,6 @@
       "data_wyslania": "2026-08-07T08:01:06.805166+00:00",
       "fingerprint": "449000|32.12|2|kowale",
       "id": "nieruchomosci_online_sale:26847321"
-    },
-    "nieruchomosci_online_sale:26848153": {
-      "cena": 389000,
-      "data_wyslania": "2026-08-05T10:31:01.286866+00:00",
-      "fingerprint": "389000|33.34|2|śródmieście",
-      "id": "nieruchomosci_online_sale:26848153"
     },
     "nieruchomosci_online_sale:26848162": {
       "cena": 669000,
@@ -12782,12 +12758,6 @@
       "fingerprint": "2000|25|1|górny sopot",
       "id": "olx:1030558247"
     },
-    "olx:1030987240": {
-      "cena": 2500,
-      "data_wyslania": "2026-08-05T10:15:52.841015+00:00",
-      "fingerprint": "2500|40|2|centrum",
-      "id": "olx:1030987240"
-    },
     "olx:1031398213": {
       "cena": 2300,
       "data_wyslania": "2026-08-09T20:31:03.189685+00:00",
@@ -13687,36 +13657,6 @@
       "data_wyslania": "2026-08-05T11:01:13.538122+00:00",
       "fingerprint": "5300|96|4|dolny sopot",
       "id": "olx:1089459796"
-    },
-    "olx:1089462183": {
-      "cena": 30000,
-      "data_wyslania": "2026-08-05T10:31:01.286866+00:00",
-      "fingerprint": "30000|50|3|krakowiec - górki zachodnie",
-      "id": "olx:1089462183"
-    },
-    "olx:1089462785": {
-      "cena": 2700,
-      "data_wyslania": "2026-08-05T10:31:01.286866+00:00",
-      "fingerprint": "2700|40|2|kamienna góra",
-      "id": "olx:1089462785"
-    },
-    "olx:1089463173": {
-      "cena": 2200,
-      "data_wyslania": "2026-08-05T10:31:01.286866+00:00",
-      "fingerprint": "2200|32|1|orunia - św. wojciech - lipce",
-      "id": "olx:1089463173"
-    },
-    "olx:1089463986": {
-      "cena": 3400,
-      "data_wyslania": "2026-08-05T10:31:01.286866+00:00",
-      "fingerprint": "3400|45|2|chylonia",
-      "id": "olx:1089463986"
-    },
-    "olx:1089466030": {
-      "cena": 2500,
-      "data_wyslania": "2026-08-05T10:31:01.286866+00:00",
-      "fingerprint": "2500|18|1|chylonia",
-      "id": "olx:1089466030"
     },
     "olx:1089466427": {
       "cena": 3000,
@@ -17996,12 +17936,6 @@
       "fingerprint": "640000|57|2|orunia - św. wojciech - lipce",
       "id": "olx_sale:1089055754"
     },
-    "olx_sale:1089461943": {
-      "cena": 819000,
-      "data_wyslania": "2026-08-05T10:31:01.286866+00:00",
-      "fingerprint": "819000|59|3|",
-      "id": "olx_sale:1089461943"
-    },
     "olx_sale:1089467338": {
       "cena": 2100000,
       "data_wyslania": "2026-08-05T10:45:44.762269+00:00",
@@ -20083,12 +20017,6 @@
       "data_wyslania": "2026-08-21T15:15:39.513932+00:00",
       "fingerprint": "2600|48|2|morena",
       "id": "trojmiasto:66498887"
-    },
-    "trojmiasto:66499564": {
-      "cena": 3400,
-      "data_wyslania": "2026-08-05T10:31:01.286866+00:00",
-      "fingerprint": "3400|63.31|3|śródmieście",
-      "id": "trojmiasto:66499564"
     },
     "trojmiasto:66499575": {
       "cena": 3000,
