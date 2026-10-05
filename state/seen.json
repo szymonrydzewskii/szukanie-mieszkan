@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 5203,
+            "fetched": 5324,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 4214,
+            "fetched": 4312,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 5848,
+      "bad": 5849,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 5848,
+      "bad": 5849,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 2110,
+      "bad": 2111,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 2110,
+      "bad": 2111,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-05T08:01:26.359739+00:00",
+  "last_run": "2026-10-05T08:15:55.999083+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -1135,12 +1135,6 @@
       "data_wyslania": "2026-09-21T07:01:14.306508+00:00",
       "fingerprint": "4200|72.5|3|kiełpinek",
       "id": "nieruchomosci_online:26880572"
-    },
-    "nieruchomosci_online:26880658": {
-      "cena": 3200,
-      "data_wyslania": "2026-08-06T08:15:49.736445+00:00",
-      "fingerprint": "3200|57|2|wzgórze św. maksymiliana",
-      "id": "nieruchomosci_online:26880658"
     },
     "nieruchomosci_online:26880689": {
       "cena": 2000,
@@ -13489,12 +13483,6 @@
       "data_wyslania": "2026-08-08T20:13:18.308157+00:00",
       "fingerprint": "1400|41.9|2|wzgórze mickiewicza",
       "id": "olx:1089604158"
-    },
-    "olx:1089621655": {
-      "cena": 4200,
-      "data_wyslania": "2026-08-06T08:15:49.736445+00:00",
-      "fingerprint": "4200|72.5|3|",
-      "id": "olx:1089621655"
     },
     "olx:1089625444": {
       "cena": 2200,
