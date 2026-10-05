@@ -13,13 +13,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 7519,
+            "fetched": 7642,
             "sent_main": 1,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 6079,
+            "fetched": 6174,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -61,19 +61,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 5868,
+      "bad": 5869,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 5868,
+      "bad": 5869,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 2130,
+      "bad": 2131,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 2130,
+      "bad": 2131,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -85,7 +85,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-05T13:01:20.687622+00:00",
+  "last_run": "2026-10-05T13:15:54.160928+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -12729,12 +12729,6 @@
       "fingerprint": "2300|34|2|chełm z dzielnicą gdańsk południe",
       "id": "olx:1053347915"
     },
-    "olx:1053396643": {
-      "cena": 2400,
-      "data_wyslania": "2026-08-06T13:15:50.835899+00:00",
-      "fingerprint": "2400|39|2|oksywie",
-      "id": "olx:1053396643"
-    },
     "olx:1054557364": {
       "cena": 2500,
       "data_wyslania": "2026-08-08T06:15:43.523061+00:00",
@@ -13382,12 +13376,6 @@
       "data_wyslania": "2026-08-08T20:13:18.308157+00:00",
       "fingerprint": "1400|41.9|2|wzgórze mickiewicza",
       "id": "olx:1089604158"
-    },
-    "olx:1089702260": {
-      "cena": 10900,
-      "data_wyslania": "2026-08-06T13:15:50.835899+00:00",
-      "fingerprint": "10900|135|4|oliwa",
-      "id": "olx:1089702260"
     },
     "olx:1089706531": {
       "cena": 2300,
