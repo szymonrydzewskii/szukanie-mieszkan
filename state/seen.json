@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 5933,
+            "fetched": 6055,
             "sent_main": 1,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 4511,
+            "fetched": 4609,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 5949,
+      "bad": 5950,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 5949,
+      "bad": 5950,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 2211,
+      "bad": 2212,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 2211,
+      "bad": 2212,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-06T09:20:16.293060+00:00",
+  "last_run": "2026-10-06T09:31:07.679997+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -12806,12 +12806,6 @@
       "fingerprint": "3100|60|3|wrzeszcz",
       "id": "olx:1070648583"
     },
-    "olx:1071460927": {
-      "cena": 2100,
-      "data_wyslania": "2026-08-07T09:31:07.251290+00:00",
-      "fingerprint": "2100|31|1|strzyża",
-      "id": "olx:1071460927"
-    },
     "olx:1073103702": {
       "cena": 2000,
       "data_wyslania": "2026-08-07T15:01:20.324232+00:00",
@@ -12931,12 +12925,6 @@
       "data_wyslania": "2026-08-10T17:31:05.233519+00:00",
       "fingerprint": "3200|45|2|śródmieście",
       "id": "olx:1082054579"
-    },
-    "olx:1082693290": {
-      "cena": 3000,
-      "data_wyslania": "2026-08-07T09:31:07.251290+00:00",
-      "fingerprint": "3000|52|2|śródmieście",
-      "id": "olx:1082693290"
     },
     "olx:1082992061": {
       "cena": 2700,
@@ -15608,18 +15596,6 @@
       "fingerprint": "776880|83.06|4|",
       "id": "olx_sale:1032536650"
     },
-    "olx_sale:1036482184": {
-      "cena": 599000,
-      "data_wyslania": "2026-08-07T09:31:07.251290+00:00",
-      "fingerprint": "599000|20.3|1|śródmieście",
-      "id": "olx_sale:1036482184"
-    },
-    "olx_sale:1036502090": {
-      "cena": 469000,
-      "data_wyslania": "2026-08-07T09:31:07.251290+00:00",
-      "fingerprint": "469000|37.07|2|",
-      "id": "olx_sale:1036502090"
-    },
     "olx_sale:1037205884": {
       "cena": 592059,
       "data_wyslania": "2026-08-09T09:45:43.503874+00:00",
@@ -15926,12 +15902,6 @@
       "fingerprint": "2490000|117|4|wrzeszcz",
       "id": "olx_sale:1082666251"
     },
-    "olx_sale:1082692866": {
-      "cena": 1678000,
-      "data_wyslania": "2026-08-07T09:31:07.251290+00:00",
-      "fingerprint": "1678000|69.95|3|wrzeszcz",
-      "id": "olx_sale:1082692866"
-    },
     "olx_sale:1083037639": {
       "cena": 729000,
       "data_wyslania": "2026-08-08T10:15:52.207676+00:00",
@@ -15967,18 +15937,6 @@
       "data_wyslania": "2026-08-07T09:45:45.346677+00:00",
       "fingerprint": "799000|51|2|mały kack",
       "id": "olx_sale:1083488973"
-    },
-    "olx_sale:1083489877": {
-      "cena": 539000,
-      "data_wyslania": "2026-08-07T09:31:07.251290+00:00",
-      "fingerprint": "539000|38|2|",
-      "id": "olx_sale:1083489877"
-    },
-    "olx_sale:1083489928": {
-      "cena": 1450000,
-      "data_wyslania": "2026-08-07T09:31:07.251290+00:00",
-      "fingerprint": "1450000|53.85|3|",
-      "id": "olx_sale:1083489928"
     },
     "olx_sale:1084077485": {
       "cena": 499000,
@@ -16129,36 +16087,6 @@
       "data_wyslania": "2026-08-07T21:01:16.239964+00:00",
       "fingerprint": "850000|75.59|3|mały kack",
       "id": "olx_sale:1089844192"
-    },
-    "olx_sale:1089845607": {
-      "cena": 599000,
-      "data_wyslania": "2026-08-07T09:31:07.251290+00:00",
-      "fingerprint": "599000|38.8|2|kamienna góra",
-      "id": "olx_sale:1089845607"
-    },
-    "olx_sale:1089846027": {
-      "cena": 1390000,
-      "data_wyslania": "2026-08-07T09:31:07.251290+00:00",
-      "fingerprint": "1390000|59.28|3|",
-      "id": "olx_sale:1089846027"
-    },
-    "olx_sale:1089846032": {
-      "cena": 799000,
-      "data_wyslania": "2026-08-07T09:31:07.251290+00:00",
-      "fingerprint": "799000|67|3|strzyża",
-      "id": "olx_sale:1089846032"
-    },
-    "olx_sale:1089846762": {
-      "cena": 635000,
-      "data_wyslania": "2026-08-07T09:31:07.251290+00:00",
-      "fingerprint": "635000|32|1|",
-      "id": "olx_sale:1089846762"
-    },
-    "olx_sale:1089846764": {
-      "cena": 620000,
-      "data_wyslania": "2026-08-07T09:31:07.251290+00:00",
-      "fingerprint": "620000|54.4|2|",
-      "id": "olx_sale:1089846764"
     },
     "olx_sale:1089850566": {
       "cena": 930000,
@@ -20029,18 +19957,6 @@
       "data_wyslania": "2026-08-07T10:01:18.688103+00:00",
       "fingerprint": "469000|33.99|2|łostowice",
       "id": "trojmiasto_sale:66501193"
-    },
-    "trojmiasto_sale:66501468": {
-      "cena": 1199000,
-      "data_wyslania": "2026-08-07T09:31:07.251290+00:00",
-      "fingerprint": "1199000|130|4|chwarzno - wiczlino",
-      "id": "trojmiasto_sale:66501468"
-    },
-    "trojmiasto_sale:66501469": {
-      "cena": 499000,
-      "data_wyslania": "2026-08-07T09:31:07.251290+00:00",
-      "fingerprint": "499000|58.96|2|kartuzy",
-      "id": "trojmiasto_sale:66501469"
     },
     "trojmiasto_sale:66501545": {
       "cena": 669000,
