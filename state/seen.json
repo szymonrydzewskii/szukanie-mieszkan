@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 8617,
+            "fetched": 8740,
             "sent_main": 1,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 6686,
+            "fetched": 6786,
             "sent_main": 1,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 5971,
+      "bad": 5972,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 5971,
+      "bad": 5972,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 2233,
+      "bad": 2234,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 2233,
+      "bad": 2234,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-06T14:45:53.857060+00:00",
+  "last_run": "2026-10-06T15:01:39.151454+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -1087,12 +1087,6 @@
       "data_wyslania": "2026-09-11T08:15:44.743829+00:00",
       "fingerprint": "2600|31.71|1|śródmieście",
       "id": "nieruchomosci_online:26884767"
-    },
-    "nieruchomosci_online:26884780": {
-      "cena": 2600,
-      "data_wyslania": "2026-08-07T14:45:56.164867+00:00",
-      "fingerprint": "2600|47|3|śródmieście",
-      "id": "nieruchomosci_online:26884780"
     },
     "nieruchomosci_online:26884868": {
       "cena": 4200,
@@ -12782,12 +12776,6 @@
       "fingerprint": "3800|58.58|2|żabianka - wejhera - jelitkowo - tysiąclecia",
       "id": "olx:1064157789"
     },
-    "olx:1073103702": {
-      "cena": 2000,
-      "data_wyslania": "2026-08-07T15:01:20.324232+00:00",
-      "fingerprint": "2000|35|1|ujeścisko - łostowice",
-      "id": "olx:1073103702"
-    },
     "olx:1073701643": {
       "cena": 2500,
       "data_wyslania": "2026-08-10T21:31:12.727264+00:00",
@@ -13177,12 +13165,6 @@
       "data_wyslania": "2026-08-08T20:13:18.308157+00:00",
       "fingerprint": "1400|41.9|2|wzgórze mickiewicza",
       "id": "olx:1089604158"
-    },
-    "olx:1089922777": {
-      "cena": 1700,
-      "data_wyslania": "2026-08-07T15:01:20.324232+00:00",
-      "fingerprint": "1700|48|2|śródmieście",
-      "id": "olx:1089922777"
     },
     "olx:1089926025": {
       "cena": 3000,
@@ -15668,12 +15650,6 @@
       "fingerprint": "850000|75.59|3|mały kack",
       "id": "olx_sale:1089844192"
     },
-    "olx_sale:1089919563": {
-      "cena": 750000,
-      "data_wyslania": "2026-08-07T14:45:56.164867+00:00",
-      "fingerprint": "750000|55.6|3|pogórze",
-      "id": "olx_sale:1089919563"
-    },
     "olx_sale:1089931036": {
       "cena": 570000,
       "data_wyslania": "2026-08-07T15:45:49.984024+00:00",
@@ -17005,12 +16981,6 @@
       "data_wyslania": "2026-08-19T06:01:01.512653+00:00",
       "fingerprint": "3000|50|2|grabówek",
       "id": "trojmiasto:66501447"
-    },
-    "trojmiasto:66502009": {
-      "cena": 2000,
-      "data_wyslania": "2026-08-07T15:01:20.324232+00:00",
-      "fingerprint": "2000|20|1|chełm",
-      "id": "trojmiasto:66502009"
     },
     "trojmiasto:66502272": {
       "cena": 2999,
