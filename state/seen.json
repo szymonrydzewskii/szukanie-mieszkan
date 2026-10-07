@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 9,
-            "fetched": 7112,
+            "fetched": 7234,
             "sent_main": 2,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 5,
-            "fetched": 6018,
+            "fetched": 6122,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 6059,
+      "bad": 6060,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 6059,
+      "bad": 6060,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 2321,
+      "bad": 2322,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 2321,
+      "bad": 2322,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-07T11:45:52.140637+00:00",
+  "last_run": "2026-10-07T12:01:27.064424+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -13232,18 +13232,6 @@
       "fingerprint": "1700|27|1|dolny sopot",
       "id": "olx:1090044233"
     },
-    "olx:1090056751": {
-      "cena": 2900,
-      "data_wyslania": "2026-08-08T12:01:20.238091+00:00",
-      "fingerprint": "2900|40|2|dolny sopot",
-      "id": "olx:1090056751"
-    },
-    "olx:1090057324": {
-      "cena": 2500,
-      "data_wyslania": "2026-08-08T12:01:20.238091+00:00",
-      "fingerprint": "2500|37|2|leszczynki",
-      "id": "olx:1090057324"
-    },
     "olx:1090064542": {
       "cena": 1800,
       "data_wyslania": "2026-08-08T13:15:45.439661+00:00",
@@ -15139,12 +15127,6 @@
       "data_wyslania": "2026-08-09T08:15:45.368568+00:00",
       "fingerprint": "2050000|55.81|2|",
       "id": "olx_sale:1077256917"
-    },
-    "olx_sale:1077510551": {
-      "cena": 680000,
-      "data_wyslania": "2026-08-08T12:01:20.238091+00:00",
-      "fingerprint": "680000|43.8|2|",
-      "id": "olx_sale:1077510551"
     },
     "olx_sale:1078316136": {
       "cena": 663000,
