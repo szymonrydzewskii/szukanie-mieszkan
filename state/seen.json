@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 6,
-            "fetched": 5763,
+            "fetched": 5886,
             "sent_main": 2,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 4882,
+            "fetched": 4985,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 6048,
+      "bad": 6049,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 6048,
+      "bad": 6049,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 2310,
+      "bad": 2311,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 2310,
+      "bad": 2311,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-07T09:01:22.308980+00:00",
+  "last_run": "2026-10-07T09:15:53.509674+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -12854,12 +12854,6 @@
       "fingerprint": "2500|20|1|przymorze wielkie",
       "id": "olx:1076247851"
     },
-    "olx:1078354709": {
-      "cena": 2600,
-      "data_wyslania": "2026-08-08T09:04:22.682151+00:00",
-      "fingerprint": "2600|56|2|działki leśne",
-      "id": "olx:1078354709"
-    },
     "olx:1078808938": {
       "cena": 2500,
       "data_wyslania": "2026-08-10T18:36:34.212031+00:00",
@@ -13171,18 +13165,6 @@
       "data_wyslania": "2026-08-08T20:13:18.308157+00:00",
       "fingerprint": "1400|41.9|2|wzgórze mickiewicza",
       "id": "olx:1089604158"
-    },
-    "olx:1090027682": {
-      "cena": 4500,
-      "data_wyslania": "2026-08-08T09:15:42.974504+00:00",
-      "fingerprint": "4500|60|3|",
-      "id": "olx:1090027682"
-    },
-    "olx:1090028286": {
-      "cena": 2800,
-      "data_wyslania": "2026-08-08T09:15:42.974504+00:00",
-      "fingerprint": "2800|30|2|",
-      "id": "olx:1090028286"
     },
     "olx:1090029847": {
       "cena": 3200,
@@ -15361,12 +15343,6 @@
       "data_wyslania": "2026-08-09T06:25:31.435882+00:00",
       "fingerprint": "599000|54|3|obłuże",
       "id": "olx_sale:1089842699"
-    },
-    "olx_sale:1090023256": {
-      "cena": 450000,
-      "data_wyslania": "2026-08-08T09:15:42.974504+00:00",
-      "fingerprint": "450000|31|1|zaspa młyniec",
-      "id": "olx_sale:1090023256"
     },
     "olx_sale:1090040656": {
       "cena": 447458,
