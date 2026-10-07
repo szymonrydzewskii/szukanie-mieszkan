@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 7,
-            "fetched": 6378,
+            "fetched": 6501,
             "sent_main": 2,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 3,
-            "fetched": 5397,
+            "fetched": 5500,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,31 +60,31 @@
       "last_error": null
     },
     "olx": {
-      "bad": 6053,
+      "bad": 6054,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 6053,
+      "bad": 6054,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 2315,
+      "bad": 2316,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 2315,
+      "bad": 2316,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000027024886",
+    "nieruchomosci_online": "000027025132",
     "nieruchomosci_online_sale": "000027024887",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-07T10:15:57.849434+00:00",
+  "last_run": "2026-10-07T10:31:10.562467+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -5282,6 +5282,12 @@
       "fingerprint": "1950|26|1|śródmieście",
       "id": "nieruchomosci_online:27024886"
     },
+    "nieruchomosci_online:27025132": {
+      "cena": 2600,
+      "data_wyslania": "2026-10-07T10:31:10.562467+00:00",
+      "fingerprint": "2600|34.83|2|przymorze małe",
+      "id": "nieruchomosci_online:27025132"
+    },
     "nieruchomosci_online_sale:23972145": {
       "cena": 660000,
       "data_wyslania": "2026-08-22T09:30:50.844438+00:00",
@@ -8047,6 +8053,12 @@
       "data_wyslania": "2026-08-14T22:15:35.829091+00:00",
       "fingerprint": "1469000|68|3|letnica",
       "id": "nieruchomosci_online_sale:26808030"
+    },
+    "nieruchomosci_online_sale:26808922": {
+      "cena": 620000,
+      "data_wyslania": "2026-10-07T10:31:10.562467+00:00",
+      "fingerprint": "620000|49|3|przymorze",
+      "id": "nieruchomosci_online_sale:26808922"
     },
     "nieruchomosci_online_sale:26812117": {
       "cena": 849000,
@@ -13184,18 +13196,6 @@
       "fingerprint": "1400|41.9|2|wzgórze mickiewicza",
       "id": "olx:1089604158"
     },
-    "olx:1090038764": {
-      "cena": 5000,
-      "data_wyslania": "2026-08-08T10:31:02.668301+00:00",
-      "fingerprint": "5000|70|3|śródmieście",
-      "id": "olx:1090038764"
-    },
-    "olx:1090043189": {
-      "cena": 3000,
-      "data_wyslania": "2026-08-08T10:31:02.668301+00:00",
-      "fingerprint": "3000|38|2|piecki-migowo",
-      "id": "olx:1090043189"
-    },
     "olx:1090044233": {
       "cena": 1700,
       "data_wyslania": "2026-08-08T16:01:19.236808+00:00",
@@ -14990,12 +14990,6 @@
       "fingerprint": "3500|87|3|śródmieście",
       "id": "olx:999100631"
     },
-    "olx_sale:1031639816": {
-      "cena": 749455,
-      "data_wyslania": "2026-08-08T10:31:02.668301+00:00",
-      "fingerprint": "749455|44.2|2|",
-      "id": "olx_sale:1031639816"
-    },
     "olx_sale:1031661080": {
       "cena": 1566469,
       "data_wyslania": "2026-08-09T08:01:08.816853+00:00",
@@ -15037,12 +15031,6 @@
       "data_wyslania": "2026-08-11T06:31:14.407648+00:00",
       "fingerprint": "669974|40.92|2|",
       "id": "olx_sale:1038376322"
-    },
-    "olx_sale:1043453062": {
-      "cena": 656529,
-      "data_wyslania": "2026-08-08T10:31:02.668301+00:00",
-      "fingerprint": "656529|33.6|1|",
-      "id": "olx_sale:1043453062"
     },
     "olx_sale:1048731865": {
       "cena": 809550,
@@ -15331,18 +15319,6 @@
       "data_wyslania": "2026-08-09T06:25:31.435882+00:00",
       "fingerprint": "599000|54|3|obłuże",
       "id": "olx_sale:1089842699"
-    },
-    "olx_sale:1090040656": {
-      "cena": 447458,
-      "data_wyslania": "2026-08-08T10:31:02.668301+00:00",
-      "fingerprint": "447458|42.86|2|",
-      "id": "olx_sale:1090040656"
-    },
-    "olx_sale:1090040700": {
-      "cena": 502217,
-      "data_wyslania": "2026-08-08T10:31:02.668301+00:00",
-      "fingerprint": "502217|39.08|2|jasień",
-      "id": "olx_sale:1090040700"
     },
     "olx_sale:1090043910": {
       "cena": 606000,
