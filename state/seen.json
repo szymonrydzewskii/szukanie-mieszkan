@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 10,
-            "fetched": 6565,
+            "fetched": 6686,
             "sent_main": 2,
             "sent_near": 2
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 5454,
+            "fetched": 5555,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 6155,
+      "bad": 6156,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 6155,
+      "bad": 6156,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 2417,
+      "bad": 2418,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 2417,
+      "bad": 2418,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-08T10:45:54.021827+00:00",
+  "last_run": "2026-10-08T11:01:23.490906+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -7184,12 +7184,6 @@
       "fingerprint": "880000|63.2|3|piecki-migowo",
       "id": "nieruchomosci_online_sale:26678920"
     },
-    "nieruchomosci_online_sale:26679633": {
-      "cena": 569000,
-      "data_wyslania": "2026-08-09T11:01:08.234576+00:00",
-      "fingerprint": "569000|35.9|2|przylesie",
-      "id": "nieruchomosci_online_sale:26679633"
-    },
     "nieruchomosci_online_sale:26683109": {
       "cena": 1170000,
       "data_wyslania": "2026-08-19T10:45:35.940841+00:00",
@@ -12757,6 +12751,12 @@
       "data_wyslania": "2026-10-03T09:31:04.967585+00:00",
       "fingerprint": "439000|45.2|3|obłuże",
       "id": "nieruchomosci_online_sale:27011787"
+    },
+    "nieruchomosci_online_sale:27012327": {
+      "cena": 1480000,
+      "data_wyslania": "2026-10-08T11:01:23.490906+00:00",
+      "fingerprint": "1480000|115|3|wrzeszcz",
+      "id": "nieruchomosci_online_sale:27012327"
     },
     "nieruchomosci_online_sale:27012348": {
       "cena": 1480000,
