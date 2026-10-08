@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 4,
-            "fetched": 4382,
+            "fetched": 4503,
             "sent_main": 1,
             "sent_near": 2
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 3636,
+            "fetched": 3737,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 6137,
+      "bad": 6138,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 6137,
+      "bad": 6138,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 2399,
+      "bad": 2400,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 2399,
+      "bad": 2400,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-08T06:17:03.415961+00:00",
+  "last_run": "2026-10-08T06:31:05.131731+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -13262,12 +13262,6 @@
       "fingerprint": "2800|35.61|2|jasień",
       "id": "olx:1089529754"
     },
-    "olx:1090091170": {
-      "cena": 1800,
-      "data_wyslania": "2026-08-09T06:25:31.435882+00:00",
-      "fingerprint": "1800|16|1|brętowo",
-      "id": "olx:1090091170"
-    },
     "olx:1090136270": {
       "cena": 4250,
       "data_wyslania": "2026-08-09T07:31:00.747593+00:00",
@@ -15061,12 +15055,6 @@
       "data_wyslania": "2026-08-09T11:45:48.873775+00:00",
       "fingerprint": "469000|27|1|śródmieście",
       "id": "olx_sale:1089735509"
-    },
-    "olx_sale:1089842699": {
-      "cena": 599000,
-      "data_wyslania": "2026-08-09T06:25:31.435882+00:00",
-      "fingerprint": "599000|54|3|obłuże",
-      "id": "olx_sale:1089842699"
     },
     "olx_sale:1090083993": {
       "cena": 442200,
