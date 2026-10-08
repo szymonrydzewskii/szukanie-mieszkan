@@ -7,7 +7,8 @@
           "olx: OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (p",
           "trojmiasto: Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTY",
           "olx_sale: OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (p",
-          "trojmiasto_sale: Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!"
+          "trojmiasto_sale: Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!",
+          "nieruchomosci_online: Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Read timed out. (re"
         ],
         "sources": {
           "nieruchomosci_online": {
@@ -18,7 +19,7 @@
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 9056,
+            "fetched": 9150,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -52,27 +53,27 @@
   },
   "health": {
     "nieruchomosci_online": {
-      "bad": 0,
-      "last_error": null
+      "bad": 1,
+      "last_error": "Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Read timed out. (read timeout=20)"
     },
     "nieruchomosci_online_sale": {
       "bad": 0,
       "last_error": null
     },
     "olx": {
-      "bad": 6192,
+      "bad": 6193,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 6192,
+      "bad": 6193,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 2454,
+      "bad": 2455,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 2454,
+      "bad": 2455,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +85,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-08T19:45:58.564022+00:00",
+  "last_run": "2026-10-08T20:01:22.595991+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -13334,24 +13335,6 @@
       "fingerprint": "3200|67|4|ujeścisko - łostowice",
       "id": "olx:1090212592"
     },
-    "olx:1090283812": {
-      "cena": 2400,
-      "data_wyslania": "2026-08-09T20:01:20.242926+00:00",
-      "fingerprint": "2400|38|2|ujeścisko - łostowice",
-      "id": "olx:1090283812"
-    },
-    "olx:1090284065": {
-      "cena": 3000,
-      "data_wyslania": "2026-08-09T20:01:20.242926+00:00",
-      "fingerprint": "3000|47|2|śródmieście",
-      "id": "olx:1090284065"
-    },
-    "olx:1090284292": {
-      "cena": 2800,
-      "data_wyslania": "2026-08-09T20:01:20.242926+00:00",
-      "fingerprint": "2800|86|2|obłuże",
-      "id": "olx:1090284292"
-    },
     "olx:1090285491": {
       "cena": 2800,
       "data_wyslania": "2026-08-09T20:15:45.159621+00:00",
@@ -14761,12 +14744,6 @@
       "data_wyslania": "2026-08-10T21:31:12.727264+00:00",
       "fingerprint": "649000|45|2|brzeźno",
       "id": "olx_sale:1085280476"
-    },
-    "olx_sale:1090285183": {
-      "cena": 659000,
-      "data_wyslania": "2026-08-09T20:01:20.242926+00:00",
-      "fingerprint": "659000|53|2|wielki kack",
-      "id": "olx_sale:1090285183"
     },
     "olx_sale:1090289285": {
       "cena": 640000,
