@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 4,
-            "fetched": 4866,
+            "fetched": 4987,
             "sent_main": 1,
             "sent_near": 2
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 4040,
+            "fetched": 4141,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 6141,
+      "bad": 6142,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 6141,
+      "bad": 6142,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 2403,
+      "bad": 2404,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 2403,
+      "bad": 2404,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-08T07:15:48.900929+00:00",
+  "last_run": "2026-10-08T07:31:06.520518+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -9248,6 +9248,12 @@
       "fingerprint": "520000|53.1|4|pogórze dolne",
       "id": "nieruchomosci_online_sale:26883566"
     },
+    "nieruchomosci_online_sale:26883573": {
+      "cena": 815000,
+      "data_wyslania": "2026-10-08T07:31:06.520518+00:00",
+      "fingerprint": "815000|48|2|piecki-migowo",
+      "id": "nieruchomosci_online_sale:26883573"
+    },
     "nieruchomosci_online_sale:26884698": {
       "cena": 955000,
       "data_wyslania": "2026-09-17T12:11:54.976329+00:00",
@@ -12752,6 +12758,12 @@
       "fingerprint": "1149000|72.95|4|kamienny potok",
       "id": "nieruchomosci_online_sale:27014102"
     },
+    "nieruchomosci_online_sale:27014291": {
+      "cena": 839000,
+      "data_wyslania": "2026-10-08T07:31:06.520518+00:00",
+      "fingerprint": "839000|59|3|myśliwskie",
+      "id": "nieruchomosci_online_sale:27014291"
+    },
     "nieruchomosci_online_sale:27014340": {
       "cena": 739000,
       "data_wyslania": "2026-10-03T09:31:04.967585+00:00",
@@ -13088,12 +13100,6 @@
       "fingerprint": "3900|65.73|3|letnica",
       "id": "olx:1083267621"
     },
-    "olx:1083816025": {
-      "cena": 3500,
-      "data_wyslania": "2026-08-09T07:31:00.747593+00:00",
-      "fingerprint": "3500|48|2|śródmieście",
-      "id": "olx:1083816025"
-    },
     "olx:1083866906": {
       "cena": 3500,
       "data_wyslania": "2026-08-11T07:58:34.864152+00:00",
@@ -13243,24 +13249,6 @@
       "data_wyslania": "2026-08-10T19:31:03.659694+00:00",
       "fingerprint": "2800|35.61|2|jasień",
       "id": "olx:1089529754"
-    },
-    "olx:1090136270": {
-      "cena": 4250,
-      "data_wyslania": "2026-08-09T07:31:00.747593+00:00",
-      "fingerprint": "4250|54|2|letnica",
-      "id": "olx:1090136270"
-    },
-    "olx:1090150843": {
-      "cena": 4300,
-      "data_wyslania": "2026-08-09T07:31:00.747593+00:00",
-      "fingerprint": "4300|64.5|3|piecki-migowo",
-      "id": "olx:1090150843"
-    },
-    "olx:1090151037": {
-      "cena": 3300,
-      "data_wyslania": "2026-08-09T07:31:00.747593+00:00",
-      "fingerprint": "3300|40|2|oliwa",
-      "id": "olx:1090151037"
     },
     "olx:1090155547": {
       "cena": 3300,
