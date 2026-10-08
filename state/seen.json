@@ -11,14 +11,14 @@
         ],
         "sources": {
           "nieruchomosci_online": {
-            "dropped": 5,
-            "fetched": 5834,
+            "dropped": 6,
+            "fetched": 5955,
             "sent_main": 1,
             "sent_near": 2
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 4848,
+            "fetched": 4949,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,31 +60,31 @@
       "last_error": null
     },
     "olx": {
-      "bad": 6149,
+      "bad": 6150,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 6149,
+      "bad": 6150,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 2411,
+      "bad": 2412,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 2411,
+      "bad": 2412,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000027027852",
+    "nieruchomosci_online": "000027027927",
     "nieruchomosci_online_sale": "000027025521",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-08T09:15:58.541407+00:00",
+  "last_run": "2026-10-08T09:31:06.134466+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -4629,9 +4629,9 @@
       "id": "nieruchomosci_online:27001472"
     },
     "nieruchomosci_online:27004158": {
-      "cena": 5000,
-      "data_wyslania": "2026-09-29T12:45:54.630522+00:00",
-      "fingerprint": "5000|48.99|2|dolny sopot",
+      "cena": 4600,
+      "data_wyslania": "2026-10-08T09:31:06.134466+00:00",
+      "fingerprint": "4600|48.99|2|dolny sopot",
       "id": "nieruchomosci_online:27004158"
     },
     "nieruchomosci_online:27004462": {
@@ -5407,6 +5407,12 @@
       "data_wyslania": "2026-10-08T09:15:58.541407+00:00",
       "fingerprint": "2500|63|3|obłuże",
       "id": "nieruchomosci_online:27027852"
+    },
+    "nieruchomosci_online:27027927": {
+      "cena": 2200,
+      "data_wyslania": "2026-10-08T09:31:06.134466+00:00",
+      "fingerprint": "2200|49|3|witomino",
+      "id": "nieruchomosci_online:27027927"
     },
     "nieruchomosci_online_sale:23972145": {
       "cena": 660000,
@@ -13154,12 +13160,6 @@
       "fingerprint": "2400|40|2|chylonia",
       "id": "olx:1084320438"
     },
-    "olx:1084472967": {
-      "cena": 2900,
-      "data_wyslania": "2026-08-09T09:31:04.014355+00:00",
-      "fingerprint": "2900|35|2|orłowo",
-      "id": "olx:1084472967"
-    },
     "olx:1084693007": {
       "cena": 3200,
       "data_wyslania": "2026-08-11T07:15:46.041191+00:00",
@@ -13273,12 +13273,6 @@
       "data_wyslania": "2026-08-10T19:31:03.659694+00:00",
       "fingerprint": "2800|35.61|2|jasień",
       "id": "olx:1089529754"
-    },
-    "olx:1090165717": {
-      "cena": 3100,
-      "data_wyslania": "2026-08-09T09:31:04.014355+00:00",
-      "fingerprint": "3100|40|2|wrzeszcz",
-      "id": "olx:1090165717"
     },
     "olx:1090168262": {
       "cena": 2800,
