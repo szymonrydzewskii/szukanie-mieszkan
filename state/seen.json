@@ -11,14 +11,14 @@
         ],
         "sources": {
           "nieruchomosci_online": {
-            "dropped": 11,
-            "fetched": 7534,
+            "dropped": 12,
+            "fetched": 7655,
             "sent_main": 2,
             "sent_near": 2
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 6258,
+            "fetched": 6355,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,31 +60,31 @@
       "last_error": null
     },
     "olx": {
-      "bad": 6163,
+      "bad": 6164,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 6163,
+      "bad": 6164,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 2425,
+      "bad": 2426,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 2425,
+      "bad": 2426,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000027028835",
+    "nieruchomosci_online": "000027029170",
     "nieruchomosci_online_sale": "000027027664",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-08T12:45:58.130859+00:00",
+  "last_run": "2026-10-08T13:01:29.633987+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -5455,6 +5455,18 @@
       "data_wyslania": "2026-10-08T12:15:45.752764+00:00",
       "fingerprint": "2300|43|2|witomino",
       "id": "nieruchomosci_online:27028835"
+    },
+    "nieruchomosci_online:27029146": {
+      "cena": 2000,
+      "data_wyslania": "2026-10-08T13:01:29.633987+00:00",
+      "fingerprint": "2000|29.2|1|witomino",
+      "id": "nieruchomosci_online:27029146"
+    },
+    "nieruchomosci_online:27029170": {
+      "cena": 3500,
+      "data_wyslania": "2026-10-08T13:01:29.633987+00:00",
+      "fingerprint": "3500|59.33|2|śródmieście",
+      "id": "nieruchomosci_online:27029170"
     },
     "nieruchomosci_online_sale:23972145": {
       "cena": 660000,
@@ -13310,12 +13322,6 @@
       "fingerprint": "2700|37|2|",
       "id": "olx:1086794553"
     },
-    "olx:1086804891": {
-      "cena": 3800,
-      "data_wyslania": "2026-08-09T13:01:10.363536+00:00",
-      "fingerprint": "3800|54|3|wrzeszcz",
-      "id": "olx:1086804891"
-    },
     "olx:1086899330": {
       "cena": 2900,
       "data_wyslania": "2026-08-09T18:15:45.648213+00:00",
@@ -18271,12 +18277,6 @@
       "data_wyslania": "2026-08-21T14:30:51.252568+00:00",
       "fingerprint": "2150000|56.76|3|jelitkowo",
       "id": "trojmiasto_sale:66501113"
-    },
-    "trojmiasto_sale:66501586": {
-      "cena": 549000,
-      "data_wyslania": "2026-08-09T13:01:10.363536+00:00",
-      "fingerprint": "549000|55.7|3|wejherowo osiedle harcerskie",
-      "id": "trojmiasto_sale:66501586"
     },
     "trojmiasto_sale:66501978": {
       "cena": 1179000,
