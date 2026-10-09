@@ -11,14 +11,14 @@
         ],
         "sources": {
           "nieruchomosci_online": {
-            "dropped": 10,
-            "fetched": 9574,
+            "dropped": 11,
+            "fetched": 9696,
             "sent_main": 1,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 7486,
+            "fetched": 7583,
             "sent_main": 2,
             "sent_near": 2
           },
@@ -60,31 +60,31 @@
       "last_error": null
     },
     "olx": {
-      "bad": 6279,
+      "bad": 6280,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 6279,
+      "bad": 6280,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 2541,
+      "bad": 2542,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 2541,
+      "bad": 2542,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000027032873",
+    "nieruchomosci_online": "000027033021",
     "nieruchomosci_online_sale": "000027032033",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-09T16:45:55.107155+00:00",
+  "last_run": "2026-10-09T17:01:28.531591+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -5437,6 +5437,12 @@
       "data_wyslania": "2026-10-09T15:15:57.068224+00:00",
       "fingerprint": "2000|60|3|kamienna góra",
       "id": "nieruchomosci_online:27032873"
+    },
+    "nieruchomosci_online:27033021": {
+      "cena": 3499,
+      "data_wyslania": "2026-10-09T17:01:28.531591+00:00",
+      "fingerprint": "3499|48|3|karlikowo",
+      "id": "nieruchomosci_online:27033021"
     },
     "nieruchomosci_online_sale:23972145": {
       "cena": 660000,
@@ -13094,12 +13100,6 @@
       "fingerprint": "3200|45|2|wrzeszcz",
       "id": "olx:1084693007"
     },
-    "olx:1084794931": {
-      "cena": 3500,
-      "data_wyslania": "2026-08-10T17:01:14.390274+00:00",
-      "fingerprint": "3500|90|3|witomino-leśniczówka",
-      "id": "olx:1084794931"
-    },
     "olx:1084947084": {
       "cena": 3400,
       "data_wyslania": "2026-08-11T07:45:47.569794+00:00",
@@ -13129,12 +13129,6 @@
       "data_wyslania": "2026-08-10T19:31:03.659694+00:00",
       "fingerprint": "2800|35.61|2|jasień",
       "id": "olx:1089529754"
-    },
-    "olx:1090212592": {
-      "cena": 3200,
-      "data_wyslania": "2026-08-10T17:01:14.390274+00:00",
-      "fingerprint": "3200|67|4|ujeścisko - łostowice",
-      "id": "olx:1090212592"
     },
     "olx:1090443060": {
       "cena": 4000,
@@ -14575,12 +14569,6 @@
       "data_wyslania": "2026-08-25T06:30:55.510796+00:00",
       "fingerprint": "3500|41.7|2|wrzeszcz dolny",
       "id": "trojmiasto:66475694"
-    },
-    "trojmiasto:66478365": {
-      "cena": 2800,
-      "data_wyslania": "2026-08-10T17:01:14.390274+00:00",
-      "fingerprint": "2800|44|2|karczemki",
-      "id": "trojmiasto:66478365"
     },
     "trojmiasto:66480100": {
       "cena": 1750,
@@ -16789,12 +16777,6 @@
       "data_wyslania": "2026-09-01T09:15:40.460362+00:00",
       "fingerprint": "1250000|79.22|3|pogórze",
       "id": "trojmiasto_sale:66482510"
-    },
-    "trojmiasto_sale:66483430": {
-      "cena": 1380000,
-      "data_wyslania": "2026-08-10T17:01:14.390274+00:00",
-      "fingerprint": "1380000|105|3|chwarzno - wiczlino",
-      "id": "trojmiasto_sale:66483430"
     },
     "trojmiasto_sale:66483439": {
       "cena": 18390000,
