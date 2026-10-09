@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 6413,
+            "fetched": 6534,
             "sent_main": 1,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
-            "dropped": 1,
-            "fetched": 4927,
+            "dropped": 2,
+            "fetched": 5024,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 6253,
+      "bad": 6254,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 6253,
+      "bad": 6254,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 2515,
+      "bad": 2516,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 2515,
+      "bad": 2516,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-09T10:31:14.178786+00:00",
+  "last_run": "2026-10-09T10:45:55.485008+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -11811,9 +11811,9 @@
       "id": "nieruchomosci_online_sale:26977341"
     },
     "nieruchomosci_online_sale:26977454": {
-      "cena": 1999999,
-      "data_wyslania": "2026-09-20T07:45:43.051373+00:00",
-      "fingerprint": "1999999|93|3|śródmieście",
+      "cena": 1860000,
+      "data_wyslania": "2026-10-09T10:45:55.485008+00:00",
+      "fingerprint": "1860000|77.4|3|śródmieście",
       "id": "nieruchomosci_online_sale:26977454"
     },
     "nieruchomosci_online_sale:26977623": {
@@ -12877,6 +12877,12 @@
       "data_wyslania": "2026-10-07T15:02:45.226733+00:00",
       "fingerprint": "399000|26.6|1|orunia-św. wojciech-lipce",
       "id": "nieruchomosci_online_sale:27022905"
+    },
+    "nieruchomosci_online_sale:27024807": {
+      "cena": 3800000,
+      "data_wyslania": "2026-10-09T10:45:55.485008+00:00",
+      "fingerprint": "3800000|90.3|2|śródmieście",
+      "id": "nieruchomosci_online_sale:27024807"
     },
     "nieruchomosci_online_sale:27024887": {
       "cena": 729000,
