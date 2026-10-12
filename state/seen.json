@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 6226,
-            "sent_main": 0,
+            "fetched": 6349,
+            "sent_main": 1,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 5001,
+            "fetched": 5096,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,31 +60,31 @@
       "last_error": null
     },
     "olx": {
-      "bad": 6553,
+      "bad": 6554,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 6553,
+      "bad": 6554,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 2815,
+      "bad": 2816,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 2815,
+      "bad": 2816,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000027035417",
+    "nieruchomosci_online": "000027035906",
     "nieruchomosci_online_sale": "000027035205",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-12T09:45:49.888895+00:00",
+  "last_run": "2026-10-12T10:01:28.785709+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -3128,6 +3128,12 @@
       "fingerprint": "2400|35|2|wzgórze św. maksymiliana",
       "id": "nieruchomosci_online:26967112"
     },
+    "nieruchomosci_online:26967349": {
+      "cena": 2800,
+      "data_wyslania": "2026-10-12T10:01:28.785709+00:00",
+      "fingerprint": "2800|53|2|oliwa",
+      "id": "nieruchomosci_online:26967349"
+    },
     "nieruchomosci_online:26967505": {
       "cena": 3999,
       "data_wyslania": "2026-09-21T11:01:13.713587+00:00",
@@ -5371,6 +5377,12 @@
       "data_wyslania": "2026-10-12T08:01:26.980693+00:00",
       "fingerprint": "2700|52|2|karwiny",
       "id": "nieruchomosci_online:27035417"
+    },
+    "nieruchomosci_online:27035906": {
+      "cena": 2100,
+      "data_wyslania": "2026-10-12T10:01:28.785709+00:00",
+      "fingerprint": "2100|42|2|dolny sopot",
+      "id": "nieruchomosci_online:27035906"
     },
     "nieruchomosci_online_sale:23972145": {
       "cena": 660000,
@@ -7760,12 +7772,6 @@
       "fingerprint": "559000|32.1|2|gdańsk",
       "id": "nieruchomosci_online_sale:26795743"
     },
-    "nieruchomosci_online_sale:26795754": {
-      "cena": 699000,
-      "data_wyslania": "2026-08-13T10:01:25.687107+00:00",
-      "fingerprint": "699000|44.62|2|kamienna góra",
-      "id": "nieruchomosci_online_sale:26795754"
-    },
     "nieruchomosci_online_sale:26797060": {
       "cena": 2100000,
       "data_wyslania": "2026-08-14T12:15:46.319004+00:00",
@@ -9133,12 +9139,6 @@
       "data_wyslania": "2026-08-19T10:30:53.695200+00:00",
       "fingerprint": "829000|50.8|2|zaspa",
       "id": "nieruchomosci_online_sale:26895500"
-    },
-    "nieruchomosci_online_sale:26895615": {
-      "cena": 1970000,
-      "data_wyslania": "2026-08-13T10:01:25.687107+00:00",
-      "fingerprint": "1970000|87|4|dolny sopot",
-      "id": "nieruchomosci_online_sale:26895615"
     },
     "nieruchomosci_online_sale:26895906": {
       "cena": 1299000,
@@ -13411,12 +13411,6 @@
       "data_wyslania": "2026-08-18T21:01:01.376411+00:00",
       "fingerprint": "2900|54|3|chełm",
       "id": "trojmiasto:66505961"
-    },
-    "trojmiasto:66506342": {
-      "cena": 3100,
-      "data_wyslania": "2026-08-13T09:45:57.063529+00:00",
-      "fingerprint": "3100|43|2|przymorze małe",
-      "id": "trojmiasto:66506342"
     },
     "trojmiasto:66506853": {
       "cena": 8500,
