@@ -11,14 +11,14 @@
         ],
         "sources": {
           "nieruchomosci_online": {
-            "dropped": 9,
-            "fetched": 7207,
+            "dropped": 10,
+            "fetched": 7329,
             "sent_main": 1,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 7,
-            "fetched": 6046,
+            "fetched": 6149,
             "sent_main": 0,
             "sent_near": 1
           },
@@ -60,31 +60,31 @@
       "last_error": null
     },
     "olx": {
-      "bad": 6661,
+      "bad": 6662,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 6661,
+      "bad": 6662,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 2923,
+      "bad": 2924,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 2923,
+      "bad": 2924,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000027038866",
+    "nieruchomosci_online": "000027039783",
     "nieruchomosci_online_sale": "000027039313",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-13T12:15:49.982949+00:00",
+  "last_run": "2026-10-13T12:31:15.157307+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -5342,6 +5342,18 @@
       "fingerprint": "4700|70|1|górny sopot",
       "id": "nieruchomosci_online:27038866"
     },
+    "nieruchomosci_online:27039737": {
+      "cena": 2800,
+      "data_wyslania": "2026-10-13T12:31:15.157307+00:00",
+      "fingerprint": "2800|38|2|śródmieście",
+      "id": "nieruchomosci_online:27039737"
+    },
+    "nieruchomosci_online:27039783": {
+      "cena": 3200,
+      "data_wyslania": "2026-10-13T12:31:15.157307+00:00",
+      "fingerprint": "3200|52|2|redłowo",
+      "id": "nieruchomosci_online:27039783"
+    },
     "nieruchomosci_online_sale:23972145": {
       "cena": 660000,
       "data_wyslania": "2026-08-22T09:30:50.844438+00:00",
@@ -6337,12 +6349,6 @@
       "data_wyslania": "2026-08-19T02:15:37.243754+00:00",
       "fingerprint": "1150000|40|2|karlikowo",
       "id": "nieruchomosci_online_sale:26547317"
-    },
-    "nieruchomosci_online_sale:26548558": {
-      "cena": 1200500,
-      "data_wyslania": "2026-08-14T12:30:51.105313+00:00",
-      "fingerprint": "1200500|49|2|śródmieście",
-      "id": "nieruchomosci_online_sale:26548558"
     },
     "nieruchomosci_online_sale:26548573": {
       "cena": 999000,
@@ -7634,12 +7640,6 @@
       "fingerprint": "2980000|86.7|3|dolny sopot",
       "id": "nieruchomosci_online_sale:26799787"
     },
-    "nieruchomosci_online_sale:26800085": {
-      "cena": 3300000,
-      "data_wyslania": "2026-08-14T12:30:51.105313+00:00",
-      "fingerprint": "3300000|103|2|śródmieście",
-      "id": "nieruchomosci_online_sale:26800085"
-    },
     "nieruchomosci_online_sale:26800425": {
       "cena": 720000,
       "data_wyslania": "2026-09-16T09:15:46.267037+00:00",
@@ -8306,18 +8306,6 @@
       "fingerprint": "2990000|145|6|centrum",
       "id": "nieruchomosci_online_sale:26861650"
     },
-    "nieruchomosci_online_sale:26862136": {
-      "cena": 1686000,
-      "data_wyslania": "2026-08-14T12:30:51.105313+00:00",
-      "fingerprint": "1686000|60.16|3|przymorze",
-      "id": "nieruchomosci_online_sale:26862136"
-    },
-    "nieruchomosci_online_sale:26862175": {
-      "cena": 1799000,
-      "data_wyslania": "2026-08-14T12:30:51.105313+00:00",
-      "fingerprint": "1799000|99.89|4|piecki-migowo",
-      "id": "nieruchomosci_online_sale:26862175"
-    },
     "nieruchomosci_online_sale:26862244": {
       "cena": 779000,
       "data_wyslania": "2026-09-27T12:45:44.850217+00:00",
@@ -8425,12 +8413,6 @@
       "data_wyslania": "2026-09-07T16:45:44.259525+00:00",
       "fingerprint": "599000|38|2|cisowa",
       "id": "nieruchomosci_online_sale:26868004"
-    },
-    "nieruchomosci_online_sale:26869264": {
-      "cena": 750000,
-      "data_wyslania": "2026-08-14T12:30:51.105313+00:00",
-      "fingerprint": "750000|47|2|mały kack",
-      "id": "nieruchomosci_online_sale:26869264"
     },
     "nieruchomosci_online_sale:26869397": {
       "cena": 1599000,
@@ -8671,12 +8653,6 @@
       "data_wyslania": "2026-08-22T09:12:18.774240+00:00",
       "fingerprint": "960000|62.67|3|pogórze",
       "id": "nieruchomosci_online_sale:26881539"
-    },
-    "nieruchomosci_online_sale:26881649": {
-      "cena": 2290000,
-      "data_wyslania": "2026-08-14T12:30:51.105313+00:00",
-      "fingerprint": "2290000|78|3|oliwa",
-      "id": "nieruchomosci_online_sale:26881649"
     },
     "nieruchomosci_online_sale:26881941": {
       "cena": 673000,
@@ -9049,12 +9025,6 @@
       "data_wyslania": "2026-10-13T10:45:54.435867+00:00",
       "fingerprint": "649900|40|2|śródmieście",
       "id": "nieruchomosci_online_sale:26898480"
-    },
-    "nieruchomosci_online_sale:26898891": {
-      "cena": 4450000,
-      "data_wyslania": "2026-08-14T12:30:51.105313+00:00",
-      "fingerprint": "4450000|167.07|8|dolny sopot",
-      "id": "nieruchomosci_online_sale:26898891"
     },
     "nieruchomosci_online_sale:26898984": {
       "cena": 907199,
