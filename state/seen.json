@@ -12,15 +12,15 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 8,
-            "fetched": 6353,
+            "fetched": 6475,
             "sent_main": 1,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
-            "dropped": 4,
-            "fetched": 5304,
+            "dropped": 6,
+            "fetched": 5410,
             "sent_main": 0,
-            "sent_near": 0
+            "sent_near": 1
           },
           "olx": {
             "dropped": 0,
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 6654,
+      "bad": 6655,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 6654,
+      "bad": 6655,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 2916,
+      "bad": 2917,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 2916,
+      "bad": 2917,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-13T10:31:17.443126+00:00",
+  "last_run": "2026-10-13T10:45:54.435867+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -9093,9 +9093,9 @@
       "id": "nieruchomosci_online_sale:26898409"
     },
     "nieruchomosci_online_sale:26898480": {
-      "cena": 665000,
-      "data_wyslania": "2026-10-13T10:31:17.443126+00:00",
-      "fingerprint": "665000|40|2|śródmieście",
+      "cena": 649900,
+      "data_wyslania": "2026-10-13T10:45:54.435867+00:00",
+      "fingerprint": "649900|40|2|śródmieście",
       "id": "nieruchomosci_online_sale:26898480"
     },
     "nieruchomosci_online_sale:26898891": {
@@ -9530,6 +9530,12 @@
       "fingerprint": "715000|52.7|3|brodwino",
       "id": "nieruchomosci_online_sale:26913212"
     },
+    "nieruchomosci_online_sale:26913247": {
+      "cena": 625000,
+      "data_wyslania": "2026-10-13T10:45:54.435867+00:00",
+      "fingerprint": "625000|35.48|2|wyspa spichrzów",
+      "id": "nieruchomosci_online_sale:26913247"
+    },
     "nieruchomosci_online_sale:26913548": {
       "cena": 548000,
       "data_wyslania": "2026-08-21T18:00:59.845092+00:00",
@@ -9765,9 +9771,9 @@
       "id": "nieruchomosci_online_sale:26918156"
     },
     "nieruchomosci_online_sale:26918232": {
-      "cena": 420000,
-      "data_wyslania": "2026-09-25T10:45:45.722646+00:00",
-      "fingerprint": "420000|45|2|chylonia",
+      "cena": 415000,
+      "data_wyslania": "2026-10-13T10:45:54.435867+00:00",
+      "fingerprint": "415000|45|2|chylonia",
       "id": "nieruchomosci_online_sale:26918232"
     },
     "nieruchomosci_online_sale:26918377": {
@@ -10639,6 +10645,12 @@
       "data_wyslania": "2026-09-08T10:45:47.064686+00:00",
       "fingerprint": "620000|37.42|2|wielki kack",
       "id": "nieruchomosci_online_sale:26947188"
+    },
+    "nieruchomosci_online_sale:26947411": {
+      "cena": 550000,
+      "data_wyslania": "2026-10-13T10:45:54.435867+00:00",
+      "fingerprint": "550000|27.55|1|śródmieście",
+      "id": "nieruchomosci_online_sale:26947411"
     },
     "nieruchomosci_online_sale:26947436": {
       "cena": 1500000,
@@ -12302,6 +12314,12 @@
       "fingerprint": "549900|55.6|3|witomino",
       "id": "nieruchomosci_online_sale:27012923"
     },
+    "nieruchomosci_online_sale:27012986": {
+      "cena": 760000,
+      "data_wyslania": "2026-10-13T10:45:54.435867+00:00",
+      "fingerprint": "760000|38.61|2|wyspa spichrzów",
+      "id": "nieruchomosci_online_sale:27012986"
+    },
     "nieruchomosci_online_sale:27013066": {
       "cena": 794000,
       "data_wyslania": "2026-10-02T11:45:45.984298+00:00",
@@ -12381,9 +12399,9 @@
       "id": "nieruchomosci_online_sale:27016244"
     },
     "nieruchomosci_online_sale:27016446": {
-      "cena": 910000,
-      "data_wyslania": "2026-10-04T09:15:55.132424+00:00",
-      "fingerprint": "910000|38.83|2|przymorze małe",
+      "cena": 895000,
+      "data_wyslania": "2026-10-13T10:45:54.435867+00:00",
+      "fingerprint": "895000|38.83|2|przymorze małe",
       "id": "nieruchomosci_online_sale:27016446"
     },
     "nieruchomosci_online_sale:27016493": {
