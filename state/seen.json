@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 16,
-            "fetched": 9666,
+            "fetched": 9789,
             "sent_main": 1,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 8,
-            "fetched": 8087,
+            "fetched": 8189,
             "sent_main": 0,
             "sent_near": 1
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 6681,
+      "bad": 6682,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 6681,
+      "bad": 6682,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 2943,
+      "bad": 2944,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 2943,
+      "bad": 2944,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-13T17:01:34.824286+00:00",
+  "last_run": "2026-10-13T17:15:55.141928+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -11029,6 +11029,12 @@
       "data_wyslania": "2026-09-16T11:30:57.729288+00:00",
       "fingerprint": "1100000|58.5|3|wyspa spichrzów",
       "id": "nieruchomosci_online_sale:26967893"
+    },
+    "nieruchomosci_online_sale:26967983": {
+      "cena": 840000,
+      "data_wyslania": "2026-10-13T17:15:55.141928+00:00",
+      "fingerprint": "840000|39.76|2|przymorze małe",
+      "id": "nieruchomosci_online_sale:26967983"
     },
     "nieruchomosci_online_sale:26968011": {
       "cena": 1199000,
