@@ -13,13 +13,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 16,
-            "fetched": 9789,
+            "fetched": 9912,
             "sent_main": 1,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 8,
-            "fetched": 8189,
+            "fetched": 8291,
             "sent_main": 0,
             "sent_near": 1
           },
@@ -53,27 +53,27 @@
   },
   "health": {
     "nieruchomosci_online": {
-      "bad": 1,
-      "last_error": "Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Read timed out. (read timeout=20)"
+      "bad": 0,
+      "last_error": null
     },
     "nieruchomosci_online_sale": {
-      "bad": 1,
-      "last_error": "Nieruchomosci-online: błąd sieci: HTTPSConnectionPool(host='www.nieruchomosci-online.pl', port=443): Read timed out. (read timeout=20)"
+      "bad": 0,
+      "last_error": null
     },
     "olx": {
-      "bad": 6683,
+      "bad": 6684,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 6683,
+      "bad": 6684,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 2945,
+      "bad": 2946,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 2945,
+      "bad": 2946,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -85,7 +85,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-13T17:31:12.103195+00:00",
+  "last_run": "2026-10-13T17:45:55.771710+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
