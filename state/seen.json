@@ -11,14 +11,14 @@
         ],
         "sources": {
           "nieruchomosci_online": {
-            "dropped": 13,
-            "fetched": 8190,
+            "dropped": 14,
+            "fetched": 8313,
             "sent_main": 1,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 8,
-            "fetched": 6863,
+            "fetched": 6965,
             "sent_main": 0,
             "sent_near": 1
           },
@@ -60,31 +60,31 @@
       "last_error": null
     },
     "olx": {
-      "bad": 6669,
+      "bad": 6670,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 6669,
+      "bad": 6670,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 2931,
+      "bad": 2932,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 2931,
+      "bad": 2932,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000027040130",
+    "nieruchomosci_online": "000027040399",
     "nieruchomosci_online_sale": "000027039313",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-13T14:16:01.493092+00:00",
+  "last_run": "2026-10-13T14:31:17.706050+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -5371,6 +5371,12 @@
       "data_wyslania": "2026-10-13T13:46:00.027555+00:00",
       "fingerprint": "2600|28|1|kamienny potok",
       "id": "nieruchomosci_online:27040130"
+    },
+    "nieruchomosci_online:27040399": {
+      "cena": 2800,
+      "data_wyslania": "2026-10-13T14:31:17.706050+00:00",
+      "fingerprint": "2800|52|3|grabówek",
+      "id": "nieruchomosci_online:27040399"
     },
     "nieruchomosci_online_sale:23972145": {
       "cena": 660000,
