@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 10880,
+            "fetched": 11003,
             "sent_main": 1,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 9313,
+            "fetched": 9418,
             "sent_main": 2,
             "sent_near": 1
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 6891,
+      "bad": 6892,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 6891,
+      "bad": 6892,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 3153,
+      "bad": 3154,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 3153,
+      "bad": 3154,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-15T18:45:54.260589+00:00",
+  "last_run": "2026-10-15T19:01:30.204723+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -15080,12 +15080,6 @@
       "fingerprint": "799000|73.5|3|jasień",
       "id": "trojmiasto_sale:66399961"
     },
-    "trojmiasto_sale:66400812": {
-      "cena": 849000,
-      "data_wyslania": "2026-08-16T19:01:00.681248+00:00",
-      "fingerprint": "849000|255|3|borucino",
-      "id": "trojmiasto_sale:66400812"
-    },
     "trojmiasto_sale:66405629": {
       "cena": 1990000,
       "data_wyslania": "2026-09-01T17:45:51.218932+00:00",
@@ -15103,12 +15097,6 @@
       "data_wyslania": "2026-09-11T13:45:45.446792+00:00",
       "fingerprint": "2660000|64.75|3|śródmieście",
       "id": "trojmiasto_sale:66407633"
-    },
-    "trojmiasto_sale:66408153": {
-      "cena": 849000,
-      "data_wyslania": "2026-08-16T19:01:00.681248+00:00",
-      "fingerprint": "849000|255|3|stężyca",
-      "id": "trojmiasto_sale:66408153"
     },
     "trojmiasto_sale:66410298": {
       "cena": 1659000,
@@ -15463,12 +15451,6 @@
       "data_wyslania": "2026-09-10T12:15:47.546428+00:00",
       "fingerprint": "831000|51|3|śródmieście",
       "id": "trojmiasto_sale:66499197"
-    },
-    "trojmiasto_sale:66499430": {
-      "cena": 475000,
-      "data_wyslania": "2026-08-16T19:01:00.681248+00:00",
-      "fingerprint": "475000|40.3|2|siedlce",
-      "id": "trojmiasto_sale:66499430"
     },
     "trojmiasto_sale:66499946": {
       "cena": 1875000,
