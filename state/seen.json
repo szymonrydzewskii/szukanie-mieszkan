@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 6,
-            "fetched": 10425,
+            "fetched": 10547,
             "sent_main": 2,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 5,
-            "fetched": 8946,
+            "fetched": 9054,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 6989,
+      "bad": 6990,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 6989,
+      "bad": 6990,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 3251,
+      "bad": 3252,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 3251,
+      "bad": 3252,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-16T18:01:27.326420+00:00",
+  "last_run": "2026-10-16T18:15:51.225630+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -13712,23 +13712,11 @@
       "fingerprint": "3300|40|2|wrzeszcz",
       "id": "trojmiasto:66509558"
     },
-    "trojmiasto:66509966": {
-      "cena": 2900,
-      "data_wyslania": "2026-08-17T18:15:05.724798+00:00",
-      "fingerprint": "2900|45|2|śródmieście",
-      "id": "trojmiasto:66509966"
-    },
     "trojmiasto:66509968": {
       "cena": 3400,
       "data_wyslania": "2026-08-21T17:37:45.846202+00:00",
       "fingerprint": "3400|60|3|piecki-migowo",
       "id": "trojmiasto:66509968"
-    },
-    "trojmiasto:66509970": {
-      "cena": 2900,
-      "data_wyslania": "2026-08-17T18:15:05.724798+00:00",
-      "fingerprint": "2900|38|2|śródmieście",
-      "id": "trojmiasto:66509970"
     },
     "trojmiasto:66509974": {
       "cena": 4000,
