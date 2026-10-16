@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 6887,
+            "fetched": 7009,
             "sent_main": 2,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 5863,
+            "fetched": 5966,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 6960,
+      "bad": 6961,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 6960,
+      "bad": 6961,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 3222,
+      "bad": 3223,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 3222,
+      "bad": 3223,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-16T11:01:29.345490+00:00",
+  "last_run": "2026-10-16T11:15:53.765348+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -1034,18 +1034,6 @@
       "fingerprint": "3100|48.2|2|zaspa",
       "id": "nieruchomosci_online:26902389"
     },
-    "nieruchomosci_online:26902454": {
-      "cena": 10000,
-      "data_wyslania": "2026-08-17T11:15:35.955459+00:00",
-      "fingerprint": "10000|130|5|karlikowo",
-      "id": "nieruchomosci_online:26902454"
-    },
-    "nieruchomosci_online:26902455": {
-      "cena": 2999,
-      "data_wyslania": "2026-08-17T11:15:35.955459+00:00",
-      "fingerprint": "2999|44.5|2|grabówek",
-      "id": "nieruchomosci_online:26902455"
-    },
     "nieruchomosci_online:26902526": {
       "cena": 3250,
       "data_wyslania": "2026-08-17T11:30:52.068731+00:00",
@@ -1405,6 +1393,12 @@
       "data_wyslania": "2026-10-07T05:46:26.999284+00:00",
       "fingerprint": "2800|40|2|ujeścisko-łostowice",
       "id": "nieruchomosci_online:26915903"
+    },
+    "nieruchomosci_online:26916117": {
+      "cena": 3500,
+      "data_wyslania": "2026-10-16T11:15:53.765348+00:00",
+      "fingerprint": "3500|70|4|siedlce",
+      "id": "nieruchomosci_online:26916117"
     },
     "nieruchomosci_online:26916314": {
       "cena": 2600,
@@ -9343,12 +9337,6 @@
       "data_wyslania": "2026-10-09T14:01:28.771440+00:00",
       "fingerprint": "2713500|100.5|4|redłowo",
       "id": "nieruchomosci_online_sale:26901993"
-    },
-    "nieruchomosci_online_sale:26902417": {
-      "cena": 415000,
-      "data_wyslania": "2026-08-17T11:15:35.955459+00:00",
-      "fingerprint": "415000|24.8|1|kamienny potok",
-      "id": "nieruchomosci_online_sale:26902417"
     },
     "nieruchomosci_online_sale:26902675": {
       "cena": 515000,
