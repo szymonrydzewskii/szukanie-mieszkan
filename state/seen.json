@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 5246,
+            "fetched": 5368,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 4673,
+            "fetched": 4781,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 7047,
+      "bad": 7048,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 7047,
+      "bad": 7048,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 3309,
+      "bad": 3310,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 3309,
+      "bad": 3310,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-17T08:01:22.861915+00:00",
+  "last_run": "2026-10-17T08:15:48.776657+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -1027,12 +1027,6 @@
       "data_wyslania": "2026-09-03T12:31:00.716888+00:00",
       "fingerprint": "4950|77|3|sopot",
       "id": "nieruchomosci_online:26904079"
-    },
-    "nieruchomosci_online:26904458": {
-      "cena": 2500,
-      "data_wyslania": "2026-08-18T08:15:39.814625+00:00",
-      "fingerprint": "2500|40.6|2|witomino-leśniczówka",
-      "id": "nieruchomosci_online:26904458"
     },
     "nieruchomosci_online:26904794": {
       "cena": 2000,
@@ -9304,7 +9298,7 @@
     },
     "nieruchomosci_online_sale:26902889": {
       "cena": 1890000,
-      "data_wyslania": "2026-08-18T08:15:39.814625+00:00",
+      "data_wyslania": "2026-10-17T08:15:48.776657+00:00",
       "fingerprint": "1890000|55|2|dolny sopot",
       "id": "nieruchomosci_online_sale:26902889"
     },
