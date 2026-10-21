@@ -11,14 +11,14 @@
         ],
         "sources": {
           "nieruchomosci_online": {
-            "dropped": 5,
-            "fetched": 4428,
+            "dropped": 6,
+            "fetched": 4551,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 3960,
+            "fetched": 4070,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,31 +60,31 @@
       "last_error": null
     },
     "olx": {
-      "bad": 7444,
+      "bad": 7445,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 7444,
+      "bad": 7445,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 3706,
+      "bad": 3707,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 3706,
+      "bad": 3707,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000027058853",
+    "nieruchomosci_online": "000027058963",
     "nieruchomosci_online_sale": "000027056841",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-21T06:31:13.063457+00:00",
+  "last_run": "2026-10-21T06:45:53.359428+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -5449,6 +5449,12 @@
       "data_wyslania": "2026-10-20T23:31:08.405746+00:00",
       "fingerprint": "1999|42.36|2|pustki cisowskie",
       "id": "nieruchomosci_online:27058853"
+    },
+    "nieruchomosci_online:27058963": {
+      "cena": 2300,
+      "data_wyslania": "2026-10-21T06:45:53.359428+00:00",
+      "fingerprint": "2300|49|2|grabówek",
+      "id": "nieruchomosci_online:27058963"
     },
     "nieruchomosci_online_sale:23972145": {
       "cena": 660000,
@@ -12751,12 +12757,6 @@
       "data_wyslania": "2026-09-10T14:45:43.792169+00:00",
       "fingerprint": "2400|30.5|1|oliwa",
       "id": "trojmiasto:66206337"
-    },
-    "trojmiasto:66210540": {
-      "cena": 2600,
-      "data_wyslania": "2026-08-22T06:45:36.816494+00:00",
-      "fingerprint": "2600|37.98|2|sobieszewo",
-      "id": "trojmiasto:66210540"
     },
     "trojmiasto:66222776": {
       "cena": 3400,
