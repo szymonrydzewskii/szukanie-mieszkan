@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 6371,
+            "fetched": 6492,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 5607,
+            "fetched": 5711,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 7662,
+      "bad": 7663,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 7662,
+      "bad": 7663,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 3924,
+      "bad": 3925,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 3924,
+      "bad": 3925,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-23T10:01:31.631106+00:00",
+  "last_run": "2026-10-23T10:15:55.704249+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -8918,12 +8918,6 @@
       "fingerprint": "794000|73|3|fikakowo",
       "id": "nieruchomosci_online_sale:26916567"
     },
-    "nieruchomosci_online_sale:26916633": {
-      "cena": 699000,
-      "data_wyslania": "2026-08-24T10:15:40.360453+00:00",
-      "fingerprint": "699000|44.27|2|osowa",
-      "id": "nieruchomosci_online_sale:26916633"
-    },
     "nieruchomosci_online_sale:26916648": {
       "cena": 699000,
       "data_wyslania": "2026-09-04T16:15:40.200853+00:00",
@@ -11071,6 +11065,12 @@
       "data_wyslania": "2026-10-06T15:15:59.152403+00:00",
       "fingerprint": "1274526|75.42|3|redłowo",
       "id": "nieruchomosci_online_sale:26987860"
+    },
+    "nieruchomosci_online_sale:26988235": {
+      "cena": 845000,
+      "data_wyslania": "2026-10-23T10:15:55.704249+00:00",
+      "fingerprint": "845000|70.6|2|górny sopot",
+      "id": "nieruchomosci_online_sale:26988235"
     },
     "nieruchomosci_online_sale:26988236": {
       "cena": 539000,
