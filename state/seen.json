@@ -11,14 +11,14 @@
         ],
         "sources": {
           "nieruchomosci_online": {
-            "dropped": 3,
-            "fetched": 6648,
+            "dropped": 5,
+            "fetched": 6769,
             "sent_main": 1,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 6008,
+            "fetched": 6115,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,31 +60,31 @@
       "last_error": null
     },
     "olx": {
-      "bad": 7767,
+      "bad": 7768,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 7767,
+      "bad": 7768,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 4029,
+      "bad": 4030,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 4029,
+      "bad": 4030,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000027067946",
+    "nieruchomosci_online": "000027068070",
     "nieruchomosci_online_sale": "000027067826",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-24T10:45:49.198908+00:00",
+  "last_run": "2026-10-24T11:01:23.995108+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -1045,12 +1045,6 @@
       "data_wyslania": "2026-09-15T06:45:45.522146+00:00",
       "fingerprint": "2600|58.2|3|jasień",
       "id": "nieruchomosci_online:26919965"
-    },
-    "nieruchomosci_online:26919996": {
-      "cena": 3800,
-      "data_wyslania": "2026-08-25T11:01:08.057162+00:00",
-      "fingerprint": "3800|60.82|2|kamienna góra",
-      "id": "nieruchomosci_online:26919996"
     },
     "nieruchomosci_online:26920462": {
       "cena": 4500,
@@ -5534,6 +5528,18 @@
       "fingerprint": "2100|28|1|wzgórze św. maksymiliana",
       "id": "nieruchomosci_online:27067946"
     },
+    "nieruchomosci_online:27067979": {
+      "cena": 2500,
+      "data_wyslania": "2026-10-24T11:01:23.995108+00:00",
+      "fingerprint": "2500|35.5|1|śródmieście",
+      "id": "nieruchomosci_online:27067979"
+    },
+    "nieruchomosci_online:27068070": {
+      "cena": 2400,
+      "data_wyslania": "2026-10-24T11:01:23.995108+00:00",
+      "fingerprint": "2400|46|3|oksywie",
+      "id": "nieruchomosci_online:27068070"
+    },
     "nieruchomosci_online_sale:24183582": {
       "cena": 1639000,
       "data_wyslania": "2026-08-28T11:15:40.876306+00:00",
@@ -8971,12 +8977,6 @@
       "data_wyslania": "2026-08-27T13:30:55.603627+00:00",
       "fingerprint": "839000|40.6|2|wyspa spichrzów",
       "id": "nieruchomosci_online_sale:26919876"
-    },
-    "nieruchomosci_online_sale:26920019": {
-      "cena": 1345678,
-      "data_wyslania": "2026-08-25T11:01:08.057162+00:00",
-      "fingerprint": "1345678|125|5|dolny sopot",
-      "id": "nieruchomosci_online_sale:26920019"
     },
     "nieruchomosci_online_sale:26920440": {
       "cena": 398000,
@@ -12541,6 +12541,12 @@
       "data_wyslania": "2026-10-23T13:15:52.593636+00:00",
       "fingerprint": "540000|46|2|przymorze",
       "id": "nieruchomosci_online_sale:27064933"
+    },
+    "nieruchomosci_online_sale:27066067": {
+      "cena": 925000,
+      "data_wyslania": "2026-10-24T11:01:23.995108+00:00",
+      "fingerprint": "925000|56|3|piecki-migowo",
+      "id": "nieruchomosci_online_sale:27066067"
     },
     "nieruchomosci_online_sale:27067826": {
       "cena": 719000,
