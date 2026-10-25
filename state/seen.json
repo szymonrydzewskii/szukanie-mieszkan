@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 3,
-            "fetched": 5079,
+            "fetched": 5199,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 4620,
+            "fetched": 4730,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 7857,
+      "bad": 7858,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 7857,
+      "bad": 7858,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 4119,
+      "bad": 4120,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 4119,
+      "bad": 4120,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-25T07:45:51.611312+00:00",
+  "last_run": "2026-10-25T08:01:21.540814+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -7832,12 +7832,6 @@
       "fingerprint": "749000|74.67|3|wrzeszcz dolny",
       "id": "nieruchomosci_online_sale:26846678"
     },
-    "nieruchomosci_online_sale:26846841": {
-      "cena": 3850000,
-      "data_wyslania": "2026-08-26T08:01:07.536203+00:00",
-      "fingerprint": "3850000|117.56|5|wyspa spichrzów",
-      "id": "nieruchomosci_online_sale:26846841"
-    },
     "nieruchomosci_online_sale:26847213": {
       "cena": 1080000,
       "data_wyslania": "2026-09-22T11:31:03.343077+00:00",
@@ -8995,12 +8989,6 @@
       "data_wyslania": "2026-10-10T15:14:43.419573+00:00",
       "fingerprint": "1160000|68.34|3|kamienna góra",
       "id": "nieruchomosci_online_sale:26921318"
-    },
-    "nieruchomosci_online_sale:26922004": {
-      "cena": 2590000,
-      "data_wyslania": "2026-08-26T08:01:07.536203+00:00",
-      "fingerprint": "2590000|83.4|3|świemirowo",
-      "id": "nieruchomosci_online_sale:26922004"
     },
     "nieruchomosci_online_sale:26922103": {
       "cena": 649000,
