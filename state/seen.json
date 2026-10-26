@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 11,
-            "fetched": 7392,
+            "fetched": 7514,
             "sent_main": 3,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 5,
-            "fetched": 6217,
+            "fetched": 6319,
             "sent_main": 1,
             "sent_near": 0
           },
@@ -60,31 +60,31 @@
       "last_error": null
     },
     "olx": {
-      "bad": 7981,
+      "bad": 7982,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 7981,
+      "bad": 7982,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 4243,
+      "bad": 4244,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 4243,
+      "bad": 4244,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000027070672",
+    "nieruchomosci_online": "000027071200",
     "nieruchomosci_online_sale": "000027069532",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-26T13:15:51.824702+00:00",
+  "last_run": "2026-10-26T13:31:17.369516+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -5510,6 +5510,12 @@
       "fingerprint": "3700|57|3|wzgórze św. maksymiliana",
       "id": "nieruchomosci_online:27070672"
     },
+    "nieruchomosci_online:27071200": {
+      "cena": 2900,
+      "data_wyslania": "2026-10-26T13:31:17.369516+00:00",
+      "fingerprint": "2900|38.1|2|śródmieście",
+      "id": "nieruchomosci_online:27071200"
+    },
     "nieruchomosci_online_sale:24183582": {
       "cena": 1639000,
       "data_wyslania": "2026-08-28T11:15:40.876306+00:00",
@@ -7592,12 +7598,6 @@
       "fingerprint": "535000|45|2|siedlce",
       "id": "nieruchomosci_online_sale:26830206"
     },
-    "nieruchomosci_online_sale:26830489": {
-      "cena": 3399000,
-      "data_wyslania": "2026-08-27T13:30:55.603627+00:00",
-      "fingerprint": "3399000|162.63|5|kamienna góra",
-      "id": "nieruchomosci_online_sale:26830489"
-    },
     "nieruchomosci_online_sale:26831266": {
       "cena": 500000,
       "data_wyslania": "2026-10-06T14:45:53.857060+00:00",
@@ -8857,12 +8857,6 @@
       "data_wyslania": "2026-10-16T20:15:54.732146+00:00",
       "fingerprint": "680000|46.88|2|maćkowy",
       "id": "nieruchomosci_online_sale:26918708"
-    },
-    "nieruchomosci_online_sale:26919876": {
-      "cena": 839000,
-      "data_wyslania": "2026-08-27T13:30:55.603627+00:00",
-      "fingerprint": "839000|40.6|2|wyspa spichrzów",
-      "id": "nieruchomosci_online_sale:26919876"
     },
     "nieruchomosci_online_sale:26920440": {
       "cena": 398000,
@@ -14245,12 +14239,6 @@
       "data_wyslania": "2026-09-03T09:45:39.506857+00:00",
       "fingerprint": "599000|46|4|przymorze małe",
       "id": "trojmiasto_sale:66518573"
-    },
-    "trojmiasto_sale:66518712": {
-      "cena": 500000,
-      "data_wyslania": "2026-08-27T13:30:55.603627+00:00",
-      "fingerprint": "500000|60|3|cisowa",
-      "id": "trojmiasto_sale:66518712"
     },
     "trojmiasto_sale:66518790": {
       "cena": 729000,
