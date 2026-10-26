@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 13,
-            "fetched": 8491,
+            "fetched": 8612,
             "sent_main": 3,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
-            "dropped": 7,
-            "fetched": 7147,
+            "dropped": 8,
+            "fetched": 7253,
             "sent_main": 1,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 7990,
+      "bad": 7991,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 7990,
+      "bad": 7991,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 4252,
+      "bad": 4253,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 4252,
+      "bad": 4253,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-26T15:31:16.246923+00:00",
+  "last_run": "2026-10-26T15:45:56.513257+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -6663,9 +6663,9 @@
       "id": "nieruchomosci_online_sale:26648737"
     },
     "nieruchomosci_online_sale:26649572": {
-      "cena": 1039000,
-      "data_wyslania": "2026-10-23T15:01:33.599582+00:00",
-      "fingerprint": "1039000|80|4|chwarzno-wiczlino",
+      "cena": 1034000,
+      "data_wyslania": "2026-10-26T15:45:56.513257+00:00",
+      "fingerprint": "1034000|80|4|chwarzno-wiczlino",
       "id": "nieruchomosci_online_sale:26649572"
     },
     "nieruchomosci_online_sale:26650114": {
