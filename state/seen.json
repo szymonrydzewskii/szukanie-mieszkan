@@ -12,14 +12,14 @@
         ],
         "sources": {
           "nieruchomosci_online": {
-            "dropped": 12,
-            "fetched": 11947,
+            "dropped": 13,
+            "fetched": 12069,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 3,
-            "fetched": 10202,
+            "fetched": 10304,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -61,31 +61,31 @@
       "last_error": null
     },
     "olx": {
-      "bad": 8218,
+      "bad": 8219,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 8218,
+      "bad": 8219,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 4480,
+      "bad": 4481,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 4480,
+      "bad": 4481,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000027078166",
+    "nieruchomosci_online": "000027079097",
     "nieruchomosci_online_sale": "000027076936",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-28T22:15:53.411132+00:00",
+  "last_run": "2026-10-28T22:31:07.946555+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -5582,6 +5582,12 @@
       "data_wyslania": "2026-10-28T15:01:26.119908+00:00",
       "fingerprint": "2600|40|2|chylonia",
       "id": "nieruchomosci_online:27078166"
+    },
+    "nieruchomosci_online:27079097": {
+      "cena": 2290,
+      "data_wyslania": "2026-10-28T22:31:07.946555+00:00",
+      "fingerprint": "2290|33.7|2|karwiny",
+      "id": "nieruchomosci_online:27079097"
     },
     "nieruchomosci_online_sale:24469971": {
       "cena": 1200000,
