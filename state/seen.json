@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 7953,
+            "fetched": 8076,
             "sent_main": 0,
             "sent_near": 2
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 6728,
+            "fetched": 6829,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 8285,
+      "bad": 8286,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 8285,
+      "bad": 8286,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 4547,
+      "bad": 4548,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 4547,
+      "bad": 4548,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-29T14:16:00.700793+00:00",
+  "last_run": "2026-10-29T14:31:20.691734+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -12734,12 +12734,6 @@
       "fingerprint": "2650|52|2|jasień",
       "id": "trojmiasto:66410077"
     },
-    "trojmiasto:66421118": {
-      "cena": 2500,
-      "data_wyslania": "2026-08-30T14:30:55.915256+00:00",
-      "fingerprint": "2500|53|3|trąbki wielkie",
-      "id": "trojmiasto:66421118"
-    },
     "trojmiasto:66430879": {
       "cena": 10000,
       "data_wyslania": "2026-09-04T07:45:41.575613+00:00",
@@ -12871,12 +12865,6 @@
       "data_wyslania": "2026-09-06T06:30:52.355502+00:00",
       "fingerprint": "2400|48|2|kiełpinek",
       "id": "trojmiasto:66508789"
-    },
-    "trojmiasto:66508910": {
-      "cena": 2200,
-      "data_wyslania": "2026-08-30T14:30:55.915256+00:00",
-      "fingerprint": "2200|34|1|orunia górna",
-      "id": "trojmiasto:66508910"
     },
     "trojmiasto:66509325": {
       "cena": 900,
