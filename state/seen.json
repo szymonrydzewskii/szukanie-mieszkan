@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 5,
-            "fetched": 5445,
+            "fetched": 5566,
             "sent_main": 4,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 4935,
+            "fetched": 5035,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 8365,
+      "bad": 8366,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 8365,
+      "bad": 8366,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 4627,
+      "bad": 4628,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 4627,
+      "bad": 4628,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-30T09:31:14.022807+00:00",
+  "last_run": "2026-10-30T09:45:54.773872+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -1057,12 +1057,6 @@
       "data_wyslania": "2026-09-01T11:30:57.634545+00:00",
       "fingerprint": "3100|45|2|letnica",
       "id": "nieruchomosci_online:26931052"
-    },
-    "nieruchomosci_online:26931466": {
-      "cena": 2200,
-      "data_wyslania": "2026-08-31T09:45:43.138808+00:00",
-      "fingerprint": "2200|32|1|centrum",
-      "id": "nieruchomosci_online:26931466"
     },
     "nieruchomosci_online:26931548": {
       "cena": 3100,
@@ -6991,12 +6985,6 @@
       "data_wyslania": "2026-10-29T11:45:57.607127+00:00",
       "fingerprint": "735000|49.25|3|stare przedmieście",
       "id": "nieruchomosci_online_sale:26716426"
-    },
-    "nieruchomosci_online_sale:26716653": {
-      "cena": 869000,
-      "data_wyslania": "2026-08-31T09:45:43.138808+00:00",
-      "fingerprint": "869000|69.44|3|jasień",
-      "id": "nieruchomosci_online_sale:26716653"
     },
     "nieruchomosci_online_sale:26716874": {
       "cena": 989000,
