@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 7,
-            "fetched": 7025,
+            "fetched": 7147,
             "sent_main": 4,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 6215,
+            "fetched": 6313,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 8378,
+      "bad": 8379,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 8378,
+      "bad": 8379,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 4640,
+      "bad": 4641,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 4640,
+      "bad": 4641,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-10-30T12:31:18.216726+00:00",
+  "last_run": "2026-10-30T12:46:01.361806+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -7411,6 +7411,12 @@
       "data_wyslania": "2026-09-21T09:45:45.348810+00:00",
       "fingerprint": "2485000|91.79|3|dolny sopot",
       "id": "nieruchomosci_online_sale:26798129"
+    },
+    "nieruchomosci_online_sale:26798252": {
+      "cena": 1389000,
+      "data_wyslania": "2026-10-30T12:46:01.361806+00:00",
+      "fingerprint": "1389000|62.07|2|działki leśne",
+      "id": "nieruchomosci_online_sale:26798252"
     },
     "nieruchomosci_online_sale:26798454": {
       "cena": 785000,
