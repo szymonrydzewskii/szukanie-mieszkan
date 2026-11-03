@@ -11,14 +11,14 @@
         ],
         "sources": {
           "nieruchomosci_online": {
-            "dropped": 4,
-            "fetched": 6147,
+            "dropped": 5,
+            "fetched": 6268,
             "sent_main": 1,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 5138,
+            "fetched": 5237,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 8771,
+      "bad": 8772,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 8771,
+      "bad": 8772,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 5033,
+      "bad": 5034,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 5033,
+      "bad": 5034,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-11-03T10:45:51.771715+00:00",
+  "last_run": "2026-11-03T11:01:28.320892+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -4245,9 +4245,9 @@
       "id": "nieruchomosci_online:27039783"
     },
     "nieruchomosci_online:27039935": {
-      "cena": 3300,
-      "data_wyslania": "2026-10-13T13:01:28.727773+00:00",
-      "fingerprint": "3300|54|2|górny sopot",
+      "cena": 3100,
+      "data_wyslania": "2026-11-03T11:01:28.320892+00:00",
+      "fingerprint": "3100|54|2|górny sopot",
       "id": "nieruchomosci_online:27039935"
     },
     "nieruchomosci_online:27040120": {
@@ -8438,12 +8438,6 @@
       "fingerprint": "789900|41.1|2|mariacka",
       "id": "nieruchomosci_online_sale:26899983"
     },
-    "nieruchomosci_online_sale:26900008": {
-      "cena": 431950,
-      "data_wyslania": "2026-09-04T11:01:09.433932+00:00",
-      "fingerprint": "431950|19.51|1|przymorze",
-      "id": "nieruchomosci_online_sale:26900008"
-    },
     "nieruchomosci_online_sale:26900070": {
       "cena": 3900000,
       "data_wyslania": "2026-10-14T01:31:14.317735+00:00",
@@ -9218,12 +9212,6 @@
       "fingerprint": "629000|56.1|2|oliwa",
       "id": "nieruchomosci_online_sale:26941644"
     },
-    "nieruchomosci_online_sale:26941684": {
-      "cena": 712000,
-      "data_wyslania": "2026-09-04T11:01:09.433932+00:00",
-      "fingerprint": "712000|47.5|2|chylonia nowa",
-      "id": "nieruchomosci_online_sale:26941684"
-    },
     "nieruchomosci_online_sale:26941741": {
       "cena": 740000,
       "data_wyslania": "2026-09-08T12:01:12.340460+00:00",
@@ -9272,23 +9260,11 @@
       "fingerprint": "554000|37|2|kamienny potok",
       "id": "nieruchomosci_online_sale:26943610"
     },
-    "nieruchomosci_online_sale:26943710": {
-      "cena": 609000,
-      "data_wyslania": "2026-09-04T11:01:09.433932+00:00",
-      "fingerprint": "609000|60|3|obłuże",
-      "id": "nieruchomosci_online_sale:26943710"
-    },
     "nieruchomosci_online_sale:26944115": {
       "cena": 589000,
       "data_wyslania": "2026-09-11T19:01:08.778759+00:00",
       "fingerprint": "589000|35.18|2|łostowice",
       "id": "nieruchomosci_online_sale:26944115"
-    },
-    "nieruchomosci_online_sale:26944265": {
-      "cena": 475000,
-      "data_wyslania": "2026-09-04T11:01:09.433932+00:00",
-      "fingerprint": "475000|47.3|2|oksywie",
-      "id": "nieruchomosci_online_sale:26944265"
     },
     "nieruchomosci_online_sale:26944755": {
       "cena": 569000,
