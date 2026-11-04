@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 6,
-            "fetched": 5776,
+            "fetched": 5899,
             "sent_main": 1,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
-            "dropped": 0,
-            "fetched": 5040,
+            "dropped": 1,
+            "fetched": 5139,
             "sent_main": 1,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 8868,
+      "bad": 8869,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 8868,
+      "bad": 8869,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 5130,
+      "bad": 5131,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 5130,
+      "bad": 5131,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-11-04T10:01:25.551019+00:00",
+  "last_run": "2026-11-04T10:16:04.098919+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -8955,9 +8955,9 @@
       "id": "nieruchomosci_online_sale:26937703"
     },
     "nieruchomosci_online_sale:26939123": {
-      "cena": 549000,
-      "data_wyslania": "2026-10-08T14:45:54.109539+00:00",
-      "fingerprint": "549000|63|3|oksywie",
+      "cena": 519000,
+      "data_wyslania": "2026-11-04T10:16:04.098919+00:00",
+      "fingerprint": "519000|63|3|oksywie",
       "id": "nieruchomosci_online_sale:26939123"
     },
     "nieruchomosci_online_sale:26939259": {
@@ -11738,6 +11738,12 @@
       "fingerprint": "599000|37.38|2|piecki-migowo",
       "id": "nieruchomosci_online_sale:27037559"
     },
+    "nieruchomosci_online_sale:27037574": {
+      "cena": 440000,
+      "data_wyslania": "2026-11-04T10:16:04.098919+00:00",
+      "fingerprint": "440000|57.12|3|grabówek",
+      "id": "nieruchomosci_online_sale:27037574"
+    },
     "nieruchomosci_online_sale:27037978": {
       "cena": 1299000,
       "data_wyslania": "2026-10-26T18:15:55.623990+00:00",
@@ -12320,6 +12326,12 @@
       "fingerprint": "700000|66.33|6|śródmieście",
       "id": "nieruchomosci_online_sale:27065397"
     },
+    "nieruchomosci_online_sale:27065669": {
+      "cena": 630000,
+      "data_wyslania": "2026-11-04T10:16:04.098919+00:00",
+      "fingerprint": "630000|47|3|działki leśne",
+      "id": "nieruchomosci_online_sale:27065669"
+    },
     "nieruchomosci_online_sale:27065897": {
       "cena": 1800000,
       "data_wyslania": "2026-10-31T15:31:07.754748+00:00",
@@ -12475,6 +12487,12 @@
       "data_wyslania": "2026-10-29T13:45:55.190629+00:00",
       "fingerprint": "920000|57.94|3|piecki-migowo",
       "id": "nieruchomosci_online_sale:27074376"
+    },
+    "nieruchomosci_online_sale:27074392": {
+      "cena": 779000,
+      "data_wyslania": "2026-11-04T10:16:04.098919+00:00",
+      "fingerprint": "779000|52.3|2|redłowo",
+      "id": "nieruchomosci_online_sale:27074392"
     },
     "nieruchomosci_online_sale:27076055": {
       "cena": 949000,
@@ -13321,12 +13339,6 @@
       "data_wyslania": "2026-09-10T12:30:59.751292+00:00",
       "fingerprint": "1091796|368.85|6|mały płock",
       "id": "trojmiasto_sale:66114107"
-    },
-    "trojmiasto_sale:66123770": {
-      "cena": 898000,
-      "data_wyslania": "2026-09-05T10:15:40.596364+00:00",
-      "fingerprint": "898000|132.38|4|miszewko dąbrowa",
-      "id": "trojmiasto_sale:66123770"
     },
     "trojmiasto_sale:66123979": {
       "cena": 2350000,
