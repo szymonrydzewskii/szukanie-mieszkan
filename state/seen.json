@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 4598,
+            "fetched": 4719,
             "sent_main": 0,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 4215,
+            "fetched": 4321,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 9154,
+      "bad": 9155,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 9154,
+      "bad": 9155,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 5416,
+      "bad": 5417,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 5416,
+      "bad": 5417,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-11-07T08:01:21.965811+00:00",
+  "last_run": "2026-11-07T08:15:53.450202+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -475,6 +475,12 @@
       "data_wyslania": "2026-09-21T08:45:47.551921+00:00",
       "fingerprint": "2700|27|1|piecki-migowo",
       "id": "nieruchomosci_online:26647797"
+    },
+    "nieruchomosci_online:26650203": {
+      "cena": 2800,
+      "data_wyslania": "2026-11-07T08:15:53.450202+00:00",
+      "fingerprint": "2800|45.66|2|orunia górna",
+      "id": "nieruchomosci_online:26650203"
     },
     "nieruchomosci_online:26656087": {
       "cena": 5500,
@@ -8330,12 +8336,6 @@
       "fingerprint": "649900|40|2|śródmieście",
       "id": "nieruchomosci_online_sale:26898480"
     },
-    "nieruchomosci_online_sale:26899961": {
-      "cena": 420000,
-      "data_wyslania": "2026-09-08T08:15:47.074136+00:00",
-      "fingerprint": "420000|30.2|2|witomino-leśniczówka",
-      "id": "nieruchomosci_online_sale:26899961"
-    },
     "nieruchomosci_online_sale:26899983": {
       "cena": 789900,
       "data_wyslania": "2026-10-09T11:01:26.811497+00:00",
@@ -8905,12 +8905,6 @@
       "data_wyslania": "2026-10-18T17:31:14.950604+00:00",
       "fingerprint": "949999|55.04|3|śródmieście",
       "id": "nieruchomosci_online_sale:26933023"
-    },
-    "nieruchomosci_online_sale:26933318": {
-      "cena": 509000,
-      "data_wyslania": "2026-09-08T08:15:47.074136+00:00",
-      "fingerprint": "509000|39|2|obłuże",
-      "id": "nieruchomosci_online_sale:26933318"
     },
     "nieruchomosci_online_sale:26933855": {
       "cena": 735000,
@@ -13496,12 +13490,6 @@
       "fingerprint": "543462|62.11|3|ujeścisko",
       "id": "trojmiasto_sale:66469016"
     },
-    "trojmiasto_sale:66477955": {
-      "cena": 699000,
-      "data_wyslania": "2026-09-08T08:15:47.074136+00:00",
-      "fingerprint": "699000|50|3|jasień",
-      "id": "trojmiasto_sale:66477955"
-    },
     "trojmiasto_sale:66482288": {
       "cena": 780000,
       "data_wyslania": "2026-09-08T14:45:50.253493+00:00",
@@ -13669,12 +13657,6 @@
       "data_wyslania": "2026-09-08T11:01:07.248002+00:00",
       "fingerprint": "549000|60.01|3|reda",
       "id": "trojmiasto_sale:66528573"
-    },
-    "trojmiasto_sale:66528792": {
-      "cena": 689000,
-      "data_wyslania": "2026-09-08T08:15:47.074136+00:00",
-      "fingerprint": "689000|68|3|rumia",
-      "id": "trojmiasto_sale:66528792"
     },
     "trojmiasto_sale:66529054": {
       "cena": 749000,
