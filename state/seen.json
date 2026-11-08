@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 0,
-            "fetched": 5808,
+            "fetched": 5929,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 5120,
+            "fetched": 5223,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 9264,
+      "bad": 9265,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 9264,
+      "bad": 9265,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 5526,
+      "bad": 5527,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 5526,
+      "bad": 5527,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-11-08T10:31:12.855914+00:00",
+  "last_run": "2026-11-08T10:45:53.696839+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -8396,12 +8396,6 @@
       "fingerprint": "625000|35.48|2|wyspa spichrzów",
       "id": "nieruchomosci_online_sale:26913247"
     },
-    "nieruchomosci_online_sale:26914074": {
-      "cena": 609000,
-      "data_wyslania": "2026-09-09T10:45:52.832876+00:00",
-      "fingerprint": "609000|46.2|3|śródmieście",
-      "id": "nieruchomosci_online_sale:26914074"
-    },
     "nieruchomosci_online_sale:26914083": {
       "cena": 2075000,
       "data_wyslania": "2026-10-15T12:31:11.825634+00:00",
@@ -12932,12 +12926,6 @@
       "fingerprint": "2499|53|2|chwarzno - wiczlino",
       "id": "trojmiasto:66529625"
     },
-    "trojmiasto:66529933": {
-      "cena": 1400,
-      "data_wyslania": "2026-09-09T10:45:52.832876+00:00",
-      "fingerprint": "1400|71|2|wrzeszcz górny",
-      "id": "trojmiasto:66529933"
-    },
     "trojmiasto:66529951": {
       "cena": 3000,
       "data_wyslania": "2026-09-09T18:01:10.754376+00:00",
@@ -13220,12 +13208,6 @@
       "fingerprint": "1750000|102.3|2|wrzeszcz górny",
       "id": "trojmiasto_sale:66451757"
     },
-    "trojmiasto_sale:66458789": {
-      "cena": 1699000,
-      "data_wyslania": "2026-09-09T10:45:52.832876+00:00",
-      "fingerprint": "1699000|110.82|5|leszczynki",
-      "id": "trojmiasto_sale:66458789"
-    },
     "trojmiasto_sale:66469016": {
       "cena": 543462,
       "data_wyslania": "2026-09-11T15:01:13.463213+00:00",
@@ -13249,12 +13231,6 @@
       "data_wyslania": "2026-09-11T09:58:34.789873+00:00",
       "fingerprint": "1650000|79.03|3|jasień",
       "id": "trojmiasto_sale:66497727"
-    },
-    "trojmiasto_sale:66498595": {
-      "cena": 879000,
-      "data_wyslania": "2026-09-09T10:45:52.832876+00:00",
-      "fingerprint": "879000|62.24|3|śródmieście",
-      "id": "trojmiasto_sale:66498595"
     },
     "trojmiasto_sale:66499197": {
       "cena": 831000,
@@ -13375,12 +13351,6 @@
       "data_wyslania": "2026-09-09T15:15:44.990037+00:00",
       "fingerprint": "1299900|116.6|5|trąbki wielkie",
       "id": "trojmiasto_sale:66529617"
-    },
-    "trojmiasto_sale:66529876": {
-      "cena": 621000,
-      "data_wyslania": "2026-09-09T10:45:52.832876+00:00",
-      "fingerprint": "621000|51.77|2|dąbrowa",
-      "id": "trojmiasto_sale:66529876"
     },
     "trojmiasto_sale:66530010": {
       "cena": 889000,
