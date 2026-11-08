@@ -11,14 +11,14 @@
         ],
         "sources": {
           "nieruchomosci_online": {
-            "dropped": 1,
-            "fetched": 11169,
+            "dropped": 2,
+            "fetched": 11290,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 1,
-            "fetched": 9570,
+            "fetched": 9676,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,31 +60,31 @@
       "last_error": null
     },
     "olx": {
-      "bad": 9308,
+      "bad": 9309,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 9308,
+      "bad": 9309,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 5570,
+      "bad": 5571,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 5570,
+      "bad": 5571,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000027111675",
+    "nieruchomosci_online": "000027111965",
     "nieruchomosci_online_sale": "000027110955",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-11-08T21:01:18.223559+00:00",
+  "last_run": "2026-11-08T21:15:52.020535+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -5402,6 +5402,12 @@
       "fingerprint": "4800|74|3|redłowo",
       "id": "nieruchomosci_online:27111675"
     },
+    "nieruchomosci_online:27111965": {
+      "cena": 3100,
+      "data_wyslania": "2026-11-08T21:15:52.020535+00:00",
+      "fingerprint": "3100|46|2|karwiny",
+      "id": "nieruchomosci_online:27111965"
+    },
     "nieruchomosci_online_sale:24469971": {
       "cena": 1200000,
       "data_wyslania": "2026-10-07T11:01:22.379837+00:00",
@@ -7807,6 +7813,12 @@
       "data_wyslania": "2026-09-16T06:31:01.593556+00:00",
       "fingerprint": "1050000|74.34|3|orłowo",
       "id": "nieruchomosci_online_sale:26865027"
+    },
+    "nieruchomosci_online_sale:26865161": {
+      "cena": 2400000,
+      "data_wyslania": "2026-11-08T21:15:52.020535+00:00",
+      "fingerprint": "2400000|83.4|3|świemirowo",
+      "id": "nieruchomosci_online_sale:26865161"
     },
     "nieruchomosci_online_sale:26865526": {
       "cena": 749000,
@@ -11192,6 +11204,12 @@
       "fingerprint": "820000|60.3|3|oksywie",
       "id": "nieruchomosci_online_sale:27022642"
     },
+    "nieruchomosci_online_sale:27022670": {
+      "cena": 4995000,
+      "data_wyslania": "2026-11-08T21:15:52.020535+00:00",
+      "fingerprint": "4995000|181.82|5|dolny sopot",
+      "id": "nieruchomosci_online_sale:27022670"
+    },
     "nieruchomosci_online_sale:27022820": {
       "cena": 1150000,
       "data_wyslania": "2026-10-10T19:31:05.746118+00:00",
@@ -12397,6 +12415,12 @@
       "data_wyslania": "2026-11-02T23:01:26.272241+00:00",
       "fingerprint": "530000|34.4|2|vii dwór",
       "id": "nieruchomosci_online_sale:27079154"
+    },
+    "nieruchomosci_online_sale:27079180": {
+      "cena": 1895000,
+      "data_wyslania": "2026-11-08T21:15:52.020535+00:00",
+      "fingerprint": "1895000|99|4|górny sopot",
+      "id": "nieruchomosci_online_sale:27079180"
     },
     "nieruchomosci_online_sale:27079334": {
       "cena": 820000,
