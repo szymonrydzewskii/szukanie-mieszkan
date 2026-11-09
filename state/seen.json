@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 6,
-            "fetched": 7050,
+            "fetched": 7172,
             "sent_main": 1,
             "sent_near": 2
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 6124,
+            "fetched": 6228,
             "sent_main": 0,
             "sent_near": 1
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 9373,
+      "bad": 9374,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 9373,
+      "bad": 9374,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 5635,
+      "bad": 5636,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 5635,
+      "bad": 5636,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-11-09T13:15:56.097265+00:00",
+  "last_run": "2026-11-09T13:31:15.081015+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -547,12 +547,6 @@
       "data_wyslania": "2026-10-26T14:31:18.411343+00:00",
       "fingerprint": "2600|41.5|2|jasień",
       "id": "nieruchomosci_online:26774064"
-    },
-    "nieruchomosci_online:26787505": {
-      "cena": 3950,
-      "data_wyslania": "2026-09-10T13:16:01.734272+00:00",
-      "fingerprint": "3950|50.82|2|wrzeszcz",
-      "id": "nieruchomosci_online:26787505"
     },
     "nieruchomosci_online:26803728": {
       "cena": 4100,
@@ -1094,12 +1088,6 @@
       "fingerprint": "3500|52.8|2|grabówek",
       "id": "nieruchomosci_online:26951687"
     },
-    "nieruchomosci_online:26953269": {
-      "cena": 3750,
-      "data_wyslania": "2026-09-10T13:16:01.734272+00:00",
-      "fingerprint": "3750|60|3|orunia",
-      "id": "nieruchomosci_online:26953269"
-    },
     "nieruchomosci_online:26955695": {
       "cena": 2500,
       "data_wyslania": "2026-11-09T03:16:00.240946+00:00",
@@ -1147,12 +1135,6 @@
       "data_wyslania": "2026-11-09T11:15:54.667624+00:00",
       "fingerprint": "2900|45|2|przymorze",
       "id": "nieruchomosci_online:26959087"
-    },
-    "nieruchomosci_online:26959251": {
-      "cena": 4000,
-      "data_wyslania": "2026-09-10T13:16:01.734272+00:00",
-      "fingerprint": "4000|67|2|wzgórze św. maksymiliana",
-      "id": "nieruchomosci_online:26959251"
     },
     "nieruchomosci_online:26959801": {
       "cena": 2700,
