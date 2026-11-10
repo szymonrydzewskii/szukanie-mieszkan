@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 8,
-            "fetched": 7693,
+            "fetched": 7815,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 6876,
+            "fetched": 6979,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 9474,
+      "bad": 9475,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 9474,
+      "bad": 9475,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 5736,
+      "bad": 5737,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 5736,
+      "bad": 5737,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-11-10T14:01:42.270353+00:00",
+  "last_run": "2026-11-10T14:15:58.669214+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -577,12 +577,6 @@
       "data_wyslania": "2026-09-21T02:15:51.760560+00:00",
       "fingerprint": "2000|20|1|działki leśne",
       "id": "nieruchomosci_online:26809358"
-    },
-    "nieruchomosci_online:26828736": {
-      "cena": 3200,
-      "data_wyslania": "2026-09-11T14:15:46.245305+00:00",
-      "fingerprint": "3200|48|2|piecki-migowo",
-      "id": "nieruchomosci_online:26828736"
     },
     "nieruchomosci_online:26837594": {
       "cena": 7400,
@@ -12752,12 +12746,6 @@
       "fingerprint": "2650|52|2|jasień",
       "id": "trojmiasto:66410077"
     },
-    "trojmiasto:66499890": {
-      "cena": 5900,
-      "data_wyslania": "2026-09-11T14:15:46.245305+00:00",
-      "fingerprint": "5900|76|3|śródmieście",
-      "id": "trojmiasto:66499890"
-    },
     "trojmiasto:66511700": {
       "cena": 3300,
       "data_wyslania": "2026-09-14T10:01:37.300505+00:00",
@@ -12902,41 +12890,11 @@
       "fingerprint": "1050000|44.65|2|śródmieście",
       "id": "trojmiasto_sale:66004553"
     },
-    "trojmiasto_sale:66135744": {
-      "cena": 1190000,
-      "data_wyslania": "2026-09-11T14:15:46.245305+00:00",
-      "fingerprint": "1190000|107.8|4|śródmieście",
-      "id": "trojmiasto_sale:66135744"
-    },
-    "trojmiasto_sale:66407354": {
-      "cena": 2400000,
-      "data_wyslania": "2026-09-11T14:15:46.245305+00:00",
-      "fingerprint": "2400000|83.82|3|śródmieście",
-      "id": "trojmiasto_sale:66407354"
-    },
-    "trojmiasto_sale:66410298": {
-      "cena": 1659000,
-      "data_wyslania": "2026-09-11T14:15:46.245305+00:00",
-      "fingerprint": "1659000|157.18|5|otomin",
-      "id": "trojmiasto_sale:66410298"
-    },
-    "trojmiasto_sale:66415438": {
-      "cena": 1469000,
-      "data_wyslania": "2026-09-11T14:15:46.245305+00:00",
-      "fingerprint": "1469000|157.18|5|otomin",
-      "id": "trojmiasto_sale:66415438"
-    },
     "trojmiasto_sale:66415828": {
       "cena": 560000,
       "data_wyslania": "2026-09-12T18:30:59.009036+00:00",
       "fingerprint": "560000|46|2|przymorze wielkie",
       "id": "trojmiasto_sale:66415828"
-    },
-    "trojmiasto_sale:66421925": {
-      "cena": 1392243,
-      "data_wyslania": "2026-09-11T14:15:46.245305+00:00",
-      "fingerprint": "1392243|69.27|3|wrzeszcz dolny",
-      "id": "trojmiasto_sale:66421925"
     },
     "trojmiasto_sale:66425462": {
       "cena": 575000,
@@ -12962,12 +12920,6 @@
       "fingerprint": "945000|46.6|2|aniołki",
       "id": "trojmiasto_sale:66513044"
     },
-    "trojmiasto_sale:66513730": {
-      "cena": 3000000,
-      "data_wyslania": "2026-09-11T14:15:46.245305+00:00",
-      "fingerprint": "3000000|121.14|4|orłowo",
-      "id": "trojmiasto_sale:66513730"
-    },
     "trojmiasto_sale:66513857": {
       "cena": 839999,
       "data_wyslania": "2026-09-11T20:53:27.125574+00:00",
@@ -12986,23 +12938,11 @@
       "fingerprint": "420000|46.29|2|puck",
       "id": "trojmiasto_sale:66525211"
     },
-    "trojmiasto_sale:66527913": {
-      "cena": 659000,
-      "data_wyslania": "2026-09-11T14:15:46.245305+00:00",
-      "fingerprint": "659000|50.7|2|ujeścisko",
-      "id": "trojmiasto_sale:66527913"
-    },
     "trojmiasto_sale:66529201": {
       "cena": 529000,
       "data_wyslania": "2026-09-11T17:45:42.458952+00:00",
       "fingerprint": "529000|39.2|1|vii dwór",
       "id": "trojmiasto_sale:66529201"
-    },
-    "trojmiasto_sale:66530010": {
-      "cena": 889000,
-      "data_wyslania": "2026-09-11T14:15:46.245305+00:00",
-      "fingerprint": "889000|200|5|nowy dwór gdański",
-      "id": "trojmiasto_sale:66530010"
     },
     "trojmiasto_sale:66531882": {
       "cena": 350000,
