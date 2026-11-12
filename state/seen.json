@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 7,
-            "fetched": 7723,
+            "fetched": 7845,
             "sent_main": 0,
             "sent_near": 3
           },
           "nieruchomosci_online_sale": {
             "dropped": 4,
-            "fetched": 6827,
+            "fetched": 6931,
             "sent_main": 1,
             "sent_near": 1
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 9670,
+      "bad": 9671,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 9670,
+      "bad": 9671,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 5932,
+      "bad": 5933,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 5932,
+      "bad": 5933,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-11-12T14:01:28.267565+00:00",
+  "last_run": "2026-11-12T14:15:53.730306+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -12871,12 +12871,6 @@
       "data_wyslania": "2026-09-13T19:45:45.573345+00:00",
       "fingerprint": "2600|39|2|sopot górny sopot",
       "id": "trojmiasto:66520257"
-    },
-    "trojmiasto:66520846": {
-      "cena": 2800,
-      "data_wyslania": "2026-09-13T14:15:44.533905+00:00",
-      "fingerprint": "2800|47|2|śródmieście",
-      "id": "trojmiasto:66520846"
     },
     "trojmiasto:66522595": {
       "cena": 5500,
