@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 1,
-            "fetched": 4180,
+            "fetched": 4303,
             "sent_main": 0,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 3671,
+            "fetched": 3779,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 9641,
+      "bad": 9642,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 9641,
+      "bad": 9642,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 5903,
+      "bad": 5904,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 5903,
+      "bad": 5904,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-11-12T07:01:23.294343+00:00",
+  "last_run": "2026-11-12T07:15:57.419034+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -12721,12 +12721,6 @@
       "data_wyslania": "2026-09-13T11:45:44.862418+00:00",
       "fingerprint": "3000|49|2|zaspa",
       "id": "trojmiasto:66526785"
-    },
-    "trojmiasto:66533089": {
-      "cena": 2600,
-      "data_wyslania": "2026-09-13T07:15:41.935296+00:00",
-      "fingerprint": "2600|28|2|przymorze wielkie",
-      "id": "trojmiasto:66533089"
     },
     "trojmiasto:66533207": {
       "cena": 1000,
