@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 9,
-            "fetched": 9442,
+            "fetched": 9565,
             "sent_main": 0,
             "sent_near": 4
           },
           "nieruchomosci_online_sale": {
-            "dropped": 8,
-            "fetched": 8349,
+            "dropped": 9,
+            "fetched": 8461,
             "sent_main": 1,
             "sent_near": 1
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 9684,
+      "bad": 9685,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 9684,
+      "bad": 9685,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 5946,
+      "bad": 5947,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 5946,
+      "bad": 5947,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-11-12T17:31:12.646319+00:00",
+  "last_run": "2026-11-12T17:45:51.843663+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -6945,9 +6945,9 @@
       "id": "nieruchomosci_online_sale:26733074"
     },
     "nieruchomosci_online_sale:26733420": {
-      "cena": 398000,
-      "data_wyslania": "2026-11-06T17:31:16.555974+00:00",
-      "fingerprint": "398000|37.4|2|chylonia",
+      "cena": 385000,
+      "data_wyslania": "2026-11-12T17:45:51.843663+00:00",
+      "fingerprint": "385000|37.4|2|chylonia",
       "id": "nieruchomosci_online_sale:26733420"
     },
     "nieruchomosci_online_sale:26733748": {
