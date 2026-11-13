@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 10,
-            "fetched": 7122,
-            "sent_main": 0,
+            "fetched": 7244,
+            "sent_main": 1,
             "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 2,
-            "fetched": 6353,
+            "fetched": 6467,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,31 +60,31 @@
       "last_error": null
     },
     "olx": {
-      "bad": 9764,
+      "bad": 9765,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 9764,
+      "bad": 9765,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 6026,
+      "bad": 6027,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 6026,
+      "bad": 6027,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000027123180",
+    "nieruchomosci_online": "000027123347",
     "nieruchomosci_online_sale": "000027122694",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-11-13T12:45:59.292591+00:00",
+  "last_run": "2026-11-13T13:01:36.576390+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -1052,12 +1052,6 @@
       "fingerprint": "2500|50|2|karlikowo",
       "id": "nieruchomosci_online:26955695"
     },
-    "nieruchomosci_online:26956009": {
-      "cena": 3300,
-      "data_wyslania": "2026-09-14T13:01:15.030391+00:00",
-      "fingerprint": "3300|33|2|brzeźno",
-      "id": "nieruchomosci_online:26956009"
-    },
     "nieruchomosci_online:26956107": {
       "cena": 6000,
       "data_wyslania": "2026-10-02T13:31:08.659124+00:00",
@@ -1177,12 +1171,6 @@
       "data_wyslania": "2026-09-17T17:01:11.295486+00:00",
       "fingerprint": "2200|50|3|kamienny potok",
       "id": "nieruchomosci_online:26966559"
-    },
-    "nieruchomosci_online:26966706": {
-      "cena": 3300,
-      "data_wyslania": "2026-09-14T13:01:15.030391+00:00",
-      "fingerprint": "3300|90|3|chwarzno-wiczlino",
-      "id": "nieruchomosci_online:26966706"
     },
     "nieruchomosci_online:26967004": {
       "cena": 1800,
@@ -5372,6 +5360,12 @@
       "fingerprint": "6000|65|3|wrzeszcz dolny",
       "id": "nieruchomosci_online:27123180"
     },
+    "nieruchomosci_online:27123347": {
+      "cena": 2400,
+      "data_wyslania": "2026-11-13T13:01:36.576390+00:00",
+      "fingerprint": "2400|35|2|górny sopot",
+      "id": "nieruchomosci_online:27123347"
+    },
     "nieruchomosci_online_sale:24469971": {
       "cena": 1200000,
       "data_wyslania": "2026-10-07T11:01:22.379837+00:00",
@@ -5833,12 +5827,6 @@
       "data_wyslania": "2026-11-06T19:31:08.637445+00:00",
       "fingerprint": "967592|27|1|wyspa spichrzów",
       "id": "nieruchomosci_online_sale:26297353"
-    },
-    "nieruchomosci_online_sale:26307281": {
-      "cena": 1020000,
-      "data_wyslania": "2026-09-14T13:01:15.030391+00:00",
-      "fingerprint": "1020000|48.21|3|śródmieście",
-      "id": "nieruchomosci_online_sale:26307281"
     },
     "nieruchomosci_online_sale:26319381": {
       "cena": 1954392,
@@ -12338,6 +12326,12 @@
       "fingerprint": "699000|49.2|2|jasień",
       "id": "nieruchomosci_online_sale:27078477"
     },
+    "nieruchomosci_online_sale:27078555": {
+      "cena": 1699000,
+      "data_wyslania": "2026-11-13T13:01:36.576390+00:00",
+      "fingerprint": "1699000|80.54|3|przymorze",
+      "id": "nieruchomosci_online_sale:27078555"
+    },
     "nieruchomosci_online_sale:27078702": {
       "cena": 499000,
       "data_wyslania": "2026-11-03T15:46:11.809044+00:00",
@@ -12415,6 +12409,12 @@
       "data_wyslania": "2026-10-29T21:15:48.970516+00:00",
       "fingerprint": "815000|50|2|siedlce",
       "id": "nieruchomosci_online_sale:27082000"
+    },
+    "nieruchomosci_online_sale:27082503": {
+      "cena": 895000,
+      "data_wyslania": "2026-11-13T13:01:36.576390+00:00",
+      "fingerprint": "895000|67.9|3|oliwa",
+      "id": "nieruchomosci_online_sale:27082503"
     },
     "nieruchomosci_online_sale:27082606": {
       "cena": 849000,
@@ -12608,6 +12608,60 @@
       "fingerprint": "580000|42.84|2|działki leśne",
       "id": "nieruchomosci_online_sale:27094521"
     },
+    "nieruchomosci_online_sale:27095602": {
+      "cena": 550000,
+      "data_wyslania": "2026-11-13T13:01:36.576390+00:00",
+      "fingerprint": "550000|36.18|2|śródmieście",
+      "id": "nieruchomosci_online_sale:27095602"
+    },
+    "nieruchomosci_online_sale:27095650": {
+      "cena": 659000,
+      "data_wyslania": "2026-11-13T13:01:36.576390+00:00",
+      "fingerprint": "659000|62.95|3|jasień",
+      "id": "nieruchomosci_online_sale:27095650"
+    },
+    "nieruchomosci_online_sale:27095750": {
+      "cena": 639000,
+      "data_wyslania": "2026-11-13T13:01:36.576390+00:00",
+      "fingerprint": "639000|40.9|2|oliwa",
+      "id": "nieruchomosci_online_sale:27095750"
+    },
+    "nieruchomosci_online_sale:27095767": {
+      "cena": 1649000,
+      "data_wyslania": "2026-11-13T13:01:36.576390+00:00",
+      "fingerprint": "1649000|94.07|4|słoneczna morena",
+      "id": "nieruchomosci_online_sale:27095767"
+    },
+    "nieruchomosci_online_sale:27095963": {
+      "cena": 1999000,
+      "data_wyslania": "2026-11-13T13:01:36.576390+00:00",
+      "fingerprint": "1999000|92.83|3|górny sopot",
+      "id": "nieruchomosci_online_sale:27095963"
+    },
+    "nieruchomosci_online_sale:27095968": {
+      "cena": 699000,
+      "data_wyslania": "2026-11-13T13:01:36.576390+00:00",
+      "fingerprint": "699000|63.6|3|piecki-migowo",
+      "id": "nieruchomosci_online_sale:27095968"
+    },
+    "nieruchomosci_online_sale:27096387": {
+      "cena": 672000,
+      "data_wyslania": "2026-11-13T13:01:36.576390+00:00",
+      "fingerprint": "672000|56|3|orunia górna - gdańsk południe",
+      "id": "nieruchomosci_online_sale:27096387"
+    },
+    "nieruchomosci_online_sale:27096389": {
+      "cena": 639120,
+      "data_wyslania": "2026-11-13T13:01:36.576390+00:00",
+      "fingerprint": "639120|53.26|2|wrzeszcz",
+      "id": "nieruchomosci_online_sale:27096389"
+    },
+    "nieruchomosci_online_sale:27096481": {
+      "cena": 649000,
+      "data_wyslania": "2026-11-13T13:01:36.576390+00:00",
+      "fingerprint": "649000|49|3|osiek",
+      "id": "nieruchomosci_online_sale:27096481"
+    },
     "nieruchomosci_online_sale:27096502": {
       "cena": 690000,
       "data_wyslania": "2026-11-06T19:45:56.030262+00:00",
@@ -12625,6 +12679,12 @@
       "data_wyslania": "2026-11-13T11:45:56.331660+00:00",
       "fingerprint": "799000|62.5|3|jasień",
       "id": "nieruchomosci_online_sale:27096760"
+    },
+    "nieruchomosci_online_sale:27096900": {
+      "cena": 399000,
+      "data_wyslania": "2026-11-13T13:01:36.576390+00:00",
+      "fingerprint": "399000|37|2|chylonia",
+      "id": "nieruchomosci_online_sale:27096900"
     },
     "nieruchomosci_online_sale:27098604": {
       "cena": 690000,
@@ -12811,6 +12871,12 @@
       "data_wyslania": "2026-11-12T08:45:58.673017+00:00",
       "fingerprint": "1249000|68.7|3|mały kack",
       "id": "nieruchomosci_online_sale:27114801"
+    },
+    "nieruchomosci_online_sale:27114992": {
+      "cena": 860000,
+      "data_wyslania": "2026-11-13T13:01:36.576390+00:00",
+      "fingerprint": "860000|70.5|3|świętokrzyskie",
+      "id": "nieruchomosci_online_sale:27114992"
     },
     "nieruchomosci_online_sale:27115331": {
       "cena": 1490000,
