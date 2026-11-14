@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 4428,
+            "fetched": 4551,
             "sent_main": 1,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
-            "dropped": 0,
-            "fetched": 3851,
+            "dropped": 1,
+            "fetched": 3958,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 9842,
+      "bad": 9843,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 9842,
+      "bad": 9843,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 6104,
+      "bad": 6105,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 6104,
+      "bad": 6105,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-11-14T07:31:08.714852+00:00",
+  "last_run": "2026-11-14T07:46:00.073997+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -10149,9 +10149,9 @@
       "id": "nieruchomosci_online_sale:26998578"
     },
     "nieruchomosci_online_sale:26998687": {
-      "cena": 1199000,
-      "data_wyslania": "2026-09-27T14:30:59.787077+00:00",
-      "fingerprint": "1199000|94.23|3|wrzeszcz dolny",
+      "cena": 1159000,
+      "data_wyslania": "2026-11-14T07:46:00.073997+00:00",
+      "fingerprint": "1159000|94.23|3|wrzeszcz dolny",
       "id": "nieruchomosci_online_sale:26998687"
     },
     "nieruchomosci_online_sale:26998693": {
