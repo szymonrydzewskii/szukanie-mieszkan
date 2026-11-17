@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 6,
-            "fetched": 8911,
+            "fetched": 9033,
             "sent_main": 1,
-            "sent_near": 0
+            "sent_near": 1
           },
           "nieruchomosci_online_sale": {
-            "dropped": 5,
-            "fetched": 7725,
+            "dropped": 6,
+            "fetched": 7824,
             "sent_main": 0,
             "sent_near": 1
           },
@@ -60,31 +60,31 @@
       "last_error": null
     },
     "olx": {
-      "bad": 10178,
+      "bad": 10179,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 10178,
+      "bad": 10179,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 6440,
+      "bad": 6441,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 6440,
+      "bad": 6441,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
   "high_water": {
-    "nieruchomosci_online": "000027132384",
-    "nieruchomosci_online_sale": "000027131856",
+    "nieruchomosci_online": "000027132468",
+    "nieruchomosci_online_sale": "000027132483",
     "olx": "2026-08-11T14:57:32+02:00",
     "olx_sale": "2026-08-11T14:58:24+02:00",
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-11-17T16:31:21.142965+00:00",
+  "last_run": "2026-11-17T16:46:13.071308+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -5108,6 +5108,12 @@
       "fingerprint": "2300|35|2|grabówek",
       "id": "nieruchomosci_online:27132384"
     },
+    "nieruchomosci_online:27132468": {
+      "cena": 3000,
+      "data_wyslania": "2026-11-17T16:46:13.071308+00:00",
+      "fingerprint": "3000|68|3|śródmieście",
+      "id": "nieruchomosci_online:27132468"
+    },
     "nieruchomosci_online_sale:24469971": {
       "cena": 1200000,
       "data_wyslania": "2026-10-07T11:01:22.379837+00:00",
@@ -8924,12 +8930,6 @@
       "fingerprint": "1270000|106|4|gdańsk",
       "id": "nieruchomosci_online_sale:26979930"
     },
-    "nieruchomosci_online_sale:26980773": {
-      "cena": 1849000,
-      "data_wyslania": "2026-09-18T16:45:46.421664+00:00",
-      "fingerprint": "1849000|79.2|3|śródmieście",
-      "id": "nieruchomosci_online_sale:26980773"
-    },
     "nieruchomosci_online_sale:26980786": {
       "cena": 759000,
       "data_wyslania": "2026-11-01T14:15:51.025774+00:00",
@@ -12541,6 +12541,12 @@
       "data_wyslania": "2026-11-17T14:31:18.122353+00:00",
       "fingerprint": "2400000|83.4|3|świemirowo",
       "id": "nieruchomosci_online_sale:27131856"
+    },
+    "nieruchomosci_online_sale:27132483": {
+      "cena": 1044000,
+      "data_wyslania": "2026-11-17T16:46:13.071308+00:00",
+      "fingerprint": "1044000|56|3|śródmieście",
+      "id": "nieruchomosci_online_sale:27132483"
     }
   },
   "version": 1
