@@ -12,13 +12,13 @@
         "sources": {
           "nieruchomosci_online": {
             "dropped": 2,
-            "fetched": 6027,
+            "fetched": 6150,
             "sent_main": 1,
             "sent_near": 0
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 5387,
+            "fetched": 5497,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -60,19 +60,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 10646,
+      "bad": 10647,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 10646,
+      "bad": 10647,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 6908,
+      "bad": 6909,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 6908,
+      "bad": 6909,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -84,7 +84,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-11-22T10:31:12.006346+00:00",
+  "last_run": "2026-11-22T10:46:03.240595+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -5084,12 +5084,6 @@
       "fingerprint": "385000|17.5|1|witomino",
       "id": "nieruchomosci_online_sale:25530379"
     },
-    "nieruchomosci_online_sale:25700187": {
-      "cena": 2899000,
-      "data_wyslania": "2026-09-23T10:45:45.845001+00:00",
-      "fingerprint": "2899000|84|3|śródmieście",
-      "id": "nieruchomosci_online_sale:25700187"
-    },
     "nieruchomosci_online_sale:25775400": {
       "cena": 650000,
       "data_wyslania": "2026-11-03T15:46:11.809044+00:00",
@@ -5338,7 +5332,7 @@
     },
     "nieruchomosci_online_sale:26156589": {
       "cena": 2399000,
-      "data_wyslania": "2026-09-23T10:45:45.845001+00:00",
+      "data_wyslania": "2026-11-22T10:46:03.240595+00:00",
       "fingerprint": "2399000|56.12|2|śródmieście",
       "id": "nieruchomosci_online_sale:26156589"
     },
@@ -5554,7 +5548,7 @@
     },
     "nieruchomosci_online_sale:26413281": {
       "cena": 2500000,
-      "data_wyslania": "2026-09-23T10:45:45.845001+00:00",
+      "data_wyslania": "2026-11-22T10:46:03.240595+00:00",
       "fingerprint": "2500000|128|6|dolny sopot",
       "id": "nieruchomosci_online_sale:26413281"
     },
@@ -6710,12 +6704,6 @@
       "fingerprint": "1099000|102|3|dolne miasto",
       "id": "nieruchomosci_online_sale:26797207"
     },
-    "nieruchomosci_online_sale:26797247": {
-      "cena": 5500000,
-      "data_wyslania": "2026-09-23T10:45:45.845001+00:00",
-      "fingerprint": "5500000|107.1|5|dolny sopot",
-      "id": "nieruchomosci_online_sale:26797247"
-    },
     "nieruchomosci_online_sale:26798252": {
       "cena": 1389000,
       "data_wyslania": "2026-10-30T12:46:01.361806+00:00",
@@ -6739,12 +6727,6 @@
       "data_wyslania": "2026-10-27T11:31:15.747093+00:00",
       "fingerprint": "2595000|96.77|4|brzeźno",
       "id": "nieruchomosci_online_sale:26799786"
-    },
-    "nieruchomosci_online_sale:26799787": {
-      "cena": 2980000,
-      "data_wyslania": "2026-09-23T10:45:45.845001+00:00",
-      "fingerprint": "2980000|86.7|3|dolny sopot",
-      "id": "nieruchomosci_online_sale:26799787"
     },
     "nieruchomosci_online_sale:26800085": {
       "cena": 3300000,
