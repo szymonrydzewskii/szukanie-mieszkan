@@ -57,14 +57,14 @@
         ],
         "sources": {
           "nieruchomosci_online": {
-            "dropped": 1,
-            "fetched": 2214,
-            "sent_main": 0,
-            "sent_near": 0
+            "dropped": 2,
+            "fetched": 2337,
+            "sent_main": 3,
+            "sent_near": 1
           },
           "nieruchomosci_online_sale": {
             "dropped": 0,
-            "fetched": 1962,
+            "fetched": 2071,
             "sent_main": 0,
             "sent_near": 0
           },
@@ -106,19 +106,19 @@
       "last_error": null
     },
     "olx": {
-      "bad": 10715,
+      "bad": 10716,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 15, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "olx_sale": {
-      "bad": 10715,
+      "bad": 10716,
       "last_error": "OLX: HTTP 403 dla params={'offset': 0, 'limit': 40, 'category_id': 14, 'city_id': 5659, 'sort_by': 'created_at:desc'} (pierwsze 300 znaków: '<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//"
     },
     "trojmiasto": {
-      "bad": 6977,
+      "bad": 6978,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv"
     },
     "trojmiasto_sale": {
-      "bad": 6977,
+      "bad": 6978,
       "last_error": "Trojmiasto: HTTP 403 dla https://ogloszenia.trojmiasto.pl/nieruchomosci-sprzedam-rynek-wtorny/ (pierwsze 300 znaków: '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-"
     }
   },
@@ -130,7 +130,7 @@
     "trojmiasto": "000066533700",
     "trojmiasto_sale": "000066533754"
   },
-  "last_run": "2026-11-23T03:01:29.965614+00:00",
+  "last_run": "2026-11-23T03:16:00.331869+00:00",
   "seen": {
     "nieruchomosci_online:21011809": {
       "cena": 8000,
@@ -342,6 +342,12 @@
       "fingerprint": "3600|45|2|śródmieście",
       "id": "nieruchomosci_online:25700300"
     },
+    "nieruchomosci_online:25805486": {
+      "cena": 2400,
+      "data_wyslania": "2026-11-23T03:16:00.331869+00:00",
+      "fingerprint": "2400|35.5|2|gdynia",
+      "id": "nieruchomosci_online:25805486"
+    },
     "nieruchomosci_online:25940232": {
       "cena": 6200,
       "data_wyslania": "2026-10-30T10:01:21.360707+00:00",
@@ -497,6 +503,12 @@
       "data_wyslania": "2026-11-10T08:45:55.586264+00:00",
       "fingerprint": "2800|59.7|3|ujeścisko",
       "id": "nieruchomosci_online:26678319"
+    },
+    "nieruchomosci_online:26705937": {
+      "cena": 5000,
+      "data_wyslania": "2026-11-23T03:16:00.331869+00:00",
+      "fingerprint": "5000|78|3|orłowo",
+      "id": "nieruchomosci_online:26705937"
     },
     "nieruchomosci_online:26726975": {
       "cena": 2900,
@@ -864,6 +876,12 @@
       "fingerprint": "3500|52|3|przymorze",
       "id": "nieruchomosci_online:26936550"
     },
+    "nieruchomosci_online:26939460": {
+      "cena": 2800,
+      "data_wyslania": "2026-11-23T03:16:00.331869+00:00",
+      "fingerprint": "2800|48|2|orłowo",
+      "id": "nieruchomosci_online:26939460"
+    },
     "nieruchomosci_online:26942398": {
       "cena": 2000,
       "data_wyslania": "2026-11-04T09:01:24.045903+00:00",
@@ -1099,9 +1117,9 @@
       "id": "nieruchomosci_online:26979000"
     },
     "nieruchomosci_online:26979002": {
-      "cena": 2600,
-      "data_wyslania": "2026-11-03T03:15:58.565195+00:00",
-      "fingerprint": "2600|54|2|górny sopot",
+      "cena": 2400,
+      "data_wyslania": "2026-11-23T03:16:00.331869+00:00",
+      "fingerprint": "2400|54|2|górny sopot",
       "id": "nieruchomosci_online:26979002"
     },
     "nieruchomosci_online:26979011": {
@@ -1147,9 +1165,9 @@
       "id": "nieruchomosci_online:26979035"
     },
     "nieruchomosci_online:26979040": {
-      "cena": 2500,
-      "data_wyslania": "2026-10-26T11:45:55.476090+00:00",
-      "fingerprint": "2500|50.3|2|centrum",
+      "cena": 2300,
+      "data_wyslania": "2026-11-23T03:16:00.331869+00:00",
+      "fingerprint": "2300|50.3|2|centrum",
       "id": "nieruchomosci_online:26979040"
     },
     "nieruchomosci_online:26979046": {
@@ -1241,6 +1259,12 @@
       "data_wyslania": "2026-11-16T03:15:56.451379+00:00",
       "fingerprint": "2750|44|2|dolny sopot",
       "id": "nieruchomosci_online:26986602"
+    },
+    "nieruchomosci_online:26987614": {
+      "cena": 4300,
+      "data_wyslania": "2026-11-23T03:16:00.331869+00:00",
+      "fingerprint": "4300|67|2|górny sopot",
+      "id": "nieruchomosci_online:26987614"
     },
     "nieruchomosci_online:26988239": {
       "cena": 3000,
@@ -1345,9 +1369,9 @@
       "id": "nieruchomosci_online:26994777"
     },
     "nieruchomosci_online:26995056": {
-      "cena": 2400,
-      "data_wyslania": "2026-11-01T03:31:08.130767+00:00",
-      "fingerprint": "2400|44|2|wyścigi",
+      "cena": 2200,
+      "data_wyslania": "2026-11-23T03:16:00.331869+00:00",
+      "fingerprint": "2200|44|2|wyścigi",
       "id": "nieruchomosci_online:26995056"
     },
     "nieruchomosci_online:26995190": {
@@ -2647,9 +2671,9 @@
       "id": "nieruchomosci_online:27035334"
     },
     "nieruchomosci_online:27035417": {
-      "cena": 2700,
-      "data_wyslania": "2026-10-12T08:01:26.980693+00:00",
-      "fingerprint": "2700|52|2|karwiny",
+      "cena": 2500,
+      "data_wyslania": "2026-11-23T03:16:00.331869+00:00",
+      "fingerprint": "2500|52|2|karwiny",
       "id": "nieruchomosci_online:27035417"
     },
     "nieruchomosci_online:27035906": {
@@ -3523,9 +3547,9 @@
       "id": "nieruchomosci_online:27069759"
     },
     "nieruchomosci_online:27070288": {
-      "cena": 3250,
-      "data_wyslania": "2026-10-26T13:01:34.860731+00:00",
-      "fingerprint": "3250|46|2|dolny sopot",
+      "cena": 2950,
+      "data_wyslania": "2026-11-23T03:16:00.331869+00:00",
+      "fingerprint": "2950|46|2|dolny sopot",
       "id": "nieruchomosci_online:27070288"
     },
     "nieruchomosci_online:27070424": {
